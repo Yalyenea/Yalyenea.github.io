@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://yfff.me/categories/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/categories/draft/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/tags/draft/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/posts/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/tags/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/posts/10efd1f/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/</loc>
-    <lastmod>2025-04-10T00:01:45+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://yfff.me/collections/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://yfff.me/cn/sitemap.xml</loc>
+    
+      <lastmod>2025-04-26T00:15:20+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://yfff.me/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
