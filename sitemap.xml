@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.yffff.de/about/</loc>
+    <loc>http://localhost:61024/weekly/</loc>
+    <lastmod>2026-03-08T19:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61024/</loc>
+    <lastmod>2026-03-08T19:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61024/weekly/week-2/</loc>
+    <lastmod>2026-03-08T19:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61024/weekly/week-1/</loc>
+    <lastmod>2026-03-01T19:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61024/about/</loc>
     <lastmod>2025-04-26T00:15:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.yffff.de/posts/hello/</loc>
+    <loc>http://localhost:61024/posts/hello/</loc>
     <lastmod>2025-04-26T00:15:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.yffff.de/posts/</loc>
+    <loc>http://localhost:61024/posts/</loc>
     <lastmod>2025-04-26T00:15:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.yffff.de/</loc>
+    <loc>http://localhost:61024/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/</loc>
     <lastmod>2025-04-26T00:15:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.yffff.de/categories/</loc>
+    <loc>http://localhost:61024/categories/</loc>
   </url><url>
-    <loc>https://blog.yffff.de/tags/</loc>
+    <loc>http://localhost:61024/tags/</loc>
   </url>
 </urlset>

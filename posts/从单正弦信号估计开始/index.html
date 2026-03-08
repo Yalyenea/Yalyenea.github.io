@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61024&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.155.3">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="" />
+  <meta property="og:url" content="http://localhost:61024/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" />
+  <link rel="canonical" href="http://localhost:61024/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" /><link rel="alternate" type="application/atom+xml" href="http://localhost:61024/index.xml" title="yffff&#39;s blog" />
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "http:\/\/localhost:61024\/"
+      },
+      "articleSection" : "posts",
+      "name" : "从单正弦信号估计开始",
+      "headline" : "从单正弦信号估计开始",
+      "description" : "问题模型 让我们从单复正弦信号的频率和复幅度估计开始，观察到长度为 $N$ 的数据 $\\left\\{ y(n) \\right\\}_{n=0}^{N-1}$，其满足： $$ y(n) = \\alpha \\mathrm{e}^{\\mathrm{j} \\omega_{0} n} \u002b w(n), \\ n=0,1,\\dots, N-1 $$ 其中 $\\alpha=a\\mathrm{e}^{\\mathrm{j} \\phi}$ 是复幅度，$\\omega_{0}$ 是待估计的角频率(Angular Frequency)，显然，我们需要从 $N$ 个复数数据中估计出三个实数未知量，即 $\\boldsymbol{\\theta} = [a, \\phi, \\omega_{0}]^{\\mathrm{T}}$。一般来说需要满足 $2N \\geq 3$，才能根据 $2N$ 个实数数据求出 $3$ 个未知量。 如果我们只对频率 $\\omega_{0}$ 感兴趣，那么另外两个参数可以称为干扰参数(nuisance parameter)。\n上式写成向量的形式为 $$ \\mathbf{y} = \\alpha \\mathbf{s}(\\omega_{0}) \u002b \\mathbf{w} \\in \\mathbb{C}^{N \\times 1} $$ 其中 $\\mathbf{y} = \\left[ y(0), y(1), \\dots, y(N-1) \\right]^{\\mathrm{T}}$, $\\mathbf{s}(\\omega_{0}) = \\left[ 1, \\mathrm{e}^{\\mathrm{j} \\omega_{0}}, \\dots, \\mathrm{e}^{\\mathrm{j} \\omega_{0} (N-1)} \\right]^{\\mathrm{T}}$, $\\mathbf{w} = \\left[ w(0), w(1), \\dots, w(N-1) \\right]$。通常情况下，我们假设噪声向量服从独立同分布的零均值圆对称复高斯分布，即 $\\mathbf{w} \\sim \\mathcal{CN}(\\mathbf{0}, \\sigma^{2}\\mathbf{I})$ ，其中 $\\sigma^{2}$ 是噪声方差，也等于噪声功率，$\\mathbf{I}$ 是单位矩阵。\n",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2025",
+      "datePublished": "2025-04-26 00:15:20 \u002b0800 CST",
+      "dateModified" : "2025-04-26 00:15:20 \u002b0800 CST",
+      "url" : "http:\/\/localhost:61024\/posts\/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>从单正弦信号估计开始</title>
+  <meta property="og:title" content="从单正弦信号估计开始" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="问题模型 让我们从单复正弦信号的频率和复幅度估计开始，观察到长度为 $N$ 的数据 $\left\{ y(n) \right\}_{n=0}^{N-1}$，其满足： $$ y(n) = \alpha \mathrm{e}^{\mathrm{j} \omega_{0} n} &#43; w(n), \ n=0,1,\dots, N-1 $$ 其中 $\alpha=a\mathrm{e}^{\mathrm{j} \phi}$ 是复幅度，$\omega_{0}$ 是待估计的角频率(Angular Frequency)，显然，我们需要从 $N$ 个复数数据中估计出三个实数未知量，即 $\boldsymbol{\theta} = [a, \phi, \omega_{0}]^{\mathrm{T}}$。一般来说需要满足 $2N \geq 3$，才能根据 $2N$ 个实数数据求出 $3$ 个未知量。 如果我们只对频率 $\omega_{0}$ 感兴趣，那么另外两个参数可以称为干扰参数(nuisance parameter)。
+上式写成向量的形式为 $$ \mathbf{y} = \alpha \mathbf{s}(\omega_{0}) &#43; \mathbf{w} \in \mathbb{C}^{N \times 1} $$ 其中 $\mathbf{y} = \left[ y(0), y(1), \dots, y(N-1) \right]^{\mathrm{T}}$, $\mathbf{s}(\omega_{0}) = \left[ 1, \mathrm{e}^{\mathrm{j} \omega_{0}}, \dots, \mathrm{e}^{\mathrm{j} \omega_{0} (N-1)} \right]^{\mathrm{T}}$, $\mathbf{w} = \left[ w(0), w(1), \dots, w(N-1) \right]$。通常情况下，我们假设噪声向量服从独立同分布的零均值圆对称复高斯分布，即 $\mathbf{w} \sim \mathcal{CN}(\mathbf{0}, \sigma^{2}\mathbf{I})$ ，其中 $\sigma^{2}$ 是噪声方差，也等于噪声功率，$\mathbf{I}$ 是单位矩阵。
+" />
+  <meta name="description" content="问题模型 让我们从单复正弦信号的频率和复幅度估计开始，观察到长度为 $N$ 的数据 $\left\{ y(n) \right\}_{n=0}^{N-1}$，其满足： $$ y(n) = \alpha \mathrm{e}^{\mathrm{j} \omega_{0} n} &#43; w(n), \ n=0,1,\dots, N-1 $$ 其中 $\alpha=a\mathrm{e}^{\mathrm{j} \phi}$ 是复幅度，$\omega_{0}$ 是待估计的角频率(Angular Frequency)，显然，我们需要从 $N$ 个复数数据中估计出三个实数未知量，即 $\boldsymbol{\theta} = [a, \phi, \omega_{0}]^{\mathrm{T}}$。一般来说需要满足 $2N \geq 3$，才能根据 $2N$ 个实数数据求出 $3$ 个未知量。 如果我们只对频率 $\omega_{0}$ 感兴趣，那么另外两个参数可以称为干扰参数(nuisance parameter)。
+上式写成向量的形式为 $$ \mathbf{y} = \alpha \mathbf{s}(\omega_{0}) &#43; \mathbf{w} \in \mathbb{C}^{N \times 1} $$ 其中 $\mathbf{y} = \left[ y(0), y(1), \dots, y(N-1) \right]^{\mathrm{T}}$, $\mathbf{s}(\omega_{0}) = \left[ 1, \mathrm{e}^{\mathrm{j} \omega_{0}}, \dots, \mathrm{e}^{\mathrm{j} \omega_{0} (N-1)} \right]^{\mathrm{T}}$, $\mathbf{w} = \left[ w(0), w(1), \dots, w(N-1) \right]$。通常情况下，我们假设噪声向量服从独立同分布的零均值圆对称复高斯分布，即 $\mathbf{w} \sim \mathcal{CN}(\mathbf{0}, \sigma^{2}\mathbf{I})$ ，其中 $\sigma^{2}$ 是噪声方差，也等于噪声功率，$\mathbf{I}$ 是单位矩阵。
+" />
+  <meta property="og:locale" content="en-us" /><meta property="og:image" content="" />
+  
+  
+  <style>:root{--bg-color:#ffffff;--text-color:#000000;--link-color:#000000;--border-color:#482936;--secondary-text:#666666;--code-bg:#f6f8fa;--blockquote-color:#57606a;--blockquote-border:#d0d7de;--disqus-bg:white}[data-theme=dark]{--bg-color:#1a1a1a;--text-color:#e0e0e0;--link-color:#b0b0b0;--border-color:#8b5a7a;--secondary-text:#aaaaaa;--code-bg:#2d2d2d;--blockquote-color:#a0a0a0;--blockquote-border:#404040;--disqus-bg:#1a1a1a}body{font-family:bree serif,sans-serif;-webkit-font-smoothing:antialiased;margin:0 20px;background-color:var(--bg-color);color:var(--text-color)}article{max-width:800px;margin-left:auto;margin-right:auto}a{color:var(--link-color);text-decoration:none}a:hover{font-weight:600;text-decoration:underline}.post-ads{margin:50px 0}.markdown-body{font-size:18px;max-width:100%}.markdown-body a{text-decoration:underline;text-decoration-color:var(--link-color)}.markdown-body blockquote{margin:0;padding:0 1em;color:var(--blockquote-color);border-left:.25em solid var(--blockquote-border)}.markdown-body pre{padding:16px;overflow:auto;border-radius:10px;background-color:var(--code-bg)}.markdown-body code{padding:.2em .4em;font-size:85%;background-color:var(--code-bg);border-radius:6px}.markdown-body pre>code{padding:0;font-size:100%;background-color:var(--code-bg);border:0}.Chinese .markdown-body{line-height:200%}.site-date-catalog{font-size:2rem}.header-title{font-size:2rem;font-weight:700;margin-top:32px;font-family:cursive,sans-serif}.header-title a{text-decoration:none}.header-subtitle{color:var(--secondary-text)}.header-items{margin:10px 0}.header-item{margin:0 5px}.header-item-left{margin-left:5px;margin-right:auto}.header-line{width:100%;border-width:2px;border-color:var(--border-color);border-style:solid none none none}.lang-switch{font-weight:600}.theme-toggle{background:0 0;border:none;color:var(--link-color);cursor:pointer;font-weight:600;font-size:inherit;padding:0}.theme-toggle:hover{font-weight:800}#posts-list{min-height:600px}.posts-line{font-size:1.2rem;margin:12px 0}.posts-categories{font-size:.8rem;margin:auto;text-align:center}.posts-category{padding:3px 0;border:var(--text-color)2px solid;border-radius:5px}.site-footer{margin-top:50px}.site-footer-item{margin-right:12px}.post-header{margin-bottom:50px}.post-title{font-size:2rem;font-weight:600}.post-tags{display:inline;font-weight:600;padding:2px 5px;margin-right:6px;border:var(--text-color)2px solid;border-radius:5px}.post-date{font-weight:800;font-style:italic}.post-author{float:right;font-weight:600}.page-content{min-height:60%}.post-content{margin-bottom:50px}.post-content p{hyphens:auto;line-height:1.8;text-justify:ideographic;margin-bottom:1em}.post-content img{max-width:100%;display:block;margin-right:auto;margin-top:6px}.post-content .post-gallery{display:flex;flex-wrap:wrap;gap:6px}.post-content .post-gallery img{margin-right:auto;margin-top:auto;width:calc(50% - 3px)}.related-content{border-width:3px;border-style:solid;border-color:var(--text-color);padding:0 10px;margin-bottom:50px;margin-top:100px}.related-content li{margin:5px 0}.taxonomy-term{font-size:3rem}.gallery-img{text-align:center}.gallery-img span{text-align:center}.gallery-img-desc{font-size:.8em;font-weight:800}#disqus_thread{position:relative}#disqus_thread:after{content:"";display:block;height:55px;width:100%;position:absolute;bottom:0;background:var(--disqus-bg)}@media screen and (max-width:600px){.header-title,.header-subtitle,.header-items{}.posts-line{font-size:16px}.markdown-body{font-size:16px}.post-title{font-size:2rem}.post-content p{letter-spacing:.05em}.post-content .post-gallery img{width:100%}}@media screen and (max-width:48em){.posts-category{display:none}}</style>
+  
+  
+  <style>.container,.container-fluid{margin-right:auto;margin-left:auto}.container-fluid{padding-right:2rem;padding-left:2rem}.row{box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 1 auto;flex:initial;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-.5rem;margin-left:-.5rem}.row.reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.col.reverse{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.col-xs,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-offset-0,.col-xs-offset-1,.col-xs-offset-10,.col-xs-offset-11,.col-xs-offset-12,.col-xs-offset-2,.col-xs-offset-3,.col-xs-offset-4,.col-xs-offset-5,.col-xs-offset-6,.col-xs-offset-7,.col-xs-offset-8,.col-xs-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-xs{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-xs-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-xs-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-xs-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-xs-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-xs-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-xs-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-xs-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-xs-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-xs-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-xs-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-xs-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-xs-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-11{margin-left:91.66666667%}.start-xs{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-xs{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-xs{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-xs{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-xs{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-xs{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-xs{-ms-flex-pack:distribute;justify-content:space-around}.between-xs{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-xs{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-xs{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media only screen and (min-width:48em){.container{width:49rem}.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-offset-0,.col-sm-offset-1,.col-sm-offset-10,.col-sm-offset-11,.col-sm-offset-12,.col-sm-offset-2,.col-sm-offset-3,.col-sm-offset-4,.col-sm-offset-5,.col-sm-offset-6,.col-sm-offset-7,.col-sm-offset-8,.col-sm-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-sm{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-sm-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-sm-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-sm-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-sm-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-sm-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-sm-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-sm-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-sm-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-sm-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-sm-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-sm-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-sm-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-11{margin-left:91.66666667%}.start-sm{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-sm{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-sm{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-sm{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-sm{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-sm{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-sm{-ms-flex-pack:distribute;justify-content:space-around}.between-sm{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-sm{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-sm{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:64em){.container{width:65rem}.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-offset-0,.col-md-offset-1,.col-md-offset-10,.col-md-offset-11,.col-md-offset-12,.col-md-offset-2,.col-md-offset-3,.col-md-offset-4,.col-md-offset-5,.col-md-offset-6,.col-md-offset-7,.col-md-offset-8,.col-md-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-md{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-md-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-md-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-md-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-md-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-md-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-md-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-md-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-md-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-md-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-md-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-md-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-md-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-11{margin-left:91.66666667%}.start-md{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-md{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-md{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-md{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-md{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-md{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-md{-ms-flex-pack:distribute;justify-content:space-around}.between-md{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-md{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-md{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media only screen and (min-width:75em){.container{width:76rem}.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-offset-0,.col-lg-offset-1,.col-lg-offset-10,.col-lg-offset-11,.col-lg-offset-12,.col-lg-offset-2,.col-lg-offset-3,.col-lg-offset-4,.col-lg-offset-5,.col-lg-offset-6,.col-lg-offset-7,.col-lg-offset-8,.col-lg-offset-9{box-sizing:border-box;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:none;padding-right:.5rem;padding-left:.5rem}.col-lg{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:0;flex-basis:0;max-width:100%}.col-lg-1{-ms-flex-preferred-size:8.33333333%;flex-basis:8.33333333%;max-width:8.33333333%}.col-lg-2{-ms-flex-preferred-size:16.66666667%;flex-basis:16.66666667%;max-width:16.66666667%}.col-lg-3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.col-lg-4{-ms-flex-preferred-size:33.33333333%;flex-basis:33.33333333%;max-width:33.33333333%}.col-lg-5{-ms-flex-preferred-size:41.66666667%;flex-basis:41.66666667%;max-width:41.66666667%}.col-lg-6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.col-lg-7{-ms-flex-preferred-size:58.33333333%;flex-basis:58.33333333%;max-width:58.33333333%}.col-lg-8{-ms-flex-preferred-size:66.66666667%;flex-basis:66.66666667%;max-width:66.66666667%}.col-lg-9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.col-lg-10{-ms-flex-preferred-size:83.33333333%;flex-basis:83.33333333%;max-width:83.33333333%}.col-lg-11{-ms-flex-preferred-size:91.66666667%;flex-basis:91.66666667%;max-width:91.66666667%}.col-lg-12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-11{margin-left:91.66666667%}.start-lg{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:start}.center-lg{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.end-lg{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}.top-lg{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.middle-lg{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bottom-lg{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.around-lg{-ms-flex-pack:distribute;justify-content:space-around}.between-lg{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.first-lg{-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.last-lg{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}</style>
+  
+  
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="yffff&#39;s blog">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" />
+  
+  
+
+  
+  <script data-cfasync="false">
+    (function () {
+      const themeKey = 'theme';
+      const themes = { light: 'light', dark: 'dark', system: 'system' };
+
+      function getSystemTheme() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      function getStoredTheme() {
+        return localStorage.getItem(themeKey);
+      }
+      function getCurrentTheme() {
+        const stored = getStoredTheme();
+        if (stored && stored !== themes.system) {
+          return stored;
+        }
+        return getSystemTheme();
+      }
+      function setTheme(theme) {
+        const root = document.documentElement;
+        if (theme === themes.system) {
+          theme = getSystemTheme();
+        }
+        if (theme === themes.dark) {
+          root.setAttribute('data-theme', 'dark');
+        } else {
+          root.removeAttribute('data-theme');
+        }
+        updateToggleButton(theme);
+      }
+      function updateToggleButton(theme) {
+        const button = document.getElementById('theme-toggle');
+        if (button) {
+          button.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+      }
+      function ensureButtonUpdated() {
+        updateToggleButton(getCurrentTheme());
+      }
+      function initTheme() {
+        const stored = getStoredTheme();
+        let theme;
+        if (stored) {
+          theme = stored === themes.system ? getSystemTheme() : stored;
+          setTheme(stored);
+        } else {
+          
+          theme = getSystemTheme();
+          setTheme(themes.system);
+        }
+      }
+      function toggleTheme() { 
+        const current = getStoredTheme() || themes.system;
+        let next;
+        if (current === themes.system) {
+          next = getSystemTheme() === 'dark' ? themes.light : themes.dark;
+        } else if (current === themes.dark) {
+          next = themes.light;
+        } else {
+          next = themes.dark;
+        }
+        localStorage.setItem(themeKey, next);
+        setTheme(next);
+      }
+
+      
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+        const stored = getStoredTheme();
+        if (!stored || stored === themes.system) {
+          setTheme(themes.system);
+        }
+      });
+
+      
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', ensureButtonUpdated);
+      } else {
+        
+        ensureButtonUpdated();
+      }
+
+      
+      window.toggleTheme = toggleTheme;
+
+      
+      initTheme();
+    })();
+  </script>
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        tags: 'ams'
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
+      },
+      chtml: {
+        
+        scale: 1.0,
+        matchFontHeight: true
+      },
+      startup: {
+        pageReady: () => {
+          return MathJax.startup.defaultPageReady().then(() => {
+            
+            console.log('MathJax rendering complete');
+          });
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  
+</head>
+
+<body>
+  <article class="post cn" id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="header-title">
+    <a href="/">yffff&#39;s blog</a>
+  </div>
+  <div class="header-subtitle"></div>
+</header>
+<div class="row end-md header-items">
+  <div class="header-item">
+    <a href="/posts/">Posts</a>
+  </div>
+  <div class="header-item">
+    <a href="/weekly/">Weekly</a>
+  </div>
+  <div class="header-item">
+    <a href="https://blog.yffff.de/about/" target="_blank">About</a>
+  </div>
+  <div class="header-item">
+    <a href="/index.xml" target="_blank">RSS</a>
+  </div>
+  
+
+  <div class="header-item">
+    <button id="theme-toggle" onclick="toggleTheme()" class="theme-toggle">
+      🌙
+    </button>
+  </div>
+</div>
+<div class="row">
+   
+</div>
+<div class="header-line"></div>
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">从单正弦信号估计开始</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2025-04-26 00:15:20 CST">
+                26 Apr 2025
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="问题模型">问题模型</h2>
+<p>让我们从单复正弦信号的频率和复幅度估计开始，观察到长度为 $N$ 的数据 $\left\{ y(n) \right\}_{n=0}^{N-1}$，其满足：
+</p>
+$$
+y(n) = \alpha \mathrm{e}^{\mathrm{j} \omega_{0} n} + w(n), \ n=0,1,\dots, N-1
+$$<p>
+其中 $\alpha=a\mathrm{e}^{\mathrm{j} \phi}$ 是复幅度，$\omega_{0}$ 是待估计的角频率(Angular Frequency)，显然，我们需要从 $N$ 个复数数据中估计出三个实数未知量，即 $\boldsymbol{\theta} = [a, \phi, \omega_{0}]^{\mathrm{T}}$。一般来说需要满足 $2N \geq 3$，才能根据 $2N$ 个实数数据求出 $3$ 个未知量。 如果我们只对频率 $\omega_{0}$ 感兴趣，那么另外两个参数可以称为干扰参数(nuisance parameter)。</p>
+<p>上式写成向量的形式为
+</p>
+$$
+\mathbf{y} = \alpha \mathbf{s}(\omega_{0}) + \mathbf{w} \in \mathbb{C}^{N \times 1}
+$$<p>
+其中 $\mathbf{y} = \left[ y(0), y(1), \dots, y(N-1) \right]^{\mathrm{T}}$, $\mathbf{s}(\omega_{0}) = \left[ 1, \mathrm{e}^{\mathrm{j} \omega_{0}}, \dots, \mathrm{e}^{\mathrm{j} \omega_{0} (N-1)} \right]^{\mathrm{T}}$, $\mathbf{w} = \left[ w(0), w(1), \dots, w(N-1) \right]$。通常情况下，我们假设噪声向量服从独立同分布的零均值圆对称复高斯分布，即 $\mathbf{w} \sim \mathcal{CN}(\mathbf{0}, \sigma^{2}\mathbf{I})$ ，其中 $\sigma^{2}$ 是噪声方差，也等于噪声功率，$\mathbf{I}$ 是单位矩阵。</p>
+<h2 id="最大似然估计">最大似然估计</h2>
+<p>考虑确定性对数似然函数，即假设 $\boldsymbol{\theta}$ 是已知的，则 $\alpha \mathbf{s}(\omega_{0})$ 是已知的，又假设噪声均值为零，因此数据 $\mathbf{y}$ 的均值为 $\alpha \mathbf{s}(\omega_{0})$，协方差等于噪声的协方差 $\sigma^{2} \mathbf{I}$，即服从分布 $\mathcal{CN}(\alpha \mathbf{s}(\omega_{0}),\sigma^{2}\mathbf{I})$，因此对数似然函数为：
+</p>
+$$
+\begin{align}
+\mathcal{L}(\mathbf{y}|\boldsymbol{\theta}) &= \log \left[ \frac{1}{(\pi \sigma^{2})^{N}} \exp \left( - \frac{1}{\sigma^{2}} \lVert \mathbf{y} - \alpha \mathbf{s}(\omega_{0}) \rVert_{2}^{2} \right)  \right] \\
+&= -N\log(\pi \sigma^{2}) - \frac{1}{\sigma^{2}} \lVert \mathbf{y} - \alpha \mathbf{s}(\omega_{0}) \rVert_{2}^{2}
+\end{align}
+$$<p>
+那么最大似然估计等价于以下最小化问题
+</p>
+$$
+\min_{\boldsymbol{\theta}} \; \lVert \mathbf{y} - \alpha \mathbf{s}(\omega_{0}) \rVert_{2}^{2}
+$$<p>
+显然该问题是一个非线性最小二乘(Nonlinear Least Squares, NLS)问题，但关于 $\alpha$ 是一个线性最小二乘问题，令 $f(\boldsymbol{\theta})=\lVert \mathbf{y} - \alpha \mathbf{s}(\omega_{0}) \rVert_{2}^{2}$，则
+</p>
+$$
+\frac{ \partial f(\boldsymbol{\theta}) }{ \partial \alpha^{*} } = -\mathbf{s}^{\mathrm{H}}(\omega_{0})\left[ \mathbf{y}-\alpha \mathbf{s}(\omega_{0}) \right]
+$$<p>
+令$\frac{ \partial f(\boldsymbol{\theta}) }{ \partial \alpha^{*} } = -\mathbf{s}^{\mathrm{H}}(\omega_{0})\left[ \mathbf{y}-\alpha \mathbf{s}(\omega_{0}) \right]=0$，得到 $\hat{\alpha} = \frac{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{y}}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0})}=\frac{1}{N}\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{y}$，那么当$f(\boldsymbol{\theta})$最小时，$\alpha = \frac{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{y}}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0})}$，将其代入原问题，得到误差向量为
+</p>
+$$
+\mathbf{e} = \mathbf{y} - \frac{\mathbf{s}(\omega_{0})\mathbf{s}^{\mathrm{H}}(\omega_{0})}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0})}\mathbf{y} = \left( \mathbf{I} - \mathbf{P} \right) \mathbf{y}
+$$<p>
+其中 $\mathbf{P}=\mathbf{s}(\omega_{0})\left[ \mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0}) \right]^{-1}\mathbf{s}^{\mathrm{H}}(\omega_{0})$ 是到 $\mathbf{s}(\omega_{0})$ 张成的列空间上的正交投影矩阵，满足 $\mathbf{P}^{\mathrm{H}}=\mathbf{P}$，显然 $\mathbf{P}^{2}=\mathbf{P}$，是一个幂等矩阵。同样 $(\mathbf{I}-\mathbf{P})^{2}=\mathbf{I}-2\mathbf{P}+\mathbf{P}^{2}=\mathbf{I}-\mathbf{P}$。因此 $\lVert \mathbf{e} \rVert_{2}^{2}=\mathbf{e}^{\mathrm{H}}\mathbf{e}=\mathbf{y}^{\mathrm{H}}(\mathbf{I}-\mathbf{P}^{\mathrm{H}})(\mathbf{I}-\mathbf{P})\mathbf{y}=\mathbf{y}^{\mathrm{H}}(\mathbf{I}-\mathbf{P})\mathbf{y}=\mathbf{y}^{\mathrm{H}}\mathbf{y}-\mathbf{y}^{\mathrm{H}}\mathbf{P}\mathbf{y}$，第一项 $\mathbf{y}^{\mathrm{H}}\mathbf{y}$ 是一个常数，则上述优化问题等价于最大化 $\mathbf{y}^{\mathrm{H}}\mathbf{P}\mathbf{y} = \frac{\mathbf{y}^{\mathrm{H}}\mathbf{s}(\omega_{0})\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{y}}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0})} = \frac{\lvert \mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{y} \rvert^{2}}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{s}(\omega_{0})}$，很显然，分母为标量，只需要最大化 $\mathbf{s}(\omega_{0})$ 与 $\mathbf{y}$ 的内积，因此等价于离散傅里叶变换，这种方法也被称为周期图(Periodogram)法。解决该优化问题最简单的方法就是将 $\omega_{0}$ 的取值范围 $[-\pi, \pi]$ 或 $[0, 2\pi]$ 划分为较密的网格，找到取最大值时对应的 $\omega_{0}$ 即为估计值。寻找该最大值的过程可以采用 FFT 算法快速实现，一般来说 FFT 点数为 $\mathbf{y}$ 的长度 $N$，当 $N$ 较小时，分辨率较低，从而会产生离网格(Off-Grid)误差，大致可以通过以下几种方法解决：</p>
+<ol>
+<li>对数据 $\mathbf{y}$ 进行补零，等价于对频域进行插值，获得较细的网格，可以借助 FFT 快速实现，但是并不会有很高的精度</li>
+<li>在初步估计值附近取较细的网格，计算最大值，同样受限于网格的大小，且不能用 FFT 实现</li>
+<li>取初步估计值附近的几个点，进行插值，显然插值后会更接近最大值</li>
+<li>采用梯度上升法或者牛顿法进行迭代微调，该方法精度高，采用牛顿法收敛速度较快，但需要计算一阶和二阶导数，实际中也可以用数值微分代替直接公式求解</li>
+</ol>
+<p>不同于以上的确定性似然函数，我们还可以考虑随机性对数似然函数
+</p>
+$$
+\mathcal{L}(\mathbf{y}) = \frac{1}{\pi^{N} \det(\mathbf{C})} \exp \left\{ -\left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right] ^{\mathrm{H}} \mathbf{C}^{-1} \left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right] \right\}
+$$<p>
+通常情况下，我们假设 $\mathbf{y}$ 的均值为零，不过即使不为零，我们也可以通过对数据减去均值的操作使得数据的均值为零。</p>
+<h2 id="最佳线性无偏估计--最小均方误差估计">最佳线性无偏估计 / 最小均方误差估计</h2>
+<p>回到模型 $\mathbf{y} = \alpha \mathbf{s}(\omega_{0}) + \mathbf{w}$，显然 $\mathbf{y}$ 对 $\alpha$ 是线性的，那么是否存在一种最佳线性无偏估计量(Best Linear Unbiased Estimator, BLUE)呢？
+设加权系数为 $\mathbf{h} \in \mathbb{C}^{N \times 1}$，那么 $\hat{\alpha}=\mathbf{h}^{\mathrm{H}}\mathbf{y}$。根据无偏性，有：
+</p>
+$$
+\mathbb{E}(\hat{\alpha}) = \mathbb{E}(\mathbf{h}^{\mathrm{H}}\mathbf{y}) = \mathbb{E}(\alpha \mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0})+\mathbf{h}^{\mathrm{H}}\mathbf{w}) = \mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0})\mathbb{E}(\alpha)+\mathbf{h}^{\mathrm{H}}\mathbb{E}(\mathbf{w}) = \mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0}) \alpha
+$$<p>
+令 $\mathbb{E}(\hat{\alpha})=\alpha$，有 $\mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0})=1$。根据最小方差准则，有：
+</p>
+$$
+\begin{align}
+\operatorname{Var}(\hat{\alpha}) &= \mathbb{E}\left\{ \left| \mathbf{h}^{\mathrm{H}}\mathbf{y} - \mathbf{h}^{\mathrm{H}}\mathbb{E}(\mathbf{y}) \right|  ^{2} \right\} \\
+&= \mathbb{E}\left\{ \mathbf{h}^{\mathrm{H}} \left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right] \left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right]^{\mathrm{H}} \mathbf{h} \right\} \\
+&= \mathbf{h}^{\mathrm{H}} \mathbf{C}_{\mathbf{y}\mathbf{y}} \mathbf{h}
+\end{align}
+$$<p>
+其中 $\mathbf{C}_{\mathbf{y}\mathbf{y}}=\mathbb{E}\left\{ \left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right] \left[ \mathbf{y} - \mathbb{E}(\mathbf{y}) \right]^{\mathrm{H}} \right\}$ 称为协方差矩阵。因此最终有以下优化问题：
+</p>
+$$
+\begin{array}{rl}
+\min & \mathbf{h}^{\mathrm{H}} \mathbf{C}_{\mathbf{y}\mathbf{y}} \mathbf{h} \\
+\text{s.t.} & \mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0})=1
+\end{array}
+$$<p>
+该问题的意义是：在保持无失真的情况下，最小化方差，均值为 $0$ 的情况下方差等于功率，该方法在 DoA 估计或 Beamforming 中通常称为最小方差无失真响应(Minimum Variance Distortionless Response, MVDR) 或者 Capon(人名) 。此问题的优化目标是二次函数，约束为线性方差，是一个凸优化问题，可以直接应用拉格朗日乘子法解决，令
+</p>
+$$
+L(\mathbf{h}, \lambda) = \mathbf{h}^{\mathrm{H}} \mathbf{C}_{\mathbf{y}\mathbf{y}} \mathbf{h} + \lambda \left[ 1 - \mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0}) \right] 
+$$<p>
+则 $\frac{ \partial L }{ \partial \mathbf{h}^{*} } = \mathbf{C}_{\mathbf{y}\mathbf{y}}\mathbf{h}-\lambda \mathbf{s}(\omega_{0})$，$\frac{ \partial L }{ \partial \lambda }=1-\mathbf{h}^{\mathrm{H}}\mathbf{s}(\omega_{0})$，令两式等于 $0$，得到
+</p>
+$$
+\mathbf{h}_{\text{opt}} = \frac{\mathbf{C}_{\mathbf{y}\mathbf{y}}^{-1}\mathbf{s}(\omega_{0})}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{C}_{\mathbf{y}\mathbf{y}}^{-1}\mathbf{s}(\omega_{0})}, \quad \hat{\alpha} = \frac{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{C}_{\mathbf{y}\mathbf{y}}^{-1}\mathbf{y}}{\mathbf{s}^{\mathrm{H}}(\omega_{0})\mathbf{C}_{\mathbf{y}\mathbf{y}}^{-1}\mathbf{s}(\omega_{0})} 
+$$<p>
+综上，我们根据无偏和最小方差准则得到了最佳线性无偏估计，也等价于线性最小均方误差准则，因为估计量无偏时均方误差等于方差。因为上述优化问题假设 $\omega_{0}$ 已知，类似于最大似然估计中的方法，需要遍历不同的 $\omega_{0}$ 进行网格搜索，最后选择$\left| \hat{\alpha} \right|^{2}$最大的作为最终估计。</p>
+<h2 id="fisher-信息矩阵和-crb">Fisher 信息矩阵和 CRB</h2>
+<p>Fisher 信息矩阵为
+</p>
+$$
+\left[ \mathbf{I}(\boldsymbol{\theta}) \right]_{3 \times 3}  = \mathbb{E}\left\{\left( \frac{ \partial \mathcal{L} }{ \partial \boldsymbol{\theta} }  \right) \left( \frac{ \partial \mathcal{L} }{ \partial \boldsymbol{\theta} }  \right)^{\mathrm{H}} \right\} =
+\begin{bmatrix}
+I_{a a} & I_{a \phi} & I_{a \omega_{0}} \\
+I_{\phi a} & I_{\phi \phi} & I_{\phi \omega_{0}} \\
+I_{\omega_{0} a} & I_{\omega_{0} \phi} & I_{\omega_{0} \omega_{0}}
+\end{bmatrix}
+$$<p>
+显然该矩阵是一个 Hermitian(共轭对称)矩阵。令 $\boldsymbol{\mu}(\boldsymbol{\theta})=\alpha \mathbf{s}(\omega_{0})$，根据 Slepian‑Bangs 公式，有：
+</p>
+$$
+I_{ij} = 2 \Re \left\{ \frac{ \partial \boldsymbol{\mu}^{\mathrm{H}}(\boldsymbol{\theta})  }{ \partial \theta_{i} } \frac{1}{\sigma^{2}} \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \theta_{j} } \right\} = \frac{2}{\sigma^{2}} \Re \left\{ \frac{ \partial \boldsymbol{\mu}^{\mathrm{H}}(\boldsymbol{\theta})  }{ \partial \theta_{i} }  \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \theta_{j} }   \right\}
+$$<p>
+其中 $\Re\left\{ \cdot \right\}$ 表示取复数的实部。继续求出偏导数如下：
+</p>
+$$
+\begin{align}
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial a } &= \mathrm{e}^{j \phi}\mathbf{s}(\omega_{0}) & \frac{ \partial \boldsymbol{\mu}^{\mathrm{H}}(\boldsymbol{\theta}) }{ \partial a } &= \left[ \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial a } \right]^{\mathrm{H}}   \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \phi } &= ja\mathrm{e}^{j \phi}\mathbf{s}(\omega_{0}) &\frac{ \partial \boldsymbol{\mu}^{\mathrm{H}}(\boldsymbol{\theta}) }{ \partial \phi } &= \left[ \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial a } \right]^{\mathrm{H}} \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \omega_{0} } &= ja\mathrm{e}^{j \phi} (0, 1, \dots, N-1)^{\mathrm{T}} \circ \mathbf{s}(\omega_{0}) & \frac{ \partial \boldsymbol{\mu}^{\mathrm{H}}(\boldsymbol{\theta}) }{ \partial \omega_{0} } &= \left[ \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial a } \right]^{\mathrm{H}}
+\end{align}
+$$<p>
+结合上式，以及 $\sum_{n=0}^{N-1}n=\frac{N(N-1)}{2},\sum_{n=0}^{N-1}n^{2}=\frac{N(N-1)(2N-1)}{6}$，可以得到
+</p>
+$$
+\mathbf{I}(\boldsymbol{\theta}) = \frac{2}{\sigma^{2}}
+\begin{bmatrix}
+N & 0 & 0 \\ 0 & N a^{2} & a^{2} \sum_{n=0}^{N-1} n \\ 0 & a^{2} \sum_{n=0}^{N-1} n & a^{2} \sum_{n=0}^{N-1}n^{2}
+\end{bmatrix} =
+\begin{bmatrix}
+N & 0 & 0 \\ 0 & N a^{2} & \frac{N(N-1) a^{2}}{2} \\ 0 & \frac{N(N-1) a^{2}}{2} & \frac{N(N-1)(2N-1)a^{2}}{6}
+\end{bmatrix}
+$$<p>
+根据块对角矩阵的逆$\begin{bmatrix}\mathbf{A} & \mathbf{0} \\ \mathbf{0} & \mathbf{B}\end{bmatrix}^{-1} = \begin{bmatrix}\mathbf{A}^{-1} & \mathbf{0} \\ \mathbf{0} & \mathbf{B}^{-1}\end{bmatrix}$ 以及 $\begin{bmatrix}a & b \\ c & d\end{bmatrix}^{-1}=\frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$，求得 Fisher 信息矩阵的逆为(利用 sympy 通过符号计算出矩阵逆的程序见附录)：
+</p>
+$$
+\mathbf{I}^{-1}(\boldsymbol{\theta}) = 
+\begin{bmatrix}
+\frac{\sigma^{2}}{2N} & 0 & 0 \\
+0 & \frac{(2N-1)\sigma^{2}}{N(N+1)a^{2}} & -\frac{3\sigma^{2}}{N(N+1)a^{2}} \\
+0 & -\frac{3\sigma^{2}}{N(N+1)a^{2}} & \frac{6\sigma^{2}}{N(N^{2}-1)a^{2}}
+\end{bmatrix}
+$$<p>
+从而可以得到无偏估计的 Cramér-Rao Bound(CRB) 为 $\text{CRB}(\boldsymbol{\theta})=\mathbf{I}^{-1}(\boldsymbol{\theta})$，是估计量方差的下界。</p>
+<h2 id="扩展至多正弦信号">扩展至多正弦信号</h2>
+$$
+y(n) = \sum_{k=1}^{K} a_{k} \mathrm{e}^{\mathrm{j}(\omega_{k} n + \phi_{k})} + w(n), \quad n = 0, 1, \dots, N-1
+$$<p>
+</p>
+$$
+\begin{bmatrix}
+y(0) \\
+y(1) \\
+\vdots \\
+y(N-1)
+\end{bmatrix} = 
+\begin{bmatrix}
+1 & 1 & \cdots & 1 \\
+\mathrm{e}^{j \omega_{1}} & \mathrm{e}^{j \omega_{2}} & \cdots & \mathrm{e}^{j \omega_{K}} \\
+\vdots & \vdots & \ddots & \vdots \\
+\mathrm{e}^{j (N-1) \omega_{1}} & \mathrm{e}^{j (N-1) \omega_{2}} & \cdots & \mathrm{e}^{j (N-1) \omega_{K}}
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_{1} \\ \alpha_{2} \\ \vdots \\ \alpha_{K}
+\end{bmatrix} +
+\begin{bmatrix}
+w(0) \\ w(1) \\ \vdots \\ w(N-1)
+\end{bmatrix}
+$$<ul>
+<li>$\alpha_{k} = a_{k}\mathrm{e}^{j \phi_{k}}$</li>
+<li>$\mathbf{S}(\boldsymbol{\omega}) = \begin{bmatrix}1 & 1 & \cdots & 1 \\ \mathrm{e}^{j \omega_{1}} & \mathrm{e}^{j \omega_{2}} & \cdots & \mathrm{e}^{j \omega_{K}} \\ \vdots & \vdots & \ddots & \vdots \\ \mathrm{e}^{j (N-1) \omega_{1}} & \mathrm{e}^{j (N-1) \omega_{2}} & \cdots & \mathrm{e}^{j(N-1) \omega_{K}}\end{bmatrix}$
+$$
+\mathbf{y} = \mathbf{S}(\boldsymbol{\omega}) \boldsymbol{\alpha} + \mathbf{w}
+$$</li>
+</ul>
+<p>参数向量 $\boldsymbol{\theta}$ 是广义的，包含所有待估参数：幅度 $\{a_k\}$、相位 $\{\phi_k\}$、频率 $\{\omega_k\}$。</p>
+<p>在复高斯白噪声 $\mathbf{w} \sim \mathcal{CN}(0, \sigma^2\mathbf{I})$ 的假设下，观测向量 $\mathbf{y}$ 的似然函数为：
+</p>
+$$
+\begin{align}
+\mathcal{L}(\mathbf{y}|\boldsymbol{\theta}) &= \log \left[ \frac{1}{(\pi \sigma^{2})^{N}} \exp \left( - \frac{1}{\sigma^{2}} \lVert \mathbf{y} -  \mathbf{S}(\boldsymbol{\omega})\boldsymbol{\alpha} \rVert_{2}^{2} \right)  \right] \\
+&= -N\log(\pi \sigma^{2}) - \frac{1}{\sigma^{2}} \lVert \mathbf{y} - \mathbf{S}(\boldsymbol{\omega})\boldsymbol{\alpha} \rVert_{2}^{2}
+\end{align}
+$$<p>考虑待估计参数向量 $\boldsymbol{\theta}=[\boldsymbol{\omega}^{\mathrm{T}}, \mathbf{a}^{\mathrm{T}},\boldsymbol{\phi}^{\mathrm{T}}]^{\mathrm{T}}$，其中 $\boldsymbol{\omega}=[\omega_{1},\omega_{2},\dots \omega_{K}]^{\mathrm{T}}, \mathbf{a}=[a_{1},a_{2},\dots,a_{K}]^{\mathrm{T}}, \boldsymbol{\phi}=[\phi_{1},\phi_{2},\dots,\phi_{K}]^{\mathrm{T}}$，以上定义基于习惯都是列向量，当然如果写成行向量的形式会更加简洁。</p>
+<p>在复高斯观测模型下，可以证明（通过Slepian-Bangs公式）：
+</p>
+$$
+I_{pq} = \frac{2}{\sigma^2} \Re \left\{ \left( \frac{\partial \mu}{\partial \theta_p} \right)^H \frac{\partial \mu}{\partial \theta_q} \right\}
+$$<p>
+其中 $\boldsymbol{\mu} = \mathbf{S}\boldsymbol{\alpha}$。
+</p>
+$$
+\mathbf{I} = \frac{2}{\sigma^{2}} \Re\left\{ \frac{\partial\boldsymbol{\mu}^{\mathrm{H}}}{\partial \boldsymbol{\theta}} \frac{\partial \boldsymbol{\mu}}{\partial \boldsymbol{\theta}^{\mathrm{T}}} \right\} 
+$$<ul>
+<li>对幅度 $a_k$: $\frac{\partial \boldsymbol{\mu}}{\partial a_k} = e^{j\phi_k} \mathbf{s}(\omega_k)$, $\quad \frac{\partial \boldsymbol{\mu}^{\mathrm{H}}}{\partial a_k} = e^{-j\phi_k} \mathbf{s}^H(\omega_k)$</li>
+<li>对相位 $\phi_k$: $\frac{\partial \boldsymbol{\mu}}{\partial \phi_k} = j a_k e^{j\phi_k} \mathbf{s}(\omega_k) = j \alpha_k \mathbf{s}(\omega_k)$, $\quad \frac{\partial \boldsymbol{\mu}^{\mathrm{H}}}{\partial \phi_k} = -j \alpha_k^* \mathbf{s}^H(\omega_k)$</li>
+<li>对频率 $\omega_k$: $\frac{\partial \boldsymbol{\mu}}{\partial \omega_k} = \alpha_k \dot{\mathbf{s}}(\omega_k)$, $\quad \frac{\partial \boldsymbol{\mu}^{\mathrm{H}}}{\partial \omega_k} = \alpha_k^* \dot{\mathbf{s}}^H(\omega_k)$,
+其中 $\dot{\mathbf{s}}(\omega_k) = \frac{\partial \mathbf{s}(\omega_k)}{\partial \omega_k} = [0, j e^{j\omega_k}, \dots, j(N-1)e^{j(N-1)\omega_k}]^T$。</li>
+</ul>
+<p>将这些偏导数写成矩阵形式更紧凑。定义：</p>
+<ul>
+<li>$\mathbf{S} = [\mathbf{s}(\omega_1), \dots, \mathbf{s}(\omega_K)]$ （$N \times K$）</li>
+<li>$\dot{\mathbf{S}} = [\dot{\mathbf{s}}(\omega_1), \dots, \dot{\mathbf{s}}(\omega_K)]$ （$N \times K$）</li>
+<li>$\dot{\mathbf{S}}=\mathrm{j}\operatorname{diag}([0,1,..,N-1])\mathbf{S}=\mathrm{j}\mathbf{D}_{N}\mathbf{S}$</li>
+<li>$\mathbf{D}_{\phi} = \operatorname{diag}([e^{j\phi_1}, \dots, e^{j\phi_K}])$ （$K \times K$）</li>
+<li>$\mathbf{D}_\alpha = \operatorname{diag}([\alpha_1, \dots, \alpha_K])$ （$K \times K$）</li>
+</ul>
+<p>则偏导数矩阵为：
+</p>
+$$
+\frac{\partial \boldsymbol{\mu}}{\partial \boldsymbol{\omega}^T} = \dot{\mathbf{S}} \mathbf{D}_\alpha, \quad \frac{\partial \boldsymbol{\mu}}{\partial \mathbf{a}^T} = \mathbf{S} \mathbf{D}_{\phi}, \quad \frac{\partial \boldsymbol{\mu}}{\partial \boldsymbol{\phi}^T} = \mathrm{j}\mathbf{S} \mathbf{D}_\alpha
+$$<p>考虑待估计参数向量 $\boldsymbol{\theta}=\left[ \boldsymbol{\omega}^{\mathrm{T}}, (\boldsymbol{\alpha}^{x})^{\mathrm{T}},(\boldsymbol{\alpha}^{x})^{\mathrm{T}} \right]^{\mathrm{T}}$，
+</p>
+$$
+\frac{ \partial \boldsymbol{\mu} }{ \partial \boldsymbol{\omega}^{\mathrm{T}} } = \dot{\mathbf{S}}\mathbf{D}_{\alpha}, \quad \frac{ \partial \boldsymbol{\mu} }{ \partial (\boldsymbol{\alpha}^{x})^{\mathrm{T}} } = \mathbf{S}, \quad \frac{ \partial \boldsymbol{\mu} }{ \partial (\boldsymbol{\alpha}^{y})^{\mathrm{T}} } = \mathrm{j}\mathbf{S}
+$$<p>
+记 $\dot{\mathbf{S}}_{\alpha}=\dot{\mathbf{S}}\mathbf{D}_{\alpha}$，则
+</p>
+$$
+\dot{\boldsymbol{\mu}} = \frac{ \partial \boldsymbol{\mu} }{ \partial \boldsymbol{\theta}^{\mathrm{T}} } = \begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} & \mathbf{S} & \mathrm{j}\mathbf{S}
+\end{bmatrix}
+$$<p>
+</p>
+$$
+\mathbf{I} = \frac{2}{\sigma^{2}}\Re(\dot{\boldsymbol{\mu}}^{\mathrm{H}} \dot{\boldsymbol{\mu}}) = \frac{2}{\sigma^{2}}\Re \left\{ 
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \\ \mathbf{S}^{\mathrm{H}} \\ -\mathrm{j}\mathbf{S}^{\mathrm{H}}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} & \mathbf{S} & \mathrm{j}\mathbf{S}
+\end{bmatrix}
+\right\} 
+$$<p>
+令 $\mathbf{F}=\begin{bmatrix}\mathbf{I} & \mathbf{0} & \mathbf{0} \\ \mathbf{X} & \mathbf{I} & \mathbf{0} \\ \mathbf{Y} & \mathbf{0} & \mathbf{I}\end{bmatrix}$，暂且假设该矩阵是实矩阵，且 $\mathbf{Z}=\mathbf{X}+\mathrm{j}\mathbf{Y}$，则
+</p>
+$$
+\dot{\boldsymbol{\mu}} \mathbf{F} = 
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} & \mathbf{S} & \mathrm{j}\mathbf{S}
+\end{bmatrix}
+\begin{bmatrix}\mathbf{I} & \mathbf{0} & \mathbf{0} \\ \mathbf{X} & \mathbf{I} & \mathbf{0} \\ \mathbf{Y} & \mathbf{0} & \mathbf{I}\end{bmatrix} = 
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} + \mathbf{S}\mathbf{X} + \mathrm{j}\mathbf{S}\mathbf{Y} & \mathbf{S} & \mathrm{j}\mathbf{S} 
+\end{bmatrix} =
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} + \mathbf{S}\mathbf{Z} & \mathbf{S} & \mathrm{j}\mathbf{S} 
+\end{bmatrix}
+$$<p>
+那么
+</p>
+$$
+\begin{align}
+\mathbf{F}^{\mathrm{H}}\mathbf{I}\mathbf{F} &= \frac{2}{\sigma^{2}}\mathbf{F}^{\mathrm{H}} \Re\left( \dot{\boldsymbol{\mu}}^{\mathrm{H}} \dot{\boldsymbol{\mu}} \right) \mathbf{F} 
+= \frac{2}{\sigma^{2}} \Re\left[ \left( \dot{\boldsymbol{\mu}} \mathbf{F} \right)^{\mathrm{H}}  \dot{\boldsymbol{\mu}} \mathbf{F} \right] \\
+&= \frac{2}{\sigma^{2}} \Re\left\{ 
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} + \mathbf{Z}^{\mathrm{H}}\mathbf{S}^{\mathrm{H}} \\ \mathbf{S}^{\mathrm{H}} \\ -\mathrm{j}\mathbf{S}^{\mathrm{H}}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha} + \mathbf{S}\mathbf{Z} & \mathbf{S} & \mathrm{j}\mathbf{S} 
+\end{bmatrix}
+\right\} 
+\end{align}
+$$<p>
+又因为
+</p>
+$$
+\mathbf{I}^{-1} = \mathbf{F}\mathbf{F}^{-1}\mathbf{I}^{-1}(\mathbf{F}^{\mathrm{H}})^{-1}\mathbf{F}^{\mathrm{H}} = \mathbf{F}\left( \mathbf{F}^{\mathrm{H}} \mathbf{I} \mathbf{F} \right)^{-1} \mathbf{F}^{\mathrm{H}}
+$$<p>
+所以想要求出矩阵的逆，最好上式中的 $\mathbf{F}^{\mathrm{H}} \mathbf{I} \mathbf{F}$ 是分块对角矩阵，即不在对角线上的矩阵都是 $\mathbf{0}$，那么有
+</p>
+$$
+\mathbf{S}^{\mathrm{H}}(\dot{\mathbf{S}}_{\alpha} + \mathbf{S}\mathbf{Z}) = \mathbf{0}
+$$<p>
+可以得到
+</p>
+$$
+\begin{align}
+\mathbf{Z} &= -(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \dot{\mathbf{S}}_{\alpha} \\
+\dot{\mathbf{S}}_{\alpha} + \mathbf{S}\mathbf{Z} &= \left[ \mathbf{I} - \mathbf{S}(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \right] \dot{\mathbf{S}}_{\alpha} = \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha}
+\end{align}
+$$<p>
+其中 $\mathbf{P}_{\perp} = \mathbf{I} - \mathbf{S}(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}}$ 是投影到矩阵 $\mathbf{S}$ 列空间的正交补空间上的投影矩阵，满足 $\mathbf{P}_{\perp} = \mathbf{P}_{\perp}^{2} = \mathbf{P}_{\perp}^{\mathrm{H}}$，既是幂等矩阵又是共轭对称矩阵。将其代入 $\mathbf{F}^{\mathrm{H}}\mathbf{I}\mathbf{F}$，有
+</p>
+$$
+\mathbf{F}^{\mathrm{H}}\mathbf{I}\mathbf{F} = 
+\frac{2}{\sigma^{2}}\Re\left\{ \begin{bmatrix}
+\dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha} & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \mathbf{S}^{\mathrm{H}}\mathbf{S} & \mathrm{j}\mathbf{S}^{\mathrm{H}}\mathbf{S} \\
+\mathbf{0} & -\mathrm{j}\mathbf{S}^{\mathrm{H}}\mathbf{S} & \mathbf{S}^{\mathrm{H}}\mathbf{S} 
+\end{bmatrix} \right\} =
+\frac{2}{\sigma^{2}} \begin{bmatrix}
+\Re\left( \dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha} \right) & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \Re(\mathbf{S}^{\mathrm{H}}\mathbf{S}) & -\Im(\mathbf{S}^{\mathrm{H}}\mathbf{S}) \\
+\mathbf{0} & \Im(\mathbf{S}^{\mathrm{H}}\mathbf{S}) & \Re(\mathbf{S}^{\mathrm{H}}\mathbf{S})
+\end{bmatrix}
+$$<p>
+令 $\mathbf{Q}=\left( \mathbf{S}^{\mathrm{H}}\mathbf{S} \right)^{-1}$，根据块对角矩阵的逆以及复数分块矩阵的逆(见附录)，
+</p>
+$$
+\left( \mathbf{F}^{\mathrm{H}}\mathbf{I}\mathbf{F} \right)^{-1} = \frac{\sigma^{2}}{2}
+\begin{bmatrix}
+\left[ \Re\left( \dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha} \right) \right]^{-1} & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \Re(\mathbf{Q}) & -\Im(\mathbf{Q}) \\
+\mathbf{0} & \Im(\mathbf{Q}) & \Re(\mathbf{Q})
+\end{bmatrix}
+$$<p>
+令 $\mathbf{C}=\left[ \Re\left( \dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha} \right) \right]^{-1}$，所以
+</p>
+$$
+\begin{align}
+\mathbf{I}^{-1} &= \mathbf{F}\left( \mathbf{F}^{\mathrm{H}} \mathbf{I} \mathbf{F} \right)^{-1} \mathbf{F}^{\mathrm{H}} \\
+&= \frac{\sigma^{2}}{2}\begin{bmatrix}\mathbf{I} & \mathbf{0} & \mathbf{0} \\ \mathbf{X} & \mathbf{I} & \mathbf{0} \\ \mathbf{Y} & \mathbf{0} & \mathbf{I}\end{bmatrix}
+\begin{bmatrix}
+\mathbf{C} & \mathbf{0} & \mathbf{0} \\
+\mathbf{0} & \Re(\mathbf{Q}) & -\Im(\mathbf{Q}) \\
+\mathbf{0} & \Im(\mathbf{Q}) & \Re(\mathbf{Q}) 
+\end{bmatrix}
+\begin{bmatrix}\mathbf{I} & \mathbf{X}^{\mathrm{T}} & \mathbf{Y}^{\mathrm{T}} \\ \mathbf{0} & \mathbf{I} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} & \mathbf{I}\end{bmatrix} \\
+&= 
+\frac{\sigma^{2}}{2}\begin{bmatrix}
+\mathbf{C} & \mathbf{0} & \mathbf{0} \\
+\mathbf{X}\mathbf{C}  & \Re(\mathbf{Q}) & -\Im(\mathbf{Q}) \\
+\mathbf{Y}\mathbf{C} & \Im(\mathbf{Q}) & \Re(\mathbf{Q}) 
+\end{bmatrix}
+\begin{bmatrix}\mathbf{I} & \mathbf{X}^{\mathrm{T}} & \mathbf{Y}^{\mathrm{T}} \\ \mathbf{0} & \mathbf{I} & \mathbf{0} \\ \mathbf{0} & \mathbf{0} & \mathbf{I}\end{bmatrix}
+\end{align}
+$$<p>最终得到的 Fisher 信息矩阵的逆（即 CRB 矩阵）为：
+</p>
+$$
+\mathbf{I}^{-1} = \frac{\sigma^{2}}{2}
+\begin{bmatrix}
+\mathbf{C} & \mathbf{C}\mathbf{X}^{\mathrm{T}} & \mathbf{C}\mathbf{Y}^{\mathrm{T}} \\
+\mathbf{X}\mathbf{C} & \mathbf{X}\mathbf{C}\mathbf{X}^{\mathrm{T}} + \Re(\mathbf{Q}) & \mathbf{X}\mathbf{C}\mathbf{Y}^{\mathrm{T}} - \Im(\mathbf{Q}) \\
+\mathbf{Y}\mathbf{C} & \mathbf{Y}\mathbf{C}\mathbf{X}^{\mathrm{T}} + \Im(\mathbf{Q}) & \mathbf{Y}\mathbf{C}\mathbf{Y}^{\mathrm{T}} +\Re(\mathbf{Q})
+\end{bmatrix}
+$$<p>
+其中
+</p>
+$$
+\begin{align}
+\mathbf{C} &= \left[ \Re\left( \dot{\mathbf{S}}_{\alpha}^{\mathrm{H}} \mathbf{P}_{\perp} \dot{\mathbf{S}}_{\alpha} \right) \right]^{-1} \\
+\mathbf{X} &= -\Re\left[ (\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \dot{\mathbf{S}}_{\alpha} \right] \\
+\mathbf{Y} &= -\Im\left[ (\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \dot{\mathbf{S}}_{\alpha} \right] \\
+\mathbf{Q} &= \left( \mathbf{S}^{\mathrm{H}}\mathbf{S} \right)^{-1}
+\end{align}
+$$<p>
+且 $\mathbf{P}_{\perp} = \mathbf{I} - \mathbf{S}(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}}, \dot{\mathbf{S}}_{\alpha}=\mathrm{j}\mathbf{D}_{N}\mathbf{S}\mathbf{D}_{\alpha}$。继续化简 $\mathbf{C}$，
+</p>
+$$
+\begin{align}
+\mathbf{C} &= \left[ \Re\left( -\mathrm{j}\mathbf{D}_{\alpha}^{*}\mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}\mathbf{P}_{\perp}\mathrm{j}\mathbf{D}_{N}\mathbf{S}\mathbf{D}_{\alpha} \right) \right]^{-1}  \\
+&= \left[ \Re\left(\mathbf{D}_{\alpha}^{*}\mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}\mathbf{P}_{\perp}\mathbf{D}_{N}\mathbf{S}\mathbf{D}_{\alpha} \right) \right]^{-1} \\
+&= \left\{ \Re\left[ \mathbf{D}_{\alpha}^{*}\mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}\left( \mathbf{I} - \mathbf{S}(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \right) \mathbf{D}_{N}\mathbf{S}\mathbf{D}_{\alpha} \right]  \right\}^{-1} \\
+&= \left\{ \Re\left[ \mathbf{D}_{\alpha}^{*}\left( \mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}^{2}\mathbf{S} - \mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}\mathbf{S}(\mathbf{S}^{\mathrm{H}}\mathbf{S})^{-1}\mathbf{S}^{\mathrm{H}} \mathbf{D}_{N}\mathbf{S} \right) \mathbf{D}_{\alpha} \right]  \right\}^{-1}
+\end{align}
+$$<p>
+当 $N$ 足够大时，有
+</p>
+$$
+\begin{align}
+\mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}^{2}\mathbf{S} &\approx \sum_{n=0}^{N-1} n^{2} \mathbf{I}_{K} = \frac{N(N-1)(2N-1)}{6}\mathbf{I}_{K} \\
+\mathbf{S}^{\mathrm{H}}\mathbf{D}_{N}\mathbf{S} &\approx \sum_{n=0}^{N-1} n \mathbf{I}_{K} = \frac{N(N-1)}{2}\mathbf{I}_{K} \\
+\mathbf{S}^{\mathrm{H}}\mathbf{S} &\approx N \mathbf{I}_{K}, \quad \left( \mathbf{S}^{\mathrm{H}}\mathbf{S} \right)^{-1} \approx \frac{1}{N} \mathbf{I}_{K} \\
+\mathbf{X} &\approx \Re\left(\mathrm{j} \frac{N-1}{2}\mathbf{D}_{\alpha} \right) = - \Im\left( \frac{N-1}{2}\mathbf{D}_{\alpha} \right) \\
+\mathbf{Y} &\approx \Im\left(\mathrm{j} \frac{N-1}{2}\mathbf{D}_{\alpha} \right) =  \Re\left( \frac{N-1}{2}\mathbf{D}_{\alpha} \right) 
+\end{align}
+$$<p>
+此时经过化简
+</p>
+$$
+\begin{align}
+\mathbf{C} &= \left\{ \Re \left\{ \mathbf{D}_{\alpha}^{*} \left[ \frac{N(N-1)(2N-1)}{6}\mathbf{I}_{K} - \frac{N(N-1)}{2}\mathbf{I}_{K} \frac{1}{N} \mathbf{I}_{K} \frac{N(N-1)}{2}\mathbf{I}_{K} \right] \mathbf{D}_{\alpha} \right\} \right\}^{-1} \\
+&= \left[ \frac{N(N-1)(N+1)}{12} \mathbf{D}_{\alpha}^{*} \mathbf{D}_{\alpha} \right]^{-1} \approx \frac{12}{N^{3}}\mathbf{D}_{|\alpha|^{2}}^{-1}, \quad \mathbf{D}_{|\alpha|^{2}} = \operatorname{diag}\left( \left[ |\alpha_{1}|^{2}, |\alpha_{2}|^{2}, \dots, |\alpha_{K}|^{2} \right]  \right) 
+\end{align}
+$$<p>
+所以
+</p>
+$$
+\text{CRB}(\boldsymbol{\omega}) = \frac{\sigma^{2}}{2}\mathbf{C} \approx \frac{6 \sigma^{2}}{N^{3}}\mathbf{D}_{|\alpha|^{2}}^{-1}, \quad \text{CRB}(\omega_{k}) = \frac{6 \sigma^{2}}{N^{3} |\alpha_{k}|^{2}} = \frac{6}{N^{3} \cdot \text{SNR}_{k}}
+$$<p>
+同样可以化简其他对角线上的元素为：
+</p>
+$$
+\begin{align}
+\text{CRB}(\boldsymbol{\alpha}^{x}) = \mathbf{X}\mathbf{C}\mathbf{X}^{\mathrm{T}} + \Re(\mathbf{Q}) &\approx \frac{3}{N}\mathbf{D}_{|\alpha^{y}|^{2}}\mathbf{D}_{|\alpha|^{2}}^{-1} + \frac{1}{N}\mathbf{I} \\
+\text{CRB}(\boldsymbol{\alpha}^{y}) = \mathbf{Y}\mathbf{C}\mathbf{Y}^{\mathrm{T}} + \Re(\mathbf{Q}) &\approx \frac{3}{N}\mathbf{D}_{|\alpha^{x}|^{2}}\mathbf{D}_{|\alpha|^{2}}^{-1} + \frac{1}{N}\mathbf{I} 
+\end{align}
+$$<h2 id="扩展至二维正弦信号">扩展至二维正弦信号</h2>
+<p>先考虑只存在一个二维正弦信号的情形，其数学模型如下所示
+</p>
+$$
+\mathbf{Y} = \alpha \mathbf{a} \mathbf{b}^{\mathrm{T}} + \mathbf{W}
+$$$$
+\boldsymbol{\mu}(\boldsymbol{\theta}) = \operatorname{vec}(\alpha \mathbf{a} \mathbf{b}^{\mathrm{T}}) = \alpha \left( \mathbf{b} \otimes \mathbf{a} \right) 
+$$<p>
+</p>
+$$
+\begin{align}
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \alpha } &= \boldsymbol{b} \otimes  \boldsymbol{a} \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \omega^{1} } &= \alpha \left( \dot{\mathbf{b}} \otimes \mathbf{a} \right) \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \omega^{2} } &= \alpha \left( \mathbf{b} \otimes \dot{\mathbf{a}} \right) 
+\end{align}
+$$$$
+\mathbf{Y} = \mathbf{A} \operatorname{diag}\left( \boldsymbol{\alpha} \right) \mathbf{B}^{\mathrm{T}} + \mathbf{W} 
+$$<p>
+</p>
+$$
+\begin{align}
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \boldsymbol{\alpha}^{\mathrm{T}} } &= \boldsymbol{B} \odot  \boldsymbol{A} \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \boldsymbol{\omega}^{1} } &= \left( \dot{\mathbf{B}} \odot \mathbf{A} \right) \mathbf{D}_{\alpha} \\
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \boldsymbol{\omega}^{2} } &= \left( \mathbf{B} \odot \dot{\mathbf{A}} \right) \mathbf{D}_{\alpha}
+\end{align}
+$$<p>
+</p>
+$$
+\frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \boldsymbol{\theta}^{\mathrm{T}} } = 
+$$<ul>
+<li>$f$ 是实标量函数，自变量 $\boldsymbol{\theta}$ 是实向量
+$$
+\begin{align}
+f &= \lVert \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \rVert_{2}^{2} \\
+&= \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right]^{\mathrm{H}} \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right] 
+\end{align}
+$$
+$$
+\begin{align}
+\frac{ \partial f }{ \partial \theta } &= -\frac{ \partial \mathbf{s}^{\mathrm{H}}(\boldsymbol{\theta}) }{ \partial \theta } \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right] - \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right]^{\mathrm{H}} \frac{ \partial \mathbf{s}(\boldsymbol{\theta}) }{ \partial \theta } \\
+&= -2 \Re \left[ \left( \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right)^{\mathrm{H}} \frac{ \partial \mathbf{s}(\boldsymbol{\theta}) }{ \partial \theta } \right]
+\end{align}
+$$</li>
+</ul>
+$$
+\begin{align}
+f &= \lVert \mathbf{Y} - \boldsymbol{S}(\boldsymbol{\theta}) \rVert_{2}^{2} \\
+&= \operatorname{Tr}\left\{ \left[ \mathbf{Y} - \mathbf{S}(\boldsymbol{\theta}) \right]^{\mathrm{H}} \left[ \mathbf{Y} - \mathbf{S}(\boldsymbol{\theta}) \right]  \right\} 
+\end{align}
+$$<p>
+</p>
+$$
+\frac{ \partial f }{ \partial \theta } = -2 \Re \left\{ \operatorname{Tr} \left[ \left( \mathbf{Y} - \mathbf{S}(\boldsymbol{\theta}) \right)^{\mathrm{H}} \frac{ \partial \mathbf{S}(\boldsymbol{\theta}) }{ \partial \theta }   \right]   \right\} 
+$$<h2 id="reference">Reference</h2>
+<p>[1] Steven M. Kay, Fundamentals of Statistical Signal Processing, Volume 1: Estimation Theory.
+[2] Steven M. Kay, A fast and accurate single frequency estimator, IEEE Transactions on Acoustics, Speech, and Signal Processing, 1987.</p>
+<h2 id="appendix">Appendix</h2>
+<ol>
+<li>求 Fisher 信息矩阵的逆</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sympy <span style="color:#66d9ef">as</span> sp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Define symbols</span>
+</span></span><span style="display:flex;"><span>N, a, sigma <span style="color:#f92672">=</span> sp<span style="color:#f92672">.</span>symbols(<span style="color:#e6db74">&#39;N a sigma&#39;</span>, real<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, positive<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Define the components of the matrix</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sum of n from 0 to N-1</span>
+</span></span><span style="display:flex;"><span>sum_n <span style="color:#f92672">=</span> N<span style="color:#f92672">*</span>(N<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sum of n^2 from 0 to N-1</span>
+</span></span><span style="display:flex;"><span>sum_n2 <span style="color:#f92672">=</span> N<span style="color:#f92672">*</span>(N<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">*</span>(<span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>N<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Define the matrix M (inner part)</span>
+</span></span><span style="display:flex;"><span>M <span style="color:#f92672">=</span> sp<span style="color:#f92672">.</span>Matrix([
+</span></span><span style="display:flex;"><span>    [N, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>    [<span style="color:#ae81ff">0</span>, N<span style="color:#f92672">*</span>a<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span>, a<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> sum_n],
+</span></span><span style="display:flex;"><span>    [<span style="color:#ae81ff">0</span>, a<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> sum_n, a<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> sum_n2]
+</span></span><span style="display:flex;"><span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Define the full matrix I including the scalar</span>
+</span></span><span style="display:flex;"><span>I_theta <span style="color:#f92672">=</span> (<span style="color:#ae81ff">2</span> <span style="color:#f92672">/</span> sigma<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span>) <span style="color:#f92672">*</span> M
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Calculate the inverse</span>
+</span></span><span style="display:flex;"><span>I_inv <span style="color:#f92672">=</span> sp<span style="color:#f92672">.</span>simplify(I_theta<span style="color:#f92672">.</span>inv())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Verify: Matrix * Inverse = Identity</span>
+</span></span><span style="display:flex;"><span>verification <span style="color:#f92672">=</span> sp<span style="color:#f92672">.</span>simplify(I_theta <span style="color:#f92672">*</span> I_inv)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Output results</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Inverse Matrix:&#34;</span>)
+</span></span><span style="display:flex;"><span>sp<span style="color:#f92672">.</span>pprint(I_inv)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Verification (should be Identity):&#34;</span>)
+</span></span><span style="display:flex;"><span>sp<span style="color:#f92672">.</span>pprint(verification)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Return LaTeX for the inverse</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">LaTeX Code:&#34;</span>)
+</span></span><span style="display:flex;"><span>print(sp<span style="color:#f92672">.</span>latex(I_inv))
+</span></span></code></pre></div><ol start="2">
+<li>复数分块矩阵的逆
+令 $\mathbf{Q}=\mathbf{A}+\mathrm{j}\mathbf{B}, \mathbf{Q}^{-1}=\mathbf{C}+\mathrm{j}\mathbf{D}$，则 $\mathbf{A}\mathbf{C}-\mathbf{B}\mathbf{D}=\mathbf{I}, \mathbf{B}\mathbf{C}+\mathbf{A}\mathbf{D}=\mathbf{0}$，容易验证
+$$
+\begin{bmatrix}
+\mathbf{A} & -\mathbf{B} \\ \mathbf{B} & \mathbf{A}
+\end{bmatrix}
+\begin{bmatrix}
+\mathbf{C} & -\mathbf{D} \\ \mathbf{D} & \mathbf{C}
+\end{bmatrix} = 
+\begin{bmatrix}
+\mathbf{I} & \mathbf{0} \\ \mathbf{0} & \mathbf{I}
+\end{bmatrix}
+$$</li>
+</ol>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
+
+        <div class="site-footer">
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    const disqus = document.getElementById('disqus_thread');
+    if (!disqus) {
+      return;
+    }
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        const iframes = disqus.getElementsByTagName('iframe');
+        if (iframes.length > 1) {
+          const commentsIframe = iframes[1];
+          while (disqus.firstChild) {
+            disqus.removeChild(disqus.firstChild);
+          }
+          disqus.appendChild(commentsIframe);
+          observer.disconnect();
+        }
+      });
+    });
+    observer.observe(disqus, { childList: true, subtree: true });
+  });
+</script>
+
+  
+
+</body>
+
+</html>
