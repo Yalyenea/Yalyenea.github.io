@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on yffff&#39;s blog</title>
-    <link>https://blog.yffff.de/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on yffff&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://blog.yffff.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Apr 2025 00:15:20 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从单正弦信号估计开始</title>
+      <link>http://localhost:1313/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/</link>
+      <pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/</guid>
+      <description>&lt;h2 id=&#34;问题模型&#34;&gt;问题模型&lt;/h2&gt;&#xA;&lt;p&gt;让我们从单复正弦信号的频率和复幅度估计开始，观察到长度为 $N$ 的数据 $\left\{ y(n) \right\}_{n=0}^{N-1}$，其满足：&#xA;&lt;/p&gt;&#xA;$$&#xA;y(n) = \alpha \mathrm{e}^{\mathrm{j} \omega_{0} n} + w(n), \ n=0,1,\dots, N-1&#xA;$$&lt;p&gt;&#xA;其中 $\alpha=a\mathrm{e}^{\mathrm{j} \phi}$ 是复幅度，$\omega_{0}$ 是待估计的角频率(Angular Frequency)，显然，我们需要从 $N$ 个复数数据中估计出三个实数未知量，即 $\boldsymbol{\theta} = [a, \phi, \omega_{0}]^{\mathrm{T}}$。一般来说需要满足 $2N \geq 3$，才能根据 $2N$ 个实数数据求出 $3$ 个未知量。 如果我们只对频率 $\omega_{0}$ 感兴趣，那么另外两个参数可以称为干扰参数(nuisance parameter)。&lt;/p&gt;&#xA;&lt;p&gt;上式写成向量的形式为&#xA;&lt;/p&gt;&#xA;$$&#xA;\mathbf{y} = \alpha \mathbf{s}(\omega_{0}) + \mathbf{w} \in \mathbb{C}^{N \times 1}&#xA;$$&lt;p&gt;&#xA;其中 $\mathbf{y} = \left[ y(0), y(1), \dots, y(N-1) \right]^{\mathrm{T}}$, $\mathbf{s}(\omega_{0}) = \left[ 1, \mathrm{e}^{\mathrm{j} \omega_{0}}, \dots, \mathrm{e}^{\mathrm{j} \omega_{0} (N-1)} \right]^{\mathrm{T}}$, $\mathbf{w} = \left[ w(0), w(1), \dots, w(N-1) \right]$。通常情况下，我们假设噪声向量服从独立同分布的零均值圆对称复高斯分布，即 $\mathbf{w} \sim \mathcal{CN}(\mathbf{0}, \sigma^{2}\mathbf{I})$ ，其中 $\sigma^{2}$ 是噪声方差，也等于噪声功率，$\mathbf{I}$ 是单位矩阵。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

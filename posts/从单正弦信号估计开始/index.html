@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61024&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
-  <meta name="generator" content="Hugo 0.155.3">
+  <meta name="generator" content="Hugo 0.157.0">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="http://localhost:61024/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" />
-  <link rel="canonical" href="http://localhost:61024/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" /><link rel="alternate" type="application/atom+xml" href="http://localhost:61024/index.xml" title="yffff&#39;s blog" />
+  <meta property="og:url" content="http://localhost:1313/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" />
+  <link rel="canonical" href="http://localhost:1313/posts/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B/" /><link rel="alternate" type="application/atom+xml" href="http://localhost:1313/index.xml" title="yffff&#39;s blog" />
 
   <script type="application/ld+json">
   {
@@ -16,7 +16,7 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "http:\/\/localhost:61024\/"
+           "@id": "http:\/\/localhost:1313\/"
       },
       "articleSection" : "posts",
       "name" : "从单正弦信号估计开始",
@@ -31,7 +31,7 @@
       "copyrightYear" : "2025",
       "datePublished": "2025-04-26 00:15:20 \u002b0800 CST",
       "dateModified" : "2025-04-26 00:15:20 \u002b0800 CST",
-      "url" : "http:\/\/localhost:61024\/posts\/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B\/",
+      "url" : "http:\/\/localhost:1313\/posts\/%E4%BB%8E%E5%8D%95%E6%AD%A3%E5%BC%A6%E4%BF%A1%E5%8F%B7%E4%BC%B0%E8%AE%A1%E5%BC%80%E5%A7%8B\/",
       "keywords" : [  ]
   }
 </script>
@@ -414,6 +414,7 @@ w(0) \\ w(1) \\ \vdots \\ w(N-1)
 $$<ul>
 <li>$\alpha_{k} = a_{k}\mathrm{e}^{j \phi_{k}}$</li>
 <li>$\mathbf{S}(\boldsymbol{\omega}) = \begin{bmatrix}1 & 1 & \cdots & 1 \\ \mathrm{e}^{j \omega_{1}} & \mathrm{e}^{j \omega_{2}} & \cdots & \mathrm{e}^{j \omega_{K}} \\ \vdots & \vdots & \ddots & \vdots \\ \mathrm{e}^{j (N-1) \omega_{1}} & \mathrm{e}^{j (N-1) \omega_{2}} & \cdots & \mathrm{e}^{j(N-1) \omega_{K}}\end{bmatrix}$
+
 $$
 \mathbf{y} = \mathbf{S}(\boldsymbol{\omega}) \boldsymbol{\alpha} + \mathbf{w}
 $$</li>
@@ -663,12 +664,14 @@ $$
 \frac{ \partial \boldsymbol{\mu}(\boldsymbol{\theta}) }{ \partial \boldsymbol{\theta}^{\mathrm{T}} } = 
 $$<ul>
 <li>$f$ 是实标量函数，自变量 $\boldsymbol{\theta}$ 是实向量
+
 $$
 \begin{align}
 f &= \lVert \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \rVert_{2}^{2} \\
 &= \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right]^{\mathrm{H}} \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right] 
 \end{align}
 $$
+
 $$
 \begin{align}
 \frac{ \partial f }{ \partial \theta } &= -\frac{ \partial \mathbf{s}^{\mathrm{H}}(\boldsymbol{\theta}) }{ \partial \theta } \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right] - \left[ \mathbf{y} - \mathbf{s}(\boldsymbol{\theta}) \right]^{\mathrm{H}} \frac{ \partial \mathbf{s}(\boldsymbol{\theta}) }{ \partial \theta } \\
@@ -731,6 +734,7 @@ $$<h2 id="reference">Reference</h2>
 </span></span></code></pre></div><ol start="2">
 <li>复数分块矩阵的逆
 令 $\mathbf{Q}=\mathbf{A}+\mathrm{j}\mathbf{B}, \mathbf{Q}^{-1}=\mathbf{C}+\mathrm{j}\mathbf{D}$，则 $\mathbf{A}\mathbf{C}-\mathbf{B}\mathbf{D}=\mathbf{I}, \mathbf{B}\mathbf{C}+\mathbf{A}\mathbf{D}=\mathbf{0}$，容易验证
+
 $$
 \begin{bmatrix}
 \mathbf{A} & -\mathbf{B} \\ \mathbf{B} & \mathbf{A}
