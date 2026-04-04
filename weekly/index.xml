@@ -6,8 +6,15 @@
     <description>Recent content in Weeklies on yffff&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 19:32:57 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 01:35:25 +0800</lastBuildDate>
     <atom:link href="https://blog.yffff.de/weekly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第6期周刊</title>
+      <link>https://blog.yffff.de/weekly/week-6/</link>
+      <pubDate>Sun, 05 Apr 2026 01:35:25 +0800</pubDate>
+      <guid>https://blog.yffff.de/weekly/week-6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://open-yak.com&#34;&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.aicomp.top/discover/timeline&#34;&gt;竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery&lt;/a&gt;如题，可以订阅邮件接收新竞赛通知。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/hitmux/HitCC&#34;&gt;GitHub - hitmux/HitCC: Complete reverse-engineering documentation of the full logic of Claude Code CLI Node.js version v2.1.84 · GitHub&lt;/a&gt;Claude Code 逆向。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ayaka-notes/overleaf-pro&#34;&gt;GitHub - ayaka-notes/overleaf-pro: A web-based collaborative LaTeX editor, @Ayaka-notes Pro Edition. QQ Group: https://qm.qq.com/q/sHJevaAPFC · GitHub&lt;/a&gt;根据开源 Overleaf 构建的在线 LaTeX 编辑器，支持闭源版本的很多功能，例如 Git。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Yousa-Mirage/Tufted-Blog-Template&#34;&gt;GitHub - Yousa-Mirage/Tufted-Blog-Template: Tufte 风格博客网站模板，基于 Typst。A beautiful blog template using the Tufte style, powered by Typst. · GitHub&lt;/a&gt;使用 Typst 来制作你的个人网站。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>第5期周刊</title>
       <link>https://blog.yffff.de/weekly/week-5/</link>
