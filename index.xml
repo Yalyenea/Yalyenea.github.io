@@ -6,12 +6,19 @@
     <description>Recent content on yffff&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Apr 2026 01:35:25 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 21:41:09 +0800</lastBuildDate>
     <atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第7期周刊</title>
+      <link>https://blog.yffff.de/weekly/week-7/</link>
+      <pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate>
+      <guid>https://blog.yffff.de/weekly/week-7/</guid>
+      <description>&lt;p&gt;巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。&#xA;世事浮云何足问，不如高卧且加餐。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.mossnotes.app&#34;&gt;moss&lt;/a&gt;Markdown Workspace.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gunnargray-dev/unicode-animations&#34;&gt;GitHub - gunnargray-dev/unicode-animations: Unicode spinner animations as raw frame data · GitHub&lt;/a&gt;unicode-animations，提供 unicode 字符动画。&lt;code&gt;npx unicode-animations --web&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/jgraph/drawio-mcp&#34;&gt;GitHub - jgraph/drawio-mcp · GitHub&lt;/a&gt;draw.io MCP，提供多种方式接入 AI，比如直接：&lt;code&gt;https://mcp.draw.io/mcp&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://coding.15o.cc&#34;&gt;Coding Plan Benchmark&lt;/a&gt;国内 Coding Plan 测评。&#xA;&lt;a href=&#34;https://codingplan.org/&#34;&gt;Coding Plan 对比 - GLM/MiniMax/Kimi/qwen 等国内 AI Coding Plan 套餐横评&lt;/a&gt;国内 AI Coding Plan 对比。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ztx888/HaloWebUI&#34;&gt;GitHub - ztx888/HaloWebUI: 基于官方OpenWebUI，汉化界面提高中文使用体验，增加了模型计费和用量统计 · GitHub&lt;/a&gt;OpenWebUI 二开。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/scipenai/tylax&#34;&gt;GitHub - scipenai/tylax: A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface. · GitHub&lt;/a&gt;Typst 和 LaTeX 相互转换。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>第6期周刊</title>
       <link>https://blog.yffff.de/weekly/week-6/</link>
-      <pubDate>Sun, 05 Apr 2026 01:35:25 +0800</pubDate>
+      <pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate>
       <guid>https://blog.yffff.de/weekly/week-6/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://open-yak.com&#34;&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.aicomp.top/discover/timeline&#34;&gt;竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery&lt;/a&gt;如题，可以订阅邮件接收新竞赛通知。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/hitmux/HitCC&#34;&gt;GitHub - hitmux/HitCC: Complete reverse-engineering documentation of the full logic of Claude Code CLI Node.js version v2.1.84 · GitHub&lt;/a&gt;Claude Code 逆向。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ayaka-notes/overleaf-pro&#34;&gt;GitHub - ayaka-notes/overleaf-pro: A web-based collaborative LaTeX editor, @Ayaka-notes Pro Edition. QQ Group: https://qm.qq.com/q/sHJevaAPFC · GitHub&lt;/a&gt;根据开源 Overleaf 构建的在线 LaTeX 编辑器，支持闭源版本的很多功能，例如 Git。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Yousa-Mirage/Tufted-Blog-Template&#34;&gt;GitHub - Yousa-Mirage/Tufted-Blog-Template: Tufte 风格博客网站模板，基于 Typst。A beautiful blog template using the Tufte style, powered by Typst. · GitHub&lt;/a&gt;使用 Typst 来制作你的个人网站。&lt;/p&gt;</description>
     </item>
