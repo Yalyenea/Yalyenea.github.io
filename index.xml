@@ -1,8 +1,385 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 11 Apr 2026 21:41:09 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第7期周刊</title><link>https://blog.yffff.de/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-7/</guid><description>&lt;p&gt;巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 18 Apr 2026 20:29:39 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第8期周刊</title><link>https://blog.yffff.de/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-8/</guid><description>&lt;h3 id="ai-资讯"&gt;AI 资讯&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mail.bycloud.ai/"&gt;The AI Timeline&lt;/a&gt;又一个 AI 资讯 newsletter。&lt;/p&gt;
+&lt;h3 id="ai-coding--agent-平台"&gt;AI Coding / Agent 平台&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/EKKOLearnAI/hermes-web-ui"&gt;GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp;amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub&lt;/a&gt;Hermes Agent 的 Web 仪表盘，支持多平台 AI chat、会话管理、定时任务和用量分析，已接入 Telegram、Discord、Slack 和 WhatsApp。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CodebuffAI/codebuff"&gt;GitHub - CodebuffAI/codebuff: Generate code from the terminal! · GitHub&lt;/a&gt;一个开源 code agent
+免费版本：&lt;a href="https://freebuff.com/"&gt;Freebuff — the free coding agent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zhukunpenglinyutong/desktop-cc-gui"&gt;https://github.com/zhukunpenglinyutong/desktop-cc-gui&lt;/a&gt; Claude Code 的 GUI 客户端，面向开发者的 Vibe Coding 平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getpaseo/paseo"&gt;GitHub - getpaseo/paseo: Orchestrate coding agents remotely from your phone, desktop and CLI · GitHub&lt;/a&gt;和之前的 lody.ai 类似。&lt;/p&gt;
+&lt;p&gt;多 Agent 聚合平台收集，真是仙人之兮列如麻。
+&lt;a href="https://www.depo.zip/categories/ai-harness"&gt;Depo | AI Harness tools&lt;/a&gt;
+&lt;a href="https://wistful-mascara-1ca.notion.site/Lex-Notes-of-Multi-Agent-Coding-tools-34071f05021a80f0afacdc50f938128a#main"&gt;Lex&amp;rsquo; Notes of Multi-Agent Coding tools&lt;/a&gt;
+最近这类工具都特别多，我自己也尝试了一些，感觉都很鸡肋，不如直接使用官方 CLI 或者 Codex App，或者试试 Warp。&lt;a href="https://warp.dev"&gt;Warp Terminal&lt;/a&gt;也支持垂直标签页了，还支持了通知以及远程控制，不赖。
+&lt;img
+ src="https://blog.yffff.de/oss-images/46ab1925abc2-QQ_1776193735795.png"
+ alt="821"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="ai-使用监控"&gt;AI 使用监控&lt;/h3&gt;
+&lt;p&gt;监控你的 AI Coding Plan 使用情况，目前我推荐第三个，即 OpenUsage。
+&lt;img
+ src="https://blog.yffff.de/oss-images/1ba572a2366c-QQ_1776197595556.png"
+ alt="|404"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/tddworks/ClaudeBar"&gt;GitHub - tddworks/ClaudeBar: A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/steipete/CodexBar"&gt;GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/robinebers/openusage"&gt;GitHub - robinebers/openusage: Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Four-JJJJ/AI-Plan-Monitoring"&gt;GitHub - Four-JJJJ/AI-Plan-Monitoring: macOS menu bar app to monitor AI plan limits, relay balances, and local Codex accounts · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nguyenphutrong/quotio"&gt;GitHub - nguyenphutrong/quotio: Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="codex-使用"&gt;Codex 使用&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Dailin521/codex-provider-sync"&gt;GitHub - Dailin521/codex-provider-sync: Synchronize Codex session provider metadata across rollout files and SQLite state. · GitHub&lt;/a&gt;如果你同时使用官方订阅以及第三方 API 的话。那么 Codex 的历史对话可能会不显示，原因就是因为标识符好像不一样。这个工具可以进行统一同步，然后就能完美看到历史对话了。&lt;/p&gt;
+&lt;p&gt;然后如果你使用官方订阅的话，需要开 tun 模式才不会出现 reconnecting。但是如果你又不想开 tun 模式呢，你可以在 &lt;code&gt;~/.codex&lt;/code&gt; 目录下新建一个 &lt;code&gt;.env&lt;/code&gt; 文件，加入以下的代理配置：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;HTTP_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://127.0.0.1:your-proxy-port&amp;#34;&lt;/span&gt; &lt;span class="c1"&gt;# clash好像默认 7897 &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;HTTPS_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://127.0.0.1:your-proxy-port&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;NO_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;localhost,127.0.0.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="agent-skills"&gt;Agent Skills&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/labarba/sciwrite"&gt;GitHub - labarba/sciwrite: Agent Skill for AI-assisted manuscript writing review, based on Dr. Kristin Sainani&amp;rsquo;s &amp;ldquo;Writing in the Sciences&amp;rdquo; methodology. · GitHub&lt;/a&gt;基于 Kristin Sainani《Writing in the Sciences》方法论的科学写作审阅 Skill。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lewislulu/html-ppt-skill"&gt;GitHub - lewislulu/html-ppt-skill: HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations · GitHub&lt;/a&gt;HTML PPT Studio Skill，24 主题、31 布局、20+ 动画。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ZreadAI/zread-skill"&gt;GitHub - ZreadAI/zread-skill: Zread Skill · GitHub&lt;/a&gt;Zread 发布了 Skill，可以让 ai 调用本地 zread 生成的仓库 wiki，不过好像也没有太多必要，不过可以解耦，不用让你的 agent 专门去读仓库了。&lt;/p&gt;
+&lt;h3 id="研究与论文"&gt;研究与论文&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.12968"&gt;\[2604.12968\] Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations&lt;/a&gt;优化方法综述，涵盖算法、场景与评估方法。
+&lt;a href="https://arxiv.org/abs/2604.01472"&gt;\[2604.01472\] The Newton-Muon Optimizer&lt;/a&gt;Muon 优化器实际上是一种隐式的 Newton 方法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SensRad/vegvisir"&gt;GitHub - SensRad/vegvisir: A Combined SLAM and Localization System for both RADAR and LiDAR · GitHub&lt;/a&gt;同时支持 RADAR 和 LiDAR 的 SLAM 与定位系统。&lt;/p&gt;
+&lt;h3 id="学术与学习资源"&gt;学术与学习资源&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/JabRef/jabref"&gt;GitHub - JabRef/jabref: Graphical Java application for managing BibTeX and BibLaTeX (.bib) databases · GitHub&lt;/a&gt;一个开源的文献管理工具，支持 BibTeX 和 BibLaTeX 数据库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://core.ac.uk"&gt;The world&amp;rsquo;s largest collection of open access research papers&lt;/a&gt;CORE，全球最大的开放获取论文集合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV&amp;amp;si=Wv6OfMweL1yvDHrY"&gt;Stanford CS336&lt;/a&gt;CS336 2026 版本&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pidoc.cn/"&gt;Raspberry Pi 树莓派 (官网26年04月更新)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://commons.libretexts.org/"&gt;LibreCommons&lt;/a&gt;教材资源库，提供免费开放的教材、课程和学习资源，涵盖多个学科领域。&lt;/p&gt;
+&lt;h3 id="终端--cli"&gt;终端 &amp;amp; CLI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/muxy-app/muxy"&gt;GitHub - muxy-app/muxy: A macOS terminal multiplexer built with SwiftUI and libghostty · GitHub&lt;/a&gt;又一个垂直标签页终端，和之前的 cmux 等类似。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/thegdsks/awesome-modern-cli"&gt;GitHub - thegdsks/awesome-modern-cli: A curated list of modern alternatives to classic command-line tools. Faster, prettier, smarter replacements for the Unix utilities you use every day. · GitHub&lt;/a&gt;现代 CLI 工具合集，收录 Unix 经典工具的更快、更美、更智能的替代品。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://numbat.dev"&gt;Numbat - scientific calculator&lt;/a&gt;一个带单位的计算器。
+&lt;img
+ src="https://blog.yffff.de/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
+ alt="Pasted image 20260416163313|860"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="开发工具"&gt;开发工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/indragiek/GHFS"&gt;GitHub - indragiek/GHFS: Mount GitHub repositories as a virtual read-only macOS filesystem · GitHub&lt;/a&gt;可以将 GitHub 仓库挂载为 macOS 的虚拟只读文件系统&lt;/p&gt;
+&lt;p&gt;将 SSH 服务器的文件系统挂载到本地，直接在本地编辑和管理远程服务器上的文件，效率会更高一些。
+&lt;a href="https://github.com/libfuse/sshfs"&gt;GitHub - libfuse/sshfs: A network filesystem client to connect to SSH servers · GitHub&lt;/a&gt;
+&lt;a href="https://github.com/winfsp/sshfs-win"&gt;https://github.com/winfsp/sshfs-win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gh-proxy.com"&gt;GitHub加速下载代理 - 快速访问 GitHub 文件&lt;/a&gt;Github 镜像加速，还提供 Docker 以及 SourceForge 镜像加速，以及还有一个开发者工具箱： &lt;a href="https://tool.gh-proxy.com/"&gt;https://tool.gh-proxy.com/&lt;/a&gt; 或 &lt;a href="https://ittool.wort.uk/"&gt;https://ittool.wort.uk/&lt;/a&gt;
+&lt;img
+ src="https://blog.yffff.de/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
+ alt="Pasted image 20260414203046|800"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lra/mackup"&gt;GitHub - lra/mackup: Backup and keep your application settings in sync. · GitHub&lt;/a&gt;同步与备份应用设置，换机必备。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.chezmoi.io"&gt;chezmoi - chezmoi&lt;/a&gt;跨机器管理 dotfiles 的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/floccusaddon/floccus"&gt;GitHub - floccusaddon/floccus: :cloud: Sync your bookmarks privately across browsers and devices · GitHub&lt;/a&gt;浏览器书签同步插件，支持 Firefox和 Chrome，还有手机 app。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dmcheck.app/zh/"&gt;dmcheck - 域名查询&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="笔记--博客"&gt;笔记 &amp;amp; 博客&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Shpigford/clearly"&gt;GitHub - Shpigford/clearly: Markdown editor and knowledge base for Mac · GitHub&lt;/a&gt;MacOS 纯 Swift 编写的 markdown 编辑器。 &lt;a href="https://clearly.md/"&gt;https://clearly.md/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bearblog.dev/"&gt;Bear Blog&lt;/a&gt;极简博客平台，无 JS、无追踪、无广告。&lt;/p&gt;
+&lt;h3 id="macos-工具"&gt;macOS 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://macmenubar.app/"&gt;Mac Menubar Apps - Curated list of the best menubar apps for your life&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://search.google/google-app/desktop/"&gt;The Google app for desktop&lt;/a&gt;Google 的 Windows App。&lt;/p&gt;
+&lt;h3 id="设计与主题"&gt;设计与主题&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.motionin.design"&gt;Premium Interactive Web Sections&lt;/a&gt;高质量交互式网页组件库，适合现代网页设计。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rosepinetheme.com/"&gt;Something beautiful, Rose Pine theme&lt;/a&gt; Rose Pine 主题配色，还有很多软件工具等主题的社区适配，非常不错。然后下面这些是类似的其他主题。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://draculatheme.com"&gt;Dracula Theme for 400+ apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wixdaq.github.io/Tokyo-Night-Website"&gt;Tokyo Night Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://everforest.vercel.app"&gt;Everforest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nordtheme.com"&gt;Nord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://catppuccin.com"&gt;Catppuccin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/pbakaus/impeccable"&gt;GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design. · GitHub&lt;/a&gt; 一个 AI 设计工具，提供了一套设计语言，可以让你的 AI 工具更擅长设计。作者一看就是懂设计的，网站设计的很优雅： &lt;a href="https://impeccable.style/"&gt;https://impeccable.style/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/KurtGokhan/tegaki"&gt;GitHub - KurtGokhan/tegaki: Handwriting animation for the web. Supports any font or text. · GitHub&lt;/a&gt;手写动画库，支持任意字体和文本。&lt;/p&gt;
+&lt;h3 id="字体与排版"&gt;字体与排版&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.typewolf.com/"&gt;What&amp;rsquo;s Trending in Type · Typewolf&lt;/a&gt;追踪网页字体使用趋势。
+&lt;a href="https://fontsinuse.com/"&gt;Fonts In Use - Fonts In Use&lt;/a&gt;字体实战案例库。
+&lt;a href="https://practicaltypography.com/"&gt;Butterick&amp;rsquo;s Practical Typography&lt;/a&gt;Butterick 的实用排版指南。
+&lt;a href="https://font.icu/"&gt;Font.icu - 字体预览与下载&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="图片与录屏"&gt;图片与录屏&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ps.keepmot.com/zh/design/"&gt;长图拼接工具在线使用_垂直水平无缝拼接_聊天记录截图长图&lt;/a&gt;在线长图拼接工具，支持垂直与水平无缝拼接，适合处理聊天记录截图。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/blueberrycongee/CursorLens"&gt;GitHub - blueberrycongee/CursorLens: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub&lt;/a&gt;又一个开源录屏工具，之前分享过一个 Recordly，好像还有个 Open Screen。&lt;/p&gt;
+&lt;h3 id="资源社区"&gt;资源社区&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.seedhub.cc/"&gt;SeedHub | 影视&amp;amp;动漫分享&lt;/a&gt;影视与动漫资源分享站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.depo.zip/"&gt;Depo | A curated collection of resources&lt;/a&gt;一个偏向开发的资源收集网站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cuflow.ai"&gt;Cuflow – AI-Powered Study &amp;amp; Productivity Tool&lt;/a&gt;AI 驱动的学习与效率工具。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai-资讯">AI 资讯</h3>
+<p><a href="https://mail.bycloud.ai/">The AI Timeline</a>又一个 AI 资讯 newsletter。</p>
+<h3 id="ai-coding--agent-平台">AI Coding / Agent 平台</h3>
+<p><a href="https://github.com/EKKOLearnAI/hermes-web-ui">GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub</a>Hermes Agent 的 Web 仪表盘，支持多平台 AI chat、会话管理、定时任务和用量分析，已接入 Telegram、Discord、Slack 和 WhatsApp。</p>
+<p><a href="https://github.com/CodebuffAI/codebuff">GitHub - CodebuffAI/codebuff: Generate code from the terminal! · GitHub</a>一个开源 code agent
+免费版本：<a href="https://freebuff.com/">Freebuff — the free coding agent</a></p>
+<p><a href="https://github.com/zhukunpenglinyutong/desktop-cc-gui">https://github.com/zhukunpenglinyutong/desktop-cc-gui</a> Claude Code 的 GUI 客户端，面向开发者的 Vibe Coding 平台。</p>
+<p><a href="https://github.com/getpaseo/paseo">GitHub - getpaseo/paseo: Orchestrate coding agents remotely from your phone, desktop and CLI · GitHub</a>和之前的 lody.ai 类似。</p>
+<p>多 Agent 聚合平台收集，真是仙人之兮列如麻。
+<a href="https://www.depo.zip/categories/ai-harness">Depo | AI Harness tools</a>
+<a href="https://wistful-mascara-1ca.notion.site/Lex-Notes-of-Multi-Agent-Coding-tools-34071f05021a80f0afacdc50f938128a#main">Lex&rsquo; Notes of Multi-Agent Coding tools</a>
+最近这类工具都特别多，我自己也尝试了一些，感觉都很鸡肋，不如直接使用官方 CLI 或者 Codex App，或者试试 Warp。<a href="https://warp.dev">Warp Terminal</a>也支持垂直标签页了，还支持了通知以及远程控制，不赖。
+<img
+  src="/oss-images/46ab1925abc2-QQ_1776193735795.png"
+  alt="821"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="ai-使用监控">AI 使用监控</h3>
+<p>监控你的 AI Coding Plan 使用情况，目前我推荐第三个，即 OpenUsage。
+<img
+  src="/oss-images/1ba572a2366c-QQ_1776197595556.png"
+  alt="|404"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<ol>
+<li><a href="https://github.com/tddworks/ClaudeBar">GitHub - tddworks/ClaudeBar: A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance. · GitHub</a></li>
+<li><a href="https://github.com/steipete/CodexBar">GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. · GitHub</a></li>
+<li><a href="https://github.com/robinebers/openusage">GitHub - robinebers/openusage: Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source. · GitHub</a></li>
+<li><a href="https://github.com/Four-JJJJ/AI-Plan-Monitoring">GitHub - Four-JJJJ/AI-Plan-Monitoring: macOS menu bar app to monitor AI plan limits, relay balances, and local Codex accounts · GitHub</a></li>
+<li><a href="https://github.com/nguyenphutrong/quotio">GitHub - nguyenphutrong/quotio: Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. · GitHub</a></li>
+</ol>
+<h3 id="codex-使用">Codex 使用</h3>
+<p><a href="https://github.com/Dailin521/codex-provider-sync">GitHub - Dailin521/codex-provider-sync: Synchronize Codex session provider metadata across rollout files and SQLite state. · GitHub</a>如果你同时使用官方订阅以及第三方 API 的话。那么 Codex 的历史对话可能会不显示，原因就是因为标识符好像不一样。这个工具可以进行统一同步，然后就能完美看到历史对话了。</p>
+<p>然后如果你使用官方订阅的话，需要开 tun 模式才不会出现 reconnecting。但是如果你又不想开 tun 模式呢，你可以在 <code>~/.codex</code> 目录下新建一个 <code>.env</code> 文件，加入以下的代理配置：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">HTTP_PROXY</span><span class="o">=</span><span class="s2">&#34;http://127.0.0.1:your-proxy-port&#34;</span> <span class="c1"># clash好像默认 7897 </span>
+</span></span><span class="line"><span class="cl"><span class="nv">HTTPS_PROXY</span><span class="o">=</span><span class="s2">&#34;http://127.0.0.1:your-proxy-port&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NO_PROXY</span><span class="o">=</span><span class="s2">&#34;localhost,127.0.0.1&#34;</span>
+</span></span></code></pre></div><h3 id="agent-skills">Agent Skills</h3>
+<p><a href="https://github.com/labarba/sciwrite">GitHub - labarba/sciwrite: Agent Skill for AI-assisted manuscript writing review, based on Dr. Kristin Sainani&rsquo;s &ldquo;Writing in the Sciences&rdquo; methodology. · GitHub</a>基于 Kristin Sainani《Writing in the Sciences》方法论的科学写作审阅 Skill。</p>
+<p><a href="https://github.com/lewislulu/html-ppt-skill">GitHub - lewislulu/html-ppt-skill: HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations · GitHub</a>HTML PPT Studio Skill，24 主题、31 布局、20+ 动画。</p>
+<p><a href="https://github.com/ZreadAI/zread-skill">GitHub - ZreadAI/zread-skill: Zread Skill · GitHub</a>Zread 发布了 Skill，可以让 ai 调用本地 zread 生成的仓库 wiki，不过好像也没有太多必要，不过可以解耦，不用让你的 agent 专门去读仓库了。</p>
+<h3 id="研究与论文">研究与论文</h3>
+<p><a href="https://arxiv.org/abs/2604.12968">\[2604.12968\] Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations</a>优化方法综述，涵盖算法、场景与评估方法。
+<a href="https://arxiv.org/abs/2604.01472">\[2604.01472\] The Newton-Muon Optimizer</a>Muon 优化器实际上是一种隐式的 Newton 方法。</p>
+<p><a href="https://github.com/SensRad/vegvisir">GitHub - SensRad/vegvisir: A Combined SLAM and Localization System for both RADAR and LiDAR · GitHub</a>同时支持 RADAR 和 LiDAR 的 SLAM 与定位系统。</p>
+<h3 id="学术与学习资源">学术与学习资源</h3>
+<p><a href="https://github.com/JabRef/jabref">GitHub - JabRef/jabref: Graphical Java application for managing BibTeX and BibLaTeX (.bib) databases · GitHub</a>一个开源的文献管理工具，支持 BibTeX 和 BibLaTeX 数据库。</p>
+<p><a href="https://core.ac.uk">The world&rsquo;s largest collection of open access research papers</a>CORE，全球最大的开放获取论文集合。</p>
+<p><a href="https://youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV&amp;si=Wv6OfMweL1yvDHrY">Stanford CS336</a>CS336 2026 版本</p>
+<p><a href="https://pidoc.cn/">Raspberry Pi 树莓派 (官网26年04月更新)</a></p>
+<p><a href="https://commons.libretexts.org/">LibreCommons</a>教材资源库，提供免费开放的教材、课程和学习资源，涵盖多个学科领域。</p>
+<h3 id="终端--cli">终端 &amp; CLI</h3>
+<p><a href="https://github.com/muxy-app/muxy">GitHub - muxy-app/muxy: A macOS terminal multiplexer built with SwiftUI and libghostty · GitHub</a>又一个垂直标签页终端，和之前的 cmux 等类似。</p>
+<p><a href="https://github.com/thegdsks/awesome-modern-cli">GitHub - thegdsks/awesome-modern-cli: A curated list of modern alternatives to classic command-line tools. Faster, prettier, smarter replacements for the Unix utilities you use every day. · GitHub</a>现代 CLI 工具合集，收录 Unix 经典工具的更快、更美、更智能的替代品。</p>
+<p><a href="https://numbat.dev">Numbat - scientific calculator</a>一个带单位的计算器。
+<img
+  src="/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
+  alt="Pasted image 20260416163313|860"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="开发工具">开发工具</h3>
+<p><a href="https://github.com/indragiek/GHFS">GitHub - indragiek/GHFS: Mount GitHub repositories as a virtual read-only macOS filesystem · GitHub</a>可以将 GitHub 仓库挂载为 macOS 的虚拟只读文件系统</p>
+<p>将 SSH 服务器的文件系统挂载到本地，直接在本地编辑和管理远程服务器上的文件，效率会更高一些。
+<a href="https://github.com/libfuse/sshfs">GitHub - libfuse/sshfs: A network filesystem client to connect to SSH servers · GitHub</a>
+<a href="https://github.com/winfsp/sshfs-win">https://github.com/winfsp/sshfs-win</a></p>
+<p><a href="https://gh-proxy.com">GitHub加速下载代理 - 快速访问 GitHub 文件</a>Github 镜像加速，还提供 Docker 以及 SourceForge 镜像加速，以及还有一个开发者工具箱： <a href="https://tool.gh-proxy.com/">https://tool.gh-proxy.com/</a>  或 <a href="https://ittool.wort.uk/">https://ittool.wort.uk/</a>
+<img
+  src="/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
+  alt="Pasted image 20260414203046|800"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/lra/mackup">GitHub - lra/mackup: Backup and keep your application settings in sync. · GitHub</a>同步与备份应用设置，换机必备。</p>
+<p><a href="https://www.chezmoi.io">chezmoi - chezmoi</a>跨机器管理 dotfiles 的工具。</p>
+<p><a href="https://github.com/floccusaddon/floccus">GitHub - floccusaddon/floccus: :cloud: Sync your bookmarks privately across browsers and devices · GitHub</a>浏览器书签同步插件，支持 Firefox和 Chrome，还有手机 app。</p>
+<p><a href="https://dmcheck.app/zh/">dmcheck - 域名查询</a></p>
+<h3 id="笔记--博客">笔记 &amp; 博客</h3>
+<p><a href="https://github.com/Shpigford/clearly">GitHub - Shpigford/clearly: Markdown editor and knowledge base for Mac · GitHub</a>MacOS 纯 Swift 编写的 markdown 编辑器。 <a href="https://clearly.md/">https://clearly.md/</a></p>
+<p><a href="https://bearblog.dev/">Bear Blog</a>极简博客平台，无 JS、无追踪、无广告。</p>
+<h3 id="macos-工具">macOS 工具</h3>
+<p><a href="https://macmenubar.app/">Mac Menubar Apps - Curated list of the best menubar apps for your life</a></p>
+<p><a href="https://search.google/google-app/desktop/">The Google app for desktop</a>Google 的 Windows App。</p>
+<h3 id="设计与主题">设计与主题</h3>
+<p><a href="https://www.motionin.design">Premium Interactive Web Sections</a>高质量交互式网页组件库，适合现代网页设计。</p>
+<p><a href="https://rosepinetheme.com/">Something beautiful, Rose Pine theme</a> Rose Pine 主题配色，还有很多软件工具等主题的社区适配，非常不错。然后下面这些是类似的其他主题。</p>
+<ul>
+<li><a href="https://draculatheme.com">Dracula Theme for 400+ apps</a></li>
+<li><a href="https://wixdaq.github.io/Tokyo-Night-Website">Tokyo Night Website</a></li>
+<li><a href="https://everforest.vercel.app">Everforest</a></li>
+<li><a href="https://www.nordtheme.com">Nord</a></li>
+<li><a href="https://catppuccin.com">Catppuccin</a></li>
+</ul>
+<p><a href="https://github.com/pbakaus/impeccable">GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design. · GitHub</a> 一个 AI 设计工具，提供了一套设计语言，可以让你的 AI 工具更擅长设计。作者一看就是懂设计的，网站设计的很优雅： <a href="https://impeccable.style/">https://impeccable.style/</a></p>
+<p><a href="https://github.com/KurtGokhan/tegaki">GitHub - KurtGokhan/tegaki: Handwriting animation for the web. Supports any font or text. · GitHub</a>手写动画库，支持任意字体和文本。</p>
+<h3 id="字体与排版">字体与排版</h3>
+<p><a href="https://www.typewolf.com/">What&rsquo;s Trending in Type · Typewolf</a>追踪网页字体使用趋势。
+<a href="https://fontsinuse.com/">Fonts In Use - Fonts In Use</a>字体实战案例库。
+<a href="https://practicaltypography.com/">Butterick&rsquo;s Practical Typography</a>Butterick 的实用排版指南。
+<a href="https://font.icu/">Font.icu - 字体预览与下载</a></p>
+<h3 id="图片与录屏">图片与录屏</h3>
+<p><a href="https://ps.keepmot.com/zh/design/">长图拼接工具在线使用_垂直水平无缝拼接_聊天记录截图长图</a>在线长图拼接工具，支持垂直与水平无缝拼接，适合处理聊天记录截图。</p>
+<p><a href="https://github.com/blueberrycongee/CursorLens">GitHub - blueberrycongee/CursorLens: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub</a>又一个开源录屏工具，之前分享过一个 Recordly，好像还有个 Open Screen。</p>
+<h3 id="资源社区">资源社区</h3>
+<p><a href="https://www.seedhub.cc/">SeedHub | 影视&amp;动漫分享</a>影视与动漫资源分享站。</p>
+<p><a href="https://www.depo.zip/">Depo | A curated collection of resources</a>一个偏向开发的资源收集网站。</p>
+<p><a href="https://cuflow.ai">Cuflow – AI-Powered Study &amp; Productivity Tool</a>AI 驱动的学习与效率工具。</p>
+]]></content:encoded></item><item><title>第7期周刊</title><link>https://blog.yffff.de/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-7/</guid><description>&lt;p&gt;巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。
 世事浮云何足问，不如高卧且加餐。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.mossnotes.app"&gt;moss&lt;/a&gt;Markdown Workspace.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/gunnargray-dev/unicode-animations"&gt;GitHub - gunnargray-dev/unicode-animations: Unicode spinner animations as raw frame data · GitHub&lt;/a&gt;unicode-animations，提供 unicode 字符动画。&lt;code&gt;npx unicode-animations --web&lt;/code&gt;&lt;/p&gt;</description></item><item><title>第6期周刊</title><link>https://blog.yffff.de/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.aicomp.top/discover/timeline"&gt;竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery&lt;/a&gt;如题，可以订阅邮件接收新竞赛通知。&lt;/p&gt;</description></item><item><title>第5期周刊</title><link>https://blog.yffff.de/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-5/</guid><description>&lt;p&gt;这周重点还是 AI Coding Agent、开发者工具链和一些高质量技术阅读。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gunnargray-dev/unicode-animations"&gt;GitHub - gunnargray-dev/unicode-animations: Unicode spinner animations as raw frame data · GitHub&lt;/a&gt;unicode-animations，提供 unicode 字符动画。&lt;code&gt;npx unicode-animations --web&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jgraph/drawio-mcp"&gt;GitHub - jgraph/drawio-mcp · GitHub&lt;/a&gt;draw.io MCP，提供多种方式接入 AI，比如直接：&lt;code&gt;https://mcp.draw.io/mcp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://coding.15o.cc"&gt;Coding Plan Benchmark&lt;/a&gt;国内 Coding Plan 测评。
+&lt;a href="https://codingplan.org/"&gt;Coding Plan 对比 - GLM/MiniMax/Kimi/qwen 等国内 AI Coding Plan 套餐横评&lt;/a&gt;国内 AI Coding Plan 对比。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ztx888/HaloWebUI"&gt;GitHub - ztx888/HaloWebUI: 基于官方OpenWebUI，汉化界面提高中文使用体验，增加了模型计费和用量统计 · GitHub&lt;/a&gt;OpenWebUI 二开。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/scipenai/tylax"&gt;GitHub - scipenai/tylax: A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface. · GitHub&lt;/a&gt;Typst 和 LaTeX 相互转换。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Jermic/awesome-aiart-pics-prompts"&gt;GitHub - Jermic/awesome-aiart-pics-prompts: 🎨 精选 3000+ Gemini Nano Banana Pro 高质量提示词与生成案例 | 涵盖摄影、设计、艺术、营销等多领域 | 双语支持 | JSON 格式 · GitHub&lt;/a&gt;网页： &lt;a href="https://aiart.pics/"&gt;https://aiart.pics/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.longluo.me/blog/junior-high-math-inequality-maximum"&gt;一道初中数学极值题的多种解法：柯西不等式、几何法、函数法详解 | Long Luo&amp;rsquo;s Life Notes&lt;/a&gt;初高中数学不等式最大值问题，作者刷短视频多次看到，便写下了这篇文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.murfy.ai/"&gt;Murfy, Free Online LaTeX Editor &amp;amp; Overleaf Alternative&lt;/a&gt;AI LaTeX 在线编辑器，免费权益好像也还可以，比 Overleaf 好。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stablyai/orca"&gt;GitHub - stablyai/orca: Orca is the next-gen IDE for building with coding agents · GitHub&lt;/a&gt;一个 agent ide。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/opendatalab/MinerU-Document-Explorer"&gt;GitHub - opendatalab/MinerU-Document-Explorer · GitHub&lt;/a&gt;MinerU 出品知识库文档 Wiki 工具，提供 mcp。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhangmeishan.github.io/teaching.html"&gt;zhangmeishan.github.io/teaching.html&lt;/a&gt;大模型课程，来自 HIT 一位老师。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gsd-build/get-shit-done"&gt;GitHub - gsd-build/get-shit-done: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. · GitHub&lt;/a&gt;也适用于除 claude code 外的其他 agent。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zh.ifixit.com/"&gt;iFixit：免费修理手册&lt;/a&gt;免费维修手册，有点意思&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://buildcores.com/"&gt;BuildCores: 3D PC Builder and Part Picker&lt;/a&gt;在线装机，有点意思&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hermes-agent.nousresearch.com"&gt;Hermes Agent — An Agent That Grows With You&lt;/a&gt;类似 OpenClaw 的Agent。
+&lt;a href="https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/manim-video"&gt;hermes-agent/skills/creative/manim-video at main · NousResearch/hermes-agent · GitHub&lt;/a&gt;hermes 推出的 manim Skill，可以让 ai 做演示视频，manim 就是3blue1brown 视频的制作工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Ataraxy-Labs/opensessions"&gt;GitHub - Ataraxy-Labs/opensessions: bring your own multiplexer — terminal session manager with agent status, git branches, and instant switching · GitHub&lt;/a&gt;tmux 侧边栏&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/alibaba/Logics-Parsing"&gt;GitHub - alibaba/Logics-Parsing · GitHub&lt;/a&gt;阿里新的 OCR 模型&lt;/p&gt;
+&lt;p&gt;开源录屏工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siddharthvaddem/openscreen"&gt;GitHub - siddharthvaddem/openscreen: Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://recordly.dev/"&gt;Recordly - Open-source app for incredible screen recordings.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/Wangnov/uv-custom"&gt;GitHub - Wangnov/uv-custom: 一个 uv 公益镜像，提供国内的 uv 和 uv python runtime 高速下载 · GitHub&lt;/a&gt;uv 国内镜像。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.02176"&gt;\[2604.02176\] Adam&amp;rsquo;s Law: Textual Frequency Law on Large Language Models&lt;/a&gt;大模型应该更关注相同含义文本中出现频率更高的。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.04771"&gt;\[2604.04771\] MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale&lt;/a&gt;MinerU 新模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dnhkng.github.io/"&gt;David Noel Ng&lt;/a&gt;聚焦于大语言模型（LLM）的底层机制、AI安全与对齐、生物物理与硬件工程的博客。总结： &lt;a href="https://chatglm.cn/share/PF1kUqbD"&gt;https://chatglm.cn/share/PF1kUqbD&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/VibeVoice"&gt;GitHub - microsoft/VibeVoice: Open-Source Frontier Voice AI · GitHub&lt;/a&gt;微软开源语音模型，包含 TTS 和 ASR。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2024974446948034022"&gt;预训练经验 - Linsight的文章 - 知乎&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/whwangovo/pyre-code"&gt;GitHub - whwangovo/pyre-code: A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser. · GitHub&lt;/a&gt;和之前的 torchcode 类似。
+&lt;img
+ src="https://blog.yffff.de/oss-images/f6cc5eed8bc7-QQ_1775730243546.png"
+ alt="QQ_1775730243546"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/heliumbrowser/status/2042262820599758934?s=20"&gt;Helium 浏览器更新&lt;/a&gt;支持更丰富的紧凑外观，垂直标签页，zen 模式，类似 safari等，准备全面使用 helium，这才是我爱的浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://super.engineering/"&gt;Superconductor&lt;/a&gt;一个多 Agent 聚合平台，纯 RUST 打造。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/MiniMax-AI/cli/"&gt;GitHub - MiniMax-AI/cli · GitHub&lt;/a&gt;Minimax CLI。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alphaxiv.org/overview/2604.06169"&gt;In-Place Test-Time Training | alphaXiv&lt;/a&gt;测试时自动调整一部分权重。
+&lt;a href="https://www.alphaxiv.org/overview/2604.06425"&gt;Neural Computers | alphaXiv&lt;/a&gt;神经计算机，有点意思。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.algomaster.io/"&gt;AlgoMaster Newsletter | Ashish Pratap Singh | Substack&lt;/a&gt;一个关于算法的 newsletter。比如&lt;a href="https://blog.algomaster.io/p/15-leetcode-patterns?utm_source=publication-search"&gt;LeetCode was HARD until I Learned these 15 Patterns&lt;/a&gt;这篇文章总结了 15 个常见的 LeetCode 模式，前缀和、双指针、滑动窗口、快慢指针等。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://git-stars.org/zh/"&gt;git-star&lt;/a&gt;github 仓库排行榜，按照 star 数量排名，提供各种语言和分类的排行榜，可以看看哪些项目比较火。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/casey/just"&gt;GitHub - casey/just: 🤖 Just a command runner · GitHub&lt;/a&gt;起初是我想找到一个替代 Make 的工具，然后问了 AI 然后就发现了这样一个比较热门的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minimaxi.com/audio/music"&gt;MiniMax 语音：让灵感声声悦耳&lt;/a&gt;Minimax 新的音乐生成模型。&lt;/p&gt;</description><content:encoded><![CDATA[<p>巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。
+世事浮云何足问，不如高卧且加餐。</p>
+<p><a href="https://www.mossnotes.app">moss</a>Markdown Workspace.</p>
+<p><a href="https://github.com/gunnargray-dev/unicode-animations">GitHub - gunnargray-dev/unicode-animations: Unicode spinner animations as raw frame data · GitHub</a>unicode-animations，提供 unicode 字符动画。<code>npx unicode-animations --web</code></p>
+<p><a href="https://github.com/jgraph/drawio-mcp">GitHub - jgraph/drawio-mcp · GitHub</a>draw.io MCP，提供多种方式接入 AI，比如直接：<code>https://mcp.draw.io/mcp</code></p>
+<p><a href="https://coding.15o.cc">Coding Plan Benchmark</a>国内 Coding Plan 测评。
+<a href="https://codingplan.org/">Coding Plan 对比 - GLM/MiniMax/Kimi/qwen 等国内 AI Coding Plan 套餐横评</a>国内 AI Coding Plan 对比。</p>
+<p><a href="https://github.com/ztx888/HaloWebUI">GitHub - ztx888/HaloWebUI: 基于官方OpenWebUI，汉化界面提高中文使用体验，增加了模型计费和用量统计 · GitHub</a>OpenWebUI 二开。</p>
+<p><a href="https://github.com/scipenai/tylax">GitHub - scipenai/tylax: A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface. · GitHub</a>Typst 和 LaTeX 相互转换。</p>
+<p><a href="https://github.com/Jermic/awesome-aiart-pics-prompts">GitHub - Jermic/awesome-aiart-pics-prompts: 🎨 精选 3000+ Gemini Nano Banana Pro 高质量提示词与生成案例 | 涵盖摄影、设计、艺术、营销等多领域 | 双语支持 | JSON 格式 · GitHub</a>网页： <a href="https://aiart.pics/">https://aiart.pics/</a></p>
+<p><a href="https://www.longluo.me/blog/junior-high-math-inequality-maximum">一道初中数学极值题的多种解法：柯西不等式、几何法、函数法详解 | Long Luo&rsquo;s Life Notes</a>初高中数学不等式最大值问题，作者刷短视频多次看到，便写下了这篇文章。</p>
+<p><a href="https://www.murfy.ai/">Murfy, Free Online LaTeX Editor &amp; Overleaf Alternative</a>AI LaTeX 在线编辑器，免费权益好像也还可以，比 Overleaf 好。</p>
+<p><a href="https://github.com/stablyai/orca">GitHub - stablyai/orca: Orca is the next-gen IDE for building with coding agents · GitHub</a>一个 agent ide。</p>
+<p><a href="https://github.com/opendatalab/MinerU-Document-Explorer">GitHub - opendatalab/MinerU-Document-Explorer · GitHub</a>MinerU 出品知识库文档 Wiki 工具，提供 mcp。</p>
+<p><a href="https://zhangmeishan.github.io/teaching.html">zhangmeishan.github.io/teaching.html</a>大模型课程，来自 HIT 一位老师。</p>
+<p><a href="https://github.com/gsd-build/get-shit-done">GitHub - gsd-build/get-shit-done: A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. · GitHub</a>也适用于除 claude code 外的其他 agent。</p>
+<p><a href="https://zh.ifixit.com/">iFixit：免费修理手册</a>免费维修手册，有点意思</p>
+<p><a href="https://buildcores.com/">BuildCores: 3D PC Builder and Part Picker</a>在线装机，有点意思</p>
+<p><a href="https://hermes-agent.nousresearch.com">Hermes Agent — An Agent That Grows With You</a>类似 OpenClaw 的Agent。
+<a href="https://github.com/NousResearch/hermes-agent/tree/main/skills/creative/manim-video">hermes-agent/skills/creative/manim-video at main · NousResearch/hermes-agent · GitHub</a>hermes 推出的 manim Skill，可以让 ai 做演示视频，manim 就是3blue1brown 视频的制作工具。</p>
+<p><a href="https://github.com/Ataraxy-Labs/opensessions">GitHub - Ataraxy-Labs/opensessions: bring your own multiplexer — terminal session manager with agent status, git branches, and instant switching · GitHub</a>tmux 侧边栏</p>
+<p><a href="https://github.com/alibaba/Logics-Parsing">GitHub - alibaba/Logics-Parsing · GitHub</a>阿里新的 OCR 模型</p>
+<p>开源录屏工具</p>
+<ul>
+<li><a href="https://github.com/siddharthvaddem/openscreen">GitHub - siddharthvaddem/openscreen: Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub</a></li>
+<li><a href="https://recordly.dev/">Recordly - Open-source app for incredible screen recordings.</a></li>
+</ul>
+<p><a href="https://github.com/Wangnov/uv-custom">GitHub - Wangnov/uv-custom: 一个 uv 公益镜像，提供国内的 uv 和 uv python runtime 高速下载 · GitHub</a>uv 国内镜像。</p>
+<p><a href="https://arxiv.org/abs/2604.02176">\[2604.02176\] Adam&rsquo;s Law: Textual Frequency Law on Large Language Models</a>大模型应该更关注相同含义文本中出现频率更高的。</p>
+<p><a href="https://arxiv.org/abs/2604.04771">\[2604.04771\] MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale</a>MinerU 新模型。</p>
+<p><a href="https://dnhkng.github.io/">David Noel Ng</a>聚焦于大语言模型（LLM）的底层机制、AI安全与对齐、生物物理与硬件工程的博客。总结： <a href="https://chatglm.cn/share/PF1kUqbD">https://chatglm.cn/share/PF1kUqbD</a></p>
+<p><a href="https://github.com/microsoft/VibeVoice">GitHub - microsoft/VibeVoice: Open-Source Frontier Voice AI · GitHub</a>微软开源语音模型，包含 TTS 和 ASR。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/2024974446948034022">预训练经验 - Linsight的文章 - 知乎</a></p>
+<p><a href="https://github.com/whwangovo/pyre-code">GitHub - whwangovo/pyre-code: A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser. · GitHub</a>和之前的 torchcode 类似。
+<img
+  src="/oss-images/f6cc5eed8bc7-QQ_1775730243546.png"
+  alt="QQ_1775730243546"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://x.com/heliumbrowser/status/2042262820599758934?s=20">Helium 浏览器更新</a>支持更丰富的紧凑外观，垂直标签页，zen 模式，类似 safari等，准备全面使用 helium，这才是我爱的浏览器。</p>
+<p><a href="https://super.engineering/">Superconductor</a>一个多 Agent 聚合平台，纯 RUST 打造。</p>
+<p><a href="https://github.com/MiniMax-AI/cli/">GitHub - MiniMax-AI/cli · GitHub</a>Minimax CLI。</p>
+<p><a href="https://www.alphaxiv.org/overview/2604.06169">In-Place Test-Time Training | alphaXiv</a>测试时自动调整一部分权重。
+<a href="https://www.alphaxiv.org/overview/2604.06425">Neural Computers | alphaXiv</a>神经计算机，有点意思。</p>
+<p><a href="https://blog.algomaster.io/">AlgoMaster Newsletter | Ashish Pratap Singh | Substack</a>一个关于算法的 newsletter。比如<a href="https://blog.algomaster.io/p/15-leetcode-patterns?utm_source=publication-search">LeetCode was HARD until I Learned these 15 Patterns</a>这篇文章总结了 15 个常见的 LeetCode 模式，前缀和、双指针、滑动窗口、快慢指针等。</p>
+<p><a href="https://git-stars.org/zh/">git-star</a>github 仓库排行榜，按照 star 数量排名，提供各种语言和分类的排行榜，可以看看哪些项目比较火。</p>
+<p><a href="https://github.com/casey/just">GitHub - casey/just: 🤖 Just a command runner · GitHub</a>起初是我想找到一个替代 Make 的工具，然后问了 AI 然后就发现了这样一个比较热门的工具。</p>
+<p><a href="https://www.minimaxi.com/audio/music">MiniMax 语音：让灵感声声悦耳</a>Minimax 新的音乐生成模型。</p>
+]]></content:encoded></item><item><title>第6期周刊</title><link>https://blog.yffff.de/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.aicomp.top/discover/timeline"&gt;竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery&lt;/a&gt;如题，可以订阅邮件接收新竞赛通知。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/hitmux/HitCC"&gt;GitHub - hitmux/HitCC: Complete reverse-engineering documentation of the full logic of Claude Code CLI Node.js version v2.1.84 · GitHub&lt;/a&gt;Claude Code 逆向。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ayaka-notes/overleaf-pro"&gt;GitHub - ayaka-notes/overleaf-pro: A web-based collaborative LaTeX editor, @Ayaka-notes Pro Edition. QQ Group: https://qm.qq.com/q/sHJevaAPFC · GitHub&lt;/a&gt;根据开源 Overleaf 构建的在线 LaTeX 编辑器，支持闭源版本的很多功能，例如 Git。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Yousa-Mirage/Tufted-Blog-Template"&gt;GitHub - Yousa-Mirage/Tufted-Blog-Template: Tufte 风格博客网站模板，基于 Typst。A beautiful blog template using the Tufte style, powered by Typst. · GitHub&lt;/a&gt;使用 Typst 来制作你的个人网站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iOfficeAI/OfficeCLI"&gt;GitHub - iOfficeAI/OfficeCLI: OfficeCLI is the world&amp;rsquo;s first and the best Office suite designed for AI agents.It is a free, open-source command-line tool for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Single binary, no Office installation required. · GitHub&lt;/a&gt;Office CLI，让 AI Agent 帮你制作 Office 文档。&lt;/p&gt;
+&lt;p&gt;智谱和 Qwen 的国际站，都比国内的简洁，目前还未收费。
+&lt;a href="https://chat.z.ai"&gt;Z.ai - Free AI Chatbot &amp;amp; Agent powered by GLM-5 &amp;amp; GLM-4.7&lt;/a&gt;智谱 GLM 国际站，有 chat 和 agent 模式，agent 模式可以接入 IM，目前支持飞书、微信 、Telegram和 Discord。
+&lt;a href="https://chat.qwen.ai"&gt;Qwen Chat&lt;/a&gt;阿里千问国际站。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在终端实现 LaTeX 渲染的插件，适合在 Obsidian 中使用。
+&lt;a href="https://github.com/MaxwellsEquation/LaTerM-obsidian"&gt;GitHub - MaxwellsEquation/LaTerM-obsidian: LaTeX enabled terminal emulator plugin for Obsidian AI workflows · GitHub&lt;/a&gt;
+&lt;a href="https://github.com/MaxwellsEquation/LaTerM"&gt;GitHub - MaxwellsEquation/LaTerM: Xterm LaTeX renderer for AI workflows · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/e10nMa2k/cc-mini"&gt;GitHub - e10nMa2k/cc-mini: mini cc · GitHub&lt;/a&gt;又一个claude-code 的实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.novametis.top"&gt;Metis — Curator Dashboard&lt;/a&gt;自动从 GitHub trending 和 Product Hunt 等渠道自动发现新项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zai-org/GLM-skills"&gt;GitHub - zai-org/GLM-skills: Official skills for the GLM family of models. · GitHub&lt;/a&gt;智谱发布了 GLM5v 模型，同时还开源了一些 Skills。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/onyx-dot-app/onyx"&gt;GitHub - onyx-dot-app/onyx: Open Source AI Platform - AI Chat with advanced features that works with every LLM · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/AnalyseDeCircuit/oxideterm"&gt;GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kexue.fm/archives/11693"&gt;kexue.fm/archives/11693&lt;/a&gt;中位数简介，描述了平均数实际上是 $\mathcal{L}_{2}$ 范数最小化，而中位数是 $\mathcal{L}_{1}$ 范数最小化。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/353863448/answer/1220814194"&gt;浅谈一下 World Model：一个被叫烂了、但其实定义很清楚的词（锐评版） - dung defender的文章 - 知乎&lt;/a&gt;关于世界模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zread.ai/cli"&gt;Zread CLI&lt;/a&gt;Zread CLI，可以使用智谱 coding 订阅或者自己的 API 来分析本地仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lisette.run/"&gt;Lisette — Rust syntax, Go runtime&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://slock.ai"&gt;Slock - Where humans and AI agents collaborate&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p><a href="https://open-yak.com">OpenYak — Your Local AI Agent</a>也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。</p>
+<p><a href="http://www.aicomp.top/discover/timeline">竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery</a>如题，可以订阅邮件接收新竞赛通知。</p>
+<p><a href="https://github.com/hitmux/HitCC">GitHub - hitmux/HitCC: Complete reverse-engineering documentation of the full logic of Claude Code CLI Node.js version v2.1.84 · GitHub</a>Claude Code 逆向。</p>
+<p><a href="https://github.com/ayaka-notes/overleaf-pro">GitHub - ayaka-notes/overleaf-pro: A web-based collaborative LaTeX editor, @Ayaka-notes Pro Edition. QQ Group: https://qm.qq.com/q/sHJevaAPFC · GitHub</a>根据开源 Overleaf 构建的在线 LaTeX 编辑器，支持闭源版本的很多功能，例如 Git。</p>
+<p><a href="https://github.com/Yousa-Mirage/Tufted-Blog-Template">GitHub - Yousa-Mirage/Tufted-Blog-Template: Tufte 风格博客网站模板，基于 Typst。A beautiful blog template using the Tufte style, powered by Typst. · GitHub</a>使用 Typst 来制作你的个人网站。</p>
+<p><a href="https://github.com/iOfficeAI/OfficeCLI">GitHub - iOfficeAI/OfficeCLI: OfficeCLI is the world&rsquo;s first and the best Office suite designed for AI agents.It is a free, open-source command-line tool for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Single binary, no Office installation required. · GitHub</a>Office CLI，让 AI Agent 帮你制作 Office 文档。</p>
+<p>智谱和 Qwen 的国际站，都比国内的简洁，目前还未收费。
+<a href="https://chat.z.ai">Z.ai - Free AI Chatbot &amp; Agent powered by GLM-5 &amp; GLM-4.7</a>智谱 GLM 国际站，有 chat 和 agent 模式，agent 模式可以接入 IM，目前支持飞书、微信 、Telegram和 Discord。
+<a href="https://chat.qwen.ai">Qwen Chat</a>阿里千问国际站。</p>
+<ul>
+<li>在终端实现 LaTeX 渲染的插件，适合在 Obsidian 中使用。
+<a href="https://github.com/MaxwellsEquation/LaTerM-obsidian">GitHub - MaxwellsEquation/LaTerM-obsidian: LaTeX enabled terminal emulator plugin for Obsidian AI workflows · GitHub</a>
+<a href="https://github.com/MaxwellsEquation/LaTerM">GitHub - MaxwellsEquation/LaTerM: Xterm LaTeX renderer for AI workflows · GitHub</a></li>
+</ul>
+<p><a href="https://github.com/e10nMa2k/cc-mini">GitHub - e10nMa2k/cc-mini: mini cc · GitHub</a>又一个claude-code 的实现。</p>
+<p><a href="https://www.novametis.top">Metis — Curator Dashboard</a>自动从 GitHub trending 和 Product Hunt 等渠道自动发现新项目。</p>
+<p><a href="https://github.com/zai-org/GLM-skills">GitHub - zai-org/GLM-skills: Official skills for the GLM family of models. · GitHub</a>智谱发布了 GLM5v 模型，同时还开源了一些 Skills。</p>
+<p><a href="https://github.com/onyx-dot-app/onyx">GitHub - onyx-dot-app/onyx: Open Source AI Platform - AI Chat with advanced features that works with every LLM · GitHub</a></p>
+<p><a href="https://github.com/AnalyseDeCircuit/oxideterm">GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub</a></p>
+<p><a href="https://kexue.fm/archives/11693">kexue.fm/archives/11693</a>中位数简介，描述了平均数实际上是 $\mathcal{L}_{2}$ 范数最小化，而中位数是 $\mathcal{L}_{1}$ 范数最小化。</p>
+<p><a href="https://www.zhihu.com/question/353863448/answer/1220814194">浅谈一下 World Model：一个被叫烂了、但其实定义很清楚的词（锐评版） - dung defender的文章 - 知乎</a>关于世界模型。</p>
+<p><a href="https://zread.ai/cli">Zread CLI</a>Zread CLI，可以使用智谱 coding 订阅或者自己的 API 来分析本地仓库。</p>
+<p><a href="https://lisette.run/">Lisette — Rust syntax, Go runtime</a></p>
+<p><a href="https://slock.ai">Slock - Where humans and AI agents collaborate</a></p>
+]]></content:encoded></item><item><title>第5期周刊</title><link>https://blog.yffff.de/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-5/</guid><description>&lt;p&gt;这周重点还是 AI Coding Agent、开发者工具链和一些高质量技术阅读。&lt;/p&gt;
 &lt;h2 id="ai-coding-agents"&gt;AI Coding Agents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/mos1128/ccg-gateway"&gt;ccg-gateway&lt;/a&gt;: 为 Claude Code、Codex、Gemini CLI 提供网关和配置管理，适合服务商不稳定、需要频繁切换的场景。&lt;/li&gt;
@@ -22,11 +399,281 @@
  loading="lazy"
  decoding="async"
 &gt;
-&lt;/p&gt;</description></item><item><title>第4期周刊</title><link>https://blog.yffff.de/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-4/</guid><description>&lt;h2 id="goal-driven--目标驱动"&gt;Goal-Driven / 目标驱动&lt;/h2&gt;
+&lt;/p&gt;
+&lt;h2 id="developer-tools"&gt;Developer Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/run-llama/liteparse?tab=readme-ov-file"&gt;liteparse&lt;/a&gt;: 开源文档解析工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/joewongjc/type4me"&gt;type4me&lt;/a&gt;: macOS 中文语音输入开源项目，支持识别与文本优化。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/i/status/2036135311839813699"&gt;Zed text alignment update&lt;/a&gt;: 特定字符对齐功能，提升代码可读性。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stitch.withgoogle.com"&gt;Stitch&lt;/a&gt;: Google 的 AI 设计工具，偏 Figma 工作流。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://storage.to/"&gt;storage.to&lt;/a&gt;: 文件转链接分享工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://openclihub.com"&gt;OpenCLI Hub&lt;/a&gt;: CLI 工具目录。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gitwatt.com"&gt;GitWatt&lt;/a&gt;: 新上线的开源项目社区。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="research--ai"&gt;Research &amp;amp; AI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2603.22458"&gt;MinerU-Diffusion (arXiv:2603.22458)&lt;/a&gt;: 将文档 OCR 视作逆渲染问题。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://magazine.sebastianraschka.com/p/visual-attention-variants"&gt;visual-attention-variants&lt;/a&gt;: Attention 变体综述。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dair-ai/ml-visuals"&gt;ml-visuals&lt;/a&gt;: 机器学习论文图示模板。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/kennethleungty/Neural-Network-Architecture-Diagrams"&gt;Neural-Network-Architecture-Diagrams&lt;/a&gt;: 神经网络结构图工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="infra--apis"&gt;Infra &amp;amp; APIs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blazeai.boxu.dev"&gt;BlazeAPI&lt;/a&gt;: 免费 AI API Gateway（每日额度1000次适合测试）。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/NetEase/skills"&gt;NetEase skills&lt;/a&gt;: agent skills 集合。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dominant-strategies/entropic"&gt;entropic&lt;/a&gt;: 开源项目关注。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="math--reading"&gt;Math &amp;amp; Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.zhihu.com/question/434416246/answer/2018436999774753825"&gt;矩阵方程 AX+XB=C 的解怎么表达？&lt;/a&gt;: 从向量化到 LU/QR/迭代法都有覆盖，最后还提到了积分表达。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.zhihu.com/question/2017158298030321813/answer/2017979521509367875"&gt;range 为什么是左闭右开？&lt;/a&gt;: 语言设计细节讨论。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.zhihu.com/question/2017158298030321813/answer/2017979521509367875"&gt;如何评价 DeepSeek V3.1 token 被替换为「极」？&lt;/a&gt;: 本条与上一条当前是同一链接，后续可替换为正确来源。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://friedl.app.uni-regensburg.de/papers/1t-total-public-october-7-2024.pdf"&gt;5000 页拓扑学教材 PDF&lt;/a&gt;: 超大体量参考资料。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="life"&gt;Life&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/lifedever/health-tick-release"&gt;HealthTick&lt;/a&gt;: macOS 菜单栏久坐提醒工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://spire2.wanwiki.com/zh-CN"&gt;杀戮尖塔2 百科&lt;/a&gt;: 游戏百科站点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agent-platform"&gt;Agent Platform&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/generalaction/emdash"&gt;Emdash&lt;/a&gt;: 多 coding agent 并行协作平台。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pingdotgg/t3code"&gt;t3code&lt;/a&gt;: coding agent 聚合平台。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="rendering"&gt;Rendering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/erweixin/RaTeX"&gt;RaTeX&lt;/a&gt;: Rust 原生 KaTeX 兼容渲染引擎。&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<p>这周重点还是 AI Coding Agent、开发者工具链和一些高质量技术阅读。</p>
+<h2 id="ai-coding-agents">AI Coding Agents</h2>
+<ul>
+<li><a href="https://github.com/mos1128/ccg-gateway">ccg-gateway</a>: 为 Claude Code、Codex、Gemini CLI 提供网关和配置管理，适合服务商不稳定、需要频繁切换的场景。</li>
+<li><a href="https://www.quotio.dev/">Quotio</a>: AI coding assistant 的 command center。</li>
+<li><a href="https://tw93.fun/2026-03-21/agent.html">你不知道的 Agent：原理、架构与工程实践</a>: 一篇偏工程化的 Agent 长文。</li>
+<li><a href="https://github.com/karpathy/autoresearch">autoresearch</a>: 自动研究流程的探索，适合闭环实验类任务。</li>
+<li><a href="https://yuanchaofa.com/post/harness-engineering-for-ai-agents">Harness Engineering — Agent 不好用，也许不是模型的问题</a>: 强调 harness 设计对 Agent 可用性的决定性作用。</li>
+<li><a href="https://developers.openai.com/codex/use-cases">Codex use cases</a>: OpenAI官方codex使用场景集合。</li>
+<li><a href="https://developers.openai.com/codex/use-cases/codebase-onboarding">Understand large codebases | Codex use cases</a>: 面向大仓库理解与改造流程的实践建议。</li>
+<li><a href="https://developers.openai.com/codex/plugins">Codex Plugins</a>: Codex 插件系统。</li>
+<li><a href="https://cc.storyfox.cz/">Claude Code Cheat Sheet</a>: 常用指令速查。</li>
+</ul>
+<p><img
+  src="/oss-images/cdf032de7236-Pasted-image-20260324175827.png"
+  alt="Pasted image 20260324175827"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h2 id="developer-tools">Developer Tools</h2>
+<ul>
+<li><a href="https://github.com/run-llama/liteparse?tab=readme-ov-file">liteparse</a>: 开源文档解析工具。</li>
+<li><a href="https://github.com/joewongjc/type4me">type4me</a>: macOS 中文语音输入开源项目，支持识别与文本优化。</li>
+<li><a href="https://x.com/i/status/2036135311839813699">Zed text alignment update</a>: 特定字符对齐功能，提升代码可读性。</li>
+<li><a href="https://stitch.withgoogle.com">Stitch</a>: Google 的 AI 设计工具，偏 Figma 工作流。</li>
+<li><a href="https://storage.to/">storage.to</a>: 文件转链接分享工具。</li>
+<li><a href="https://openclihub.com">OpenCLI Hub</a>: CLI 工具目录。</li>
+<li><a href="https://www.gitwatt.com">GitWatt</a>: 新上线的开源项目社区。</li>
+</ul>
+<h2 id="research--ai">Research &amp; AI</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2603.22458">MinerU-Diffusion (arXiv:2603.22458)</a>: 将文档 OCR 视作逆渲染问题。</li>
+<li><a href="https://magazine.sebastianraschka.com/p/visual-attention-variants">visual-attention-variants</a>: Attention 变体综述。</li>
+<li><a href="https://github.com/dair-ai/ml-visuals">ml-visuals</a>: 机器学习论文图示模板。</li>
+<li><a href="https://github.com/kennethleungty/Neural-Network-Architecture-Diagrams">Neural-Network-Architecture-Diagrams</a>: 神经网络结构图工具。</li>
+</ul>
+<h2 id="infra--apis">Infra &amp; APIs</h2>
+<ul>
+<li><a href="https://blazeai.boxu.dev">BlazeAPI</a>: 免费 AI API Gateway（每日额度1000次适合测试）。</li>
+<li><a href="https://github.com/NetEase/skills">NetEase skills</a>: agent skills 集合。</li>
+<li><a href="https://github.com/dominant-strategies/entropic">entropic</a>: 开源项目关注。</li>
+</ul>
+<h2 id="math--reading">Math &amp; Reading</h2>
+<ul>
+<li><a href="https://www.zhihu.com/question/434416246/answer/2018436999774753825">矩阵方程 AX+XB=C 的解怎么表达？</a>: 从向量化到 LU/QR/迭代法都有覆盖，最后还提到了积分表达。</li>
+<li><a href="https://www.zhihu.com/question/2017158298030321813/answer/2017979521509367875">range 为什么是左闭右开？</a>: 语言设计细节讨论。</li>
+<li><a href="https://www.zhihu.com/question/2017158298030321813/answer/2017979521509367875">如何评价 DeepSeek V3.1 token 被替换为「极」？</a>: 本条与上一条当前是同一链接，后续可替换为正确来源。</li>
+<li><a href="https://friedl.app.uni-regensburg.de/papers/1t-total-public-october-7-2024.pdf">5000 页拓扑学教材 PDF</a>: 超大体量参考资料。</li>
+</ul>
+<h2 id="life">Life</h2>
+<ul>
+<li><a href="https://github.com/lifedever/health-tick-release">HealthTick</a>: macOS 菜单栏久坐提醒工具。</li>
+<li><a href="https://spire2.wanwiki.com/zh-CN">杀戮尖塔2 百科</a>: 游戏百科站点。</li>
+</ul>
+<h2 id="agent-platform">Agent Platform</h2>
+<ul>
+<li><a href="https://github.com/generalaction/emdash">Emdash</a>: 多 coding agent 并行协作平台。</li>
+<li><a href="https://github.com/pingdotgg/t3code">t3code</a>: coding agent 聚合平台。</li>
+</ul>
+<h2 id="rendering">Rendering</h2>
+<ul>
+<li><a href="https://github.com/erweixin/RaTeX">RaTeX</a>: Rust 原生 KaTeX 兼容渲染引擎。</li>
+</ul>
+]]></content:encoded></item><item><title>第4期周刊</title><link>https://blog.yffff.de/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-4/</guid><description>&lt;h2 id="goal-driven--目标驱动"&gt;Goal-Driven / 目标驱动&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/lidangzzz/goal-driven/blob/main/readme_cn.md"&gt;goal-driven/readme_cn.md at main · lidangzzz/goal-driven · GitHub&lt;/a&gt; 一个 AI 代理框架，通过目标分解和执行来实现复杂任务。&lt;/p&gt;
 &lt;h2 id="cli-工具"&gt;CLI 工具&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/jackwener/opencli"&gt;GitHub - jackwener/opencli&lt;/a&gt; 利用 playwright mcp 提取网页信息，将任意网站变成命令行界面。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/LeoYeAI/openclaw-master-skills"&gt;GitHub - LeoYeAI/openclaw-master-skills&lt;/a&gt; 收录了 339+ 优质 OpenClaw skills 的合集，涵盖 AI、开发、生产力、营销等领域。&lt;/p&gt;</description></item><item><title>第3期周刊</title><link>https://blog.yffff.de/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-3/</guid><description>&lt;h3 id="ai-模型与推理"&gt;AI 模型与推理&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/LeoYeAI/openclaw-master-skills"&gt;GitHub - LeoYeAI/openclaw-master-skills&lt;/a&gt; 收录了 339+ 优质 OpenClaw skills 的合集，涵盖 AI、开发、生产力、营销等领域。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npx tokscale@latest&lt;/code&gt; 查看本地 agent 使用情况，追踪 token 消耗。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.rtk-ai.app"&gt;rtk — Make your AI coding agent smarter | CLI proxy&lt;/a&gt; 过滤终端命令行输出，节省 token，提升 AI 编码效率。&lt;/p&gt;
+&lt;h2 id="vphone-虚拟手机"&gt;vPhone 虚拟手机&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/34306/vphone-aio"&gt;GitHub - 34306/vphone-aio&lt;/a&gt; 一键脚本运行虚拟手机环境。
+&lt;a href="https://github.com/Lakr233/vphone-cli"&gt;GitHub - Lakr233/vphone-cli&lt;/a&gt; 命令行版本的虚拟手机工具。&lt;/p&gt;
+&lt;h2 id="设计工具"&gt;设计工具&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/open-pencil/open-pencil"&gt;GitHub - open-pencil/open-pencil&lt;/a&gt; AI 原生的设计编辑器，开源版 Figma。
+&lt;a href="https://d.qq.com/"&gt;Ardot&lt;/a&gt; 腾讯推出的在线协作设计工具，类 Figma 体验。&lt;/p&gt;
+&lt;h2 id="ai-资讯"&gt;AI 资讯&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://ai.hubtoday.app/"&gt;何夕2077的AI资讯 | 精选AI新闻与工具&lt;/a&gt; 精选 AI 新闻与工具，洞悉 AI 前沿动态。
+&lt;a href="https://ai-digest.liziran.com/zh/"&gt;AI资讯速览&lt;/a&gt; AI 资讯一站式速览。
+&lt;a href="https://imjuya.github.io/juya-ai-daily/"&gt;imjuya.github.io/juya-ai-daily/&lt;/a&gt; 每日 AI 资讯汇总。
+&lt;a href="https://linux.do/t/topic/1795033"&gt;linux.do人工智能技术日报&lt;/a&gt; Linux.do 论坛 AI 技术日报。&lt;/p&gt;
+&lt;h2 id="学习资源"&gt;学习资源&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://jyywiki.cn/OS/2026/"&gt;操作系统原理 (2026 春季学期)&lt;/a&gt; 南大操作系统课程，老师也挺有意思的。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yyzhang2025.github.io/LLM-CookBook"&gt;LLM Cookbook&lt;/a&gt; LLM 实战 cookbook，系统学习大语言模型。
+&lt;a href="https://yyzhang2025.github.io/LearningNotes/posts/100-AI-Papers/100_Papers_index.html"&gt;100 Papers with Code – Learning Note&lt;/a&gt; 100 篇 AI 经典论文学习笔记，同样该作者还有 100 paper 项目，目前已经更新了 10 篇。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://growingswe.com/blog/microgpt"&gt;MicroGPT explained interactively | growingSWE&lt;/a&gt; 交互式理解 MicroGPT 架构。
+&lt;a href="https://tianshijing.github.io/ScalingOpt/"&gt;ScalingOpt - Optimization at Scale&lt;/a&gt; 大规模优化相关研究社区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sebastianraschka.com/llm-architecture-gallery/"&gt;LLM Architecture Gallery | Sebastian Raschka, PhD&lt;/a&gt; Sebastian Raschka 的 LLM 架构图鉴，图文并茂讲解各种模型结构。
+&lt;img
+ src="https://sebastianraschka.com/llm-architecture-gallery/images/hero/architecture-gallery-hero-backup.png"
+ alt="LLM Architecture Gallery"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="隐私搜索"&gt;隐私搜索&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://searx.space/"&gt;SearXNG instances&lt;/a&gt; SearXNG 公开实例搜集，self-hosted 搜索引擎。
+&lt;img
+ src="https://blog.yffff.de/oss-images/e34ac188f373-Pasted-image-20260316141052.png"
+ alt="SearXNG instances"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="录屏工具"&gt;录屏工具&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://recordly.dev/"&gt;Recordly - Open-source app for incredible screen recordings.&lt;/a&gt; 开源录屏软件，支持高质量屏幕录制。&lt;/p&gt;
+&lt;h2 id="pdf-处理"&gt;PDF 处理&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/opendataloader-project/opendataloader-pdf"&gt;GitHub - opendataloader-project/opendataloader-pdf&lt;/a&gt; PDF 解析工具，让 PDF 数据可供 AI 使用。&lt;/p&gt;
+&lt;h2 id="ai-服务编排"&gt;AI 服务编排&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://lody.ai"&gt;Lody&lt;/a&gt; AI CLI 服务聚合平台，通过 ACP 协议，支持多端同步。
+&lt;a href="https://alma.now"&gt;Alma - Elegant AI Provider Orchestration&lt;/a&gt; 优雅的 AI 提供商编排工具。&lt;/p&gt;
+&lt;h2 id="字幕与翻译"&gt;字幕与翻译&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/buxuku/SmartSub"&gt;GitHub - buxuku/SmartSub&lt;/a&gt; 「妙幕」跨平台字幕工具，支持批量生成字幕并翻译，支持百度、火山、openai、ollama、deepseek 等多家翻译。
+&lt;a href="https://bobtranslate.com/"&gt;Bob&lt;/a&gt; 简洁高效的翻译工具。
+&lt;a href="https://github.com/pot-app/pot-desktop"&gt;GitHub - pot-app/pot-desktop&lt;/a&gt; 跨平台划词翻译和 OCR 软件。&lt;/p&gt;
+&lt;h2 id="按键显示"&gt;按键显示&lt;/h2&gt;
+&lt;p&gt;录屏时显示按键操作的神器：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://keyviz.app/"&gt;Keyviz&lt;/a&gt; - 开源免费，拥有流畅美观的动画效果和高度自定义的显示样式&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/brookhong/KeyCastOW"&gt;KeyCastOW&lt;/a&gt; - 老牌经典的开源工具，体积极小，专注于稳定清晰地显示按键&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/CNOliverZhang/Kling"&gt;Kling&lt;/a&gt; - 轻量无广告，界面简洁直观，支持快速上手使用&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycastr/keycastr"&gt;KeyCastr&lt;/a&gt; - macOS用户的经典开源选择，功能强大且可自定义显示样式&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/key-display"&gt;Key Display&lt;/a&gt; - Chrome浏览器专用插件，仅在浏览器内显示按键操作&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lowtechguys.com/keylume/"&gt;Keylume&lt;/a&gt; - mac 在桌面显示虚拟键盘，方便录屏演示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="模型运行检查"&gt;模型运行检查&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.canirun.ai/"&gt;CanIRun.ai&lt;/a&gt; 查看自己机器能跑哪些模型。
+&lt;a href="https://github.com/AlexsJones/llmfit"&gt;GitHub - AlexsJones/llmfit&lt;/a&gt; 命令行版本，一个命令找出硬件能跑的模型。&lt;/p&gt;
+&lt;h2 id="学术写作"&gt;学术写作&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.phrasebank.manchester.ac.uk/"&gt;Academic Phrasebank | The University of Manchester&lt;/a&gt; 汇总学术写作的常用语句，可以让 AI 好好学习，然后写自己的文章。&lt;/p&gt;
+&lt;h2 id="ppt-生成"&gt;PPT 生成&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/hugohe3/ppt-master"&gt;GitHub - hugohe3/ppt-master&lt;/a&gt; AI 从文档生成精美 PPT，15 个示例，229 页。&lt;/p&gt;
+&lt;h2 id="skill-管理"&gt;Skill 管理&lt;/h2&gt;
+&lt;p&gt;仅支持 mac，不过感觉还是直接用 &lt;code&gt;npx skills&lt;/code&gt; 更好：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Shpigford/chops"&gt;GitHub - Shpigford/chops&lt;/a&gt; 浏览、编辑、管理 Claude Code、Cursor、Codex 等 AI 助手的 skills。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tddworks/SkillsManager"&gt;GitHub - tddworks/SkillsManager&lt;/a&gt; 发现、安装 AI 编程助手的 skills。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="cli-转-api"&gt;CLI 转 API&lt;/h2&gt;
+&lt;p&gt;把各种 CLI 工具包装成 API 服务：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/router-for-me/CLIProxyAPI"&gt;GitHub - router-for-me/CLIProxyAPI&lt;/a&gt; 将 Gemini CLI、ChatGPT Codex、Claude Code 等包装成 OpenAI/Gemini/Claude 兼容的 API。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/lieeew/sub2api"&gt;GitHub - lieeew/sub2api&lt;/a&gt; 一站式开源中转服务，Claude、Openai、Gemini 统一接入，支持拼车共享。&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h2 id="goal-driven--目标驱动">Goal-Driven / 目标驱动</h2>
+<p><a href="https://github.com/lidangzzz/goal-driven/blob/main/readme_cn.md">goal-driven/readme_cn.md at main · lidangzzz/goal-driven · GitHub</a> 一个 AI 代理框架，通过目标分解和执行来实现复杂任务。</p>
+<h2 id="cli-工具">CLI 工具</h2>
+<p><a href="https://github.com/jackwener/opencli">GitHub - jackwener/opencli</a> 利用 playwright mcp 提取网页信息，将任意网站变成命令行界面。</p>
+<p><a href="https://github.com/LeoYeAI/openclaw-master-skills">GitHub - LeoYeAI/openclaw-master-skills</a> 收录了 339+ 优质 OpenClaw skills 的合集，涵盖 AI、开发、生产力、营销等领域。</p>
+<p><code>npx tokscale@latest</code> 查看本地 agent 使用情况，追踪 token 消耗。</p>
+<p><a href="https://www.rtk-ai.app">rtk — Make your AI coding agent smarter | CLI proxy</a> 过滤终端命令行输出，节省 token，提升 AI 编码效率。</p>
+<h2 id="vphone-虚拟手机">vPhone 虚拟手机</h2>
+<p><a href="https://github.com/34306/vphone-aio">GitHub - 34306/vphone-aio</a> 一键脚本运行虚拟手机环境。
+<a href="https://github.com/Lakr233/vphone-cli">GitHub - Lakr233/vphone-cli</a> 命令行版本的虚拟手机工具。</p>
+<h2 id="设计工具">设计工具</h2>
+<p><a href="https://github.com/open-pencil/open-pencil">GitHub - open-pencil/open-pencil</a> AI 原生的设计编辑器，开源版 Figma。
+<a href="https://d.qq.com/">Ardot</a> 腾讯推出的在线协作设计工具，类 Figma 体验。</p>
+<h2 id="ai-资讯">AI 资讯</h2>
+<p><a href="https://ai.hubtoday.app/">何夕2077的AI资讯 | 精选AI新闻与工具</a> 精选 AI 新闻与工具，洞悉 AI 前沿动态。
+<a href="https://ai-digest.liziran.com/zh/">AI资讯速览</a> AI 资讯一站式速览。
+<a href="https://imjuya.github.io/juya-ai-daily/">imjuya.github.io/juya-ai-daily/</a> 每日 AI 资讯汇总。
+<a href="https://linux.do/t/topic/1795033">linux.do人工智能技术日报</a> Linux.do 论坛 AI 技术日报。</p>
+<h2 id="学习资源">学习资源</h2>
+<p><a href="https://jyywiki.cn/OS/2026/">操作系统原理 (2026 春季学期)</a> 南大操作系统课程，老师也挺有意思的。</p>
+<p><a href="https://yyzhang2025.github.io/LLM-CookBook">LLM Cookbook</a> LLM 实战 cookbook，系统学习大语言模型。
+<a href="https://yyzhang2025.github.io/LearningNotes/posts/100-AI-Papers/100_Papers_index.html">100 Papers with Code – Learning Note</a> 100 篇 AI 经典论文学习笔记，同样该作者还有 100 paper 项目，目前已经更新了 10 篇。</p>
+<p><a href="https://growingswe.com/blog/microgpt">MicroGPT explained interactively | growingSWE</a> 交互式理解 MicroGPT 架构。
+<a href="https://tianshijing.github.io/ScalingOpt/">ScalingOpt - Optimization at Scale</a> 大规模优化相关研究社区。</p>
+<p><a href="https://sebastianraschka.com/llm-architecture-gallery/">LLM Architecture Gallery | Sebastian Raschka, PhD</a> Sebastian Raschka 的 LLM 架构图鉴，图文并茂讲解各种模型结构。
+<img
+  src="https://sebastianraschka.com/llm-architecture-gallery/images/hero/architecture-gallery-hero-backup.png"
+  alt="LLM Architecture Gallery"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h2 id="隐私搜索">隐私搜索</h2>
+<p><a href="https://searx.space/">SearXNG instances</a> SearXNG 公开实例搜集，self-hosted 搜索引擎。
+<img
+  src="/oss-images/e34ac188f373-Pasted-image-20260316141052.png"
+  alt="SearXNG instances"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h2 id="录屏工具">录屏工具</h2>
+<p><a href="https://recordly.dev/">Recordly - Open-source app for incredible screen recordings.</a> 开源录屏软件，支持高质量屏幕录制。</p>
+<h2 id="pdf-处理">PDF 处理</h2>
+<p><a href="https://github.com/opendataloader-project/opendataloader-pdf">GitHub - opendataloader-project/opendataloader-pdf</a> PDF 解析工具，让 PDF 数据可供 AI 使用。</p>
+<h2 id="ai-服务编排">AI 服务编排</h2>
+<p><a href="https://lody.ai">Lody</a> AI CLI 服务聚合平台，通过 ACP 协议，支持多端同步。
+<a href="https://alma.now">Alma - Elegant AI Provider Orchestration</a> 优雅的 AI 提供商编排工具。</p>
+<h2 id="字幕与翻译">字幕与翻译</h2>
+<p><a href="https://github.com/buxuku/SmartSub">GitHub - buxuku/SmartSub</a> 「妙幕」跨平台字幕工具，支持批量生成字幕并翻译，支持百度、火山、openai、ollama、deepseek 等多家翻译。
+<a href="https://bobtranslate.com/">Bob</a> 简洁高效的翻译工具。
+<a href="https://github.com/pot-app/pot-desktop">GitHub - pot-app/pot-desktop</a> 跨平台划词翻译和 OCR 软件。</p>
+<h2 id="按键显示">按键显示</h2>
+<p>录屏时显示按键操作的神器：</p>
+<ul>
+<li><a href="https://keyviz.app/">Keyviz</a> - 开源免费，拥有流畅美观的动画效果和高度自定义的显示样式</li>
+<li><a href="https://github.com/brookhong/KeyCastOW">KeyCastOW</a> - 老牌经典的开源工具，体积极小，专注于稳定清晰地显示按键</li>
+<li><a href="https://github.com/CNOliverZhang/Kling">Kling</a> - 轻量无广告，界面简洁直观，支持快速上手使用</li>
+<li><a href="https://github.com/keycastr/keycastr">KeyCastr</a> - macOS用户的经典开源选择，功能强大且可自定义显示样式</li>
+<li><a href="https://chrome.google.com/webstore/detail/key-display">Key Display</a> - Chrome浏览器专用插件，仅在浏览器内显示按键操作</li>
+<li><a href="https://lowtechguys.com/keylume/">Keylume</a> - mac 在桌面显示虚拟键盘，方便录屏演示</li>
+</ul>
+<h2 id="模型运行检查">模型运行检查</h2>
+<p><a href="https://www.canirun.ai/">CanIRun.ai</a> 查看自己机器能跑哪些模型。
+<a href="https://github.com/AlexsJones/llmfit">GitHub - AlexsJones/llmfit</a> 命令行版本，一个命令找出硬件能跑的模型。</p>
+<h2 id="学术写作">学术写作</h2>
+<p><a href="https://www.phrasebank.manchester.ac.uk/">Academic Phrasebank | The University of Manchester</a> 汇总学术写作的常用语句，可以让 AI 好好学习，然后写自己的文章。</p>
+<h2 id="ppt-生成">PPT 生成</h2>
+<p><a href="https://github.com/hugohe3/ppt-master">GitHub - hugohe3/ppt-master</a> AI 从文档生成精美 PPT，15 个示例，229 页。</p>
+<h2 id="skill-管理">Skill 管理</h2>
+<p>仅支持 mac，不过感觉还是直接用 <code>npx skills</code> 更好：</p>
+<ul>
+<li><a href="https://github.com/Shpigford/chops">GitHub - Shpigford/chops</a> 浏览、编辑、管理 Claude Code、Cursor、Codex 等 AI 助手的 skills。</li>
+<li><a href="https://github.com/tddworks/SkillsManager">GitHub - tddworks/SkillsManager</a> 发现、安装 AI 编程助手的 skills。</li>
+</ul>
+<h2 id="cli-转-api">CLI 转 API</h2>
+<p>把各种 CLI 工具包装成 API 服务：</p>
+<ul>
+<li><a href="https://github.com/router-for-me/CLIProxyAPI">GitHub - router-for-me/CLIProxyAPI</a> 将 Gemini CLI、ChatGPT Codex、Claude Code 等包装成 OpenAI/Gemini/Claude 兼容的 API。</li>
+<li><a href="https://github.com/lieeew/sub2api">GitHub - lieeew/sub2api</a> 一站式开源中转服务，Claude、Openai、Gemini 统一接入，支持拼车共享。</li>
+</ul>
+]]></content:encoded></item><item><title>第3期周刊</title><link>https://blog.yffff.de/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-3/</guid><description>&lt;h3 id="ai-模型与推理"&gt;AI 模型与推理&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/yzr278892/arxiv-daily-researcher"&gt;arxiv-daily-researcher&lt;/a&gt; - Arxiv 论文每日摘要推送，支持多期刊论文更新&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/jhqxxx/aha"&gt;aha&lt;/a&gt; - Rust 编写的高性能 AI 模型推理库，支持多种主流视觉和语言模型&lt;/li&gt;
@@ -98,12 +745,351 @@
 &lt;li&gt;&lt;a href="https://worldend.ai/zh-CN"&gt;WorldEnd.ai&lt;/a&gt; - AI 生成的世界末日场景&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="macos-技巧skim-高亮快捷键"&gt;macOS 技巧：Skim 高亮快捷键&lt;/h3&gt;
-&lt;p&gt;为 Skim PDF 阅读器添加选中即高亮功能，模拟 Sumatra PDF 的 &lt;code&gt;a&lt;/code&gt; 键体验：&lt;/p&gt;</description></item><item><title>第2期周刊</title><link>https://blog.yffff.de/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-2/</guid><description>&lt;h2 id="ai-项目与模型"&gt;AI 项目与模型&lt;/h2&gt;
+&lt;p&gt;为 Skim PDF 阅读器添加选中即高亮功能，模拟 Sumatra PDF 的 &lt;code&gt;a&lt;/code&gt; 键体验：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-AppleScript" data-lang="AppleScript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;tell&lt;/span&gt; &lt;span class="nb"&gt;application&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Skim&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;activate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;tell&lt;/span&gt; &lt;span class="na"&gt;document&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;theSel&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;get&lt;/span&gt; &lt;span class="nv"&gt;selection&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;theNote&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;make&lt;/span&gt; &lt;span class="nv"&gt;note&lt;/span&gt; &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="nb"&gt;data&lt;/span&gt; &lt;span class="nv"&gt;theSel&lt;/span&gt; &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="na"&gt;properties&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nv"&gt;type&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;highlight&lt;/span&gt; &lt;span class="nv"&gt;note&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nv"&gt;deep&lt;/span&gt; &lt;span class="nv"&gt;pink&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="k"&gt;tell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;保存至 &lt;code&gt;/Users/用户名/Library/Application Support/Skim/Scripts/highlight.scpt&lt;/code&gt;，然后在 &lt;strong&gt;系统设置 &amp;gt; 键盘 &amp;gt; 键盘快捷键 &amp;gt; App 快捷键&lt;/strong&gt; 中为 Skim 添加 &lt;code&gt;Ctrl+A&lt;/code&gt; 快捷键绑定。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：在 mac 上使用 OrbStack 代替 Docker Desktop 时，镜像加速配置建议直接在 OrbStack 设置中添加，而非 &lt;code&gt;~/.docker/daemon.json&lt;/code&gt;，也可配置于 &lt;code&gt;~/.orbstack/config/docker.json&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><content:encoded><![CDATA[<h3 id="ai-模型与推理">AI 模型与推理</h3>
+<ul>
+<li><a href="https://github.com/yzr278892/arxiv-daily-researcher">arxiv-daily-researcher</a> - Arxiv 论文每日摘要推送，支持多期刊论文更新</li>
+<li><a href="https://github.com/jhqxxx/aha">aha</a> - Rust 编写的高性能 AI 模型推理库，支持多种主流视觉和语言模型</li>
+<li><a href="https://github.com/Siyuan-Harry/llm-from-scratch">llm-from-scratch</a> - CS336 课程作业实现，帮助理解 LLM 训练原理</li>
+<li><a href="https://autoglm.zhipuai.cn/autoclaw/">AutoClaw</a> - 智谱推出的 OpenClaw 套壳应用，集成在 IM 中的 AI 工作空间</li>
+</ul>
+<h3 id="学术与研究工具">学术与研究工具</h3>
+<ul>
+<li><a href="https://www.alphaxiv.org/skills/alphaxiv-paper-lookup/SKILL.md">alphaxiv-paper-lookup</a> - alphaxiv 官方 Skill，快速获取结构化论文数据</li>
+<li><a href="https://github.com/CanXiangCC/aminer-open-skill">aminer-open-skill</a> - 智谱 Aminer 官方 Skill，支持论文和学者查询（含 38.8 赠金）</li>
+<li><a href="https://maartengr.github.io/BERTopic/index.html">BERTopic</a> - 基于 Transformer 的主题建模工具，支持语义理解和自动主题发现</li>
+<li><a href="https://github.com/JaredYe04/markdown-tex">markdown-tex</a> - Markdown 与 LaTeX 双向转换库，借助 AST 语法树中转</li>
+</ul>
+<h3 id="claude-code-技能与工具">Claude Code 技能与工具</h3>
+<ul>
+<li><a href="https://www.skills.sh">skills.sh</a> - Vercel 官方 Skill 目录，支持 <code>npx skills add</code> 一键安装，推荐首选</li>
+<li><a href="https://agent-skills.md/">Find awesome Agent Skills</a> - 精选的 Agent Skills 发现平台</li>
+<li><a href="https://github.com/ComposioHQ/awesome-claude-skills">awesome-claude-skills</a> - 社区整理的 Claude Skills 精选列表</li>
+<li><a href="https://www.skillhub.club/">SkillHub</a> - Claude Skills 交易市场</li>
+<li><a href="https://skillhub.tencent.com/">Tencent SkillHub</a> - 腾讯出品的 Skills 社区，专为中国用户优化</li>
+<li><a href="https://github.com/tw93/claude-health">claude-health</a> - Tw93 写的 Claude Code 项目健康检查 Skill</li>
+<li><a href="https://github.com/Haleclipse/CCometixLine">CCometixLine</a> - Rust 编写的 Claude Code 状态栏工具</li>
+<li><a href="https://github.com/matlab/skills">MATLAB Skills</a> / <a href="https://github.com/matlab/matlab-mcp-core-server">MATLAB MCP</a> - MATLAB 官方 MCP Server 和 Skill 集合</li>
+<li><a href="https://learn-claude-agents.vercel.app/zh/">Learn Claude Code</a> - 从零构建类 Claude Code Agent 的教程，每次只加一个机制</li>
+<li><a href="https://github.com/PaddlePaddle/PaddleOCR/tree/main/skills">PaddleOCR Skills</a> - PaddleOCR 官方 Skill，支持 OCR 文字识别，每天 1w 页额度。</li>
+</ul>
+<h3 id="代码仓库智能分析">代码仓库智能分析</h3>
+<ul>
+<li><a href="https://codewiki.google/">Code Wiki</a> - AI 驱动的代码仓库 Wiki 生成工具</li>
+<li><a href="https://deepwiki.com/">DeepWiki</a> - 可对话的 AI 文档，支持任意代码仓库</li>
+<li><a href="https://zread.ai/">Zread</a> - AI 代码阅读助手，生成仓库知识图谱</li>
+<li><a href="https://github.com/abhigyanpatwari/GitNexus">GitNexus</a> - 浏览器端代码知识图谱生成器，支持 Graph RAG 探索</li>
+<li>阿里的 Qoder 好像也有仓库 Wiki。</li>
+</ul>
+<h3 id="开发工具">开发工具</h3>
+<ul>
+<li><a href="https://github.com/usebruno/bruno">Bruno</a> - 开源 API 测试 IDE，Postman/Insomnia 的轻量替代品</li>
+<li><a href="https://github.com/mountain-loop/yaak">Yaak</a> - 直观的桌面 API 客户端，支持 REST/GraphQL/WebSocket/gRPC</li>
+<li><a href="https://github.com/browseros-ai/BrowserOS">BrowserOS</a> - 开源 Agentic 浏览器，ChatGPT Atlas/Perplexity Comet 的替代品</li>
+<li><a href="https://datawhalechina.github.io/hello-claw/cn/build/">Hello Claw</a> - Datawhale 出品的 OpenClaw 指南，包含原理和实现</li>
+</ul>
+<h3 id="网页内容提取">网页内容提取</h3>
+<ul>
+<li><a href="https://github.com/kepano/defuddle">defuddle</a> / <a href="https://defuddle.md/">在线版</a> - Obsidian CEO 出品的网页转 Markdown 工具，已经内置在官方剪藏插件了。在线版里可以直接拖拽到书签栏，点击即可抓取和复制。</li>
+<li><a href="https://markdown.new/">markdown.new</a> - Cloudflare 驱动的 URL 转 Markdown 服务</li>
+<li><a href="https://pure.md">pure.md</a> - LLM 与网页之间的全局缓存服务（收费）</li>
+<li><a href="https://jina.ai/reader">Jina Reader</a> - 在 URL 前加 <code>r.jina.ai/</code> 即可提取内容</li>
+<li><a href="https://create360.ai/">create360.ai</a> - 类似 Jina Reader 的网页内容提取服务</li>
+<li><a href="https://github.com/teng-lin/agent-fetch">agent-fetch</a> - 为 Agent 优化的网页抓取工具</li>
+</ul>
+<h3 id="实用工具">实用工具</h3>
+<ul>
+<li><a href="https://status.1panel.top/">容器镜像监控</a> - Docker 镜像加速节点状态监控</li>
+<li><a href="https://xuanyuan.cloud/">轩辕镜像</a> - Docker 镜像高效稳定拉取服务</li>
+<li><a href="https://github.com/stonerl/Thaw">Thaw</a> - macOS 菜单栏管理工具，Ice 的继任者</li>
+<li><a href="https://tools.rmv.fyi/">delphitools</a> - 实用小工具集合：单位换算、符号计算、PDF/文本处理等</li>
+<li><a href="https://github.com/yousifamanuel/terraink">terraink</a> - 地图海报生成引擎，创建独特可定制的 cartographic poster</li>
+<li><a href="https://sli.dev/guide/work-with-ai">Slidev</a> - 基于 Web 的开发者演示工具，支持 CLI 和 AI Skill</li>
+<li><a href="https://snowshot.top/">snowshot</a> / <a href="https://github.com/KartikLabhshetwar/better-shot">better-shot</a> - 截图美化工具</li>
+<li><a href="https://github.com/hanebox/ekphos">ekphos</a> - 终端版 Markdown 研究工具，灵感来自 Obsidian</li>
+</ul>
+<h3 id="学习资源与可视化">学习资源与可视化</h3>
+<ul>
+<li><a href="https://tools.simonwillison.net/sort-algorithms">Sorting algorithms</a> - Simon Willison 制作的排序算法可视化交互页面</li>
+<li><a href="https://ee259.stanford.edu/">Principles of Sensing for Autonomy</a> - Stanford 自主系统感知原理课程</li>
+</ul>
+<h3 id="趣味项目">趣味项目</h3>
+<ul>
+<li><a href="https://worldend.ai/zh-CN">WorldEnd.ai</a> - AI 生成的世界末日场景</li>
+</ul>
+<h3 id="macos-技巧skim-高亮快捷键">macOS 技巧：Skim 高亮快捷键</h3>
+<p>为 Skim PDF 阅读器添加选中即高亮功能，模拟 Sumatra PDF 的 <code>a</code> 键体验：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-AppleScript" data-lang="AppleScript"><span class="line"><span class="cl"><span class="k">tell</span> <span class="nb">application</span> <span class="s2">&#34;Skim&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">activate</span>
+</span></span><span class="line"><span class="cl">    <span class="k">tell</span> <span class="na">document</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">set</span> <span class="nv">theSel</span> <span class="k">to</span> <span class="p">(</span><span class="k">get</span> <span class="nv">selection</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">set</span> <span class="nv">theNote</span> <span class="k">to</span> <span class="nb">make</span> <span class="nv">note</span> <span class="k">with</span> <span class="nb">data</span> <span class="nv">theSel</span> <span class="k">with</span> <span class="na">properties</span> <span class="p">{</span><span class="nv">type</span><span class="p">:</span><span class="nb">highlight</span> <span class="nv">note</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span><span class="nv">deep</span> <span class="nv">pink</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">end</span> <span class="k">tell</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span> <span class="k">tell</span>
+</span></span></code></pre></div><p>保存至 <code>/Users/用户名/Library/Application Support/Skim/Scripts/highlight.scpt</code>，然后在 <strong>系统设置 &gt; 键盘 &gt; 键盘快捷键 &gt; App 快捷键</strong> 中为 Skim 添加 <code>Ctrl+A</code> 快捷键绑定。</p>
+<blockquote>
+<p>注：在 mac 上使用 OrbStack 代替 Docker Desktop 时，镜像加速配置建议直接在 OrbStack 设置中添加，而非 <code>~/.docker/daemon.json</code>，也可配置于 <code>~/.orbstack/config/docker.json</code></p>
+</blockquote>
+]]></content:encoded></item><item><title>第2期周刊</title><link>https://blog.yffff.de/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-2/</guid><description>&lt;h2 id="ai-项目与模型"&gt;AI 项目与模型&lt;/h2&gt;
 &lt;h3 id="wifi-densepose--ruview"&gt;WiFi DensePose → RuView&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ruvnet/wifi-densepose"&gt;GitHub - ruvnet/wifi-densepose&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;将 WiFi 信号转化为实时人体姿态估计、生命体征监测和存在检测——无需任何视频画面。通过分析信道状态信息（CSI）扰动，结合信号处理和机器学习重建人体姿态、呼吸频率和心跳。&lt;/p&gt;</description></item><item><title>第1期周刊</title><link>https://blog.yffff.de/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-1/</guid><description>&lt;p&gt;第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。&lt;/p&gt;
+&lt;p&gt;将 WiFi 信号转化为实时人体姿态估计、生命体征监测和存在检测——无需任何视频画面。通过分析信道状态信息（CSI）扰动，结合信号处理和机器学习重建人体姿态、呼吸频率和心跳。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;观察&lt;/strong&gt;：这个项目突然爆火到 15k star，看了&lt;a href="https://juejin.cn/post/7611424094525931561"&gt;掘金上的分析&lt;/a&gt;才发现主要是 vibe coding 出来的。现已改名 RuView，README 很精美（估计全用 Claude Code 写的）。AI 时代需要提升分辨能力，多自己思考。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="ace-music"&gt;ACE Music&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://acemusic.ai"&gt;acemusic.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;阶跃星辰的音乐生成模型。&lt;/p&gt;
+&lt;h2 id="开发工具与平台"&gt;开发工具与平台&lt;/h2&gt;
+&lt;h3 id="obsidian-cli-支持"&gt;Obsidian CLI 支持&lt;/h3&gt;
+&lt;p&gt;笔记软件 &lt;a href="https://www.obsidian.md"&gt;Obsidian&lt;/a&gt; 新版本支持 CLI，更方便 Agent 进行笔记管理。同时支持拖拽图片右下角调整大小，不再需要第三方插件。&lt;/p&gt;
+&lt;h3 id="torchcode"&gt;TorchCode&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/duoan/TorchCode"&gt;GitHub - duoan/TorchCode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyTorch 版 LeetCode——练习从零实现 softmax、attention、GPT-2 等，支持即时自动评分。基于 Jupyter，可自托管或在线使用。&lt;/p&gt;
+&lt;h3 id="agent-skill-工具生态"&gt;Agent Skill 工具生态&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;工具&lt;/th&gt;
+ &lt;th&gt;Agent数&lt;/th&gt;
+ &lt;th&gt;特点&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Vercel Skills / add-skill&lt;/td&gt;
+ &lt;td&gt;20+&lt;/td&gt;
+ &lt;td&gt;官方生态，最稳&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;empjs/skill (eskill)&lt;/td&gt;
+ &lt;td&gt;13+&lt;/td&gt;
+ &lt;td&gt;统一存储，symlink分发&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Skillkit&lt;/td&gt;
+ &lt;td&gt;32+&lt;/td&gt;
+ &lt;td&gt;内置15000+技能&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;agent-skills-cli&lt;/td&gt;
+ &lt;td&gt;42+&lt;/td&gt;
+ &lt;td&gt;最多兼容&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;skill-linker&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;轻量CLI，TUI交互&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;agent-skills-hub&lt;/td&gt;
+ &lt;td&gt;18+&lt;/td&gt;
+ &lt;td&gt;Python生态，跨平台&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;通用安装&lt;/strong&gt;：&lt;code&gt;npx &amp;lt;工具&amp;gt; add &amp;lt;技能仓库&amp;gt; --all --global&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="ai-digest"&gt;AI-digest&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/jackwener/AI-digest"&gt;GitHub - jackwener/AI-digest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自动总结今天使用 Agent 的情况。&lt;/p&gt;
+&lt;h3 id="readout"&gt;Readout&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.readout.org/"&gt;readout.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Agent 开发环境仪表盘。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://pbs.twimg.com/media/HCJ6sF_aQAAbqjE?format=jpg&amp;amp;name=large"
+ alt="Twitter 图片"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="文档与学术工具"&gt;文档与学术工具&lt;/h2&gt;
+&lt;h3 id="sjtu-tex"&gt;SJTU TeX&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sjtug/SJTUTeX"&gt;GitHub - sjtug/SJTUTeX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上海交通大学的 LaTeX 模板，包含学位论文、文章和报告模板，有不少不错的特效。可以作为 LaTeX 模板制作参考，或去掉 SJTU 元素变成自己的模板。&lt;/p&gt;
+&lt;h3 id="ai-论文简报"&gt;AI 论文简报&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ai-brief.liziran.com/zh/"&gt;ai-brief.liziran.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;每天精选几篇论文，支持 RSS 订阅。&lt;/p&gt;
+&lt;h3 id="somark"&gt;Somark&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://somark.tech/"&gt;somark.tech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文档智能引擎，又一个类似 Doc2x、MinerU 的 OCR 平台，效果不错。&lt;/p&gt;
+&lt;h2 id="创意工具与可视化"&gt;创意工具与可视化&lt;/h2&gt;
+&lt;h3 id="now-i-get-it"&gt;Now I Get It!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nowigetit.us/"&gt;nowigetit.us&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="paper2galgame"&gt;Paper2Galgame&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.paper2gal.top/"&gt;paper2gal.top&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;将论文转化为视觉小说的 AI 论文阅读器。&lt;/p&gt;
+&lt;h2 id="深度阅读与学习资源"&gt;深度阅读与学习资源&lt;/h2&gt;
+&lt;h3 id="neural-scaling-laws-trilogy"&gt;Neural Scaling Laws Trilogy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://liuyz0.github.io/blog/2026/NSLT/"&gt;Yizhou Liu 的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;关于表示、变换和训练的缩放定律三部曲。&lt;/p&gt;
+&lt;h3 id="msgsxjblog-归档"&gt;msgsxj&amp;rsquo;blog 归档&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://msgsxj.cn/archives/"&gt;msgsxj.cn/archives&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;聚焦机器学习、统计学习与优化算法的技术博客，累计 33 篇技术日志，围绕机器学习、信号处理、统计分析中的核心算法与理论。有几篇不错的文章，不过已几年没更新。&lt;/p&gt;
+&lt;h3 id="矩阵计算课程"&gt;矩阵计算课程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zsc.github.io/large_matrix/"&gt;高级大规模矩阵计算教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://math.ecnu.edu.cn/~jypan/Teaching/MC/"&gt;矩阵计算 (ECNU)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h2 id="ai-项目与模型">AI 项目与模型</h2>
+<h3 id="wifi-densepose--ruview">WiFi DensePose → RuView</h3>
+<ul>
+<li><a href="https://github.com/ruvnet/wifi-densepose">GitHub - ruvnet/wifi-densepose</a></li>
+</ul>
+<p>将 WiFi 信号转化为实时人体姿态估计、生命体征监测和存在检测——无需任何视频画面。通过分析信道状态信息（CSI）扰动，结合信号处理和机器学习重建人体姿态、呼吸频率和心跳。</p>
+<blockquote>
+<p>💡 <strong>观察</strong>：这个项目突然爆火到 15k star，看了<a href="https://juejin.cn/post/7611424094525931561">掘金上的分析</a>才发现主要是 vibe coding 出来的。现已改名 RuView，README 很精美（估计全用 Claude Code 写的）。AI 时代需要提升分辨能力，多自己思考。</p>
+</blockquote>
+<h3 id="ace-music">ACE Music</h3>
+<ul>
+<li><a href="https://acemusic.ai">acemusic.ai</a></li>
+</ul>
+<p>阶跃星辰的音乐生成模型。</p>
+<h2 id="开发工具与平台">开发工具与平台</h2>
+<h3 id="obsidian-cli-支持">Obsidian CLI 支持</h3>
+<p>笔记软件 <a href="https://www.obsidian.md">Obsidian</a> 新版本支持 CLI，更方便 Agent 进行笔记管理。同时支持拖拽图片右下角调整大小，不再需要第三方插件。</p>
+<h3 id="torchcode">TorchCode</h3>
+<ul>
+<li><a href="https://github.com/duoan/TorchCode">GitHub - duoan/TorchCode</a></li>
+</ul>
+<p>PyTorch 版 LeetCode——练习从零实现 softmax、attention、GPT-2 等，支持即时自动评分。基于 Jupyter，可自托管或在线使用。</p>
+<h3 id="agent-skill-工具生态">Agent Skill 工具生态</h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具</th>
+          <th>Agent数</th>
+          <th>特点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vercel Skills / add-skill</td>
+          <td>20+</td>
+          <td>官方生态，最稳</td>
+      </tr>
+      <tr>
+          <td>empjs/skill (eskill)</td>
+          <td>13+</td>
+          <td>统一存储，symlink分发</td>
+      </tr>
+      <tr>
+          <td>Skillkit</td>
+          <td>32+</td>
+          <td>内置15000+技能</td>
+      </tr>
+      <tr>
+          <td>agent-skills-cli</td>
+          <td>42+</td>
+          <td>最多兼容</td>
+      </tr>
+      <tr>
+          <td>skill-linker</td>
+          <td>-</td>
+          <td>轻量CLI，TUI交互</td>
+      </tr>
+      <tr>
+          <td>agent-skills-hub</td>
+          <td>18+</td>
+          <td>Python生态，跨平台</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>通用安装</strong>：<code>npx &lt;工具&gt; add &lt;技能仓库&gt; --all --global</code></p>
+<h3 id="ai-digest">AI-digest</h3>
+<ul>
+<li><a href="https://github.com/jackwener/AI-digest">GitHub - jackwener/AI-digest</a></li>
+</ul>
+<p>自动总结今天使用 Agent 的情况。</p>
+<h3 id="readout">Readout</h3>
+<ul>
+<li><a href="https://www.readout.org/">readout.org</a></li>
+</ul>
+<p>Agent 开发环境仪表盘。</p>
+<p><img
+  src="https://pbs.twimg.com/media/HCJ6sF_aQAAbqjE?format=jpg&amp;name=large"
+  alt="Twitter 图片"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h2 id="文档与学术工具">文档与学术工具</h2>
+<h3 id="sjtu-tex">SJTU TeX</h3>
+<ul>
+<li><a href="https://github.com/sjtug/SJTUTeX">GitHub - sjtug/SJTUTeX</a></li>
+</ul>
+<p>上海交通大学的 LaTeX 模板，包含学位论文、文章和报告模板，有不少不错的特效。可以作为 LaTeX 模板制作参考，或去掉 SJTU 元素变成自己的模板。</p>
+<h3 id="ai-论文简报">AI 论文简报</h3>
+<ul>
+<li><a href="https://ai-brief.liziran.com/zh/">ai-brief.liziran.com</a></li>
+</ul>
+<p>每天精选几篇论文，支持 RSS 订阅。</p>
+<h3 id="somark">Somark</h3>
+<ul>
+<li><a href="https://somark.tech/">somark.tech</a></li>
+</ul>
+<p>文档智能引擎，又一个类似 Doc2x、MinerU 的 OCR 平台，效果不错。</p>
+<h2 id="创意工具与可视化">创意工具与可视化</h2>
+<h3 id="now-i-get-it">Now I Get It!</h3>
+<ul>
+<li><a href="https://nowigetit.us/">nowigetit.us</a></li>
+</ul>
+<h3 id="paper2galgame">Paper2Galgame</h3>
+<ul>
+<li><a href="https://www.paper2gal.top/">paper2gal.top</a></li>
+</ul>
+<p>将论文转化为视觉小说的 AI 论文阅读器。</p>
+<h2 id="深度阅读与学习资源">深度阅读与学习资源</h2>
+<h3 id="neural-scaling-laws-trilogy">Neural Scaling Laws Trilogy</h3>
+<ul>
+<li><a href="https://liuyz0.github.io/blog/2026/NSLT/">Yizhou Liu 的博客</a></li>
+</ul>
+<p>关于表示、变换和训练的缩放定律三部曲。</p>
+<h3 id="msgsxjblog-归档">msgsxj&rsquo;blog 归档</h3>
+<ul>
+<li><a href="https://msgsxj.cn/archives/">msgsxj.cn/archives</a></li>
+</ul>
+<p>聚焦机器学习、统计学习与优化算法的技术博客，累计 33 篇技术日志，围绕机器学习、信号处理、统计分析中的核心算法与理论。有几篇不错的文章，不过已几年没更新。</p>
+<h3 id="矩阵计算课程">矩阵计算课程</h3>
+<ul>
+<li><a href="https://zsc.github.io/large_matrix/">高级大规模矩阵计算教程</a></li>
+<li><a href="https://math.ecnu.edu.cn/~jypan/Teaching/MC/">矩阵计算 (ECNU)</a></li>
+</ul>
+]]></content:encoded></item><item><title>第1期周刊</title><link>https://blog.yffff.de/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-1/</guid><description>&lt;p&gt;第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。&lt;/p&gt;
 &lt;h2 id="ai--machine-learning"&gt;AI &amp;amp; Machine Learning&lt;/h2&gt;
 &lt;h3 id="models--frameworks"&gt;Models &amp;amp; Frameworks&lt;/h3&gt;
 &lt;ul&gt;
@@ -249,4 +1235,154 @@
 &lt;h3 id="novel-concepts"&gt;Novel Concepts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa"&gt;Frequency-as-Aperture (FaA)&lt;/a&gt;传统传感器阵列孔径依靠物理间距实现大孔径，从而实现高空间分辨率，而 FaA 根据频率变化来实现虚拟孔径，增加了另一种自由度。&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>About Me</title><link>https://blog.yffff.de/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yffff.de/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yfff.&lt;/p&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description><content:encoded><![CDATA[<p>第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。</p>
+<h2 id="ai--machine-learning">AI &amp; Machine Learning</h2>
+<h3 id="models--frameworks">Models &amp; Frameworks</h3>
+<ul>
+<li>xAI 发布了<a href="https://grok.com/">Grok</a>4.2，四个 Agent 同时工作，具有很强的搜索能力。</li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/">Gemini 3.1 Pro: Announcing our latest Gemini AI model</a>Gemini 3.1 pro 发布！
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_3-1-pro__benchmarks.gif"
+  alt="1000"
+  
+  loading="lazy"
+  decoding="async"
+>
+</li>
+<li><a href="https://github.com/fishaudio/fish-speech">GitHub - fishaudio/fish-speech: SOTA Open Source TTS</a>文本转语音和声音克隆。</li>
+<li><a href="https://github.com/stepfun-ai/NextStep-1">GitHub - stepfun-ai/NextStep-1: \[🚀 ICLR 2026 Oral\] NextStep-1: SOTA Autogressive Image Generation with Continuous Tokens. A research project developed by the StepFun&rsquo;s Multimodal Intelligence team.</a>阶跃星辰的自回归图像生成模型 NextStep-1。</li>
+</ul>
+<h3 id="papers--research">Papers &amp; Research</h3>
+<ul>
+<li><a href="https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code">GitHub - MaximeVandegar/Papers-in-100-Lines-of-Code: Implementation of papers in 100 lines of code.</a>使用精简的代码来复现 AI 领域经典的 Paper。</li>
+<li><a href="https://www.zhihu.com/question/1911022705769152635/answer/2004915744811529185">如何评价anthropic在可解释性方面工作？ - 旷野的回答 - 知乎</a>一文梳理 Anthropic 的可解释性研究，挺有意思的。</li>
+<li><a href="https://arxiv.org/abs/2602.15322">\[2602.15322\] On Surprising Effectiveness of Masking Updates in Adaptive Optimizers</a>一个新的优化器Momentum-aligned gradient masking (Magma)</li>
+<li><a href="https://github.com/ResearAI/AutoFigure-Edit">GitHub - ResearAI/AutoFigure-Edit</a>AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations, ICLR2026.</li>
+</ul>
+<h3 id="ai-hardware">AI Hardware</h3>
+<ul>
+<li><a href="https://taalas.com/">Taalas | The model is The Computer</a>又一家 AI 推理芯片公司
+<ul>
+<li><a href="https://taalas.com/the-path-to-ubiquitous-ai/">The path to ubiquitous AI | Taalas</a>超快的 AI 推理芯片 HC1，在 LLAMA 3.1 8B 上推理速度约为 17k token/s。
+<img
+  src="https://taalas.com/h-content/uploads/2026/02/graph.png"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</li>
+<li>对话体验入口：<a href="https://chatjimmy.ai/">chat jimmy</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="ai-agents--tools">AI Agents &amp; Tools</h3>
+<ul>
+<li><a href="https://lobsterai.youdao.com/">LobsterAI - 有道 AI Agent 产品</a>网易有道出品的开源 AI Agent 客户端，类似于 Cowork、Openclaw等产品</li>
+<li><a href="https://github.com/RightNow-AI/openfang">GitHub - RightNow-AI/openfang: Open-source Agent Operating System</a>又一个类似于 OpenClaw 的 Agent 产品。</li>
+<li><a href="https://github.com/1rgs/nanocode">GitHub - 1rgs/nanocode: Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.</a>一个 Python文件制作一个最小化的 Code Agent。</li>
+<li>[GitHub - minorcell/memo-code: A lightweight coding agent that runs in your terminal.] 网站：<a href="https://memo.mcell.top">Memo CLI - AI Coding Agent for Terminal</a>作者在<a href="https://juejin.cn/post/7605800124883288070">为什么 Memo Code 先做 CLI：以及终端输入框到底有多难搞 </a>中介绍了终端输入的难点。</li>
+<li><a href="https://happy.engineering/">Happy - Claude Code Mobile Client</a>支持在手机上远程操作电脑上的 Claude Code 和 Codex，不过个人感觉不是那么好用。</li>
+<li><a href="https://github.com/qwibitai/nanoclaw">GitHub - qwibitai/nanoclaw: A lightweight alternative to Clawdbot / OpenClaw that runs in containers for security. Connects to WhatsApp, has memory, scheduled jobs, and runs directly on Anthropic&rsquo;s Agents SDK</a></li>
+<li><a href="https://github.com/shareAI-lab/claw0">GitHub - shareAI-lab/claw0: 0 - 1 learn OpenClaw: sections to build an claw-AI agent from scratch</a></li>
+<li><a href="https://github.com/Panniantong/Agent-Reach">GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</a>让 Agent 访问社交媒体、流媒体等平台。</li>
+</ul>
+<h2 id="development-tools">Development Tools</h2>
+<h3 id="ides--editors">IDEs &amp; Editors</h3>
+<ul>
+<li><a href="https://github.com/GCWing/BitFun">GitHub - GCWing/BitFun: BitFun is an Agentic Development Environment (ADE，AI IDE) featuring a cutting-edge Code Agent system with four modes — Agentic, Plan, Debug, and Review. Extensible via MCP, Skills, custom Agents and Rules. Built with Rust + TypeScript for an ultra-lightweight, fluid cross-platform experience.</a></li>
+<li><a href="https://md.nowornever.work/">Markdown Now — Fast, Lightweight Native macOS Markdown Editor</a>使用 Rust 和 GPUI 制作的 markdown 编辑器，目前还很简陋。</li>
+<li><a href="https://www.claritynotes.xyz">{clarity}</a>一个支持 LaTeX 和 Typst 的在线编辑器。</li>
+</ul>
+<h3 id="terminals">Terminals</h3>
+<ul>
+<li>三个支持垂直标签页的终端
+<ul>
+<li><a href="https://ghostree.app/">ghostree — Worktree-Aware Terminal for Ghostty</a></li>
+<li><a href="https://www.cmux.dev/">cmux — The terminal built for multitasking</a></li>
+<li><a href="https://supacode.sh/">Supacode</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="utilities">Utilities</h3>
+<ul>
+<li><a href="https://github.com/debugtheworldbot/keyStats">GitHub - debugtheworldbot/keyStats: Keyboard &amp; Mouse Stats for macOS/Windows</a>一款记录分析键盘和鼠标使用记录的 app，支持 MacOs 和 Windows。</li>
+<li><a href="https://github.com/caomengxuan666/WinuxCmd">GitHub - caomengxuan666/WinuxCmd: Lightweight, native Windows implementation of Linux commands | 900KB only | AI-friendly</a>在 Window 终端使用 Linux 命令。</li>
+<li><a href="https://github.com/xxnuo/MTranServer">GitHub - xxnuo/MTranServer: Offline translation model server with low resource consumption, fast speed, and private deployment capability. 低资源占用速度快可私有部署的离线翻译模型服务器</a>本地离线翻译，如果在无网或受限环境需要用到翻译，可以试试。</li>
+<li><a href="https://github.com/tonyantony300/alt-sendme">GitHub - tonyantony300/alt-sendme: Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions.</a>多端文件传输工具，不依赖中转。</li>
+</ul>
+<h2 id="web--browser">Web &amp; Browser</h2>
+<h3 id="web-services">Web Services</h3>
+<ul>
+<li><a href="https://www.mockdown.design/">Mockdown — ASCII Wireframe Editor</a>是一款无需注册安装、完全在线运行的免费ASCII线框编辑器，可帮助用户快速绘制低保真UI原型、文本风格示意图，支持导出Markdown格式成果。</li>
+<li><a href="https://scour.ing">Scour</a>是一款基于语义匹配的个性化内容聚合器，能从 Hacker News、Reddit、arXiv 及数千个博客中挖掘符合你描述的兴趣（无论多小众）的&quot;隐藏宝石&quot;文章。初步使用下来体验不错，还支持 RSS 订阅。</li>
+<li><a href="https://clean.lazyso.com/">LazySo 懒人去水印</a>去除 AI 生成图片的水印，支持 gemini、NotebookLM、豆包、即梦、可灵等</li>
+<li><a href="https://markdown.new/">markdown.new - Markdown for Agents | Cloudflare-Powered URL to Markdown</a>将网页内容转换为 markdown，免费哦，可以集成到自己的网站。</li>
+<li><a href="https://wispbyte.com">Wispbyte - Free 24/7 Hosting</a>提供一个免费的 24/7 服务器。</li>
+<li><a href="https://rxresu.me/">Reactive Resume — A free and open-source resume builder</a>在线生成简历。</li>
+<li><a href="https://trendshift.io/">Trendshift</a>发现受欢迎的开源项目和开发者。</li>
+<li><a href="https://presearch.com">Presearch - Private search engine. No Tracking.</a>一个去中心化搜索引擎，有 NSFW 模式。</li>
+</ul>
+<h3 id="browser-extensions">Browser Extensions</h3>
+<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/foxytab/">FoxyTab – Get this Extension for 🦊 Firefox (en-US)</a>跟浏览器打开的 Tab 有关的插件，例如批量复制 Tabs 的 URL。</li>
+</ul>
+<h3 id="rss--news">RSS &amp; News</h3>
+<ul>
+<li><a href="https://github.com/WCY-dt/MrRSS">GitHub - WCY-dt/MrRSS: A modern, cross-platform, and free AI RSS reader. 一个现代化、跨平台且免费的 AI RSS 阅读器.</a>又一个不错的 RSS 客户端，支持跨平台，目前功能支持不错，有打算放弃使用 NetNewswire 使用 MrRSS 的念头了，感觉 UI 和交互还差了一点意思，不过快捷键比较像 Vim，这一点很舒服。</li>
+<li><a href="https://github.com/IronsideXXVI/Hacker-News">GitHub - IronsideXXVI/Hacker-News: A native macOS client for Hacker News, built with SwiftUI</a>Mac 原生 Hacker News 客户端
+<img
+  src="https://github.com/IronsideXXVI/Hacker-News/raw/main/.github/screenshots/stories-grid.png"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</li>
+</ul>
+<h2 id="research--learning">Research &amp; Learning</h2>
+<h3 id="educational-resources">Educational Resources</h3>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/2000571234996479582">这大概是我读过关于AI大模型最全面、好读又易懂的文章了 - 腾讯技术工程的文章 - 知乎</a>这篇文章以&quot;怕被AI甩在身后&quot;的个人焦虑为切入，用通俗易懂的语言从神经网络基础讲起，系统拆解了大模型的推理、训练、GPU基础设施新要求，以及通过Agent使用大模型的方式，为普通读者绘制了一幅清晰完整的AI大模型全景图。</li>
+<li><a href="https://themodernsoftware.dev/">CS146S: The Modern Software Developer - Stanford University</a>斯坦福开设的现代软件开发课程，结合现在的 LLM Coding。</li>
+<li><a href="https://markelic.de/">Master the Math – Your Friendly Guide to the Rigorous Mathematics of Artificial Intelligence, Machine Learning, and Data Science</a></li>
+</ul>
+<h3 id="research-tools">Research Tools</h3>
+<ul>
+<li><a href="https://arxivlens.com/">ArxivLens - Discover Breakthrough Research Instantly - Arxivlens</a>支持以下内容：
+<ul>
+<li>ArXiv: Preprints in physics, mathematics, computer science</li>
+<li>PubMed: Peer-reviewed biomedical and life science literature</li>
+<li>BioRxiv: Biology preprints and life sciences research</li>
+<li>MedRxiv: Medical, clinical, and health sciences preprints</li>
+</ul>
+</li>
+<li><a href="https://github.com/bienz2/BibChecker">GitHub - bienz2/BibChecker: Analyzes IEEE and ACM format bibliographies for correctness. Only to be used as a first pass. Anything that cannot be found automatically should be checked by hand.</a>分析论文引用格式的正确性，不依赖 AI 工具。</li>
+<li><a href="https://github.com/karakeep-app/karakeep">GitHub - karakeep-app/karakeep: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search</a>自托管的浏览器书签收集整理工具，也支持笔记和图片，如果你也像我一样有囤积癖，收藏了大量书签而不想整理，可以试试。</li>
+</ul>
+<h3 id="mathematics--algorithms">Mathematics &amp; Algorithms</h3>
+<ul>
+<li><a href="https://github.com/neyof03/linear-algebra-3blue1brown-notes">GitHub - neyof03/linear-algebra-3blue1brown-notes: 📥 Access comprehensive lecture notes for 3Blue1Brown&rsquo;s Essence of Linear Algebra in English and Persian, covering key concepts in a clear format.</a>3Blue1Brown 的线性代数笔记。</li>
+<li><a href="https://www.wmyskxz.cn/elevator-scheduling-algorithm/">电梯怎么决定先去几楼？——从日常等电梯到磁盘调度算法 - 我没有三颗心脏的博客</a>讲解了几种电梯调度算法，简单易懂，并拓展至磁盘调度等操作系统里的应用。</li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_model">Gaussian Mixture Models</a> 假设数据是由多个高斯分布混合而成，是一种概率模型，我们需要估计每一个数据点属于其中一个高斯分布的概率，模型由三类参数定义：1. 每个高斯分布的占比多少；2. 每个高斯分布的均值；3. 每个高斯分布的协方差矩阵。可以用于聚类、密度估计、异常检测(如果一个数据点属于任意一个高斯分布的概率都很小，则很有可能是噪声点)等应用。</li>
+</ul>
+<h2 id="design--media">Design &amp; Media</h2>
+<h3 id="design-tools">Design Tools</h3>
+<ul>
+<li><a href="https://framer.net.cn/">Framer中文网 2026 | 免费Framer模板、组件库 | Framer教程 | 让设计稿直接发布为网站</a></li>
+<li><a href="https://github.com/lukilabs/beautiful-mermaid">GitHub - lukilabs/beautiful-mermaid</a>将 Mermaid 渲染为 SVG 和 ASCLL 字符画，由 <a href="https://www.craft.do">Craft</a> 团队打造，他们还做了一个 AI Agent 客户端<a href="https://agents.craft.do">Craft Agent</a>。</li>
+<li><a href="https://github.com/BIT-DataLab/Edit-Banana">GitHub - BIT-DataLab/Edit-Banana: Edit Banana: A framework for converting statistical formats into editable.</a>将 AI 生成的图片转换为可编辑内容，以支持 PPT 和 draw.io，方便快速制作流程图，论文示意图等。</li>
+</ul>
+<h2 id="emerging-technologies">Emerging Technologies</h2>
+<h3 id="wireless--communications">Wireless &amp; Communications</h3>
+<ul>
+<li>看到一个挺有意思的 Stacked Intelligent Metasurfaces，中文名叫做层叠超表面。主要作者有：<a href="https://jiancheng-an.github.io/">Jiancheng An</a>，更多见<a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:stacked_intelligent_metasurface">search_author|google scholar</a>。有一篇公众号文章可以看看：<a href="https://mp.weixin.qq.com/s/RwPLWAszx5YgWLwdHHDeSw">层叠超表面赋能的无线感知与通信</a>。主要就是把多块 RIS 放在一起，电磁波在 RIS 之间的传递可以进行计算，类似于多层神经网络，如果可以实现的话应该能进行光速处理，实现更快的通信和感知。</li>
+</ul>
+<h3 id="novel-concepts">Novel Concepts</h3>
+<ul>
+<li><a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa">Frequency-as-Aperture (FaA)</a>传统传感器阵列孔径依靠物理间距实现大孔径，从而实现高空间分辨率，而 FaA 根据频率变化来实现虚拟孔径，增加了另一种自由度。</li>
+</ul>
+]]></content:encoded></item><item><title>About Me</title><link>https://blog.yffff.de/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yffff.de/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yffff.&lt;/p&gt;
+&lt;p&gt;Contact Me: &lt;a href="mailto:contact@yffff.de"&gt;contact@yffff.de&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yffff.</p>
+<p>Contact Me: <a href="mailto:contact@yffff.de">contact@yffff.de</a></p>
+]]></content:encoded></item></channel></rss>
