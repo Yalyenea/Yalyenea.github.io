@@ -108,7 +108,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 &lt;p&gt;&lt;a href="https://github.com/zai-org/GLM-skills"&gt;GitHub - zai-org/GLM-skills&lt;/a&gt; — Zhipu released GLM5v model along with open-sourced Skills.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/onyx-dot-app/onyx"&gt;GitHub - onyx-dot-app/onyx&lt;/a&gt; — Open Source AI Platform for AI Chat with advanced features, works with every LLM.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/AnalyseDeCircuit/oxideterm"&gt;GitHub - AnalyseDeCircuit/oxideterm&lt;/a&gt; — All-in-one terminal workspace: local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kexue.fm/archives/11693"&gt;kexue.fm/archives/11693&lt;/a&gt; — Brief introduction to median, describing how the mean is actually $\mathcal{L}_{2}$ norm minimization while the median is $\mathcal{L}_{1}$ norm minimization.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kexue.fm/archives/11693"&gt;kexue.fm/archives/11693&lt;/a&gt; — Brief introduction to median, describing how the mean is actually $\ell_{2}$ norm minimization while the median is $\ell_{1}$ norm minimization.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.zhihu.com/question/353863448/answer/1220814194"&gt;浅谈一下 World Model&lt;/a&gt; — About world models (sharp commentary edition).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://zread.ai/cli"&gt;Zread CLI&lt;/a&gt; — Zread CLI for analyzing local repositories using Zhipu coding subscription or your own API.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://lisette.run/"&gt;Lisette — Rust syntax, Go runtime&lt;/a&gt;&lt;/p&gt;
@@ -131,7 +131,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <p><a href="https://github.com/zai-org/GLM-skills">GitHub - zai-org/GLM-skills</a> — Zhipu released GLM5v model along with open-sourced Skills.</p>
 <p><a href="https://github.com/onyx-dot-app/onyx">GitHub - onyx-dot-app/onyx</a> — Open Source AI Platform for AI Chat with advanced features, works with every LLM.</p>
 <p><a href="https://github.com/AnalyseDeCircuit/oxideterm">GitHub - AnalyseDeCircuit/oxideterm</a> — All-in-one terminal workspace: local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages.</p>
-<p><a href="https://kexue.fm/archives/11693">kexue.fm/archives/11693</a> — Brief introduction to median, describing how the mean is actually $\mathcal{L}_{2}$ norm minimization while the median is $\mathcal{L}_{1}$ norm minimization.</p>
+<p><a href="https://kexue.fm/archives/11693">kexue.fm/archives/11693</a> — Brief introduction to median, describing how the mean is actually $\ell_{2}$ norm minimization while the median is $\ell_{1}$ norm minimization.</p>
 <p><a href="https://www.zhihu.com/question/353863448/answer/1220814194">浅谈一下 World Model</a> — About world models (sharp commentary edition).</p>
 <p><a href="https://zread.ai/cli">Zread CLI</a> — Zread CLI for analyzing local repositories using Zhipu coding subscription or your own API.</p>
 <p><a href="https://lisette.run/">Lisette — Rust syntax, Go runtime</a></p>

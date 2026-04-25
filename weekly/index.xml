@@ -1,4 +1,237 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yffff's blog</title><link>https://blog.yffff.de/weekly/</link><description>Recent content in Weeklies on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 18 Apr 2026 20:29:39 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第8期周刊</title><link>https://blog.yffff.de/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-8/</guid><description>&lt;h3 id="ai-资讯"&gt;AI 资讯&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yffff's blog</title><link>https://blog.yffff.de/weekly/</link><description>Recent content in Weeklies on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2026 20:17:46 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第9期周刊</title><link>https://blog.yffff.de/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-9/</guid><description>&lt;h3 id="ai-模型与资讯"&gt;AI 模型与资讯&lt;/h3&gt;
+&lt;p&gt;本周真是热闹的一周，deepseek-v4，gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, HY-3.0都相继发布了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md"&gt;deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub&lt;/a&gt; deepseekv4 角色扮演指南。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zcode.z.ai/"&gt;ZCode - Simple, Fast, Vibe‑Ready&lt;/a&gt;智谱的 zcode 从 tauri 改成了 electron，笑死了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feisou.app/"&gt;飞搜 - 飞书文档搜索引擎 | AI智能搜索飞书知识库、教程与干货资源&lt;/a&gt;飞书文档搜索引擎，AI 驱动搜索飞书知识库、教程与干货资源。&lt;/p&gt;
+&lt;h3 id="ai-coding--agent-平台"&gt;AI Coding / Agent 平台&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.pi-gui.com/"&gt;pi-gui — A native desktop for AI coding agents&lt;/a&gt;Pi 的 GUI，类似 Codex App 吧。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/multica-ai/multica"&gt;GitHub - multica-ai/multica: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. · GitHub&lt;/a&gt;开源 Agent 管理平台，将编码 Agent 转变为真正的队友。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/golutra/golutra"&gt;GitHub - golutra/golutra · GitHub&lt;/a&gt;又一个 Agent 编码平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://slock.ai/"&gt;Slock - Where humans and AI agents collaborate&lt;/a&gt;人类与 AI Agent 协作平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kollab.im/"&gt;Kollab&lt;/a&gt;多 Agent 协作编码平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mindfold-ai/trellis"&gt;GitHub - mindfold-ai/Trellis: The best agent harness. · GitHub&lt;/a&gt;Agent 编排框架。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mercury.cosmicstack.org/"&gt;Mercury — Soul-Driven AI Agent with Permission Guardrails | Cosmic Stack&lt;/a&gt;一个新的 24/7 Agent。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zed.dev/blog/parallel-agents"&gt;Introducing Parallel Agents in Zed — Zed&amp;rsquo;s Blog&lt;/a&gt;Zed 编辑器支持多 Agent 并行视图，提升 AI 辅助编码效率。&lt;/p&gt;
+&lt;h3 id="ai-工具"&gt;AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://quiver.ai/blog/introducing-arrow-1-1"&gt;Introducing Arrow 1.1, a step forward in SVG generation – QuiverAI&lt;/a&gt;SVG 生成模型。
+可以在&lt;a href="https://app.quiver.ai/"&gt;官网&lt;/a&gt;体验。
+&lt;img
+ src="https://quiver.ai/blog-2/Fashion%20Design.png"
+ alt="596"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+
+转向量图示例：
+&lt;img
+ src="https://blog.yffff.de/oss-images/f6b893664051-Pasted-image-20260418220643.png"
+ alt="Pasted image 20260418220643|599"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+
+画一个应用的 icon 图标：
+&lt;img
+ src="https://blog.yffff.de/oss-images/623f2519eaca-QQ_1776521566141.png"
+ alt="QQ_1776521566141|595"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mnfst/manifest"&gt;GitHub - mnfst/manifest: Smart Model Routing for Personal AI Agents. Cut Costs up to 70% 🦞👧🦚 · GitHub&lt;/a&gt;模型路由，自动决定什么任务使用什么模型，节省成本。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.github.io/euphony/"&gt;Euphony: Visualize Chat Data in Your Browser&lt;/a&gt;Codex 官方社区插件，查看你对话的数据。&lt;/p&gt;
+&lt;h3 id="研究与论文"&gt;研究与论文&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity"&gt;Literature | SigSep&lt;/a&gt;关于音乐分离的综述，还有一个对应的 Github 开源仓库
+&lt;img
+ src="https://blog.yffff.de/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
+ alt="Pasted image 20260419150727"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.10780"&gt;\[2604.10780\] LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning&lt;/a&gt;LIDARLearn，点云分类、分割和自监督表示学习的统一深度学习库。
+&lt;a href="https://github.com/said-ohamouddou/LIDARLearn"&gt;GitHub - said-ohamouddou/LIDARLearn: LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.turingpost.com/p/attention-types"&gt;13+ Attention Mechanisms You Should Know&lt;/a&gt;盘点了 13 种注意力机制对应的论文。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mathnet.csail.mit.edu/"&gt;MathNet: A Global Multimodal Benchmark for Mathematical Reasoning and Retrieval&lt;/a&gt;MIT 发布的全球多模态数学推理与检索基准。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/NawfalMotii79/PLFM_RADAR"&gt;GitHub - NawfalMotii79/PLFM_RADAR: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system · GitHub&lt;/a&gt;一个开源的，10.5GHz。线性调频相控阵雷达实现，包含硬件与 FPGA 实现，不过流程是最基础的 FFT 和 CAFR 检测。
+&lt;img
+ src="https://raw.githubusercontent.com/NawfalMotii79/PLFM_RADAR/main/8_Utils/RADAR_V6_V2.png"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="学术与学习资源"&gt;学术与学习资源&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://leansearch.net/"&gt;LeanSearch-Find theorems in Mathlib4 using natural language query&lt;/a&gt;Lean4 定理搜索引擎，用自然语言查询 Mathlib4 中的定理。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matlas.ai"&gt;Matlas&lt;/a&gt; 是一个数学语义搜索引擎，可以通过自然语言查询来搜索数学定理和证明。Blog：&lt;a href="https://frenzymath.com/blog/matlas/"&gt;Matlas: A Semantic Search Engine for Mathematics | FrenzyMath&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scholar.archive.org/"&gt;互联网学术档案&lt;/a&gt;互联网档案馆推出的学术论文搜索引擎。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typewords.cc/words"&gt;Type Words 官网 - 词文记 | 单词跟打 · 文章跟打 · 电脑上背单词&lt;/a&gt;一个背单词的网站，感觉做的很不错&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linux.do/t/topic/1417107"&gt;https://linux.do/t/topic/1417107&lt;/a&gt; linuxdo 一位用户整理的 ai 科研帖子&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ickma2311.github.io/"&gt;ickma.dev – ∇ ickma.dev&lt;/a&gt;一个个人博客，写了一些课程的笔记。&lt;/p&gt;
+&lt;h3 id="终端--cli"&gt;终端 &amp;amp; CLI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/AnalyseDeCircuit/oxideterm"&gt;GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub&lt;/a&gt;SSH 客户端，tauri 实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/vercel-labs/wterm"&gt;GitHub - vercel-labs/wterm: A terminal emulator for the web · GitHub&lt;/a&gt;Vercel 开源的 Web 终端模拟器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mux0.com/"&gt;MUX0 — a terminal that knows your agent&lt;/a&gt;又一个侧边栏终端，基于 libghostty 二开。&lt;/p&gt;
+&lt;h3 id="开发工具"&gt;开发工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/PerryTS/perry"&gt;GitHub - PerryTS/perry: A native TypeScript compiler written in Rust. Compiles TypeScript directly to executables using SWC and LLVM. · GitHub&lt;/a&gt;用 Rust 写的原生 TypeScript 编译器，直接编译 TS 为可执行文件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/indaco/malt"&gt;GitHub - indaco/malt: A Homebrew client in Zig. Warm installs in milliseconds. post_install scripts that actually run. · GitHub&lt;/a&gt;一个用 Zig 写的 Homebrew。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nvlabs.github.io/sionna/"&gt;Sionna Documentation — Sionna 2.0.1&lt;/a&gt;sionna 更新了 pytorch 版本，不是原来的 tensorflow了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://d2lang.com/"&gt;Home | D2 Documentation&lt;/a&gt;类似 mermaid 的文本绘图语言，github： &lt;a href="https://github.com/terrastruct/d2"&gt;https://github.com/terrastruct/d2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://prefix-dev.github.io/rattler-book/"&gt;The Rattler Book&lt;/a&gt;Rust 实现的 Conda 包管理器库，用于构建跨平台包管理工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/LordAizen1/git-newspaper"&gt;GitHub - LordAizen1/git-newspaper: Generate a Victorian broadsheet newspaper from any git repository&amp;rsquo;s history · GitHub&lt;/a&gt;将 git 仓库历史生成为维多利亚风格报纸。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pyviz.org/"&gt;Python tools for data visualization — PyViz 0.0.1 documentation&lt;/a&gt;一个开源 Python 可视化工具的导航网站。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The PyViz.org website is an open platform for helping users decide on the best open-source (OSS) Python data visualization tools for their purposes, with links, overviews, comparisons, and examples.
+&lt;img
+ src="https://blog.yffff.de/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
+ alt="Pasted image 20260419160939"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="设计与工具"&gt;设计与工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://paper.design/"&gt;Paper – design, share, ship&lt;/a&gt;在线设计与分享平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tw93/kami"&gt;GitHub - tw93/Kami: 👩‍🚒 Good content deserves good paper. · GitHub&lt;/a&gt; tw93 的文档设计 skill&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网页介绍： &lt;a href="https://kami.tw93.fun/"&gt;https://kami.tw93.fun/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一键安装：&lt;code&gt;npx skills add tw93/kami&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://cloud.landppt.com/"&gt;landppt&lt;/a&gt;在线 PPT 生成工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.editbanana.net/app"&gt;editbanana&lt;/a&gt;在线文本编辑工具。&lt;/p&gt;
+&lt;h3 id="macos-工具"&gt;macOS 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pica.joshpuckett.me/"&gt;Pica, a MacOS font management app&lt;/a&gt;mac 端字体管理软件，nice。&lt;/p&gt;
+&lt;h3 id="浏览器"&gt;浏览器&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/caffienerd/startpage"&gt;GitHub - caffienerd/startpage: Professional Terminal Start Page is a sleek, customizable browser start page built around an interactive terminal. It combines productivity tools like semantic AI routing, Gemini integration, real-time weather, and network utilities with a premium aesthetic and multiple themes. Designed for speed and flexibility. · GitHub&lt;/a&gt;浏览器主页，终端风格，很干净。
+可以在这里体验： &lt;a href="https://caffienerd.github.io/startpage/"&gt;https://caffienerd.github.io/startpage/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/dd3v/favbox"&gt;GitHub - dd3v/favbox: 🔖 FavBox is a local-first experimental browser extension that enhances and simplifies bookmark management without cloud storage or third-party services. · GitHub&lt;/a&gt;一个浏览器书签管理插件。&lt;/p&gt;
+&lt;h3 id="笔记--其他"&gt;笔记 &amp;amp; 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tolaria.md/"&gt;Tolaria — A second brain for the AI era&lt;/a&gt;AI 时代的第二大脑笔记工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://githubnext.com/"&gt;GitHub Next&lt;/a&gt;GitHub 官方的前沿项目与技术预览。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://iknowwhatyoudownload.com/en/peer/"&gt;查看 IP 最近Torrent下载的内容&lt;/a&gt;通过 IP 查看最近 Torrent 下载的内容。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai-模型与资讯">AI 模型与资讯</h3>
+<p>本周真是热闹的一周，deepseek-v4，gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, HY-3.0都相继发布了。</p>
+<p><a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md">deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub</a> deepseekv4 角色扮演指南。</p>
+<p><a href="https://zcode.z.ai/">ZCode - Simple, Fast, Vibe‑Ready</a>智谱的 zcode 从 tauri 改成了 electron，笑死了。</p>
+<p><a href="https://feisou.app/">飞搜 - 飞书文档搜索引擎 | AI智能搜索飞书知识库、教程与干货资源</a>飞书文档搜索引擎，AI 驱动搜索飞书知识库、教程与干货资源。</p>
+<h3 id="ai-coding--agent-平台">AI Coding / Agent 平台</h3>
+<p><a href="https://www.pi-gui.com/">pi-gui — A native desktop for AI coding agents</a>Pi 的 GUI，类似 Codex App 吧。</p>
+<p><a href="https://github.com/multica-ai/multica">GitHub - multica-ai/multica: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. · GitHub</a>开源 Agent 管理平台，将编码 Agent 转变为真正的队友。</p>
+<p><a href="https://github.com/golutra/golutra">GitHub - golutra/golutra · GitHub</a>又一个 Agent 编码平台。</p>
+<p><a href="https://slock.ai/">Slock - Where humans and AI agents collaborate</a>人类与 AI Agent 协作平台。</p>
+<p><a href="https://kollab.im/">Kollab</a>多 Agent 协作编码平台。</p>
+<p><a href="https://github.com/mindfold-ai/trellis">GitHub - mindfold-ai/Trellis: The best agent harness. · GitHub</a>Agent 编排框架。</p>
+<p><a href="https://mercury.cosmicstack.org/">Mercury — Soul-Driven AI Agent with Permission Guardrails | Cosmic Stack</a>一个新的 24/7 Agent。</p>
+<p><a href="https://zed.dev/blog/parallel-agents">Introducing Parallel Agents in Zed — Zed&rsquo;s Blog</a>Zed 编辑器支持多 Agent 并行视图，提升 AI 辅助编码效率。</p>
+<h3 id="ai-工具">AI 工具</h3>
+<p><a href="https://quiver.ai/blog/introducing-arrow-1-1">Introducing Arrow 1.1, a step forward in SVG generation – QuiverAI</a>SVG 生成模型。
+可以在<a href="https://app.quiver.ai/">官网</a>体验。
+<img
+  src="https://quiver.ai/blog-2/Fashion%20Design.png"
+  alt="596"
+  
+  loading="lazy"
+  decoding="async"
+>
+
+转向量图示例：
+<img
+  src="/oss-images/f6b893664051-Pasted-image-20260418220643.png"
+  alt="Pasted image 20260418220643|599"
+  
+  loading="lazy"
+  decoding="async"
+>
+
+画一个应用的 icon 图标：
+<img
+  src="/oss-images/623f2519eaca-QQ_1776521566141.png"
+  alt="QQ_1776521566141|595"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/mnfst/manifest">GitHub - mnfst/manifest: Smart Model Routing for Personal AI Agents. Cut Costs up to 70% 🦞👧🦚 · GitHub</a>模型路由，自动决定什么任务使用什么模型，节省成本。</p>
+<p><a href="https://openai.github.io/euphony/">Euphony: Visualize Chat Data in Your Browser</a>Codex 官方社区插件，查看你对话的数据。</p>
+<h3 id="研究与论文">研究与论文</h3>
+<p><a href="https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity">Literature | SigSep</a>关于音乐分离的综述，还有一个对应的 Github 开源仓库
+<img
+  src="/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
+  alt="Pasted image 20260419150727"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://arxiv.org/abs/2604.10780">\[2604.10780\] LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning</a>LIDARLearn，点云分类、分割和自监督表示学习的统一深度学习库。
+<a href="https://github.com/said-ohamouddou/LIDARLearn">GitHub - said-ohamouddou/LIDARLearn: LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning · GitHub</a></p>
+<p><a href="https://www.turingpost.com/p/attention-types">13+ Attention Mechanisms You Should Know</a>盘点了 13 种注意力机制对应的论文。</p>
+<p><a href="https://mathnet.csail.mit.edu/">MathNet: A Global Multimodal Benchmark for Mathematical Reasoning and Retrieval</a>MIT 发布的全球多模态数学推理与检索基准。</p>
+<p><a href="https://github.com/NawfalMotii79/PLFM_RADAR">GitHub - NawfalMotii79/PLFM_RADAR: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system · GitHub</a>一个开源的，10.5GHz。线性调频相控阵雷达实现，包含硬件与 FPGA 实现，不过流程是最基础的 FFT 和 CAFR 检测。
+<img
+  src="https://raw.githubusercontent.com/NawfalMotii79/PLFM_RADAR/main/8_Utils/RADAR_V6_V2.png"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="学术与学习资源">学术与学习资源</h3>
+<p><a href="https://leansearch.net/">LeanSearch-Find theorems in Mathlib4 using natural language query</a>Lean4 定理搜索引擎，用自然语言查询 Mathlib4 中的定理。</p>
+<p><a href="https://matlas.ai">Matlas</a> 是一个数学语义搜索引擎，可以通过自然语言查询来搜索数学定理和证明。Blog：<a href="https://frenzymath.com/blog/matlas/">Matlas: A Semantic Search Engine for Mathematics | FrenzyMath</a></p>
+<p><a href="https://scholar.archive.org/">互联网学术档案</a>互联网档案馆推出的学术论文搜索引擎。</p>
+<p><a href="https://typewords.cc/words">Type Words 官网 - 词文记 | 单词跟打 · 文章跟打 · 电脑上背单词</a>一个背单词的网站，感觉做的很不错</p>
+<p><a href="https://linux.do/t/topic/1417107">https://linux.do/t/topic/1417107</a> linuxdo 一位用户整理的 ai 科研帖子</p>
+<p><a href="https://ickma2311.github.io/">ickma.dev – ∇ ickma.dev</a>一个个人博客，写了一些课程的笔记。</p>
+<h3 id="终端--cli">终端 &amp; CLI</h3>
+<p><a href="https://github.com/AnalyseDeCircuit/oxideterm">GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub</a>SSH 客户端，tauri 实现。</p>
+<p><a href="https://github.com/vercel-labs/wterm">GitHub - vercel-labs/wterm: A terminal emulator for the web · GitHub</a>Vercel 开源的 Web 终端模拟器。</p>
+<p><a href="https://mux0.com/">MUX0 — a terminal that knows your agent</a>又一个侧边栏终端，基于 libghostty 二开。</p>
+<h3 id="开发工具">开发工具</h3>
+<p><a href="https://github.com/PerryTS/perry">GitHub - PerryTS/perry: A native TypeScript compiler written in Rust. Compiles TypeScript directly to executables using SWC and LLVM. · GitHub</a>用 Rust 写的原生 TypeScript 编译器，直接编译 TS 为可执行文件。</p>
+<p><a href="https://github.com/indaco/malt">GitHub - indaco/malt: A Homebrew client in Zig. Warm installs in milliseconds. post_install scripts that actually run. · GitHub</a>一个用 Zig 写的 Homebrew。</p>
+<p><a href="https://nvlabs.github.io/sionna/">Sionna Documentation — Sionna 2.0.1</a>sionna 更新了 pytorch 版本，不是原来的 tensorflow了。</p>
+<p><a href="https://d2lang.com/">Home | D2 Documentation</a>类似 mermaid 的文本绘图语言，github： <a href="https://github.com/terrastruct/d2">https://github.com/terrastruct/d2</a></p>
+<p><a href="https://prefix-dev.github.io/rattler-book/">The Rattler Book</a>Rust 实现的 Conda 包管理器库，用于构建跨平台包管理工具。</p>
+<p><a href="https://github.com/LordAizen1/git-newspaper">GitHub - LordAizen1/git-newspaper: Generate a Victorian broadsheet newspaper from any git repository&rsquo;s history · GitHub</a>将 git 仓库历史生成为维多利亚风格报纸。</p>
+<p><a href="https://pyviz.org/">Python tools for data visualization — PyViz 0.0.1 documentation</a>一个开源 Python 可视化工具的导航网站。</p>
+<blockquote>
+<p>The PyViz.org website is an open platform for helping users decide on the best open-source (OSS) Python data visualization tools for their purposes, with links, overviews, comparisons, and examples.
+<img
+  src="/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
+  alt="Pasted image 20260419160939"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+</blockquote>
+<h3 id="设计与工具">设计与工具</h3>
+<p><a href="https://paper.design/">Paper – design, share, ship</a>在线设计与分享平台。</p>
+<p><a href="https://github.com/tw93/kami">GitHub - tw93/Kami: 👩‍🚒 Good content deserves good paper. · GitHub</a> tw93 的文档设计 skill</p>
+<ul>
+<li>网页介绍： <a href="https://kami.tw93.fun/">https://kami.tw93.fun/</a></li>
+<li>一键安装：<code>npx skills add tw93/kami</code></li>
+</ul>
+<p><a href="https://cloud.landppt.com/">landppt</a>在线 PPT 生成工具。</p>
+<p><a href="https://www.editbanana.net/app">editbanana</a>在线文本编辑工具。</p>
+<h3 id="macos-工具">macOS 工具</h3>
+<p><a href="https://pica.joshpuckett.me/">Pica, a MacOS font management app</a>mac 端字体管理软件，nice。</p>
+<h3 id="浏览器">浏览器</h3>
+<p><a href="https://github.com/caffienerd/startpage">GitHub - caffienerd/startpage: Professional Terminal Start Page is a sleek, customizable browser start page built around an interactive terminal. It combines productivity tools like semantic AI routing, Gemini integration, real-time weather, and network utilities with a premium aesthetic and multiple themes. Designed for speed and flexibility. · GitHub</a>浏览器主页，终端风格，很干净。
+可以在这里体验： <a href="https://caffienerd.github.io/startpage/">https://caffienerd.github.io/startpage/</a></p>
+<p><a href="https://github.com/dd3v/favbox">GitHub - dd3v/favbox: 🔖 FavBox is a local-first experimental browser extension that enhances and simplifies bookmark management without cloud storage or third-party services. · GitHub</a>一个浏览器书签管理插件。</p>
+<h3 id="笔记--其他">笔记 &amp; 其他</h3>
+<p><a href="https://tolaria.md/">Tolaria — A second brain for the AI era</a>AI 时代的第二大脑笔记工具。</p>
+<p><a href="https://githubnext.com/">GitHub Next</a>GitHub 官方的前沿项目与技术预览。</p>
+<p><a href="https://iknowwhatyoudownload.com/en/peer/">查看 IP 最近Torrent下载的内容</a>通过 IP 查看最近 Torrent 下载的内容。</p>
+]]></content:encoded></item><item><title>第8期周刊</title><link>https://blog.yffff.de/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-8/</guid><description>&lt;h3 id="ai-资讯"&gt;AI 资讯&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://mail.bycloud.ai/"&gt;The AI Timeline&lt;/a&gt;又一个 AI 资讯 newsletter。&lt;/p&gt;
 &lt;h3 id="ai-coding--agent-平台"&gt;AI Coding / Agent 平台&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/EKKOLearnAI/hermes-web-ui"&gt;GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp;amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub&lt;/a&gt;Hermes Agent 的 Web 仪表盘，支持多平台 AI chat、会话管理、定时任务和用量分析，已接入 Telegram、Discord、Slack 和 WhatsApp。&lt;/p&gt;
@@ -351,7 +584,7 @@
 &lt;p&gt;&lt;a href="https://github.com/zai-org/GLM-skills"&gt;GitHub - zai-org/GLM-skills: Official skills for the GLM family of models. · GitHub&lt;/a&gt;智谱发布了 GLM5v 模型，同时还开源了一些 Skills。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/onyx-dot-app/onyx"&gt;GitHub - onyx-dot-app/onyx: Open Source AI Platform - AI Chat with advanced features that works with every LLM · GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/AnalyseDeCircuit/oxideterm"&gt;GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kexue.fm/archives/11693"&gt;kexue.fm/archives/11693&lt;/a&gt;中位数简介，描述了平均数实际上是 $\mathcal{L}_{2}$ 范数最小化，而中位数是 $\mathcal{L}_{1}$ 范数最小化。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kexue.fm/archives/11693"&gt;kexue.fm/archives/11693&lt;/a&gt;中位数简介，描述了平均数实际上是 $\ell_{2}$ 范数最小化，而中位数是 $\ell_{1}$ 范数最小化。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.zhihu.com/question/353863448/answer/1220814194"&gt;浅谈一下 World Model：一个被叫烂了、但其实定义很清楚的词（锐评版） - dung defender的文章 - 知乎&lt;/a&gt;关于世界模型。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://zread.ai/cli"&gt;Zread CLI&lt;/a&gt;Zread CLI，可以使用智谱 coding 订阅或者自己的 API 来分析本地仓库。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://lisette.run/"&gt;Lisette — Rust syntax, Go runtime&lt;/a&gt;&lt;/p&gt;
@@ -374,7 +607,7 @@
 <p><a href="https://github.com/zai-org/GLM-skills">GitHub - zai-org/GLM-skills: Official skills for the GLM family of models. · GitHub</a>智谱发布了 GLM5v 模型，同时还开源了一些 Skills。</p>
 <p><a href="https://github.com/onyx-dot-app/onyx">GitHub - onyx-dot-app/onyx: Open Source AI Platform - AI Chat with advanced features that works with every LLM · GitHub</a></p>
 <p><a href="https://github.com/AnalyseDeCircuit/oxideterm">GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub</a></p>
-<p><a href="https://kexue.fm/archives/11693">kexue.fm/archives/11693</a>中位数简介，描述了平均数实际上是 $\mathcal{L}_{2}$ 范数最小化，而中位数是 $\mathcal{L}_{1}$ 范数最小化。</p>
+<p><a href="https://kexue.fm/archives/11693">kexue.fm/archives/11693</a>中位数简介，描述了平均数实际上是 $\ell_{2}$ 范数最小化，而中位数是 $\ell_{1}$ 范数最小化。</p>
 <p><a href="https://www.zhihu.com/question/353863448/answer/1220814194">浅谈一下 World Model：一个被叫烂了、但其实定义很清楚的词（锐评版） - dung defender的文章 - 知乎</a>关于世界模型。</p>
 <p><a href="https://zread.ai/cli">Zread CLI</a>Zread CLI，可以使用智谱 coding 订阅或者自己的 API 来分析本地仓库。</p>
 <p><a href="https://lisette.run/">Lisette — Rust syntax, Go runtime</a></p>
