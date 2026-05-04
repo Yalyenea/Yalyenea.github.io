@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2026 20:17:46 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第9期周刊</title><link>https://blog.yffff.de/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-9/</guid><description>&lt;h3 id="ai-模型与资讯"&gt;AI 模型与资讯&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 05 May 2026 00:29:18 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第10期周刊</title><link>https://blog.yffff.de/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt;Rust编写的AI推理引擎。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/datalab-to/chandra"&gt;GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub&lt;/a&gt;自动处理layout的OCR模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/uutils/coreutils"&gt;GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub&lt;/a&gt;使用Rust编写的 CoreUtils。&lt;/p&gt;
+&lt;p&gt;控制理论算法仿真模拟器。
+&lt;a href="https://cool-koala.github.io/Control-Theory-Simulator/"&gt;Control Theory Simulator&lt;/a&gt;
+&lt;a href="https://github.com/cool-koala/Control-Theory-Simulator"&gt;GitHub - cool-koala/Control-Theory-Simulator · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ruwix.cn/"&gt;魔方维基和谜题 - Ruwix.cn&lt;/a&gt;如题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mmulet/term.everything"&gt;GitHub - mmulet/term.everything: Run any GUI app in the terminal❗ · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scilit.com/"&gt;Scientific &amp;amp; Scholarly Research Database | Scilit&lt;/a&gt;一个文献数据中心。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dupple.com/blog"&gt;AI &amp;amp; Tech Blog | Guides, Reviews &amp;amp; Insights | Dupple&lt;/a&gt;一个关注AI的博客。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://heyblog.magic-knowledge.top/"&gt;HeyBlog Console&lt;/a&gt;一个基于友链爬取所有博客的网页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matharena.ai/models"&gt;MathArena&lt;/a&gt;大模型数学能力测评榜单。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/atuinsh/atuin"&gt;GitHub - atuinsh/atuin: ✨ Making your shell magical · GitHub&lt;/a&gt;终端历史搜索增强。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=hVK7idbkUOM"&gt;【漫士】“我证明了黎曼猜想，AI说我是对的” - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;up 主团队构建了一套对标高考难度的试题，且设计了容易让 ai 掉入陷阱的题目，测试了各家大模型的能力，国外主要是 gemini gpt claude 领先，国内则是 seed 和 deepseek 领先。&lt;/li&gt;
+&lt;li&gt;当前AI的数学能力处于一种矛盾状态。它擅长“大力出奇迹”，能用强大的算力和已有的知识库解决极其复杂的计算与分类讨论；但在面对需要纯粹灵感、简洁优雅直觉的数学领域（如极值构造、组合数学），AI依然难以胜任。创造全新的数学理论，对目前的统计语言模型而言，仍是一座难以跨越的高山。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://aibijia.org"&gt;Aibijia — AI 订阅，一键比价&lt;/a&gt;收集了第三方AI订阅的价格。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tokennav.cc/"&gt;TokenNav - AI API 中转站导航&lt;/a&gt;AI中转站导航。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://themes.contest.com/"&gt;Telegram Themes&lt;/a&gt;在这里可以创建Telegram的自定义主题。下面是我做的几个：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_dawn_yalyenea_android"&gt;Rose-Pine-Dawn for Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_moon_yalyenea_android"&gt;Rose-Pine-Moon for Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_dawn_yalyenea"&gt;Rose-Pine-Dawn for Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_moon_yalyenea"&gt;Rose-Pine-Moon for Mac&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://paperplothub.tech/"&gt;PaperPlotHub — Open marketplace for paper plot scripts&lt;/a&gt;科研绘图资源。&lt;/p&gt;
+&lt;p&gt;搜集了一些Windows和Mac上的Git客户端。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gitextensions/gitextensions"&gt;gitextensions/gitextensions: Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DetachHead/rebased"&gt;DetachHead/rebased: A git client based on the IntelliJ platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/apps/desktop"&gt;GitHub Desktop | Simple collaboration from your desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sourcetreeapp.com/"&gt;Sourcetree | Free Git GUI for Mac and Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sourcegit-scm.github.io/"&gt;SourceGit - Opensource &amp;amp; Free Git Gui Client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tortoisegit.org/"&gt;TortoiseGit – Windows Shell Interface to Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gitkraken.com/"&gt;GitKraken Legendary Git Tools | GitKraken&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitbutler.com/"&gt;GitButler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://100t.xiaomimimo.com/"&gt;Xiaomi MiMo 100T&lt;/a&gt;Xiaomi MiMo 百万亿 token 创造者激励计划，申请有机会获取 token。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dots.ai/chat/"&gt;点点&lt;/a&gt;小红书的AI Chat。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dokobot.ai/zh-CN"&gt;Dokobot - AI Agent 的浏览工具&lt;/a&gt;一个从浏览器获取信息的CLI工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rossant/awesome-math"&gt;GitHub - rossant/awesome-math: A curated list of awesome mathematics resources · GitHub&lt;/a&gt;如题，Awesome Math。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cheatography.com/gustavhelms/cheat-sheets/linear-algebra/"&gt;Linear Algebra Cheat Sheet by gustavhelms - Download free from Cheatography - Cheatography.com: Cheat Sheets For Every Occasion&lt;/a&gt;Linear algebra Cheat Sheet，这个网站还有其他的各种各样的Cheat Sheet。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://talkie-lm.com/introducing-talkie"&gt;Introducing talkie: a 13B vintage language model from 1930&lt;/a&gt;一个根据1930年以前的资料训练的13B语言模型，非常的返璞归真。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/warpdotdev/warp"&gt;GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal. · GitHub&lt;/a&gt;Warp 开源了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-xs2-m1"&gt;Introducing Laguna XS.2 and Laguna M.1 — Poolside&lt;/a&gt;两个新模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/caojiaolong/spaces-index"&gt;GitHub - caojiaolong/spaces-index: 本项目自动抓取并索引科学空间的文章元数据，按研究主题进行规则分类，方便在 GitHub 上快速浏览并跳转到原文。 · GitHub&lt;/a&gt;苏剑林老师的科学空间文章索引。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Hmbown/DeepSeek-TUI"&gt;GitHub - Hmbown/DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal · GitHub&lt;/a&gt;一个美国佬开发的 deepseek-tui。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://commandcode.ai"&gt;Command Code - AI coding agent with taste&lt;/a&gt;提供一刀的套餐。&lt;/p&gt;
+&lt;p&gt;这周五一假期头疼了整整五六天，看多了屏幕左边眼睛不适，感觉眼睛后面一跳一跳的疼，有东西牵拉，应该是肌肉疲劳。我猜测是最近电脑屏幕看多了，包括熬夜。整个假期几乎都在床上睡觉，什么也没干，还是要注意身体，注意用眼，注意休息，干什么都难受，只能睡觉真的很难受，每天起床之后，过不了多久头就开始痛。我决定从现在起，逐渐养成良好的作息。每天按时睡觉、按时起床、科学用眼、少看屏幕。多增加户外活动。健康饮食。&lt;/p&gt;</description><content:encoded><![CDATA[<p><a href="https://github.com/Michael-A-Kuykendall/shimmy">GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub</a>Rust编写的AI推理引擎。</p>
+<p><a href="https://github.com/datalab-to/chandra">GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub</a>自动处理layout的OCR模型。</p>
+<p><a href="https://github.com/uutils/coreutils">GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub</a>使用Rust编写的 CoreUtils。</p>
+<p>控制理论算法仿真模拟器。
+<a href="https://cool-koala.github.io/Control-Theory-Simulator/">Control Theory Simulator</a>
+<a href="https://github.com/cool-koala/Control-Theory-Simulator">GitHub - cool-koala/Control-Theory-Simulator · GitHub</a></p>
+<p><a href="https://ruwix.cn/">魔方维基和谜题 - Ruwix.cn</a>如题。</p>
+<p><a href="https://github.com/mmulet/term.everything">GitHub - mmulet/term.everything: Run any GUI app in the terminal❗ · GitHub</a></p>
+<p><a href="https://www.scilit.com/">Scientific &amp; Scholarly Research Database | Scilit</a>一个文献数据中心。</p>
+<p><a href="https://dupple.com/blog">AI &amp; Tech Blog | Guides, Reviews &amp; Insights | Dupple</a>一个关注AI的博客。</p>
+<p><a href="https://heyblog.magic-knowledge.top/">HeyBlog Console</a>一个基于友链爬取所有博客的网页。</p>
+<p><a href="https://matharena.ai/models">MathArena</a>大模型数学能力测评榜单。</p>
+<p><a href="https://github.com/atuinsh/atuin">GitHub - atuinsh/atuin: ✨ Making your shell magical · GitHub</a>终端历史搜索增强。</p>
+<p><a href="https://www.youtube.com/watch?v=hVK7idbkUOM">【漫士】“我证明了黎曼猜想，AI说我是对的” - YouTube</a></p>
+<ol>
+<li>up 主团队构建了一套对标高考难度的试题，且设计了容易让 ai 掉入陷阱的题目，测试了各家大模型的能力，国外主要是 gemini gpt claude 领先，国内则是 seed 和 deepseek 领先。</li>
+<li>当前AI的数学能力处于一种矛盾状态。它擅长“大力出奇迹”，能用强大的算力和已有的知识库解决极其复杂的计算与分类讨论；但在面对需要纯粹灵感、简洁优雅直觉的数学领域（如极值构造、组合数学），AI依然难以胜任。创造全新的数学理论，对目前的统计语言模型而言，仍是一座难以跨越的高山。</li>
+</ol>
+<p><a href="https://aibijia.org">Aibijia — AI 订阅，一键比价</a>收集了第三方AI订阅的价格。</p>
+<p><a href="https://tokennav.cc/">TokenNav - AI API 中转站导航</a>AI中转站导航。</p>
+<p><a href="https://themes.contest.com/">Telegram Themes</a>在这里可以创建Telegram的自定义主题。下面是我做的几个：</p>
+<ul>
+<li><a href="https://t.me/addtheme/rosepine_dawn_yalyenea_android">Rose-Pine-Dawn for Android</a></li>
+<li><a href="https://t.me/addtheme/rosepine_moon_yalyenea_android">Rose-Pine-Moon for Android</a></li>
+<li><a href="https://t.me/addtheme/rosepine_dawn_yalyenea">Rose-Pine-Dawn for Mac</a></li>
+<li><a href="https://t.me/addtheme/rosepine_moon_yalyenea">Rose-Pine-Moon for Mac</a></li>
+</ul>
+<p><a href="https://paperplothub.tech/">PaperPlotHub — Open marketplace for paper plot scripts</a>科研绘图资源。</p>
+<p>搜集了一些Windows和Mac上的Git客户端。</p>
+<ul>
+<li><a href="https://github.com/gitextensions/gitextensions">gitextensions/gitextensions: Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).</a></li>
+<li><a href="https://github.com/DetachHead/rebased">DetachHead/rebased: A git client based on the IntelliJ platform</a></li>
+<li><a href="https://github.com/apps/desktop">GitHub Desktop | Simple collaboration from your desktop</a></li>
+<li><a href="https://www.sourcetreeapp.com/">Sourcetree | Free Git GUI for Mac and Windows</a></li>
+<li><a href="https://sourcegit-scm.github.io/">SourceGit - Opensource &amp; Free Git Gui Client</a></li>
+<li><a href="https://tortoisegit.org/">TortoiseGit – Windows Shell Interface to Git</a></li>
+<li><a href="https://www.gitkraken.com/">GitKraken Legendary Git Tools | GitKraken</a></li>
+<li><a href="https://gitbutler.com/">GitButler</a></li>
+</ul>
+<p><a href="https://100t.xiaomimimo.com/">Xiaomi MiMo 100T</a>Xiaomi MiMo 百万亿 token 创造者激励计划，申请有机会获取 token。</p>
+<p><a href="https://dots.ai/chat/">点点</a>小红书的AI Chat。</p>
+<p><a href="https://dokobot.ai/zh-CN">Dokobot - AI Agent 的浏览工具</a>一个从浏览器获取信息的CLI工具。</p>
+<p><a href="https://github.com/rossant/awesome-math">GitHub - rossant/awesome-math: A curated list of awesome mathematics resources · GitHub</a>如题，Awesome Math。</p>
+<p><a href="https://cheatography.com/gustavhelms/cheat-sheets/linear-algebra/">Linear Algebra Cheat Sheet by gustavhelms - Download free from Cheatography - Cheatography.com: Cheat Sheets For Every Occasion</a>Linear algebra Cheat Sheet，这个网站还有其他的各种各样的Cheat Sheet。</p>
+<p><a href="https://talkie-lm.com/introducing-talkie">Introducing talkie: a 13B vintage language model from 1930</a>一个根据1930年以前的资料训练的13B语言模型，非常的返璞归真。</p>
+<p><a href="https://github.com/warpdotdev/warp">GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal. · GitHub</a>Warp 开源了。</p>
+<p><a href="https://poolside.ai/blog/introducing-laguna-xs2-m1">Introducing Laguna XS.2 and Laguna M.1 — Poolside</a>两个新模型。</p>
+<p><a href="https://github.com/caojiaolong/spaces-index">GitHub - caojiaolong/spaces-index: 本项目自动抓取并索引科学空间的文章元数据，按研究主题进行规则分类，方便在 GitHub 上快速浏览并跳转到原文。 · GitHub</a>苏剑林老师的科学空间文章索引。</p>
+<p><a href="https://github.com/Hmbown/DeepSeek-TUI">GitHub - Hmbown/DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal · GitHub</a>一个美国佬开发的 deepseek-tui。</p>
+<p><a href="https://commandcode.ai">Command Code - AI coding agent with taste</a>提供一刀的套餐。</p>
+<p>这周五一假期头疼了整整五六天，看多了屏幕左边眼睛不适，感觉眼睛后面一跳一跳的疼，有东西牵拉，应该是肌肉疲劳。我猜测是最近电脑屏幕看多了，包括熬夜。整个假期几乎都在床上睡觉，什么也没干，还是要注意身体，注意用眼，注意休息，干什么都难受，只能睡觉真的很难受，每天起床之后，过不了多久头就开始痛。我决定从现在起，逐渐养成良好的作息。每天按时睡觉、按时起床、科学用眼、少看屏幕。多增加户外活动。健康饮食。</p>
+]]></content:encoded></item><item><title>第9期周刊</title><link>https://blog.yffff.de/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-9/</guid><description>&lt;h3 id="ai-模型与资讯"&gt;AI 模型与资讯&lt;/h3&gt;
 &lt;p&gt;本周真是热闹的一周，deepseek-v4，gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, HY-3.0都相继发布了。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md"&gt;deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub&lt;/a&gt; deepseekv4 角色扮演指南。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://zcode.z.ai/"&gt;ZCode - Simple, Fast, Vibe‑Ready&lt;/a&gt;智谱的 zcode 从 tauri 改成了 electron，笑死了。&lt;/p&gt;
