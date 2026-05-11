@@ -1,4 +1,189 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 05 May 2026 00:29:18 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第10期周刊</title><link>https://blog.yffff.de/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt;Rust编写的AI推理引擎。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 19:39:08 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第11期周刊</title><link>https://blog.yffff.de/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/hydropix/TranslateBooksWithLLMs"&gt;hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.&lt;/a&gt;翻译整本书。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rbc33/Ghostbar"&gt;rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.&lt;/a&gt;录屏时隐藏 AI 聊天窗口的工具。&lt;/p&gt;
+&lt;p&gt;yetone 做的 AI 编程桌面宠物。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Website：&lt;a href="https://confirmo.love/"&gt;Confirmo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gallery：&lt;a href="https://sprites.confirmo.love/"&gt;Confirmo Sprites - Share Custom Characters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Codex 宠物 Gallery：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://codex-pets.net/#/pets/feixue"&gt;Codex Pets&lt;/a&gt;Codex Pets&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://petdex.crafter.run/zh"&gt;Petdex — 适用于 Codex 的动画伙伴&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://openpets.sh/"&gt;OpenPets - desktop pets for coding agents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/huggingface/nanowhale"&gt;huggingface/nanowhale&lt;/a&gt;nano deepseek-v4&lt;/p&gt;
+&lt;p&gt;一个强化学习教程。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github：&lt;a href="https://github.com/walkinglabs/hands-on-modern-rl"&gt;walkinglabs/hands-on-modern-rl: 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ebook： &lt;a href="https://walkinglabs.github.io/hands-on-modern-rl/"&gt;https://walkinglabs.github.io/hands-on-modern-rl/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;小米开源音色克隆 TTS 模型 OmniVoice，支持 600 多种语言。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公众号：&lt;a href="https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A"&gt;超600种语言，一个模型全搞定! 小米开源 OmniVoice 多语言语音克隆 TTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github：&lt;a href="https://github.com/k2-fsa/OmniVoice"&gt;k2-fsa/OmniVoice: High-Quality Voice Cloning TTS for 600+ Languages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.readfrog.app/zh"&gt;陪读蛙&lt;/a&gt;沉浸式翻译开源替代。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linux.do/t/topic/2102919/16"&gt;Coding/Token Plan 简览（付费） - 文档共建 - LINUX DO&lt;/a&gt;Coding Plan 盘点。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/liliMozi/openhanako"&gt;GitHub - liliMozi/openhanako: A personal AI agent with memory, personality, and autonomy — built on Electron. · GitHub&lt;/a&gt;一个配色还不错的 agent，基于 pi，Electron 开发。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.neudrive.ai/"&gt;别让 AI 工具每次重新认识你 — neuDrive&lt;/a&gt;
+Github：&lt;a href="https://github.com/agi-bar/neuDrive"&gt;agi-bar/neuDrive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/esengine/DeepSeek-Reasonix"&gt;esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.&lt;/a&gt;专为Deepseek打造的终端 AI 编程助手，支持前缀缓存稳定性。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/"&gt;最近使用 ChatGPT 5.5 Pro 的体验 | Gowers 的博客 &amp;mdash; A recent experience with ChatGPT 5.5 Pro | Gowers&amp;rsquo;s Weblog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/QingJ01/DeepSeekCode"&gt;QingJ01/DeepSeekCode: 基于 Claude Code 代码库改造的本地 CLI 编程代理&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ml1301215/vibe-proving-math"&gt;ml1301215/vibe-proving-math: Math reasoning &amp;amp; proof-assist stack: GVR loop, citation checks via TheoremSearch, streaming API + web UI.&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="macos--效率工具"&gt;macOS / 效率工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Sanyam-G/switch"&gt;Sanyam-G/switch: A keyboard-driven window switcher for macOS. Notarized. Free.&lt;/a&gt;macos 窗口切换工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/duongductrong/Snapzy"&gt;duongductrong/Snapzy: An open-source native macOS screenshot and screen recording app. A CleanShot X alternative.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/marsmay/UsageBoard"&gt;marsmay/UsageBoard: macOS menu bar app for aggregating API usage quotas via plugin scripts&lt;/a&gt;一个新的 code usage 监控工具，支持插件脚本，macos 菜单栏应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anddrive.catchingnow.com/"&gt;AndDrive - Android in Finder, Mirroring, and Clipboard Sync on Mac&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="研究--数学--优化"&gt;研究 / 数学 / 优化&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/guofei9987/scikit-opt"&gt;guofei9987/scikit-opt: Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MATLAB&amp;amp;SIMULINK AI Toolkits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/matlab/matlab-agentic-toolkit"&gt;matlab/matlab-agentic-toolkit: The MATLAB Agentic Toolkit brings trusted MATLAB capabilities to AI agents, making engineering and scientific workflows agent-ready.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/matlab/simulink-agentic-toolkit"&gt;matlab/simulink-agentic-toolkit: The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://mainlymatmul.com/blog/tensor-network-attention/"&gt;张量网络注意力 &amp;mdash; Tensor Network Attention&lt;/a&gt;其中也介绍了张量网络运算，在&lt;a href="https://github.com/thomasahle/tensorgrad"&gt;thomasahle/tensorgrad: Machine Learning with Symbolic Tensors&lt;/a&gt;中的 tensorbook 里也有，对应的 Python 库可以做符号张量计算。这篇论文有具体介绍：&lt;a href="https://arxiv.org/pdf/1603.03039"&gt;arxiv.org/pdf/1603.03039&lt;/a&gt;还有一个可视化工具：&lt;a href="https://thomasahle.com/blog/einsum_to_dot.html?q=abc,cde,efg,ghi,ija-%3Ebdfhj&amp;amp;layout=circo"&gt;Tensor Graph Visualizer&lt;/a&gt;
+&lt;img
+ src="https://blog.yffff.de/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
+ alt="Pasted image 20260508215521"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://trinkle23897.github.io/learning-beyond-gradients/#zh"&gt;Learning Beyond Gradients&lt;/a&gt;作者提出了 Heuristic Learning(启发式学习)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.stat.cmu.edu/~ryantibs/teaching.html"&gt;Ryan Tibshirani: Teaching&lt;/a&gt;一些优化，统计学习，数据科学方面的课程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=bPWcSxkD6Uo"&gt;【硬核科普】WiFi是怎么传递信息的？把信息装进电磁波有多难？ - YouTube&lt;/a&gt;感觉讲的不错，就是配音太难听了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=Pkn1G1AAhxE"&gt;【漫士】你看这个世界的每一眼，都在进行着深刻的运算 - YouTube&lt;/a&gt;非常好视频。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/26934313/answer/2035994820796265138"&gt;有哪些算法惊艳到了你？ - 北冥有鱼的回答 - 知乎&lt;/a&gt;介绍牛顿迭代法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://allendowney.github.io/ThinkLinearAlgebra/index.html"&gt;Think Linear Algebra — Think Linear Algebra&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChenLiu-1996/figures4papers"&gt;ChenLiu-1996/figures4papers: My Python scripts to make high-quality figures for publications in top AI conferences and journals.&lt;/a&gt;一个博士生分享的绘图 scripts。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/aurora"&gt;Aurora：面向矩形矩阵的杠杆感知优化器 | Tilde &amp;mdash; Aurora: A Leverage-Aware Optimizer for Rectangular Matrices | Tilde&lt;/a&gt;一个新的优化器 Aurora，解决 Muon 会导致部分神经元/参数 dead 的问题。&lt;/p&gt;
+&lt;h3 id="学术资源--文献平台"&gt;学术资源 / 文献平台&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://scipost.org/"&gt;SciPost Homepage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anonymous.4open.science/"&gt;anonymous github&lt;/a&gt;匿名开源平台，提供匿名提交功能。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://uni.utities.online/"&gt;高校名录数据可视化&lt;/a&gt;可能适合高考时填报志愿使用。&lt;/p&gt;
+&lt;h3 id="web--开发--创作工具"&gt;Web / 开发 / 创作工具&lt;/h3&gt;
+&lt;p&gt;1001 个在线小工具，好像没看到过比这个数量更多的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Website：&lt;a href="https://tools.realtime-ai.chat/"&gt;WebUtils - 纯前端工具集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github：&lt;a href="https://github.com/chicogong/html-tools"&gt;chicogong/html-tools: 🛠️ 1001+ 纯前端在线工具集 | 单文件·零构建·可离线·隐私优先 | Pure HTML Tools - Single file, Zero build, Offline-ready, Privacy-first&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/one-ea/Monolith"&gt;one-ea/Monolith: ⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters&lt;/a&gt;一个 blog 框架。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/DimensionDev/Flare"&gt;DimensionDev/Flare: Browse Mastodon, Bluesky, X, Misskey, Nostr and RSS all in one app. One timeline, all your accounts, cross-post everywhere.&lt;/a&gt;一个支持 Mastodon、Bluesky、X、Misskey、Nostr 和 RSS 的社交媒体聚合应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://asong56.github.io/Cicada/"&gt;Cicada&lt;/a&gt;一个网页白板工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ynarwal.github.io/how-llms-work/"&gt;How LLMs Work — A Visual Deep Dive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fgruler&lt;/code&gt; 宏包可以在页面前景绘制标尺。示例中使用：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;\usepackage&lt;/span&gt;&lt;span class="na"&gt;[type={alledges,alledgesT}, color=blue]&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;fgruler&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中 &lt;code&gt;alledges&lt;/code&gt; 表示在页面四边绘制标尺，&lt;code&gt;alledgesT&lt;/code&gt; 表示四边带“T”方向的标尺样式，&lt;code&gt;color=blue&lt;/code&gt; 将标尺颜色设为蓝色。
+&lt;img
+ src="https://blog.yffff.de/oss-images/c501211713e3-Pasted-image-20260511190040.png"
+ alt="Pasted image 20260511190040|401"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="音乐下载"&gt;音乐下载&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/CharlesPikachu/musicdl"&gt;CharlesPikachu/musicdl: Musicdl: A lightweight music downloader written in pure python. (轻量级无损音乐下载器，支持数十个音乐/有声读物平台，例如网易云音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，千千静听，汽水音乐，Bilibili，街声，喜马拉雅，懒人听书，荔枝FM，蜻蜓FM，JOOX，TIDAL，YouTube，Apple Music，Spotify，Qobuz，SoundCloud等主流音乐平台)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MrsEWE44/musicDownload"&gt;MrsEWE44/musicDownload&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--编程工具">AI / Agent / 编程工具</h3>
+<p><a href="https://github.com/hydropix/TranslateBooksWithLLMs">hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.</a>翻译整本书。</p>
+<p><a href="https://github.com/rbc33/Ghostbar">rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.</a>录屏时隐藏 AI 聊天窗口的工具。</p>
+<p>yetone 做的 AI 编程桌面宠物。</p>
+<ul>
+<li>Website：<a href="https://confirmo.love/">Confirmo</a></li>
+<li>Gallery：<a href="https://sprites.confirmo.love/">Confirmo Sprites - Share Custom Characters</a></li>
+</ul>
+<p>Codex 宠物 Gallery：</p>
+<ul>
+<li><a href="https://codex-pets.net/#/pets/feixue">Codex Pets</a>Codex Pets</li>
+<li><a href="https://petdex.crafter.run/zh">Petdex — 适用于 Codex 的动画伙伴</a></li>
+</ul>
+<p><a href="https://openpets.sh/">OpenPets - desktop pets for coding agents</a></p>
+<p><a href="https://github.com/huggingface/nanowhale">huggingface/nanowhale</a>nano deepseek-v4</p>
+<p>一个强化学习教程。</p>
+<ul>
+<li>Github：<a href="https://github.com/walkinglabs/hands-on-modern-rl">walkinglabs/hands-on-modern-rl: 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems.</a></li>
+<li>ebook： <a href="https://walkinglabs.github.io/hands-on-modern-rl/">https://walkinglabs.github.io/hands-on-modern-rl/</a></li>
+</ul>
+<p>小米开源音色克隆 TTS 模型 OmniVoice，支持 600 多种语言。</p>
+<ul>
+<li>公众号：<a href="https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A">超600种语言，一个模型全搞定! 小米开源 OmniVoice 多语言语音克隆 TTS</a></li>
+<li>Github：<a href="https://github.com/k2-fsa/OmniVoice">k2-fsa/OmniVoice: High-Quality Voice Cloning TTS for 600+ Languages</a></li>
+</ul>
+<p><a href="https://www.readfrog.app/zh">陪读蛙</a>沉浸式翻译开源替代。</p>
+<p><a href="https://linux.do/t/topic/2102919/16">Coding/Token Plan 简览（付费） - 文档共建 - LINUX DO</a>Coding Plan 盘点。</p>
+<p><a href="https://github.com/liliMozi/openhanako">GitHub - liliMozi/openhanako: A personal AI agent with memory, personality, and autonomy — built on Electron. · GitHub</a>一个配色还不错的 agent，基于 pi，Electron 开发。</p>
+<p><a href="https://www.neudrive.ai/">别让 AI 工具每次重新认识你 — neuDrive</a>
+Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
+<p><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.</a>专为Deepseek打造的终端 AI 编程助手，支持前缀缓存稳定性。</p>
+<p><a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/">最近使用 ChatGPT 5.5 Pro 的体验 | Gowers 的博客 &mdash; A recent experience with ChatGPT 5.5 Pro | Gowers&rsquo;s Weblog</a></p>
+<p><a href="https://github.com/QingJ01/DeepSeekCode">QingJ01/DeepSeekCode: 基于 Claude Code 代码库改造的本地 CLI 编程代理</a></p>
+<p><a href="https://github.com/ml1301215/vibe-proving-math">ml1301215/vibe-proving-math: Math reasoning &amp; proof-assist stack: GVR loop, citation checks via TheoremSearch, streaming API + web UI.</a></p>
+<h3 id="macos--效率工具">macOS / 效率工具</h3>
+<p><a href="https://github.com/Sanyam-G/switch">Sanyam-G/switch: A keyboard-driven window switcher for macOS. Notarized. Free.</a>macos 窗口切换工具。</p>
+<p><a href="https://github.com/duongductrong/Snapzy">duongductrong/Snapzy: An open-source native macOS screenshot and screen recording app. A CleanShot X alternative.</a></p>
+<p><a href="https://github.com/marsmay/UsageBoard">marsmay/UsageBoard: macOS menu bar app for aggregating API usage quotas via plugin scripts</a>一个新的 code usage 监控工具，支持插件脚本，macos 菜单栏应用。</p>
+<p><a href="https://anddrive.catchingnow.com/">AndDrive - Android in Finder, Mirroring, and Clipboard Sync on Mac</a></p>
+<h3 id="研究--数学--优化">研究 / 数学 / 优化</h3>
+<p><a href="https://github.com/guofei9987/scikit-opt">guofei9987/scikit-opt: Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman)</a></p>
+<p>MATLAB&amp;SIMULINK AI Toolkits:</p>
+<ul>
+<li><a href="https://github.com/matlab/matlab-agentic-toolkit">matlab/matlab-agentic-toolkit: The MATLAB Agentic Toolkit brings trusted MATLAB capabilities to AI agents, making engineering and scientific workflows agent-ready.</a></li>
+<li><a href="https://github.com/matlab/simulink-agentic-toolkit">matlab/simulink-agentic-toolkit: The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.</a></li>
+</ul>
+<p><a href="https://mainlymatmul.com/blog/tensor-network-attention/">张量网络注意力 &mdash; Tensor Network Attention</a>其中也介绍了张量网络运算，在<a href="https://github.com/thomasahle/tensorgrad">thomasahle/tensorgrad: Machine Learning with Symbolic Tensors</a>中的 tensorbook 里也有，对应的 Python 库可以做符号张量计算。这篇论文有具体介绍：<a href="https://arxiv.org/pdf/1603.03039">arxiv.org/pdf/1603.03039</a>还有一个可视化工具：<a href="https://thomasahle.com/blog/einsum_to_dot.html?q=abc,cde,efg,ghi,ija-%3Ebdfhj&amp;layout=circo">Tensor Graph Visualizer</a>
+<img
+  src="/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
+  alt="Pasted image 20260508215521"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://trinkle23897.github.io/learning-beyond-gradients/#zh">Learning Beyond Gradients</a>作者提出了 Heuristic Learning(启发式学习)</p>
+<p><a href="https://www.stat.cmu.edu/~ryantibs/teaching.html">Ryan Tibshirani: Teaching</a>一些优化，统计学习，数据科学方面的课程。</p>
+<p><a href="https://www.youtube.com/watch?v=bPWcSxkD6Uo">【硬核科普】WiFi是怎么传递信息的？把信息装进电磁波有多难？ - YouTube</a>感觉讲的不错，就是配音太难听了。</p>
+<p><a href="https://www.youtube.com/watch?v=Pkn1G1AAhxE">【漫士】你看这个世界的每一眼，都在进行着深刻的运算 - YouTube</a>非常好视频。</p>
+<p><a href="https://www.zhihu.com/question/26934313/answer/2035994820796265138">有哪些算法惊艳到了你？ - 北冥有鱼的回答 - 知乎</a>介绍牛顿迭代法。</p>
+<p><a href="https://allendowney.github.io/ThinkLinearAlgebra/index.html">Think Linear Algebra — Think Linear Algebra</a></p>
+<p><a href="https://github.com/ChenLiu-1996/figures4papers">ChenLiu-1996/figures4papers: My Python scripts to make high-quality figures for publications in top AI conferences and journals.</a>一个博士生分享的绘图 scripts。</p>
+<p><a href="https://blog.tilderesearch.com/blog/aurora">Aurora：面向矩形矩阵的杠杆感知优化器 | Tilde &mdash; Aurora: A Leverage-Aware Optimizer for Rectangular Matrices | Tilde</a>一个新的优化器 Aurora，解决 Muon 会导致部分神经元/参数 dead 的问题。</p>
+<h3 id="学术资源--文献平台">学术资源 / 文献平台</h3>
+<p><a href="https://scipost.org/">SciPost Homepage</a></p>
+<p><a href="https://anonymous.4open.science/">anonymous github</a>匿名开源平台，提供匿名提交功能。</p>
+<p><a href="https://uni.utities.online/">高校名录数据可视化</a>可能适合高考时填报志愿使用。</p>
+<h3 id="web--开发--创作工具">Web / 开发 / 创作工具</h3>
+<p>1001 个在线小工具，好像没看到过比这个数量更多的。</p>
+<ul>
+<li>Website：<a href="https://tools.realtime-ai.chat/">WebUtils - 纯前端工具集</a></li>
+<li>Github：<a href="https://github.com/chicogong/html-tools">chicogong/html-tools: 🛠️ 1001+ 纯前端在线工具集 | 单文件·零构建·可离线·隐私优先 | Pure HTML Tools - Single file, Zero build, Offline-ready, Privacy-first</a></li>
+</ul>
+<p><a href="https://github.com/one-ea/Monolith">one-ea/Monolith: ⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters</a>一个 blog 框架。</p>
+<p><a href="https://github.com/DimensionDev/Flare">DimensionDev/Flare: Browse Mastodon, Bluesky, X, Misskey, Nostr and RSS all in one app. One timeline, all your accounts, cross-post everywhere.</a>一个支持 Mastodon、Bluesky、X、Misskey、Nostr 和 RSS 的社交媒体聚合应用。</p>
+<p><a href="https://asong56.github.io/Cicada/">Cicada</a>一个网页白板工具。</p>
+<p><a href="https://ynarwal.github.io/how-llms-work/">How LLMs Work — A Visual Deep Dive</a></p>
+<p><code>fgruler</code> 宏包可以在页面前景绘制标尺。示例中使用：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[type={alledges,alledgesT}, color=blue]</span><span class="nb">{</span>fgruler<span class="nb">}</span>
+</span></span></code></pre></div><p>其中 <code>alledges</code> 表示在页面四边绘制标尺，<code>alledgesT</code> 表示四边带“T”方向的标尺样式，<code>color=blue</code> 将标尺颜色设为蓝色。
+<img
+  src="/oss-images/c501211713e3-Pasted-image-20260511190040.png"
+  alt="Pasted image 20260511190040|401"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="音乐下载">音乐下载</h3>
+<ul>
+<li><a href="https://github.com/CharlesPikachu/musicdl">CharlesPikachu/musicdl: Musicdl: A lightweight music downloader written in pure python. (轻量级无损音乐下载器，支持数十个音乐/有声读物平台，例如网易云音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，千千静听，汽水音乐，Bilibili，街声，喜马拉雅，懒人听书，荔枝FM，蜻蜓FM，JOOX，TIDAL，YouTube，Apple Music，Spotify，Qobuz，SoundCloud等主流音乐平台)</a></li>
+<li><a href="https://github.com/MrsEWE44/musicDownload">MrsEWE44/musicDownload</a></li>
+</ul>
+]]></content:encoded></item><item><title>第10期周刊</title><link>https://blog.yffff.de/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt;Rust编写的AI推理引擎。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/datalab-to/chandra"&gt;GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub&lt;/a&gt;自动处理layout的OCR模型。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/uutils/coreutils"&gt;GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub&lt;/a&gt;使用Rust编写的 CoreUtils。&lt;/p&gt;
 &lt;p&gt;控制理论算法仿真模拟器。
