@@ -1,4 +1,306 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 19:39:08 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第11期周刊</title><link>https://blog.yfff.me/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 29 May 2026 18:48:47 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第12期周刊</title><link>https://blog.yfff.me/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://rdi.berkeley.edu/adv-llm-agents/sp25"&gt;CS294/194-280 Advanced Large Language Model Agents&lt;/a&gt;UC Berkeley 的高级 LLM Agent 课程，适合系统学习 Agent 架构、评测和实践。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agenticai-learning.org/f24"&gt;Large Language Model Agents&lt;/a&gt;LLM Agent 课程主页，覆盖工具调用、规划、记忆和多智能体等基础主题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://9router.com/"&gt;9Router - Free AI Router | Smart Fallback for Claude, Codex &amp;amp; More&lt;/a&gt;一个大模型网关，集成了 RTK 和 Caveman Mode，节省 token。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=s06mSAGN4gM&amp;amp;t=964s"&gt;AI 要跨越盧比孔河了嗎？自我成長的 AI 離我們多遠？ - YouTube&lt;/a&gt;李宏毅教授关于 AI 自主进化的介绍。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.kimi.com/zh-cn/features/webbridge"&gt;WebBridge - Let Kimi Agent Drive Your Browser | Kimi&lt;/a&gt;Kimi 版浏览器操作插件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/memohai/Memoh"&gt;memohai/Memoh: ✨ Self hosted, always-on AI agent platform run in containers. Create multiple bots with long memory, and connect them to Telegram, Discord, Feishu(Lark), Matrix, etc.&lt;/a&gt;自托管的常驻 AI Agent 平台，强调长记忆和 IM 集成。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yetone/native-feel-skill"&gt;yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast&amp;rsquo;s 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.&lt;/a&gt;面向跨平台桌面应用的 Agent Skill，用来约束“原生感”设计和发版检查。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lishix520/academic-paper-skills"&gt;lishix520/academic-paper-skills: Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.&lt;/a&gt;一组论文规划与写作技能，把选题、结构和成稿拆成可检查流程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/a9gent/mindfs/tree/main"&gt;a9gent/mindfs: Access your personal AI agents and workstation data anywhere, anytime through MindFS.&lt;/a&gt;把个人 Agent 和工作站数据暴露为可远程访问的文件系统接口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mousedo.eyhn.in/"&gt;Mousedo — The most powerful computer-use agent for Mac&lt;/a&gt;Mac 上的 computer-use agent，自带光标执行点击、输入、切换应用等操作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.helio.im/"&gt;Helio — the AI-native team workspace&lt;/a&gt;面向团队协作的 AI-native 工作空间。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hivehq.dev/"&gt;Hive — 在浏览器里造一座 Agent 蜂巢&lt;/a&gt;浏览器里的多 Agent 工作台，用来组织多个 Agent 协同完成任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cumora.ai/"&gt;Cumora — Where agent teams gather&lt;/a&gt;面向 Agent 团队协作与编排的产品主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aihot.virxact.com/"&gt;AIHOT&lt;/a&gt;AI 动态聚合站，会按模型、产品、论文、技巧等维度精选高价值内容。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nexu-io/html-anything"&gt;nexu-io/html-anything: ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.&lt;/a&gt;本地 Agent 驱动的 HTML 创作工具，覆盖海报、卡片、deck、原型和数据报告等输出形态。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/google/agents-cli"&gt;google/agents-cli: The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.&lt;/a&gt;Google Cloud 面向 Agent 创建、评测与部署的 CLI 和技能集合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/"&gt;An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI&lt;/a&gt;OpenAI 关于模型推翻离散几何核心猜想的案例文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Open-Less/openless"&gt;Open-Less/openless: Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS &amp;amp; Windows. (按住快捷键说话，松开即得润色后的文字)&lt;/a&gt;开源语音输入工具，按住快捷键说话后把润色文本直接插入当前光标位置。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/FuJacob/tabby"&gt;FuJacob/tabby: tabby is local AI autocomplete for your entire Mac. Open source. On device. Everywhere you type.&lt;/a&gt;本地运行的全局 AI 自动补全工具，面向 macOS 上所有可输入场景。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://iop.systems/blog/llm-inference/"&gt;Inference Infrastructure&lt;/a&gt;LLM 推理基础设施长文，适合梳理服务端推理、调度与性能优化。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Dictation354/paper-fetch-skill"&gt;Dictation354/paper-fetch-skill: Fetch papers as agent-ready markdown — DOI/URL/title in, structured full text out. CLI · MCP · Skill.&lt;/a&gt;把论文抓取成 Agent 友好的结构化 Markdown，支持 DOI、URL 和标题输入。&lt;/p&gt;
+&lt;h3 id="阅读--电子书--写作"&gt;阅读 / 电子书 / 写作&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://philoli.com/zh/projects/ebook-translator/"&gt;双语电子书翻译器 — Philo Li&lt;/a&gt;如题，支持 epub 和 PDF。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yihong0618/bilingual_book_maker"&gt;yihong0618/bilingual_book_maker: Make bilingual epub books Using AI translate&lt;/a&gt;也是一个双语电子书制作工具，支持 epub 格式，可以将单语电子书翻译成双语版本。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://standardebooks.org/"&gt;Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover&lt;/a&gt;一个免费电子书网站，提供了各种经典文学作品的电子版，格式多样，适合电子阅读器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://owl.purdue.edu/owl/index.html"&gt;Welcome to the Purdue OWL - Purdue OWL® - Purdue University&lt;/a&gt;一个关于写作的资源网站，提供了各种写作指南和格式规范，非常适合学术写作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jbiaojerry.github.io/ebook-treasure-chest/"&gt;📚 电子书下载宝库 - Ebook Treasure Chest&lt;/a&gt;电子书下载索引站，汇总多类中文电子书资源。&lt;/p&gt;
+&lt;p&gt;Github：&lt;a href="https://github.com/jbiaojerry/ebook-treasure-chest"&gt;jbiaojerry/ebook-treasure-chest: 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。&lt;/a&gt;配套 GitHub 仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SaberOnGo/public-domain-books-translation"&gt;SaberOnGo/public-domain-books-translation: Public domain books translation project&lt;/a&gt;公版书翻译项目，适合关注经典文本的双语化和再出版流程。&lt;/p&gt;
+&lt;h3 id="macos--效率--终端"&gt;macOS / 效率 / 终端&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://espanso.org/"&gt;Espanso - A Privacy-first, Cross-platform Text Expander&lt;/a&gt;非常好用的文本扩展工具，检测关键词自动替换，支持 shell command 等众多功能，跨平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://community.obsidian.md/"&gt;Obsidian Community&lt;/a&gt;Obsidian 推出的新插件社区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/genymobile/scrcpy"&gt;Genymobile/scrcpy: Display and control your Android device&lt;/a&gt;控制安卓设备。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/pranshuparmar/witr"&gt;pranshuparmar/witr: Why is this running?&lt;/a&gt;一个查看当前运行进程的 TUI。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Lakr233/SafariYYDS"&gt;Lakr233/SafariYYDS&lt;/a&gt;Safari 增强相关项目，适合收集 Safari 生态工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ThaddeusJiang/SafariYYDS-js"&gt;ThaddeusJiang/SafariYYDS-js&lt;/a&gt;SafariYYDS 的 JavaScript 版本或相关实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rockorager/comview"&gt;rockorager/comview: the best diff viewer ever made&lt;/a&gt;命令行 diff 查看器，适合更舒服地浏览代码差异。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://swiftcast.space/"&gt;Supermac - Superpowers for your Mac&lt;/a&gt;Mac 原生启动器和效率工具，强调本地优先、隐私和快速搜索。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://shaihai.cn/"&gt;Shaihai Studio&lt;/a&gt;∫aihai Studio 主站，放科普/实验性视频项目和相关入口。&lt;/p&gt;
+&lt;h3 id="学术--数学--工程资源"&gt;学术 / 数学 / 工程资源&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://zhuyidao.com/"&gt;zhuyidao.com&lt;/a&gt;注意力计算器，自动注意到例如 $\pi &gt; 3.14$ 这样的积分构造证明。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tildalice.io/scipy-fft-vs-numpy-fft-vibration-benchmark/"&gt;SciPy FFT vs NumPy FFT: 2.3x Speed Gap at 50kHz – TildAlice&lt;/a&gt;SciPy 的 FFT 模块比 NumPy 快很多，尤其是在大规模数据上。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/liuskywalkerjskd/Control-Note"&gt;liuskywalkerjskd/Control-Note: A concise and intuitive control theory lecture note, designed for engineering applications, in both Chinese and English.&lt;/a&gt;一个控制笔记。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anymathe.com/index"&gt;AnyMath - AI 动画生成器 | 在线创建数学动画&lt;/a&gt;在线数学动画生成器，可用于快速制作教学演示。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Wing900/PlotKityCat"&gt;Wing900/PlotKityCat&lt;/a&gt;PlotKityCat 是一个面向数学教学可视化的桌面应用，基于 Wails + Vue + Go + Python Runtime 构建。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://theorems.home.blog/"&gt;Theorems of the 21st century&lt;/a&gt;记录和介绍 21 世纪重要数学定理的博客。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/22266788"&gt;机器人工程师学习计划 - 知乎&lt;/a&gt;机器人工程师方向的学习路线参考。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2039380190334284614"&gt;机器人工程师本科学习计划（试读版） - 知乎&lt;/a&gt;本科阶段机器人学习计划试读版。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD"&gt;机器人工程师本科学习计划（试读版） - 飞书云文档&lt;/a&gt;上面机器人学习计划的飞书文档版本，便于在线阅读和协作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Exorust/TorchLeet"&gt;Exorust/TorchLeet: Leetcode for Pytorch&lt;/a&gt;PyTorch 练习题项目，用 LeetCode 风格训练张量操作熟练度。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://polypad.amplify.com/"&gt;Polypad – The Mathematical Playground&lt;/a&gt;交互式数学白板，适合几何、代数和课堂演示。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tildalice.io/pytorch-vs-tensorflow-syntax-quick-reference/"&gt;PyTorch vs TensorFlow Syntax: 15 Operations Side-by-Side – TildAlice&lt;/a&gt;PyTorch 与 TensorFlow 常用操作语法对照。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pionpill.github.io/retikz/core/introduction"&gt;retikz&lt;/a&gt;面向 Web 的 TikZ/流程图绘制工具文档。&lt;/p&gt;
+&lt;p&gt;Github：&lt;a href="https://github.com/Pionpill/retikz"&gt;Pionpill/retikz: 使用 react，d3 实现 tikz 绘制流程图&lt;/a&gt;retikz 的源码仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/guchuanv-alt/SimART"&gt;guchuanv-alt/SimART&lt;/a&gt;面向 6G ISAC 的真实多模态仿真平台，整合机器人仿真、射线追踪和无线评估。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wljs.io/"&gt;WLJS Notebook&lt;/a&gt;基于 Wolfram Engine 的开源 notebook 界面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/WLJSTeam/wljs-notebook"&gt;WLJSTeam/wljs-notebook: Open-source notebook interface for Wolfram Engine&lt;/a&gt;WLJS Notebook 的开源仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatgpt.com/share/6a0e9e04-8cb0-8332-a4f1-ec68acd2e03e"&gt;Erdős planar unit-distance&lt;/a&gt;关于 Erdős 平面单位距离问题的讨论记录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV1gpNMzMEAY/"&gt;【【解线性方程组】的现代姿势：为什么不应该求逆矩阵？】 &lt;/a&gt;介绍数值计算中为什么解线性方程组通常不应显式求逆矩阵。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/359082678"&gt;終 · 一步到位的张量指标运算 - 知乎&lt;/a&gt;关于张量指标记号和张量运算的长文。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2042241424880555712"&gt;万字全景：超声波雷达和毫米波雷达的强劲对手——UWB近场感知技术 - 知乎&lt;/a&gt;关于 UWB 雷达的介绍。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rcfs.ch/"&gt;RCFS&lt;/a&gt;Robotics Codes From Scratch，机器人最优控制和轨迹优化示例工具箱。&lt;/p&gt;
+&lt;h3 id="学术平台--论文--博客"&gt;学术平台 / 论文 / 博客&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mlops.community/"&gt;MLOps Community | Learn, Meet &amp;amp; Grow in Real-World MLOps&lt;/a&gt;MLOps 社区，包含文章、活动和真实工程经验分享。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wizwand.com/"&gt;Discover AI/ML SOTA papers with code and benchmarks - Wizwand&lt;/a&gt;AI/ML 论文、代码和 benchmark 发现平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paperswithcode.co/"&gt;Papers with Code&lt;/a&gt;论文、代码和任务榜单聚合平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://johncarlosbaez.wordpress.com/"&gt;Azimuth&lt;/a&gt;John Baez 的数学、物理和复杂系统博客。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://distill.pub/"&gt;Distill — Latest articles about machine learning&lt;/a&gt;机器学习可视化解释文章网站，适合收藏经典长文。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://study8677.github.io/awesome-architecture/"&gt;Awesome Architecture&lt;/a&gt;架构学习资源导航。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/"&gt;Gregory Gundersen&lt;/a&gt;一个博客，有很多关于统计的内容。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/2025/10/01/large-language-models/"&gt;A History of Large Language Models&lt;/a&gt;Gregory Gundersen 关于大语言模型历史的文章。&lt;/p&gt;
+&lt;h3 id="设计--创作--web-工具"&gt;设计 / 创作 / Web 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/SiriusFzh/NovaForge"&gt;SiriusFzh/NovaForge: 锻造你的知识体系 | 考研·考公·专业课·科研·项目·竞赛通用笔记模板。LaTeX+Markdown双版本，7步模块化结构，5种场景模板，一键换色，开箱即用。&lt;/a&gt;通用知识体系与笔记模板，覆盖考试、科研、项目和竞赛场景。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ianho7/maptoposter-online"&gt;ianho7/maptoposter-online: ✨❤️‍🔥Turn the cities you love into stunning designs&lt;/a&gt;把城市地图生成海报的在线设计工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/be5invis/Iosevka"&gt;be5invis/Iosevka: Versatile typeface for code, from code&lt;/a&gt;一个可定制的等宽字体，适合编程和数学排版。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.siddjain.com/latex-theme-editor/"&gt;LaTeX Theme Editor&lt;/a&gt;LaTeX 主题和配色在线编辑工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kocurvik/beampptx/"&gt;kocurvik/beampptx: Convert LaTeX Beamer slides to PowerPoint with flawless vector graphics and embedded video support.&lt;/a&gt;把 LaTeX Beamer 幻灯片转换成 PowerPoint，重点支持矢量图形和嵌入视频。&lt;/p&gt;
+&lt;h3 id="图床--媒体托管"&gt;图床 / 媒体托管&lt;/h3&gt;
+&lt;p&gt;图床和媒体托管合集，适合临时分享图片、视频或做外链备选。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SM.MS &lt;a href="https://sm.ms/"&gt;https://sm.ms/&lt;/a&gt;：常见免费图床服务。&lt;/li&gt;
+&lt;li&gt;Streamja &lt;a href="https://streamja.com/"&gt;https://streamja.com/&lt;/a&gt;：视频托管与分享服务。&lt;/li&gt;
+&lt;li&gt;路过图床 &lt;a href="https://imgtu.com/"&gt;https://imgtu.com/&lt;/a&gt;：中文图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;聚合图床 &lt;a href="http://tool.mkblog.cn/tuchuang/"&gt;http://tool.mkblog.cn/tuchuang/&lt;/a&gt;：多图床聚合上传工具。&lt;/li&gt;
+&lt;li&gt;聚合图床-免费无限图片上传 &lt;a href="https://www.superbed.cn/"&gt;https://www.superbed.cn/&lt;/a&gt;：聚合图床服务。&lt;/li&gt;
+&lt;li&gt;Upload.cc 免費圖片上傳網 &lt;a href="https://upload.cc/"&gt;https://upload.cc/&lt;/a&gt;：免费图片上传与分享服务。&lt;/li&gt;
+&lt;li&gt;Postimages &lt;a href="https://postimages.org/"&gt;https://postimages.org/&lt;/a&gt;：图片上传和论坛外链常用服务。&lt;/li&gt;
+&lt;li&gt;多图片上传 &lt;a href="https://yytu.xyz/"&gt;https://yytu.xyz/&lt;/a&gt;：多图上传服务。&lt;/li&gt;
+&lt;li&gt;云转码 &lt;a href="https://v.superbed.cn/"&gt;https://v.superbed.cn/&lt;/a&gt;：媒体转码与托管相关服务。&lt;/li&gt;
+&lt;li&gt;笑果图床 &lt;a href="https://imagelol.com/"&gt;https://imagelol.com/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;小鹿快传 &lt;a href="https://deershare.com/send"&gt;https://deershare.com/send&lt;/a&gt;：文件快传服务。&lt;/li&gt;
+&lt;li&gt;LskyPro &lt;a href="https://www.lsky.pro/"&gt;https://www.lsky.pro/&lt;/a&gt;：开源图床程序，可自建图片托管。&lt;/li&gt;
+&lt;li&gt;即刻图床 &lt;a href="https://jiketuchuang.com/"&gt;https://jiketuchuang.com/&lt;/a&gt;：中文图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;图壳 &lt;a href="https://imgkr.com/"&gt;https://imgkr.com/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;老王图床 &lt;a href="https://www.gejiba.com/"&gt;https://www.gejiba.com/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;Mikupics &lt;a href="https://mikupics.cn/"&gt;https://mikupics.cn/&lt;/a&gt;：图片托管服务。&lt;/li&gt;
+&lt;li&gt;Imgur The magic of the Internet &lt;a href="https://imgur.com/"&gt;https://imgur.com/&lt;/a&gt;：国际常用图片托管与分享社区。&lt;/li&gt;
+&lt;li&gt;Streamvi Video Sharing Made Simple &lt;a href="https://streamvi.com/"&gt;https://streamvi.com/&lt;/a&gt;：视频上传与分享服务。&lt;/li&gt;
+&lt;li&gt;去不图床 &lt;a href="https://7bu.top/"&gt;https://7bu.top/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;图床导航 &lt;a href="http://imgdh.com/"&gt;http://imgdh.com/&lt;/a&gt;：图床服务导航站。&lt;/li&gt;
+&lt;li&gt;Z4A图床 &lt;a href="https://www.z4a.net/"&gt;https://www.z4a.net/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;ImageHub &lt;a href="https://www.imagehub.cc/"&gt;https://www.imagehub.cc/&lt;/a&gt;：图片托管服务。&lt;/li&gt;
+&lt;li&gt;IMG. 全球CDN免费图床 &lt;a href="https://img."&gt;https://img.&lt;/a&gt;：疑似未补全链接，后续可清理。&lt;/li&gt;
+&lt;li&gt;老王图床 &lt;a href="https://img.gejiba.com/"&gt;https://img.gejiba.com/&lt;/a&gt;：老王图床的图片上传入口。&lt;/li&gt;
+&lt;li&gt;图林 &lt;a href="https://imglink.org/"&gt;https://imglink.org/&lt;/a&gt;：图片链接与托管服务。&lt;/li&gt;
+&lt;li&gt;ImageOss-免费图片存储空间 &lt;a href="https://www.imageoss.com/"&gt;https://www.imageoss.com/&lt;/a&gt;：图片存储和外链服务。&lt;/li&gt;
+&lt;li&gt;图片存储 &lt;a href="https://pic.xywm.ltd/"&gt;https://pic.xywm.ltd/&lt;/a&gt;：图片上传与存储服务。&lt;/li&gt;
+&lt;li&gt;幻域图床 &lt;a href="https://tc.rpgsky.net/"&gt;https://tc.rpgsky.net/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;跬步图床 &lt;a href="https://img.kuibu.net/"&gt;https://img.kuibu.net/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;QQ.TC &lt;a href="http://qq.tc/"&gt;http://qq.tc/&lt;/a&gt;：短链接或图片外链服务入口。&lt;/li&gt;
+&lt;li&gt;小波图床 &lt;a href="https://www.tuchuangs.com/"&gt;https://www.tuchuangs.com/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;麦克图床 &lt;a href="https://macimg.com/"&gt;https://macimg.com/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;imgsha &lt;a href="https://imgsha.com/"&gt;https://imgsha.com/&lt;/a&gt;：图片托管服务。&lt;/li&gt;
+&lt;li&gt;ImgBB &lt;a href="https://imgbb.com/"&gt;https://imgbb.com/&lt;/a&gt;：国际常用图片上传与托管服务。&lt;/li&gt;
+&lt;li&gt;StreamSB-VideoPlatformForYou &lt;a href="https://streamsb.com/"&gt;https://streamsb.com/&lt;/a&gt;：视频托管平台。&lt;/li&gt;
+&lt;li&gt;最图床 &lt;a href="https://z.photos/"&gt;https://z.photos/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;MBA图床 &lt;a href="https://pic.mba/"&gt;https://pic.mba/&lt;/a&gt;：图片上传与外链服务。&lt;/li&gt;
+&lt;li&gt;Imagecache &amp;amp; resize service &lt;a href="https://images.weserv.nl/"&gt;https://images.weserv.nl/&lt;/a&gt;：图片缓存、代理与尺寸处理服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="字体--排版配置"&gt;字体 / 排版配置&lt;/h3&gt;
+&lt;p&gt;vscode 单独为语言设置字体，让 Markdown / LaTeX / TeX 使用更适合阅读的衬线字体。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;JetBrains Mono&amp;#39;, &amp;#39;SF Mono&amp;#39;, Menlo, monospace&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.45&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[markdown]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[latex]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[tex]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--编程工具">AI / Agent / 编程工具</h3>
+<p><a href="https://rdi.berkeley.edu/adv-llm-agents/sp25">CS294/194-280 Advanced Large Language Model Agents</a>UC Berkeley 的高级 LLM Agent 课程，适合系统学习 Agent 架构、评测和实践。</p>
+<p><a href="https://agenticai-learning.org/f24">Large Language Model Agents</a>LLM Agent 课程主页，覆盖工具调用、规划、记忆和多智能体等基础主题。</p>
+<p><a href="https://9router.com/">9Router - Free AI Router | Smart Fallback for Claude, Codex &amp; More</a>一个大模型网关，集成了 RTK 和 Caveman Mode，节省 token。</p>
+<p><a href="https://www.youtube.com/watch?v=s06mSAGN4gM&amp;t=964s">AI 要跨越盧比孔河了嗎？自我成長的 AI 離我們多遠？ - YouTube</a>李宏毅教授关于 AI 自主进化的介绍。</p>
+<p><a href="https://www.kimi.com/zh-cn/features/webbridge">WebBridge - Let Kimi Agent Drive Your Browser | Kimi</a>Kimi 版浏览器操作插件。</p>
+<p><a href="https://github.com/memohai/Memoh">memohai/Memoh: ✨ Self hosted, always-on AI agent platform run in containers. Create multiple bots with long memory, and connect them to Telegram, Discord, Feishu(Lark), Matrix, etc.</a>自托管的常驻 AI Agent 平台，强调长记忆和 IM 集成。</p>
+<p><a href="https://github.com/yetone/native-feel-skill">yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast&rsquo;s 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.</a>面向跨平台桌面应用的 Agent Skill，用来约束“原生感”设计和发版检查。</p>
+<p><a href="https://github.com/lishix520/academic-paper-skills">lishix520/academic-paper-skills: Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.</a>一组论文规划与写作技能，把选题、结构和成稿拆成可检查流程。</p>
+<p><a href="https://github.com/a9gent/mindfs/tree/main">a9gent/mindfs: Access your personal AI agents and workstation data anywhere, anytime through MindFS.</a>把个人 Agent 和工作站数据暴露为可远程访问的文件系统接口。</p>
+<p><a href="https://mousedo.eyhn.in/">Mousedo — The most powerful computer-use agent for Mac</a>Mac 上的 computer-use agent，自带光标执行点击、输入、切换应用等操作。</p>
+<p><a href="https://www.helio.im/">Helio — the AI-native team workspace</a>面向团队协作的 AI-native 工作空间。</p>
+<p><a href="https://hivehq.dev/">Hive — 在浏览器里造一座 Agent 蜂巢</a>浏览器里的多 Agent 工作台，用来组织多个 Agent 协同完成任务。</p>
+<p><a href="https://cumora.ai/">Cumora — Where agent teams gather</a>面向 Agent 团队协作与编排的产品主页。</p>
+<p><a href="https://aihot.virxact.com/">AIHOT</a>AI 动态聚合站，会按模型、产品、论文、技巧等维度精选高价值内容。</p>
+<p><a href="https://github.com/nexu-io/html-anything">nexu-io/html-anything: ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</a>本地 Agent 驱动的 HTML 创作工具，覆盖海报、卡片、deck、原型和数据报告等输出形态。</p>
+<p><a href="https://github.com/google/agents-cli">google/agents-cli: The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.</a>Google Cloud 面向 Agent 创建、评测与部署的 CLI 和技能集合。</p>
+<p><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI</a>OpenAI 关于模型推翻离散几何核心猜想的案例文章。</p>
+<p><a href="https://github.com/Open-Less/openless">Open-Less/openless: Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS &amp; Windows. (按住快捷键说话，松开即得润色后的文字)</a>开源语音输入工具，按住快捷键说话后把润色文本直接插入当前光标位置。</p>
+<p><a href="https://github.com/FuJacob/tabby">FuJacob/tabby: tabby is local AI autocomplete for your entire Mac. Open source. On device. Everywhere you type.</a>本地运行的全局 AI 自动补全工具，面向 macOS 上所有可输入场景。</p>
+<p><a href="https://iop.systems/blog/llm-inference/">Inference Infrastructure</a>LLM 推理基础设施长文，适合梳理服务端推理、调度与性能优化。</p>
+<p><a href="https://github.com/Dictation354/paper-fetch-skill">Dictation354/paper-fetch-skill: Fetch papers as agent-ready markdown — DOI/URL/title in, structured full text out. CLI · MCP · Skill.</a>把论文抓取成 Agent 友好的结构化 Markdown，支持 DOI、URL 和标题输入。</p>
+<h3 id="阅读--电子书--写作">阅读 / 电子书 / 写作</h3>
+<p><a href="https://philoli.com/zh/projects/ebook-translator/">双语电子书翻译器 — Philo Li</a>如题，支持 epub 和 PDF。</p>
+<p><a href="https://github.com/yihong0618/bilingual_book_maker">yihong0618/bilingual_book_maker: Make bilingual epub books Using AI translate</a>也是一个双语电子书制作工具，支持 epub 格式，可以将单语电子书翻译成双语版本。</p>
+<p><a href="https://standardebooks.org/">Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover</a>一个免费电子书网站，提供了各种经典文学作品的电子版，格式多样，适合电子阅读器。</p>
+<p><a href="https://owl.purdue.edu/owl/index.html">Welcome to the Purdue OWL - Purdue OWL® - Purdue University</a>一个关于写作的资源网站，提供了各种写作指南和格式规范，非常适合学术写作。</p>
+<p><a href="https://jbiaojerry.github.io/ebook-treasure-chest/">📚 电子书下载宝库 - Ebook Treasure Chest</a>电子书下载索引站，汇总多类中文电子书资源。</p>
+<p>Github：<a href="https://github.com/jbiaojerry/ebook-treasure-chest">jbiaojerry/ebook-treasure-chest: 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。</a>配套 GitHub 仓库。</p>
+<p><a href="https://github.com/SaberOnGo/public-domain-books-translation">SaberOnGo/public-domain-books-translation: Public domain books translation project</a>公版书翻译项目，适合关注经典文本的双语化和再出版流程。</p>
+<h3 id="macos--效率--终端">macOS / 效率 / 终端</h3>
+<p><a href="https://espanso.org/">Espanso - A Privacy-first, Cross-platform Text Expander</a>非常好用的文本扩展工具，检测关键词自动替换，支持 shell command 等众多功能，跨平台。</p>
+<p><a href="https://community.obsidian.md/">Obsidian Community</a>Obsidian 推出的新插件社区。</p>
+<p><a href="https://github.com/genymobile/scrcpy">Genymobile/scrcpy: Display and control your Android device</a>控制安卓设备。</p>
+<p><a href="https://github.com/pranshuparmar/witr">pranshuparmar/witr: Why is this running?</a>一个查看当前运行进程的 TUI。</p>
+<p><a href="https://github.com/Lakr233/SafariYYDS">Lakr233/SafariYYDS</a>Safari 增强相关项目，适合收集 Safari 生态工具。</p>
+<p><a href="https://github.com/ThaddeusJiang/SafariYYDS-js">ThaddeusJiang/SafariYYDS-js</a>SafariYYDS 的 JavaScript 版本或相关实现。</p>
+<p><a href="https://github.com/rockorager/comview">rockorager/comview: the best diff viewer ever made</a>命令行 diff 查看器，适合更舒服地浏览代码差异。</p>
+<p><a href="https://swiftcast.space/">Supermac - Superpowers for your Mac</a>Mac 原生启动器和效率工具，强调本地优先、隐私和快速搜索。</p>
+<p><a href="https://shaihai.cn/">Shaihai Studio</a>∫aihai Studio 主站，放科普/实验性视频项目和相关入口。</p>
+<h3 id="学术--数学--工程资源">学术 / 数学 / 工程资源</h3>
+<p><a href="http://zhuyidao.com/">zhuyidao.com</a>注意力计算器，自动注意到例如 $\pi > 3.14$ 这样的积分构造证明。</p>
+<p><a href="https://tildalice.io/scipy-fft-vs-numpy-fft-vibration-benchmark/">SciPy FFT vs NumPy FFT: 2.3x Speed Gap at 50kHz – TildAlice</a>SciPy 的 FFT 模块比 NumPy 快很多，尤其是在大规模数据上。</p>
+<p><a href="https://github.com/liuskywalkerjskd/Control-Note">liuskywalkerjskd/Control-Note: A concise and intuitive control theory lecture note, designed for engineering applications, in both Chinese and English.</a>一个控制笔记。</p>
+<p><a href="https://anymathe.com/index">AnyMath - AI 动画生成器 | 在线创建数学动画</a>在线数学动画生成器，可用于快速制作教学演示。</p>
+<p><a href="https://github.com/Wing900/PlotKityCat">Wing900/PlotKityCat</a>PlotKityCat 是一个面向数学教学可视化的桌面应用，基于 Wails + Vue + Go + Python Runtime 构建。</p>
+<p><a href="https://theorems.home.blog/">Theorems of the 21st century</a>记录和介绍 21 世纪重要数学定理的博客。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/22266788">机器人工程师学习计划 - 知乎</a>机器人工程师方向的学习路线参考。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/2039380190334284614">机器人工程师本科学习计划（试读版） - 知乎</a>本科阶段机器人学习计划试读版。</p>
+<p><a href="https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD">机器人工程师本科学习计划（试读版） - 飞书云文档</a>上面机器人学习计划的飞书文档版本，便于在线阅读和协作。</p>
+<p><a href="https://github.com/Exorust/TorchLeet">Exorust/TorchLeet: Leetcode for Pytorch</a>PyTorch 练习题项目，用 LeetCode 风格训练张量操作熟练度。</p>
+<p><a href="https://polypad.amplify.com/">Polypad – The Mathematical Playground</a>交互式数学白板，适合几何、代数和课堂演示。</p>
+<p><a href="https://tildalice.io/pytorch-vs-tensorflow-syntax-quick-reference/">PyTorch vs TensorFlow Syntax: 15 Operations Side-by-Side – TildAlice</a>PyTorch 与 TensorFlow 常用操作语法对照。</p>
+<p><a href="https://pionpill.github.io/retikz/core/introduction">retikz</a>面向 Web 的 TikZ/流程图绘制工具文档。</p>
+<p>Github：<a href="https://github.com/Pionpill/retikz">Pionpill/retikz: 使用 react，d3 实现 tikz 绘制流程图</a>retikz 的源码仓库。</p>
+<p><a href="https://github.com/guchuanv-alt/SimART">guchuanv-alt/SimART</a>面向 6G ISAC 的真实多模态仿真平台，整合机器人仿真、射线追踪和无线评估。</p>
+<p><a href="https://wljs.io/">WLJS Notebook</a>基于 Wolfram Engine 的开源 notebook 界面。</p>
+<p><a href="https://github.com/WLJSTeam/wljs-notebook">WLJSTeam/wljs-notebook: Open-source notebook interface for Wolfram Engine</a>WLJS Notebook 的开源仓库。</p>
+<p><a href="https://chatgpt.com/share/6a0e9e04-8cb0-8332-a4f1-ec68acd2e03e">Erdős planar unit-distance</a>关于 Erdős 平面单位距离问题的讨论记录。</p>
+<p><a href="https://www.bilibili.com/video/BV1gpNMzMEAY/">【【解线性方程组】的现代姿势：为什么不应该求逆矩阵？】 </a>介绍数值计算中为什么解线性方程组通常不应显式求逆矩阵。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/359082678">終 · 一步到位的张量指标运算 - 知乎</a>关于张量指标记号和张量运算的长文。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/2042241424880555712">万字全景：超声波雷达和毫米波雷达的强劲对手——UWB近场感知技术 - 知乎</a>关于 UWB 雷达的介绍。</p>
+<p><a href="https://rcfs.ch/">RCFS</a>Robotics Codes From Scratch，机器人最优控制和轨迹优化示例工具箱。</p>
+<h3 id="学术平台--论文--博客">学术平台 / 论文 / 博客</h3>
+<p><a href="https://mlops.community/">MLOps Community | Learn, Meet &amp; Grow in Real-World MLOps</a>MLOps 社区，包含文章、活动和真实工程经验分享。</p>
+<p><a href="https://www.wizwand.com/">Discover AI/ML SOTA papers with code and benchmarks - Wizwand</a>AI/ML 论文、代码和 benchmark 发现平台。</p>
+<p><a href="https://paperswithcode.co/">Papers with Code</a>论文、代码和任务榜单聚合平台。</p>
+<p><a href="https://johncarlosbaez.wordpress.com/">Azimuth</a>John Baez 的数学、物理和复杂系统博客。</p>
+<p><a href="https://distill.pub/">Distill — Latest articles about machine learning</a>机器学习可视化解释文章网站，适合收藏经典长文。</p>
+<p><a href="https://study8677.github.io/awesome-architecture/">Awesome Architecture</a>架构学习资源导航。</p>
+<p><a href="https://gregorygundersen.com/blog/">Gregory Gundersen</a>一个博客，有很多关于统计的内容。</p>
+<p><a href="https://gregorygundersen.com/blog/2025/10/01/large-language-models/">A History of Large Language Models</a>Gregory Gundersen 关于大语言模型历史的文章。</p>
+<h3 id="设计--创作--web-工具">设计 / 创作 / Web 工具</h3>
+<p><a href="https://github.com/SiriusFzh/NovaForge">SiriusFzh/NovaForge: 锻造你的知识体系 | 考研·考公·专业课·科研·项目·竞赛通用笔记模板。LaTeX+Markdown双版本，7步模块化结构，5种场景模板，一键换色，开箱即用。</a>通用知识体系与笔记模板，覆盖考试、科研、项目和竞赛场景。</p>
+<p><a href="https://github.com/ianho7/maptoposter-online">ianho7/maptoposter-online: ✨❤️‍🔥Turn the cities you love into stunning designs</a>把城市地图生成海报的在线设计工具。</p>
+<p><a href="https://github.com/be5invis/Iosevka">be5invis/Iosevka: Versatile typeface for code, from code</a>一个可定制的等宽字体，适合编程和数学排版。</p>
+<p><a href="https://www.siddjain.com/latex-theme-editor/">LaTeX Theme Editor</a>LaTeX 主题和配色在线编辑工具。</p>
+<p><a href="https://github.com/kocurvik/beampptx/">kocurvik/beampptx: Convert LaTeX Beamer slides to PowerPoint with flawless vector graphics and embedded video support.</a>把 LaTeX Beamer 幻灯片转换成 PowerPoint，重点支持矢量图形和嵌入视频。</p>
+<h3 id="图床--媒体托管">图床 / 媒体托管</h3>
+<p>图床和媒体托管合集，适合临时分享图片、视频或做外链备选。</p>
+<ul>
+<li>SM.MS <a href="https://sm.ms/">https://sm.ms/</a>：常见免费图床服务。</li>
+<li>Streamja <a href="https://streamja.com/">https://streamja.com/</a>：视频托管与分享服务。</li>
+<li>路过图床 <a href="https://imgtu.com/">https://imgtu.com/</a>：中文图片上传与外链服务。</li>
+<li>聚合图床 <a href="http://tool.mkblog.cn/tuchuang/">http://tool.mkblog.cn/tuchuang/</a>：多图床聚合上传工具。</li>
+<li>聚合图床-免费无限图片上传 <a href="https://www.superbed.cn/">https://www.superbed.cn/</a>：聚合图床服务。</li>
+<li>Upload.cc 免費圖片上傳網 <a href="https://upload.cc/">https://upload.cc/</a>：免费图片上传与分享服务。</li>
+<li>Postimages <a href="https://postimages.org/">https://postimages.org/</a>：图片上传和论坛外链常用服务。</li>
+<li>多图片上传 <a href="https://yytu.xyz/">https://yytu.xyz/</a>：多图上传服务。</li>
+<li>云转码 <a href="https://v.superbed.cn/">https://v.superbed.cn/</a>：媒体转码与托管相关服务。</li>
+<li>笑果图床 <a href="https://imagelol.com/">https://imagelol.com/</a>：图片上传与外链服务。</li>
+<li>小鹿快传 <a href="https://deershare.com/send">https://deershare.com/send</a>：文件快传服务。</li>
+<li>LskyPro <a href="https://www.lsky.pro/">https://www.lsky.pro/</a>：开源图床程序，可自建图片托管。</li>
+<li>即刻图床 <a href="https://jiketuchuang.com/">https://jiketuchuang.com/</a>：中文图片上传与外链服务。</li>
+<li>图壳 <a href="https://imgkr.com/">https://imgkr.com/</a>：图片上传与外链服务。</li>
+<li>老王图床 <a href="https://www.gejiba.com/">https://www.gejiba.com/</a>：图片上传与外链服务。</li>
+<li>Mikupics <a href="https://mikupics.cn/">https://mikupics.cn/</a>：图片托管服务。</li>
+<li>Imgur The magic of the Internet <a href="https://imgur.com/">https://imgur.com/</a>：国际常用图片托管与分享社区。</li>
+<li>Streamvi Video Sharing Made Simple <a href="https://streamvi.com/">https://streamvi.com/</a>：视频上传与分享服务。</li>
+<li>去不图床 <a href="https://7bu.top/">https://7bu.top/</a>：图片上传与外链服务。</li>
+<li>图床导航 <a href="http://imgdh.com/">http://imgdh.com/</a>：图床服务导航站。</li>
+<li>Z4A图床 <a href="https://www.z4a.net/">https://www.z4a.net/</a>：图片上传与外链服务。</li>
+<li>ImageHub <a href="https://www.imagehub.cc/">https://www.imagehub.cc/</a>：图片托管服务。</li>
+<li>IMG. 全球CDN免费图床 <a href="https://img.">https://img.</a>：疑似未补全链接，后续可清理。</li>
+<li>老王图床 <a href="https://img.gejiba.com/">https://img.gejiba.com/</a>：老王图床的图片上传入口。</li>
+<li>图林 <a href="https://imglink.org/">https://imglink.org/</a>：图片链接与托管服务。</li>
+<li>ImageOss-免费图片存储空间 <a href="https://www.imageoss.com/">https://www.imageoss.com/</a>：图片存储和外链服务。</li>
+<li>图片存储 <a href="https://pic.xywm.ltd/">https://pic.xywm.ltd/</a>：图片上传与存储服务。</li>
+<li>幻域图床 <a href="https://tc.rpgsky.net/">https://tc.rpgsky.net/</a>：图片上传与外链服务。</li>
+<li>跬步图床 <a href="https://img.kuibu.net/">https://img.kuibu.net/</a>：图片上传与外链服务。</li>
+<li>QQ.TC <a href="http://qq.tc/">http://qq.tc/</a>：短链接或图片外链服务入口。</li>
+<li>小波图床 <a href="https://www.tuchuangs.com/">https://www.tuchuangs.com/</a>：图片上传与外链服务。</li>
+<li>麦克图床 <a href="https://macimg.com/">https://macimg.com/</a>：图片上传与外链服务。</li>
+<li>imgsha <a href="https://imgsha.com/">https://imgsha.com/</a>：图片托管服务。</li>
+<li>ImgBB <a href="https://imgbb.com/">https://imgbb.com/</a>：国际常用图片上传与托管服务。</li>
+<li>StreamSB-VideoPlatformForYou <a href="https://streamsb.com/">https://streamsb.com/</a>：视频托管平台。</li>
+<li>最图床 <a href="https://z.photos/">https://z.photos/</a>：图片上传与外链服务。</li>
+<li>MBA图床 <a href="https://pic.mba/">https://pic.mba/</a>：图片上传与外链服务。</li>
+<li>Imagecache &amp; resize service <a href="https://images.weserv.nl/">https://images.weserv.nl/</a>：图片缓存、代理与尺寸处理服务。</li>
+</ul>
+<h3 id="字体--排版配置">字体 / 排版配置</h3>
+<p>vscode 单独为语言设置字体，让 Markdown / LaTeX / TeX 使用更适合阅读的衬线字体。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;JetBrains Mono&#39;, &#39;SF Mono&#39;, Menlo, monospace&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.45</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[markdown]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[latex]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[tex]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>第11期周刊</title><link>https://blog.yfff.me/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/hydropix/TranslateBooksWithLLMs"&gt;hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.&lt;/a&gt;翻译整本书。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/rbc33/Ghostbar"&gt;rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.&lt;/a&gt;录屏时隐藏 AI 聊天窗口的工具。&lt;/p&gt;
 &lt;p&gt;yetone 做的 AI 编程桌面宠物。&lt;/p&gt;
@@ -1745,15 +2047,6 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;li&gt;&lt;a href="https://framer.net.cn/"&gt;Framer中文网 2026 | 免费Framer模板、组件库 | Framer教程 | 让设计稿直接发布为网站&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/lukilabs/beautiful-mermaid"&gt;GitHub - lukilabs/beautiful-mermaid&lt;/a&gt;将 Mermaid 渲染为 SVG 和 ASCLL 字符画，由 &lt;a href="https://www.craft.do"&gt;Craft&lt;/a&gt; 团队打造，他们还做了一个 AI Agent 客户端&lt;a href="https://agents.craft.do"&gt;Craft Agent&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/BIT-DataLab/Edit-Banana"&gt;GitHub - BIT-DataLab/Edit-Banana: Edit Banana: A framework for converting statistical formats into editable.&lt;/a&gt;将 AI 生成的图片转换为可编辑内容，以支持 PPT 和 draw.io，方便快速制作流程图，论文示意图等。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="emerging-technologies"&gt;Emerging Technologies&lt;/h2&gt;
-&lt;h3 id="wireless--communications"&gt;Wireless &amp;amp; Communications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;看到一个挺有意思的 Stacked Intelligent Metasurfaces，中文名叫做层叠超表面。主要作者有：&lt;a href="https://jiancheng-an.github.io/"&gt;Jiancheng An&lt;/a&gt;，更多见&lt;a href="https://scholar.google.com/citations?view_op=search_authors&amp;amp;hl=en&amp;amp;mauthors=label:stacked_intelligent_metasurface"&gt;search_author|google scholar&lt;/a&gt;。有一篇公众号文章可以看看：&lt;a href="https://mp.weixin.qq.com/s/RwPLWAszx5YgWLwdHHDeSw"&gt;层叠超表面赋能的无线感知与通信&lt;/a&gt;。主要就是把多块 RIS 放在一起，电磁波在 RIS 之间的传递可以进行计算，类似于多层神经网络，如果可以实现的话应该能进行光速处理，实现更快的通信和感知。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="novel-concepts"&gt;Novel Concepts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa"&gt;Frequency-as-Aperture (FaA)&lt;/a&gt;传统传感器阵列孔径依靠物理间距实现大孔径，从而实现高空间分辨率，而 FaA 根据频率变化来实现虚拟孔径，增加了另一种自由度。&lt;/li&gt;
 &lt;/ul&gt;</description><content:encoded><![CDATA[<p>第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。</p>
 <h2 id="ai--machine-learning">AI &amp; Machine Learning</h2>
 <h3 id="models--frameworks">Models &amp; Frameworks</h3>
@@ -1892,16 +2185,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <li><a href="https://github.com/lukilabs/beautiful-mermaid">GitHub - lukilabs/beautiful-mermaid</a>将 Mermaid 渲染为 SVG 和 ASCLL 字符画，由 <a href="https://www.craft.do">Craft</a> 团队打造，他们还做了一个 AI Agent 客户端<a href="https://agents.craft.do">Craft Agent</a>。</li>
 <li><a href="https://github.com/BIT-DataLab/Edit-Banana">GitHub - BIT-DataLab/Edit-Banana: Edit Banana: A framework for converting statistical formats into editable.</a>将 AI 生成的图片转换为可编辑内容，以支持 PPT 和 draw.io，方便快速制作流程图，论文示意图等。</li>
 </ul>
-<h2 id="emerging-technologies">Emerging Technologies</h2>
-<h3 id="wireless--communications">Wireless &amp; Communications</h3>
-<ul>
-<li>看到一个挺有意思的 Stacked Intelligent Metasurfaces，中文名叫做层叠超表面。主要作者有：<a href="https://jiancheng-an.github.io/">Jiancheng An</a>，更多见<a href="https://scholar.google.com/citations?view_op=search_authors&amp;hl=en&amp;mauthors=label:stacked_intelligent_metasurface">search_author|google scholar</a>。有一篇公众号文章可以看看：<a href="https://mp.weixin.qq.com/s/RwPLWAszx5YgWLwdHHDeSw">层叠超表面赋能的无线感知与通信</a>。主要就是把多块 RIS 放在一起，电磁波在 RIS 之间的传递可以进行计算，类似于多层神经网络，如果可以实现的话应该能进行光速处理，实现更快的通信和感知。</li>
-</ul>
-<h3 id="novel-concepts">Novel Concepts</h3>
-<ul>
-<li><a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa">Frequency-as-Aperture (FaA)</a>传统传感器阵列孔径依靠物理间距实现大孔径，从而实现高空间分辨率，而 FaA 根据频率变化来实现虚拟孔径，增加了另一种自由度。</li>
-</ul>
 ]]></content:encoded></item><item><title>About Me</title><link>https://blog.yfff.me/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yfff.me/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yfff.&lt;/p&gt;
-&lt;p&gt;Contact Me: &lt;a href="mailto:contact@yfff.de"&gt;contact@yfff.de&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yfff.</p>
-<p>Contact Me: <a href="mailto:contact@yfff.de">contact@yfff.de</a></p>
+&lt;p&gt;Contact Me: &lt;a href="mailto:contact@yfff.me"&gt;contact@yfff.me&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yfff.</p>
+<p>Contact Me: <a href="mailto:contact@yfff.me">contact@yfff.me</a></p>
 ]]></content:encoded></item></channel></rss>
