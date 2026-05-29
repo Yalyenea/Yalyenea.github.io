@@ -1,4 +1,1054 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 11 Apr 2026 21:41:09 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 7</title><link>https://blog.yfff.me/en/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-7/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 29 May 2026 18:48:47 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 12</title><link>https://blog.yfff.me/en/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--programming-tools"&gt;AI / Agent / Programming Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://rdi.berkeley.edu/adv-llm-agents/sp25"&gt;CS294/194-280 Advanced Large Language Model Agents&lt;/a&gt; — UC Berkeley&amp;rsquo;s advanced LLM Agent course, useful for systematically learning agent architectures, evaluation, and practice.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agenticai-learning.org/f24"&gt;Large Language Model Agents&lt;/a&gt; — an LLM Agent course homepage covering tool use, planning, memory, multi-agent systems, and other foundations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://9router.com/"&gt;9Router - Free AI Router | Smart Fallback for Claude, Codex &amp;amp; More&lt;/a&gt; — a large-model gateway integrating RTK and Caveman Mode to save tokens.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=s06mSAGN4gM&amp;amp;t=964s"&gt;AI 要跨越盧比孔河了嗎？自我成長的 AI 離我們多遠？ - YouTube&lt;/a&gt; — Professor Hung-yi Lee&amp;rsquo;s introduction to AI self-improvement.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.kimi.com/zh-cn/features/webbridge"&gt;WebBridge - Let Kimi Agent Drive Your Browser | Kimi&lt;/a&gt; — Kimi&amp;rsquo;s browser-control plugin.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/memohai/Memoh"&gt;memohai/Memoh: ✨ Self hosted, always-on AI agent platform run in containers. Create multiple bots with long memory, and connect them to Telegram, Discord, Feishu(Lark), Matrix, etc.&lt;/a&gt; — a self-hosted, always-on AI agent platform with long memory and IM integrations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yetone/native-feel-skill"&gt;yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast&amp;rsquo;s 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.&lt;/a&gt; — an Agent Skill for cross-platform desktop apps with a native feel, useful as a design and release checklist.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lishix520/academic-paper-skills"&gt;lishix520/academic-paper-skills: Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.&lt;/a&gt; — a set of paper planning and writing skills that breaks topic selection, structure, and drafting into checkable workflows.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/a9gent/mindfs/tree/main"&gt;a9gent/mindfs: Access your personal AI agents and workstation data anywhere, anytime through MindFS.&lt;/a&gt; — exposes personal agents and workstation data through a remotely accessible filesystem interface.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mousedo.eyhn.in/"&gt;Mousedo — The most powerful computer-use agent for Mac&lt;/a&gt; — a Mac computer-use agent with cursor-based clicking, typing, app switching, and related actions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.helio.im/"&gt;Helio — the AI-native team workspace&lt;/a&gt; — an AI-native workspace for team collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hivehq.dev/"&gt;Hive — 在浏览器里造一座 Agent 蜂巢&lt;/a&gt; — a browser-based multi-agent workspace for coordinating multiple agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cumora.ai/"&gt;Cumora — Where agent teams gather&lt;/a&gt; — a product homepage for agent-team collaboration and orchestration.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aihot.virxact.com/"&gt;AIHOT&lt;/a&gt; — an AI news aggregator that curates models, products, papers, tips, and other high-value content.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nexu-io/html-anything"&gt;nexu-io/html-anything: ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.&lt;/a&gt; — a local agent-driven HTML creation tool covering posters, cards, decks, prototypes, and data reports.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/google/agents-cli"&gt;google/agents-cli: The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.&lt;/a&gt; — Google Cloud CLI and skills for creating, evaluating, and deploying agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/"&gt;An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI&lt;/a&gt; — OpenAI&amp;rsquo;s case study on a model disproving a central conjecture in discrete geometry.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Open-Less/openless"&gt;Open-Less/openless: Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS &amp;amp; Windows. (按住快捷键说话，松开即得润色后的文字)&lt;/a&gt; — an open-source voice input tool: hold a hotkey, speak, release, and polished text is inserted at the cursor.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/FuJacob/tabby"&gt;FuJacob/tabby: tabby is local AI autocomplete for your entire Mac. Open source. On device. Everywhere you type.&lt;/a&gt; — local AI autocomplete across all typing contexts on macOS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://iop.systems/blog/llm-inference/"&gt;Inference Infrastructure&lt;/a&gt; — a long article on LLM inference infrastructure, useful for sorting out server-side inference, scheduling, and performance optimization.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Dictation354/paper-fetch-skill"&gt;Dictation354/paper-fetch-skill: Fetch papers as agent-ready markdown — DOI/URL/title in, structured full text out. CLI · MCP · Skill.&lt;/a&gt; — fetches papers into agent-ready structured Markdown from DOI, URL, or title.&lt;/p&gt;
+&lt;h3 id="reading--ebooks--writing"&gt;Reading / Ebooks / Writing&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://philoli.com/zh/projects/ebook-translator/"&gt;双语电子书翻译器 — Philo Li&lt;/a&gt; — an ebook translation tool supporting EPUB and PDF.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yihong0618/bilingual_book_maker"&gt;yihong0618/bilingual_book_maker: Make bilingual epub books Using AI translate&lt;/a&gt; — another bilingual ebook maker, focused on EPUB.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://standardebooks.org/"&gt;Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover&lt;/a&gt; — a free ebook site with carefully produced editions of classics in multiple formats.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://owl.purdue.edu/owl/index.html"&gt;Welcome to the Purdue OWL - Purdue OWL® - Purdue University&lt;/a&gt; — a writing-resource site with guides and formatting rules, especially useful for academic writing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jbiaojerry.github.io/ebook-treasure-chest/"&gt;📚 电子书下载宝库 - Ebook Treasure Chest&lt;/a&gt; — an ebook download index collecting many Chinese ebook resources.&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href="https://github.com/jbiaojerry/ebook-treasure-chest"&gt;jbiaojerry/ebook-treasure-chest: 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。&lt;/a&gt; — companion GitHub repository.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SaberOnGo/public-domain-books-translation"&gt;SaberOnGo/public-domain-books-translation: Public domain books translation project&lt;/a&gt; — a public-domain book translation project, useful if you care about bilingual classics and republication workflows.&lt;/p&gt;
+&lt;h3 id="macos--productivity--terminal"&gt;macOS / Productivity / Terminal&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://espanso.org/"&gt;Espanso - A Privacy-first, Cross-platform Text Expander&lt;/a&gt; — a very useful text expander that replaces keywords automatically, supports shell commands, and works cross-platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://community.obsidian.md/"&gt;Obsidian Community&lt;/a&gt; — Obsidian&amp;rsquo;s new plugin community.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/genymobile/scrcpy"&gt;Genymobile/scrcpy: Display and control your Android device&lt;/a&gt; — control Android devices from a computer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/pranshuparmar/witr"&gt;pranshuparmar/witr: Why is this running?&lt;/a&gt; — a TUI for seeing why a process is running.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Lakr233/SafariYYDS"&gt;Lakr233/SafariYYDS&lt;/a&gt; — Safari enhancement project, useful for collecting Safari ecosystem tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ThaddeusJiang/SafariYYDS-js"&gt;ThaddeusJiang/SafariYYDS-js&lt;/a&gt; — JavaScript version or related implementation of SafariYYDS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rockorager/comview"&gt;rockorager/comview: the best diff viewer ever made&lt;/a&gt; — a command-line diff viewer for more comfortable code review.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://swiftcast.space/"&gt;Supermac - Superpowers for your Mac&lt;/a&gt; — a native Mac launcher and productivity tool focused on local-first behavior, privacy, and fast search.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://shaihai.cn/"&gt;Shaihai Studio&lt;/a&gt; — ∫aihai Studio&amp;rsquo;s site, with science-popularization and experimental video projects.&lt;/p&gt;
+&lt;h3 id="academic--math--engineering-resources"&gt;Academic / Math / Engineering Resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://zhuyidao.com/"&gt;zhuyidao.com&lt;/a&gt; — an &amp;ldquo;attention calculator&amp;rdquo; that can automatically notice integral constructions such as $\pi &gt; 3.14$.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tildalice.io/scipy-fft-vs-numpy-fft-vibration-benchmark/"&gt;SciPy FFT vs NumPy FFT: 2.3x Speed Gap at 50kHz – TildAlice&lt;/a&gt; — SciPy&amp;rsquo;s FFT module can be much faster than NumPy&amp;rsquo;s, especially at larger scales.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/liuskywalkerjskd/Control-Note"&gt;liuskywalkerjskd/Control-Note: A concise and intuitive control theory lecture note, designed for engineering applications, in both Chinese and English.&lt;/a&gt; — control theory notes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anymathe.com/index"&gt;AnyMath - AI 动画生成器 | 在线创建数学动画&lt;/a&gt; — an online math animation generator, useful for quick teaching demos.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Wing900/PlotKityCat"&gt;Wing900/PlotKityCat&lt;/a&gt; — a desktop app for mathematical teaching visualization, built with Wails + Vue + Go + Python Runtime.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://theorems.home.blog/"&gt;Theorems of the 21st century&lt;/a&gt; — records and introduces important mathematical theorems from the 21st century.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/22266788"&gt;机器人工程师学习计划 - 知乎&lt;/a&gt; — learning roadmap for robotics engineers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2039380190334284614"&gt;机器人工程师本科学习计划（试读版） - 知乎&lt;/a&gt; — undergraduate robotics study plan, trial version.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD"&gt;机器人工程师本科学习计划（试读版） - 飞书云文档&lt;/a&gt; — Feishu document version of the robotics study plan above.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Exorust/TorchLeet"&gt;Exorust/TorchLeet: Leetcode for Pytorch&lt;/a&gt; — PyTorch exercises in a LeetCode style for practicing tensor operations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://polypad.amplify.com/"&gt;Polypad – The Mathematical Playground&lt;/a&gt; — an interactive mathematical whiteboard for geometry, algebra, and classroom demonstrations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tildalice.io/pytorch-vs-tensorflow-syntax-quick-reference/"&gt;PyTorch vs TensorFlow Syntax: 15 Operations Side-by-Side – TildAlice&lt;/a&gt; — side-by-side syntax comparison of common PyTorch and TensorFlow operations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pionpill.github.io/retikz/core/introduction"&gt;retikz&lt;/a&gt; — docs for a web-based TikZ/flowchart drawing tool.&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href="https://github.com/Pionpill/retikz"&gt;Pionpill/retikz: 使用 react，d3 实现 tikz 绘制流程图&lt;/a&gt; — source repository for retikz.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/guchuanv-alt/SimART"&gt;guchuanv-alt/SimART&lt;/a&gt; — a realistic multimodal simulation platform for 6G ISAC, combining robot simulation, ray tracing, and wireless evaluation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wljs.io/"&gt;WLJS Notebook&lt;/a&gt; — an open-source notebook interface based on Wolfram Engine.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/WLJSTeam/wljs-notebook"&gt;WLJSTeam/wljs-notebook: Open-source notebook interface for Wolfram Engine&lt;/a&gt; — source repository for WLJS Notebook.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatgpt.com/share/6a0e9e04-8cb0-8332-a4f1-ec68acd2e03e"&gt;Erdős planar unit-distance&lt;/a&gt; — discussion record on the Erdős planar unit-distance problem.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV1gpNMzMEAY/"&gt;【【解线性方程组】的现代姿势：为什么不应该求逆矩阵？】 &lt;/a&gt; — explains why numerical linear algebra usually should not explicitly invert matrices.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/359082678"&gt;終 · 一步到位的张量指标运算 - 知乎&lt;/a&gt; — a long article on tensor index notation and tensor operations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2042241424880555712"&gt;万字全景：超声波雷达和毫米波雷达的强劲对手——UWB近场感知技术 - 知乎&lt;/a&gt; — introduction to UWB radar.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rcfs.ch/"&gt;RCFS&lt;/a&gt; — Robotics Codes From Scratch, an example toolbox for robot optimal control and trajectory optimization.&lt;/p&gt;
+&lt;h3 id="academic-platforms--papers--blogs"&gt;Academic Platforms / Papers / Blogs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mlops.community/"&gt;MLOps Community | Learn, Meet &amp;amp; Grow in Real-World MLOps&lt;/a&gt; — an MLOps community with articles, events, and real engineering experience.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wizwand.com/"&gt;Discover AI/ML SOTA papers with code and benchmarks - Wizwand&lt;/a&gt; — discovery platform for AI/ML papers, code, and benchmarks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paperswithcode.co/"&gt;Papers with Code&lt;/a&gt; — aggregator for papers, code, and task leaderboards.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://johncarlosbaez.wordpress.com/"&gt;Azimuth&lt;/a&gt; — John Baez&amp;rsquo;s blog on math, physics, and complex systems.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://distill.pub/"&gt;Distill — Latest articles about machine learning&lt;/a&gt; — visual-explanation articles on machine learning; good for collecting classics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://study8677.github.io/awesome-architecture/"&gt;Awesome Architecture&lt;/a&gt; — architecture learning resource navigation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/"&gt;Gregory Gundersen&lt;/a&gt; — a blog with lots of statistics content.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/2025/10/01/large-language-models/"&gt;A History of Large Language Models&lt;/a&gt; — Gregory Gundersen&amp;rsquo;s article on the history of large language models.&lt;/p&gt;
+&lt;h3 id="design--creation--web-tools"&gt;Design / Creation / Web Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/SiriusFzh/NovaForge"&gt;SiriusFzh/NovaForge: 锻造你的知识体系 | 考研·考公·专业课·科研·项目·竞赛通用笔记模板。LaTeX+Markdown双版本，7步模块化结构，5种场景模板，一键换色，开箱即用。&lt;/a&gt; — a general knowledge-system and note template for exams, research, projects, and competitions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ianho7/maptoposter-online"&gt;ianho7/maptoposter-online: ✨❤️‍🔥Turn the cities you love into stunning designs&lt;/a&gt; — online design tool for turning city maps into posters.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/be5invis/Iosevka"&gt;be5invis/Iosevka: Versatile typeface for code, from code&lt;/a&gt; — a customizable monospace typeface for coding and mathematical typography.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.siddjain.com/latex-theme-editor/"&gt;LaTeX Theme Editor&lt;/a&gt; — online editor for LaTeX themes and color palettes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kocurvik/beampptx/"&gt;kocurvik/beampptx: Convert LaTeX Beamer slides to PowerPoint with flawless vector graphics and embedded video support.&lt;/a&gt; — converts LaTeX Beamer slides to PowerPoint with vector graphics and embedded video support.&lt;/p&gt;
+&lt;h3 id="image-hosting--media-hosting"&gt;Image Hosting / Media Hosting&lt;/h3&gt;
+&lt;p&gt;A collection of image and media hosting services, useful for temporary sharing or external-link fallbacks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SM.MS &lt;a href="https://sm.ms/"&gt;https://sm.ms/&lt;/a&gt;: common free image hosting service.&lt;/li&gt;
+&lt;li&gt;Streamja &lt;a href="https://streamja.com/"&gt;https://streamja.com/&lt;/a&gt;: video hosting and sharing service.&lt;/li&gt;
+&lt;li&gt;路过图床 &lt;a href="https://imgtu.com/"&gt;https://imgtu.com/&lt;/a&gt;: Chinese image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;聚合图床 &lt;a href="http://tool.mkblog.cn/tuchuang/"&gt;http://tool.mkblog.cn/tuchuang/&lt;/a&gt;: multi-image-host upload aggregator.&lt;/li&gt;
+&lt;li&gt;聚合图床-免费无限图片上传 &lt;a href="https://www.superbed.cn/"&gt;https://www.superbed.cn/&lt;/a&gt;: aggregated image-hosting service.&lt;/li&gt;
+&lt;li&gt;Upload.cc 免費圖片上傳網 &lt;a href="https://upload.cc/"&gt;https://upload.cc/&lt;/a&gt;: free image upload and sharing service.&lt;/li&gt;
+&lt;li&gt;Postimages &lt;a href="https://postimages.org/"&gt;https://postimages.org/&lt;/a&gt;: commonly used image upload and forum-link service.&lt;/li&gt;
+&lt;li&gt;多图片上传 &lt;a href="https://yytu.xyz/"&gt;https://yytu.xyz/&lt;/a&gt;: multi-image upload service.&lt;/li&gt;
+&lt;li&gt;云转码 &lt;a href="https://v.superbed.cn/"&gt;https://v.superbed.cn/&lt;/a&gt;: media transcoding and hosting service.&lt;/li&gt;
+&lt;li&gt;笑果图床 &lt;a href="https://imagelol.com/"&gt;https://imagelol.com/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;小鹿快传 &lt;a href="https://deershare.com/send"&gt;https://deershare.com/send&lt;/a&gt;: file transfer service.&lt;/li&gt;
+&lt;li&gt;LskyPro &lt;a href="https://www.lsky.pro/"&gt;https://www.lsky.pro/&lt;/a&gt;: open-source image-hosting program for self-hosting.&lt;/li&gt;
+&lt;li&gt;即刻图床 &lt;a href="https://jiketuchuang.com/"&gt;https://jiketuchuang.com/&lt;/a&gt;: Chinese image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;图壳 &lt;a href="https://imgkr.com/"&gt;https://imgkr.com/&lt;/a&gt;: image upload and hosting service.&lt;/li&gt;
+&lt;li&gt;老王图床 &lt;a href="https://www.gejiba.com/"&gt;https://www.gejiba.com/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;Mikupics &lt;a href="https://mikupics.cn/"&gt;https://mikupics.cn/&lt;/a&gt;: image hosting service.&lt;/li&gt;
+&lt;li&gt;Imgur The magic of the Internet &lt;a href="https://imgur.com/"&gt;https://imgur.com/&lt;/a&gt;: widely used international image hosting and sharing community.&lt;/li&gt;
+&lt;li&gt;Streamvi Video Sharing Made Simple &lt;a href="https://streamvi.com/"&gt;https://streamvi.com/&lt;/a&gt;: video upload and sharing service.&lt;/li&gt;
+&lt;li&gt;去不图床 &lt;a href="https://7bu.top/"&gt;https://7bu.top/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;图床导航 &lt;a href="http://imgdh.com/"&gt;http://imgdh.com/&lt;/a&gt;: image-hosting service navigation.&lt;/li&gt;
+&lt;li&gt;Z4A图床 &lt;a href="https://www.z4a.net/"&gt;https://www.z4a.net/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;ImageHub &lt;a href="https://www.imagehub.cc/"&gt;https://www.imagehub.cc/&lt;/a&gt;: image hosting service.&lt;/li&gt;
+&lt;li&gt;IMG. 全球CDN免费图床 &lt;a href="https://img."&gt;https://img.&lt;/a&gt;: likely incomplete link; can be cleaned later.&lt;/li&gt;
+&lt;li&gt;老王图床 &lt;a href="https://img.gejiba.com/"&gt;https://img.gejiba.com/&lt;/a&gt;: upload entrance for 老王图床.&lt;/li&gt;
+&lt;li&gt;图林 &lt;a href="https://imglink.org/"&gt;https://imglink.org/&lt;/a&gt;: image-link and hosting service.&lt;/li&gt;
+&lt;li&gt;ImageOss-免费图片存储空间 &lt;a href="https://www.imageoss.com/"&gt;https://www.imageoss.com/&lt;/a&gt;: image storage and external-link service.&lt;/li&gt;
+&lt;li&gt;图片存储 &lt;a href="https://pic.xywm.ltd/"&gt;https://pic.xywm.ltd/&lt;/a&gt;: image upload and storage service.&lt;/li&gt;
+&lt;li&gt;幻域图床 &lt;a href="https://tc.rpgsky.net/"&gt;https://tc.rpgsky.net/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;跬步图床 &lt;a href="https://img.kuibu.net/"&gt;https://img.kuibu.net/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;QQ.TC &lt;a href="http://qq.tc/"&gt;http://qq.tc/&lt;/a&gt;: short-link or image-link service entrance.&lt;/li&gt;
+&lt;li&gt;小波图床 &lt;a href="https://www.tuchuangs.com/"&gt;https://www.tuchuangs.com/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;麦克图床 &lt;a href="https://macimg.com/"&gt;https://macimg.com/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;imgsha &lt;a href="https://imgsha.com/"&gt;https://imgsha.com/&lt;/a&gt;: image hosting service.&lt;/li&gt;
+&lt;li&gt;ImgBB &lt;a href="https://imgbb.com/"&gt;https://imgbb.com/&lt;/a&gt;: common international image upload and hosting service.&lt;/li&gt;
+&lt;li&gt;StreamSB-VideoPlatformForYou &lt;a href="https://streamsb.com/"&gt;https://streamsb.com/&lt;/a&gt;: video hosting platform.&lt;/li&gt;
+&lt;li&gt;最图床 &lt;a href="https://z.photos/"&gt;https://z.photos/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;MBA图床 &lt;a href="https://pic.mba/"&gt;https://pic.mba/&lt;/a&gt;: image upload and external-link service.&lt;/li&gt;
+&lt;li&gt;Imagecache &amp;amp; resize service &lt;a href="https://images.weserv.nl/"&gt;https://images.weserv.nl/&lt;/a&gt;: image caching, proxying, and resizing service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fonts--typography-configuration"&gt;Fonts / Typography Configuration&lt;/h3&gt;
+&lt;p&gt;Use separate VS Code font settings for Markdown / LaTeX / TeX so they use serif fonts that are more comfortable for reading.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;JetBrains Mono&amp;#39;, &amp;#39;SF Mono&amp;#39;, Menlo, monospace&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.45&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[markdown]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[latex]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;[tex]&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;#39;New York&amp;#39;, &amp;#39;Songti SC&amp;#39;, &amp;#39;LXGW WenKai Screen&amp;#39;, serif&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.fontSize&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.lineHeight&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.65&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrap&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bounded&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;editor.wordWrapColumn&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;88&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--programming-tools">AI / Agent / Programming Tools</h3>
+<p><a href="https://rdi.berkeley.edu/adv-llm-agents/sp25">CS294/194-280 Advanced Large Language Model Agents</a> — UC Berkeley&rsquo;s advanced LLM Agent course, useful for systematically learning agent architectures, evaluation, and practice.</p>
+<p><a href="https://agenticai-learning.org/f24">Large Language Model Agents</a> — an LLM Agent course homepage covering tool use, planning, memory, multi-agent systems, and other foundations.</p>
+<p><a href="https://9router.com/">9Router - Free AI Router | Smart Fallback for Claude, Codex &amp; More</a> — a large-model gateway integrating RTK and Caveman Mode to save tokens.</p>
+<p><a href="https://www.youtube.com/watch?v=s06mSAGN4gM&amp;t=964s">AI 要跨越盧比孔河了嗎？自我成長的 AI 離我們多遠？ - YouTube</a> — Professor Hung-yi Lee&rsquo;s introduction to AI self-improvement.</p>
+<p><a href="https://www.kimi.com/zh-cn/features/webbridge">WebBridge - Let Kimi Agent Drive Your Browser | Kimi</a> — Kimi&rsquo;s browser-control plugin.</p>
+<p><a href="https://github.com/memohai/Memoh">memohai/Memoh: ✨ Self hosted, always-on AI agent platform run in containers. Create multiple bots with long memory, and connect them to Telegram, Discord, Feishu(Lark), Matrix, etc.</a> — a self-hosted, always-on AI agent platform with long memory and IM integrations.</p>
+<p><a href="https://github.com/yetone/native-feel-skill">yetone/native-feel-skill: An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast&rsquo;s 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.</a> — an Agent Skill for cross-platform desktop apps with a native feel, useful as a design and release checklist.</p>
+<p><a href="https://github.com/lishix520/academic-paper-skills">lishix520/academic-paper-skills: Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.</a> — a set of paper planning and writing skills that breaks topic selection, structure, and drafting into checkable workflows.</p>
+<p><a href="https://github.com/a9gent/mindfs/tree/main">a9gent/mindfs: Access your personal AI agents and workstation data anywhere, anytime through MindFS.</a> — exposes personal agents and workstation data through a remotely accessible filesystem interface.</p>
+<p><a href="https://mousedo.eyhn.in/">Mousedo — The most powerful computer-use agent for Mac</a> — a Mac computer-use agent with cursor-based clicking, typing, app switching, and related actions.</p>
+<p><a href="https://www.helio.im/">Helio — the AI-native team workspace</a> — an AI-native workspace for team collaboration.</p>
+<p><a href="https://hivehq.dev/">Hive — 在浏览器里造一座 Agent 蜂巢</a> — a browser-based multi-agent workspace for coordinating multiple agents.</p>
+<p><a href="https://cumora.ai/">Cumora — Where agent teams gather</a> — a product homepage for agent-team collaboration and orchestration.</p>
+<p><a href="https://aihot.virxact.com/">AIHOT</a> — an AI news aggregator that curates models, products, papers, tips, and other high-value content.</p>
+<p><a href="https://github.com/nexu-io/html-anything">nexu-io/html-anything: ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</a> — a local agent-driven HTML creation tool covering posters, cards, decks, prototypes, and data reports.</p>
+<p><a href="https://github.com/google/agents-cli">google/agents-cli: The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.</a> — Google Cloud CLI and skills for creating, evaluating, and deploying agents.</p>
+<p><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">An OpenAI model has disproved a central conjecture in discrete geometry | OpenAI</a> — OpenAI&rsquo;s case study on a model disproving a central conjecture in discrete geometry.</p>
+<p><a href="https://github.com/Open-Less/openless">Open-Less/openless: Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS &amp; Windows. (按住快捷键说话，松开即得润色后的文字)</a> — an open-source voice input tool: hold a hotkey, speak, release, and polished text is inserted at the cursor.</p>
+<p><a href="https://github.com/FuJacob/tabby">FuJacob/tabby: tabby is local AI autocomplete for your entire Mac. Open source. On device. Everywhere you type.</a> — local AI autocomplete across all typing contexts on macOS.</p>
+<p><a href="https://iop.systems/blog/llm-inference/">Inference Infrastructure</a> — a long article on LLM inference infrastructure, useful for sorting out server-side inference, scheduling, and performance optimization.</p>
+<p><a href="https://github.com/Dictation354/paper-fetch-skill">Dictation354/paper-fetch-skill: Fetch papers as agent-ready markdown — DOI/URL/title in, structured full text out. CLI · MCP · Skill.</a> — fetches papers into agent-ready structured Markdown from DOI, URL, or title.</p>
+<h3 id="reading--ebooks--writing">Reading / Ebooks / Writing</h3>
+<p><a href="https://philoli.com/zh/projects/ebook-translator/">双语电子书翻译器 — Philo Li</a> — an ebook translation tool supporting EPUB and PDF.</p>
+<p><a href="https://github.com/yihong0618/bilingual_book_maker">yihong0618/bilingual_book_maker: Make bilingual epub books Using AI translate</a> — another bilingual ebook maker, focused on EPUB.</p>
+<p><a href="https://standardebooks.org/">Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover</a> — a free ebook site with carefully produced editions of classics in multiple formats.</p>
+<p><a href="https://owl.purdue.edu/owl/index.html">Welcome to the Purdue OWL - Purdue OWL® - Purdue University</a> — a writing-resource site with guides and formatting rules, especially useful for academic writing.</p>
+<p><a href="https://jbiaojerry.github.io/ebook-treasure-chest/">📚 电子书下载宝库 - Ebook Treasure Chest</a> — an ebook download index collecting many Chinese ebook resources.</p>
+<p>GitHub: <a href="https://github.com/jbiaojerry/ebook-treasure-chest">jbiaojerry/ebook-treasure-chest: 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。</a> — companion GitHub repository.</p>
+<p><a href="https://github.com/SaberOnGo/public-domain-books-translation">SaberOnGo/public-domain-books-translation: Public domain books translation project</a> — a public-domain book translation project, useful if you care about bilingual classics and republication workflows.</p>
+<h3 id="macos--productivity--terminal">macOS / Productivity / Terminal</h3>
+<p><a href="https://espanso.org/">Espanso - A Privacy-first, Cross-platform Text Expander</a> — a very useful text expander that replaces keywords automatically, supports shell commands, and works cross-platform.</p>
+<p><a href="https://community.obsidian.md/">Obsidian Community</a> — Obsidian&rsquo;s new plugin community.</p>
+<p><a href="https://github.com/genymobile/scrcpy">Genymobile/scrcpy: Display and control your Android device</a> — control Android devices from a computer.</p>
+<p><a href="https://github.com/pranshuparmar/witr">pranshuparmar/witr: Why is this running?</a> — a TUI for seeing why a process is running.</p>
+<p><a href="https://github.com/Lakr233/SafariYYDS">Lakr233/SafariYYDS</a> — Safari enhancement project, useful for collecting Safari ecosystem tools.</p>
+<p><a href="https://github.com/ThaddeusJiang/SafariYYDS-js">ThaddeusJiang/SafariYYDS-js</a> — JavaScript version or related implementation of SafariYYDS.</p>
+<p><a href="https://github.com/rockorager/comview">rockorager/comview: the best diff viewer ever made</a> — a command-line diff viewer for more comfortable code review.</p>
+<p><a href="https://swiftcast.space/">Supermac - Superpowers for your Mac</a> — a native Mac launcher and productivity tool focused on local-first behavior, privacy, and fast search.</p>
+<p><a href="https://shaihai.cn/">Shaihai Studio</a> — ∫aihai Studio&rsquo;s site, with science-popularization and experimental video projects.</p>
+<h3 id="academic--math--engineering-resources">Academic / Math / Engineering Resources</h3>
+<p><a href="http://zhuyidao.com/">zhuyidao.com</a> — an &ldquo;attention calculator&rdquo; that can automatically notice integral constructions such as $\pi > 3.14$.</p>
+<p><a href="https://tildalice.io/scipy-fft-vs-numpy-fft-vibration-benchmark/">SciPy FFT vs NumPy FFT: 2.3x Speed Gap at 50kHz – TildAlice</a> — SciPy&rsquo;s FFT module can be much faster than NumPy&rsquo;s, especially at larger scales.</p>
+<p><a href="https://github.com/liuskywalkerjskd/Control-Note">liuskywalkerjskd/Control-Note: A concise and intuitive control theory lecture note, designed for engineering applications, in both Chinese and English.</a> — control theory notes.</p>
+<p><a href="https://anymathe.com/index">AnyMath - AI 动画生成器 | 在线创建数学动画</a> — an online math animation generator, useful for quick teaching demos.</p>
+<p><a href="https://github.com/Wing900/PlotKityCat">Wing900/PlotKityCat</a> — a desktop app for mathematical teaching visualization, built with Wails + Vue + Go + Python Runtime.</p>
+<p><a href="https://theorems.home.blog/">Theorems of the 21st century</a> — records and introduces important mathematical theorems from the 21st century.</p>
+<p><a href="https://zhuanlan.zhihu.com/p/22266788">机器人工程师学习计划 - 知乎</a> — learning roadmap for robotics engineers.</p>
+<p><a href="https://zhuanlan.zhihu.com/p/2039380190334284614">机器人工程师本科学习计划（试读版） - 知乎</a> — undergraduate robotics study plan, trial version.</p>
+<p><a href="https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD">机器人工程师本科学习计划（试读版） - 飞书云文档</a> — Feishu document version of the robotics study plan above.</p>
+<p><a href="https://github.com/Exorust/TorchLeet">Exorust/TorchLeet: Leetcode for Pytorch</a> — PyTorch exercises in a LeetCode style for practicing tensor operations.</p>
+<p><a href="https://polypad.amplify.com/">Polypad – The Mathematical Playground</a> — an interactive mathematical whiteboard for geometry, algebra, and classroom demonstrations.</p>
+<p><a href="https://tildalice.io/pytorch-vs-tensorflow-syntax-quick-reference/">PyTorch vs TensorFlow Syntax: 15 Operations Side-by-Side – TildAlice</a> — side-by-side syntax comparison of common PyTorch and TensorFlow operations.</p>
+<p><a href="https://pionpill.github.io/retikz/core/introduction">retikz</a> — docs for a web-based TikZ/flowchart drawing tool.</p>
+<p>GitHub: <a href="https://github.com/Pionpill/retikz">Pionpill/retikz: 使用 react，d3 实现 tikz 绘制流程图</a> — source repository for retikz.</p>
+<p><a href="https://github.com/guchuanv-alt/SimART">guchuanv-alt/SimART</a> — a realistic multimodal simulation platform for 6G ISAC, combining robot simulation, ray tracing, and wireless evaluation.</p>
+<p><a href="https://wljs.io/">WLJS Notebook</a> — an open-source notebook interface based on Wolfram Engine.</p>
+<p><a href="https://github.com/WLJSTeam/wljs-notebook">WLJSTeam/wljs-notebook: Open-source notebook interface for Wolfram Engine</a> — source repository for WLJS Notebook.</p>
+<p><a href="https://chatgpt.com/share/6a0e9e04-8cb0-8332-a4f1-ec68acd2e03e">Erdős planar unit-distance</a> — discussion record on the Erdős planar unit-distance problem.</p>
+<p><a href="https://www.bilibili.com/video/BV1gpNMzMEAY/">【【解线性方程组】的现代姿势：为什么不应该求逆矩阵？】 </a> — explains why numerical linear algebra usually should not explicitly invert matrices.</p>
+<p><a href="https://zhuanlan.zhihu.com/p/359082678">終 · 一步到位的张量指标运算 - 知乎</a> — a long article on tensor index notation and tensor operations.</p>
+<p><a href="https://zhuanlan.zhihu.com/p/2042241424880555712">万字全景：超声波雷达和毫米波雷达的强劲对手——UWB近场感知技术 - 知乎</a> — introduction to UWB radar.</p>
+<p><a href="https://rcfs.ch/">RCFS</a> — Robotics Codes From Scratch, an example toolbox for robot optimal control and trajectory optimization.</p>
+<h3 id="academic-platforms--papers--blogs">Academic Platforms / Papers / Blogs</h3>
+<p><a href="https://mlops.community/">MLOps Community | Learn, Meet &amp; Grow in Real-World MLOps</a> — an MLOps community with articles, events, and real engineering experience.</p>
+<p><a href="https://www.wizwand.com/">Discover AI/ML SOTA papers with code and benchmarks - Wizwand</a> — discovery platform for AI/ML papers, code, and benchmarks.</p>
+<p><a href="https://paperswithcode.co/">Papers with Code</a> — aggregator for papers, code, and task leaderboards.</p>
+<p><a href="https://johncarlosbaez.wordpress.com/">Azimuth</a> — John Baez&rsquo;s blog on math, physics, and complex systems.</p>
+<p><a href="https://distill.pub/">Distill — Latest articles about machine learning</a> — visual-explanation articles on machine learning; good for collecting classics.</p>
+<p><a href="https://study8677.github.io/awesome-architecture/">Awesome Architecture</a> — architecture learning resource navigation.</p>
+<p><a href="https://gregorygundersen.com/blog/">Gregory Gundersen</a> — a blog with lots of statistics content.</p>
+<p><a href="https://gregorygundersen.com/blog/2025/10/01/large-language-models/">A History of Large Language Models</a> — Gregory Gundersen&rsquo;s article on the history of large language models.</p>
+<h3 id="design--creation--web-tools">Design / Creation / Web Tools</h3>
+<p><a href="https://github.com/SiriusFzh/NovaForge">SiriusFzh/NovaForge: 锻造你的知识体系 | 考研·考公·专业课·科研·项目·竞赛通用笔记模板。LaTeX+Markdown双版本，7步模块化结构，5种场景模板，一键换色，开箱即用。</a> — a general knowledge-system and note template for exams, research, projects, and competitions.</p>
+<p><a href="https://github.com/ianho7/maptoposter-online">ianho7/maptoposter-online: ✨❤️‍🔥Turn the cities you love into stunning designs</a> — online design tool for turning city maps into posters.</p>
+<p><a href="https://github.com/be5invis/Iosevka">be5invis/Iosevka: Versatile typeface for code, from code</a> — a customizable monospace typeface for coding and mathematical typography.</p>
+<p><a href="https://www.siddjain.com/latex-theme-editor/">LaTeX Theme Editor</a> — online editor for LaTeX themes and color palettes.</p>
+<p><a href="https://github.com/kocurvik/beampptx/">kocurvik/beampptx: Convert LaTeX Beamer slides to PowerPoint with flawless vector graphics and embedded video support.</a> — converts LaTeX Beamer slides to PowerPoint with vector graphics and embedded video support.</p>
+<h3 id="image-hosting--media-hosting">Image Hosting / Media Hosting</h3>
+<p>A collection of image and media hosting services, useful for temporary sharing or external-link fallbacks.</p>
+<ul>
+<li>SM.MS <a href="https://sm.ms/">https://sm.ms/</a>: common free image hosting service.</li>
+<li>Streamja <a href="https://streamja.com/">https://streamja.com/</a>: video hosting and sharing service.</li>
+<li>路过图床 <a href="https://imgtu.com/">https://imgtu.com/</a>: Chinese image upload and external-link service.</li>
+<li>聚合图床 <a href="http://tool.mkblog.cn/tuchuang/">http://tool.mkblog.cn/tuchuang/</a>: multi-image-host upload aggregator.</li>
+<li>聚合图床-免费无限图片上传 <a href="https://www.superbed.cn/">https://www.superbed.cn/</a>: aggregated image-hosting service.</li>
+<li>Upload.cc 免費圖片上傳網 <a href="https://upload.cc/">https://upload.cc/</a>: free image upload and sharing service.</li>
+<li>Postimages <a href="https://postimages.org/">https://postimages.org/</a>: commonly used image upload and forum-link service.</li>
+<li>多图片上传 <a href="https://yytu.xyz/">https://yytu.xyz/</a>: multi-image upload service.</li>
+<li>云转码 <a href="https://v.superbed.cn/">https://v.superbed.cn/</a>: media transcoding and hosting service.</li>
+<li>笑果图床 <a href="https://imagelol.com/">https://imagelol.com/</a>: image upload and external-link service.</li>
+<li>小鹿快传 <a href="https://deershare.com/send">https://deershare.com/send</a>: file transfer service.</li>
+<li>LskyPro <a href="https://www.lsky.pro/">https://www.lsky.pro/</a>: open-source image-hosting program for self-hosting.</li>
+<li>即刻图床 <a href="https://jiketuchuang.com/">https://jiketuchuang.com/</a>: Chinese image upload and external-link service.</li>
+<li>图壳 <a href="https://imgkr.com/">https://imgkr.com/</a>: image upload and hosting service.</li>
+<li>老王图床 <a href="https://www.gejiba.com/">https://www.gejiba.com/</a>: image upload and external-link service.</li>
+<li>Mikupics <a href="https://mikupics.cn/">https://mikupics.cn/</a>: image hosting service.</li>
+<li>Imgur The magic of the Internet <a href="https://imgur.com/">https://imgur.com/</a>: widely used international image hosting and sharing community.</li>
+<li>Streamvi Video Sharing Made Simple <a href="https://streamvi.com/">https://streamvi.com/</a>: video upload and sharing service.</li>
+<li>去不图床 <a href="https://7bu.top/">https://7bu.top/</a>: image upload and external-link service.</li>
+<li>图床导航 <a href="http://imgdh.com/">http://imgdh.com/</a>: image-hosting service navigation.</li>
+<li>Z4A图床 <a href="https://www.z4a.net/">https://www.z4a.net/</a>: image upload and external-link service.</li>
+<li>ImageHub <a href="https://www.imagehub.cc/">https://www.imagehub.cc/</a>: image hosting service.</li>
+<li>IMG. 全球CDN免费图床 <a href="https://img.">https://img.</a>: likely incomplete link; can be cleaned later.</li>
+<li>老王图床 <a href="https://img.gejiba.com/">https://img.gejiba.com/</a>: upload entrance for 老王图床.</li>
+<li>图林 <a href="https://imglink.org/">https://imglink.org/</a>: image-link and hosting service.</li>
+<li>ImageOss-免费图片存储空间 <a href="https://www.imageoss.com/">https://www.imageoss.com/</a>: image storage and external-link service.</li>
+<li>图片存储 <a href="https://pic.xywm.ltd/">https://pic.xywm.ltd/</a>: image upload and storage service.</li>
+<li>幻域图床 <a href="https://tc.rpgsky.net/">https://tc.rpgsky.net/</a>: image upload and external-link service.</li>
+<li>跬步图床 <a href="https://img.kuibu.net/">https://img.kuibu.net/</a>: image upload and external-link service.</li>
+<li>QQ.TC <a href="http://qq.tc/">http://qq.tc/</a>: short-link or image-link service entrance.</li>
+<li>小波图床 <a href="https://www.tuchuangs.com/">https://www.tuchuangs.com/</a>: image upload and external-link service.</li>
+<li>麦克图床 <a href="https://macimg.com/">https://macimg.com/</a>: image upload and external-link service.</li>
+<li>imgsha <a href="https://imgsha.com/">https://imgsha.com/</a>: image hosting service.</li>
+<li>ImgBB <a href="https://imgbb.com/">https://imgbb.com/</a>: common international image upload and hosting service.</li>
+<li>StreamSB-VideoPlatformForYou <a href="https://streamsb.com/">https://streamsb.com/</a>: video hosting platform.</li>
+<li>最图床 <a href="https://z.photos/">https://z.photos/</a>: image upload and external-link service.</li>
+<li>MBA图床 <a href="https://pic.mba/">https://pic.mba/</a>: image upload and external-link service.</li>
+<li>Imagecache &amp; resize service <a href="https://images.weserv.nl/">https://images.weserv.nl/</a>: image caching, proxying, and resizing service.</li>
+</ul>
+<h3 id="fonts--typography-configuration">Fonts / Typography Configuration</h3>
+<p>Use separate VS Code font settings for Markdown / LaTeX / TeX so they use serif fonts that are more comfortable for reading.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;JetBrains Mono&#39;, &#39;SF Mono&#39;, Menlo, monospace&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">14</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.45</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[markdown]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[latex]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;[tex]&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontFamily&#34;</span><span class="p">:</span> <span class="s2">&#34;&#39;New York&#39;, &#39;Songti SC&#39;, &#39;LXGW WenKai Screen&#39;, serif&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.fontSize&#34;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.lineHeight&#34;</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrap&#34;</span><span class="p">:</span> <span class="s2">&#34;bounded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;editor.wordWrapColumn&#34;</span><span class="p">:</span> <span class="mi">88</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Weekly Issue 11</title><link>https://blog.yfff.me/en/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--programming-tools"&gt;AI / Agent / Programming Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/hydropix/TranslateBooksWithLLMs"&gt;hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.&lt;/a&gt; — translate full books.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rbc33/Ghostbar"&gt;rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.&lt;/a&gt; — a tool that hides AI chat windows during screen sharing.&lt;/p&gt;
+&lt;p&gt;AI coding desktop pets made by yetone:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Website: &lt;a href="https://confirmo.love/"&gt;Confirmo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gallery: &lt;a href="https://sprites.confirmo.love/"&gt;Confirmo Sprites - Share Custom Characters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Codex pet galleries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://codex-pets.net/#/pets/feixue"&gt;Codex Pets&lt;/a&gt; — Codex Pets&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://petdex.crafter.run/zh"&gt;Petdex — 适用于 Codex 的动画伙伴&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://openpets.sh/"&gt;OpenPets - desktop pets for coding agents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/huggingface/nanowhale"&gt;huggingface/nanowhale&lt;/a&gt; — nano deepseek-v4.&lt;/p&gt;
+&lt;p&gt;A reinforcement-learning tutorial:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/walkinglabs/hands-on-modern-rl"&gt;walkinglabs/hands-on-modern-rl: 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ebook: &lt;a href="https://walkinglabs.github.io/hands-on-modern-rl/"&gt;https://walkinglabs.github.io/hands-on-modern-rl/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Xiaomi open-sourced OmniVoice, a voice-cloning TTS model that supports 600+ languages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;WeChat article: &lt;a href="https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A"&gt;超600种语言，一个模型全搞定! 小米开源 OmniVoice 多语言语音克隆 TTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/k2-fsa/OmniVoice"&gt;k2-fsa/OmniVoice: High-Quality Voice Cloning TTS for 600+ Languages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.readfrog.app/zh"&gt;陪读蛙&lt;/a&gt; — an open-source alternative to Immersive Translate.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linux.do/t/topic/2102919/16"&gt;Coding/Token Plan 简览（付费） - 文档共建 - LINUX DO&lt;/a&gt; — Coding Plan roundup.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/liliMozi/openhanako"&gt;GitHub - liliMozi/openhanako: A personal AI agent with memory, personality, and autonomy — built on Electron. · GitHub&lt;/a&gt; — an agent with a pleasant color palette, based on Pi and built with Electron.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.neudrive.ai/"&gt;别让 AI 工具每次重新认识你 — neuDrive&lt;/a&gt;
+GitHub: &lt;a href="https://github.com/agi-bar/neuDrive"&gt;agi-bar/neuDrive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/esengine/DeepSeek-Reasonix"&gt;esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.&lt;/a&gt; — a terminal AI coding assistant built specifically for DeepSeek, with a focus on prefix-cache stability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/"&gt;最近使用 ChatGPT 5.5 Pro 的体验 | Gowers 的博客 &amp;mdash; A recent experience with ChatGPT 5.5 Pro | Gowers&amp;rsquo;s Weblog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/QingJ01/DeepSeekCode"&gt;QingJ01/DeepSeekCode: 基于 Claude Code 代码库改造的本地 CLI 编程代理&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ml1301215/vibe-proving-math"&gt;ml1301215/vibe-proving-math: Math reasoning &amp;amp; proof-assist stack: GVR loop, citation checks via TheoremSearch, streaming API + web UI.&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="macos--productivity-tools"&gt;macOS / Productivity Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Sanyam-G/switch"&gt;Sanyam-G/switch: A keyboard-driven window switcher for macOS. Notarized. Free.&lt;/a&gt; — a macOS window switcher.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/duongductrong/Snapzy"&gt;duongductrong/Snapzy: An open-source native macOS screenshot and screen recording app. A CleanShot X alternative.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/marsmay/UsageBoard"&gt;marsmay/UsageBoard: macOS menu bar app for aggregating API usage quotas via plugin scripts&lt;/a&gt; — a new code-usage monitoring tool, implemented as a macOS menu bar app with plugin scripts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anddrive.catchingnow.com/"&gt;AndDrive - Android in Finder, Mirroring, and Clipboard Sync on Mac&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="research--math--optimization"&gt;Research / Math / Optimization&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/guofei9987/scikit-opt"&gt;guofei9987/scikit-opt: Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MATLAB &amp;amp; SIMULINK AI Toolkits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/matlab/matlab-agentic-toolkit"&gt;matlab/matlab-agentic-toolkit: The MATLAB Agentic Toolkit brings trusted MATLAB capabilities to AI agents, making engineering and scientific workflows agent-ready.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/matlab/simulink-agentic-toolkit"&gt;matlab/simulink-agentic-toolkit: The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://mainlymatmul.com/blog/tensor-network-attention/"&gt;张量网络注意力 &amp;mdash; Tensor Network Attention&lt;/a&gt; — also introduces tensor-network operations. Related material appears in the tensorbook inside &lt;a href="https://github.com/thomasahle/tensorgrad"&gt;thomasahle/tensorgrad: Machine Learning with Symbolic Tensors&lt;/a&gt;, whose Python library can do symbolic tensor computation. This paper gives a concrete introduction: &lt;a href="https://arxiv.org/pdf/1603.03039"&gt;arxiv.org/pdf/1603.03039&lt;/a&gt;. There is also a visualization tool: &lt;a href="https://thomasahle.com/blog/einsum_to_dot.html?q=abc,cde,efg,ghi,ija-%3Ebdfhj&amp;amp;layout=circo"&gt;Tensor Graph Visualizer&lt;/a&gt;
+&lt;img
+ src="https://blog.yfff.me/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
+ alt="Pasted image 20260508215521"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://trinkle23897.github.io/learning-beyond-gradients/#zh"&gt;Learning Beyond Gradients&lt;/a&gt; — the author proposes Heuristic Learning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.stat.cmu.edu/~ryantibs/teaching.html"&gt;Ryan Tibshirani: Teaching&lt;/a&gt; — courses on optimization, statistical learning, and data science.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=bPWcSxkD6Uo"&gt;【硬核科普】WiFi是怎么传递信息的？把信息装进电磁波有多难？ - YouTube&lt;/a&gt; — feels quite good, though the voiceover is hard to listen to.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=Pkn1G1AAhxE"&gt;【漫士】你看这个世界的每一眼，都在进行着深刻的运算 - YouTube&lt;/a&gt; — an excellent video.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/26934313/answer/2035994820796265138"&gt;有哪些算法惊艳到了你？ - 北冥有鱼的回答 - 知乎&lt;/a&gt; — introduces Newton&amp;rsquo;s method.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://allendowney.github.io/ThinkLinearAlgebra/index.html"&gt;Think Linear Algebra — Think Linear Algebra&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChenLiu-1996/figures4papers"&gt;ChenLiu-1996/figures4papers: My Python scripts to make high-quality figures for publications in top AI conferences and journals.&lt;/a&gt; — figure scripts shared by a PhD student.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/aurora"&gt;Aurora：面向矩形矩阵的杠杆感知优化器 | Tilde &amp;mdash; Aurora: A Leverage-Aware Optimizer for Rectangular Matrices | Tilde&lt;/a&gt; — a new optimizer, Aurora, addressing the issue where Muon can cause some neurons or parameters to go dead.&lt;/p&gt;
+&lt;h3 id="academic-resources--literature-platforms"&gt;Academic Resources / Literature Platforms&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://scipost.org/"&gt;SciPost Homepage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anonymous.4open.science/"&gt;anonymous github&lt;/a&gt; — an anonymous open-source platform for anonymous submissions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://uni.utities.online/"&gt;高校名录数据可视化&lt;/a&gt; — could be useful for college application decisions.&lt;/p&gt;
+&lt;h3 id="web--development--creation-tools"&gt;Web / Development / Creation Tools&lt;/h3&gt;
+&lt;p&gt;1001 online tools; I do not think I have seen a larger collection.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Website: &lt;a href="https://tools.realtime-ai.chat/"&gt;WebUtils - 纯前端工具集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/chicogong/html-tools"&gt;chicogong/html-tools: 🛠️ 1001+ 纯前端在线工具集 | 单文件·零构建·可离线·隐私优先 | Pure HTML Tools - Single file, Zero build, Offline-ready, Privacy-first&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/one-ea/Monolith"&gt;one-ea/Monolith: ⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters&lt;/a&gt; — a blog framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/DimensionDev/Flare"&gt;DimensionDev/Flare: Browse Mastodon, Bluesky, X, Misskey, Nostr and RSS all in one app. One timeline, all your accounts, cross-post everywhere.&lt;/a&gt; — a social-media aggregator supporting Mastodon, Bluesky, X, Misskey, Nostr, and RSS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://asong56.github.io/Cicada/"&gt;Cicada&lt;/a&gt; — a web whiteboard tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ynarwal.github.io/how-llms-work/"&gt;How LLMs Work — A Visual Deep Dive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;fgruler&lt;/code&gt; package can draw rulers in the page foreground. The example uses:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;\usepackage&lt;/span&gt;&lt;span class="na"&gt;[type={alledges,alledgesT}, color=blue]&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;fgruler&lt;span class="nb"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here &lt;code&gt;alledges&lt;/code&gt; means drawing rulers on all four page edges, &lt;code&gt;alledgesT&lt;/code&gt; means the four edges use the &amp;ldquo;T&amp;rdquo; style, and &lt;code&gt;color=blue&lt;/code&gt; sets the ruler color to blue.
+&lt;img
+ src="https://blog.yfff.me/oss-images/c501211713e3-Pasted-image-20260511190040.png"
+ alt="Pasted image 20260511190040|401"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="music-download"&gt;Music Download&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/CharlesPikachu/musicdl"&gt;CharlesPikachu/musicdl: Musicdl: A lightweight music downloader written in pure python. (轻量级无损音乐下载器，支持数十个音乐/有声读物平台，例如网易云音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，千千静听，汽水音乐，Bilibili，街声，喜马拉雅，懒人听书，荔枝FM，蜻蜓FM，JOOX，TIDAL，YouTube，Apple Music，Spotify，Qobuz，SoundCloud等主流音乐平台)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MrsEWE44/musicDownload"&gt;MrsEWE44/musicDownload&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--programming-tools">AI / Agent / Programming Tools</h3>
+<p><a href="https://github.com/hydropix/TranslateBooksWithLLMs">hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.</a> — translate full books.</p>
+<p><a href="https://github.com/rbc33/Ghostbar">rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.</a> — a tool that hides AI chat windows during screen sharing.</p>
+<p>AI coding desktop pets made by yetone:</p>
+<ul>
+<li>Website: <a href="https://confirmo.love/">Confirmo</a></li>
+<li>Gallery: <a href="https://sprites.confirmo.love/">Confirmo Sprites - Share Custom Characters</a></li>
+</ul>
+<p>Codex pet galleries:</p>
+<ul>
+<li><a href="https://codex-pets.net/#/pets/feixue">Codex Pets</a> — Codex Pets</li>
+<li><a href="https://petdex.crafter.run/zh">Petdex — 适用于 Codex 的动画伙伴</a></li>
+</ul>
+<p><a href="https://openpets.sh/">OpenPets - desktop pets for coding agents</a></p>
+<p><a href="https://github.com/huggingface/nanowhale">huggingface/nanowhale</a> — nano deepseek-v4.</p>
+<p>A reinforcement-learning tutorial:</p>
+<ul>
+<li>GitHub: <a href="https://github.com/walkinglabs/hands-on-modern-rl">walkinglabs/hands-on-modern-rl: 🚀 An open-source, hands-on curriculum bridging the gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems.</a></li>
+<li>Ebook: <a href="https://walkinglabs.github.io/hands-on-modern-rl/">https://walkinglabs.github.io/hands-on-modern-rl/</a></li>
+</ul>
+<p>Xiaomi open-sourced OmniVoice, a voice-cloning TTS model that supports 600+ languages.</p>
+<ul>
+<li>WeChat article: <a href="https://mp.weixin.qq.com/s/TCS_Sd10g_rvf1cszw673A">超600种语言，一个模型全搞定! 小米开源 OmniVoice 多语言语音克隆 TTS</a></li>
+<li>GitHub: <a href="https://github.com/k2-fsa/OmniVoice">k2-fsa/OmniVoice: High-Quality Voice Cloning TTS for 600+ Languages</a></li>
+</ul>
+<p><a href="https://www.readfrog.app/zh">陪读蛙</a> — an open-source alternative to Immersive Translate.</p>
+<p><a href="https://linux.do/t/topic/2102919/16">Coding/Token Plan 简览（付费） - 文档共建 - LINUX DO</a> — Coding Plan roundup.</p>
+<p><a href="https://github.com/liliMozi/openhanako">GitHub - liliMozi/openhanako: A personal AI agent with memory, personality, and autonomy — built on Electron. · GitHub</a> — an agent with a pleasant color palette, based on Pi and built with Electron.</p>
+<p><a href="https://www.neudrive.ai/">别让 AI 工具每次重新认识你 — neuDrive</a>
+GitHub: <a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
+<p><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.</a> — a terminal AI coding assistant built specifically for DeepSeek, with a focus on prefix-cache stability.</p>
+<p><a href="https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/">最近使用 ChatGPT 5.5 Pro 的体验 | Gowers 的博客 &mdash; A recent experience with ChatGPT 5.5 Pro | Gowers&rsquo;s Weblog</a></p>
+<p><a href="https://github.com/QingJ01/DeepSeekCode">QingJ01/DeepSeekCode: 基于 Claude Code 代码库改造的本地 CLI 编程代理</a></p>
+<p><a href="https://github.com/ml1301215/vibe-proving-math">ml1301215/vibe-proving-math: Math reasoning &amp; proof-assist stack: GVR loop, citation checks via TheoremSearch, streaming API + web UI.</a></p>
+<h3 id="macos--productivity-tools">macOS / Productivity Tools</h3>
+<p><a href="https://github.com/Sanyam-G/switch">Sanyam-G/switch: A keyboard-driven window switcher for macOS. Notarized. Free.</a> — a macOS window switcher.</p>
+<p><a href="https://github.com/duongductrong/Snapzy">duongductrong/Snapzy: An open-source native macOS screenshot and screen recording app. A CleanShot X alternative.</a></p>
+<p><a href="https://github.com/marsmay/UsageBoard">marsmay/UsageBoard: macOS menu bar app for aggregating API usage quotas via plugin scripts</a> — a new code-usage monitoring tool, implemented as a macOS menu bar app with plugin scripts.</p>
+<p><a href="https://anddrive.catchingnow.com/">AndDrive - Android in Finder, Mirroring, and Clipboard Sync on Mac</a></p>
+<h3 id="research--math--optimization">Research / Math / Optimization</h3>
+<p><a href="https://github.com/guofei9987/scikit-opt">guofei9987/scikit-opt: Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman)</a></p>
+<p>MATLAB &amp; SIMULINK AI Toolkits:</p>
+<ul>
+<li><a href="https://github.com/matlab/matlab-agentic-toolkit">matlab/matlab-agentic-toolkit: The MATLAB Agentic Toolkit brings trusted MATLAB capabilities to AI agents, making engineering and scientific workflows agent-ready.</a></li>
+<li><a href="https://github.com/matlab/simulink-agentic-toolkit">matlab/simulink-agentic-toolkit: The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.</a></li>
+</ul>
+<p><a href="https://mainlymatmul.com/blog/tensor-network-attention/">张量网络注意力 &mdash; Tensor Network Attention</a> — also introduces tensor-network operations. Related material appears in the tensorbook inside <a href="https://github.com/thomasahle/tensorgrad">thomasahle/tensorgrad: Machine Learning with Symbolic Tensors</a>, whose Python library can do symbolic tensor computation. This paper gives a concrete introduction: <a href="https://arxiv.org/pdf/1603.03039">arxiv.org/pdf/1603.03039</a>. There is also a visualization tool: <a href="https://thomasahle.com/blog/einsum_to_dot.html?q=abc,cde,efg,ghi,ija-%3Ebdfhj&amp;layout=circo">Tensor Graph Visualizer</a>
+<img
+  src="/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
+  alt="Pasted image 20260508215521"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://trinkle23897.github.io/learning-beyond-gradients/#zh">Learning Beyond Gradients</a> — the author proposes Heuristic Learning.</p>
+<p><a href="https://www.stat.cmu.edu/~ryantibs/teaching.html">Ryan Tibshirani: Teaching</a> — courses on optimization, statistical learning, and data science.</p>
+<p><a href="https://www.youtube.com/watch?v=bPWcSxkD6Uo">【硬核科普】WiFi是怎么传递信息的？把信息装进电磁波有多难？ - YouTube</a> — feels quite good, though the voiceover is hard to listen to.</p>
+<p><a href="https://www.youtube.com/watch?v=Pkn1G1AAhxE">【漫士】你看这个世界的每一眼，都在进行着深刻的运算 - YouTube</a> — an excellent video.</p>
+<p><a href="https://www.zhihu.com/question/26934313/answer/2035994820796265138">有哪些算法惊艳到了你？ - 北冥有鱼的回答 - 知乎</a> — introduces Newton&rsquo;s method.</p>
+<p><a href="https://allendowney.github.io/ThinkLinearAlgebra/index.html">Think Linear Algebra — Think Linear Algebra</a></p>
+<p><a href="https://github.com/ChenLiu-1996/figures4papers">ChenLiu-1996/figures4papers: My Python scripts to make high-quality figures for publications in top AI conferences and journals.</a> — figure scripts shared by a PhD student.</p>
+<p><a href="https://blog.tilderesearch.com/blog/aurora">Aurora：面向矩形矩阵的杠杆感知优化器 | Tilde &mdash; Aurora: A Leverage-Aware Optimizer for Rectangular Matrices | Tilde</a> — a new optimizer, Aurora, addressing the issue where Muon can cause some neurons or parameters to go dead.</p>
+<h3 id="academic-resources--literature-platforms">Academic Resources / Literature Platforms</h3>
+<p><a href="https://scipost.org/">SciPost Homepage</a></p>
+<p><a href="https://anonymous.4open.science/">anonymous github</a> — an anonymous open-source platform for anonymous submissions.</p>
+<p><a href="https://uni.utities.online/">高校名录数据可视化</a> — could be useful for college application decisions.</p>
+<h3 id="web--development--creation-tools">Web / Development / Creation Tools</h3>
+<p>1001 online tools; I do not think I have seen a larger collection.</p>
+<ul>
+<li>Website: <a href="https://tools.realtime-ai.chat/">WebUtils - 纯前端工具集</a></li>
+<li>GitHub: <a href="https://github.com/chicogong/html-tools">chicogong/html-tools: 🛠️ 1001+ 纯前端在线工具集 | 单文件·零构建·可离线·隐私优先 | Pure HTML Tools - Single file, Zero build, Offline-ready, Privacy-first</a></li>
+</ul>
+<p><a href="https://github.com/one-ea/Monolith">one-ea/Monolith: ⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters</a> — a blog framework.</p>
+<p><a href="https://github.com/DimensionDev/Flare">DimensionDev/Flare: Browse Mastodon, Bluesky, X, Misskey, Nostr and RSS all in one app. One timeline, all your accounts, cross-post everywhere.</a> — a social-media aggregator supporting Mastodon, Bluesky, X, Misskey, Nostr, and RSS.</p>
+<p><a href="https://asong56.github.io/Cicada/">Cicada</a> — a web whiteboard tool.</p>
+<p><a href="https://ynarwal.github.io/how-llms-work/">How LLMs Work — A Visual Deep Dive</a></p>
+<p>The <code>fgruler</code> package can draw rulers in the page foreground. The example uses:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[type={alledges,alledgesT}, color=blue]</span><span class="nb">{</span>fgruler<span class="nb">}</span>
+</span></span></code></pre></div><p>Here <code>alledges</code> means drawing rulers on all four page edges, <code>alledgesT</code> means the four edges use the &ldquo;T&rdquo; style, and <code>color=blue</code> sets the ruler color to blue.
+<img
+  src="/oss-images/c501211713e3-Pasted-image-20260511190040.png"
+  alt="Pasted image 20260511190040|401"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="music-download">Music Download</h3>
+<ul>
+<li><a href="https://github.com/CharlesPikachu/musicdl">CharlesPikachu/musicdl: Musicdl: A lightweight music downloader written in pure python. (轻量级无损音乐下载器，支持数十个音乐/有声读物平台，例如网易云音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，千千静听，汽水音乐，Bilibili，街声，喜马拉雅，懒人听书，荔枝FM，蜻蜓FM，JOOX，TIDAL，YouTube，Apple Music，Spotify，Qobuz，SoundCloud等主流音乐平台)</a></li>
+<li><a href="https://github.com/MrsEWE44/musicDownload">MrsEWE44/musicDownload</a></li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Issue 10</title><link>https://blog.yfff.me/en/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt; — an AI inference engine written in Rust.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/datalab-to/chandra"&gt;GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub&lt;/a&gt; — an OCR model that automatically handles layout.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/uutils/coreutils"&gt;GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub&lt;/a&gt; — GNU Coreutils rewritten in Rust.&lt;/p&gt;
+&lt;p&gt;A control-theory algorithm simulation tool:
+&lt;a href="https://cool-koala.github.io/Control-Theory-Simulator/"&gt;Control Theory Simulator&lt;/a&gt;
+&lt;a href="https://github.com/cool-koala/Control-Theory-Simulator"&gt;GitHub - cool-koala/Control-Theory-Simulator · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ruwix.cn/"&gt;魔方维基和谜题 - Ruwix.cn&lt;/a&gt; — cube wiki and puzzles.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mmulet/term.everything"&gt;GitHub - mmulet/term.everything: Run any GUI app in the terminal❗ · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scilit.com/"&gt;Scientific &amp;amp; Scholarly Research Database | Scilit&lt;/a&gt; — a literature data center.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dupple.com/blog"&gt;AI &amp;amp; Tech Blog | Guides, Reviews &amp;amp; Insights | Dupple&lt;/a&gt; — an AI-focused blog.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://heyblog.magic-knowledge.top/"&gt;HeyBlog Console&lt;/a&gt; — a webpage that crawls friend links and aggregates blogs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matharena.ai/models"&gt;MathArena&lt;/a&gt; — a benchmark leaderboard for large-model math ability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/atuinsh/atuin"&gt;GitHub - atuinsh/atuin: ✨ Making your shell magical · GitHub&lt;/a&gt; — enhanced shell-history search.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=hVK7idbkUOM"&gt;【漫士】“我证明了黎曼猜想，AI说我是对的” - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The video team built a test set roughly comparable to college-entrance-exam difficulty, with trap questions that can mislead AI models. Overseas models were led by Gemini, GPT, and Claude; domestic models by Seed and DeepSeek.&lt;/li&gt;
+&lt;li&gt;Current AI math ability is in a contradictory state. It is good at brute-force exploration and can use powerful computation plus existing knowledge to solve complex calculation and case-analysis problems. But for math that requires pure insight, elegant intuition, and concise construction, such as extremal constructions or combinatorics, AI still struggles. Creating new mathematical theory remains very difficult for current statistical language models.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://aibijia.org"&gt;Aibijia — AI 订阅，一键比价&lt;/a&gt; — one-click price comparison for AI subscriptions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tokennav.cc/"&gt;TokenNav - AI API 中转站导航&lt;/a&gt; — navigation site for AI API relay services.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://themes.contest.com/"&gt;Telegram Themes&lt;/a&gt; — create custom Telegram themes here. Some themes I made:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_dawn_yalyenea_android"&gt;Rose-Pine-Dawn for Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_moon_yalyenea_android"&gt;Rose-Pine-Moon for Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_dawn_yalyenea"&gt;Rose-Pine-Dawn for Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.me/addtheme/rosepine_moon_yalyenea"&gt;Rose-Pine-Moon for Mac&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://paperplothub.tech/"&gt;PaperPlotHub — Open marketplace for paper plot scripts&lt;/a&gt; — resources for scientific plotting.&lt;/p&gt;
+&lt;p&gt;Collected a few Git clients for Windows and Mac:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gitextensions/gitextensions"&gt;gitextensions/gitextensions: Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DetachHead/rebased"&gt;DetachHead/rebased: A git client based on the IntelliJ platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/apps/desktop"&gt;GitHub Desktop | Simple collaboration from your desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sourcetreeapp.com/"&gt;Sourcetree | Free Git GUI for Mac and Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sourcegit-scm.github.io/"&gt;SourceGit - Opensource &amp;amp; Free Git Gui Client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tortoisegit.org/"&gt;TortoiseGit – Windows Shell Interface to Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gitkraken.com/"&gt;GitKraken Legendary Git Tools | GitKraken&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitbutler.com/"&gt;GitButler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://100t.xiaomimimo.com/"&gt;Xiaomi MiMo 100T&lt;/a&gt; — Xiaomi MiMo trillion-token creator incentive program. You can apply for token access.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dots.ai/chat/"&gt;点点&lt;/a&gt; — Xiaohongshu&amp;rsquo;s AI Chat.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dokobot.ai/zh-CN"&gt;Dokobot - AI Agent 的浏览工具&lt;/a&gt; — a CLI tool for getting information from the browser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rossant/awesome-math"&gt;GitHub - rossant/awesome-math: A curated list of awesome mathematics resources · GitHub&lt;/a&gt; — exactly what the name says: Awesome Math.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cheatography.com/gustavhelms/cheat-sheets/linear-algebra/"&gt;Linear Algebra Cheat Sheet by gustavhelms - Download free from Cheatography - Cheatography.com: Cheat Sheets For Every Occasion&lt;/a&gt; — a linear algebra cheat sheet. The site has many other cheat sheets too.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://talkie-lm.com/introducing-talkie"&gt;Introducing talkie: a 13B vintage language model from 1930&lt;/a&gt; — a 13B language model trained on pre-1930 material. Very back-to-basics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/warpdotdev/warp"&gt;GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal. · GitHub&lt;/a&gt; — Warp is now open source.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-xs2-m1"&gt;Introducing Laguna XS.2 and Laguna M.1 — Poolside&lt;/a&gt; — two new models.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/caojiaolong/spaces-index"&gt;GitHub - caojiaolong/spaces-index: 本项目自动抓取并索引科学空间的文章元数据，按研究主题进行规则分类，方便在 GitHub 上快速浏览并跳转到原文。 · GitHub&lt;/a&gt; — an index of Su Jianlin&amp;rsquo;s Scientific Spaces articles, automatically crawled and categorized by research topic.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Hmbown/DeepSeek-TUI"&gt;GitHub - Hmbown/DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal · GitHub&lt;/a&gt; — a deepseek-tui developed by an American developer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://commandcode.ai"&gt;Command Code - AI coding agent with taste&lt;/a&gt; — offers a $1 plan.&lt;/p&gt;
+&lt;p&gt;During the May Day holiday I had headaches for five or six straight days. Looking at the left side of the screen made my eye uncomfortable, with a pulsing pain behind the eye and a pulling sensation. I suspect muscle fatigue from too much screen time and staying up late. I spent almost the whole holiday lying in bed sleeping and did almost nothing. I really need to pay attention to health, eye care, and rest. It is awful when everything feels bad and sleep is the only option; soon after waking up each day, the headache would start again. From now on I want to gradually build better routines: sleep and wake on time, use my eyes scientifically, reduce screen time, go outdoors more, and eat healthier.&lt;/p&gt;</description><content:encoded><![CDATA[<p><a href="https://github.com/Michael-A-Kuykendall/shimmy">GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub</a> — an AI inference engine written in Rust.</p>
+<p><a href="https://github.com/datalab-to/chandra">GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub</a> — an OCR model that automatically handles layout.</p>
+<p><a href="https://github.com/uutils/coreutils">GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub</a> — GNU Coreutils rewritten in Rust.</p>
+<p>A control-theory algorithm simulation tool:
+<a href="https://cool-koala.github.io/Control-Theory-Simulator/">Control Theory Simulator</a>
+<a href="https://github.com/cool-koala/Control-Theory-Simulator">GitHub - cool-koala/Control-Theory-Simulator · GitHub</a></p>
+<p><a href="https://ruwix.cn/">魔方维基和谜题 - Ruwix.cn</a> — cube wiki and puzzles.</p>
+<p><a href="https://github.com/mmulet/term.everything">GitHub - mmulet/term.everything: Run any GUI app in the terminal❗ · GitHub</a></p>
+<p><a href="https://www.scilit.com/">Scientific &amp; Scholarly Research Database | Scilit</a> — a literature data center.</p>
+<p><a href="https://dupple.com/blog">AI &amp; Tech Blog | Guides, Reviews &amp; Insights | Dupple</a> — an AI-focused blog.</p>
+<p><a href="https://heyblog.magic-knowledge.top/">HeyBlog Console</a> — a webpage that crawls friend links and aggregates blogs.</p>
+<p><a href="https://matharena.ai/models">MathArena</a> — a benchmark leaderboard for large-model math ability.</p>
+<p><a href="https://github.com/atuinsh/atuin">GitHub - atuinsh/atuin: ✨ Making your shell magical · GitHub</a> — enhanced shell-history search.</p>
+<p><a href="https://www.youtube.com/watch?v=hVK7idbkUOM">【漫士】“我证明了黎曼猜想，AI说我是对的” - YouTube</a></p>
+<ol>
+<li>The video team built a test set roughly comparable to college-entrance-exam difficulty, with trap questions that can mislead AI models. Overseas models were led by Gemini, GPT, and Claude; domestic models by Seed and DeepSeek.</li>
+<li>Current AI math ability is in a contradictory state. It is good at brute-force exploration and can use powerful computation plus existing knowledge to solve complex calculation and case-analysis problems. But for math that requires pure insight, elegant intuition, and concise construction, such as extremal constructions or combinatorics, AI still struggles. Creating new mathematical theory remains very difficult for current statistical language models.</li>
+</ol>
+<p><a href="https://aibijia.org">Aibijia — AI 订阅，一键比价</a> — one-click price comparison for AI subscriptions.</p>
+<p><a href="https://tokennav.cc/">TokenNav - AI API 中转站导航</a> — navigation site for AI API relay services.</p>
+<p><a href="https://themes.contest.com/">Telegram Themes</a> — create custom Telegram themes here. Some themes I made:</p>
+<ul>
+<li><a href="https://t.me/addtheme/rosepine_dawn_yalyenea_android">Rose-Pine-Dawn for Android</a></li>
+<li><a href="https://t.me/addtheme/rosepine_moon_yalyenea_android">Rose-Pine-Moon for Android</a></li>
+<li><a href="https://t.me/addtheme/rosepine_dawn_yalyenea">Rose-Pine-Dawn for Mac</a></li>
+<li><a href="https://t.me/addtheme/rosepine_moon_yalyenea">Rose-Pine-Moon for Mac</a></li>
+</ul>
+<p><a href="https://paperplothub.tech/">PaperPlotHub — Open marketplace for paper plot scripts</a> — resources for scientific plotting.</p>
+<p>Collected a few Git clients for Windows and Mac:</p>
+<ul>
+<li><a href="https://github.com/gitextensions/gitextensions">gitextensions/gitextensions: Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).</a></li>
+<li><a href="https://github.com/DetachHead/rebased">DetachHead/rebased: A git client based on the IntelliJ platform</a></li>
+<li><a href="https://github.com/apps/desktop">GitHub Desktop | Simple collaboration from your desktop</a></li>
+<li><a href="https://www.sourcetreeapp.com/">Sourcetree | Free Git GUI for Mac and Windows</a></li>
+<li><a href="https://sourcegit-scm.github.io/">SourceGit - Opensource &amp; Free Git Gui Client</a></li>
+<li><a href="https://tortoisegit.org/">TortoiseGit – Windows Shell Interface to Git</a></li>
+<li><a href="https://www.gitkraken.com/">GitKraken Legendary Git Tools | GitKraken</a></li>
+<li><a href="https://gitbutler.com/">GitButler</a></li>
+</ul>
+<p><a href="https://100t.xiaomimimo.com/">Xiaomi MiMo 100T</a> — Xiaomi MiMo trillion-token creator incentive program. You can apply for token access.</p>
+<p><a href="https://dots.ai/chat/">点点</a> — Xiaohongshu&rsquo;s AI Chat.</p>
+<p><a href="https://dokobot.ai/zh-CN">Dokobot - AI Agent 的浏览工具</a> — a CLI tool for getting information from the browser.</p>
+<p><a href="https://github.com/rossant/awesome-math">GitHub - rossant/awesome-math: A curated list of awesome mathematics resources · GitHub</a> — exactly what the name says: Awesome Math.</p>
+<p><a href="https://cheatography.com/gustavhelms/cheat-sheets/linear-algebra/">Linear Algebra Cheat Sheet by gustavhelms - Download free from Cheatography - Cheatography.com: Cheat Sheets For Every Occasion</a> — a linear algebra cheat sheet. The site has many other cheat sheets too.</p>
+<p><a href="https://talkie-lm.com/introducing-talkie">Introducing talkie: a 13B vintage language model from 1930</a> — a 13B language model trained on pre-1930 material. Very back-to-basics.</p>
+<p><a href="https://github.com/warpdotdev/warp">GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal. · GitHub</a> — Warp is now open source.</p>
+<p><a href="https://poolside.ai/blog/introducing-laguna-xs2-m1">Introducing Laguna XS.2 and Laguna M.1 — Poolside</a> — two new models.</p>
+<p><a href="https://github.com/caojiaolong/spaces-index">GitHub - caojiaolong/spaces-index: 本项目自动抓取并索引科学空间的文章元数据，按研究主题进行规则分类，方便在 GitHub 上快速浏览并跳转到原文。 · GitHub</a> — an index of Su Jianlin&rsquo;s Scientific Spaces articles, automatically crawled and categorized by research topic.</p>
+<p><a href="https://github.com/Hmbown/DeepSeek-TUI">GitHub - Hmbown/DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal · GitHub</a> — a deepseek-tui developed by an American developer.</p>
+<p><a href="https://commandcode.ai">Command Code - AI coding agent with taste</a> — offers a $1 plan.</p>
+<p>During the May Day holiday I had headaches for five or six straight days. Looking at the left side of the screen made my eye uncomfortable, with a pulsing pain behind the eye and a pulling sensation. I suspect muscle fatigue from too much screen time and staying up late. I spent almost the whole holiday lying in bed sleeping and did almost nothing. I really need to pay attention to health, eye care, and rest. It is awful when everything feels bad and sleep is the only option; soon after waking up each day, the headache would start again. From now on I want to gradually build better routines: sleep and wake on time, use my eyes scientifically, reduce screen time, go outdoors more, and eat healthier.</p>
+]]></content:encoded></item><item><title>Weekly Issue 9</title><link>https://blog.yfff.me/en/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-9/</guid><description>&lt;h3 id="ai-models--news"&gt;AI Models &amp;amp; News&lt;/h3&gt;
+&lt;p&gt;This was a busy week: deepseek-v4, gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, and HY-3.0 all launched one after another.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md"&gt;deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub&lt;/a&gt; — a DeepSeek v4 roleplay guide.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zcode.z.ai/"&gt;ZCode - Simple, Fast, Vibe‑Ready&lt;/a&gt; — Zhipu&amp;rsquo;s zcode switched from Tauri to Electron, which is a little funny.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feisou.app/"&gt;飞搜 - 飞书文档搜索引擎 | AI智能搜索飞书知识库、教程与干货资源&lt;/a&gt; — a Feishu document search engine, using AI to search Feishu knowledge bases, tutorials, and resources.&lt;/p&gt;
+&lt;h3 id="ai-coding--agent-platforms"&gt;AI Coding / Agent Platforms&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.pi-gui.com/"&gt;pi-gui — A native desktop for AI coding agents&lt;/a&gt; — Pi&amp;rsquo;s GUI, somewhat like Codex App.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/multica-ai/multica"&gt;GitHub - multica-ai/multica: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. · GitHub&lt;/a&gt; — an open-source managed agents platform that turns coding agents into teammates.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/golutra/golutra"&gt;GitHub - golutra/golutra · GitHub&lt;/a&gt; — another agent coding platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://slock.ai/"&gt;Slock - Where humans and AI agents collaborate&lt;/a&gt; — a collaboration platform for humans and AI agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kollab.im/"&gt;Kollab&lt;/a&gt; — a multi-agent collaborative coding platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mindfold-ai/trellis"&gt;GitHub - mindfold-ai/Trellis: The best agent harness. · GitHub&lt;/a&gt; — an agent orchestration framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mercury.cosmicstack.org/"&gt;Mercury — Soul-Driven AI Agent with Permission Guardrails | Cosmic Stack&lt;/a&gt; — a new 24/7 agent.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zed.dev/blog/parallel-agents"&gt;Introducing Parallel Agents in Zed — Zed&amp;rsquo;s Blog&lt;/a&gt; — Zed now supports parallel multi-agent views, improving AI-assisted coding workflows.&lt;/p&gt;
+&lt;h3 id="ai-tools"&gt;AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://quiver.ai/blog/introducing-arrow-1-1"&gt;Introducing Arrow 1.1, a step forward in SVG generation – QuiverAI&lt;/a&gt; — an SVG generation model.
+You can try it on the &lt;a href="https://app.quiver.ai/"&gt;official site&lt;/a&gt;.
+&lt;img
+ src="https://quiver.ai/blog-2/Fashion%20Design.png"
+ alt="596"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+
+Vector conversion example:
+&lt;img
+ src="https://blog.yfff.me/oss-images/f6b893664051-Pasted-image-20260418220643.png"
+ alt="Pasted image 20260418220643|599"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+
+Drawing an app icon:
+&lt;img
+ src="https://blog.yfff.me/oss-images/623f2519eaca-QQ_1776521566141.png"
+ alt="QQ_1776521566141|595"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mnfst/manifest"&gt;GitHub - mnfst/manifest: Smart Model Routing for Personal AI Agents. Cut Costs up to 70% 🦞👧🦚 · GitHub&lt;/a&gt; — model routing that automatically decides which model to use for each task to save cost.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.github.io/euphony/"&gt;Euphony: Visualize Chat Data in Your Browser&lt;/a&gt; — an official Codex community plugin for viewing conversation data.&lt;/p&gt;
+&lt;h3 id="research--papers"&gt;Research &amp;amp; Papers&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity"&gt;Literature | SigSep&lt;/a&gt; — a survey of music separation, with a corresponding open-source GitHub repository.
+&lt;img
+ src="https://blog.yfff.me/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
+ alt="Pasted image 20260419150727"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.10780"&gt;\[2604.10780\] LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning&lt;/a&gt; — LIDARLearn, a unified deep learning library for point-cloud classification, segmentation, and self-supervised representation learning.
+&lt;a href="https://github.com/said-ohamouddou/LIDARLearn"&gt;GitHub - said-ohamouddou/LIDARLearn: LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.turingpost.com/p/attention-types"&gt;13+ Attention Mechanisms You Should Know&lt;/a&gt; — a roundup of papers behind 13 types of attention mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mathnet.csail.mit.edu/"&gt;MathNet: A Global Multimodal Benchmark for Mathematical Reasoning and Retrieval&lt;/a&gt; — MIT&amp;rsquo;s global multimodal benchmark for mathematical reasoning and retrieval.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/NawfalMotii79/PLFM_RADAR"&gt;GitHub - NawfalMotii79/PLFM_RADAR: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system · GitHub&lt;/a&gt; — an open-source, low-cost 10.5 GHz linear-frequency-modulated phased-array radar system with hardware and FPGA implementation. The processing flow is basic FFT plus CFAR detection.
+&lt;img
+ src="https://raw.githubusercontent.com/NawfalMotii79/PLFM_RADAR/main/8_Utils/RADAR_V6_V2.png"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="academic--learning-resources"&gt;Academic &amp;amp; Learning Resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://leansearch.net/"&gt;LeanSearch-Find theorems in Mathlib4 using natural language query&lt;/a&gt; — a Lean4 theorem search engine that supports natural-language queries over Mathlib4.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matlas.ai"&gt;Matlas&lt;/a&gt; is a mathematical semantic search engine for searching theorems and proofs with natural language. Blog: &lt;a href="https://frenzymath.com/blog/matlas/"&gt;Matlas: A Semantic Search Engine for Mathematics | FrenzyMath&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scholar.archive.org/"&gt;互联网学术档案&lt;/a&gt; — an academic paper search engine from the Internet Archive.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typewords.cc/words"&gt;Type Words 官网 - 词文记 | 单词跟打 · 文章跟打 · 电脑上背单词&lt;/a&gt; — a vocabulary-learning website; it feels nicely made.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linux.do/t/topic/1417107"&gt;https://linux.do/t/topic/1417107&lt;/a&gt; — an AI-for-research post collected by a linux.do user.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ickma2311.github.io/"&gt;ickma.dev – ∇ ickma.dev&lt;/a&gt; — a personal blog with course notes.&lt;/p&gt;
+&lt;h3 id="terminal--cli"&gt;Terminal &amp;amp; CLI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/AnalyseDeCircuit/oxideterm"&gt;GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub&lt;/a&gt; — an SSH client implemented with Tauri.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/vercel-labs/wterm"&gt;GitHub - vercel-labs/wterm: A terminal emulator for the web · GitHub&lt;/a&gt; — Vercel&amp;rsquo;s open-source web terminal emulator.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mux0.com/"&gt;MUX0 — a terminal that knows your agent&lt;/a&gt; — another sidebar terminal, derived from libghostty.&lt;/p&gt;
+&lt;h3 id="developer-tools"&gt;Developer Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/PerryTS/perry"&gt;GitHub - PerryTS/perry: A native TypeScript compiler written in Rust. Compiles TypeScript directly to executables using SWC and LLVM. · GitHub&lt;/a&gt; — a native TypeScript compiler written in Rust, compiling TS directly to executables.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/indaco/malt"&gt;GitHub - indaco/malt: A Homebrew client in Zig. Warm installs in milliseconds. post_install scripts that actually run. · GitHub&lt;/a&gt; — a Homebrew client written in Zig.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nvlabs.github.io/sionna/"&gt;Sionna Documentation — Sionna 2.0.1&lt;/a&gt; — Sionna has updated to a PyTorch version instead of the earlier TensorFlow version.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://d2lang.com/"&gt;Home | D2 Documentation&lt;/a&gt; — a text diagram language similar to Mermaid. GitHub: &lt;a href="https://github.com/terrastruct/d2"&gt;https://github.com/terrastruct/d2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://prefix-dev.github.io/rattler-book/"&gt;The Rattler Book&lt;/a&gt; — a Rust Conda package-manager library for building cross-platform package-management tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/LordAizen1/git-newspaper"&gt;GitHub - LordAizen1/git-newspaper: Generate a Victorian broadsheet newspaper from any git repository&amp;rsquo;s history · GitHub&lt;/a&gt; — generate a Victorian broadsheet newspaper from a git repository&amp;rsquo;s history.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pyviz.org/"&gt;Python tools for data visualization — PyViz 0.0.1 documentation&lt;/a&gt; — a guide to open-source Python visualization tools.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The PyViz.org website is an open platform for helping users decide on the best open-source (OSS) Python data visualization tools for their purposes, with links, overviews, comparisons, and examples.
+&lt;img
+ src="https://blog.yfff.me/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
+ alt="Pasted image 20260419160939"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="design--tools"&gt;Design &amp;amp; Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://paper.design/"&gt;Paper – design, share, ship&lt;/a&gt; — an online design and sharing platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tw93/kami"&gt;GitHub - tw93/Kami: 👩‍🚒 Good content deserves good paper. · GitHub&lt;/a&gt; — tw93&amp;rsquo;s document design Skill.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web page: &lt;a href="https://kami.tw93.fun/"&gt;https://kami.tw93.fun/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install with: &lt;code&gt;npx skills add tw93/kami&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://cloud.landppt.com/"&gt;landppt&lt;/a&gt; — an online PPT generation tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.editbanana.net/app"&gt;editbanana&lt;/a&gt; — an online text-editing tool.&lt;/p&gt;
+&lt;h3 id="macos-tools"&gt;macOS Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pica.joshpuckett.me/"&gt;Pica, a MacOS font management app&lt;/a&gt; — a nice font manager for macOS.&lt;/p&gt;
+&lt;h3 id="browser"&gt;Browser&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/caffienerd/startpage"&gt;GitHub - caffienerd/startpage: Professional Terminal Start Page is a sleek, customizable browser start page built around an interactive terminal. It combines productivity tools like semantic AI routing, Gemini integration, real-time weather, and network utilities with a premium aesthetic and multiple themes. Designed for speed and flexibility. · GitHub&lt;/a&gt; — a clean terminal-style browser start page. Demo: &lt;a href="https://caffienerd.github.io/startpage/"&gt;https://caffienerd.github.io/startpage/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/dd3v/favbox"&gt;GitHub - dd3v/favbox: 🔖 FavBox is a local-first experimental browser extension that enhances and simplifies bookmark management without cloud storage or third-party services. · GitHub&lt;/a&gt; — a local-first browser extension for bookmark management.&lt;/p&gt;
+&lt;h3 id="notes--others"&gt;Notes &amp;amp; Others&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tolaria.md/"&gt;Tolaria — A second brain for the AI era&lt;/a&gt; — a second-brain note-taking tool for the AI era.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://githubnext.com/"&gt;GitHub Next&lt;/a&gt; — GitHub&amp;rsquo;s official frontier projects and technology previews.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://iknowwhatyoudownload.com/en/peer/"&gt;查看 IP 最近Torrent下载的内容&lt;/a&gt; — view recent Torrent downloads associated with an IP address.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai-models--news">AI Models &amp; News</h3>
+<p>This was a busy week: deepseek-v4, gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, and HY-3.0 all launched one after another.</p>
+<p><a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md">deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub</a> — a DeepSeek v4 roleplay guide.</p>
+<p><a href="https://zcode.z.ai/">ZCode - Simple, Fast, Vibe‑Ready</a> — Zhipu&rsquo;s zcode switched from Tauri to Electron, which is a little funny.</p>
+<p><a href="https://feisou.app/">飞搜 - 飞书文档搜索引擎 | AI智能搜索飞书知识库、教程与干货资源</a> — a Feishu document search engine, using AI to search Feishu knowledge bases, tutorials, and resources.</p>
+<h3 id="ai-coding--agent-platforms">AI Coding / Agent Platforms</h3>
+<p><a href="https://www.pi-gui.com/">pi-gui — A native desktop for AI coding agents</a> — Pi&rsquo;s GUI, somewhat like Codex App.</p>
+<p><a href="https://github.com/multica-ai/multica">GitHub - multica-ai/multica: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. · GitHub</a> — an open-source managed agents platform that turns coding agents into teammates.</p>
+<p><a href="https://github.com/golutra/golutra">GitHub - golutra/golutra · GitHub</a> — another agent coding platform.</p>
+<p><a href="https://slock.ai/">Slock - Where humans and AI agents collaborate</a> — a collaboration platform for humans and AI agents.</p>
+<p><a href="https://kollab.im/">Kollab</a> — a multi-agent collaborative coding platform.</p>
+<p><a href="https://github.com/mindfold-ai/trellis">GitHub - mindfold-ai/Trellis: The best agent harness. · GitHub</a> — an agent orchestration framework.</p>
+<p><a href="https://mercury.cosmicstack.org/">Mercury — Soul-Driven AI Agent with Permission Guardrails | Cosmic Stack</a> — a new 24/7 agent.</p>
+<p><a href="https://zed.dev/blog/parallel-agents">Introducing Parallel Agents in Zed — Zed&rsquo;s Blog</a> — Zed now supports parallel multi-agent views, improving AI-assisted coding workflows.</p>
+<h3 id="ai-tools">AI Tools</h3>
+<p><a href="https://quiver.ai/blog/introducing-arrow-1-1">Introducing Arrow 1.1, a step forward in SVG generation – QuiverAI</a> — an SVG generation model.
+You can try it on the <a href="https://app.quiver.ai/">official site</a>.
+<img
+  src="https://quiver.ai/blog-2/Fashion%20Design.png"
+  alt="596"
+  
+  loading="lazy"
+  decoding="async"
+>
+
+Vector conversion example:
+<img
+  src="/oss-images/f6b893664051-Pasted-image-20260418220643.png"
+  alt="Pasted image 20260418220643|599"
+  
+  loading="lazy"
+  decoding="async"
+>
+
+Drawing an app icon:
+<img
+  src="/oss-images/623f2519eaca-QQ_1776521566141.png"
+  alt="QQ_1776521566141|595"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/mnfst/manifest">GitHub - mnfst/manifest: Smart Model Routing for Personal AI Agents. Cut Costs up to 70% 🦞👧🦚 · GitHub</a> — model routing that automatically decides which model to use for each task to save cost.</p>
+<p><a href="https://openai.github.io/euphony/">Euphony: Visualize Chat Data in Your Browser</a> — an official Codex community plugin for viewing conversation data.</p>
+<h3 id="research--papers">Research &amp; Papers</h3>
+<p><a href="https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity">Literature | SigSep</a> — a survey of music separation, with a corresponding open-source GitHub repository.
+<img
+  src="/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
+  alt="Pasted image 20260419150727"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://arxiv.org/abs/2604.10780">\[2604.10780\] LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning</a> — LIDARLearn, a unified deep learning library for point-cloud classification, segmentation, and self-supervised representation learning.
+<a href="https://github.com/said-ohamouddou/LIDARLearn">GitHub - said-ohamouddou/LIDARLearn: LIDARLearn: A Unified Deep Learning Library for 3D Point Cloud Classification, Segmentation, and Self-Supervised Representation Learning · GitHub</a></p>
+<p><a href="https://www.turingpost.com/p/attention-types">13+ Attention Mechanisms You Should Know</a> — a roundup of papers behind 13 types of attention mechanisms.</p>
+<p><a href="https://mathnet.csail.mit.edu/">MathNet: A Global Multimodal Benchmark for Mathematical Reasoning and Retrieval</a> — MIT&rsquo;s global multimodal benchmark for mathematical reasoning and retrieval.</p>
+<p><a href="https://github.com/NawfalMotii79/PLFM_RADAR">GitHub - NawfalMotii79/PLFM_RADAR: Open-source, low-cost 10.5 GHz PLFM phased array RADAR system · GitHub</a> — an open-source, low-cost 10.5 GHz linear-frequency-modulated phased-array radar system with hardware and FPGA implementation. The processing flow is basic FFT plus CFAR detection.
+<img
+  src="https://raw.githubusercontent.com/NawfalMotii79/PLFM_RADAR/main/8_Utils/RADAR_V6_V2.png"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="academic--learning-resources">Academic &amp; Learning Resources</h3>
+<p><a href="https://leansearch.net/">LeanSearch-Find theorems in Mathlib4 using natural language query</a> — a Lean4 theorem search engine that supports natural-language queries over Mathlib4.</p>
+<p><a href="https://matlas.ai">Matlas</a> is a mathematical semantic search engine for searching theorems and proofs with natural language. Blog: <a href="https://frenzymath.com/blog/matlas/">Matlas: A Semantic Search Engine for Mathematics | FrenzyMath</a></p>
+<p><a href="https://scholar.archive.org/">互联网学术档案</a> — an academic paper search engine from the Internet Archive.</p>
+<p><a href="https://typewords.cc/words">Type Words 官网 - 词文记 | 单词跟打 · 文章跟打 · 电脑上背单词</a> — a vocabulary-learning website; it feels nicely made.</p>
+<p><a href="https://linux.do/t/topic/1417107">https://linux.do/t/topic/1417107</a> — an AI-for-research post collected by a linux.do user.</p>
+<p><a href="https://ickma2311.github.io/">ickma.dev – ∇ ickma.dev</a> — a personal blog with course notes.</p>
+<h3 id="terminal--cli">Terminal &amp; CLI</h3>
+<p><a href="https://github.com/AnalyseDeCircuit/oxideterm">GitHub - AnalyseDeCircuit/oxideterm: All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages. · GitHub</a> — an SSH client implemented with Tauri.</p>
+<p><a href="https://github.com/vercel-labs/wterm">GitHub - vercel-labs/wterm: A terminal emulator for the web · GitHub</a> — Vercel&rsquo;s open-source web terminal emulator.</p>
+<p><a href="https://mux0.com/">MUX0 — a terminal that knows your agent</a> — another sidebar terminal, derived from libghostty.</p>
+<h3 id="developer-tools">Developer Tools</h3>
+<p><a href="https://github.com/PerryTS/perry">GitHub - PerryTS/perry: A native TypeScript compiler written in Rust. Compiles TypeScript directly to executables using SWC and LLVM. · GitHub</a> — a native TypeScript compiler written in Rust, compiling TS directly to executables.</p>
+<p><a href="https://github.com/indaco/malt">GitHub - indaco/malt: A Homebrew client in Zig. Warm installs in milliseconds. post_install scripts that actually run. · GitHub</a> — a Homebrew client written in Zig.</p>
+<p><a href="https://nvlabs.github.io/sionna/">Sionna Documentation — Sionna 2.0.1</a> — Sionna has updated to a PyTorch version instead of the earlier TensorFlow version.</p>
+<p><a href="https://d2lang.com/">Home | D2 Documentation</a> — a text diagram language similar to Mermaid. GitHub: <a href="https://github.com/terrastruct/d2">https://github.com/terrastruct/d2</a></p>
+<p><a href="https://prefix-dev.github.io/rattler-book/">The Rattler Book</a> — a Rust Conda package-manager library for building cross-platform package-management tools.</p>
+<p><a href="https://github.com/LordAizen1/git-newspaper">GitHub - LordAizen1/git-newspaper: Generate a Victorian broadsheet newspaper from any git repository&rsquo;s history · GitHub</a> — generate a Victorian broadsheet newspaper from a git repository&rsquo;s history.</p>
+<p><a href="https://pyviz.org/">Python tools for data visualization — PyViz 0.0.1 documentation</a> — a guide to open-source Python visualization tools.</p>
+<blockquote>
+<p>The PyViz.org website is an open platform for helping users decide on the best open-source (OSS) Python data visualization tools for their purposes, with links, overviews, comparisons, and examples.
+<img
+  src="/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
+  alt="Pasted image 20260419160939"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+</blockquote>
+<h3 id="design--tools">Design &amp; Tools</h3>
+<p><a href="https://paper.design/">Paper – design, share, ship</a> — an online design and sharing platform.</p>
+<p><a href="https://github.com/tw93/kami">GitHub - tw93/Kami: 👩‍🚒 Good content deserves good paper. · GitHub</a> — tw93&rsquo;s document design Skill.</p>
+<ul>
+<li>Web page: <a href="https://kami.tw93.fun/">https://kami.tw93.fun/</a></li>
+<li>Install with: <code>npx skills add tw93/kami</code></li>
+</ul>
+<p><a href="https://cloud.landppt.com/">landppt</a> — an online PPT generation tool.</p>
+<p><a href="https://www.editbanana.net/app">editbanana</a> — an online text-editing tool.</p>
+<h3 id="macos-tools">macOS Tools</h3>
+<p><a href="https://pica.joshpuckett.me/">Pica, a MacOS font management app</a> — a nice font manager for macOS.</p>
+<h3 id="browser">Browser</h3>
+<p><a href="https://github.com/caffienerd/startpage">GitHub - caffienerd/startpage: Professional Terminal Start Page is a sleek, customizable browser start page built around an interactive terminal. It combines productivity tools like semantic AI routing, Gemini integration, real-time weather, and network utilities with a premium aesthetic and multiple themes. Designed for speed and flexibility. · GitHub</a> — a clean terminal-style browser start page. Demo: <a href="https://caffienerd.github.io/startpage/">https://caffienerd.github.io/startpage/</a></p>
+<p><a href="https://github.com/dd3v/favbox">GitHub - dd3v/favbox: 🔖 FavBox is a local-first experimental browser extension that enhances and simplifies bookmark management without cloud storage or third-party services. · GitHub</a> — a local-first browser extension for bookmark management.</p>
+<h3 id="notes--others">Notes &amp; Others</h3>
+<p><a href="https://tolaria.md/">Tolaria — A second brain for the AI era</a> — a second-brain note-taking tool for the AI era.</p>
+<p><a href="https://githubnext.com/">GitHub Next</a> — GitHub&rsquo;s official frontier projects and technology previews.</p>
+<p><a href="https://iknowwhatyoudownload.com/en/peer/">查看 IP 最近Torrent下载的内容</a> — view recent Torrent downloads associated with an IP address.</p>
+]]></content:encoded></item><item><title>Weekly Issue 8</title><link>https://blog.yfff.me/en/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-8/</guid><description>&lt;h3 id="ai-news"&gt;AI News&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mail.bycloud.ai/"&gt;The AI Timeline&lt;/a&gt; — another AI newsletter.&lt;/p&gt;
+&lt;h3 id="ai-coding--agent-platforms"&gt;AI Coding / Agent Platforms&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/EKKOLearnAI/hermes-web-ui"&gt;GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp;amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub&lt;/a&gt; — Web dashboard for Hermes Agent, with multi-platform AI chat, session management, scheduled jobs, usage analytics, and channel configuration for Telegram, Discord, Slack, and WhatsApp.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CodebuffAI/codebuff"&gt;GitHub - CodebuffAI/codebuff: Generate code from the terminal! · GitHub&lt;/a&gt; — an open-source code agent. Free version: &lt;a href="https://freebuff.com/"&gt;Freebuff — the free coding agent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zhukunpenglinyutong/desktop-cc-gui"&gt;https://github.com/zhukunpenglinyutong/desktop-cc-gui&lt;/a&gt; — a Claude Code GUI client and vibe-coding platform for developers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/getpaseo/paseo"&gt;GitHub - getpaseo/paseo: Orchestrate coding agents remotely from your phone, desktop and CLI · GitHub&lt;/a&gt; — similar to the earlier lody.ai.&lt;/p&gt;
+&lt;p&gt;Collections of multi-agent aggregation platforms:
+&lt;a href="https://www.depo.zip/categories/ai-harness"&gt;Depo | AI Harness tools&lt;/a&gt;
+&lt;a href="https://wistful-mascara-1ca.notion.site/Lex-Notes-of-Multi-Agent-Coding-tools-34071f05021a80f0afacdc50f938128a#main"&gt;Lex&amp;rsquo; Notes of Multi-Agent Coding tools&lt;/a&gt;
+There are a lot of these tools lately. I have tried a few myself and most feel somewhat awkward; I still prefer the official CLI, Codex App, or maybe Warp. &lt;a href="https://warp.dev"&gt;Warp Terminal&lt;/a&gt; now supports vertical tabs, notifications, and remote control. Pretty nice.
+&lt;img
+ src="https://blog.yfff.me/oss-images/46ab1925abc2-QQ_1776193735795.png"
+ alt="821"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="ai-usage-monitoring"&gt;AI Usage Monitoring&lt;/h3&gt;
+&lt;p&gt;Tools for monitoring AI coding plan usage. For now I recommend the third one, OpenUsage.
+&lt;img
+ src="https://blog.yfff.me/oss-images/1ba572a2366c-QQ_1776197595556.png"
+ alt="|404"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/tddworks/ClaudeBar"&gt;GitHub - tddworks/ClaudeBar: A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/steipete/CodexBar"&gt;GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/robinebers/openusage"&gt;GitHub - robinebers/openusage: Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Four-JJJJ/AI-Plan-Monitoring"&gt;GitHub - Four-JJJJ/AI-Plan-Monitoring: macOS menu bar app to monitor AI plan limits, relay balances, and local Codex accounts · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nguyenphutrong/quotio"&gt;GitHub - nguyenphutrong/quotio: Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="codex-usage"&gt;Codex Usage&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Dailin521/codex-provider-sync"&gt;GitHub - Dailin521/codex-provider-sync: Synchronize Codex session provider metadata across rollout files and SQLite state. · GitHub&lt;/a&gt; — if you use both official subscriptions and third-party APIs, Codex history may fail to display because the provider identifiers differ. This tool synchronizes them so the history shows up correctly.&lt;/p&gt;
+&lt;p&gt;If you use the official subscription, you may need TUN mode to avoid reconnecting issues. If you do not want to enable TUN mode, create a &lt;code&gt;.env&lt;/code&gt; file under &lt;code&gt;~/.codex&lt;/code&gt; and add proxy settings like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;HTTP_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://127.0.0.1:your-proxy-port&amp;#34;&lt;/span&gt; &lt;span class="c1"&gt;# clash seems to use 7897 by default&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;HTTPS_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://127.0.0.1:your-proxy-port&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;NO_PROXY&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;localhost,127.0.0.1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="agent-skills"&gt;Agent Skills&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/labarba/sciwrite"&gt;GitHub - labarba/sciwrite: Agent Skill for AI-assisted manuscript writing review, based on Dr. Kristin Sainani&amp;rsquo;s &amp;ldquo;Writing in the Sciences&amp;rdquo; methodology. · GitHub&lt;/a&gt; — a scientific writing review Skill based on Kristin Sainani&amp;rsquo;s &lt;em&gt;Writing in the Sciences&lt;/em&gt; methodology.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lewislulu/html-ppt-skill"&gt;GitHub - lewislulu/html-ppt-skill: HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations · GitHub&lt;/a&gt; — HTML PPT Studio Skill, with 24 themes, 31 layouts, and 20+ animations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ZreadAI/zread-skill"&gt;GitHub - ZreadAI/zread-skill: Zread Skill · GitHub&lt;/a&gt; — Zread released a Skill that lets AI call the local repository wiki generated by Zread. It may not always be necessary, but it decouples the agent from reading the repository directly.&lt;/p&gt;
+&lt;h3 id="research--papers"&gt;Research &amp;amp; Papers&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.12968"&gt;\[2604.12968\] Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations&lt;/a&gt; — a survey of optimization methods, covering algorithms, scenarios, and evaluation methods.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.01472"&gt;\[2604.01472\] The Newton-Muon Optimizer&lt;/a&gt; — Muon is essentially an implicit Newton method.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SensRad/vegvisir"&gt;GitHub - SensRad/vegvisir: A Combined SLAM and Localization System for both RADAR and LiDAR · GitHub&lt;/a&gt; — a SLAM and localization system that supports both RADAR and LiDAR.&lt;/p&gt;
+&lt;h3 id="academic--learning-resources"&gt;Academic &amp;amp; Learning Resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/JabRef/jabref"&gt;GitHub - JabRef/jabref: Graphical Java application for managing BibTeX and BibLaTeX (.bib) databases · GitHub&lt;/a&gt; — an open-source reference manager for BibTeX and BibLaTeX databases.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://core.ac.uk"&gt;The world&amp;rsquo;s largest collection of open access research papers&lt;/a&gt; — CORE, the world&amp;rsquo;s largest collection of open-access research papers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV&amp;amp;si=Wv6OfMweL1yvDHrY"&gt;Stanford CS336&lt;/a&gt; — the 2026 version of CS336.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pidoc.cn/"&gt;Raspberry Pi 树莓派 (官网26年04月更新)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://commons.libretexts.org/"&gt;LibreCommons&lt;/a&gt; — a textbook resource library with free and open textbooks, courses, and learning materials across many disciplines.&lt;/p&gt;
+&lt;h3 id="terminal--cli"&gt;Terminal &amp;amp; CLI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/muxy-app/muxy"&gt;GitHub - muxy-app/muxy: A macOS terminal multiplexer built with SwiftUI and libghostty · GitHub&lt;/a&gt; — another vertical-tab terminal, similar to cmux and related tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/thegdsks/awesome-modern-cli"&gt;GitHub - thegdsks/awesome-modern-cli: A curated list of modern alternatives to classic command-line tools. Faster, prettier, smarter replacements for the Unix utilities you use every day. · GitHub&lt;/a&gt; — a curated list of modern CLI alternatives to classic Unix tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://numbat.dev"&gt;Numbat - scientific calculator&lt;/a&gt; — a calculator with units.
+&lt;img
+ src="https://blog.yfff.me/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
+ alt="Pasted image 20260416163313|860"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="developer-tools"&gt;Developer Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/indragiek/GHFS"&gt;GitHub - indragiek/GHFS: Mount GitHub repositories as a virtual read-only macOS filesystem · GitHub&lt;/a&gt; — mount GitHub repositories as a virtual read-only filesystem on macOS.&lt;/p&gt;
+&lt;p&gt;Mounting an SSH server filesystem locally can make editing and managing remote files more efficient:
+&lt;a href="https://github.com/libfuse/sshfs"&gt;GitHub - libfuse/sshfs: A network filesystem client to connect to SSH servers · GitHub&lt;/a&gt;
+&lt;a href="https://github.com/winfsp/sshfs-win"&gt;https://github.com/winfsp/sshfs-win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gh-proxy.com"&gt;GitHub加速下载代理 - 快速访问 GitHub 文件&lt;/a&gt; — a GitHub mirror/proxy, with Docker and SourceForge acceleration plus a developer toolbox: &lt;a href="https://tool.gh-proxy.com/"&gt;https://tool.gh-proxy.com/&lt;/a&gt; or &lt;a href="https://ittool.wort.uk/"&gt;https://ittool.wort.uk/&lt;/a&gt;
+&lt;img
+ src="https://blog.yfff.me/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
+ alt="Pasted image 20260414203046|800"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lra/mackup"&gt;GitHub - lra/mackup: Backup and keep your application settings in sync. · GitHub&lt;/a&gt; — synchronize and back up application settings; handy when switching machines.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.chezmoi.io"&gt;chezmoi - chezmoi&lt;/a&gt; — manage dotfiles across machines.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/floccusaddon/floccus"&gt;GitHub - floccusaddon/floccus: :cloud: Sync your bookmarks privately across browsers and devices · GitHub&lt;/a&gt; — private bookmark sync across browsers and devices, supporting Firefox, Chrome, and mobile apps.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dmcheck.app/zh/"&gt;dmcheck - 域名查询&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="notes--blogs"&gt;Notes &amp;amp; Blogs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Shpigford/clearly"&gt;GitHub - Shpigford/clearly: Markdown editor and knowledge base for Mac · GitHub&lt;/a&gt; — a pure Swift markdown editor for macOS: &lt;a href="https://clearly.md/"&gt;https://clearly.md/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bearblog.dev/"&gt;Bear Blog&lt;/a&gt; — a minimalist blogging platform with no JS, no tracking, and no ads.&lt;/p&gt;
+&lt;h3 id="macos-tools"&gt;macOS Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://macmenubar.app/"&gt;Mac Menubar Apps - Curated list of the best menubar apps for your life&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://search.google/google-app/desktop/"&gt;The Google app for desktop&lt;/a&gt; — Google&amp;rsquo;s Windows app.&lt;/p&gt;
+&lt;h3 id="design--themes"&gt;Design &amp;amp; Themes&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.motionin.design"&gt;Premium Interactive Web Sections&lt;/a&gt; — high-quality interactive web components for modern web design.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rosepinetheme.com/"&gt;Something beautiful, Rose Pine theme&lt;/a&gt; — Rose Pine color themes, with many community ports for apps and tools. Similar themes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://draculatheme.com"&gt;Dracula Theme for 400+ apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wixdaq.github.io/Tokyo-Night-Website"&gt;Tokyo Night Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://everforest.vercel.app"&gt;Everforest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nordtheme.com"&gt;Nord&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://catppuccin.com"&gt;Catppuccin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/pbakaus/impeccable"&gt;GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design. · GitHub&lt;/a&gt; — an AI design tool that provides a design language to help AI tools design better. The author clearly has taste; the website is elegant: &lt;a href="https://impeccable.style/"&gt;https://impeccable.style/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/KurtGokhan/tegaki"&gt;GitHub - KurtGokhan/tegaki: Handwriting animation for the web. Supports any font or text. · GitHub&lt;/a&gt; — handwriting animation for the web, supporting any font or text.&lt;/p&gt;
+&lt;h3 id="fonts--typography"&gt;Fonts &amp;amp; Typography&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.typewolf.com/"&gt;What&amp;rsquo;s Trending in Type · Typewolf&lt;/a&gt; — tracks trends in web typography.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fontsinuse.com/"&gt;Fonts In Use - Fonts In Use&lt;/a&gt; — real-world typography examples.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://practicaltypography.com/"&gt;Butterick&amp;rsquo;s Practical Typography&lt;/a&gt; — Butterick&amp;rsquo;s practical typography guide.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://font.icu/"&gt;Font.icu - 字体预览与下载&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="images--screen-recording"&gt;Images &amp;amp; Screen Recording&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ps.keepmot.com/zh/design/"&gt;长图拼接工具在线使用_垂直水平无缝拼接_聊天记录截图长图&lt;/a&gt; — online long-image stitching tool for seamless vertical or horizontal stitching, useful for chat screenshots.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/blueberrycongee/CursorLens"&gt;GitHub - blueberrycongee/CursorLens: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub&lt;/a&gt; — another open-source screen recording tool. I had shared Recordly before, and there also seems to be Open Screen.&lt;/p&gt;
+&lt;h3 id="resource-communities"&gt;Resource Communities&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.seedhub.cc/"&gt;SeedHub | 影视&amp;amp;动漫分享&lt;/a&gt; — film and anime resource sharing site.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.depo.zip/"&gt;Depo | A curated collection of resources&lt;/a&gt; — a developer-oriented resource collection site.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cuflow.ai"&gt;Cuflow – AI-Powered Study &amp;amp; Productivity Tool&lt;/a&gt; — AI-powered study and productivity tool.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai-news">AI News</h3>
+<p><a href="https://mail.bycloud.ai/">The AI Timeline</a> — another AI newsletter.</p>
+<h3 id="ai-coding--agent-platforms">AI Coding / Agent Platforms</h3>
+<p><a href="https://github.com/EKKOLearnAI/hermes-web-ui">GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub</a> — Web dashboard for Hermes Agent, with multi-platform AI chat, session management, scheduled jobs, usage analytics, and channel configuration for Telegram, Discord, Slack, and WhatsApp.</p>
+<p><a href="https://github.com/CodebuffAI/codebuff">GitHub - CodebuffAI/codebuff: Generate code from the terminal! · GitHub</a> — an open-source code agent. Free version: <a href="https://freebuff.com/">Freebuff — the free coding agent</a></p>
+<p><a href="https://github.com/zhukunpenglinyutong/desktop-cc-gui">https://github.com/zhukunpenglinyutong/desktop-cc-gui</a> — a Claude Code GUI client and vibe-coding platform for developers.</p>
+<p><a href="https://github.com/getpaseo/paseo">GitHub - getpaseo/paseo: Orchestrate coding agents remotely from your phone, desktop and CLI · GitHub</a> — similar to the earlier lody.ai.</p>
+<p>Collections of multi-agent aggregation platforms:
+<a href="https://www.depo.zip/categories/ai-harness">Depo | AI Harness tools</a>
+<a href="https://wistful-mascara-1ca.notion.site/Lex-Notes-of-Multi-Agent-Coding-tools-34071f05021a80f0afacdc50f938128a#main">Lex&rsquo; Notes of Multi-Agent Coding tools</a>
+There are a lot of these tools lately. I have tried a few myself and most feel somewhat awkward; I still prefer the official CLI, Codex App, or maybe Warp. <a href="https://warp.dev">Warp Terminal</a> now supports vertical tabs, notifications, and remote control. Pretty nice.
+<img
+  src="/oss-images/46ab1925abc2-QQ_1776193735795.png"
+  alt="821"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="ai-usage-monitoring">AI Usage Monitoring</h3>
+<p>Tools for monitoring AI coding plan usage. For now I recommend the third one, OpenUsage.
+<img
+  src="/oss-images/1ba572a2366c-QQ_1776197595556.png"
+  alt="|404"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<ol>
+<li><a href="https://github.com/tddworks/ClaudeBar">GitHub - tddworks/ClaudeBar: A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance. · GitHub</a></li>
+<li><a href="https://github.com/steipete/CodexBar">GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. · GitHub</a></li>
+<li><a href="https://github.com/robinebers/openusage">GitHub - robinebers/openusage: Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source. · GitHub</a></li>
+<li><a href="https://github.com/Four-JJJJ/AI-Plan-Monitoring">GitHub - Four-JJJJ/AI-Plan-Monitoring: macOS menu bar app to monitor AI plan limits, relay balances, and local Codex accounts · GitHub</a></li>
+<li><a href="https://github.com/nguyenphutrong/quotio">GitHub - nguyenphutrong/quotio: Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. · GitHub</a></li>
+</ol>
+<h3 id="codex-usage">Codex Usage</h3>
+<p><a href="https://github.com/Dailin521/codex-provider-sync">GitHub - Dailin521/codex-provider-sync: Synchronize Codex session provider metadata across rollout files and SQLite state. · GitHub</a> — if you use both official subscriptions and third-party APIs, Codex history may fail to display because the provider identifiers differ. This tool synchronizes them so the history shows up correctly.</p>
+<p>If you use the official subscription, you may need TUN mode to avoid reconnecting issues. If you do not want to enable TUN mode, create a <code>.env</code> file under <code>~/.codex</code> and add proxy settings like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">HTTP_PROXY</span><span class="o">=</span><span class="s2">&#34;http://127.0.0.1:your-proxy-port&#34;</span> <span class="c1"># clash seems to use 7897 by default</span>
+</span></span><span class="line"><span class="cl"><span class="nv">HTTPS_PROXY</span><span class="o">=</span><span class="s2">&#34;http://127.0.0.1:your-proxy-port&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">NO_PROXY</span><span class="o">=</span><span class="s2">&#34;localhost,127.0.0.1&#34;</span>
+</span></span></code></pre></div><h3 id="agent-skills">Agent Skills</h3>
+<p><a href="https://github.com/labarba/sciwrite">GitHub - labarba/sciwrite: Agent Skill for AI-assisted manuscript writing review, based on Dr. Kristin Sainani&rsquo;s &ldquo;Writing in the Sciences&rdquo; methodology. · GitHub</a> — a scientific writing review Skill based on Kristin Sainani&rsquo;s <em>Writing in the Sciences</em> methodology.</p>
+<p><a href="https://github.com/lewislulu/html-ppt-skill">GitHub - lewislulu/html-ppt-skill: HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations · GitHub</a> — HTML PPT Studio Skill, with 24 themes, 31 layouts, and 20+ animations.</p>
+<p><a href="https://github.com/ZreadAI/zread-skill">GitHub - ZreadAI/zread-skill: Zread Skill · GitHub</a> — Zread released a Skill that lets AI call the local repository wiki generated by Zread. It may not always be necessary, but it decouples the agent from reading the repository directly.</p>
+<h3 id="research--papers">Research &amp; Papers</h3>
+<p><a href="https://arxiv.org/abs/2604.12968">\[2604.12968\] Evolution of Optimization Methods: Algorithms, Scenarios, and Evaluations</a> — a survey of optimization methods, covering algorithms, scenarios, and evaluation methods.</p>
+<p><a href="https://arxiv.org/abs/2604.01472">\[2604.01472\] The Newton-Muon Optimizer</a> — Muon is essentially an implicit Newton method.</p>
+<p><a href="https://github.com/SensRad/vegvisir">GitHub - SensRad/vegvisir: A Combined SLAM and Localization System for both RADAR and LiDAR · GitHub</a> — a SLAM and localization system that supports both RADAR and LiDAR.</p>
+<h3 id="academic--learning-resources">Academic &amp; Learning Resources</h3>
+<p><a href="https://github.com/JabRef/jabref">GitHub - JabRef/jabref: Graphical Java application for managing BibTeX and BibLaTeX (.bib) databases · GitHub</a> — an open-source reference manager for BibTeX and BibLaTeX databases.</p>
+<p><a href="https://core.ac.uk">The world&rsquo;s largest collection of open access research papers</a> — CORE, the world&rsquo;s largest collection of open-access research papers.</p>
+<p><a href="https://youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV&amp;si=Wv6OfMweL1yvDHrY">Stanford CS336</a> — the 2026 version of CS336.</p>
+<p><a href="https://pidoc.cn/">Raspberry Pi 树莓派 (官网26年04月更新)</a></p>
+<p><a href="https://commons.libretexts.org/">LibreCommons</a> — a textbook resource library with free and open textbooks, courses, and learning materials across many disciplines.</p>
+<h3 id="terminal--cli">Terminal &amp; CLI</h3>
+<p><a href="https://github.com/muxy-app/muxy">GitHub - muxy-app/muxy: A macOS terminal multiplexer built with SwiftUI and libghostty · GitHub</a> — another vertical-tab terminal, similar to cmux and related tools.</p>
+<p><a href="https://github.com/thegdsks/awesome-modern-cli">GitHub - thegdsks/awesome-modern-cli: A curated list of modern alternatives to classic command-line tools. Faster, prettier, smarter replacements for the Unix utilities you use every day. · GitHub</a> — a curated list of modern CLI alternatives to classic Unix tools.</p>
+<p><a href="https://numbat.dev">Numbat - scientific calculator</a> — a calculator with units.
+<img
+  src="/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
+  alt="Pasted image 20260416163313|860"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="developer-tools">Developer Tools</h3>
+<p><a href="https://github.com/indragiek/GHFS">GitHub - indragiek/GHFS: Mount GitHub repositories as a virtual read-only macOS filesystem · GitHub</a> — mount GitHub repositories as a virtual read-only filesystem on macOS.</p>
+<p>Mounting an SSH server filesystem locally can make editing and managing remote files more efficient:
+<a href="https://github.com/libfuse/sshfs">GitHub - libfuse/sshfs: A network filesystem client to connect to SSH servers · GitHub</a>
+<a href="https://github.com/winfsp/sshfs-win">https://github.com/winfsp/sshfs-win</a></p>
+<p><a href="https://gh-proxy.com">GitHub加速下载代理 - 快速访问 GitHub 文件</a> — a GitHub mirror/proxy, with Docker and SourceForge acceleration plus a developer toolbox: <a href="https://tool.gh-proxy.com/">https://tool.gh-proxy.com/</a> or <a href="https://ittool.wort.uk/">https://ittool.wort.uk/</a>
+<img
+  src="/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
+  alt="Pasted image 20260414203046|800"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/lra/mackup">GitHub - lra/mackup: Backup and keep your application settings in sync. · GitHub</a> — synchronize and back up application settings; handy when switching machines.</p>
+<p><a href="https://www.chezmoi.io">chezmoi - chezmoi</a> — manage dotfiles across machines.</p>
+<p><a href="https://github.com/floccusaddon/floccus">GitHub - floccusaddon/floccus: :cloud: Sync your bookmarks privately across browsers and devices · GitHub</a> — private bookmark sync across browsers and devices, supporting Firefox, Chrome, and mobile apps.</p>
+<p><a href="https://dmcheck.app/zh/">dmcheck - 域名查询</a></p>
+<h3 id="notes--blogs">Notes &amp; Blogs</h3>
+<p><a href="https://github.com/Shpigford/clearly">GitHub - Shpigford/clearly: Markdown editor and knowledge base for Mac · GitHub</a> — a pure Swift markdown editor for macOS: <a href="https://clearly.md/">https://clearly.md/</a></p>
+<p><a href="https://bearblog.dev/">Bear Blog</a> — a minimalist blogging platform with no JS, no tracking, and no ads.</p>
+<h3 id="macos-tools">macOS Tools</h3>
+<p><a href="https://macmenubar.app/">Mac Menubar Apps - Curated list of the best menubar apps for your life</a></p>
+<p><a href="https://search.google/google-app/desktop/">The Google app for desktop</a> — Google&rsquo;s Windows app.</p>
+<h3 id="design--themes">Design &amp; Themes</h3>
+<p><a href="https://www.motionin.design">Premium Interactive Web Sections</a> — high-quality interactive web components for modern web design.</p>
+<p><a href="https://rosepinetheme.com/">Something beautiful, Rose Pine theme</a> — Rose Pine color themes, with many community ports for apps and tools. Similar themes:</p>
+<ul>
+<li><a href="https://draculatheme.com">Dracula Theme for 400+ apps</a></li>
+<li><a href="https://wixdaq.github.io/Tokyo-Night-Website">Tokyo Night Website</a></li>
+<li><a href="https://everforest.vercel.app">Everforest</a></li>
+<li><a href="https://www.nordtheme.com">Nord</a></li>
+<li><a href="https://catppuccin.com">Catppuccin</a></li>
+</ul>
+<p><a href="https://github.com/pbakaus/impeccable">GitHub - pbakaus/impeccable: The design language that makes your AI harness better at design. · GitHub</a> — an AI design tool that provides a design language to help AI tools design better. The author clearly has taste; the website is elegant: <a href="https://impeccable.style/">https://impeccable.style/</a></p>
+<p><a href="https://github.com/KurtGokhan/tegaki">GitHub - KurtGokhan/tegaki: Handwriting animation for the web. Supports any font or text. · GitHub</a> — handwriting animation for the web, supporting any font or text.</p>
+<h3 id="fonts--typography">Fonts &amp; Typography</h3>
+<p><a href="https://www.typewolf.com/">What&rsquo;s Trending in Type · Typewolf</a> — tracks trends in web typography.</p>
+<p><a href="https://fontsinuse.com/">Fonts In Use - Fonts In Use</a> — real-world typography examples.</p>
+<p><a href="https://practicaltypography.com/">Butterick&rsquo;s Practical Typography</a> — Butterick&rsquo;s practical typography guide.</p>
+<p><a href="https://font.icu/">Font.icu - 字体预览与下载</a></p>
+<h3 id="images--screen-recording">Images &amp; Screen Recording</h3>
+<p><a href="https://ps.keepmot.com/zh/design/">长图拼接工具在线使用_垂直水平无缝拼接_聊天记录截图长图</a> — online long-image stitching tool for seamless vertical or horizontal stitching, useful for chat screenshots.</p>
+<p><a href="https://github.com/blueberrycongee/CursorLens">GitHub - blueberrycongee/CursorLens: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. · GitHub</a> — another open-source screen recording tool. I had shared Recordly before, and there also seems to be Open Screen.</p>
+<h3 id="resource-communities">Resource Communities</h3>
+<p><a href="https://www.seedhub.cc/">SeedHub | 影视&amp;动漫分享</a> — film and anime resource sharing site.</p>
+<p><a href="https://www.depo.zip/">Depo | A curated collection of resources</a> — a developer-oriented resource collection site.</p>
+<p><a href="https://cuflow.ai">Cuflow – AI-Powered Study &amp; Productivity Tool</a> — AI-powered study and productivity tool.</p>
+]]></content:encoded></item><item><title>Weekly Issue 7</title><link>https://blog.yfff.me/en/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-7/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;The skillful toil and the wise worry, while the incapable seek nothing;&lt;br&gt;
 Fed and roaming freely, like an unmoored boat.&lt;br&gt;
 Why bother with worldly clouds? Better to rest and feast.&lt;/p&gt;
@@ -880,15 +1930,6 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 &lt;li&gt;&lt;a href="https://framer.net.cn/"&gt;Framer China&lt;/a&gt; — Free Framer templates, components, and tutorials (2026).&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/lukilabs/beautiful-mermaid"&gt;GitHub - lukilabs/beautiful-mermaid&lt;/a&gt; — Render Mermaid diagrams as SVG and ASCII art. By &lt;a href="https://www.craft.do"&gt;Craft&lt;/a&gt; team (who also built &lt;a href="https://agents.craft.do"&gt;Craft Agent&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/BIT-DataLab/Edit-Banana"&gt;GitHub - BIT-DataLab/Edit-Banana&lt;/a&gt; — Convert AI-generated images to editable content for PPT/draw.io.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="emerging-technologies"&gt;Emerging Technologies&lt;/h2&gt;
-&lt;h3 id="wireless--communications"&gt;Wireless &amp;amp; Communications&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Stacked Intelligent Metasurfaces&lt;/strong&gt; — Stacking multiple RIS (Reconfigurable Intelligent Surfaces) for light-speed processing, enabling faster communication and sensing. Key author: &lt;a href="https://jiancheng-an.github.io/"&gt;Jiancheng An&lt;/a&gt;. &lt;a href="https://mp.weixin.qq.com/s/RwPLWAszx5YgWLwdHHDeSw"&gt;WeChat article&lt;/a&gt; (Chinese).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="novel-concepts"&gt;Novel Concepts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa"&gt;Frequency-as-Aperture (FaA)&lt;/a&gt; — Achieves virtual aperture through frequency variation, adding another degree of freedom beyond physical sensor spacing.&lt;/li&gt;
 &lt;/ul&gt;</description><content:encoded><![CDATA[<p>The first weekly issue, published roughly every two weeks. AI was used for categorization, though not perfectly accurate — I decided against manual sorting.</p>
 <h2 id="ai--machine-learning">AI &amp; Machine Learning</h2>
 <h3 id="models--frameworks">Models &amp; Frameworks</h3>
@@ -989,15 +2030,6 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <li><a href="https://framer.net.cn/">Framer China</a> — Free Framer templates, components, and tutorials (2026).</li>
 <li><a href="https://github.com/lukilabs/beautiful-mermaid">GitHub - lukilabs/beautiful-mermaid</a> — Render Mermaid diagrams as SVG and ASCII art. By <a href="https://www.craft.do">Craft</a> team (who also built <a href="https://agents.craft.do">Craft Agent</a>).</li>
 <li><a href="https://github.com/BIT-DataLab/Edit-Banana">GitHub - BIT-DataLab/Edit-Banana</a> — Convert AI-generated images to editable content for PPT/draw.io.</li>
-</ul>
-<h2 id="emerging-technologies">Emerging Technologies</h2>
-<h3 id="wireless--communications">Wireless &amp; Communications</h3>
-<ul>
-<li><strong>Stacked Intelligent Metasurfaces</strong> — Stacking multiple RIS (Reconfigurable Intelligent Surfaces) for light-speed processing, enabling faster communication and sensing. Key author: <a href="https://jiancheng-an.github.io/">Jiancheng An</a>. <a href="https://mp.weixin.qq.com/s/RwPLWAszx5YgWLwdHHDeSw">WeChat article</a> (Chinese).</li>
-</ul>
-<h3 id="novel-concepts">Novel Concepts</h3>
-<ul>
-<li><a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa">Frequency-as-Aperture (FaA)</a> — Achieves virtual aperture through frequency variation, adding another degree of freedom beyond physical sensor spacing.</li>
 </ul>
 ]]></content:encoded></item><item><title>About Me</title><link>https://blog.yfff.me/en/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yfff.me/en/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yfff.&lt;/p&gt;
 &lt;p&gt;Contact Me: &lt;a href="mailto:contact@yfff.me"&gt;contact@yfff.me&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yfff.</p>
