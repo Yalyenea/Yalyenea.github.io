@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yffff's blog</title><link>https://blog.yffff.de/</link><description>Recent content on yffff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 19:39:08 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/index.xml" rel="self" type="application/rss+xml"/><item><title>第11期周刊</title><link>https://blog.yffff.de/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 11 May 2026 19:39:08 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第11期周刊</title><link>https://blog.yfff.me/weekly/week-11/</link><pubDate>Mon, 11 May 2026 19:39:08 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-11/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/hydropix/TranslateBooksWithLLMs"&gt;hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini, Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No file size limits.&lt;/a&gt;翻译整本书。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/rbc33/Ghostbar"&gt;rbc33/Ghostbar: Free macOS-native Cluely alternative. AI chat invisible to screen sharing. Ollama, OpenAI, Claude. Swift. No Electron. No subscription.&lt;/a&gt;录屏时隐藏 AI 聊天窗口的工具。&lt;/p&gt;
 &lt;p&gt;yetone 做的 AI 编程桌面宠物。&lt;/p&gt;
@@ -46,7 +46,7 @@ Github：&lt;a href="https://github.com/agi-bar/neuDrive"&gt;agi-bar/neuDrive&lt
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://mainlymatmul.com/blog/tensor-network-attention/"&gt;张量网络注意力 &amp;mdash; Tensor Network Attention&lt;/a&gt;其中也介绍了张量网络运算，在&lt;a href="https://github.com/thomasahle/tensorgrad"&gt;thomasahle/tensorgrad: Machine Learning with Symbolic Tensors&lt;/a&gt;中的 tensorbook 里也有，对应的 Python 库可以做符号张量计算。这篇论文有具体介绍：&lt;a href="https://arxiv.org/pdf/1603.03039"&gt;arxiv.org/pdf/1603.03039&lt;/a&gt;还有一个可视化工具：&lt;a href="https://thomasahle.com/blog/einsum_to_dot.html?q=abc,cde,efg,ghi,ija-%3Ebdfhj&amp;amp;layout=circo"&gt;Tensor Graph Visualizer&lt;/a&gt;
 &lt;img
- src="https://blog.yffff.de/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
+ src="https://blog.yfff.me/oss-images/cc8332b8a056-Pasted-image-20260508215521.png"
  alt="Pasted image 20260508215521"
  
  loading="lazy"
@@ -79,7 +79,7 @@ Github：&lt;a href="https://github.com/agi-bar/neuDrive"&gt;agi-bar/neuDrive&lt
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;\usepackage&lt;/span&gt;&lt;span class="na"&gt;[type={alledges,alledgesT}, color=blue]&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;fgruler&lt;span class="nb"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中 &lt;code&gt;alledges&lt;/code&gt; 表示在页面四边绘制标尺，&lt;code&gt;alledgesT&lt;/code&gt; 表示四边带“T”方向的标尺样式，&lt;code&gt;color=blue&lt;/code&gt; 将标尺颜色设为蓝色。
 &lt;img
- src="https://blog.yffff.de/oss-images/c501211713e3-Pasted-image-20260511190040.png"
+ src="https://blog.yfff.me/oss-images/c501211713e3-Pasted-image-20260511190040.png"
  alt="Pasted image 20260511190040|401"
  
  loading="lazy"
@@ -183,7 +183,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <li><a href="https://github.com/CharlesPikachu/musicdl">CharlesPikachu/musicdl: Musicdl: A lightweight music downloader written in pure python. (轻量级无损音乐下载器，支持数十个音乐/有声读物平台，例如网易云音乐，QQ音乐，酷狗音乐，酷我音乐，咪咕音乐，千千静听，汽水音乐，Bilibili，街声，喜马拉雅，懒人听书，荔枝FM，蜻蜓FM，JOOX，TIDAL，YouTube，Apple Music，Spotify，Qobuz，SoundCloud等主流音乐平台)</a></li>
 <li><a href="https://github.com/MrsEWE44/musicDownload">MrsEWE44/musicDownload</a></li>
 </ul>
-]]></content:encoded></item><item><title>第10期周刊</title><link>https://blog.yffff.de/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt;Rust编写的AI推理引擎。&lt;/p&gt;
+]]></content:encoded></item><item><title>第10期周刊</title><link>https://blog.yfff.me/weekly/week-10/</link><pubDate>Tue, 05 May 2026 00:29:18 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-10/</guid><description>&lt;p&gt;&lt;a href="https://github.com/Michael-A-Kuykendall/shimmy"&gt;GitHub - Michael-A-Kuykendall/shimmy: ⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever. · GitHub&lt;/a&gt;Rust编写的AI推理引擎。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/datalab-to/chandra"&gt;GitHub - datalab-to/chandra: OCR model that handles complex tables, forms, handwriting with full layout. · GitHub&lt;/a&gt;自动处理layout的OCR模型。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/uutils/coreutils"&gt;GitHub - uutils/coreutils: Cross-platform Rust rewrite of the GNU coreutils · GitHub&lt;/a&gt;使用Rust编写的 CoreUtils。&lt;/p&gt;
 &lt;p&gt;控制理论算法仿真模拟器。
@@ -284,7 +284,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <p><a href="https://github.com/Hmbown/DeepSeek-TUI">GitHub - Hmbown/DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal · GitHub</a>一个美国佬开发的 deepseek-tui。</p>
 <p><a href="https://commandcode.ai">Command Code - AI coding agent with taste</a>提供一刀的套餐。</p>
 <p>这周五一假期头疼了整整五六天，看多了屏幕左边眼睛不适，感觉眼睛后面一跳一跳的疼，有东西牵拉，应该是肌肉疲劳。我猜测是最近电脑屏幕看多了，包括熬夜。整个假期几乎都在床上睡觉，什么也没干，还是要注意身体，注意用眼，注意休息，干什么都难受，只能睡觉真的很难受，每天起床之后，过不了多久头就开始痛。我决定从现在起，逐渐养成良好的作息。每天按时睡觉、按时起床、科学用眼、少看屏幕。多增加户外活动。健康饮食。</p>
-]]></content:encoded></item><item><title>第9期周刊</title><link>https://blog.yffff.de/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-9/</guid><description>&lt;h3 id="ai-模型与资讯"&gt;AI 模型与资讯&lt;/h3&gt;
+]]></content:encoded></item><item><title>第9期周刊</title><link>https://blog.yfff.me/weekly/week-9/</link><pubDate>Sat, 25 Apr 2026 20:17:46 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-9/</guid><description>&lt;h3 id="ai-模型与资讯"&gt;AI 模型与资讯&lt;/h3&gt;
 &lt;p&gt;本周真是热闹的一周，deepseek-v4，gpt-5.5, qwen3.6-max, kimi-k2.6, MiMo-V2.5, HY-3.0都相继发布了。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md"&gt;deepseek_v4_rolepaly_instruct/README.md at main · victorchen96/deepseek_v4_rolepaly_instruct · GitHub&lt;/a&gt; deepseekv4 角色扮演指南。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://zcode.z.ai/"&gt;ZCode - Simple, Fast, Vibe‑Ready&lt;/a&gt;智谱的 zcode 从 tauri 改成了 electron，笑死了。&lt;/p&gt;
@@ -311,7 +311,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 
 转向量图示例：
 &lt;img
- src="https://blog.yffff.de/oss-images/f6b893664051-Pasted-image-20260418220643.png"
+ src="https://blog.yfff.me/oss-images/f6b893664051-Pasted-image-20260418220643.png"
  alt="Pasted image 20260418220643|599"
  
  loading="lazy"
@@ -320,7 +320,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 
 画一个应用的 icon 图标：
 &lt;img
- src="https://blog.yffff.de/oss-images/623f2519eaca-QQ_1776521566141.png"
+ src="https://blog.yfff.me/oss-images/623f2519eaca-QQ_1776521566141.png"
  alt="QQ_1776521566141|595"
  
  loading="lazy"
@@ -332,7 +332,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;h3 id="研究与论文"&gt;研究与论文&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://sigsep.github.io/literature/#modeling-the-lead-signal-harmonicity"&gt;Literature | SigSep&lt;/a&gt;关于音乐分离的综述，还有一个对应的 Github 开源仓库
 &lt;img
- src="https://blog.yffff.de/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
+ src="https://blog.yfff.me/oss-images/b7df6b7e7db3-Pasted-image-20260419150727.png"
  alt="Pasted image 20260419150727"
  
  loading="lazy"
@@ -374,7 +374,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;blockquote&gt;
 &lt;p&gt;The PyViz.org website is an open platform for helping users decide on the best open-source (OSS) Python data visualization tools for their purposes, with links, overviews, comparisons, and examples.
 &lt;img
- src="https://blog.yffff.de/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
+ src="https://blog.yfff.me/oss-images/20b201a540d2-Pasted-image-20260419160939.png"
  alt="Pasted image 20260419160939"
  
  loading="lazy"
@@ -517,7 +517,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <p><a href="https://tolaria.md/">Tolaria — A second brain for the AI era</a>AI 时代的第二大脑笔记工具。</p>
 <p><a href="https://githubnext.com/">GitHub Next</a>GitHub 官方的前沿项目与技术预览。</p>
 <p><a href="https://iknowwhatyoudownload.com/en/peer/">查看 IP 最近Torrent下载的内容</a>通过 IP 查看最近 Torrent 下载的内容。</p>
-]]></content:encoded></item><item><title>第8期周刊</title><link>https://blog.yffff.de/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-8/</guid><description>&lt;h3 id="ai-资讯"&gt;AI 资讯&lt;/h3&gt;
+]]></content:encoded></item><item><title>第8期周刊</title><link>https://blog.yfff.me/weekly/week-8/</link><pubDate>Sat, 18 Apr 2026 20:29:39 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-8/</guid><description>&lt;h3 id="ai-资讯"&gt;AI 资讯&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://mail.bycloud.ai/"&gt;The AI Timeline&lt;/a&gt;又一个 AI 资讯 newsletter。&lt;/p&gt;
 &lt;h3 id="ai-coding--agent-平台"&gt;AI Coding / Agent 平台&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/EKKOLearnAI/hermes-web-ui"&gt;GitHub - EKKOLearnAI/hermes-web-ui: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics &amp;amp; channel configuration (Telegram, Discord, Slack, WhatsApp) · GitHub&lt;/a&gt;Hermes Agent 的 Web 仪表盘，支持多平台 AI chat、会话管理、定时任务和用量分析，已接入 Telegram、Discord、Slack 和 WhatsApp。&lt;/p&gt;
@@ -530,7 +530,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;a href="https://wistful-mascara-1ca.notion.site/Lex-Notes-of-Multi-Agent-Coding-tools-34071f05021a80f0afacdc50f938128a#main"&gt;Lex&amp;rsquo; Notes of Multi-Agent Coding tools&lt;/a&gt;
 最近这类工具都特别多，我自己也尝试了一些，感觉都很鸡肋，不如直接使用官方 CLI 或者 Codex App，或者试试 Warp。&lt;a href="https://warp.dev"&gt;Warp Terminal&lt;/a&gt;也支持垂直标签页了，还支持了通知以及远程控制，不赖。
 &lt;img
- src="https://blog.yffff.de/oss-images/46ab1925abc2-QQ_1776193735795.png"
+ src="https://blog.yfff.me/oss-images/46ab1925abc2-QQ_1776193735795.png"
  alt="821"
  
  loading="lazy"
@@ -540,7 +540,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;h3 id="ai-使用监控"&gt;AI 使用监控&lt;/h3&gt;
 &lt;p&gt;监控你的 AI Coding Plan 使用情况，目前我推荐第三个，即 OpenUsage。
 &lt;img
- src="https://blog.yffff.de/oss-images/1ba572a2366c-QQ_1776197595556.png"
+ src="https://blog.yfff.me/oss-images/1ba572a2366c-QQ_1776197595556.png"
  alt="|404"
  
  loading="lazy"
@@ -579,7 +579,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;p&gt;&lt;a href="https://github.com/thegdsks/awesome-modern-cli"&gt;GitHub - thegdsks/awesome-modern-cli: A curated list of modern alternatives to classic command-line tools. Faster, prettier, smarter replacements for the Unix utilities you use every day. · GitHub&lt;/a&gt;现代 CLI 工具合集，收录 Unix 经典工具的更快、更美、更智能的替代品。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://numbat.dev"&gt;Numbat - scientific calculator&lt;/a&gt;一个带单位的计算器。
 &lt;img
- src="https://blog.yffff.de/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
+ src="https://blog.yfff.me/oss-images/67b7499e1a5e-Pasted-image-20260416163313.png"
  alt="Pasted image 20260416163313|860"
  
  loading="lazy"
@@ -593,7 +593,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;a href="https://github.com/winfsp/sshfs-win"&gt;https://github.com/winfsp/sshfs-win&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://gh-proxy.com"&gt;GitHub加速下载代理 - 快速访问 GitHub 文件&lt;/a&gt;Github 镜像加速，还提供 Docker 以及 SourceForge 镜像加速，以及还有一个开发者工具箱： &lt;a href="https://tool.gh-proxy.com/"&gt;https://tool.gh-proxy.com/&lt;/a&gt; 或 &lt;a href="https://ittool.wort.uk/"&gt;https://ittool.wort.uk/&lt;/a&gt;
 &lt;img
- src="https://blog.yffff.de/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
+ src="https://blog.yfff.me/oss-images/64f92e824a87-Pasted-image-20260414203046.png"
  alt="Pasted image 20260414203046|800"
  
  loading="lazy"
@@ -750,7 +750,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <p><a href="https://www.seedhub.cc/">SeedHub | 影视&amp;动漫分享</a>影视与动漫资源分享站。</p>
 <p><a href="https://www.depo.zip/">Depo | A curated collection of resources</a>一个偏向开发的资源收集网站。</p>
 <p><a href="https://cuflow.ai">Cuflow – AI-Powered Study &amp; Productivity Tool</a>AI 驱动的学习与效率工具。</p>
-]]></content:encoded></item><item><title>第7期周刊</title><link>https://blog.yffff.de/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-7/</guid><description>&lt;p&gt;巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。
+]]></content:encoded></item><item><title>第7期周刊</title><link>https://blog.yfff.me/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-7/</guid><description>&lt;p&gt;巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟。
 世事浮云何足问，不如高卧且加餐。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.mossnotes.app"&gt;moss&lt;/a&gt;Markdown Workspace.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/gunnargray-dev/unicode-animations"&gt;GitHub - gunnargray-dev/unicode-animations: Unicode spinner animations as raw frame data · GitHub&lt;/a&gt;unicode-animations，提供 unicode 字符动画。&lt;code&gt;npx unicode-animations --web&lt;/code&gt;&lt;/p&gt;
@@ -785,7 +785,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2024974446948034022"&gt;预训练经验 - Linsight的文章 - 知乎&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/whwangovo/pyre-code"&gt;GitHub - whwangovo/pyre-code: A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser. · GitHub&lt;/a&gt;和之前的 torchcode 类似。
 &lt;img
- src="https://blog.yffff.de/oss-images/f6cc5eed8bc7-QQ_1775730243546.png"
+ src="https://blog.yfff.me/oss-images/f6cc5eed8bc7-QQ_1775730243546.png"
  alt="QQ_1775730243546"
  
  loading="lazy"
@@ -851,7 +851,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <p><a href="https://git-stars.org/zh/">git-star</a>github 仓库排行榜，按照 star 数量排名，提供各种语言和分类的排行榜，可以看看哪些项目比较火。</p>
 <p><a href="https://github.com/casey/just">GitHub - casey/just: 🤖 Just a command runner · GitHub</a>起初是我想找到一个替代 Make 的工具，然后问了 AI 然后就发现了这样一个比较热门的工具。</p>
 <p><a href="https://www.minimaxi.com/audio/music">MiniMax 语音：让灵感声声悦耳</a>Minimax 新的音乐生成模型。</p>
-]]></content:encoded></item><item><title>第6期周刊</title><link>https://blog.yffff.de/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;
+]]></content:encoded></item><item><title>第6期周刊</title><link>https://blog.yfff.me/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt;也是一个 AI Agent 聚合平台，内置了一些 MCP 和 Skill，支持 IM 接入。&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.aicomp.top/discover/timeline"&gt;竞赛发现 - 数据科学与AI竞赛聚合平台 | Competition Discovery&lt;/a&gt;如题，可以订阅邮件接收新竞赛通知。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/hitmux/HitCC"&gt;GitHub - hitmux/HitCC: Complete reverse-engineering documentation of the full logic of Claude Code CLI Node.js version v2.1.84 · GitHub&lt;/a&gt;Claude Code 逆向。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/ayaka-notes/overleaf-pro"&gt;GitHub - ayaka-notes/overleaf-pro: A web-based collaborative LaTeX editor, @Ayaka-notes Pro Edition. QQ Group: https://qm.qq.com/q/sHJevaAPFC · GitHub&lt;/a&gt;根据开源 Overleaf 构建的在线 LaTeX 编辑器，支持闭源版本的很多功能，例如 Git。&lt;/p&gt;
@@ -898,7 +898,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <p><a href="https://zread.ai/cli">Zread CLI</a>Zread CLI，可以使用智谱 coding 订阅或者自己的 API 来分析本地仓库。</p>
 <p><a href="https://lisette.run/">Lisette — Rust syntax, Go runtime</a></p>
 <p><a href="https://slock.ai">Slock - Where humans and AI agents collaborate</a></p>
-]]></content:encoded></item><item><title>第5期周刊</title><link>https://blog.yffff.de/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-5/</guid><description>&lt;p&gt;这周重点还是 AI Coding Agent、开发者工具链和一些高质量技术阅读。&lt;/p&gt;
+]]></content:encoded></item><item><title>第5期周刊</title><link>https://blog.yfff.me/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-5/</guid><description>&lt;p&gt;这周重点还是 AI Coding Agent、开发者工具链和一些高质量技术阅读。&lt;/p&gt;
 &lt;h2 id="ai-coding-agents"&gt;AI Coding Agents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/mos1128/ccg-gateway"&gt;ccg-gateway&lt;/a&gt;: 为 Claude Code、Codex、Gemini CLI 提供网关和配置管理，适合服务商不稳定、需要频繁切换的场景。&lt;/li&gt;
@@ -912,7 +912,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;li&gt;&lt;a href="https://cc.storyfox.cz/"&gt;Claude Code Cheat Sheet&lt;/a&gt;: 常用指令速查。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
- src="https://blog.yffff.de/oss-images/cdf032de7236-Pasted-image-20260324175827.png"
+ src="https://blog.yfff.me/oss-images/cdf032de7236-Pasted-image-20260324175827.png"
  alt="Pasted image 20260324175827"
  
  loading="lazy"
@@ -1027,7 +1027,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <ul>
 <li><a href="https://github.com/erweixin/RaTeX">RaTeX</a>: Rust 原生 KaTeX 兼容渲染引擎。</li>
 </ul>
-]]></content:encoded></item><item><title>第4期周刊</title><link>https://blog.yffff.de/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-4/</guid><description>&lt;h2 id="goal-driven--目标驱动"&gt;Goal-Driven / 目标驱动&lt;/h2&gt;
+]]></content:encoded></item><item><title>第4期周刊</title><link>https://blog.yfff.me/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-4/</guid><description>&lt;h2 id="goal-driven--目标驱动"&gt;Goal-Driven / 目标驱动&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/lidangzzz/goal-driven/blob/main/readme_cn.md"&gt;goal-driven/readme_cn.md at main · lidangzzz/goal-driven · GitHub&lt;/a&gt; 一个 AI 代理框架，通过目标分解和执行来实现复杂任务。&lt;/p&gt;
 &lt;h2 id="cli-工具"&gt;CLI 工具&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/jackwener/opencli"&gt;GitHub - jackwener/opencli&lt;/a&gt; 利用 playwright mcp 提取网页信息，将任意网站变成命令行界面。&lt;/p&gt;
@@ -1063,7 +1063,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 &lt;h2 id="隐私搜索"&gt;隐私搜索&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://searx.space/"&gt;SearXNG instances&lt;/a&gt; SearXNG 公开实例搜集，self-hosted 搜索引擎。
 &lt;img
- src="https://blog.yffff.de/oss-images/e34ac188f373-Pasted-image-20260316141052.png"
+ src="https://blog.yfff.me/oss-images/e34ac188f373-Pasted-image-20260316141052.png"
  alt="SearXNG instances"
  
  loading="lazy"
@@ -1192,7 +1192,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <li><a href="https://github.com/router-for-me/CLIProxyAPI">GitHub - router-for-me/CLIProxyAPI</a> 将 Gemini CLI、ChatGPT Codex、Claude Code 等包装成 OpenAI/Gemini/Claude 兼容的 API。</li>
 <li><a href="https://github.com/lieeew/sub2api">GitHub - lieeew/sub2api</a> 一站式开源中转服务，Claude、Openai、Gemini 统一接入，支持拼车共享。</li>
 </ul>
-]]></content:encoded></item><item><title>第3期周刊</title><link>https://blog.yffff.de/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-3/</guid><description>&lt;h3 id="ai-模型与推理"&gt;AI 模型与推理&lt;/h3&gt;
+]]></content:encoded></item><item><title>第3期周刊</title><link>https://blog.yfff.me/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-3/</guid><description>&lt;h3 id="ai-模型与推理"&gt;AI 模型与推理&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/yzr278892/arxiv-daily-researcher"&gt;arxiv-daily-researcher&lt;/a&gt; - Arxiv 论文每日摘要推送，支持多期刊论文更新&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/jhqxxx/aha"&gt;aha&lt;/a&gt; - Rust 编写的高性能 AI 模型推理库，支持多种主流视觉和语言模型&lt;/li&gt;
@@ -1359,7 +1359,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <blockquote>
 <p>注：在 mac 上使用 OrbStack 代替 Docker Desktop 时，镜像加速配置建议直接在 OrbStack 设置中添加，而非 <code>~/.docker/daemon.json</code>，也可配置于 <code>~/.orbstack/config/docker.json</code></p>
 </blockquote>
-]]></content:encoded></item><item><title>第2期周刊</title><link>https://blog.yffff.de/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-2/</guid><description>&lt;h2 id="ai-项目与模型"&gt;AI 项目与模型&lt;/h2&gt;
+]]></content:encoded></item><item><title>第2期周刊</title><link>https://blog.yfff.me/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-2/</guid><description>&lt;h2 id="ai-项目与模型"&gt;AI 项目与模型&lt;/h2&gt;
 &lt;h3 id="wifi-densepose--ruview"&gt;WiFi DensePose → RuView&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ruvnet/wifi-densepose"&gt;GitHub - ruvnet/wifi-densepose&lt;/a&gt;&lt;/li&gt;
@@ -1608,7 +1608,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <li><a href="https://zsc.github.io/large_matrix/">高级大规模矩阵计算教程</a></li>
 <li><a href="https://math.ecnu.edu.cn/~jypan/Teaching/MC/">矩阵计算 (ECNU)</a></li>
 </ul>
-]]></content:encoded></item><item><title>第1期周刊</title><link>https://blog.yffff.de/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/weekly/week-1/</guid><description>&lt;p&gt;第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。&lt;/p&gt;
+]]></content:encoded></item><item><title>第1期周刊</title><link>https://blog.yfff.me/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-1/</guid><description>&lt;p&gt;第一期周刊，大概两周发布一次，使用 AI 进行了分类，但是不够准确，个人也不想手动整理了。&lt;/p&gt;
 &lt;h2 id="ai--machine-learning"&gt;AI &amp;amp; Machine Learning&lt;/h2&gt;
 &lt;h3 id="models--frameworks"&gt;Models &amp;amp; Frameworks&lt;/h3&gt;
 &lt;ul&gt;
@@ -1901,7 +1901,7 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <ul>
 <li><a href="https://www.emergentmind.com/topics/frequency-as-aperture-faa">Frequency-as-Aperture (FaA)</a>传统传感器阵列孔径依靠物理间距实现大孔径，从而实现高空间分辨率，而 FaA 根据频率变化来实现虚拟孔径，增加了另一种自由度。</li>
 </ul>
-]]></content:encoded></item><item><title>About Me</title><link>https://blog.yffff.de/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yffff.de/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yffff.&lt;/p&gt;
-&lt;p&gt;Contact Me: &lt;a href="mailto:contact@yffff.de"&gt;contact@yffff.de&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yffff.</p>
-<p>Contact Me: <a href="mailto:contact@yffff.de">contact@yffff.de</a></p>
+]]></content:encoded></item><item><title>About Me</title><link>https://blog.yfff.me/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yfff.me/about/</guid><description>&lt;p&gt;I&amp;rsquo;m yfff.&lt;/p&gt;
+&lt;p&gt;Contact Me: &lt;a href="mailto:contact@yfff.de"&gt;contact@yfff.de&lt;/a&gt;&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;m yfff.</p>
+<p>Contact Me: <a href="mailto:contact@yfff.de">contact@yfff.de</a></p>
 ]]></content:encoded></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yffff's blog</title><link>https://blog.yffff.de/en/weekly/</link><description>Recent content in Weeklies on yffff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 11 Apr 2026 21:41:09 +0800</lastBuildDate><atom:link href="https://blog.yffff.de/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 7</title><link>https://blog.yffff.de/en/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-7/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 11 Apr 2026 21:41:09 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 7</title><link>https://blog.yfff.me/en/weekly/week-7/</link><pubDate>Sat, 11 Apr 2026 21:41:09 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-7/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;The skillful toil and the wise worry, while the incapable seek nothing;&lt;br&gt;
 Fed and roaming freely, like an unmoored boat.&lt;br&gt;
 Why bother with worldly clouds? Better to rest and feast.&lt;/p&gt;
@@ -89,7 +89,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <p><a href="https://git-stars.org/zh/">git-star</a> — GitHub repository ranking by star count, with various language and category rankings to see which projects are popular.</p>
 <p><a href="https://github.com/casey/just">GitHub - casey/just</a> — Command runner. Initially I wanted a Make alternative, asked AI and discovered this popular tool.</p>
 <p><a href="https://www.minimaxi.com/audio/music">MiniMax Audio: Make Inspiration Sound Pleasant</a> — MiniMax&rsquo;s new music generation model.</p>
-]]></content:encoded></item><item><title>Weekly Issue 6</title><link>https://blog.yffff.de/en/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt; is another AI Agent aggregation platform with built-in MCPs and Skills, supporting IM integration.&lt;/p&gt;
+]]></content:encoded></item><item><title>Weekly Issue 6</title><link>https://blog.yfff.me/en/weekly/week-6/</link><pubDate>Sun, 05 Apr 2026 01:57:13 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-6/</guid><description>&lt;p&gt;&lt;a href="https://open-yak.com"&gt;OpenYak — Your Local AI Agent&lt;/a&gt; is another AI Agent aggregation platform with built-in MCPs and Skills, supporting IM integration.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.aicomp.top/discover/timeline"&gt;Competition Discovery&lt;/a&gt; — Data science &amp;amp; AI competition aggregation platform. Subscribe to email for new competition notifications.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/hitmux/HitCC"&gt;GitHub - hitmux/HitCC&lt;/a&gt; — Complete reverse-engineering documentation of Claude Code CLI Node.js version v2.1.84.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/ayaka-notes/overleaf-pro"&gt;GitHub - ayaka-notes/overleaf-pro&lt;/a&gt; — Online LaTeX editor built on open-source Overleaf, supporting many closed-source features like Git integration.&lt;/p&gt;
@@ -136,7 +136,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <p><a href="https://zread.ai/cli">Zread CLI</a> — Zread CLI for analyzing local repositories using Zhipu coding subscription or your own API.</p>
 <p><a href="https://lisette.run/">Lisette — Rust syntax, Go runtime</a></p>
 <p><a href="https://slock.ai">Slock - Where humans and AI agents collaborate</a></p>
-]]></content:encoded></item><item><title>Weekly Issue 5</title><link>https://blog.yffff.de/en/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-5/</guid><description>&lt;p&gt;This week&amp;rsquo;s focus: AI Coding Agents, developer toolchains, and high-quality technical reading.&lt;/p&gt;
+]]></content:encoded></item><item><title>Weekly Issue 5</title><link>https://blog.yfff.me/en/weekly/week-5/</link><pubDate>Sun, 29 Mar 2026 19:32:57 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-5/</guid><description>&lt;p&gt;This week&amp;rsquo;s focus: AI Coding Agents, developer toolchains, and high-quality technical reading.&lt;/p&gt;
 &lt;h2 id="ai-coding-agents"&gt;AI Coding Agents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/mos1128/ccg-gateway"&gt;ccg-gateway&lt;/a&gt;: Gateway and configuration management for Claude Code, Codex, Gemini CLI. Ideal for scenarios where providers are unreliable and frequent switching is needed.&lt;/li&gt;
@@ -247,7 +247,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <ul>
 <li><a href="https://github.com/erweixin/RaTeX">RaTeX</a>: Rust-native KaTeX compatible rendering engine.</li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Issue 4</title><link>https://blog.yffff.de/en/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-4/</guid><description>&lt;h2 id="goal-driven"&gt;Goal-Driven&lt;/h2&gt;
+]]></content:encoded></item><item><title>Weekly Issue 4</title><link>https://blog.yfff.me/en/weekly/week-4/</link><pubDate>Sun, 22 Mar 2026 15:00:04 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-4/</guid><description>&lt;h2 id="goal-driven"&gt;Goal-Driven&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/lidangzzz/goal-driven/blob/main/readme_cn.md"&gt;goal-driven/readme_cn.md&lt;/a&gt; — An AI agent framework that achieves complex tasks through goal decomposition and execution.&lt;/p&gt;
 &lt;h2 id="cli-tools"&gt;CLI Tools&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/jackwener/opencli"&gt;GitHub - jackwener/opencli&lt;/a&gt; — Uses playwright MCP to extract web information, turning any website into a CLI.&lt;/p&gt;
@@ -380,7 +380,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <li><a href="https://github.com/router-for-me/CLIProxyAPI">GitHub - router-for-me/CLIProxyAPI</a> — Wrap Gemini CLI, ChatGPT Codex, Claude Code into OpenAI/Gemini/Claude-compatible APIs.</li>
 <li><a href="https://github.com/lieeew/sub2api">GitHub - lieeew/sub2api</a> — One-stop open-source relay service, unify Claude, OpenAI, Gemini access, support shared pooling.</li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Issue 3</title><link>https://blog.yffff.de/en/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-3/</guid><description>&lt;h3 id="ai-models--inference"&gt;AI Models &amp;amp; Inference&lt;/h3&gt;
+]]></content:encoded></item><item><title>Weekly Issue 3</title><link>https://blog.yfff.me/en/weekly/week-3/</link><pubDate>Sun, 15 Mar 2026 16:47:04 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-3/</guid><description>&lt;h3 id="ai-models--inference"&gt;AI Models &amp;amp; Inference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/yzr278892/arxiv-daily-researcher"&gt;arxiv-daily-researcher&lt;/a&gt; — Daily ArXiv paper digest推送, supporting multiple journals.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/jhqxxx/aha"&gt;aha&lt;/a&gt; — High-performance AI model inference library in Rust, supporting mainstream vision and language models.&lt;/li&gt;
@@ -547,7 +547,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <blockquote>
 <p>Note: When using OrbStack instead of Docker Desktop on Mac, it&rsquo;s recommended to add image accelerator configuration directly in OrbStack settings rather than <code>~/.docker/daemon.json</code>. Can also be configured in <code>~/.orbstack/config/docker.json</code>.</p>
 </blockquote>
-]]></content:encoded></item><item><title>Weekly Issue 2</title><link>https://blog.yffff.de/en/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-2/</guid><description>&lt;h2 id="ai-projects--models"&gt;AI Projects &amp;amp; Models&lt;/h2&gt;
+]]></content:encoded></item><item><title>Weekly Issue 2</title><link>https://blog.yfff.me/en/weekly/week-2/</link><pubDate>Sun, 08 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-2/</guid><description>&lt;h2 id="ai-projects--models"&gt;AI Projects &amp;amp; Models&lt;/h2&gt;
 &lt;h3 id="wifi-densepose--ruview"&gt;WiFi DensePose → RuView&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ruvnet/wifi-densepose"&gt;GitHub - ruvnet/wifi-densepose&lt;/a&gt;&lt;/li&gt;
@@ -780,7 +780,7 @@ Why bother with worldly clouds? Better to rest and feast.</p>
 <li><a href="https://zsc.github.io/large_matrix/">Advanced Large-Scale Matrix Computation Tutorial</a></li>
 <li><a href="https://math.ecnu.edu.cn/~jypan/Teaching/MC/">Matrix Computation (ECNU)</a></li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Issue 1</title><link>https://blog.yffff.de/en/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yffff.de/en/weekly/week-1/</guid><description>&lt;p&gt;The first weekly issue, published roughly every two weeks. AI was used for categorization, though not perfectly accurate — I decided against manual sorting.&lt;/p&gt;
+]]></content:encoded></item><item><title>Weekly Issue 1</title><link>https://blog.yfff.me/en/weekly/week-1/</link><pubDate>Sun, 01 Mar 2026 19:00:00 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-1/</guid><description>&lt;p&gt;The first weekly issue, published roughly every two weeks. AI was used for categorization, though not perfectly accurate — I decided against manual sorting.&lt;/p&gt;
 &lt;h2 id="ai--machine-learning"&gt;AI &amp;amp; Machine Learning&lt;/h2&gt;
 &lt;h3 id="models--frameworks"&gt;Models &amp;amp; Frameworks&lt;/h3&gt;
 &lt;ul&gt;
