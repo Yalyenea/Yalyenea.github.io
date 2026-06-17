@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 29 May 2026 18:48:47 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第12期周刊</title><link>https://blog.yfff.me/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 17 Jun 2026 17:57:49 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第13期周刊</title><link>https://blog.yfff.me/weekly/week-13/</link><pubDate>Wed, 17 Jun 2026 17:57:49 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-13/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://codex-reset-radar.pages.dev/"&gt;Codex 重置雷达&lt;/a&gt;：跟踪 Codex 重置节奏的小工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.makingsoftware.com/"&gt;Making Software&lt;/a&gt;：关于软件构建、工程判断和产品实践的文章站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alignment.anthropic.com/"&gt;Alignment Science Blog&lt;/a&gt;：Anthropic 的对齐科学博客。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/galilai-group/stable-worldmodel"&gt;galilai-group/stable-worldmodel&lt;/a&gt;：面向 world model 研究与评测的可复现实验平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://weightwatcher.ai/"&gt;WeightWatcher&lt;/a&gt;：无需训练数据的深度学习模型诊断工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/NEKOparapa/AiNiee"&gt;NEKOparapa/AiNiee&lt;/a&gt;：面向游戏、小说、字幕、PDF、Word 等复杂长文本的一键 AI 翻译工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"&gt;Building a hill-climbing machine&lt;/a&gt;：Microsoft AI 关于 MAI 模型系列的发布文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.23901"&gt;arXiv 2605.23901: LLMs as Noisy Channels&lt;/a&gt;：Seed 团队从 Shannon noisy channel 角度理解模型容量与 scaling law。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://luk-huang.github.io/personal-website/blog/is-frontier-asynchronous-rl-solved.html"&gt;Is Frontier Asynchronous RL Solved?&lt;/a&gt;：Luke Huang 对前沿异步强化学习问题的梳理。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arshiaafzal.github.io/blog/2026/pe/"&gt;On the Legacy of Linear Transformers in Positional Embeddings&lt;/a&gt;：从 linear transformer 视角回看 positional embedding。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.27365"&gt;arXiv 2605.27365: LocateAnything&lt;/a&gt;：并行 box decoding 的视觉语言 grounding 方法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/asgeirtj/system_prompts_leaks/"&gt;asgeirtj/system_prompts_leaks&lt;/a&gt;：收集多类 AI 工具系统提示词快照。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://phistory.cc/?agent=codex&amp;amp;range=latest"&gt;Phistory&lt;/a&gt; / &lt;a href="https://github.com/WEIFENG2333/phistory"&gt;WEIFENG2333/phistory&lt;/a&gt;：Agent CLI 系统提示词版本差异归档。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iAmCorey/kooky"&gt;iAmCorey/kooky&lt;/a&gt;：面向 AI coding 的本地终端，含工作区侧栏、分屏和 agent 启动。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CarSmallGuo/deveco-code"&gt;CarSmallGuo/deveco-code&lt;/a&gt;：DevEco Code 相关项目。&lt;/p&gt;
+&lt;h3 id="编程--系统--开发工具"&gt;编程 / 系统 / 开发工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/coreutils"&gt;microsoft/coreutils&lt;/a&gt;：面向 Windows 的 Coreutils 安装与打包项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://microsoft.github.io/RustTraining/python-book/"&gt;Introduction - Rust for Python Programmers&lt;/a&gt;：给 Python 程序员看的 Rust 入门材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.gitbutler.com/true-grit"&gt;Grit: rewriting Git in Rust with agents&lt;/a&gt;：GitButler 关于用 Rust 和 agent 重写 Git 的文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nkzw-tech/codiff"&gt;nkzw-tech/codiff&lt;/a&gt;：快速本地 diff 查看器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lbq110/weread-exporter"&gt;lbq110/weread-exporter&lt;/a&gt;：基于 Playwright 与 Canvas Hook 的微信读书全本导出工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/qianchd/SnapTeX"&gt;qianchd/SnapTeX&lt;/a&gt;：LaTeX / 公式截图相关工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/philexohf/transformer-zh-en"&gt;philexohf/transformer-zh-en&lt;/a&gt;：PyTorch 原生 Transformer 中英翻译实现。&lt;/p&gt;
+&lt;h3 id="数学--统计--信号处理"&gt;数学 / 统计 / 信号处理&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://xuankaiwang.github.io/"&gt;统计学自学指南&lt;/a&gt;：统计学自学路径与资料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nndl.ai/"&gt;主页 · 蒲公英书系列&lt;/a&gt;：NNDL / 蒲公英书系列入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paidax01.github.io/math-curve-loaders/"&gt;Math Curve Loaders&lt;/a&gt;：数学曲线加载动画集合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kconrad.math.uconn.edu/"&gt;Keith Conrad&amp;rsquo;s Home Page&lt;/a&gt; / &lt;a href="https://faculty.etsu.edu/gardnerr/courses.htm"&gt;Bob Gardner&amp;rsquo;s Courses&lt;/a&gt;：数学课程与讲义资源入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/compositional-muon"&gt;Towards Compositional Steepest Descent&lt;/a&gt;：Tilde 关于 Compositional Muon / steepest descent 的文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/1952792452579701056/answer/1955004809078892188"&gt;如何通俗理解 MCMC 方法？&lt;/a&gt;：MCMC 的通俗解释。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jshn9515.github.io/deep-learning-notes/zh/index.html"&gt;深度学习笔记&lt;/a&gt;：中文深度学习笔记。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xiyin137/QFT"&gt;xiyin137/QFT&lt;/a&gt;：量子场论相关仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://beautifulzzzz.com/gnuradio/tutorial/topic/1"&gt;GNU Radio 教程&lt;/a&gt; / &lt;a href="https://github.com/btfz-sdr/gnuradio_demo"&gt;btfz-sdr/gnuradio_demo&lt;/a&gt;：GNU Radio 教程与示例工程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/1976198515697934733/answer/2049378998531126721"&gt;热爱代数无比厌恶概率论尤其是数理统计这对吗?&lt;/a&gt;：关于代数、概率论与数理统计学习偏好的讨论。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fermatslibrary.com/"&gt;Fermat&amp;rsquo;s Library&lt;/a&gt;：带注释的经典论文与数学文本阅读站。&lt;/p&gt;
+&lt;h3 id="学术写作--论文与知识库"&gt;学术写作 / 论文与知识库&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://vide.pascal-lab.net/"&gt;Vide - 主页&lt;/a&gt;：PASCAL Lab 的 VIDE 项目入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://locowiki.github.io/"&gt;LocoWiki&lt;/a&gt;：在线 Wiki / 知识库项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tobypenner.com/wikigraph/"&gt;Wikigraph&lt;/a&gt;：图结构化浏览 Wiki 的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nlp.csai.tsinghua.edu.cn/~ly/talks/cwmt14_tut.pdf#page=1.00"&gt;机器翻译学术论文写作方法和技巧&lt;/a&gt;：机器翻译论文写作讲义。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"&gt;How the Open Knowledge Format can improve data sharing&lt;/a&gt;：Google Cloud 关于 Open Knowledge Format 与数据共享的文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/collections/PaddlePaddle/pp-ocrv6"&gt;PP-OCRv6&lt;/a&gt;：PaddleOCR v6 模型集合。&lt;/p&gt;
+&lt;h3 id="设计--视觉--阅读"&gt;设计 / 视觉 / 阅读&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://victorchen96.github.io/civ6/index.html"&gt;文明6百科&lt;/a&gt;：文明 6 百科。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sms.fur.li/"&gt;OPENAI(ChatGPT) 短信价格对比&lt;/a&gt;：ChatGPT / OpenAI 短信接码价格对比。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://storiedcolors.com/browse/"&gt;Browse the Collection — Storied Colors&lt;/a&gt;：按历史故事整理的颜色资料库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ogden.munch.love/"&gt;Ogden&amp;rsquo;s Basic English · 850 词学习手册&lt;/a&gt;：Basic English 850 词学习资源。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--编程工具">AI / Agent / 编程工具</h3>
+<p><a href="https://codex-reset-radar.pages.dev/">Codex 重置雷达</a>：跟踪 Codex 重置节奏的小工具。</p>
+<p><a href="https://www.makingsoftware.com/">Making Software</a>：关于软件构建、工程判断和产品实践的文章站。</p>
+<p><a href="https://alignment.anthropic.com/">Alignment Science Blog</a>：Anthropic 的对齐科学博客。</p>
+<p><a href="https://github.com/galilai-group/stable-worldmodel">galilai-group/stable-worldmodel</a>：面向 world model 研究与评测的可复现实验平台。</p>
+<p><a href="https://weightwatcher.ai/">WeightWatcher</a>：无需训练数据的深度学习模型诊断工具。</p>
+<p><a href="https://github.com/NEKOparapa/AiNiee">NEKOparapa/AiNiee</a>：面向游戏、小说、字幕、PDF、Word 等复杂长文本的一键 AI 翻译工具。</p>
+<p><a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">Building a hill-climbing machine</a>：Microsoft AI 关于 MAI 模型系列的发布文章。</p>
+<p><a href="https://arxiv.org/abs/2605.23901">arXiv 2605.23901: LLMs as Noisy Channels</a>：Seed 团队从 Shannon noisy channel 角度理解模型容量与 scaling law。</p>
+<p><a href="https://luk-huang.github.io/personal-website/blog/is-frontier-asynchronous-rl-solved.html">Is Frontier Asynchronous RL Solved?</a>：Luke Huang 对前沿异步强化学习问题的梳理。</p>
+<p><a href="https://arshiaafzal.github.io/blog/2026/pe/">On the Legacy of Linear Transformers in Positional Embeddings</a>：从 linear transformer 视角回看 positional embedding。</p>
+<p><a href="https://arxiv.org/abs/2605.27365">arXiv 2605.27365: LocateAnything</a>：并行 box decoding 的视觉语言 grounding 方法。</p>
+<p><a href="https://github.com/asgeirtj/system_prompts_leaks/">asgeirtj/system_prompts_leaks</a>：收集多类 AI 工具系统提示词快照。</p>
+<p><a href="https://phistory.cc/?agent=codex&amp;range=latest">Phistory</a> / <a href="https://github.com/WEIFENG2333/phistory">WEIFENG2333/phistory</a>：Agent CLI 系统提示词版本差异归档。</p>
+<p><a href="https://github.com/iAmCorey/kooky">iAmCorey/kooky</a>：面向 AI coding 的本地终端，含工作区侧栏、分屏和 agent 启动。</p>
+<p><a href="https://github.com/CarSmallGuo/deveco-code">CarSmallGuo/deveco-code</a>：DevEco Code 相关项目。</p>
+<h3 id="编程--系统--开发工具">编程 / 系统 / 开发工具</h3>
+<p><a href="https://github.com/microsoft/coreutils">microsoft/coreutils</a>：面向 Windows 的 Coreutils 安装与打包项目。</p>
+<p><a href="https://microsoft.github.io/RustTraining/python-book/">Introduction - Rust for Python Programmers</a>：给 Python 程序员看的 Rust 入门材料。</p>
+<p><a href="https://blog.gitbutler.com/true-grit">Grit: rewriting Git in Rust with agents</a>：GitButler 关于用 Rust 和 agent 重写 Git 的文章。</p>
+<p><a href="https://github.com/nkzw-tech/codiff">nkzw-tech/codiff</a>：快速本地 diff 查看器。</p>
+<p><a href="https://github.com/lbq110/weread-exporter">lbq110/weread-exporter</a>：基于 Playwright 与 Canvas Hook 的微信读书全本导出工具。</p>
+<p><a href="https://github.com/qianchd/SnapTeX">qianchd/SnapTeX</a>：LaTeX / 公式截图相关工具。</p>
+<p><a href="https://github.com/philexohf/transformer-zh-en">philexohf/transformer-zh-en</a>：PyTorch 原生 Transformer 中英翻译实现。</p>
+<h3 id="数学--统计--信号处理">数学 / 统计 / 信号处理</h3>
+<p><a href="https://xuankaiwang.github.io/">统计学自学指南</a>：统计学自学路径与资料。</p>
+<p><a href="https://nndl.ai/">主页 · 蒲公英书系列</a>：NNDL / 蒲公英书系列入口。</p>
+<p><a href="https://paidax01.github.io/math-curve-loaders/">Math Curve Loaders</a>：数学曲线加载动画集合。</p>
+<p><a href="https://kconrad.math.uconn.edu/">Keith Conrad&rsquo;s Home Page</a> / <a href="https://faculty.etsu.edu/gardnerr/courses.htm">Bob Gardner&rsquo;s Courses</a>：数学课程与讲义资源入口。</p>
+<p><a href="https://blog.tilderesearch.com/blog/compositional-muon">Towards Compositional Steepest Descent</a>：Tilde 关于 Compositional Muon / steepest descent 的文章。</p>
+<p><a href="https://www.zhihu.com/question/1952792452579701056/answer/1955004809078892188">如何通俗理解 MCMC 方法？</a>：MCMC 的通俗解释。</p>
+<p><a href="https://jshn9515.github.io/deep-learning-notes/zh/index.html">深度学习笔记</a>：中文深度学习笔记。</p>
+<p><a href="https://github.com/xiyin137/QFT">xiyin137/QFT</a>：量子场论相关仓库。</p>
+<p><a href="https://beautifulzzzz.com/gnuradio/tutorial/topic/1">GNU Radio 教程</a> / <a href="https://github.com/btfz-sdr/gnuradio_demo">btfz-sdr/gnuradio_demo</a>：GNU Radio 教程与示例工程。</p>
+<p><a href="https://www.zhihu.com/question/1976198515697934733/answer/2049378998531126721">热爱代数无比厌恶概率论尤其是数理统计这对吗?</a>：关于代数、概率论与数理统计学习偏好的讨论。</p>
+<p><a href="https://fermatslibrary.com/">Fermat&rsquo;s Library</a>：带注释的经典论文与数学文本阅读站。</p>
+<h3 id="学术写作--论文与知识库">学术写作 / 论文与知识库</h3>
+<p><a href="https://vide.pascal-lab.net/">Vide - 主页</a>：PASCAL Lab 的 VIDE 项目入口。</p>
+<p><a href="https://locowiki.github.io/">LocoWiki</a>：在线 Wiki / 知识库项目。</p>
+<p><a href="https://tobypenner.com/wikigraph/">Wikigraph</a>：图结构化浏览 Wiki 的工具。</p>
+<p><a href="https://nlp.csai.tsinghua.edu.cn/~ly/talks/cwmt14_tut.pdf#page=1.00">机器翻译学术论文写作方法和技巧</a>：机器翻译论文写作讲义。</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/">How the Open Knowledge Format can improve data sharing</a>：Google Cloud 关于 Open Knowledge Format 与数据共享的文章。</p>
+<p><a href="https://huggingface.co/collections/PaddlePaddle/pp-ocrv6">PP-OCRv6</a>：PaddleOCR v6 模型集合。</p>
+<h3 id="设计--视觉--阅读">设计 / 视觉 / 阅读</h3>
+<p><a href="https://victorchen96.github.io/civ6/index.html">文明6百科</a>：文明 6 百科。</p>
+<p><a href="https://sms.fur.li/">OPENAI(ChatGPT) 短信价格对比</a>：ChatGPT / OpenAI 短信接码价格对比。</p>
+<p><a href="https://storiedcolors.com/browse/">Browse the Collection — Storied Colors</a>：按历史故事整理的颜色资料库。</p>
+<p><a href="https://ogden.munch.love/">Ogden&rsquo;s Basic English · 850 词学习手册</a>：Basic English 850 词学习资源。</p>
+]]></content:encoded></item><item><title>第12期周刊</title><link>https://blog.yfff.me/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://rdi.berkeley.edu/adv-llm-agents/sp25"&gt;CS294/194-280 Advanced Large Language Model Agents&lt;/a&gt;UC Berkeley 的高级 LLM Agent 课程，适合系统学习 Agent 架构、评测和实践。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://agenticai-learning.org/f24"&gt;Large Language Model Agents&lt;/a&gt;LLM Agent 课程主页，覆盖工具调用、规划、记忆和多智能体等基础主题。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://9router.com/"&gt;9Router - Free AI Router | Smart Fallback for Claude, Codex &amp;amp; More&lt;/a&gt;一个大模型网关，集成了 RTK 和 Caveman Mode，节省 token。&lt;/p&gt;
