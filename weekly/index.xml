@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 17 Jun 2026 17:57:49 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第13期周刊</title><link>https://blog.yfff.me/weekly/week-13/</link><pubDate>Wed, 17 Jun 2026 17:57:49 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-13/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jun 2026 03:41:51 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第14期周刊</title><link>https://blog.yfff.me/weekly/week-14/</link><pubDate>Mon, 29 Jun 2026 03:41:51 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-14/</guid><description>&lt;h3 id="ai--agent--本地工作流"&gt;AI / Agent / 本地工作流&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.depo.zip/categories/ai-harness"&gt;Depo | AI Harness tools&lt;/a&gt; / &lt;a href="https://www.depo.zip/categories"&gt;Depo - Curated Tools, Skills &amp;amp; Resources&lt;/a&gt;：面向 AI agent 与开发工作流的工具目录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rebel0789/codexpro"&gt;rebel0789/codexpro&lt;/a&gt;：通过 MCP 把 ChatGPT Developer Mode 接成本地 coding agent。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Waishnav/devspace"&gt;Waishnav/devspace&lt;/a&gt;：把 ChatGPT 接入 Codex 式开发空间的项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/caezium/Burrow"&gt;caezium/Burrow&lt;/a&gt;：Mole CLI 的原生 macOS GUI，覆盖清理、卸载、优化、磁盘分析与 MCP。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://loops.elorm.xyz/"&gt;loops! | Pre-built agent loops&lt;/a&gt;：预制 agent loop 集合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oakreader.com/zh"&gt;Oak ｜ 你和智能体共享的 AI 知识库&lt;/a&gt;：面向人与智能体协作的知识库产品。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/JerryZLiu/Dayflow"&gt;JerryZLiu/Dayflow&lt;/a&gt;：本地优先的自动工作日志，把屏幕活动整理成时间线。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aside.com/"&gt;Aside | The browser built to do real work for you&lt;/a&gt;：强调代理式工作的浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huntscreens.com/zh"&gt;HuntScreens - 发现值得一试的新 AI 工具&lt;/a&gt;：AI 工具发现站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://codexradar.com/"&gt;Codex 雷达&lt;/a&gt;：Codex 相关动态聚合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/previewing-gpt-5-6-sol/"&gt;Previewing GPT-5.6 Sol: a next-generation model | OpenAI&lt;/a&gt;：OpenAI 的模型预览文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agent.qq.com/page/list?alias_id=alias_tcvWUTx_LlRVdrCOf_0_dXbGv5mj5DOojg"&gt;Agent Mail — QQ 邮箱为 Agent 打造的专属邮箱&lt;/a&gt;：面向 Agent 的邮箱产品。&lt;/p&gt;
+&lt;h3 id="编程--开源工具--系统"&gt;编程 / 开源工具 / 系统&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://lore.org/"&gt;Lore | 下一代开源版本控制系统&lt;/a&gt;：新一代开源版本控制系统。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://otty.sh/"&gt;Otty — A native, beautiful terminal app&lt;/a&gt;：原生终端应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/renatoworks/oh-my-reddit"&gt;renatoworks/oh-my-reddit&lt;/a&gt;：在终端中阅读 Reddit threads 的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/l0ng-ai/papr"&gt;l0ng-ai/papr&lt;/a&gt;：快速、原生的桌面 RSS 阅读器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chromewebstore.google.com/detail/relatex-copy-render-ai-eq/lcnhjmiedobhpopogbadbeeaainmamjl"&gt;ReLaTeX - Copy &amp;amp; Render AI Equations&lt;/a&gt;：复制与渲染 AI 生成公式的浏览器扩展。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cool-japan/trustformers/tree/master"&gt;cool-japan/trustformers&lt;/a&gt;：Rust 实现的 Hugging Face Transformers 推理/部署相关项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/baidu/Unlimited-OCR"&gt;baidu/Unlimited-OCR&lt;/a&gt;：长文档 OCR / 解析项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://neetcode.io/practice/practice/blind75"&gt;Blind 75 - LeetCode Problems with Video Solutions&lt;/a&gt;：Blind 75 刷题清单与视频讲解。&lt;/p&gt;
+&lt;h3 id="数学--机器学习--视觉"&gt;数学 / 机器学习 / 视觉&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Michael-Jetson/Robotics_Tutorial"&gt;Michael-Jetson/Robotics_Tutorial&lt;/a&gt;：体系化机器人教学文档，覆盖数学基础、C++、规划控制与 SLAM。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://algebrica.org/"&gt;Algebrica | A Mathematical Knowledge Base&lt;/a&gt; / &lt;a href="https://github.com/antoniolupetti/algebrica"&gt;antoniolupetti/algebrica&lt;/a&gt;：强调清晰结构的数学知识库项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamidreza-hashempoor.github.io/blog/distances/distances.html"&gt;Taxonomy of Principal Distances &amp;amp; Divergences&lt;/a&gt;：常见距离与散度的分类整理。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adam.math.hhu.de/#/"&gt;Natural Number Game&lt;/a&gt;：Lean 风格自然数证明游戏。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abakcus.com/book-lists/self-learner-roadmap"&gt;A Self-Learner&amp;rsquo;s Roadmap Through 30+ Great Math Books&lt;/a&gt;：数学自学书单路线。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jax-ml.github.io/scaling-book/"&gt;How To Scale Your Model&lt;/a&gt;：JAX / ML scaling 相关教材。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alisawuffles.notion.site/alisa-s-book-of-llms"&gt;Alisa’s book of LLMs&lt;/a&gt; / &lt;a href="https://alisawuffles.notion.site/math-notes#3737eb87360580cf8798dbb1a774c73b"&gt;math notes&lt;/a&gt;：LLM 与数学笔记合集。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.deep-ml.com/"&gt;Deep-ML | Practice Machine Learning&lt;/a&gt;：机器学习练习平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://visionbook.mit.edu/"&gt;Foundations of Computer Vision&lt;/a&gt;：MIT 计算机视觉教材。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/BetaTomorrow/status/2060544169626771874"&gt;X 上的 deep Manifold：“Neural Network Learnability and Discoverability 神经网络的学习性与发现性”&lt;/a&gt;：关于神经网络可学习性与可发现性的讨论线索。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/1913637003855116220"&gt;所有数学的分支中，复分析最接近艺术&lt;/a&gt;：复分析学习与审美相关长文。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bbycroft.net/llm"&gt;LLM Visualization&lt;/a&gt;：交互式 LLM 结构可视化。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nathancantafio.com/blog/post.html?file=mle-is-not-intuitive.md"&gt;MLE is not intuitive&lt;/a&gt;：关于最大似然估计直觉的文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/plugyawn/Megaprop"&gt;plugyawn/Megaprop&lt;/a&gt;：面向 MoE 训练的预条件优化器实现，支持 MuP、FSDP Muon 与 Megatron-LM。&lt;/p&gt;
+&lt;h3 id="产品--设计--阅读"&gt;产品 / 设计 / 阅读&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://productdesignpsychology.com/"&gt;Product Design Psychology by Wouter de Bres&lt;/a&gt;：产品设计心理学资料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alisawuffles.github.io/blog/job-search/"&gt;行业求职笔记 &amp;mdash; Notes on the Industry Job Search&lt;/a&gt;：行业求职经验笔记。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bxkp.org/"&gt;不想看片&lt;/a&gt; / &lt;a href="https://github.com/kanpianer/bxkp.org"&gt;kanpianer/bxkp.org&lt;/a&gt;：影视资源导航站与开源仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html"&gt;Orthogonal — Greg Egan&lt;/a&gt;：Greg Egan 的《正交》三部曲入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pomo.mom/"&gt;4K原盘免费下载&lt;/a&gt;：4K 原盘资源站。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--本地工作流">AI / Agent / 本地工作流</h3>
+<p><a href="https://www.depo.zip/categories/ai-harness">Depo | AI Harness tools</a> / <a href="https://www.depo.zip/categories">Depo - Curated Tools, Skills &amp; Resources</a>：面向 AI agent 与开发工作流的工具目录。</p>
+<p><a href="https://github.com/rebel0789/codexpro">rebel0789/codexpro</a>：通过 MCP 把 ChatGPT Developer Mode 接成本地 coding agent。</p>
+<p><a href="https://github.com/Waishnav/devspace">Waishnav/devspace</a>：把 ChatGPT 接入 Codex 式开发空间的项目。</p>
+<p><a href="https://github.com/caezium/Burrow">caezium/Burrow</a>：Mole CLI 的原生 macOS GUI，覆盖清理、卸载、优化、磁盘分析与 MCP。</p>
+<p><a href="https://loops.elorm.xyz/">loops! | Pre-built agent loops</a>：预制 agent loop 集合。</p>
+<p><a href="https://oakreader.com/zh">Oak ｜ 你和智能体共享的 AI 知识库</a>：面向人与智能体协作的知识库产品。</p>
+<p><a href="https://github.com/JerryZLiu/Dayflow">JerryZLiu/Dayflow</a>：本地优先的自动工作日志，把屏幕活动整理成时间线。</p>
+<p><a href="https://aside.com/">Aside | The browser built to do real work for you</a>：强调代理式工作的浏览器。</p>
+<p><a href="https://huntscreens.com/zh">HuntScreens - 发现值得一试的新 AI 工具</a>：AI 工具发现站。</p>
+<p><a href="https://codexradar.com/">Codex 雷达</a>：Codex 相关动态聚合。</p>
+<p><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model | OpenAI</a>：OpenAI 的模型预览文章。</p>
+<p><a href="https://agent.qq.com/page/list?alias_id=alias_tcvWUTx_LlRVdrCOf_0_dXbGv5mj5DOojg">Agent Mail — QQ 邮箱为 Agent 打造的专属邮箱</a>：面向 Agent 的邮箱产品。</p>
+<h3 id="编程--开源工具--系统">编程 / 开源工具 / 系统</h3>
+<p><a href="https://lore.org/">Lore | 下一代开源版本控制系统</a>：新一代开源版本控制系统。</p>
+<p><a href="https://otty.sh/">Otty — A native, beautiful terminal app</a>：原生终端应用。</p>
+<p><a href="https://github.com/renatoworks/oh-my-reddit">renatoworks/oh-my-reddit</a>：在终端中阅读 Reddit threads 的工具。</p>
+<p><a href="https://github.com/l0ng-ai/papr">l0ng-ai/papr</a>：快速、原生的桌面 RSS 阅读器。</p>
+<p><a href="https://chromewebstore.google.com/detail/relatex-copy-render-ai-eq/lcnhjmiedobhpopogbadbeeaainmamjl">ReLaTeX - Copy &amp; Render AI Equations</a>：复制与渲染 AI 生成公式的浏览器扩展。</p>
+<p><a href="https://github.com/cool-japan/trustformers/tree/master">cool-japan/trustformers</a>：Rust 实现的 Hugging Face Transformers 推理/部署相关项目。</p>
+<p><a href="https://github.com/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a>：长文档 OCR / 解析项目。</p>
+<p><a href="https://neetcode.io/practice/practice/blind75">Blind 75 - LeetCode Problems with Video Solutions</a>：Blind 75 刷题清单与视频讲解。</p>
+<h3 id="数学--机器学习--视觉">数学 / 机器学习 / 视觉</h3>
+<p><a href="https://github.com/Michael-Jetson/Robotics_Tutorial">Michael-Jetson/Robotics_Tutorial</a>：体系化机器人教学文档，覆盖数学基础、C++、规划控制与 SLAM。</p>
+<p><a href="https://algebrica.org/">Algebrica | A Mathematical Knowledge Base</a> / <a href="https://github.com/antoniolupetti/algebrica">antoniolupetti/algebrica</a>：强调清晰结构的数学知识库项目。</p>
+<p><a href="https://hamidreza-hashempoor.github.io/blog/distances/distances.html">Taxonomy of Principal Distances &amp; Divergences</a>：常见距离与散度的分类整理。</p>
+<p><a href="https://adam.math.hhu.de/#/">Natural Number Game</a>：Lean 风格自然数证明游戏。</p>
+<p><a href="https://abakcus.com/book-lists/self-learner-roadmap">A Self-Learner&rsquo;s Roadmap Through 30+ Great Math Books</a>：数学自学书单路线。</p>
+<p><a href="https://jax-ml.github.io/scaling-book/">How To Scale Your Model</a>：JAX / ML scaling 相关教材。</p>
+<p><a href="https://alisawuffles.notion.site/alisa-s-book-of-llms">Alisa’s book of LLMs</a> / <a href="https://alisawuffles.notion.site/math-notes#3737eb87360580cf8798dbb1a774c73b">math notes</a>：LLM 与数学笔记合集。</p>
+<p><a href="https://www.deep-ml.com/">Deep-ML | Practice Machine Learning</a>：机器学习练习平台。</p>
+<p><a href="https://visionbook.mit.edu/">Foundations of Computer Vision</a>：MIT 计算机视觉教材。</p>
+<p><a href="https://x.com/BetaTomorrow/status/2060544169626771874">X 上的 deep Manifold：“Neural Network Learnability and Discoverability 神经网络的学习性与发现性”</a>：关于神经网络可学习性与可发现性的讨论线索。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/1913637003855116220">所有数学的分支中，复分析最接近艺术</a>：复分析学习与审美相关长文。</p>
+<p><a href="https://bbycroft.net/llm">LLM Visualization</a>：交互式 LLM 结构可视化。</p>
+<p><a href="https://nathancantafio.com/blog/post.html?file=mle-is-not-intuitive.md">MLE is not intuitive</a>：关于最大似然估计直觉的文章。</p>
+<p><a href="https://github.com/plugyawn/Megaprop">plugyawn/Megaprop</a>：面向 MoE 训练的预条件优化器实现，支持 MuP、FSDP Muon 与 Megatron-LM。</p>
+<h3 id="产品--设计--阅读">产品 / 设计 / 阅读</h3>
+<p><a href="https://productdesignpsychology.com/">Product Design Psychology by Wouter de Bres</a>：产品设计心理学资料。</p>
+<p><a href="https://alisawuffles.github.io/blog/job-search/">行业求职笔记 &mdash; Notes on the Industry Job Search</a>：行业求职经验笔记。</p>
+<p><a href="https://bxkp.org/">不想看片</a> / <a href="https://github.com/kanpianer/bxkp.org">kanpianer/bxkp.org</a>：影视资源导航站与开源仓库。</p>
+<p><a href="https://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html">Orthogonal — Greg Egan</a>：Greg Egan 的《正交》三部曲入口。</p>
+<p><a href="https://pomo.mom/">4K原盘免费下载</a>：4K 原盘资源站。</p>
+]]></content:encoded></item><item><title>第13期周刊</title><link>https://blog.yfff.me/weekly/week-13/</link><pubDate>Wed, 17 Jun 2026 17:57:49 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-13/</guid><description>&lt;h3 id="ai--agent--编程工具"&gt;AI / Agent / 编程工具&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://codex-reset-radar.pages.dev/"&gt;Codex 重置雷达&lt;/a&gt;：跟踪 Codex 重置节奏的小工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.makingsoftware.com/"&gt;Making Software&lt;/a&gt;：关于软件构建、工程判断和产品实践的文章站。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://alignment.anthropic.com/"&gt;Alignment Science Blog&lt;/a&gt;：Anthropic 的对齐科学博客。&lt;/p&gt;
