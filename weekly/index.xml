@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jun 2026 03:41:51 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第14期周刊</title><link>https://blog.yfff.me/weekly/week-14/</link><pubDate>Mon, 29 Jun 2026 03:41:51 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-14/</guid><description>&lt;h3 id="ai--agent--本地工作流"&gt;AI / Agent / 本地工作流&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 05 Jul 2026 01:45:17 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第15期周刊</title><link>https://blog.yfff.me/weekly/week-15/</link><pubDate>Sun, 05 Jul 2026 01:45:17 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-15/</guid><description>&lt;h3 id="ai--agent--编程工作流"&gt;AI / Agent / 编程工作流&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://manggo.pylogmon.com"&gt;Manggo&lt;/a&gt;：Pot 不再维护后，作者推出的新翻译工具。原 &lt;a href="https://pot-app.com/"&gt;Pot&lt;/a&gt; 仍可作为迁移背景参考。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/opendatalab/Sciverse-Agent-Tools"&gt;opendatalab/Sciverse-Agent-Tools&lt;/a&gt;：面向 Sciverse Open Platform 的 agent 工具 schema 与 SDK，把检索能力整理成 LLM agent 可调用的标准工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terax.app/"&gt;Terax&lt;/a&gt;：terminal-first 的 AI-native dev workspace，偏向把 AI 开发工作流放回终端环境。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gitlawb/zero"&gt;Gitlawb/zero&lt;/a&gt;：强调本地、自主、可控的 coding agent，口号是你的模型、机器和规则由你决定。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tiktokenizer.vercel.app/"&gt;Tiktokenizer&lt;/a&gt;：在线 tokenizer 观察工具，适合快速看文本如何被 token 化。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://toolight.cn/"&gt;偷懒工具&lt;/a&gt;：一组在线小工具集合，偏日常效率场景。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/uniclipboard/uniclipboard"&gt;UniClipboard&lt;/a&gt;：local-first、P2P、端到端加密的跨设备剪贴板同步工具，不依赖账号和云端中转。&lt;/p&gt;
+&lt;h3 id="机器学习--优化--课程"&gt;机器学习 / 优化 / 课程&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.32005"&gt;Random Reshuffling Dominates Stochastic Gradient Descent&lt;/a&gt;：证明在光滑凸优化中，合理步长下 random reshuffling 在任意有限 epoch 后都优于 SGD，回答了一个长期开放问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/papers/2606.30534"&gt;Orca: The World is in Your Mind&lt;/a&gt;：world model 方向论文页面，关注模型内部世界表征与预测能力。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ernestryu.com/courses/RL-LLM.html"&gt;Reinforcement Learning of Large Language Models&lt;/a&gt;：大语言模型强化学习课程材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ddrusvyat.github.io/DSC-243/"&gt;DSC 243: Convex Quadratics&lt;/a&gt;：高级优化课程中关于凸二次函数的讲义。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2206.13446"&gt;Pen and Paper Exercises in Machine Learning&lt;/a&gt; / &lt;a href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises"&gt;GitHub&lt;/a&gt;：机器学习纸笔练习集，适合作为概念推导和考试型训练材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://michaelgutmann.github.io/presentations/"&gt;Presentations&lt;/a&gt;：Michael Gutmann 的统计机器学习相关 presentation 集合。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ml-visualized.com/"&gt;Machine Learning Visualized&lt;/a&gt;：机器学习概念可视化材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.iclimbtrees.com/courses"&gt;IClimbTrees&lt;/a&gt;：AI 与机器学习课程集合。&lt;/p&gt;
+&lt;h3 id="信号--雷达--音频"&gt;信号 / 雷达 / 音频&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gauthier-lechevalier.com/radar"&gt;How I built a mmWave material classification radar&lt;/a&gt;：毫米波材料分类雷达的个人项目记录，包含硬件、信号与实验实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://audiomass.co/"&gt;AudioMass&lt;/a&gt;：在线音频编辑器，适合轻量剪辑和波形处理。&lt;/p&gt;
+&lt;h3 id="计算机基础--理论--工程文章"&gt;计算机基础 / 理论 / 工程文章&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Krishnagangwal/CS-Fundamentals"&gt;CS-Fundamentals&lt;/a&gt;：面向求职准备的计算机基础资料，覆盖 DSA、计算机网络、DBMS / SQL、OOP、操作系统、系统设计与软件工程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.computationalcomplexity.org/2026/06/respect-p-v-np-problem.html"&gt;Respect the P v NP Problem&lt;/a&gt;：Computational Complexity 博客关于 P vs NP 问题的评论文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yoric.github.io/post/quite-a-few-words-about-async/"&gt;(Quite) A Few Words About Async&lt;/a&gt;：关于异步编程的长文，适合回看 async 的设计动机和复杂性来源。&lt;/p&gt;
+&lt;h3 id="设计--插图--图像资源"&gt;设计 / 插图 / 图像资源&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.openpeeps.com/"&gt;Open Peeps&lt;/a&gt;：手绘人物插图库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.oldbookillustrations.com/"&gt;Old Book Illustrations&lt;/a&gt;：公共领域旧书插图资源库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.autotracer.org/"&gt;Online image vectorizer&lt;/a&gt;：在线位图转矢量工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wenyang.net/"&gt;中国传统纹样图鉴 Wenyang&lt;/a&gt;：中国传统纹样资料站。&lt;/p&gt;
+&lt;h3 id="信息源--资讯--生活工具"&gt;信息源 / 资讯 / 生活工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://listen.hatnote.com/"&gt;Hatnote Listen to Wikipedia&lt;/a&gt;：把 Wikipedia 编辑活动转成实时声音和视觉反馈的项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://datascienceweekly.substack.com/"&gt;Data Science Weekly Newsletter&lt;/a&gt;：数据科学周刊。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://finews.elsetech.app/"&gt;FiNews 美股日报&lt;/a&gt;：美股新闻日报。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.showpaw.xyz/"&gt;Showpaw&lt;/a&gt; / &lt;a href="https://msmy.cn/"&gt;妙搜云&lt;/a&gt; / &lt;a href="https://dash.yunso.net/index.php"&gt;小云搜索&lt;/a&gt; / &lt;a href="https://uuyue.top/"&gt;小狐搜搜&lt;/a&gt;：影视、学习资料、软件和公开网盘资源搜索工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hsya.top/lieflat.html#list"&gt;躺平城市指南&lt;/a&gt;：面向自由职业者与远程工作者的城市选择参考。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/chthollyphile/folia-major"&gt;folia-major&lt;/a&gt;：本地音乐 / Navidrome / 第三方网易云播放器相关项目，主打绚丽歌词动画效果。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--编程工作流">AI / Agent / 编程工作流</h3>
+<p><a href="https://manggo.pylogmon.com">Manggo</a>：Pot 不再维护后，作者推出的新翻译工具。原 <a href="https://pot-app.com/">Pot</a> 仍可作为迁移背景参考。</p>
+<p><a href="https://github.com/opendatalab/Sciverse-Agent-Tools">opendatalab/Sciverse-Agent-Tools</a>：面向 Sciverse Open Platform 的 agent 工具 schema 与 SDK，把检索能力整理成 LLM agent 可调用的标准工具。</p>
+<p><a href="https://terax.app/">Terax</a>：terminal-first 的 AI-native dev workspace，偏向把 AI 开发工作流放回终端环境。</p>
+<p><a href="https://github.com/gitlawb/zero">Gitlawb/zero</a>：强调本地、自主、可控的 coding agent，口号是你的模型、机器和规则由你决定。</p>
+<p><a href="https://tiktokenizer.vercel.app/">Tiktokenizer</a>：在线 tokenizer 观察工具，适合快速看文本如何被 token 化。</p>
+<p><a href="https://toolight.cn/">偷懒工具</a>：一组在线小工具集合，偏日常效率场景。</p>
+<p><a href="https://github.com/uniclipboard/uniclipboard">UniClipboard</a>：local-first、P2P、端到端加密的跨设备剪贴板同步工具，不依赖账号和云端中转。</p>
+<h3 id="机器学习--优化--课程">机器学习 / 优化 / 课程</h3>
+<p><a href="https://arxiv.org/abs/2606.32005">Random Reshuffling Dominates Stochastic Gradient Descent</a>：证明在光滑凸优化中，合理步长下 random reshuffling 在任意有限 epoch 后都优于 SGD，回答了一个长期开放问题。</p>
+<p><a href="https://huggingface.co/papers/2606.30534">Orca: The World is in Your Mind</a>：world model 方向论文页面，关注模型内部世界表征与预测能力。</p>
+<p><a href="https://ernestryu.com/courses/RL-LLM.html">Reinforcement Learning of Large Language Models</a>：大语言模型强化学习课程材料。</p>
+<p><a href="https://ddrusvyat.github.io/DSC-243/">DSC 243: Convex Quadratics</a>：高级优化课程中关于凸二次函数的讲义。</p>
+<p><a href="https://arxiv.org/abs/2206.13446">Pen and Paper Exercises in Machine Learning</a> / <a href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises">GitHub</a>：机器学习纸笔练习集，适合作为概念推导和考试型训练材料。</p>
+<p><a href="https://michaelgutmann.github.io/presentations/">Presentations</a>：Michael Gutmann 的统计机器学习相关 presentation 集合。</p>
+<p><a href="https://ml-visualized.com/">Machine Learning Visualized</a>：机器学习概念可视化材料。</p>
+<p><a href="https://www.iclimbtrees.com/courses">IClimbTrees</a>：AI 与机器学习课程集合。</p>
+<h3 id="信号--雷达--音频">信号 / 雷达 / 音频</h3>
+<p><a href="https://gauthier-lechevalier.com/radar">How I built a mmWave material classification radar</a>：毫米波材料分类雷达的个人项目记录，包含硬件、信号与实验实现。</p>
+<p><a href="https://audiomass.co/">AudioMass</a>：在线音频编辑器，适合轻量剪辑和波形处理。</p>
+<h3 id="计算机基础--理论--工程文章">计算机基础 / 理论 / 工程文章</h3>
+<p><a href="https://github.com/Krishnagangwal/CS-Fundamentals">CS-Fundamentals</a>：面向求职准备的计算机基础资料，覆盖 DSA、计算机网络、DBMS / SQL、OOP、操作系统、系统设计与软件工程。</p>
+<p><a href="https://blog.computationalcomplexity.org/2026/06/respect-p-v-np-problem.html">Respect the P v NP Problem</a>：Computational Complexity 博客关于 P vs NP 问题的评论文章。</p>
+<p><a href="https://yoric.github.io/post/quite-a-few-words-about-async/">(Quite) A Few Words About Async</a>：关于异步编程的长文，适合回看 async 的设计动机和复杂性来源。</p>
+<h3 id="设计--插图--图像资源">设计 / 插图 / 图像资源</h3>
+<p><a href="https://www.openpeeps.com/">Open Peeps</a>：手绘人物插图库。</p>
+<p><a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a>：公共领域旧书插图资源库。</p>
+<p><a href="https://www.autotracer.org/">Online image vectorizer</a>：在线位图转矢量工具。</p>
+<p><a href="https://wenyang.net/">中国传统纹样图鉴 Wenyang</a>：中国传统纹样资料站。</p>
+<h3 id="信息源--资讯--生活工具">信息源 / 资讯 / 生活工具</h3>
+<p><a href="https://listen.hatnote.com/">Hatnote Listen to Wikipedia</a>：把 Wikipedia 编辑活动转成实时声音和视觉反馈的项目。</p>
+<p><a href="https://datascienceweekly.substack.com/">Data Science Weekly Newsletter</a>：数据科学周刊。</p>
+<p><a href="https://finews.elsetech.app/">FiNews 美股日报</a>：美股新闻日报。</p>
+<p><a href="https://www.showpaw.xyz/">Showpaw</a> / <a href="https://msmy.cn/">妙搜云</a> / <a href="https://dash.yunso.net/index.php">小云搜索</a> / <a href="https://uuyue.top/">小狐搜搜</a>：影视、学习资料、软件和公开网盘资源搜索工具。</p>
+<p><a href="https://hsya.top/lieflat.html#list">躺平城市指南</a>：面向自由职业者与远程工作者的城市选择参考。</p>
+<p><a href="https://github.com/chthollyphile/folia-major">folia-major</a>：本地音乐 / Navidrome / 第三方网易云播放器相关项目，主打绚丽歌词动画效果。</p>
+]]></content:encoded></item><item><title>第14期周刊</title><link>https://blog.yfff.me/weekly/week-14/</link><pubDate>Mon, 29 Jun 2026 03:41:51 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-14/</guid><description>&lt;h3 id="ai--agent--本地工作流"&gt;AI / Agent / 本地工作流&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.depo.zip/categories/ai-harness"&gt;Depo | AI Harness tools&lt;/a&gt; / &lt;a href="https://www.depo.zip/categories"&gt;Depo - Curated Tools, Skills &amp;amp; Resources&lt;/a&gt;：面向 AI agent 与开发工作流的工具目录。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/rebel0789/codexpro"&gt;rebel0789/codexpro&lt;/a&gt;：通过 MCP 把 ChatGPT Developer Mode 接成本地 coding agent。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/Waishnav/devspace"&gt;Waishnav/devspace&lt;/a&gt;：把 ChatGPT 接入 Codex 式开发空间的项目。&lt;/p&gt;
