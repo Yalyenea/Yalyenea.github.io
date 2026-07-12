@@ -1,4 +1,255 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 29 May 2026 18:48:47 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 12</title><link>https://blog.yfff.me/en/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--programming-tools"&gt;AI / Agent / Programming Tools&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 05 Jul 2026 01:45:17 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 15</title><link>https://blog.yfff.me/en/weekly/week-15/</link><pubDate>Sun, 05 Jul 2026 01:45:17 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-15/</guid><description>&lt;h3 id="ai--agent--programming-workflow"&gt;AI / Agent / Programming Workflow&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://manggo.pylogmon.com"&gt;Manggo&lt;/a&gt; — a new translation tool from the author of Pot after Pot entered maintenance mode. The original &lt;a href="https://pot-app.com/"&gt;Pot&lt;/a&gt; is still useful migration context.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/opendatalab/Sciverse-Agent-Tools"&gt;opendatalab/Sciverse-Agent-Tools&lt;/a&gt; — agent tool schemas and SDKs for the Sciverse Open Platform, organizing retrieval capabilities into standard tools that LLM agents can call.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terax.app/"&gt;Terax&lt;/a&gt; — a terminal-first AI-native development workspace that brings AI development workflows back into the terminal.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gitlawb/zero"&gt;Gitlawb/zero&lt;/a&gt; — a local, autonomous, controllable coding agent built around the idea that your model, machine, and rules are yours.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tiktokenizer.vercel.app/"&gt;Tiktokenizer&lt;/a&gt; — an online tokenizer inspection tool for quickly seeing how text is tokenized.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://toolight.cn/"&gt;偷懒工具&lt;/a&gt; — a collection of small online tools for everyday productivity.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/uniclipboard/uniclipboard"&gt;UniClipboard&lt;/a&gt; — a local-first, P2P, end-to-end encrypted cross-device clipboard sync tool with no account or cloud relay required.&lt;/p&gt;
+&lt;h3 id="machine-learning--optimization--courses"&gt;Machine Learning / Optimization / Courses&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.32005"&gt;Random Reshuffling Dominates Stochastic Gradient Descent&lt;/a&gt; — proves that random reshuffling with suitable step sizes outperforms SGD after any finite number of epochs in smooth convex optimization, resolving a long-standing open question.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/papers/2606.30534"&gt;Orca: The World is in Your Mind&lt;/a&gt; — a world model paper page focused on internal world representations and predictive ability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ernestryu.com/courses/RL-LLM.html"&gt;Reinforcement Learning of Large Language Models&lt;/a&gt; — course material on reinforcement learning for large language models.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ddrusvyat.github.io/DSC-243/"&gt;DSC 243: Convex Quadratics&lt;/a&gt; — lecture notes on convex quadratic functions from an advanced optimization course.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2206.13446"&gt;Pen and Paper Exercises in Machine Learning&lt;/a&gt; / &lt;a href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises"&gt;GitHub&lt;/a&gt; — machine-learning exercises suited for conceptual derivation and exam-style practice.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://michaelgutmann.github.io/presentations/"&gt;Presentations&lt;/a&gt; — Michael Gutmann&amp;rsquo;s presentations on statistical machine learning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ml-visualized.com/"&gt;Machine Learning Visualized&lt;/a&gt; — visual material for machine-learning concepts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.iclimbtrees.com/courses"&gt;IClimbTrees&lt;/a&gt; — a collection of AI and machine-learning courses.&lt;/p&gt;
+&lt;h3 id="signal--radar--audio"&gt;Signal / Radar / Audio&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gauthier-lechevalier.com/radar"&gt;How I built a mmWave material classification radar&lt;/a&gt; — a personal project write-up on mmWave material classification radar, including hardware, signals, and experiments.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://audiomass.co/"&gt;AudioMass&lt;/a&gt; — an online audio editor for lightweight editing and waveform processing.&lt;/p&gt;
+&lt;h3 id="computer-fundamentals--theory--engineering-articles"&gt;Computer Fundamentals / Theory / Engineering Articles&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Krishnagangwal/CS-Fundamentals"&gt;CS-Fundamentals&lt;/a&gt; — interview-prep material covering DSA, computer networks, DBMS / SQL, OOP, operating systems, system design, and software engineering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.computationalcomplexity.org/2026/06/respect-p-v-np-problem.html"&gt;Respect the P v NP Problem&lt;/a&gt; — a Computational Complexity blog post on the P vs NP problem.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yoric.github.io/post/quite-a-few-words-about-async/"&gt;(Quite) A Few Words About Async&lt;/a&gt; — a long article on async programming, useful for revisiting the design motivations and sources of complexity behind async.&lt;/p&gt;
+&lt;h3 id="design--illustration--image-resources"&gt;Design / Illustration / Image Resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.openpeeps.com/"&gt;Open Peeps&lt;/a&gt; — a hand-drawn people illustration library.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.oldbookillustrations.com/"&gt;Old Book Illustrations&lt;/a&gt; — a public-domain old-book illustration archive.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.autotracer.org/"&gt;Online image vectorizer&lt;/a&gt; — an online bitmap-to-vector tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wenyang.net/"&gt;Wenyang&lt;/a&gt; — a reference site for traditional Chinese patterns.&lt;/p&gt;
+&lt;h3 id="sources--news--life-tools"&gt;Sources / News / Life Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://listen.hatnote.com/"&gt;Hatnote Listen to Wikipedia&lt;/a&gt; — turns Wikipedia editing activity into real-time sound and visual feedback.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://datascienceweekly.substack.com/"&gt;Data Science Weekly Newsletter&lt;/a&gt; — a data science weekly newsletter.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://finews.elsetech.app/"&gt;FiNews&lt;/a&gt; — a daily US stock-market news digest.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.showpaw.xyz/"&gt;Showpaw&lt;/a&gt; / &lt;a href="https://msmy.cn/"&gt;妙搜云&lt;/a&gt; / &lt;a href="https://dash.yunso.net/index.php"&gt;小云搜索&lt;/a&gt; / &lt;a href="https://uuyue.top/"&gt;小狐搜搜&lt;/a&gt; — search tools for media, study materials, software, and public cloud-drive resources.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hsya.top/lieflat.html#list"&gt;Lie-flat city guide&lt;/a&gt; — a city-selection reference for freelancers and remote workers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/chthollyphile/folia-major"&gt;folia-major&lt;/a&gt; — a local music / Navidrome / third-party NetEase Cloud Music player project focused on vivid lyric animations.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--programming-workflow">AI / Agent / Programming Workflow</h3>
+<p><a href="https://manggo.pylogmon.com">Manggo</a> — a new translation tool from the author of Pot after Pot entered maintenance mode. The original <a href="https://pot-app.com/">Pot</a> is still useful migration context.</p>
+<p><a href="https://github.com/opendatalab/Sciverse-Agent-Tools">opendatalab/Sciverse-Agent-Tools</a> — agent tool schemas and SDKs for the Sciverse Open Platform, organizing retrieval capabilities into standard tools that LLM agents can call.</p>
+<p><a href="https://terax.app/">Terax</a> — a terminal-first AI-native development workspace that brings AI development workflows back into the terminal.</p>
+<p><a href="https://github.com/gitlawb/zero">Gitlawb/zero</a> — a local, autonomous, controllable coding agent built around the idea that your model, machine, and rules are yours.</p>
+<p><a href="https://tiktokenizer.vercel.app/">Tiktokenizer</a> — an online tokenizer inspection tool for quickly seeing how text is tokenized.</p>
+<p><a href="https://toolight.cn/">偷懒工具</a> — a collection of small online tools for everyday productivity.</p>
+<p><a href="https://github.com/uniclipboard/uniclipboard">UniClipboard</a> — a local-first, P2P, end-to-end encrypted cross-device clipboard sync tool with no account or cloud relay required.</p>
+<h3 id="machine-learning--optimization--courses">Machine Learning / Optimization / Courses</h3>
+<p><a href="https://arxiv.org/abs/2606.32005">Random Reshuffling Dominates Stochastic Gradient Descent</a> — proves that random reshuffling with suitable step sizes outperforms SGD after any finite number of epochs in smooth convex optimization, resolving a long-standing open question.</p>
+<p><a href="https://huggingface.co/papers/2606.30534">Orca: The World is in Your Mind</a> — a world model paper page focused on internal world representations and predictive ability.</p>
+<p><a href="https://ernestryu.com/courses/RL-LLM.html">Reinforcement Learning of Large Language Models</a> — course material on reinforcement learning for large language models.</p>
+<p><a href="https://ddrusvyat.github.io/DSC-243/">DSC 243: Convex Quadratics</a> — lecture notes on convex quadratic functions from an advanced optimization course.</p>
+<p><a href="https://arxiv.org/abs/2206.13446">Pen and Paper Exercises in Machine Learning</a> / <a href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises">GitHub</a> — machine-learning exercises suited for conceptual derivation and exam-style practice.</p>
+<p><a href="https://michaelgutmann.github.io/presentations/">Presentations</a> — Michael Gutmann&rsquo;s presentations on statistical machine learning.</p>
+<p><a href="https://ml-visualized.com/">Machine Learning Visualized</a> — visual material for machine-learning concepts.</p>
+<p><a href="https://www.iclimbtrees.com/courses">IClimbTrees</a> — a collection of AI and machine-learning courses.</p>
+<h3 id="signal--radar--audio">Signal / Radar / Audio</h3>
+<p><a href="https://gauthier-lechevalier.com/radar">How I built a mmWave material classification radar</a> — a personal project write-up on mmWave material classification radar, including hardware, signals, and experiments.</p>
+<p><a href="https://audiomass.co/">AudioMass</a> — an online audio editor for lightweight editing and waveform processing.</p>
+<h3 id="computer-fundamentals--theory--engineering-articles">Computer Fundamentals / Theory / Engineering Articles</h3>
+<p><a href="https://github.com/Krishnagangwal/CS-Fundamentals">CS-Fundamentals</a> — interview-prep material covering DSA, computer networks, DBMS / SQL, OOP, operating systems, system design, and software engineering.</p>
+<p><a href="https://blog.computationalcomplexity.org/2026/06/respect-p-v-np-problem.html">Respect the P v NP Problem</a> — a Computational Complexity blog post on the P vs NP problem.</p>
+<p><a href="https://yoric.github.io/post/quite-a-few-words-about-async/">(Quite) A Few Words About Async</a> — a long article on async programming, useful for revisiting the design motivations and sources of complexity behind async.</p>
+<h3 id="design--illustration--image-resources">Design / Illustration / Image Resources</h3>
+<p><a href="https://www.openpeeps.com/">Open Peeps</a> — a hand-drawn people illustration library.</p>
+<p><a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a> — a public-domain old-book illustration archive.</p>
+<p><a href="https://www.autotracer.org/">Online image vectorizer</a> — an online bitmap-to-vector tool.</p>
+<p><a href="https://wenyang.net/">Wenyang</a> — a reference site for traditional Chinese patterns.</p>
+<h3 id="sources--news--life-tools">Sources / News / Life Tools</h3>
+<p><a href="https://listen.hatnote.com/">Hatnote Listen to Wikipedia</a> — turns Wikipedia editing activity into real-time sound and visual feedback.</p>
+<p><a href="https://datascienceweekly.substack.com/">Data Science Weekly Newsletter</a> — a data science weekly newsletter.</p>
+<p><a href="https://finews.elsetech.app/">FiNews</a> — a daily US stock-market news digest.</p>
+<p><a href="https://www.showpaw.xyz/">Showpaw</a> / <a href="https://msmy.cn/">妙搜云</a> / <a href="https://dash.yunso.net/index.php">小云搜索</a> / <a href="https://uuyue.top/">小狐搜搜</a> — search tools for media, study materials, software, and public cloud-drive resources.</p>
+<p><a href="https://hsya.top/lieflat.html#list">Lie-flat city guide</a> — a city-selection reference for freelancers and remote workers.</p>
+<p><a href="https://github.com/chthollyphile/folia-major">folia-major</a> — a local music / Navidrome / third-party NetEase Cloud Music player project focused on vivid lyric animations.</p>
+]]></content:encoded></item><item><title>Weekly Issue 14</title><link>https://blog.yfff.me/en/weekly/week-14/</link><pubDate>Mon, 29 Jun 2026 03:41:51 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-14/</guid><description>&lt;h3 id="ai--agent--local-workflow"&gt;AI / Agent / Local Workflow&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.depo.zip/categories/ai-harness"&gt;Depo | AI Harness tools&lt;/a&gt; / &lt;a href="https://www.depo.zip/categories"&gt;Depo - Curated Tools, Skills &amp;amp; Resources&lt;/a&gt; — a tool directory for AI agents and developer workflows.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rebel0789/codexpro"&gt;rebel0789/codexpro&lt;/a&gt; — connects ChatGPT Developer Mode to a local coding agent through MCP.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Waishnav/devspace"&gt;Waishnav/devspace&lt;/a&gt; — a project for bringing ChatGPT into a Codex-like development space.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/caezium/Burrow"&gt;caezium/Burrow&lt;/a&gt; — a native macOS GUI for Mole CLI, covering cleanup, uninstalling, optimization, disk analysis, and MCP.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://loops.elorm.xyz/"&gt;loops! | Pre-built agent loops&lt;/a&gt; — a collection of prebuilt agent loops.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oakreader.com/zh"&gt;Oak&lt;/a&gt; — an AI knowledge base for collaboration between people and agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/JerryZLiu/Dayflow"&gt;JerryZLiu/Dayflow&lt;/a&gt; — a local-first automatic work log that organizes screen activity into a timeline.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aside.com/"&gt;Aside | The browser built to do real work for you&lt;/a&gt; — a browser focused on agentic work.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huntscreens.com/zh"&gt;HuntScreens&lt;/a&gt; — a discovery site for new AI tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://codexradar.com/"&gt;Codex Radar&lt;/a&gt; — an aggregator for Codex-related updates.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/previewing-gpt-5-6-sol/"&gt;Previewing GPT-5.6 Sol: a next-generation model | OpenAI&lt;/a&gt; — OpenAI&amp;rsquo;s model preview article.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agent.qq.com/page/list?alias_id=alias_tcvWUTx_LlRVdrCOf_0_dXbGv5mj5DOojg"&gt;Agent Mail&lt;/a&gt; — an email product built for agents by QQ Mail.&lt;/p&gt;
+&lt;h3 id="programming--open-source-tools--systems"&gt;Programming / Open Source Tools / Systems&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://lore.org/"&gt;Lore&lt;/a&gt; — a next-generation open-source version control system.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://otty.sh/"&gt;Otty&lt;/a&gt; — a native terminal application.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/renatoworks/oh-my-reddit"&gt;renatoworks/oh-my-reddit&lt;/a&gt; — a terminal tool for reading Reddit threads.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/l0ng-ai/papr"&gt;l0ng-ai/papr&lt;/a&gt; — a fast, native desktop RSS reader.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chromewebstore.google.com/detail/relatex-copy-render-ai-eq/lcnhjmiedobhpopogbadbeeaainmamjl"&gt;ReLaTeX - Copy &amp;amp; Render AI Equations&lt;/a&gt; — a browser extension for copying and rendering AI-generated equations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cool-japan/trustformers/tree/master"&gt;cool-japan/trustformers&lt;/a&gt; — Rust-based Hugging Face Transformers inference and deployment work.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/baidu/Unlimited-OCR"&gt;baidu/Unlimited-OCR&lt;/a&gt; — a long-document OCR / parsing project.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://neetcode.io/practice/practice/blind75"&gt;Blind 75 - LeetCode Problems with Video Solutions&lt;/a&gt; — the Blind 75 problem list with video explanations.&lt;/p&gt;
+&lt;h3 id="mathematics--machine-learning--vision"&gt;Mathematics / Machine Learning / Vision&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Michael-Jetson/Robotics_Tutorial"&gt;Michael-Jetson/Robotics_Tutorial&lt;/a&gt; — systematic robotics teaching material covering math foundations, C++, planning and control, and SLAM.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://algebrica.org/"&gt;Algebrica | A Mathematical Knowledge Base&lt;/a&gt; / &lt;a href="https://github.com/antoniolupetti/algebrica"&gt;antoniolupetti/algebrica&lt;/a&gt; — a mathematical knowledge-base project focused on clear structure.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hamidreza-hashempoor.github.io/blog/distances/distances.html"&gt;Taxonomy of Principal Distances &amp;amp; Divergences&lt;/a&gt; — a taxonomy of common distances and divergences.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adam.math.hhu.de/#/"&gt;Natural Number Game&lt;/a&gt; — a Lean-style proof game for natural numbers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abakcus.com/book-lists/self-learner-roadmap"&gt;A Self-Learner&amp;rsquo;s Roadmap Through 30+ Great Math Books&lt;/a&gt; — a self-study roadmap through mathematics books.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jax-ml.github.io/scaling-book/"&gt;How To Scale Your Model&lt;/a&gt; — a JAX / ML scaling textbook.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alisawuffles.notion.site/alisa-s-book-of-llms"&gt;Alisa&amp;rsquo;s book of LLMs&lt;/a&gt; / &lt;a href="https://alisawuffles.notion.site/math-notes#3737eb87360580cf8798dbb1a774c73b"&gt;math notes&lt;/a&gt; — collections of LLM and math notes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.deep-ml.com/"&gt;Deep-ML | Practice Machine Learning&lt;/a&gt; — a machine-learning practice platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://visionbook.mit.edu/"&gt;Foundations of Computer Vision&lt;/a&gt; — MIT&amp;rsquo;s computer vision textbook.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/BetaTomorrow/status/2060544169626771874"&gt;deep Manifold on X: &amp;ldquo;Neural Network Learnability and Discoverability&amp;rdquo;&lt;/a&gt; — a thread on neural-network learnability and discoverability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/1913637003855116220"&gt;Among all branches of mathematics, complex analysis is closest to art&lt;/a&gt; — an essay on learning and appreciating complex analysis.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bbycroft.net/llm"&gt;LLM Visualization&lt;/a&gt; — an interactive visualization of LLM architecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nathancantafio.com/blog/post.html?file=mle-is-not-intuitive.md"&gt;MLE is not intuitive&lt;/a&gt; — an article on the intuition behind maximum likelihood estimation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/plugyawn/Megaprop"&gt;plugyawn/Megaprop&lt;/a&gt; — an implementation of a preconditioned optimizer for MoE training, supporting MuP, FSDP Muon, and Megatron-LM.&lt;/p&gt;
+&lt;h3 id="product--design--reading"&gt;Product / Design / Reading&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://productdesignpsychology.com/"&gt;Product Design Psychology by Wouter de Bres&lt;/a&gt; — resources on product design psychology.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alisawuffles.github.io/blog/job-search/"&gt;Notes on the Industry Job Search&lt;/a&gt; — notes on industry job-search experience.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bxkp.org/"&gt;不想看片&lt;/a&gt; / &lt;a href="https://github.com/kanpianer/bxkp.org"&gt;kanpianer/bxkp.org&lt;/a&gt; — a media-resource navigation site and its open-source repository.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html"&gt;Orthogonal — Greg Egan&lt;/a&gt; — the entry point for Greg Egan&amp;rsquo;s &lt;em&gt;Orthogonal&lt;/em&gt; trilogy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pomo.mom/"&gt;4K original disc downloads&lt;/a&gt; — a 4K original-disc resource site.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--local-workflow">AI / Agent / Local Workflow</h3>
+<p><a href="https://www.depo.zip/categories/ai-harness">Depo | AI Harness tools</a> / <a href="https://www.depo.zip/categories">Depo - Curated Tools, Skills &amp; Resources</a> — a tool directory for AI agents and developer workflows.</p>
+<p><a href="https://github.com/rebel0789/codexpro">rebel0789/codexpro</a> — connects ChatGPT Developer Mode to a local coding agent through MCP.</p>
+<p><a href="https://github.com/Waishnav/devspace">Waishnav/devspace</a> — a project for bringing ChatGPT into a Codex-like development space.</p>
+<p><a href="https://github.com/caezium/Burrow">caezium/Burrow</a> — a native macOS GUI for Mole CLI, covering cleanup, uninstalling, optimization, disk analysis, and MCP.</p>
+<p><a href="https://loops.elorm.xyz/">loops! | Pre-built agent loops</a> — a collection of prebuilt agent loops.</p>
+<p><a href="https://oakreader.com/zh">Oak</a> — an AI knowledge base for collaboration between people and agents.</p>
+<p><a href="https://github.com/JerryZLiu/Dayflow">JerryZLiu/Dayflow</a> — a local-first automatic work log that organizes screen activity into a timeline.</p>
+<p><a href="https://aside.com/">Aside | The browser built to do real work for you</a> — a browser focused on agentic work.</p>
+<p><a href="https://huntscreens.com/zh">HuntScreens</a> — a discovery site for new AI tools.</p>
+<p><a href="https://codexradar.com/">Codex Radar</a> — an aggregator for Codex-related updates.</p>
+<p><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model | OpenAI</a> — OpenAI&rsquo;s model preview article.</p>
+<p><a href="https://agent.qq.com/page/list?alias_id=alias_tcvWUTx_LlRVdrCOf_0_dXbGv5mj5DOojg">Agent Mail</a> — an email product built for agents by QQ Mail.</p>
+<h3 id="programming--open-source-tools--systems">Programming / Open Source Tools / Systems</h3>
+<p><a href="https://lore.org/">Lore</a> — a next-generation open-source version control system.</p>
+<p><a href="https://otty.sh/">Otty</a> — a native terminal application.</p>
+<p><a href="https://github.com/renatoworks/oh-my-reddit">renatoworks/oh-my-reddit</a> — a terminal tool for reading Reddit threads.</p>
+<p><a href="https://github.com/l0ng-ai/papr">l0ng-ai/papr</a> — a fast, native desktop RSS reader.</p>
+<p><a href="https://chromewebstore.google.com/detail/relatex-copy-render-ai-eq/lcnhjmiedobhpopogbadbeeaainmamjl">ReLaTeX - Copy &amp; Render AI Equations</a> — a browser extension for copying and rendering AI-generated equations.</p>
+<p><a href="https://github.com/cool-japan/trustformers/tree/master">cool-japan/trustformers</a> — Rust-based Hugging Face Transformers inference and deployment work.</p>
+<p><a href="https://github.com/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a> — a long-document OCR / parsing project.</p>
+<p><a href="https://neetcode.io/practice/practice/blind75">Blind 75 - LeetCode Problems with Video Solutions</a> — the Blind 75 problem list with video explanations.</p>
+<h3 id="mathematics--machine-learning--vision">Mathematics / Machine Learning / Vision</h3>
+<p><a href="https://github.com/Michael-Jetson/Robotics_Tutorial">Michael-Jetson/Robotics_Tutorial</a> — systematic robotics teaching material covering math foundations, C++, planning and control, and SLAM.</p>
+<p><a href="https://algebrica.org/">Algebrica | A Mathematical Knowledge Base</a> / <a href="https://github.com/antoniolupetti/algebrica">antoniolupetti/algebrica</a> — a mathematical knowledge-base project focused on clear structure.</p>
+<p><a href="https://hamidreza-hashempoor.github.io/blog/distances/distances.html">Taxonomy of Principal Distances &amp; Divergences</a> — a taxonomy of common distances and divergences.</p>
+<p><a href="https://adam.math.hhu.de/#/">Natural Number Game</a> — a Lean-style proof game for natural numbers.</p>
+<p><a href="https://abakcus.com/book-lists/self-learner-roadmap">A Self-Learner&rsquo;s Roadmap Through 30+ Great Math Books</a> — a self-study roadmap through mathematics books.</p>
+<p><a href="https://jax-ml.github.io/scaling-book/">How To Scale Your Model</a> — a JAX / ML scaling textbook.</p>
+<p><a href="https://alisawuffles.notion.site/alisa-s-book-of-llms">Alisa&rsquo;s book of LLMs</a> / <a href="https://alisawuffles.notion.site/math-notes#3737eb87360580cf8798dbb1a774c73b">math notes</a> — collections of LLM and math notes.</p>
+<p><a href="https://www.deep-ml.com/">Deep-ML | Practice Machine Learning</a> — a machine-learning practice platform.</p>
+<p><a href="https://visionbook.mit.edu/">Foundations of Computer Vision</a> — MIT&rsquo;s computer vision textbook.</p>
+<p><a href="https://x.com/BetaTomorrow/status/2060544169626771874">deep Manifold on X: &ldquo;Neural Network Learnability and Discoverability&rdquo;</a> — a thread on neural-network learnability and discoverability.</p>
+<p><a href="https://zhuanlan.zhihu.com/p/1913637003855116220">Among all branches of mathematics, complex analysis is closest to art</a> — an essay on learning and appreciating complex analysis.</p>
+<p><a href="https://bbycroft.net/llm">LLM Visualization</a> — an interactive visualization of LLM architecture.</p>
+<p><a href="https://nathancantafio.com/blog/post.html?file=mle-is-not-intuitive.md">MLE is not intuitive</a> — an article on the intuition behind maximum likelihood estimation.</p>
+<p><a href="https://github.com/plugyawn/Megaprop">plugyawn/Megaprop</a> — an implementation of a preconditioned optimizer for MoE training, supporting MuP, FSDP Muon, and Megatron-LM.</p>
+<h3 id="product--design--reading">Product / Design / Reading</h3>
+<p><a href="https://productdesignpsychology.com/">Product Design Psychology by Wouter de Bres</a> — resources on product design psychology.</p>
+<p><a href="https://alisawuffles.github.io/blog/job-search/">Notes on the Industry Job Search</a> — notes on industry job-search experience.</p>
+<p><a href="https://bxkp.org/">不想看片</a> / <a href="https://github.com/kanpianer/bxkp.org">kanpianer/bxkp.org</a> — a media-resource navigation site and its open-source repository.</p>
+<p><a href="https://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html">Orthogonal — Greg Egan</a> — the entry point for Greg Egan&rsquo;s <em>Orthogonal</em> trilogy.</p>
+<p><a href="https://pomo.mom/">4K original disc downloads</a> — a 4K original-disc resource site.</p>
+]]></content:encoded></item><item><title>Weekly Issue 13</title><link>https://blog.yfff.me/en/weekly/week-13/</link><pubDate>Wed, 17 Jun 2026 17:57:49 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-13/</guid><description>&lt;h3 id="ai--agent--programming-tools"&gt;AI / Agent / Programming Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://codex-reset-radar.pages.dev/"&gt;Codex Reset Radar&lt;/a&gt; — a small tool for tracking Codex reset rhythms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.makingsoftware.com/"&gt;Making Software&lt;/a&gt; — essays on software construction, engineering judgment, and product practice.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alignment.anthropic.com/"&gt;Alignment Science Blog&lt;/a&gt; — Anthropic&amp;rsquo;s alignment science blog.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/galilai-group/stable-worldmodel"&gt;galilai-group/stable-worldmodel&lt;/a&gt; — a reproducible experimental platform for world model research and evaluation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://weightwatcher.ai/"&gt;WeightWatcher&lt;/a&gt; — a deep-learning model diagnostic tool that does not require training data.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/NEKOparapa/AiNiee"&gt;NEKOparapa/AiNiee&lt;/a&gt; — a one-click AI translation tool for complex long-form content such as games, novels, subtitles, PDFs, and Word documents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"&gt;Building a hill-climbing machine&lt;/a&gt; — Microsoft AI&amp;rsquo;s launch article for the MAI model series.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.23901"&gt;arXiv 2605.23901: LLMs as Noisy Channels&lt;/a&gt; — a Seed team paper that views model capacity and scaling laws through Shannon&amp;rsquo;s noisy-channel lens.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://luk-huang.github.io/personal-website/blog/is-frontier-asynchronous-rl-solved.html"&gt;Is Frontier Asynchronous RL Solved?&lt;/a&gt; — Luke Huang&amp;rsquo;s overview of frontier asynchronous reinforcement learning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arshiaafzal.github.io/blog/2026/pe/"&gt;On the Legacy of Linear Transformers in Positional Embeddings&lt;/a&gt; — a look back at positional embeddings from the perspective of linear transformers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.27365"&gt;arXiv 2605.27365: LocateAnything&lt;/a&gt; — a vision-language grounding method with parallel box decoding.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/asgeirtj/system_prompts_leaks/"&gt;asgeirtj/system_prompts_leaks&lt;/a&gt; — a collection of system prompt snapshots from various AI tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://phistory.cc/?agent=codex&amp;amp;range=latest"&gt;Phistory&lt;/a&gt; / &lt;a href="https://github.com/WEIFENG2333/phistory"&gt;WEIFENG2333/phistory&lt;/a&gt; — an archive of version diffs for Agent CLI system prompts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iAmCorey/kooky"&gt;iAmCorey/kooky&lt;/a&gt; — a local terminal for AI coding, with workspace sidebars, split panes, and agent launching.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CarSmallGuo/deveco-code"&gt;CarSmallGuo/deveco-code&lt;/a&gt; — a DevEco Code related project.&lt;/p&gt;
+&lt;h3 id="programming--systems--developer-tools"&gt;Programming / Systems / Developer Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/microsoft/coreutils"&gt;microsoft/coreutils&lt;/a&gt; — a Coreutils installation and packaging project for Windows.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://microsoft.github.io/RustTraining/python-book/"&gt;Introduction - Rust for Python Programmers&lt;/a&gt; — an introduction to Rust for Python programmers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.gitbutler.com/true-grit"&gt;Grit: rewriting Git in Rust with agents&lt;/a&gt; — a GitButler article on rewriting Git with Rust and agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nkzw-tech/codiff"&gt;nkzw-tech/codiff&lt;/a&gt; — a fast local diff viewer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lbq110/weread-exporter"&gt;lbq110/weread-exporter&lt;/a&gt; — a WeRead full-book exporter based on Playwright and Canvas hooks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/qianchd/SnapTeX"&gt;qianchd/SnapTeX&lt;/a&gt; — a LaTeX / equation screenshot tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/philexohf/transformer-zh-en"&gt;philexohf/transformer-zh-en&lt;/a&gt; — a native PyTorch Transformer implementation for Chinese-English translation.&lt;/p&gt;
+&lt;h3 id="mathematics--statistics--signal-processing"&gt;Mathematics / Statistics / Signal Processing&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://xuankaiwang.github.io/"&gt;Statistics self-study guide&lt;/a&gt; — a self-study roadmap and resource list for statistics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nndl.ai/"&gt;Home · Dandelion Book Series&lt;/a&gt; — the entry point for the NNDL / Dandelion book series.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paidax01.github.io/math-curve-loaders/"&gt;Math Curve Loaders&lt;/a&gt; — a collection of mathematical curve loading animations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kconrad.math.uconn.edu/"&gt;Keith Conrad&amp;rsquo;s Home Page&lt;/a&gt; / &lt;a href="https://faculty.etsu.edu/gardnerr/courses.htm"&gt;Bob Gardner&amp;rsquo;s Courses&lt;/a&gt; — math course and lecture-note resources.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/compositional-muon"&gt;Towards Compositional Steepest Descent&lt;/a&gt; — Tilde&amp;rsquo;s article on Compositional Muon and steepest descent.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/1952792452579701056/answer/1955004809078892188"&gt;How to understand MCMC intuitively?&lt;/a&gt; — an intuitive explanation of MCMC.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jshn9515.github.io/deep-learning-notes/zh/index.html"&gt;Deep Learning Notes&lt;/a&gt; — Chinese deep-learning notes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xiyin137/QFT"&gt;xiyin137/QFT&lt;/a&gt; — a repository related to quantum field theory.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://beautifulzzzz.com/gnuradio/tutorial/topic/1"&gt;GNU Radio tutorial&lt;/a&gt; / &lt;a href="https://github.com/btfz-sdr/gnuradio_demo"&gt;btfz-sdr/gnuradio_demo&lt;/a&gt; — GNU Radio tutorials and demo projects.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/1976198515697934733/answer/2049378998531126721"&gt;Is it reasonable to love algebra and dislike probability, especially mathematical statistics?&lt;/a&gt; — a discussion about learning preferences across algebra, probability, and statistics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fermatslibrary.com/"&gt;Fermat&amp;rsquo;s Library&lt;/a&gt; — annotated classic papers and mathematical texts.&lt;/p&gt;
+&lt;h3 id="academic-writing--papers--knowledge-bases"&gt;Academic Writing / Papers / Knowledge Bases&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://vide.pascal-lab.net/"&gt;Vide&lt;/a&gt; — the VIDE project from PASCAL Lab.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://locowiki.github.io/"&gt;LocoWiki&lt;/a&gt; — an online wiki / knowledge-base project.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tobypenner.com/wikigraph/"&gt;Wikigraph&lt;/a&gt; — a tool for browsing Wiki content as a graph.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nlp.csai.tsinghua.edu.cn/~ly/talks/cwmt14_tut.pdf#page=1.00"&gt;Academic paper writing methods and techniques for machine translation&lt;/a&gt; — lecture slides on writing machine translation papers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"&gt;How the Open Knowledge Format can improve data sharing&lt;/a&gt; — a Google Cloud article on Open Knowledge Format and data sharing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/collections/PaddlePaddle/pp-ocrv6"&gt;PP-OCRv6&lt;/a&gt; — PaddleOCR v6 model collection.&lt;/p&gt;
+&lt;h3 id="design--visuals--reading"&gt;Design / Visuals / Reading&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://victorchen96.github.io/civ6/index.html"&gt;Civilization VI Encyclopedia&lt;/a&gt; — a Civilization VI encyclopedia.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sms.fur.li/"&gt;OPENAI(ChatGPT) SMS price comparison&lt;/a&gt; — price comparison for ChatGPT / OpenAI SMS receiving services.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://storiedcolors.com/browse/"&gt;Browse the Collection — Storied Colors&lt;/a&gt; — a color reference site organized around historical stories.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ogden.munch.love/"&gt;Ogden&amp;rsquo;s Basic English · 850-word handbook&lt;/a&gt; — learning resources for Basic English&amp;rsquo;s 850-word vocabulary.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--agent--programming-tools">AI / Agent / Programming Tools</h3>
+<p><a href="https://codex-reset-radar.pages.dev/">Codex Reset Radar</a> — a small tool for tracking Codex reset rhythms.</p>
+<p><a href="https://www.makingsoftware.com/">Making Software</a> — essays on software construction, engineering judgment, and product practice.</p>
+<p><a href="https://alignment.anthropic.com/">Alignment Science Blog</a> — Anthropic&rsquo;s alignment science blog.</p>
+<p><a href="https://github.com/galilai-group/stable-worldmodel">galilai-group/stable-worldmodel</a> — a reproducible experimental platform for world model research and evaluation.</p>
+<p><a href="https://weightwatcher.ai/">WeightWatcher</a> — a deep-learning model diagnostic tool that does not require training data.</p>
+<p><a href="https://github.com/NEKOparapa/AiNiee">NEKOparapa/AiNiee</a> — a one-click AI translation tool for complex long-form content such as games, novels, subtitles, PDFs, and Word documents.</p>
+<p><a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">Building a hill-climbing machine</a> — Microsoft AI&rsquo;s launch article for the MAI model series.</p>
+<p><a href="https://arxiv.org/abs/2605.23901">arXiv 2605.23901: LLMs as Noisy Channels</a> — a Seed team paper that views model capacity and scaling laws through Shannon&rsquo;s noisy-channel lens.</p>
+<p><a href="https://luk-huang.github.io/personal-website/blog/is-frontier-asynchronous-rl-solved.html">Is Frontier Asynchronous RL Solved?</a> — Luke Huang&rsquo;s overview of frontier asynchronous reinforcement learning.</p>
+<p><a href="https://arshiaafzal.github.io/blog/2026/pe/">On the Legacy of Linear Transformers in Positional Embeddings</a> — a look back at positional embeddings from the perspective of linear transformers.</p>
+<p><a href="https://arxiv.org/abs/2605.27365">arXiv 2605.27365: LocateAnything</a> — a vision-language grounding method with parallel box decoding.</p>
+<p><a href="https://github.com/asgeirtj/system_prompts_leaks/">asgeirtj/system_prompts_leaks</a> — a collection of system prompt snapshots from various AI tools.</p>
+<p><a href="https://phistory.cc/?agent=codex&amp;range=latest">Phistory</a> / <a href="https://github.com/WEIFENG2333/phistory">WEIFENG2333/phistory</a> — an archive of version diffs for Agent CLI system prompts.</p>
+<p><a href="https://github.com/iAmCorey/kooky">iAmCorey/kooky</a> — a local terminal for AI coding, with workspace sidebars, split panes, and agent launching.</p>
+<p><a href="https://github.com/CarSmallGuo/deveco-code">CarSmallGuo/deveco-code</a> — a DevEco Code related project.</p>
+<h3 id="programming--systems--developer-tools">Programming / Systems / Developer Tools</h3>
+<p><a href="https://github.com/microsoft/coreutils">microsoft/coreutils</a> — a Coreutils installation and packaging project for Windows.</p>
+<p><a href="https://microsoft.github.io/RustTraining/python-book/">Introduction - Rust for Python Programmers</a> — an introduction to Rust for Python programmers.</p>
+<p><a href="https://blog.gitbutler.com/true-grit">Grit: rewriting Git in Rust with agents</a> — a GitButler article on rewriting Git with Rust and agents.</p>
+<p><a href="https://github.com/nkzw-tech/codiff">nkzw-tech/codiff</a> — a fast local diff viewer.</p>
+<p><a href="https://github.com/lbq110/weread-exporter">lbq110/weread-exporter</a> — a WeRead full-book exporter based on Playwright and Canvas hooks.</p>
+<p><a href="https://github.com/qianchd/SnapTeX">qianchd/SnapTeX</a> — a LaTeX / equation screenshot tool.</p>
+<p><a href="https://github.com/philexohf/transformer-zh-en">philexohf/transformer-zh-en</a> — a native PyTorch Transformer implementation for Chinese-English translation.</p>
+<h3 id="mathematics--statistics--signal-processing">Mathematics / Statistics / Signal Processing</h3>
+<p><a href="https://xuankaiwang.github.io/">Statistics self-study guide</a> — a self-study roadmap and resource list for statistics.</p>
+<p><a href="https://nndl.ai/">Home · Dandelion Book Series</a> — the entry point for the NNDL / Dandelion book series.</p>
+<p><a href="https://paidax01.github.io/math-curve-loaders/">Math Curve Loaders</a> — a collection of mathematical curve loading animations.</p>
+<p><a href="https://kconrad.math.uconn.edu/">Keith Conrad&rsquo;s Home Page</a> / <a href="https://faculty.etsu.edu/gardnerr/courses.htm">Bob Gardner&rsquo;s Courses</a> — math course and lecture-note resources.</p>
+<p><a href="https://blog.tilderesearch.com/blog/compositional-muon">Towards Compositional Steepest Descent</a> — Tilde&rsquo;s article on Compositional Muon and steepest descent.</p>
+<p><a href="https://www.zhihu.com/question/1952792452579701056/answer/1955004809078892188">How to understand MCMC intuitively?</a> — an intuitive explanation of MCMC.</p>
+<p><a href="https://jshn9515.github.io/deep-learning-notes/zh/index.html">Deep Learning Notes</a> — Chinese deep-learning notes.</p>
+<p><a href="https://github.com/xiyin137/QFT">xiyin137/QFT</a> — a repository related to quantum field theory.</p>
+<p><a href="https://beautifulzzzz.com/gnuradio/tutorial/topic/1">GNU Radio tutorial</a> / <a href="https://github.com/btfz-sdr/gnuradio_demo">btfz-sdr/gnuradio_demo</a> — GNU Radio tutorials and demo projects.</p>
+<p><a href="https://www.zhihu.com/question/1976198515697934733/answer/2049378998531126721">Is it reasonable to love algebra and dislike probability, especially mathematical statistics?</a> — a discussion about learning preferences across algebra, probability, and statistics.</p>
+<p><a href="https://fermatslibrary.com/">Fermat&rsquo;s Library</a> — annotated classic papers and mathematical texts.</p>
+<h3 id="academic-writing--papers--knowledge-bases">Academic Writing / Papers / Knowledge Bases</h3>
+<p><a href="https://vide.pascal-lab.net/">Vide</a> — the VIDE project from PASCAL Lab.</p>
+<p><a href="https://locowiki.github.io/">LocoWiki</a> — an online wiki / knowledge-base project.</p>
+<p><a href="https://tobypenner.com/wikigraph/">Wikigraph</a> — a tool for browsing Wiki content as a graph.</p>
+<p><a href="https://nlp.csai.tsinghua.edu.cn/~ly/talks/cwmt14_tut.pdf#page=1.00">Academic paper writing methods and techniques for machine translation</a> — lecture slides on writing machine translation papers.</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/">How the Open Knowledge Format can improve data sharing</a> — a Google Cloud article on Open Knowledge Format and data sharing.</p>
+<p><a href="https://huggingface.co/collections/PaddlePaddle/pp-ocrv6">PP-OCRv6</a> — PaddleOCR v6 model collection.</p>
+<h3 id="design--visuals--reading">Design / Visuals / Reading</h3>
+<p><a href="https://victorchen96.github.io/civ6/index.html">Civilization VI Encyclopedia</a> — a Civilization VI encyclopedia.</p>
+<p><a href="https://sms.fur.li/">OPENAI(ChatGPT) SMS price comparison</a> — price comparison for ChatGPT / OpenAI SMS receiving services.</p>
+<p><a href="https://storiedcolors.com/browse/">Browse the Collection — Storied Colors</a> — a color reference site organized around historical stories.</p>
+<p><a href="https://ogden.munch.love/">Ogden&rsquo;s Basic English · 850-word handbook</a> — learning resources for Basic English&rsquo;s 850-word vocabulary.</p>
+]]></content:encoded></item><item><title>Weekly Issue 12</title><link>https://blog.yfff.me/en/weekly/week-12/</link><pubDate>Fri, 29 May 2026 18:48:47 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-12/</guid><description>&lt;h3 id="ai--agent--programming-tools"&gt;AI / Agent / Programming Tools&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://rdi.berkeley.edu/adv-llm-agents/sp25"&gt;CS294/194-280 Advanced Large Language Model Agents&lt;/a&gt; — UC Berkeley&amp;rsquo;s advanced LLM Agent course, useful for systematically learning agent architectures, evaluation, and practice.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://agenticai-learning.org/f24"&gt;Large Language Model Agents&lt;/a&gt; — an LLM Agent course homepage covering tool use, planning, memory, multi-agent systems, and other foundations.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://9router.com/"&gt;9Router - Free AI Router | Smart Fallback for Claude, Codex &amp;amp; More&lt;/a&gt; — a large-model gateway integrating RTK and Caveman Mode to save tokens.&lt;/p&gt;
