@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 17:40:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;hr&gt;
-&lt;h2 id="tags-personal-blog-weekly"&gt;title: Week-16
-created: 2026-07-12
-tags: [personal, blog, weekly]&lt;/h2&gt;
-&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 17:40:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://openai.com/index/gpt-5-6/"&gt;GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI&lt;/a&gt;：OpenAI 新一代 frontier 模型发布页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/__eknight__/status/2075643450196971805?s=20"&gt;Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture&lt;/a&gt;：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；&lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"&gt;proof&lt;/a&gt; · &lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf"&gt;prompt&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;多 Agent 搜索式证明的可用流程：&lt;/p&gt;
@@ -46,11 +42,7 @@ tags: [personal, blog, weekly]&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/johnfactotum/foliate"&gt;johnfactotum/foliate&lt;/a&gt;：Linux 上风格干净的电子书阅读器。&lt;/p&gt;
 &lt;h3 id="哲学--出版--其他"&gt;哲学 / 出版 / 其他&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.denizcemonduygu.com/philo/browse/"&gt;History of Philosophy - Summarized &amp;amp; Visualized&lt;/a&gt;：哲学史交互可视化与摘要。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.pubpub.org/explore"&gt;Explore · PubPub&lt;/a&gt;：开放出版与知识社区浏览入口。&lt;/p&gt;</description><content:encoded><![CDATA[<hr>
-<h2 id="tags-personal-blog-weekly">title: Week-16
-created: 2026-07-12
-tags: [personal, blog, weekly]</h2>
-<h3 id="ai--模型--多智能体">AI / 模型 / 多智能体</h3>
+&lt;p&gt;&lt;a href="https://www.pubpub.org/explore"&gt;Explore · PubPub&lt;/a&gt;：开放出版与知识社区浏览入口。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--多智能体">AI / 模型 / 多智能体</h3>
 <p><a href="https://openai.com/index/gpt-5-6/">GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI</a>：OpenAI 新一代 frontier 模型发布页。</p>
 <p><a href="https://x.com/__eknight__/status/2075643450196971805?s=20">Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture</a>：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；<a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf">proof</a> · <a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf">prompt</a>。</p>
 <p>多 Agent 搜索式证明的可用流程：</p>

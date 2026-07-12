@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 17:40:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;hr&gt;
-&lt;h2 id="tags-personal-blog-weekly"&gt;title: Week-16
-created: 2026-07-12
-tags: [personal, blog, weekly]&lt;/h2&gt;
-&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 17:40:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://openai.com/index/gpt-5-6/"&gt;GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI&lt;/a&gt;：OpenAI 新一代 frontier 模型发布页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/__eknight__/status/2075643450196971805?s=20"&gt;Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture&lt;/a&gt;：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；&lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"&gt;proof&lt;/a&gt; · &lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf"&gt;prompt&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;多 Agent 搜索式证明的可用流程：&lt;/p&gt;
@@ -46,11 +42,7 @@ tags: [personal, blog, weekly]&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/johnfactotum/foliate"&gt;johnfactotum/foliate&lt;/a&gt;：Linux 上风格干净的电子书阅读器。&lt;/p&gt;
 &lt;h3 id="哲学--出版--其他"&gt;哲学 / 出版 / 其他&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.denizcemonduygu.com/philo/browse/"&gt;History of Philosophy - Summarized &amp;amp; Visualized&lt;/a&gt;：哲学史交互可视化与摘要。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.pubpub.org/explore"&gt;Explore · PubPub&lt;/a&gt;：开放出版与知识社区浏览入口。&lt;/p&gt;</description><content:encoded><![CDATA[<hr>
-<h2 id="tags-personal-blog-weekly">title: Week-16
-created: 2026-07-12
-tags: [personal, blog, weekly]</h2>
-<h3 id="ai--模型--多智能体">AI / 模型 / 多智能体</h3>
+&lt;p&gt;&lt;a href="https://www.pubpub.org/explore"&gt;Explore · PubPub&lt;/a&gt;：开放出版与知识社区浏览入口。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--多智能体">AI / 模型 / 多智能体</h3>
 <p><a href="https://openai.com/index/gpt-5-6/">GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI</a>：OpenAI 新一代 frontier 模型发布页。</p>
 <p><a href="https://x.com/__eknight__/status/2075643450196971805?s=20">Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture</a>：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；<a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf">proof</a> · <a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf">prompt</a>。</p>
 <p>多 Agent 搜索式证明的可用流程：</p>
@@ -2533,11 +2525,4 @@ Github：<a href="https://github.com/agi-bar/neuDrive">agi-bar/neuDrive</a></p>
 <li><a href="https://github.com/lukilabs/beautiful-mermaid">GitHub - lukilabs/beautiful-mermaid</a>将 Mermaid 渲染为 SVG 和 ASCLL 字符画，由 <a href="https://www.craft.do">Craft</a> 团队打造，他们还做了一个 AI Agent 客户端<a href="https://agents.craft.do">Craft Agent</a>。</li>
 <li><a href="https://github.com/BIT-DataLab/Edit-Banana">GitHub - BIT-DataLab/Edit-Banana: Edit Banana: A framework for converting statistical formats into editable.</a>将 AI 生成的图片转换为可编辑内容，以支持 PPT 和 draw.io，方便快速制作流程图，论文示意图等。</li>
 </ul>
-]]></content:encoded></item><item><title>About Me</title><link>https://blog.yfff.me/about/</link><pubDate>Sat, 26 Apr 2025 00:15:20 +0800</pubDate><guid>https://blog.yfff.me/about/</guid><description>&lt;p&gt;你好，我是 yfff，一名硕士研究生在读。&lt;/p&gt;
-&lt;p&gt;我对 AI/ML/DL/LLM、优化和信号处理感兴趣。更宽泛地说，我关注智能系统如何从数据中学习，优化如何塑造学习过程，以及信号处理如何帮助我们从复杂观测中揭示结构。&lt;/p&gt;
-&lt;p&gt;我喜欢从第一性原理理解问题，尤其是那些能把优雅理论和实际系统连接起来的想法。这个博客用来记录我的笔记、想法和实验。&lt;/p&gt;
-&lt;p&gt;联系我：contact@yfff.me&lt;/p&gt;</description><content:encoded><![CDATA[<p>你好，我是 yfff，一名硕士研究生在读。</p>
-<p>我对 AI/ML/DL/LLM、优化和信号处理感兴趣。更宽泛地说，我关注智能系统如何从数据中学习，优化如何塑造学习过程，以及信号处理如何帮助我们从复杂观测中揭示结构。</p>
-<p>我喜欢从第一性原理理解问题，尤其是那些能把优雅理论和实际系统连接起来的想法。这个博客用来记录我的笔记、想法和实验。</p>
-<p>联系我：contact@yfff.me</p>
 ]]></content:encoded></item></channel></rss>
