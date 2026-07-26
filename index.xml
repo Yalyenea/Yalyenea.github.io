@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 19:43:38 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第17期周刊</title><link>https://blog.yfff.me/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 19:43:38 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-17/</guid><description>&lt;hr&gt;
-&lt;h2 id="tags-personal-blog-weekly"&gt;title: Week-17
-created: 2026-07-19
-tags: [personal, blog, weekly]&lt;/h2&gt;
-&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 21:00:39 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第17期周刊</title><link>https://blog.yfff.me/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 21:00:39 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-17/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"&gt;Soofi S — Sovereign German-English Foundation Model&lt;/a&gt;：Soofi Project 的德英双语基础模型预训练报告。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets"&gt;Learning from experience instead of curated datasets&lt;/a&gt; · &lt;a href="https://oaklab.ai/"&gt;Oak Lab&lt;/a&gt;：讨论智能体如何从经验而非人工整理的数据集中学习。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://thinkingmachines.ai/news/introducing-inkling/"&gt;Inkling: Our Open-Weights Model&lt;/a&gt;：Thinking Machines Lab 发布的开放权重模型。&lt;/p&gt;
@@ -112,11 +108,7 @@ tags: [personal, blog, weekly]&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://jobleap.cn/"&gt;jobleap&lt;/a&gt;：网申求职信息工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://eli.thegreenplace.net/"&gt;Eli Bendersky&amp;rsquo;s website&lt;/a&gt;：编程、计算机科学与技术文章。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/@ScenicRelaxationFilms"&gt;Scenic Relaxation&lt;/a&gt; · &lt;a href="https://www.youtube.com/@jacob_adler"&gt;Jacob Adler&lt;/a&gt; · &lt;a href="https://www.youtube.com/@RelaxationFilm"&gt;Relaxation Film&lt;/a&gt;：自然风景与放松影像频道。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/"&gt;There Is No Avenue of Communication Between You and God&lt;/a&gt;：一篇关于人与神之间不存在直接沟通渠道的随笔。&lt;/p&gt;</description><content:encoded><![CDATA[<hr>
-<h2 id="tags-personal-blog-weekly">title: Week-17
-created: 2026-07-19
-tags: [personal, blog, weekly]</h2>
-<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+&lt;p&gt;&lt;a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/"&gt;There Is No Avenue of Communication Between You and God&lt;/a&gt;：一篇关于人与神之间不存在直接沟通渠道的随笔。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
 <p><a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report">Soofi S — Sovereign German-English Foundation Model</a>：Soofi Project 的德英双语基础模型预训练报告。</p>
 <p><a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets">Learning from experience instead of curated datasets</a> · <a href="https://oaklab.ai/">Oak Lab</a>：讨论智能体如何从经验而非人工整理的数据集中学习。</p>
 <p><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model</a>：Thinking Machines Lab 发布的开放权重模型。</p>
