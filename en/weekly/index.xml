@@ -1,4 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 05 Jul 2026 01:45:17 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 15</title><link>https://blog.yfff.me/en/weekly/week-15/</link><pubDate>Sun, 05 Jul 2026 01:45:17 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-15/</guid><description>&lt;h3 id="ai--agent--programming-workflow"&gt;AI / Agent / Programming Workflow&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 26 Jul 2026 19:43:38 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 17</title><link>https://blog.yfff.me/en/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 19:43:38 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-17/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"&gt;Soofi S — Sovereign German-English Foundation Model&lt;/a&gt; — Soofi Project&amp;rsquo;s pretraining report for a German–English foundation model.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets"&gt;Learning from experience instead of curated datasets&lt;/a&gt; · &lt;a href="https://oaklab.ai/"&gt;Oak Lab&lt;/a&gt; — a discussion of how agents can learn from experience rather than curated datasets.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://thinkingmachines.ai/news/introducing-inkling/"&gt;Inkling: Our Open-Weights Model&lt;/a&gt; — an open-weights model released by Thinking Machines Lab.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ"&gt;Kimi K3: A New Frontier in Intelligence&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;amp;vd_source=cab65dba5bfc5080edba3dc8f737246c"&gt;A four-hour interview with Physical Intelligence&amp;rsquo;s Chelsea Finn&lt;/a&gt; — a conversation about PI&amp;rsquo;s open-model research, the evolution of robotics, and its major participants.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up"&gt;Have Chinese AI Models Caught Up to the US Frontier?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cursor.com/cn/blog/agent-swarm-model-economics"&gt;Agent Swarms and the New Economics of Models&lt;/a&gt; — Cursor&amp;rsquo;s discussion of agent swarms and their model economics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247494117&amp;amp;idx=1&amp;amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc"&gt;From Speaking to Creating: Seed Audio 1.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.10252"&gt;[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-s-2-1"&gt;Introducing Laguna S 2.1&lt;/a&gt; — Poolside&amp;rsquo;s release of Laguna S 2.1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://macaron.im/mindlab/research/macaron-v1-preview"&gt;Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2507.09369"&gt;[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence&lt;/a&gt;
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
+ alt="image.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.inductionlabs.com/news/scaling-video-pretraining"&gt;Scaling Video Pretraining with Imagination Models&lt;/a&gt; — Induction Labs pretrained Photon-1 from scratch on 575 million frames of computer-use data, using autoregressive training in latent space.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20548"&gt;[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales&lt;/a&gt; · &lt;a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers"&gt;NVIDIA-NeMo/Emerging-Optimizers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://next-state.github.io/open-dreamer/"&gt;How to train a frontier-level world model&lt;/a&gt; · &lt;a href="https://github.com/next-state/open-dreamer"&gt;next-state/open-dreamer&lt;/a&gt; — an open-source Dreamer implementation in JAX.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.rhoda.ai/research/direct-video-action"&gt;Causal Video Models Are Data-Efficient Robot Policy Learners&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ericjmichaud.com/interp-purpose/"&gt;What is the purpose of interpretability?&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dspillustrations.com/pages/index.html"&gt;DSPIllustrations.com&lt;/a&gt; — interactive illustrations for understanding digital signal processing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wirelesspi.com/"&gt;Wireless Pi&lt;/a&gt; — learning material on wireless communications and signal processing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewfoongyk.github.io/#intro-to-dl"&gt;intro-to-dl&lt;/a&gt; — an introductory deep-learning course.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1708.09093"&gt;[1708.09093] Memories of a Theoretical Physicist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.11664"&gt;[2607.11664] Lecture Notes: Convex Optimization&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/__alpoge__/status/2079028340955197566"&gt;Discussion of a three-dimensional map related to the Jacobian Conjecture&lt;/a&gt; — the original post gives a map from $\mathbb{C}^3$ to $\mathbb{C}^3$ and claims it is a counterexample; the conclusion should still be judged against a formal paper and peer review.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.ezyang.com/2019/05/pytorch-internals/"&gt;PyTorch internals&lt;/a&gt; — a guide to PyTorch&amp;rsquo;s internal mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openresearch.sh/"&gt;OpenResearch&lt;/a&gt; — an entry point for research resources and tools.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://c82.net/euclid/"&gt;Byrne’s Euclid&lt;/a&gt; — an online edition of Oliver Byrne&amp;rsquo;s colorful rendering of Euclid&amp;rsquo;s &lt;em&gt;Elements&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053"&gt;An introduction to the 2026 Fields Medals&lt;/a&gt; — a discussion of laureates Yu Deng and Hong Wang and their work.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://realpython.com/"&gt;Python Tutorials – Real Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20732"&gt;[2607.20732] librla: Randomized Linear Algebra Library&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.trysynara.com/"&gt;Synara&lt;/a&gt; — a development tool integrating Claude Code, Codex, Gemini, and Cursor.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatcut.io/chatgpt-plugin"&gt;ChatCut ChatGPT/Codex Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xai-org/grok-build"&gt;xai-org/grok-build&lt;/a&gt; — an open-source coding-agent harness and full-screen TUI.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ZacharyZhang-NY/Kigi-CLI"&gt;ZacharyZhang-NY/Kigi-CLI&lt;/a&gt; — an unofficial Rust community build of Kimi Code CLI based on Grok Build.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://offline.tldraw.com/"&gt;tldraw offline&lt;/a&gt; · &lt;a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view"&gt;nn-digits.tldraw example&lt;/a&gt; — an AI-operable desktop whiteboard.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/petersolopov/yace"&gt;petersolopov/yace&lt;/a&gt; — a browser code editor with plugin support in under 2 KB.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ayghri/i-have-adhd"&gt;ayghri/i-have-adhd&lt;/a&gt; — an Agent Skill that constrains Claude Code&amp;rsquo;s output and brings the answer forward.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mesamirh/MovieBox-Tui"&gt;mesamirh/MovieBox-Tui&lt;/a&gt; — a MovieBox terminal interface written in Rust.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chromewebstore.google.com/detail/chatgpt-table-of-contents/amhlkiabhpalhlnoimoinnbnonmkonhg?hl=en-US"&gt;ChatGPT Table of Contents&lt;/a&gt; — a browser extension that generates a table of contents for ChatGPT conversations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/marcelroed/gigatoken/#benchmarks"&gt;marcelroed/gigatoken&lt;/a&gt; — a language-model tokenizer designed for GB/s throughput.
+&lt;img
+ src="https://raw.githubusercontent.com/marcelroed/gigatoken/main/assets/throughput_owt_train_gpt-2.svg"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tangent.place/"&gt;Tangent&lt;/a&gt; — a browser centered on workflows and spatial organization.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tabularis.dev/blog/why-tabularis-runs-on-tauri"&gt;Why I chose Tauri, and what it cost me&lt;/a&gt; — Tabularis on the experience and cost of choosing Tauri.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/calicastle/skills"&gt;CaliCastle/skills&lt;/a&gt; — its Signal Geometry Skill turns one concept into a sparse abstract illustration or poster through precise geometry, low-contrast matte fields, and restrained spatial relationships.
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260723231636131.png"
+ alt="image.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nexu-io/codex-slides"&gt;nexu-io/codex-slides&lt;/a&gt; — an open-source AI slide studio inside Codex with support for research, outlining, rendering, editing, presenting, and export.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minibase.md/"&gt;Minibase&lt;/a&gt; — converts web pages to Markdown for Claude, ChatGPT, and Obsidian.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/l0ng-ai/tty7"&gt;l0ng-ai/tty7&lt;/a&gt; — a terminal workbench built in Rust with Zed&amp;rsquo;s GPUI, integrating shells, persistent sessions, SSH, and coding agents; the project reports roughly twice the throughput of Alacritty, Ghostty, or Kitty.&lt;/p&gt;
+&lt;h3 id="design--writing--creative-work"&gt;Design / Writing / Creative Work&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://namethatui.com/"&gt;NameThat&lt;/a&gt; — a visual dictionary of UI elements, useful for identifying unfamiliar patterns and describing design needs to AI more precisely.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.k-a.in/"&gt;Arjun Kocher&lt;/a&gt; — a portfolio website.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.makingsoftware.com/chapters/how-to-make-a-font"&gt;Making Software: How to make a font&lt;/a&gt; — a tutorial on making a font.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vercel.com/design.md"&gt;Vercel Design System&lt;/a&gt; · &lt;a href="https://vercel.com/design.dark.md"&gt;Dark&lt;/a&gt; — a complete set of guidelines for color tokens, typography, spacing, radii, components, motion, and writing. Its central principle is that color should communicate, not merely decorate.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feldar.com/"&gt;Feldar&lt;/a&gt; · &lt;a href="https://marker.page/"&gt;Marker&lt;/a&gt; · &lt;a href="https://ornata.app/#features"&gt;Ornata&lt;/a&gt; · &lt;a href="https://ishmael.textualize.io/"&gt;Ishmael&lt;/a&gt; — apps focused on concentration, thinking, or long-form writing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://attune.computer/"&gt;Attune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pixgel.d4mr.com/"&gt;pixgel&lt;/a&gt; — a liquid pixel-art editor with smooth SVG export.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/blakeshao/a-psychos-gd-tool"&gt;blakeshao/a-psychos-gd-tool&lt;/a&gt; — a node-based graphic-design tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typebulb.com/u/lab/you-re-relatively-right/full"&gt;You&amp;rsquo;re relatively right!&lt;/a&gt;
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
+ alt="QQ_1784653759506.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sticker.oooo.so/"&gt;Sticker Forge&lt;/a&gt; — an interactive sticker maker.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://canvasui.dev/"&gt;Canvas UI&lt;/a&gt; — a creative-canvas and WebGL component library.&lt;/p&gt;
+&lt;p&gt;Design inspiration and reference indexes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://posts.design"&gt;posts.design&lt;/a&gt; — social-post design&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://noiced.com"&gt;noiced.com&lt;/a&gt; — daily web-design inspiration&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mnmm.xyz"&gt;mnmm.xyz&lt;/a&gt; — a directory of minimalist websites&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ogpedia.xyz"&gt;ogpedia.xyz&lt;/a&gt; — OG image design&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://deck.gallery"&gt;deck.gallery&lt;/a&gt; — presentation design&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://logosystem.co"&gt;logosystem.co&lt;/a&gt; — logo-design examples&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://visualjournal.it"&gt;visualjournal.it&lt;/a&gt; — branding and editorial projects&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://brandguidelines.net"&gt;brandguidelines.net&lt;/a&gt; — a library of brand guidelines&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://recent.design"&gt;recent.design&lt;/a&gt; — recent design work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="news--life--other"&gt;News / Life / Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.saibojidan.com/"&gt;赛博鸡蛋&lt;/a&gt; — digital products, deals, and offers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://electroagenda.com/en/"&gt;Electroagenda&lt;/a&gt; — an electronic-music event calendar.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jobleap.cn/"&gt;jobleap&lt;/a&gt; — an online job-application information tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eli.thegreenplace.net/"&gt;Eli Bendersky&amp;rsquo;s website&lt;/a&gt; — writing on programming, computer science, and technology.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/@ScenicRelaxationFilms"&gt;Scenic Relaxation&lt;/a&gt; · &lt;a href="https://www.youtube.com/@jacob_adler"&gt;Jacob Adler&lt;/a&gt; · &lt;a href="https://www.youtube.com/@RelaxationFilm"&gt;Relaxation Film&lt;/a&gt; — channels featuring landscapes and relaxation films.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/"&gt;There Is No Avenue of Communication Between You and God&lt;/a&gt; — an essay about the absence of a direct channel of communication between people and God.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report">Soofi S — Sovereign German-English Foundation Model</a> — Soofi Project&rsquo;s pretraining report for a German–English foundation model.</p>
+<p><a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets">Learning from experience instead of curated datasets</a> · <a href="https://oaklab.ai/">Oak Lab</a> — a discussion of how agents can learn from experience rather than curated datasets.</p>
+<p><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model</a> — an open-weights model released by Thinking Machines Lab.</p>
+<p><a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ">Kimi K3: A New Frontier in Intelligence</a></p>
+<p><a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=cab65dba5bfc5080edba3dc8f737246c">A four-hour interview with Physical Intelligence&rsquo;s Chelsea Finn</a> — a conversation about PI&rsquo;s open-model research, the evolution of robotics, and its major participants.</p>
+<p><a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up">Have Chinese AI Models Caught Up to the US Frontier?</a></p>
+<p><a href="https://cursor.com/cn/blog/agent-swarm-model-economics">Agent Swarms and the New Economics of Models</a> — Cursor&rsquo;s discussion of agent swarms and their model economics.</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;mid=2247494117&amp;idx=1&amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc">From Speaking to Creating: Seed Audio 1.0</a></p>
+<p><a href="https://arxiv.org/abs/2607.10252">[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions</a></p>
+<p><a href="https://poolside.ai/blog/introducing-laguna-s-2-1">Introducing Laguna S 2.1</a> — Poolside&rsquo;s release of Laguna S 2.1.</p>
+<p><a href="https://macaron.im/mindlab/research/macaron-v1-preview">Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1</a></p>
+<p><a href="https://arxiv.org/abs/2507.09369">[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence</a>
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
+  alt="image.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.inductionlabs.com/news/scaling-video-pretraining">Scaling Video Pretraining with Imagination Models</a> — Induction Labs pretrained Photon-1 from scratch on 575 million frames of computer-use data, using autoregressive training in latent space.</p>
+<p><a href="https://arxiv.org/abs/2607.20548">[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales</a> · <a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers">NVIDIA-NeMo/Emerging-Optimizers</a></p>
+<p><a href="https://next-state.github.io/open-dreamer/">How to train a frontier-level world model</a> · <a href="https://github.com/next-state/open-dreamer">next-state/open-dreamer</a> — an open-source Dreamer implementation in JAX.</p>
+<p><a href="https://www.rhoda.ai/research/direct-video-action">Causal Video Models Are Data-Efficient Robot Policy Learners</a></p>
+<p><a href="https://ericjmichaud.com/interp-purpose/">What is the purpose of interpretability?</a></p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://dspillustrations.com/pages/index.html">DSPIllustrations.com</a> — interactive illustrations for understanding digital signal processing.</p>
+<p><a href="https://wirelesspi.com/">Wireless Pi</a> — learning material on wireless communications and signal processing.</p>
+<p><a href="https://andrewfoongyk.github.io/#intro-to-dl">intro-to-dl</a> — an introductory deep-learning course.</p>
+<p><a href="https://arxiv.org/abs/1708.09093">[1708.09093] Memories of a Theoretical Physicist</a></p>
+<p><a href="https://arxiv.org/abs/2607.11664">[2607.11664] Lecture Notes: Convex Optimization</a></p>
+<p><a href="https://x.com/__alpoge__/status/2079028340955197566">Discussion of a three-dimensional map related to the Jacobian Conjecture</a> — the original post gives a map from $\mathbb{C}^3$ to $\mathbb{C}^3$ and claims it is a counterexample; the conclusion should still be judged against a formal paper and peer review.</p>
+<p><a href="https://blog.ezyang.com/2019/05/pytorch-internals/">PyTorch internals</a> — a guide to PyTorch&rsquo;s internal mechanisms.</p>
+<p><a href="https://openresearch.sh/">OpenResearch</a> — an entry point for research resources and tools.</p>
+<p><a href="https://c82.net/euclid/">Byrne’s Euclid</a> — an online edition of Oliver Byrne&rsquo;s colorful rendering of Euclid&rsquo;s <em>Elements</em>.</p>
+<p><a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053">An introduction to the 2026 Fields Medals</a> — a discussion of laureates Yu Deng and Hong Wang and their work.</p>
+<p><a href="https://realpython.com/">Python Tutorials – Real Python</a></p>
+<p><a href="https://arxiv.org/abs/2607.20732">[2607.20732] librla: Randomized Linear Algebra Library</a></p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://www.trysynara.com/">Synara</a> — a development tool integrating Claude Code, Codex, Gemini, and Cursor.</p>
+<p><a href="https://chatcut.io/chatgpt-plugin">ChatCut ChatGPT/Codex Plugin</a></p>
+<p><a href="https://github.com/xai-org/grok-build">xai-org/grok-build</a> — an open-source coding-agent harness and full-screen TUI.</p>
+<p><a href="https://github.com/ZacharyZhang-NY/Kigi-CLI">ZacharyZhang-NY/Kigi-CLI</a> — an unofficial Rust community build of Kimi Code CLI based on Grok Build.</p>
+<p><a href="https://offline.tldraw.com/">tldraw offline</a> · <a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view">nn-digits.tldraw example</a> — an AI-operable desktop whiteboard.</p>
+<p><a href="https://github.com/petersolopov/yace">petersolopov/yace</a> — a browser code editor with plugin support in under 2 KB.</p>
+<p><a href="https://github.com/ayghri/i-have-adhd">ayghri/i-have-adhd</a> — an Agent Skill that constrains Claude Code&rsquo;s output and brings the answer forward.</p>
+<p><a href="https://github.com/mesamirh/MovieBox-Tui">mesamirh/MovieBox-Tui</a> — a MovieBox terminal interface written in Rust.</p>
+<p><a href="https://chromewebstore.google.com/detail/chatgpt-table-of-contents/amhlkiabhpalhlnoimoinnbnonmkonhg?hl=en-US">ChatGPT Table of Contents</a> — a browser extension that generates a table of contents for ChatGPT conversations.</p>
+<p><a href="https://github.com/marcelroed/gigatoken/#benchmarks">marcelroed/gigatoken</a> — a language-model tokenizer designed for GB/s throughput.
+<img
+  src="https://raw.githubusercontent.com/marcelroed/gigatoken/main/assets/throughput_owt_train_gpt-2.svg"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://tangent.place/">Tangent</a> — a browser centered on workflows and spatial organization.</p>
+<p><a href="https://tabularis.dev/blog/why-tabularis-runs-on-tauri">Why I chose Tauri, and what it cost me</a> — Tabularis on the experience and cost of choosing Tauri.</p>
+<p><a href="https://github.com/calicastle/skills">CaliCastle/skills</a> — its Signal Geometry Skill turns one concept into a sparse abstract illustration or poster through precise geometry, low-contrast matte fields, and restrained spatial relationships.
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260723231636131.png"
+  alt="image.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/nexu-io/codex-slides">nexu-io/codex-slides</a> — an open-source AI slide studio inside Codex with support for research, outlining, rendering, editing, presenting, and export.</p>
+<p><a href="https://www.minibase.md/">Minibase</a> — converts web pages to Markdown for Claude, ChatGPT, and Obsidian.</p>
+<p><a href="https://github.com/l0ng-ai/tty7">l0ng-ai/tty7</a> — a terminal workbench built in Rust with Zed&rsquo;s GPUI, integrating shells, persistent sessions, SSH, and coding agents; the project reports roughly twice the throughput of Alacritty, Ghostty, or Kitty.</p>
+<h3 id="design--writing--creative-work">Design / Writing / Creative Work</h3>
+<p><a href="https://namethatui.com/">NameThat</a> — a visual dictionary of UI elements, useful for identifying unfamiliar patterns and describing design needs to AI more precisely.</p>
+<p><a href="https://www.k-a.in/">Arjun Kocher</a> — a portfolio website.</p>
+<p><a href="https://www.makingsoftware.com/chapters/how-to-make-a-font">Making Software: How to make a font</a> — a tutorial on making a font.</p>
+<p><a href="https://vercel.com/design.md">Vercel Design System</a> · <a href="https://vercel.com/design.dark.md">Dark</a> — a complete set of guidelines for color tokens, typography, spacing, radii, components, motion, and writing. Its central principle is that color should communicate, not merely decorate.</p>
+<p><a href="https://feldar.com/">Feldar</a> · <a href="https://marker.page/">Marker</a> · <a href="https://ornata.app/#features">Ornata</a> · <a href="https://ishmael.textualize.io/">Ishmael</a> — apps focused on concentration, thinking, or long-form writing.</p>
+<p><a href="https://attune.computer/">Attune</a></p>
+<p><a href="https://pixgel.d4mr.com/">pixgel</a> — a liquid pixel-art editor with smooth SVG export.</p>
+<p><a href="https://github.com/blakeshao/a-psychos-gd-tool">blakeshao/a-psychos-gd-tool</a> — a node-based graphic-design tool.</p>
+<p><a href="https://typebulb.com/u/lab/you-re-relatively-right/full">You&rsquo;re relatively right!</a>
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
+  alt="QQ_1784653759506.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://sticker.oooo.so/">Sticker Forge</a> — an interactive sticker maker.</p>
+<p><a href="https://canvasui.dev/">Canvas UI</a> — a creative-canvas and WebGL component library.</p>
+<p>Design inspiration and reference indexes:</p>
+<ul>
+<li><a href="http://posts.design">posts.design</a> — social-post design</li>
+<li><a href="http://noiced.com">noiced.com</a> — daily web-design inspiration</li>
+<li><a href="http://mnmm.xyz">mnmm.xyz</a> — a directory of minimalist websites</li>
+<li><a href="http://ogpedia.xyz">ogpedia.xyz</a> — OG image design</li>
+<li><a href="http://deck.gallery">deck.gallery</a> — presentation design</li>
+<li><a href="http://logosystem.co">logosystem.co</a> — logo-design examples</li>
+<li><a href="http://visualjournal.it">visualjournal.it</a> — branding and editorial projects</li>
+<li><a href="http://brandguidelines.net">brandguidelines.net</a> — a library of brand guidelines</li>
+<li><a href="http://recent.design">recent.design</a> — recent design work</li>
+</ul>
+<h3 id="news--life--other">News / Life / Other</h3>
+<p><a href="https://www.saibojidan.com/">赛博鸡蛋</a> — digital products, deals, and offers.</p>
+<p><a href="https://electroagenda.com/en/">Electroagenda</a> — an electronic-music event calendar.</p>
+<p><a href="https://jobleap.cn/">jobleap</a> — an online job-application information tool.</p>
+<p><a href="https://eli.thegreenplace.net/">Eli Bendersky&rsquo;s website</a> — writing on programming, computer science, and technology.</p>
+<p><a href="https://www.youtube.com/@ScenicRelaxationFilms">Scenic Relaxation</a> · <a href="https://www.youtube.com/@jacob_adler">Jacob Adler</a> · <a href="https://www.youtube.com/@RelaxationFilm">Relaxation Film</a> — channels featuring landscapes and relaxation films.</p>
+<p><a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/">There Is No Avenue of Communication Between You and God</a> — an essay about the absence of a direct channel of communication between people and God.</p>
+]]></content:encoded></item><item><title>Weekly Issue 15</title><link>https://blog.yfff.me/en/weekly/week-15/</link><pubDate>Sun, 05 Jul 2026 01:45:17 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-15/</guid><description>&lt;h3 id="ai--agent--programming-workflow"&gt;AI / Agent / Programming Workflow&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://manggo.pylogmon.com"&gt;Manggo&lt;/a&gt; — a new translation tool from the author of Pot after Pot entered maintenance mode. The original &lt;a href="https://pot-app.com/"&gt;Pot&lt;/a&gt; is still useful migration context.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/opendatalab/Sciverse-Agent-Tools"&gt;opendatalab/Sciverse-Agent-Tools&lt;/a&gt; — agent tool schemas and SDKs for the Sciverse Open Platform, organizing retrieval capabilities into standard tools that LLM agents can call.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://terax.app/"&gt;Terax&lt;/a&gt; — a terminal-first AI-native development workspace that brings AI development workflows back into the terminal.&lt;/p&gt;

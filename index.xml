@@ -1,4 +1,233 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 12 Jul 2026 17:40:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Jul 2026 19:43:38 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第17期周刊</title><link>https://blog.yfff.me/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 19:43:38 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-17/</guid><description>&lt;hr&gt;
+&lt;h2 id="tags-personal-blog-weekly"&gt;title: Week-17
+created: 2026-07-19
+tags: [personal, blog, weekly]&lt;/h2&gt;
+&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"&gt;Soofi S — Sovereign German-English Foundation Model&lt;/a&gt;：Soofi Project 的德英双语基础模型预训练报告。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets"&gt;Learning from experience instead of curated datasets&lt;/a&gt; · &lt;a href="https://oaklab.ai/"&gt;Oak Lab&lt;/a&gt;：讨论智能体如何从经验而非人工整理的数据集中学习。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://thinkingmachines.ai/news/introducing-inkling/"&gt;Inkling: Our Open-Weights Model&lt;/a&gt;：Thinking Machines Lab 发布的开放权重模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ"&gt;Kimi K3：智能的新前沿&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;amp;vd_source=cab65dba5bfc5080edba3dc8f737246c"&gt;对 Physical Intelligence 柯丽一鸣的四小时访谈&lt;/a&gt;：涉及 PI 的开源模型研究、机器人领域的发展脉络与主要参与者。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up"&gt;Have Chinese AI Models Caught Up to the US Frontier?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cursor.com/cn/blog/agent-swarm-model-economics"&gt;智能体蜂群与新的模型经济学&lt;/a&gt;：Cursor 对 agent swarm 及其模型经济学的讨论。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247494117&amp;amp;idx=1&amp;amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc"&gt;从“会说”走向“会创作”｜Seed Audio 1.0 音频创作模型发布&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.10252"&gt;[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-s-2-1"&gt;Introducing Laguna S 2.1&lt;/a&gt;：Poolside 发布 Laguna S 2.1。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://macaron.im/mindlab/research/macaron-v1-preview"&gt;Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2507.09369"&gt;[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence&lt;/a&gt;
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
+ alt="image.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.inductionlabs.com/news/scaling-video-pretraining"&gt;Scaling Video Pretraining with Imagination Models&lt;/a&gt;：Induction Labs 在 5.75 亿帧计算机使用数据上从头预训练 Photon-1，并在 latent 空间中进行自回归训练。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20548"&gt;[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales&lt;/a&gt; · &lt;a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers"&gt;NVIDIA-NeMo/Emerging-Optimizers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://next-state.github.io/open-dreamer/"&gt;How to train a frontier-level world model&lt;/a&gt; · &lt;a href="https://github.com/next-state/open-dreamer"&gt;next-state/open-dreamer&lt;/a&gt;：使用 JAX 实现的开源 Dreamer。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.rhoda.ai/research/direct-video-action"&gt;Causal Video Models Are Data-Efficient Robot Policy Learners&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ericjmichaud.com/interp-purpose/"&gt;What is the purpose of interpretability?&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dspillustrations.com/pages/index.html"&gt;DSPIllustrations.com&lt;/a&gt;：通过交互式图示理解数字信号处理。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://wirelesspi.com/"&gt;Wireless Pi&lt;/a&gt;：无线通信与信号处理学习资料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://andrewfoongyk.github.io/#intro-to-dl"&gt;intro-to-dl&lt;/a&gt;：深度学习入门课程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1708.09093"&gt;[1708.09093] Memories of a Theoretical Physicist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.11664"&gt;[2607.11664] Lecture Notes: Convex Optimization&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/__alpoge__/status/2079028340955197566"&gt;关于 Jacobian 猜想三维映射的讨论&lt;/a&gt;：原帖给出一个 $\mathbb{C}^3 \to \mathbb{C}^3$ 映射并宣称构成反例；结论仍需以正式论文和同行检验为准。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.ezyang.com/2019/05/pytorch-internals/"&gt;PyTorch internals&lt;/a&gt;：PyTorch 内部机制导读。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openresearch.sh/"&gt;OpenResearch&lt;/a&gt;：研究资源与工具入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://c82.net/euclid/"&gt;Byrne’s Euclid&lt;/a&gt;：Oliver Byrne 彩色版《几何原本》的在线版本。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053"&gt;2026 年菲尔兹奖相关介绍&lt;/a&gt;：关于获奖者邓煜、王虹及其工作的解读。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://realpython.com/"&gt;Python Tutorials – Real Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20732"&gt;[2607.20732] librla: Randomized Linear Algebra Library&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.trysynara.com/"&gt;Synara&lt;/a&gt;：集成 Claude Code、Codex、Gemini 与 Cursor 的开发工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatcut.io/chatgpt-plugin"&gt;ChatCut ChatGPT/Codex Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xai-org/grok-build"&gt;xai-org/grok-build&lt;/a&gt;：开源的 coding agent harness 与全屏 TUI。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ZacharyZhang-NY/Kigi-CLI"&gt;ZacharyZhang-NY/Kigi-CLI&lt;/a&gt;：基于 Grok Build 的非官方 Kimi Code CLI 社区版本，使用 Rust 开发。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://offline.tldraw.com/"&gt;tldraw offline&lt;/a&gt; · &lt;a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view"&gt;nn-digits.tldraw 示例&lt;/a&gt;：可由 AI 操作的桌面白板。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/petersolopov/yace"&gt;petersolopov/yace&lt;/a&gt;：不到 2 KB、支持插件的浏览器代码编辑器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ayghri/i-have-adhd"&gt;ayghri/i-have-adhd&lt;/a&gt;：约束 Claude Code 输出、突出答案的 Agent Skill。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mesamirh/MovieBox-Tui"&gt;mesamirh/MovieBox-Tui&lt;/a&gt;：使用 Rust 开发的 MovieBox 终端界面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chromewebstore.google.com/detail/chatgpt-table-of-contents/amhlkiabhpalhlnoimoinnbnonmkonhg?hl=en-US"&gt;ChatGPT Table of Contents&lt;/a&gt;：为 ChatGPT 对话生成目录的浏览器扩展。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/marcelroed/gigatoken/#benchmarks"&gt;marcelroed/gigatoken&lt;/a&gt;：面向 GB/s 吞吐量的语言模型 tokenizer。
+&lt;img
+ src="https://raw.githubusercontent.com/marcelroed/gigatoken/main/assets/throughput_owt_train_gpt-2.svg"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tangent.place/"&gt;Tangent&lt;/a&gt;：一款强调工作流与空间组织的浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tabularis.dev/blog/why-tabularis-runs-on-tauri"&gt;Why I chose Tauri, and what it cost me&lt;/a&gt;：Tabularis 选择 Tauri 的经验与代价。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/calicastle/skills"&gt;CaliCastle/skills&lt;/a&gt;：其中 Signal Geometry Skill 用精确几何、低对比哑光色块和克制的空间关系，将单一概念转化为稀疏抽象插画或海报。
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260723231636131.png"
+ alt="image.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nexu-io/codex-slides"&gt;nexu-io/codex-slides&lt;/a&gt;：运行在 Codex 中的开源 AI 幻灯片工作室，支持研究、提纲、渲染、编辑、演示和导出。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minibase.md/"&gt;Minibase&lt;/a&gt;：将网页转换为适合 Claude、ChatGPT 与 Obsidian 使用的 Markdown。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/l0ng-ai/tty7"&gt;l0ng-ai/tty7&lt;/a&gt;：使用 Rust 与 Zed GPUI 开发的终端工作台，集成 shell、持久会话、SSH 和 coding agent；项目称其吞吐量约为 Alacritty、Ghostty 或 Kitty 的两倍。&lt;/p&gt;
+&lt;h3 id="设计--写作--创作"&gt;设计 / 写作 / 创作&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://namethatui.com/"&gt;NameThat&lt;/a&gt;：UI 视觉词典，适合查找不熟悉的界面元素名称，也便于更准确地向 AI 描述设计需求。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.k-a.in/"&gt;Arjun Kocher&lt;/a&gt;：个人作品集网站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.makingsoftware.com/chapters/how-to-make-a-font"&gt;Making Software: How to make a font&lt;/a&gt;：字体制作教程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vercel.com/design.md"&gt;Vercel Design System&lt;/a&gt; · &lt;a href="https://vercel.com/design.dark.md"&gt;Dark&lt;/a&gt;：完整的颜色 token、字体、间距、圆角、组件、动效与文案规范；核心原则是让颜色传达信息，而非仅作装饰。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feldar.com/"&gt;Feldar&lt;/a&gt; · &lt;a href="https://marker.page/"&gt;Marker&lt;/a&gt; · &lt;a href="https://ornata.app/#features"&gt;Ornata&lt;/a&gt; · &lt;a href="https://ishmael.textualize.io/"&gt;Ishmael&lt;/a&gt;：几款强调专注、思考或长篇写作的应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://attune.computer/"&gt;Attune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pixgel.d4mr.com/"&gt;pixgel&lt;/a&gt;：可导出平滑 SVG 的液态像素画编辑器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/blakeshao/a-psychos-gd-tool"&gt;blakeshao/a-psychos-gd-tool&lt;/a&gt;：节点式图形设计工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typebulb.com/u/lab/you-re-relatively-right/full"&gt;You&amp;rsquo;re relatively right!&lt;/a&gt;
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
+ alt="QQ_1784653759506.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sticker.oooo.so/"&gt;Sticker Forge&lt;/a&gt;：交互式贴纸制作工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://canvasui.dev/"&gt;Canvas UI&lt;/a&gt;：创意画布与 WebGL 组件库。&lt;/p&gt;
+&lt;p&gt;设计灵感与资料索引：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://posts.design"&gt;posts.design&lt;/a&gt;：社交帖子设计&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://noiced.com"&gt;noiced.com&lt;/a&gt;：每日网页设计灵感&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mnmm.xyz"&gt;mnmm.xyz&lt;/a&gt;：极简网站目录&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ogpedia.xyz"&gt;ogpedia.xyz&lt;/a&gt;：OG 图片设计&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://deck.gallery"&gt;deck.gallery&lt;/a&gt;：演示文稿设计&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://logosystem.co"&gt;logosystem.co&lt;/a&gt;：标志设计案例&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://visualjournal.it"&gt;visualjournal.it&lt;/a&gt;：品牌与编辑项目&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://brandguidelines.net"&gt;brandguidelines.net&lt;/a&gt;：品牌指南库&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://recent.design"&gt;recent.design&lt;/a&gt;：近期设计作品&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="资讯--生活--其他"&gt;资讯 / 生活 / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.saibojidan.com/"&gt;赛博鸡蛋&lt;/a&gt;：数字产品与优惠信息。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://electroagenda.com/en/"&gt;Electroagenda&lt;/a&gt;：电子音乐活动日历。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jobleap.cn/"&gt;jobleap&lt;/a&gt;：网申求职信息工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eli.thegreenplace.net/"&gt;Eli Bendersky&amp;rsquo;s website&lt;/a&gt;：编程、计算机科学与技术文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/@ScenicRelaxationFilms"&gt;Scenic Relaxation&lt;/a&gt; · &lt;a href="https://www.youtube.com/@jacob_adler"&gt;Jacob Adler&lt;/a&gt; · &lt;a href="https://www.youtube.com/@RelaxationFilm"&gt;Relaxation Film&lt;/a&gt;：自然风景与放松影像频道。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/"&gt;There Is No Avenue of Communication Between You and God&lt;/a&gt;：一篇关于人与神之间不存在直接沟通渠道的随笔。&lt;/p&gt;</description><content:encoded><![CDATA[<hr>
+<h2 id="tags-personal-blog-weekly">title: Week-17
+created: 2026-07-19
+tags: [personal, blog, weekly]</h2>
+<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report">Soofi S — Sovereign German-English Foundation Model</a>：Soofi Project 的德英双语基础模型预训练报告。</p>
+<p><a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets">Learning from experience instead of curated datasets</a> · <a href="https://oaklab.ai/">Oak Lab</a>：讨论智能体如何从经验而非人工整理的数据集中学习。</p>
+<p><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model</a>：Thinking Machines Lab 发布的开放权重模型。</p>
+<p><a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ">Kimi K3：智能的新前沿</a></p>
+<p><a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=cab65dba5bfc5080edba3dc8f737246c">对 Physical Intelligence 柯丽一鸣的四小时访谈</a>：涉及 PI 的开源模型研究、机器人领域的发展脉络与主要参与者。</p>
+<p><a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up">Have Chinese AI Models Caught Up to the US Frontier?</a></p>
+<p><a href="https://cursor.com/cn/blog/agent-swarm-model-economics">智能体蜂群与新的模型经济学</a>：Cursor 对 agent swarm 及其模型经济学的讨论。</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;mid=2247494117&amp;idx=1&amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc">从“会说”走向“会创作”｜Seed Audio 1.0 音频创作模型发布</a></p>
+<p><a href="https://arxiv.org/abs/2607.10252">[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions</a></p>
+<p><a href="https://poolside.ai/blog/introducing-laguna-s-2-1">Introducing Laguna S 2.1</a>：Poolside 发布 Laguna S 2.1。</p>
+<p><a href="https://macaron.im/mindlab/research/macaron-v1-preview">Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1</a></p>
+<p><a href="https://arxiv.org/abs/2507.09369">[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence</a>
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
+  alt="image.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.inductionlabs.com/news/scaling-video-pretraining">Scaling Video Pretraining with Imagination Models</a>：Induction Labs 在 5.75 亿帧计算机使用数据上从头预训练 Photon-1，并在 latent 空间中进行自回归训练。</p>
+<p><a href="https://arxiv.org/abs/2607.20548">[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales</a> · <a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers">NVIDIA-NeMo/Emerging-Optimizers</a></p>
+<p><a href="https://next-state.github.io/open-dreamer/">How to train a frontier-level world model</a> · <a href="https://github.com/next-state/open-dreamer">next-state/open-dreamer</a>：使用 JAX 实现的开源 Dreamer。</p>
+<p><a href="https://www.rhoda.ai/research/direct-video-action">Causal Video Models Are Data-Efficient Robot Policy Learners</a></p>
+<p><a href="https://ericjmichaud.com/interp-purpose/">What is the purpose of interpretability?</a></p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://dspillustrations.com/pages/index.html">DSPIllustrations.com</a>：通过交互式图示理解数字信号处理。</p>
+<p><a href="https://wirelesspi.com/">Wireless Pi</a>：无线通信与信号处理学习资料。</p>
+<p><a href="https://andrewfoongyk.github.io/#intro-to-dl">intro-to-dl</a>：深度学习入门课程。</p>
+<p><a href="https://arxiv.org/abs/1708.09093">[1708.09093] Memories of a Theoretical Physicist</a></p>
+<p><a href="https://arxiv.org/abs/2607.11664">[2607.11664] Lecture Notes: Convex Optimization</a></p>
+<p><a href="https://x.com/__alpoge__/status/2079028340955197566">关于 Jacobian 猜想三维映射的讨论</a>：原帖给出一个 $\mathbb{C}^3 \to \mathbb{C}^3$ 映射并宣称构成反例；结论仍需以正式论文和同行检验为准。</p>
+<p><a href="https://blog.ezyang.com/2019/05/pytorch-internals/">PyTorch internals</a>：PyTorch 内部机制导读。</p>
+<p><a href="https://openresearch.sh/">OpenResearch</a>：研究资源与工具入口。</p>
+<p><a href="https://c82.net/euclid/">Byrne’s Euclid</a>：Oliver Byrne 彩色版《几何原本》的在线版本。</p>
+<p><a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053">2026 年菲尔兹奖相关介绍</a>：关于获奖者邓煜、王虹及其工作的解读。</p>
+<p><a href="https://realpython.com/">Python Tutorials – Real Python</a></p>
+<p><a href="https://arxiv.org/abs/2607.20732">[2607.20732] librla: Randomized Linear Algebra Library</a></p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://www.trysynara.com/">Synara</a>：集成 Claude Code、Codex、Gemini 与 Cursor 的开发工具。</p>
+<p><a href="https://chatcut.io/chatgpt-plugin">ChatCut ChatGPT/Codex Plugin</a></p>
+<p><a href="https://github.com/xai-org/grok-build">xai-org/grok-build</a>：开源的 coding agent harness 与全屏 TUI。</p>
+<p><a href="https://github.com/ZacharyZhang-NY/Kigi-CLI">ZacharyZhang-NY/Kigi-CLI</a>：基于 Grok Build 的非官方 Kimi Code CLI 社区版本，使用 Rust 开发。</p>
+<p><a href="https://offline.tldraw.com/">tldraw offline</a> · <a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view">nn-digits.tldraw 示例</a>：可由 AI 操作的桌面白板。</p>
+<p><a href="https://github.com/petersolopov/yace">petersolopov/yace</a>：不到 2 KB、支持插件的浏览器代码编辑器。</p>
+<p><a href="https://github.com/ayghri/i-have-adhd">ayghri/i-have-adhd</a>：约束 Claude Code 输出、突出答案的 Agent Skill。</p>
+<p><a href="https://github.com/mesamirh/MovieBox-Tui">mesamirh/MovieBox-Tui</a>：使用 Rust 开发的 MovieBox 终端界面。</p>
+<p><a href="https://chromewebstore.google.com/detail/chatgpt-table-of-contents/amhlkiabhpalhlnoimoinnbnonmkonhg?hl=en-US">ChatGPT Table of Contents</a>：为 ChatGPT 对话生成目录的浏览器扩展。</p>
+<p><a href="https://github.com/marcelroed/gigatoken/#benchmarks">marcelroed/gigatoken</a>：面向 GB/s 吞吐量的语言模型 tokenizer。
+<img
+  src="https://raw.githubusercontent.com/marcelroed/gigatoken/main/assets/throughput_owt_train_gpt-2.svg"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://tangent.place/">Tangent</a>：一款强调工作流与空间组织的浏览器。</p>
+<p><a href="https://tabularis.dev/blog/why-tabularis-runs-on-tauri">Why I chose Tauri, and what it cost me</a>：Tabularis 选择 Tauri 的经验与代价。</p>
+<p><a href="https://github.com/calicastle/skills">CaliCastle/skills</a>：其中 Signal Geometry Skill 用精确几何、低对比哑光色块和克制的空间关系，将单一概念转化为稀疏抽象插画或海报。
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260723231636131.png"
+  alt="image.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://github.com/nexu-io/codex-slides">nexu-io/codex-slides</a>：运行在 Codex 中的开源 AI 幻灯片工作室，支持研究、提纲、渲染、编辑、演示和导出。</p>
+<p><a href="https://www.minibase.md/">Minibase</a>：将网页转换为适合 Claude、ChatGPT 与 Obsidian 使用的 Markdown。</p>
+<p><a href="https://github.com/l0ng-ai/tty7">l0ng-ai/tty7</a>：使用 Rust 与 Zed GPUI 开发的终端工作台，集成 shell、持久会话、SSH 和 coding agent；项目称其吞吐量约为 Alacritty、Ghostty 或 Kitty 的两倍。</p>
+<h3 id="设计--写作--创作">设计 / 写作 / 创作</h3>
+<p><a href="https://namethatui.com/">NameThat</a>：UI 视觉词典，适合查找不熟悉的界面元素名称，也便于更准确地向 AI 描述设计需求。</p>
+<p><a href="https://www.k-a.in/">Arjun Kocher</a>：个人作品集网站。</p>
+<p><a href="https://www.makingsoftware.com/chapters/how-to-make-a-font">Making Software: How to make a font</a>：字体制作教程。</p>
+<p><a href="https://vercel.com/design.md">Vercel Design System</a> · <a href="https://vercel.com/design.dark.md">Dark</a>：完整的颜色 token、字体、间距、圆角、组件、动效与文案规范；核心原则是让颜色传达信息，而非仅作装饰。</p>
+<p><a href="https://feldar.com/">Feldar</a> · <a href="https://marker.page/">Marker</a> · <a href="https://ornata.app/#features">Ornata</a> · <a href="https://ishmael.textualize.io/">Ishmael</a>：几款强调专注、思考或长篇写作的应用。</p>
+<p><a href="https://attune.computer/">Attune</a></p>
+<p><a href="https://pixgel.d4mr.com/">pixgel</a>：可导出平滑 SVG 的液态像素画编辑器。</p>
+<p><a href="https://github.com/blakeshao/a-psychos-gd-tool">blakeshao/a-psychos-gd-tool</a>：节点式图形设计工具。</p>
+<p><a href="https://typebulb.com/u/lab/you-re-relatively-right/full">You&rsquo;re relatively right!</a>
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
+  alt="QQ_1784653759506.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://sticker.oooo.so/">Sticker Forge</a>：交互式贴纸制作工具。</p>
+<p><a href="https://canvasui.dev/">Canvas UI</a>：创意画布与 WebGL 组件库。</p>
+<p>设计灵感与资料索引：</p>
+<ul>
+<li><a href="http://posts.design">posts.design</a>：社交帖子设计</li>
+<li><a href="http://noiced.com">noiced.com</a>：每日网页设计灵感</li>
+<li><a href="http://mnmm.xyz">mnmm.xyz</a>：极简网站目录</li>
+<li><a href="http://ogpedia.xyz">ogpedia.xyz</a>：OG 图片设计</li>
+<li><a href="http://deck.gallery">deck.gallery</a>：演示文稿设计</li>
+<li><a href="http://logosystem.co">logosystem.co</a>：标志设计案例</li>
+<li><a href="http://visualjournal.it">visualjournal.it</a>：品牌与编辑项目</li>
+<li><a href="http://brandguidelines.net">brandguidelines.net</a>：品牌指南库</li>
+<li><a href="http://recent.design">recent.design</a>：近期设计作品</li>
+</ul>
+<h3 id="资讯--生活--其他">资讯 / 生活 / 其他</h3>
+<p><a href="https://www.saibojidan.com/">赛博鸡蛋</a>：数字产品与优惠信息。</p>
+<p><a href="https://electroagenda.com/en/">Electroagenda</a>：电子音乐活动日历。</p>
+<p><a href="https://jobleap.cn/">jobleap</a>：网申求职信息工具。</p>
+<p><a href="https://eli.thegreenplace.net/">Eli Bendersky&rsquo;s website</a>：编程、计算机科学与技术文章。</p>
+<p><a href="https://www.youtube.com/@ScenicRelaxationFilms">Scenic Relaxation</a> · <a href="https://www.youtube.com/@jacob_adler">Jacob Adler</a> · <a href="https://www.youtube.com/@RelaxationFilm">Relaxation Film</a>：自然风景与放松影像频道。</p>
+<p><a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/">There Is No Avenue of Communication Between You and God</a>：一篇关于人与神之间不存在直接沟通渠道的随笔。</p>
+]]></content:encoded></item><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://openai.com/index/gpt-5-6/"&gt;GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI&lt;/a&gt;：OpenAI 新一代 frontier 模型发布页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/__eknight__/status/2075643450196971805?s=20"&gt;Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture&lt;/a&gt;：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；&lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"&gt;proof&lt;/a&gt; · &lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf"&gt;prompt&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;多 Agent 搜索式证明的可用流程：&lt;/p&gt;
