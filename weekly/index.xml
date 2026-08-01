@@ -1,4 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 04:02:26 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第17期周刊</title><link>https://blog.yfff.me/weekly/week-17/</link><pubDate>Sun, 02 Aug 2026 04:02:26 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-17/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 04:02:26 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第18期周刊</title><link>https://blog.yfff.me/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 04:02:26 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-18/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3"&gt;moonshotai/Kimi-K3 · Hugging Face&lt;/a&gt;：Moonshot 发布的 Kimi K3 模型权重与模型卡。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/waterloo_intern/status/2081762065392541951"&gt;X 上的 ali：“22580: From GPT2 to Kimi3, Explained”&lt;/a&gt;：从 GPT-2 到 Kimi K3 的架构演进串讲。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-kimi-k3"&gt;cneuralnetwork/smol-kimi-k3&lt;/a&gt;：约 49M 参数的 Kimi K3 风格小模型，可在单卡 8GB GPU 上训练。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-glm-5.2"&gt;cneuralnetwork/smol-glm-5.2&lt;/a&gt;：约 50M 参数的 GLM-5.2 架构研究，含 MLA、DSA、IndexShare、sparse MoE、shared MTP 与 Muon Split。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1"&gt;Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ&lt;/a&gt;：Nvidia 投资 Ilya Sutskever 的 SSI，以扩展算力与合作触达。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.greene.sh/compression-and-intelligence/"&gt;Compression and Intelligence — Ryan Greene&lt;/a&gt;：讨论压缩、智能与 LLM 之间的关系。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://physics.allen-zhu.com/"&gt;Physics of Language Models&lt;/a&gt;：Allen Zhu 等的语言模型“物理”研究系列：从架构与训练机制解释 LLM 行为。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kexue.fm/archives/11833"&gt;解构 Scaling Law：优化、架构、数据的三重奏 - 科学空间&lt;/a&gt;：从优化、架构与数据三方面拆解 scaling law 的形成与约束。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/MinghuiChen43/awesome-deep-phenomena"&gt;MinghuiChen43/awesome-deep-phenomena&lt;/a&gt;：持续更新的深度学习有趣经验现象与论文列表。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pair.withgoogle.com/explorables/"&gt;AI Explorables | PAIR&lt;/a&gt;：Google PAIR 的交互式 AI 概念探索页，用可视化帮助理解模型机制。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e"&gt;Looped Transformer | alphaXiv&lt;/a&gt;：Looped Transformer 相关论文合集。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043"&gt;Towards Looped Models Done Right&lt;/a&gt;：讨论如何正确设计与训练 looped / 循环式模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alexiglad.github.io/blog/2026/explorative_modeling/"&gt;Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone&lt;/a&gt;：提出探索式建模作为预训练的第三条轴。核心思路示例：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;losses&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;K&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;generation&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# e.g., from a different random noise&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loss_fn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generation&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;backward&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# only the best generation gets gradients&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若把 $\min_{i} \mathcal{L}_{i}$ 推广为更一般的 $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$，会得到怎样的优化动力学？&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.22951"&gt;[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning&lt;/a&gt;：论证自然语言的幂律不对称分布有助于组合推理，而非应被均匀化。
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
+ alt="QQ_1785589438460.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.enigma.inc/posts/obsessed-encoder"&gt;Enigma: Robots that feel right&lt;/a&gt;：Enigma 介绍其机器人系统：理解环境并做出“体感正确”的动作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/maka-agent/maka-agent"&gt;maka-agent/maka-agent&lt;/a&gt;：本地优先的 AI 桌面助手。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiviq.substack.com/"&gt;ArXivIQ | Grigory Sapunov | Substack&lt;/a&gt;：人工精选 ML 论文 + AI 生成深度解读；每日 TLDR 与架构笔记。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ulam.ai/blog"&gt;Blog - Ulam&lt;/a&gt; · &lt;a href="https://www.ulam.ai/research"&gt;Research - Ulam&lt;/a&gt;：AI 研究与 DeepAlgebra 等相关项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://haoailab.com/cse234-w25/"&gt;Home | CSE 234&lt;/a&gt;：CSE 234 Machine Learning Systems 课程主页。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"&gt;Mathematics in the age of AI&lt;/a&gt;：Terence Tao 在 ICM 2026 相关场合的幻灯片。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/"&gt;What Is the Inverse Covariance Matrix?&lt;/a&gt;：从统计与几何视角解释精度矩阵（逆协方差）的含义与用途。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.21716"&gt;[2607.21716] A Defense of the Quadratic Model&lt;/a&gt;：为优化理论中的二次模型辩护：在可处理性与真实 loss landscape 之间权衡。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html"&gt;AI Agents for the Working Mathematician&lt;/a&gt;：面向工作中数学家的 AI agent 使用经验与工作流。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/feige-conjecture.html"&gt;Prompting Toward a Conjecture - Guanyang Wang&lt;/a&gt;：多一句“检索文献”如何改变 GPT-5.6 Sol Ultra 在 Feige $1/e$ 猜想上的成功率。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html"&gt;用 LLM 生成证明并完成形式化验证 - Guanyang Wang&lt;/a&gt;：LLM 生成证明 + Lean 形式化验证的工作范式；以 1997 KTV 猜想二元矩阵情形为例。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/ten-advances-in-mathematics/"&gt;Ten advances in mathematics and theoretical computer science | OpenAI&lt;/a&gt;：OpenAI 汇总的十项数学与理论计算机科学进展。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.unsolvedmath.com/"&gt;UnsolvedMath&lt;/a&gt;：开放数学问题仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.openproblemgarden.org/"&gt;Home | Open Problem Garden&lt;/a&gt;：数学开放问题目录与社区园地。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://optimization-online.org/"&gt;Optimization Online&lt;/a&gt;：优化及相关主题的 Eprint 仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/"&gt;Trouble in High-Dimensional Land - Dibya&amp;rsquo;s Blog&lt;/a&gt;：高维几何与概率中的反直觉现象。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/faridrashidi/cnsplots"&gt;faridrashidi/cnsplots&lt;/a&gt;：面向 Cell / Nature / Science 风格的出版级绘图工具包。&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://herdr.dev/"&gt;Herdr: one terminal for the whole herd&lt;/a&gt;：Agent multiplexer，一个终端管理整群 agent。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.shuffleapp.co/"&gt;Shuffle - A fast, native file manager for macOS&lt;/a&gt;：免费开源的 macOS 原生文件管理器（Rust + GPU 渲染），双栏、标签、命令面板与终端模式。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abue-ammar.github.io/tinycast/#gallery"&gt;Tinycast — a tiny, native macOS launcher&lt;/a&gt;：轻量原生 macOS 启动器，模糊搜索、计算器、剪贴板历史与全局快捷键。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch"&gt;Rust Vs C++ - LLM coded model conversion from PyTorch&lt;/a&gt;：用 LLM 将 PyTorch 模型转换逻辑在 Rust 与 C++ 间对照实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/icebird1998/drawio-scientific-illustrator"&gt;icebird1998/drawio-scientific-illustrator&lt;/a&gt;：通过 MCP 逐步控制 draw.io 画布，做科学插图。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zeronsh/chat"&gt;zeronsh/chat&lt;/a&gt;：统一接入 Claude、OpenAI、Gemini 等多模型的 AI 聊天应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terminal-browser.com/"&gt;terminal-browser&lt;/a&gt;：直接运行在终端里的真实浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://codex-reset.com/"&gt;Codex Reset — Last Reset Tracker &amp;amp; Live Forecast&lt;/a&gt;：Codex 用量重置时间追踪与 24h/48h 预测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://modal.com/gpu-glossary"&gt;GPU Glossary&lt;/a&gt;：Modal 维护的 GPU 术语表。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ascend-ai-coding/awesome-ascend-skills"&gt;ascend-ai-coding/awesome-ascend-skills&lt;/a&gt;：华为昇腾 NPU 开发知识库，按分布式 Agent Skills 组织。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC"&gt;豆包搜索 Custom 版&lt;/a&gt;：火山引擎豆包搜索文档；每月免费 500 次。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iv-org/invidious"&gt;iv-org/invidious&lt;/a&gt;：YouTube 替代前端。&lt;/p&gt;
+&lt;h3 id="设计--写作--其他"&gt;设计 / 写作 / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://argon.red/"&gt;://argon.red&lt;/a&gt;：设计师 blog；相关讨论见 &lt;a href="https://x.com/alpha_argon/status/2081710366711808031"&gt;X 上的 Alpha Argon&lt;/a&gt;。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3 · Hugging Face</a>：Moonshot 发布的 Kimi K3 模型权重与模型卡。</p>
+<p><a href="https://x.com/waterloo_intern/status/2081762065392541951">X 上的 ali：“22580: From GPT2 to Kimi3, Explained”</a>：从 GPT-2 到 Kimi K3 的架构演进串讲。</p>
+<p><a href="https://github.com/cneuralnetwork/smol-kimi-k3">cneuralnetwork/smol-kimi-k3</a>：约 49M 参数的 Kimi K3 风格小模型，可在单卡 8GB GPU 上训练。</p>
+<p><a href="https://github.com/cneuralnetwork/smol-glm-5.2">cneuralnetwork/smol-glm-5.2</a>：约 50M 参数的 GLM-5.2 架构研究，含 MLA、DSA、IndexShare、sparse MoE、shared MTP 与 Muon Split。</p>
+<p><a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1">Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ</a>：Nvidia 投资 Ilya Sutskever 的 SSI，以扩展算力与合作触达。</p>
+<p><a href="https://www.greene.sh/compression-and-intelligence/">Compression and Intelligence — Ryan Greene</a>：讨论压缩、智能与 LLM 之间的关系。</p>
+<p><a href="https://physics.allen-zhu.com/">Physics of Language Models</a>：Allen Zhu 等的语言模型“物理”研究系列：从架构与训练机制解释 LLM 行为。</p>
+<p><a href="https://kexue.fm/archives/11833">解构 Scaling Law：优化、架构、数据的三重奏 - 科学空间</a>：从优化、架构与数据三方面拆解 scaling law 的形成与约束。</p>
+<p><a href="https://github.com/MinghuiChen43/awesome-deep-phenomena">MinghuiChen43/awesome-deep-phenomena</a>：持续更新的深度学习有趣经验现象与论文列表。</p>
+<p><a href="https://pair.withgoogle.com/explorables/">AI Explorables | PAIR</a>：Google PAIR 的交互式 AI 概念探索页，用可视化帮助理解模型机制。</p>
+<p><a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e">Looped Transformer | alphaXiv</a>：Looped Transformer 相关论文合集。</p>
+<p><a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043">Towards Looped Models Done Right</a>：讨论如何正确设计与训练 looped / 循环式模型。</p>
+<p><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone</a>：提出探索式建模作为预训练的第三条轴。核心思路示例：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">losses</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">K</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">generation</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">generate</span><span class="p">()</span>  <span class="c1"># e.g., from a different random noise</span>
+</span></span><span class="line"><span class="cl">    <span class="n">losses</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">generation</span><span class="p">,</span> <span class="n">data</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">min</span><span class="p">(</span><span class="n">losses</span><span class="p">)</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>  <span class="c1"># only the best generation gets gradients</span>
+</span></span></code></pre></div><p>若把 $\min_{i} \mathcal{L}_{i}$ 推广为更一般的 $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$，会得到怎样的优化动力学？</p>
+<p><a href="https://arxiv.org/abs/2604.22951">[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning</a>：论证自然语言的幂律不对称分布有助于组合推理，而非应被均匀化。
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
+  alt="QQ_1785589438460.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.enigma.inc/posts/obsessed-encoder">Enigma: Robots that feel right</a>：Enigma 介绍其机器人系统：理解环境并做出“体感正确”的动作。</p>
+<p><a href="https://github.com/maka-agent/maka-agent">maka-agent/maka-agent</a>：本地优先的 AI 桌面助手。</p>
+<p><a href="https://arxiviq.substack.com/">ArXivIQ | Grigory Sapunov | Substack</a>：人工精选 ML 论文 + AI 生成深度解读；每日 TLDR 与架构笔记。</p>
+<p><a href="https://www.ulam.ai/blog">Blog - Ulam</a> · <a href="https://www.ulam.ai/research">Research - Ulam</a>：AI 研究与 DeepAlgebra 等相关项目。</p>
+<p><a href="https://haoailab.com/cse234-w25/">Home | CSE 234</a>：CSE 234 Machine Learning Systems 课程主页。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf">Mathematics in the age of AI</a>：Terence Tao 在 ICM 2026 相关场合的幻灯片。</p>
+<p><a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/">What Is the Inverse Covariance Matrix?</a>：从统计与几何视角解释精度矩阵（逆协方差）的含义与用途。</p>
+<p><a href="https://arxiv.org/abs/2607.21716">[2607.21716] A Defense of the Quadratic Model</a>：为优化理论中的二次模型辩护：在可处理性与真实 loss landscape 之间权衡。</p>
+<p><a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html">AI Agents for the Working Mathematician</a>：面向工作中数学家的 AI agent 使用经验与工作流。</p>
+<p><a href="https://guanyangwang.github.io/blog/feige-conjecture.html">Prompting Toward a Conjecture - Guanyang Wang</a>：多一句“检索文献”如何改变 GPT-5.6 Sol Ultra 在 Feige $1/e$ 猜想上的成功率。</p>
+<p><a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html">用 LLM 生成证明并完成形式化验证 - Guanyang Wang</a>：LLM 生成证明 + Lean 形式化验证的工作范式；以 1997 KTV 猜想二元矩阵情形为例。</p>
+<p><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science | OpenAI</a>：OpenAI 汇总的十项数学与理论计算机科学进展。</p>
+<p><a href="https://www.unsolvedmath.com/">UnsolvedMath</a>：开放数学问题仓库。</p>
+<p><a href="https://www.openproblemgarden.org/">Home | Open Problem Garden</a>：数学开放问题目录与社区园地。</p>
+<p><a href="https://optimization-online.org/">Optimization Online</a>：优化及相关主题的 Eprint 仓库。</p>
+<p><a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/">Trouble in High-Dimensional Land - Dibya&rsquo;s Blog</a>：高维几何与概率中的反直觉现象。</p>
+<p><a href="https://github.com/faridrashidi/cnsplots">faridrashidi/cnsplots</a>：面向 Cell / Nature / Science 风格的出版级绘图工具包。</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://herdr.dev/">Herdr: one terminal for the whole herd</a>：Agent multiplexer，一个终端管理整群 agent。</p>
+<p><a href="https://www.shuffleapp.co/">Shuffle - A fast, native file manager for macOS</a>：免费开源的 macOS 原生文件管理器（Rust + GPU 渲染），双栏、标签、命令面板与终端模式。</p>
+<p><a href="https://abue-ammar.github.io/tinycast/#gallery">Tinycast — a tiny, native macOS launcher</a>：轻量原生 macOS 启动器，模糊搜索、计算器、剪贴板历史与全局快捷键。</p>
+<p><a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch">Rust Vs C++ - LLM coded model conversion from PyTorch</a>：用 LLM 将 PyTorch 模型转换逻辑在 Rust 与 C++ 间对照实现。</p>
+<p><a href="https://github.com/icebird1998/drawio-scientific-illustrator">icebird1998/drawio-scientific-illustrator</a>：通过 MCP 逐步控制 draw.io 画布，做科学插图。</p>
+<p><a href="https://github.com/zeronsh/chat">zeronsh/chat</a>：统一接入 Claude、OpenAI、Gemini 等多模型的 AI 聊天应用。</p>
+<p><a href="https://terminal-browser.com/">terminal-browser</a>：直接运行在终端里的真实浏览器。</p>
+<p><a href="https://codex-reset.com/">Codex Reset — Last Reset Tracker &amp; Live Forecast</a>：Codex 用量重置时间追踪与 24h/48h 预测。</p>
+<p><a href="https://modal.com/gpu-glossary">GPU Glossary</a>：Modal 维护的 GPU 术语表。</p>
+<p><a href="https://github.com/ascend-ai-coding/awesome-ascend-skills">ascend-ai-coding/awesome-ascend-skills</a>：华为昇腾 NPU 开发知识库，按分布式 Agent Skills 组织。</p>
+<p><a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC">豆包搜索 Custom 版</a>：火山引擎豆包搜索文档；每月免费 500 次。</p>
+<p><a href="https://github.com/iv-org/invidious">iv-org/invidious</a>：YouTube 替代前端。</p>
+<h3 id="设计--写作--其他">设计 / 写作 / 其他</h3>
+<p><a href="https://argon.red/">://argon.red</a>：设计师 blog；相关讨论见 <a href="https://x.com/alpha_argon/status/2081710366711808031">X 上的 Alpha Argon</a>。</p>
+]]></content:encoded></item><item><title>第17期周刊</title><link>https://blog.yfff.me/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 21:00:39 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-17/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"&gt;Soofi S — Sovereign German-English Foundation Model&lt;/a&gt;：Soofi Project 的德英双语基础模型预训练报告。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets"&gt;Learning from experience instead of curated datasets&lt;/a&gt; · &lt;a href="https://oaklab.ai/"&gt;Oak Lab&lt;/a&gt;：讨论智能体如何从经验而非人工整理的数据集中学习。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://thinkingmachines.ai/news/introducing-inkling/"&gt;Inkling: Our Open-Weights Model&lt;/a&gt;：Thinking Machines Lab 发布的开放权重模型。&lt;/p&gt;
@@ -219,129 +342,6 @@
 <p><a href="https://eli.thegreenplace.net/">Eli Bendersky&rsquo;s website</a>：编程、计算机科学与技术文章。</p>
 <p><a href="https://www.youtube.com/@ScenicRelaxationFilms">Scenic Relaxation</a> · <a href="https://www.youtube.com/@jacob_adler">Jacob Adler</a> · <a href="https://www.youtube.com/@RelaxationFilm">Relaxation Film</a>：自然风景与放松影像频道。</p>
 <p><a href="https://mikaelhuuhtanen.com/scratchpad/there-is-no-avenue-of-communication-between-you-and-god/">There Is No Avenue of Communication Between You and God</a>：一篇关于人与神之间不存在直接沟通渠道的随笔。</p>
-]]></content:encoded></item><item><title>第18期周刊</title><link>https://blog.yfff.me/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 04:02:26 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-18/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3"&gt;moonshotai/Kimi-K3 · Hugging Face&lt;/a&gt;：Moonshot 发布的 Kimi K3 模型权重与模型卡。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://x.com/waterloo_intern/status/2081762065392541951"&gt;X 上的 ali：“22580: From GPT2 to Kimi3, Explained”&lt;/a&gt;：从 GPT-2 到 Kimi K3 的架构演进串讲。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-kimi-k3"&gt;cneuralnetwork/smol-kimi-k3&lt;/a&gt;：约 49M 参数的 Kimi K3 风格小模型，可在单卡 8GB GPU 上训练。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-glm-5.2"&gt;cneuralnetwork/smol-glm-5.2&lt;/a&gt;：约 50M 参数的 GLM-5.2 架构研究，含 MLA、DSA、IndexShare、sparse MoE、shared MTP 与 Muon Split。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1"&gt;Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ&lt;/a&gt;：Nvidia 投资 Ilya Sutskever 的 SSI，以扩展算力与合作触达。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.greene.sh/compression-and-intelligence/"&gt;Compression and Intelligence — Ryan Greene&lt;/a&gt;：讨论压缩、智能与 LLM 之间的关系。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://physics.allen-zhu.com/"&gt;Physics of Language Models&lt;/a&gt;：Allen Zhu 等的语言模型“物理”研究系列：从架构与训练机制解释 LLM 行为。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kexue.fm/archives/11833"&gt;解构 Scaling Law：优化、架构、数据的三重奏 - 科学空间&lt;/a&gt;：从优化、架构与数据三方面拆解 scaling law 的形成与约束。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/MinghuiChen43/awesome-deep-phenomena"&gt;MinghuiChen43/awesome-deep-phenomena&lt;/a&gt;：持续更新的深度学习有趣经验现象与论文列表。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://pair.withgoogle.com/explorables/"&gt;AI Explorables | PAIR&lt;/a&gt;：Google PAIR 的交互式 AI 概念探索页，用可视化帮助理解模型机制。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e"&gt;Looped Transformer | alphaXiv&lt;/a&gt;：Looped Transformer 相关论文合集。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043"&gt;Towards Looped Models Done Right&lt;/a&gt;：讨论如何正确设计与训练 looped / 循环式模型。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://alexiglad.github.io/blog/2026/explorative_modeling/"&gt;Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone&lt;/a&gt;：提出探索式建模作为预训练的第三条轴。核心思路示例：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;losses&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;K&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;generation&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# e.g., from a different random noise&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loss_fn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generation&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;backward&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# only the best generation gets gradients&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若把 $\min_{i} \mathcal{L}_{i}$ 推广为更一般的 $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$，会得到怎样的优化动力学？&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.22951"&gt;[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning&lt;/a&gt;：论证自然语言的幂律不对称分布有助于组合推理，而非应被均匀化。
-&lt;img
- src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
- alt="QQ_1785589438460.png"
- 
- loading="lazy"
- decoding="async"
-&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.enigma.inc/posts/obsessed-encoder"&gt;Enigma: Robots that feel right&lt;/a&gt;：Enigma 介绍其机器人系统：理解环境并做出“体感正确”的动作。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/maka-agent/maka-agent"&gt;maka-agent/maka-agent&lt;/a&gt;：本地优先的 AI 桌面助手。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiviq.substack.com/"&gt;ArXivIQ | Grigory Sapunov | Substack&lt;/a&gt;：人工精选 ML 论文 + AI 生成深度解读；每日 TLDR 与架构笔记。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.ulam.ai/blog"&gt;Blog - Ulam&lt;/a&gt; · &lt;a href="https://www.ulam.ai/research"&gt;Research - Ulam&lt;/a&gt;：AI 研究与 DeepAlgebra 等相关项目。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://haoailab.com/cse234-w25/"&gt;Home | CSE 234&lt;/a&gt;：CSE 234 Machine Learning Systems 课程主页。&lt;/p&gt;
-&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"&gt;Mathematics in the age of AI&lt;/a&gt;：Terence Tao 在 ICM 2026 相关场合的幻灯片。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/"&gt;What Is the Inverse Covariance Matrix?&lt;/a&gt;：从统计与几何视角解释精度矩阵（逆协方差）的含义与用途。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.21716"&gt;[2607.21716] A Defense of the Quadratic Model&lt;/a&gt;：为优化理论中的二次模型辩护：在可处理性与真实 loss landscape 之间权衡。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html"&gt;AI Agents for the Working Mathematician&lt;/a&gt;：面向工作中数学家的 AI agent 使用经验与工作流。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/feige-conjecture.html"&gt;Prompting Toward a Conjecture - Guanyang Wang&lt;/a&gt;：多一句“检索文献”如何改变 GPT-5.6 Sol Ultra 在 Feige $1/e$ 猜想上的成功率。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html"&gt;用 LLM 生成证明并完成形式化验证 - Guanyang Wang&lt;/a&gt;：LLM 生成证明 + Lean 形式化验证的工作范式；以 1997 KTV 猜想二元矩阵情形为例。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://openai.com/index/ten-advances-in-mathematics/"&gt;Ten advances in mathematics and theoretical computer science | OpenAI&lt;/a&gt;：OpenAI 汇总的十项数学与理论计算机科学进展。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.unsolvedmath.com/"&gt;UnsolvedMath&lt;/a&gt;：开放数学问题仓库。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.openproblemgarden.org/"&gt;Home | Open Problem Garden&lt;/a&gt;：数学开放问题目录与社区园地。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://optimization-online.org/"&gt;Optimization Online&lt;/a&gt;：优化及相关主题的 Eprint 仓库。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/"&gt;Trouble in High-Dimensional Land - Dibya&amp;rsquo;s Blog&lt;/a&gt;：高维几何与概率中的反直觉现象。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/faridrashidi/cnsplots"&gt;faridrashidi/cnsplots&lt;/a&gt;：面向 Cell / Nature / Science 风格的出版级绘图工具包。&lt;/p&gt;
-&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://herdr.dev/"&gt;Herdr: one terminal for the whole herd&lt;/a&gt;：Agent multiplexer，一个终端管理整群 agent。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.shuffleapp.co/"&gt;Shuffle - A fast, native file manager for macOS&lt;/a&gt;：免费开源的 macOS 原生文件管理器（Rust + GPU 渲染），双栏、标签、命令面板与终端模式。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://abue-ammar.github.io/tinycast/#gallery"&gt;Tinycast — a tiny, native macOS launcher&lt;/a&gt;：轻量原生 macOS 启动器，模糊搜索、计算器、剪贴板历史与全局快捷键。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch"&gt;Rust Vs C++ - LLM coded model conversion from PyTorch&lt;/a&gt;：用 LLM 将 PyTorch 模型转换逻辑在 Rust 与 C++ 间对照实现。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/icebird1998/drawio-scientific-illustrator"&gt;icebird1998/drawio-scientific-illustrator&lt;/a&gt;：通过 MCP 逐步控制 draw.io 画布，做科学插图。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/zeronsh/chat"&gt;zeronsh/chat&lt;/a&gt;：统一接入 Claude、OpenAI、Gemini 等多模型的 AI 聊天应用。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://terminal-browser.com/"&gt;terminal-browser&lt;/a&gt;：直接运行在终端里的真实浏览器。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://codex-reset.com/"&gt;Codex Reset — Last Reset Tracker &amp;amp; Live Forecast&lt;/a&gt;：Codex 用量重置时间追踪与 24h/48h 预测。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://modal.com/gpu-glossary"&gt;GPU Glossary&lt;/a&gt;：Modal 维护的 GPU 术语表。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/ascend-ai-coding/awesome-ascend-skills"&gt;ascend-ai-coding/awesome-ascend-skills&lt;/a&gt;：华为昇腾 NPU 开发知识库，按分布式 Agent Skills 组织。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC"&gt;豆包搜索 Custom 版&lt;/a&gt;：火山引擎豆包搜索文档；每月免费 500 次。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/iv-org/invidious"&gt;iv-org/invidious&lt;/a&gt;：YouTube 替代前端。&lt;/p&gt;
-&lt;h3 id="设计--写作--其他"&gt;设计 / 写作 / 其他&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://argon.red/"&gt;://argon.red&lt;/a&gt;：设计师 blog；相关讨论见 &lt;a href="https://x.com/alpha_argon/status/2081710366711808031"&gt;X 上的 Alpha Argon&lt;/a&gt;。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
-<p><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3 · Hugging Face</a>：Moonshot 发布的 Kimi K3 模型权重与模型卡。</p>
-<p><a href="https://x.com/waterloo_intern/status/2081762065392541951">X 上的 ali：“22580: From GPT2 to Kimi3, Explained”</a>：从 GPT-2 到 Kimi K3 的架构演进串讲。</p>
-<p><a href="https://github.com/cneuralnetwork/smol-kimi-k3">cneuralnetwork/smol-kimi-k3</a>：约 49M 参数的 Kimi K3 风格小模型，可在单卡 8GB GPU 上训练。</p>
-<p><a href="https://github.com/cneuralnetwork/smol-glm-5.2">cneuralnetwork/smol-glm-5.2</a>：约 50M 参数的 GLM-5.2 架构研究，含 MLA、DSA、IndexShare、sparse MoE、shared MTP 与 Muon Split。</p>
-<p><a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1">Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ</a>：Nvidia 投资 Ilya Sutskever 的 SSI，以扩展算力与合作触达。</p>
-<p><a href="https://www.greene.sh/compression-and-intelligence/">Compression and Intelligence — Ryan Greene</a>：讨论压缩、智能与 LLM 之间的关系。</p>
-<p><a href="https://physics.allen-zhu.com/">Physics of Language Models</a>：Allen Zhu 等的语言模型“物理”研究系列：从架构与训练机制解释 LLM 行为。</p>
-<p><a href="https://kexue.fm/archives/11833">解构 Scaling Law：优化、架构、数据的三重奏 - 科学空间</a>：从优化、架构与数据三方面拆解 scaling law 的形成与约束。</p>
-<p><a href="https://github.com/MinghuiChen43/awesome-deep-phenomena">MinghuiChen43/awesome-deep-phenomena</a>：持续更新的深度学习有趣经验现象与论文列表。</p>
-<p><a href="https://pair.withgoogle.com/explorables/">AI Explorables | PAIR</a>：Google PAIR 的交互式 AI 概念探索页，用可视化帮助理解模型机制。</p>
-<p><a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e">Looped Transformer | alphaXiv</a>：Looped Transformer 相关论文合集。</p>
-<p><a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043">Towards Looped Models Done Right</a>：讨论如何正确设计与训练 looped / 循环式模型。</p>
-<p><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone</a>：提出探索式建模作为预训练的第三条轴。核心思路示例：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">losses</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">K</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">generation</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">generate</span><span class="p">()</span>  <span class="c1"># e.g., from a different random noise</span>
-</span></span><span class="line"><span class="cl">    <span class="n">losses</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">generation</span><span class="p">,</span> <span class="n">data</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="nb">min</span><span class="p">(</span><span class="n">losses</span><span class="p">)</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>  <span class="c1"># only the best generation gets gradients</span>
-</span></span></code></pre></div><p>若把 $\min_{i} \mathcal{L}_{i}$ 推广为更一般的 $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$，会得到怎样的优化动力学？</p>
-<p><a href="https://arxiv.org/abs/2604.22951">[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning</a>：论证自然语言的幂律不对称分布有助于组合推理，而非应被均匀化。
-<img
-  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
-  alt="QQ_1785589438460.png"
-  
-  loading="lazy"
-  decoding="async"
->
-</p>
-<p><a href="https://www.enigma.inc/posts/obsessed-encoder">Enigma: Robots that feel right</a>：Enigma 介绍其机器人系统：理解环境并做出“体感正确”的动作。</p>
-<p><a href="https://github.com/maka-agent/maka-agent">maka-agent/maka-agent</a>：本地优先的 AI 桌面助手。</p>
-<p><a href="https://arxiviq.substack.com/">ArXivIQ | Grigory Sapunov | Substack</a>：人工精选 ML 论文 + AI 生成深度解读；每日 TLDR 与架构笔记。</p>
-<p><a href="https://www.ulam.ai/blog">Blog - Ulam</a> · <a href="https://www.ulam.ai/research">Research - Ulam</a>：AI 研究与 DeepAlgebra 等相关项目。</p>
-<p><a href="https://haoailab.com/cse234-w25/">Home | CSE 234</a>：CSE 234 Machine Learning Systems 课程主页。</p>
-<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
-<p><a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf">Mathematics in the age of AI</a>：Terence Tao 在 ICM 2026 相关场合的幻灯片。</p>
-<p><a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/">What Is the Inverse Covariance Matrix?</a>：从统计与几何视角解释精度矩阵（逆协方差）的含义与用途。</p>
-<p><a href="https://arxiv.org/abs/2607.21716">[2607.21716] A Defense of the Quadratic Model</a>：为优化理论中的二次模型辩护：在可处理性与真实 loss landscape 之间权衡。</p>
-<p><a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html">AI Agents for the Working Mathematician</a>：面向工作中数学家的 AI agent 使用经验与工作流。</p>
-<p><a href="https://guanyangwang.github.io/blog/feige-conjecture.html">Prompting Toward a Conjecture - Guanyang Wang</a>：多一句“检索文献”如何改变 GPT-5.6 Sol Ultra 在 Feige $1/e$ 猜想上的成功率。</p>
-<p><a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html">用 LLM 生成证明并完成形式化验证 - Guanyang Wang</a>：LLM 生成证明 + Lean 形式化验证的工作范式；以 1997 KTV 猜想二元矩阵情形为例。</p>
-<p><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science | OpenAI</a>：OpenAI 汇总的十项数学与理论计算机科学进展。</p>
-<p><a href="https://www.unsolvedmath.com/">UnsolvedMath</a>：开放数学问题仓库。</p>
-<p><a href="https://www.openproblemgarden.org/">Home | Open Problem Garden</a>：数学开放问题目录与社区园地。</p>
-<p><a href="https://optimization-online.org/">Optimization Online</a>：优化及相关主题的 Eprint 仓库。</p>
-<p><a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/">Trouble in High-Dimensional Land - Dibya&rsquo;s Blog</a>：高维几何与概率中的反直觉现象。</p>
-<p><a href="https://github.com/faridrashidi/cnsplots">faridrashidi/cnsplots</a>：面向 Cell / Nature / Science 风格的出版级绘图工具包。</p>
-<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
-<p><a href="https://herdr.dev/">Herdr: one terminal for the whole herd</a>：Agent multiplexer，一个终端管理整群 agent。</p>
-<p><a href="https://www.shuffleapp.co/">Shuffle - A fast, native file manager for macOS</a>：免费开源的 macOS 原生文件管理器（Rust + GPU 渲染），双栏、标签、命令面板与终端模式。</p>
-<p><a href="https://abue-ammar.github.io/tinycast/#gallery">Tinycast — a tiny, native macOS launcher</a>：轻量原生 macOS 启动器，模糊搜索、计算器、剪贴板历史与全局快捷键。</p>
-<p><a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch">Rust Vs C++ - LLM coded model conversion from PyTorch</a>：用 LLM 将 PyTorch 模型转换逻辑在 Rust 与 C++ 间对照实现。</p>
-<p><a href="https://github.com/icebird1998/drawio-scientific-illustrator">icebird1998/drawio-scientific-illustrator</a>：通过 MCP 逐步控制 draw.io 画布，做科学插图。</p>
-<p><a href="https://github.com/zeronsh/chat">zeronsh/chat</a>：统一接入 Claude、OpenAI、Gemini 等多模型的 AI 聊天应用。</p>
-<p><a href="https://terminal-browser.com/">terminal-browser</a>：直接运行在终端里的真实浏览器。</p>
-<p><a href="https://codex-reset.com/">Codex Reset — Last Reset Tracker &amp; Live Forecast</a>：Codex 用量重置时间追踪与 24h/48h 预测。</p>
-<p><a href="https://modal.com/gpu-glossary">GPU Glossary</a>：Modal 维护的 GPU 术语表。</p>
-<p><a href="https://github.com/ascend-ai-coding/awesome-ascend-skills">ascend-ai-coding/awesome-ascend-skills</a>：华为昇腾 NPU 开发知识库，按分布式 Agent Skills 组织。</p>
-<p><a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC">豆包搜索 Custom 版</a>：火山引擎豆包搜索文档；每月免费 500 次。</p>
-<p><a href="https://github.com/iv-org/invidious">iv-org/invidious</a>：YouTube 替代前端。</p>
-<h3 id="设计--写作--其他">设计 / 写作 / 其他</h3>
-<p><a href="https://argon.red/">://argon.red</a>：设计师 blog；相关讨论见 <a href="https://x.com/alpha_argon/status/2081710366711808031">X 上的 Alpha Argon</a>。</p>
 ]]></content:encoded></item><item><title>第16期周刊</title><link>https://blog.yfff.me/weekly/week-16/</link><pubDate>Sun, 12 Jul 2026 17:40:29 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-16/</guid><description>&lt;h3 id="ai--模型--多智能体"&gt;AI / 模型 / 多智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://openai.com/index/gpt-5-6/"&gt;GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI&lt;/a&gt;：OpenAI 新一代 frontier 模型发布页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/__eknight__/status/2075643450196971805?s=20"&gt;Ethan Knight on X：GPT-5.6 Sol Ultra 与 Cycle Double Cover Conjecture&lt;/a&gt;：称用 64 个子 agent 在约一小时内给出 CDC 猜想证明；&lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"&gt;proof&lt;/a&gt; · &lt;a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf"&gt;prompt&lt;/a&gt;。&lt;/p&gt;
