@@ -1,16 +1,139 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 26 Jul 2026 21:00:39 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 17</title><link>https://blog.yfff.me/en/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 21:00:39 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-17/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 02 Aug 2026 03:57:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 18</title><link>https://blog.yfff.me/en/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 03:57:29 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-18/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3"&gt;moonshotai/Kimi-K3 · Hugging Face&lt;/a&gt; — Moonshot&amp;rsquo;s Kimi K3 model weights and model card.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/waterloo_intern/status/2081762065392541951"&gt;ali on X: “22580: From GPT2 to Kimi3, Explained”&lt;/a&gt; — a walkthrough of architecture evolution from GPT-2 to Kimi K3.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-kimi-k3"&gt;cneuralnetwork/smol-kimi-k3&lt;/a&gt; — a ~49M-parameter Kimi-K3-style small model trainable on a single 8GB GPU.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-glm-5.2"&gt;cneuralnetwork/smol-glm-5.2&lt;/a&gt; — a ~50M-parameter GLM-5.2 architecture study with MLA, DSA, IndexShare, sparse MoE, shared MTP, and Muon Split.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1"&gt;Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ&lt;/a&gt; — Nvidia invests in Ilya Sutskever&amp;rsquo;s SSI to expand compute reach and collaboration.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.greene.sh/compression-and-intelligence/"&gt;Compression and Intelligence — Ryan Greene&lt;/a&gt; — on the relationship among compression, intelligence, and LLMs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://physics.allen-zhu.com/"&gt;Physics of Language Models&lt;/a&gt; — Allen Zhu et al.&amp;rsquo;s &amp;ldquo;physics of language models&amp;rdquo; series, explaining LLM behavior via architecture and training mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kexue.fm/archives/11833"&gt;Deconstructing Scaling Laws: Optimization, Architecture, and Data - Scientific Spaces&lt;/a&gt; — unpacks scaling laws through optimization, architecture, and data.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/MinghuiChen43/awesome-deep-phenomena"&gt;MinghuiChen43/awesome-deep-phenomena&lt;/a&gt; — a curated, continually updated list of interesting empirical deep-learning phenomena and papers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pair.withgoogle.com/explorables/"&gt;AI Explorables | PAIR&lt;/a&gt; — interactive AI concept explorables from Google PAIR that visualize model mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e"&gt;Looped Transformer | alphaXiv&lt;/a&gt; — a paper collection on looped Transformers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043"&gt;Towards Looped Models Done Right&lt;/a&gt; — on designing and training looped / recurrent-style models properly.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alexiglad.github.io/blog/2026/explorative_modeling/"&gt;Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone&lt;/a&gt; — proposes explorative modeling as a third pretraining axis. Core idea sketch:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;losses&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;K&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;generation&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;model&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# e.g., from a different random noise&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loss_fn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generation&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;losses&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;backward&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# only the best generation gets gradients&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What optimization dynamics appear if $\min_{i} \mathcal{L}_{i}$ is generalized to an arbitrary $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$?&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.22951"&gt;[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning&lt;/a&gt; — argues that the power-law asymmetry of natural language helps compositional reasoning and should not simply be flattened.
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
+ alt="QQ_1785589438460.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.enigma.inc/posts/obsessed-encoder"&gt;Enigma: Robots that feel right&lt;/a&gt; — Enigma on robots that understand their surroundings and act in ways that &amp;ldquo;feel right.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/maka-agent/maka-agent"&gt;maka-agent/maka-agent&lt;/a&gt; — a local-first AI desktop assistant.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiviq.substack.com/"&gt;ArXivIQ | Grigory Sapunov | Substack&lt;/a&gt; — hand-picked ML papers with AI-generated deep dives; daily TLDR and architecture notes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ulam.ai/blog"&gt;Blog - Ulam&lt;/a&gt; · &lt;a href="https://www.ulam.ai/research"&gt;Research - Ulam&lt;/a&gt; — AI research notes and projects such as DeepAlgebra.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://haoailab.com/cse234-w25/"&gt;Home | CSE 234&lt;/a&gt; — course page for CSE 234 Machine Learning Systems.&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"&gt;Mathematics in the age of AI&lt;/a&gt; — Terence Tao&amp;rsquo;s slides on mathematics in the age of AI (ICM 2026 context).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/"&gt;What Is the Inverse Covariance Matrix?&lt;/a&gt; — explains the precision (inverse covariance) matrix from statistical and geometric viewpoints.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.21716"&gt;[2607.21716] A Defense of the Quadratic Model&lt;/a&gt; — defends the quadratic model in optimization theory as a tradeoff between tractability and real loss landscapes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html"&gt;AI Agents for the Working Mathematician&lt;/a&gt; — practical AI-agent workflows for working mathematicians.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/feige-conjecture.html"&gt;Prompting Toward a Conjecture - Guanyang Wang&lt;/a&gt; — how one extra sentence about searching the literature changed GPT-5.6 Sol Ultra&amp;rsquo;s success rate on Feige&amp;rsquo;s $1/e$ conjecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html"&gt;Generating Proofs with LLMs and Completing Formal Verification - Guanyang Wang&lt;/a&gt; — LLM-generated proofs plus Lean formal verification, illustrated on the binary-matrix case of the 1997 KTV conjecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/ten-advances-in-mathematics/"&gt;Ten advances in mathematics and theoretical computer science | OpenAI&lt;/a&gt; — OpenAI&amp;rsquo;s summary of ten advances in mathematics and theoretical computer science.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.unsolvedmath.com/"&gt;UnsolvedMath&lt;/a&gt; — a repository of open mathematics problems.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.openproblemgarden.org/"&gt;Home | Open Problem Garden&lt;/a&gt; — a directory and community garden of open problems in mathematics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://optimization-online.org/"&gt;Optimization Online&lt;/a&gt; — an eprint repository for optimization and related topics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/"&gt;Trouble in High-Dimensional Land - Dibya&amp;rsquo;s Blog&lt;/a&gt; — counterintuitive phenomena in high-dimensional geometry and probability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/faridrashidi/cnsplots"&gt;faridrashidi/cnsplots&lt;/a&gt; — a toolkit for Cell / Nature / Science-style publication-quality plots.&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://herdr.dev/"&gt;Herdr: one terminal for the whole herd&lt;/a&gt; — an agent multiplexer: one terminal for a whole herd of agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.shuffleapp.co/"&gt;Shuffle - A fast, native file manager for macOS&lt;/a&gt; — a free open-source native macOS file manager (Rust + GPU rendering) with dual panes, tabs, command palette, and terminal mode.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abue-ammar.github.io/tinycast/#gallery"&gt;Tinycast — a tiny, native macOS launcher&lt;/a&gt; — a lightweight native macOS launcher with fuzzy search, calculator, clipboard history, and global hotkeys.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch"&gt;Rust Vs C++ - LLM coded model conversion from PyTorch&lt;/a&gt; — LLM-written PyTorch model-conversion logic compared side by side in Rust and C++.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/icebird1998/drawio-scientific-illustrator"&gt;icebird1998/drawio-scientific-illustrator&lt;/a&gt; — step-by-step scientific illustration via MCP control of a live draw.io canvas.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zeronsh/chat"&gt;zeronsh/chat&lt;/a&gt; — a unified AI chat app spanning Claude, OpenAI, Gemini, and more.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terminal-browser.com/"&gt;terminal-browser&lt;/a&gt; — a real browser that runs inside the terminal.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://codex-reset.com/"&gt;Codex Reset — Last Reset Tracker &amp;amp; Live Forecast&lt;/a&gt; — tracks Codex usage-reset times with 24h / 48h forecasts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://modal.com/gpu-glossary"&gt;GPU Glossary&lt;/a&gt; — Modal&amp;rsquo;s glossary of GPU terms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/ascend-ai-coding/awesome-ascend-skills"&gt;ascend-ai-coding/awesome-ascend-skills&lt;/a&gt; — a Huawei Ascend NPU knowledge base organized as distributed Agent Skills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC"&gt;Doubao Search Custom&lt;/a&gt; — Volcengine Doubao Search docs; 500 free calls per month.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iv-org/invidious"&gt;iv-org/invidious&lt;/a&gt; — an alternative YouTube front end.&lt;/p&gt;
+&lt;h3 id="design--writing--other"&gt;Design / Writing / Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://argon.red/"&gt;://argon.red&lt;/a&gt; — a designer&amp;rsquo;s blog; related discussion on &lt;a href="https://x.com/alpha_argon/status/2081710366711808031"&gt;X from Alpha Argon&lt;/a&gt;.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3 · Hugging Face</a> — Moonshot&rsquo;s Kimi K3 model weights and model card.</p>
+<p><a href="https://x.com/waterloo_intern/status/2081762065392541951">ali on X: “22580: From GPT2 to Kimi3, Explained”</a> — a walkthrough of architecture evolution from GPT-2 to Kimi K3.</p>
+<p><a href="https://github.com/cneuralnetwork/smol-kimi-k3">cneuralnetwork/smol-kimi-k3</a> — a ~49M-parameter Kimi-K3-style small model trainable on a single 8GB GPU.</p>
+<p><a href="https://github.com/cneuralnetwork/smol-glm-5.2">cneuralnetwork/smol-glm-5.2</a> — a ~50M-parameter GLM-5.2 architecture study with MLA, DSA, IndexShare, sparse MoE, shared MTP, and Muon Split.</p>
+<p><a href="https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8?mod=ai_lead_pos1">Exclusive | Nvidia Invests in Sutskever’s Safe Superintelligence AI Lab - WSJ</a> — Nvidia invests in Ilya Sutskever&rsquo;s SSI to expand compute reach and collaboration.</p>
+<p><a href="https://www.greene.sh/compression-and-intelligence/">Compression and Intelligence — Ryan Greene</a> — on the relationship among compression, intelligence, and LLMs.</p>
+<p><a href="https://physics.allen-zhu.com/">Physics of Language Models</a> — Allen Zhu et al.&rsquo;s &ldquo;physics of language models&rdquo; series, explaining LLM behavior via architecture and training mechanisms.</p>
+<p><a href="https://kexue.fm/archives/11833">Deconstructing Scaling Laws: Optimization, Architecture, and Data - Scientific Spaces</a> — unpacks scaling laws through optimization, architecture, and data.</p>
+<p><a href="https://github.com/MinghuiChen43/awesome-deep-phenomena">MinghuiChen43/awesome-deep-phenomena</a> — a curated, continually updated list of interesting empirical deep-learning phenomena and papers.</p>
+<p><a href="https://pair.withgoogle.com/explorables/">AI Explorables | PAIR</a> — interactive AI concept explorables from Google PAIR that visualize model mechanisms.</p>
+<p><a href="https://www.alphaxiv.org/shared/folder/019fa228-032c-761a-a252-a0f13944f90e">Looped Transformer | alphaXiv</a> — a paper collection on looped Transformers.</p>
+<p><a href="https://ifm-research.notion.site/Towards-Looped-Models-Done-Right-3ade511912ec8128987dfeb7a5580043">Towards Looped Models Done Right</a> — on designing and training looped / recurrent-style models properly.</p>
+<p><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative Modeling — Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone</a> — proposes explorative modeling as a third pretraining axis. Core idea sketch:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">losses</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">K</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">generation</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">generate</span><span class="p">()</span>  <span class="c1"># e.g., from a different random noise</span>
+</span></span><span class="line"><span class="cl">    <span class="n">losses</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">generation</span><span class="p">,</span> <span class="n">data</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">min</span><span class="p">(</span><span class="n">losses</span><span class="p">)</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>  <span class="c1"># only the best generation gets gradients</span>
+</span></span></code></pre></div><p>What optimization dynamics appear if $\min_{i} \mathcal{L}_{i}$ is generalized to an arbitrary $f(\mathcal{L}_{1},\dots,\mathcal{L}_{K})$?</p>
+<p><a href="https://arxiv.org/abs/2604.22951">[2604.22951] The Power of Power Law: Asymmetry Enables Compositional Reasoning</a> — argues that the power-law asymmetry of natural language helps compositional reasoning and should not simply be flattened.
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1785589438460.png"
+  alt="QQ_1785589438460.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.enigma.inc/posts/obsessed-encoder">Enigma: Robots that feel right</a> — Enigma on robots that understand their surroundings and act in ways that &ldquo;feel right.&rdquo;</p>
+<p><a href="https://github.com/maka-agent/maka-agent">maka-agent/maka-agent</a> — a local-first AI desktop assistant.</p>
+<p><a href="https://arxiviq.substack.com/">ArXivIQ | Grigory Sapunov | Substack</a> — hand-picked ML papers with AI-generated deep dives; daily TLDR and architecture notes.</p>
+<p><a href="https://www.ulam.ai/blog">Blog - Ulam</a> · <a href="https://www.ulam.ai/research">Research - Ulam</a> — AI research notes and projects such as DeepAlgebra.</p>
+<p><a href="https://haoailab.com/cse234-w25/">Home | CSE 234</a> — course page for CSE 234 Machine Learning Systems.</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf">Mathematics in the age of AI</a> — Terence Tao&rsquo;s slides on mathematics in the age of AI (ICM 2026 context).</p>
+<p><a href="https://gregorygundersen.com/blog/2026/07/26/inverse-covariance-matrix/">What Is the Inverse Covariance Matrix?</a> — explains the precision (inverse covariance) matrix from statistical and geometric viewpoints.</p>
+<p><a href="https://arxiv.org/abs/2607.21716">[2607.21716] A Defense of the Quadratic Model</a> — defends the quadratic model in optimization theory as a tradeoff between tractability and real loss landscapes.</p>
+<p><a href="https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html">AI Agents for the Working Mathematician</a> — practical AI-agent workflows for working mathematicians.</p>
+<p><a href="https://guanyangwang.github.io/blog/feige-conjecture.html">Prompting Toward a Conjecture - Guanyang Wang</a> — how one extra sentence about searching the literature changed GPT-5.6 Sol Ultra&rsquo;s success rate on Feige&rsquo;s $1/e$ conjecture.</p>
+<p><a href="https://guanyangwang.github.io/blog/llm-ktv-lean-zh.html">Generating Proofs with LLMs and Completing Formal Verification - Guanyang Wang</a> — LLM-generated proofs plus Lean formal verification, illustrated on the binary-matrix case of the 1997 KTV conjecture.</p>
+<p><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science | OpenAI</a> — OpenAI&rsquo;s summary of ten advances in mathematics and theoretical computer science.</p>
+<p><a href="https://www.unsolvedmath.com/">UnsolvedMath</a> — a repository of open mathematics problems.</p>
+<p><a href="https://www.openproblemgarden.org/">Home | Open Problem Garden</a> — a directory and community garden of open problems in mathematics.</p>
+<p><a href="https://optimization-online.org/">Optimization Online</a> — an eprint repository for optimization and related topics.</p>
+<p><a href="https://dibyaghosh.com/blog/probability/highdimensionalgeometry/">Trouble in High-Dimensional Land - Dibya&rsquo;s Blog</a> — counterintuitive phenomena in high-dimensional geometry and probability.</p>
+<p><a href="https://github.com/faridrashidi/cnsplots">faridrashidi/cnsplots</a> — a toolkit for Cell / Nature / Science-style publication-quality plots.</p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://herdr.dev/">Herdr: one terminal for the whole herd</a> — an agent multiplexer: one terminal for a whole herd of agents.</p>
+<p><a href="https://www.shuffleapp.co/">Shuffle - A fast, native file manager for macOS</a> — a free open-source native macOS file manager (Rust + GPU rendering) with dual panes, tabs, command palette, and terminal mode.</p>
+<p><a href="https://abue-ammar.github.io/tinycast/#gallery">Tinycast — a tiny, native macOS launcher</a> — a lightweight native macOS launcher with fuzzy search, calculator, clipboard history, and global hotkeys.</p>
+<p><a href="https://richiejp.com/rust-vs-cpp-llm-coded-model-conversion-from-pytorch">Rust Vs C++ - LLM coded model conversion from PyTorch</a> — LLM-written PyTorch model-conversion logic compared side by side in Rust and C++.</p>
+<p><a href="https://github.com/icebird1998/drawio-scientific-illustrator">icebird1998/drawio-scientific-illustrator</a> — step-by-step scientific illustration via MCP control of a live draw.io canvas.</p>
+<p><a href="https://github.com/zeronsh/chat">zeronsh/chat</a> — a unified AI chat app spanning Claude, OpenAI, Gemini, and more.</p>
+<p><a href="https://terminal-browser.com/">terminal-browser</a> — a real browser that runs inside the terminal.</p>
+<p><a href="https://codex-reset.com/">Codex Reset — Last Reset Tracker &amp; Live Forecast</a> — tracks Codex usage-reset times with 24h / 48h forecasts.</p>
+<p><a href="https://modal.com/gpu-glossary">GPU Glossary</a> — Modal&rsquo;s glossary of GPU terms.</p>
+<p><a href="https://github.com/ascend-ai-coding/awesome-ascend-skills">ascend-ai-coding/awesome-ascend-skills</a> — a Huawei Ascend NPU knowledge base organized as distributed Agent Skills.</p>
+<p><a href="https://docs.volcengine.com/docs/87772/2272953?lang=zh&amp;_vtm_=a441938.b105878.c67268_0.d65110_2.0.12_11_000J3i1VOqWPtPrMwlQ3ilQxfn2UtC">Doubao Search Custom</a> — Volcengine Doubao Search docs; 500 free calls per month.</p>
+<p><a href="https://github.com/iv-org/invidious">iv-org/invidious</a> — an alternative YouTube front end.</p>
+<h3 id="design--writing--other">Design / Writing / Other</h3>
+<p><a href="https://argon.red/">://argon.red</a> — a designer&rsquo;s blog; related discussion on <a href="https://x.com/alpha_argon/status/2081710366711808031">X from Alpha Argon</a>.</p>
+]]></content:encoded></item><item><title>Weekly Issue 17</title><link>https://blog.yfff.me/en/weekly/week-17/</link><pubDate>Sun, 26 Jul 2026 21:00:39 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-17/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report"&gt;Soofi S — Sovereign German-English Foundation Model&lt;/a&gt; — Soofi Project&amp;rsquo;s pretraining report for a German–English foundation model.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets"&gt;Learning from experience instead of curated datasets&lt;/a&gt; · &lt;a href="https://oaklab.ai/"&gt;Oak Lab&lt;/a&gt; — a discussion of how agents can learn from experience rather than curated datasets.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://thinkingmachines.ai/news/introducing-inkling/"&gt;Inkling: Our Open-Weights Model&lt;/a&gt; — an open-weights model released by Thinking Machines Lab.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ"&gt;Kimi K3: A New Frontier in Intelligence&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;amp;vd_source=cab65dba5bfc5080edba3dc8f737246c"&gt;A four-hour interview with Physical Intelligence&amp;rsquo;s Chelsea Finn&lt;/a&gt; — a conversation about PI&amp;rsquo;s open-model research, the evolution of robotics, and its major participants.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up"&gt;Have Chinese AI Models Caught Up to the US Frontier?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ"&gt;Kimi K3: A New Frontier in Intelligence&lt;/a&gt; — an introduction and reading of Kimi K3.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;amp;vd_source=cab65dba5bfc5080edba3dc8f737246c"&gt;A four-hour interview with Physical Intelligence&amp;rsquo;s Ke Liyiming&lt;/a&gt; — a conversation about PI&amp;rsquo;s open-model research, the evolution of robotics, and its major participants.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up"&gt;Have Chinese AI Models Caught Up to the US Frontier?&lt;/a&gt; — uses benchmarks and capability-gap estimates to ask whether Chinese models have caught the US frontier.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cursor.com/cn/blog/agent-swarm-model-economics"&gt;Agent Swarms and the New Economics of Models&lt;/a&gt; — Cursor&amp;rsquo;s discussion of agent swarms and their model economics.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247494117&amp;amp;idx=1&amp;amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc"&gt;From Speaking to Creating: Seed Audio 1.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.10252"&gt;[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-s-2-1"&gt;Introducing Laguna S 2.1&lt;/a&gt; — Poolside&amp;rsquo;s release of Laguna S 2.1.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://macaron.im/mindlab/research/macaron-v1-preview"&gt;Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2507.09369"&gt;[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;amp;mid=2247494117&amp;amp;idx=1&amp;amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc"&gt;From Speaking to Creating: Seed Audio 1.0&lt;/a&gt; — ByteDance Seed Audio 1.0, an audio creation model release note.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.10252"&gt;[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions&lt;/a&gt; — fingerprints and verifies LLMs from single-token output distributions, useful when the serving chain is opaque.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poolside.ai/blog/introducing-laguna-s-2-1"&gt;Introducing Laguna S 2.1&lt;/a&gt; — Poolside&amp;rsquo;s Laguna S 2.1 release, emphasizing longer-horizon work and more effective use of reasoning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://macaron.im/mindlab/research/macaron-v1-preview"&gt;Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1&lt;/a&gt; — a 749B MoL agent model preview post-trained from GLM5.1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2507.09369"&gt;[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence&lt;/a&gt; — a taxonomy and examples of AI-related futures in which nearly all humans are killed; framed as possibilities, not inevitabilities.
 &lt;img
  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
  alt="image.png"
@@ -20,26 +143,26 @@
 &gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.inductionlabs.com/news/scaling-video-pretraining"&gt;Scaling Video Pretraining with Imagination Models&lt;/a&gt; — Induction Labs pretrained Photon-1 from scratch on 575 million frames of computer-use data, using autoregressive training in latent space.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20548"&gt;[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales&lt;/a&gt; · &lt;a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers"&gt;NVIDIA-NeMo/Emerging-Optimizers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20548"&gt;[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales&lt;/a&gt; · &lt;a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers"&gt;NVIDIA-NeMo/Emerging-Optimizers&lt;/a&gt; — adapts and strengthens higher-order optimizers such as SOAP and Muon for large-scale pretraining, with related NVIDIA NeMo implementations.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://next-state.github.io/open-dreamer/"&gt;How to train a frontier-level world model&lt;/a&gt; · &lt;a href="https://github.com/next-state/open-dreamer"&gt;next-state/open-dreamer&lt;/a&gt; — an open-source Dreamer implementation in JAX.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.rhoda.ai/research/direct-video-action"&gt;Causal Video Models Are Data-Efficient Robot Policy Learners&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ericjmichaud.com/interp-purpose/"&gt;What is the purpose of interpretability?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.rhoda.ai/research/direct-video-action"&gt;Causal Video Models Are Data-Efficient Robot Policy Learners&lt;/a&gt; — Rhoda AI&amp;rsquo;s DVA reformulates robot policies as video generation for better data efficiency and long-context behavior.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ericjmichaud.com/interp-purpose/"&gt;What is the purpose of interpretability?&lt;/a&gt; — asks what interpretability research is for and what problems it should serve.&lt;/p&gt;
 &lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://dspillustrations.com/pages/index.html"&gt;DSPIllustrations.com&lt;/a&gt; — interactive illustrations for understanding digital signal processing.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://wirelesspi.com/"&gt;Wireless Pi&lt;/a&gt; — learning material on wireless communications and signal processing.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://andrewfoongyk.github.io/#intro-to-dl"&gt;intro-to-dl&lt;/a&gt; — an introductory deep-learning course.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/1708.09093"&gt;[1708.09093] Memories of a Theoretical Physicist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.11664"&gt;[2607.11664] Lecture Notes: Convex Optimization&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/1708.09093"&gt;[1708.09093] Memories of a Theoretical Physicist&lt;/a&gt; — Joe Polchinski&amp;rsquo;s memoir-like notes as a theoretical physicist.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.11664"&gt;[2607.11664] Lecture Notes: Convex Optimization&lt;/a&gt; — lecture notes from a Graz University of Technology convex-optimization course, covering preliminaries, existence, and algorithmic basics.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/__alpoge__/status/2079028340955197566"&gt;Discussion of a three-dimensional map related to the Jacobian Conjecture&lt;/a&gt; — the original post gives a map from $\mathbb{C}^3$ to $\mathbb{C}^3$ and claims it is a counterexample; the conclusion should still be judged against a formal paper and peer review.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.ezyang.com/2019/05/pytorch-internals/"&gt;PyTorch internals&lt;/a&gt; — a guide to PyTorch&amp;rsquo;s internal mechanisms.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://openresearch.sh/"&gt;OpenResearch&lt;/a&gt; — an entry point for research resources and tools.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://c82.net/euclid/"&gt;Byrne’s Euclid&lt;/a&gt; — an online edition of Oliver Byrne&amp;rsquo;s colorful rendering of Euclid&amp;rsquo;s &lt;em&gt;Elements&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053"&gt;An introduction to the 2026 Fields Medals&lt;/a&gt; — a discussion of laureates Yu Deng and Hong Wang and their work.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://realpython.com/"&gt;Python Tutorials – Real Python&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20732"&gt;[2607.20732] librla: Randomized Linear Algebra Library&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://realpython.com/"&gt;Python Tutorials – Real Python&lt;/a&gt; — high-quality Python tutorials and practical articles.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.20732"&gt;[2607.20732] librla: Randomized Linear Algebra Library&lt;/a&gt; — a randomized linear-algebra library aimed at intermediate-sized matrices (up to roughly $10^4$ dimensions).&lt;/p&gt;
 &lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.trysynara.com/"&gt;Synara&lt;/a&gt; — a development tool integrating Claude Code, Codex, Gemini, and Cursor.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://chatcut.io/chatgpt-plugin"&gt;ChatCut ChatGPT/Codex Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://chatcut.io/chatgpt-plugin"&gt;ChatCut ChatGPT/Codex Plugin&lt;/a&gt; — a ChatGPT / Codex plugin for trimming and organizing conversation context.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/xai-org/grok-build"&gt;xai-org/grok-build&lt;/a&gt; — an open-source coding-agent harness and full-screen TUI.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/ZacharyZhang-NY/Kigi-CLI"&gt;ZacharyZhang-NY/Kigi-CLI&lt;/a&gt; — an unofficial Rust community build of Kimi Code CLI based on Grok Build.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://offline.tldraw.com/"&gt;tldraw offline&lt;/a&gt; · &lt;a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view"&gt;nn-digits.tldraw example&lt;/a&gt; — an AI-operable desktop whiteboard.&lt;/p&gt;
@@ -76,10 +199,10 @@
 &lt;p&gt;&lt;a href="https://www.makingsoftware.com/chapters/how-to-make-a-font"&gt;Making Software: How to make a font&lt;/a&gt; — a tutorial on making a font.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://vercel.com/design.md"&gt;Vercel Design System&lt;/a&gt; · &lt;a href="https://vercel.com/design.dark.md"&gt;Dark&lt;/a&gt; — a complete set of guidelines for color tokens, typography, spacing, radii, components, motion, and writing. Its central principle is that color should communicate, not merely decorate.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://feldar.com/"&gt;Feldar&lt;/a&gt; · &lt;a href="https://marker.page/"&gt;Marker&lt;/a&gt; · &lt;a href="https://ornata.app/#features"&gt;Ornata&lt;/a&gt; · &lt;a href="https://ishmael.textualize.io/"&gt;Ishmael&lt;/a&gt; — apps focused on concentration, thinking, or long-form writing.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://attune.computer/"&gt;Attune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://attune.computer/"&gt;Attune&lt;/a&gt; — a personal computing / writing app oriented toward focus and rhythm.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://pixgel.d4mr.com/"&gt;pixgel&lt;/a&gt; — a liquid pixel-art editor with smooth SVG export.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/blakeshao/a-psychos-gd-tool"&gt;blakeshao/a-psychos-gd-tool&lt;/a&gt; — a node-based graphic-design tool.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://typebulb.com/u/lab/you-re-relatively-right/full"&gt;You&amp;rsquo;re relatively right!&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://typebulb.com/u/lab/you-re-relatively-right/full"&gt;You&amp;rsquo;re relatively right!&lt;/a&gt; — a heatmap of writing-style similarity across LLMs, built from wording alone.
 &lt;img
  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
  alt="QQ_1784653759506.png"
@@ -112,15 +235,15 @@
 <p><a href="https://huggingface.co/spaces/Soofi-Project/Pretraining-Tech-Report">Soofi S — Sovereign German-English Foundation Model</a> — Soofi Project&rsquo;s pretraining report for a German–English foundation model.</p>
 <p><a href="https://oaklab.ai/posts/learning-from-experience-instead-of-curated-datasets">Learning from experience instead of curated datasets</a> · <a href="https://oaklab.ai/">Oak Lab</a> — a discussion of how agents can learn from experience rather than curated datasets.</p>
 <p><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model</a> — an open-weights model released by Thinking Machines Lab.</p>
-<p><a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ">Kimi K3: A New Frontier in Intelligence</a></p>
-<p><a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=cab65dba5bfc5080edba3dc8f737246c">A four-hour interview with Physical Intelligence&rsquo;s Chelsea Finn</a> — a conversation about PI&rsquo;s open-model research, the evolution of robotics, and its major participants.</p>
-<p><a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up">Have Chinese AI Models Caught Up to the US Frontier?</a></p>
+<p><a href="https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ">Kimi K3: A New Frontier in Intelligence</a> — an introduction and reading of Kimi K3.</p>
+<p><a href="https://www.bilibili.com/video/BV12bNB6vEtt/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=cab65dba5bfc5080edba3dc8f737246c">A four-hour interview with Physical Intelligence&rsquo;s Ke Liyiming</a> — a conversation about PI&rsquo;s open-model research, the evolution of robotics, and its major participants.</p>
+<p><a href="https://scaling01.substack.com/p/have-chinese-ai-models-caught-up">Have Chinese AI Models Caught Up to the US Frontier?</a> — uses benchmarks and capability-gap estimates to ask whether Chinese models have caught the US frontier.</p>
 <p><a href="https://cursor.com/cn/blog/agent-swarm-model-economics">Agent Swarms and the New Economics of Models</a> — Cursor&rsquo;s discussion of agent swarms and their model economics.</p>
-<p><a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;mid=2247494117&amp;idx=1&amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc">From Speaking to Creating: Seed Audio 1.0</a></p>
-<p><a href="https://arxiv.org/abs/2607.10252">[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions</a></p>
-<p><a href="https://poolside.ai/blog/introducing-laguna-s-2-1">Introducing Laguna S 2.1</a> — Poolside&rsquo;s release of Laguna S 2.1.</p>
-<p><a href="https://macaron.im/mindlab/research/macaron-v1-preview">Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1</a></p>
-<p><a href="https://arxiv.org/abs/2507.09369">[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence</a>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzkzMDY5MzYxNg==&amp;mid=2247494117&amp;idx=1&amp;sn=479ffb4e9fc90fa66d5bf531a84376a7&amp;poc_token=HB4tX2qj5VXDbweKbkw2dTYLjKTeS7wPIFo-7Osc">From Speaking to Creating: Seed Audio 1.0</a> — ByteDance Seed Audio 1.0, an audio creation model release note.</p>
+<p><a href="https://arxiv.org/abs/2607.10252">[2607.10252] One Token Is Enough: Fingerprinting and Verifying Large Language Models from Single-Token Output Distributions</a> — fingerprints and verifies LLMs from single-token output distributions, useful when the serving chain is opaque.</p>
+<p><a href="https://poolside.ai/blog/introducing-laguna-s-2-1">Introducing Laguna S 2.1</a> — Poolside&rsquo;s Laguna S 2.1 release, emphasizing longer-horizon work and more effective use of reasoning.</p>
+<p><a href="https://macaron.im/mindlab/research/macaron-v1-preview">Macaron-V1-Preview: 749B MoL Agent Model post-trained from GLM5.1</a> — a 749B MoL agent model preview post-trained from GLM5.1.</p>
+<p><a href="https://arxiv.org/abs/2507.09369">[2507.09369] A Taxonomy of Omnicidal Futures Involving Artificial Intelligence</a> — a taxonomy and examples of AI-related futures in which nearly all humans are killed; framed as possibilities, not inevitabilities.
 <img
   src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260724200839563.png"
   alt="image.png"
@@ -130,26 +253,26 @@
 >
 </p>
 <p><a href="https://www.inductionlabs.com/news/scaling-video-pretraining">Scaling Video Pretraining with Imagination Models</a> — Induction Labs pretrained Photon-1 from scratch on 575 million frames of computer-use data, using autoregressive training in latent space.</p>
-<p><a href="https://arxiv.org/abs/2607.20548">[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales</a> · <a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers">NVIDIA-NeMo/Emerging-Optimizers</a></p>
+<p><a href="https://arxiv.org/abs/2607.20548">[2607.20548] SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales</a> · <a href="https://github.com/NVIDIA-NeMo/Emerging-Optimizers">NVIDIA-NeMo/Emerging-Optimizers</a> — adapts and strengthens higher-order optimizers such as SOAP and Muon for large-scale pretraining, with related NVIDIA NeMo implementations.</p>
 <p><a href="https://next-state.github.io/open-dreamer/">How to train a frontier-level world model</a> · <a href="https://github.com/next-state/open-dreamer">next-state/open-dreamer</a> — an open-source Dreamer implementation in JAX.</p>
-<p><a href="https://www.rhoda.ai/research/direct-video-action">Causal Video Models Are Data-Efficient Robot Policy Learners</a></p>
-<p><a href="https://ericjmichaud.com/interp-purpose/">What is the purpose of interpretability?</a></p>
+<p><a href="https://www.rhoda.ai/research/direct-video-action">Causal Video Models Are Data-Efficient Robot Policy Learners</a> — Rhoda AI&rsquo;s DVA reformulates robot policies as video generation for better data efficiency and long-context behavior.</p>
+<p><a href="https://ericjmichaud.com/interp-purpose/">What is the purpose of interpretability?</a> — asks what interpretability research is for and what problems it should serve.</p>
 <h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
 <p><a href="https://dspillustrations.com/pages/index.html">DSPIllustrations.com</a> — interactive illustrations for understanding digital signal processing.</p>
 <p><a href="https://wirelesspi.com/">Wireless Pi</a> — learning material on wireless communications and signal processing.</p>
 <p><a href="https://andrewfoongyk.github.io/#intro-to-dl">intro-to-dl</a> — an introductory deep-learning course.</p>
-<p><a href="https://arxiv.org/abs/1708.09093">[1708.09093] Memories of a Theoretical Physicist</a></p>
-<p><a href="https://arxiv.org/abs/2607.11664">[2607.11664] Lecture Notes: Convex Optimization</a></p>
+<p><a href="https://arxiv.org/abs/1708.09093">[1708.09093] Memories of a Theoretical Physicist</a> — Joe Polchinski&rsquo;s memoir-like notes as a theoretical physicist.</p>
+<p><a href="https://arxiv.org/abs/2607.11664">[2607.11664] Lecture Notes: Convex Optimization</a> — lecture notes from a Graz University of Technology convex-optimization course, covering preliminaries, existence, and algorithmic basics.</p>
 <p><a href="https://x.com/__alpoge__/status/2079028340955197566">Discussion of a three-dimensional map related to the Jacobian Conjecture</a> — the original post gives a map from $\mathbb{C}^3$ to $\mathbb{C}^3$ and claims it is a counterexample; the conclusion should still be judged against a formal paper and peer review.</p>
 <p><a href="https://blog.ezyang.com/2019/05/pytorch-internals/">PyTorch internals</a> — a guide to PyTorch&rsquo;s internal mechanisms.</p>
 <p><a href="https://openresearch.sh/">OpenResearch</a> — an entry point for research resources and tools.</p>
 <p><a href="https://c82.net/euclid/">Byrne’s Euclid</a> — an online edition of Oliver Byrne&rsquo;s colorful rendering of Euclid&rsquo;s <em>Elements</em>.</p>
 <p><a href="https://www.zhihu.com/question/2061502500440465960/answer/2063759344613823053">An introduction to the 2026 Fields Medals</a> — a discussion of laureates Yu Deng and Hong Wang and their work.</p>
-<p><a href="https://realpython.com/">Python Tutorials – Real Python</a></p>
-<p><a href="https://arxiv.org/abs/2607.20732">[2607.20732] librla: Randomized Linear Algebra Library</a></p>
+<p><a href="https://realpython.com/">Python Tutorials – Real Python</a> — high-quality Python tutorials and practical articles.</p>
+<p><a href="https://arxiv.org/abs/2607.20732">[2607.20732] librla: Randomized Linear Algebra Library</a> — a randomized linear-algebra library aimed at intermediate-sized matrices (up to roughly $10^4$ dimensions).</p>
 <h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
 <p><a href="https://www.trysynara.com/">Synara</a> — a development tool integrating Claude Code, Codex, Gemini, and Cursor.</p>
-<p><a href="https://chatcut.io/chatgpt-plugin">ChatCut ChatGPT/Codex Plugin</a></p>
+<p><a href="https://chatcut.io/chatgpt-plugin">ChatCut ChatGPT/Codex Plugin</a> — a ChatGPT / Codex plugin for trimming and organizing conversation context.</p>
 <p><a href="https://github.com/xai-org/grok-build">xai-org/grok-build</a> — an open-source coding-agent harness and full-screen TUI.</p>
 <p><a href="https://github.com/ZacharyZhang-NY/Kigi-CLI">ZacharyZhang-NY/Kigi-CLI</a> — an unofficial Rust community build of Kimi Code CLI based on Grok Build.</p>
 <p><a href="https://offline.tldraw.com/">tldraw offline</a> · <a href="https://drive.google.com/file/d/1LlLtdCmYbCe4w41VUOeEIogDfOITAXm1/view">nn-digits.tldraw example</a> — an AI-operable desktop whiteboard.</p>
@@ -186,10 +309,10 @@
 <p><a href="https://www.makingsoftware.com/chapters/how-to-make-a-font">Making Software: How to make a font</a> — a tutorial on making a font.</p>
 <p><a href="https://vercel.com/design.md">Vercel Design System</a> · <a href="https://vercel.com/design.dark.md">Dark</a> — a complete set of guidelines for color tokens, typography, spacing, radii, components, motion, and writing. Its central principle is that color should communicate, not merely decorate.</p>
 <p><a href="https://feldar.com/">Feldar</a> · <a href="https://marker.page/">Marker</a> · <a href="https://ornata.app/#features">Ornata</a> · <a href="https://ishmael.textualize.io/">Ishmael</a> — apps focused on concentration, thinking, or long-form writing.</p>
-<p><a href="https://attune.computer/">Attune</a></p>
+<p><a href="https://attune.computer/">Attune</a> — a personal computing / writing app oriented toward focus and rhythm.</p>
 <p><a href="https://pixgel.d4mr.com/">pixgel</a> — a liquid pixel-art editor with smooth SVG export.</p>
 <p><a href="https://github.com/blakeshao/a-psychos-gd-tool">blakeshao/a-psychos-gd-tool</a> — a node-based graphic-design tool.</p>
-<p><a href="https://typebulb.com/u/lab/you-re-relatively-right/full">You&rsquo;re relatively right!</a>
+<p><a href="https://typebulb.com/u/lab/you-re-relatively-right/full">You&rsquo;re relatively right!</a> — a heatmap of writing-style similarity across LLMs, built from wording alone.
 <img
   src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1784653759506.png"
   alt="QQ_1784653759506.png"
