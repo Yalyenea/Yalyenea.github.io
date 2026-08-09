@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 02 Aug 2026 04:02:26 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第18期周刊</title><link>https://blog.yfff.me/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 04:02:26 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-18/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 10 Aug 2026 00:53:36 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第19期周刊</title><link>https://blog.yfff.me/weekly/week-19/</link><pubDate>Mon, 10 Aug 2026 00:53:36 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-19/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/-5raMxvw0sAK-IPGXRaijA?poc_token=HH1Hb2qjigvWAFoOUhDd4eo9oOBqoH5oe9jf4o1z"&gt;前 OpenAI 推理负责人 JT 与 Gemini pretrain 负责人 Rohan：Continue learning 的未来&lt;/a&gt;：围绕持续学习、预训练后的知识更新与模型长期适应能力展开的访谈。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/one-layer-deeper"&gt;(Some of) The Models, They Just Don&amp;rsquo;t Want to Learn | Tilde&lt;/a&gt;：讨论推理模型的潜在递归深度与训练难题，并通过 One Layer Deeper 竞赛探索架构、优化器和目标函数的协同设计。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://deepgrove.ai/modelcard/index.html"&gt;Maple-Preview Model Card — DeepGrove&lt;/a&gt;：DeepGrove 的开源 20B-A1B 三值权重推理模型，面向高速端侧推理与适配。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html"&gt;Xiaomi-Robotics-1&lt;/a&gt;：小米机器人基础模型，以超过 10 万小时的无本体操作轨迹预训练，再用真实机器人数据完成本体与指令对齐。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/blog/erikkaum/lattice-blog"&gt;Lattice: an 8 MB static retriever that embeds Wikipedia in 7 minutes&lt;/a&gt;：介绍约 8 MB 的静态检索模型及纯 Rust 运行时，可在 8 核 M2 MacBook Air 上约 7 分钟嵌入 640 万篇英文 Wikipedia 文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.12683"&gt;[2606.12683] From AGI to ASI&lt;/a&gt;：梳理从 AGI 走向 ASI 的四条可能路径：规模扩展、范式转移、递归改进与大规模多智能体集体。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.hackster.io/yahboomtechnology/what-are-ai-robots-a-complete-introductory-guide-to-2026-6a4492"&gt;What are AI robots? A complete introductory guide to 2026&lt;/a&gt;：面向入门者介绍 AI 机器人、核心组件、常见类型与应用场景。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eshyperscale.github.io/"&gt;Evolution Strategies at the Hyperscale&lt;/a&gt;：提出 EGGROLL，以低秩结构化扰动提升进化策略的 GPU 算术强度；作者报告其在十亿参数、大种群设置下较朴素 ES 获得约百倍吞吐提升，并用于纯整数 RNN 预训练与 RWKV 推理后训练。
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1786290871751.png"
+ alt="QQ_1786290871751.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tdd.cat/"&gt;The Daily Diff&lt;/a&gt;：按日汇集值得阅读的论文、技术文章与讨论，并提供推荐信号和简短导读。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.tensortonic.com/"&gt;TensorTonic&lt;/a&gt;：通过从零实现机器学习算法、CUDA kernel 与经典论文来学习 ML 的交互式练习平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ai.richardxu.com/ml/"&gt;Interactive Machine Learning — Prof Richard Xu&lt;/a&gt;：以交互式内容讲解机器学习概念与算法的在线课程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://inferencebook.org/"&gt;Inference in Statistical Modelling and Machine Learning&lt;/a&gt;：统计建模与机器学习推断教材的配套站点，提供完整 PDF、习题解答、课件及 Python / R notebooks。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://inferenceengineering.tech/"&gt;Inference Engineering&lt;/a&gt;：从 GPU、CUDA kernel 到量化、KV cache、并行与生产部署的 AI 推理交互式指南。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kurate.org/"&gt;Kurate.org — AI Paper Rankings&lt;/a&gt;：由三个 LLM 共同评判机器人、经济学、物理等领域预印本潜在影响力的论文排行站。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/DimitrisPapail/status/2086158118354887060"&gt;AI Settles a 25 Year-old Problem We Left Behind&lt;/a&gt;：讨论 MIMO 最大似然检测对应的二值整数最小二乘问题，以及 AI 辅助推进相关理论问题的案例。一般形式的精确求解仍是 NP-hard；多项式时间通常指松弛或近似检测方法。目标问题为：
+&lt;/p&gt;
+$$
+\min_{\boldsymbol{x}\in\{\pm 1\}^{N}} \lVert \boldsymbol{y}-\boldsymbol{H}\boldsymbol{x} \rVert_{2}^{2}
+$$&lt;p&gt;
+&lt;a href="https://github.com/JoseDeFreitas/awesome-youtubers"&gt;JoseDeFreitas/awesome-youtubers&lt;/a&gt;：按 Web 开发、计算机科学、机器学习、游戏开发与安全等主题整理的技术 YouTube 频道清单。&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://jcode.sh/"&gt;jcode&lt;/a&gt;：Rust 编写的开源终端 coding agent，强调低资源占用、并行会话、长任务持续执行与可审计性。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://visualtex.pauljianliao.com/"&gt;VisualTeX&lt;/a&gt;：可视化编辑并实时预览 LaTeX 公式的在线工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://peezy.p0.systems/"&gt;Peezy&lt;/a&gt;：面向真实项目的终端 coding agent，可在统一界面切换多种模型与 OpenAI-compatible provider。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://diffs.com/"&gt;Diffs, from Pierre&lt;/a&gt;：基于 Shiki 的开源代码与 diff 渲染库，支持分栏 / 统一视图、批注、冲突处理和交互式接受或拒绝改动。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yetidevworks/drydock"&gt;yetidevworks/drydock&lt;/a&gt;：用一个 Rust TUI 查看多个仓库中未提交、未推送、落后远端与待发布状态。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rapha.land/canario/"&gt;Canario&lt;/a&gt;：基于 Rio 引擎的 macOS 终端，提供空间分组、分屏、命令面板、标签预览与全局快速终端。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://localstudio.ai/"&gt;Local Studio&lt;/a&gt;：本地 AI 工作台，将模型、推理运行时、硬件监控、文件、终端与 agent 放在同一界面，并统一接入 vLLM、SGLang、MLX 和 llama.cpp。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cnb.cool/"&gt;CNB&lt;/a&gt;：腾讯的云原生开发平台，以 Everything as Code 管理构建环境、缓存、插件与弹性算力。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SteveSuv/remix-words-funny"&gt;SteveSuv/remix-words-funny&lt;/a&gt;：使用 React Router v7、tRPC、Drizzle、PostgreSQL、HeroUI 与 Docker 构建的全栈英语单词学习项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/codecast-sh/codecast"&gt;codecast-sh/codecast&lt;/a&gt;：统一记录、检索并远程调度 Claude Code、Codex、Cursor 与 Gemini 会话，支持团队记忆和代码行级 agent 归因。&lt;/p&gt;
+&lt;h3 id="macos--效率--其他"&gt;macOS / 效率 / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tahul/space-rabbit"&gt;Tahul/space-rabbit&lt;/a&gt;：移除 macOS Spaces 切换动画，缩短桌面切换等待时间。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vorssaint.com/"&gt;Vorssaint&lt;/a&gt; · &lt;a href="https://github.com/vorssaint/vorssaint-utils"&gt;vorssaint/vorssaint-utils&lt;/a&gt;：免费开源的模块化 macOS 菜单栏工具箱，覆盖防休眠、硬件监控、音量、网络、磁盘与常用系统开关。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sidescreen.dev/"&gt;Side Screen&lt;/a&gt;：通过 USB-C 或 Wi-Fi 将 Android 平板变成 Mac 的扩展显示器，支持硬件加速与触控输入。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/migsilva89/imark"&gt;migsilva89/imark&lt;/a&gt;：原生 macOS Markdown 阅读器，可跟随文件保存实时刷新；批注直接写入 Markdown 的 HTML 注释中，文件无需上传云端。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://mp.weixin.qq.com/s/-5raMxvw0sAK-IPGXRaijA?poc_token=HH1Hb2qjigvWAFoOUhDd4eo9oOBqoH5oe9jf4o1z">前 OpenAI 推理负责人 JT 与 Gemini pretrain 负责人 Rohan：Continue learning 的未来</a>：围绕持续学习、预训练后的知识更新与模型长期适应能力展开的访谈。</p>
+<p><a href="https://blog.tilderesearch.com/blog/one-layer-deeper">(Some of) The Models, They Just Don&rsquo;t Want to Learn | Tilde</a>：讨论推理模型的潜在递归深度与训练难题，并通过 One Layer Deeper 竞赛探索架构、优化器和目标函数的协同设计。</p>
+<p><a href="https://deepgrove.ai/modelcard/index.html">Maple-Preview Model Card — DeepGrove</a>：DeepGrove 的开源 20B-A1B 三值权重推理模型，面向高速端侧推理与适配。</p>
+<p><a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html">Xiaomi-Robotics-1</a>：小米机器人基础模型，以超过 10 万小时的无本体操作轨迹预训练，再用真实机器人数据完成本体与指令对齐。</p>
+<p><a href="https://huggingface.co/blog/erikkaum/lattice-blog">Lattice: an 8 MB static retriever that embeds Wikipedia in 7 minutes</a>：介绍约 8 MB 的静态检索模型及纯 Rust 运行时，可在 8 核 M2 MacBook Air 上约 7 分钟嵌入 640 万篇英文 Wikipedia 文章。</p>
+<p><a href="https://arxiv.org/abs/2606.12683">[2606.12683] From AGI to ASI</a>：梳理从 AGI 走向 ASI 的四条可能路径：规模扩展、范式转移、递归改进与大规模多智能体集体。</p>
+<p><a href="https://www.hackster.io/yahboomtechnology/what-are-ai-robots-a-complete-introductory-guide-to-2026-6a4492">What are AI robots? A complete introductory guide to 2026</a>：面向入门者介绍 AI 机器人、核心组件、常见类型与应用场景。</p>
+<p><a href="https://eshyperscale.github.io/">Evolution Strategies at the Hyperscale</a>：提出 EGGROLL，以低秩结构化扰动提升进化策略的 GPU 算术强度；作者报告其在十亿参数、大种群设置下较朴素 ES 获得约百倍吞吐提升，并用于纯整数 RNN 预训练与 RWKV 推理后训练。
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1786290871751.png"
+  alt="QQ_1786290871751.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://tdd.cat/">The Daily Diff</a>：按日汇集值得阅读的论文、技术文章与讨论，并提供推荐信号和简短导读。</p>
+<p><a href="https://www.tensortonic.com/">TensorTonic</a>：通过从零实现机器学习算法、CUDA kernel 与经典论文来学习 ML 的交互式练习平台。</p>
+<p><a href="https://ai.richardxu.com/ml/">Interactive Machine Learning — Prof Richard Xu</a>：以交互式内容讲解机器学习概念与算法的在线课程。</p>
+<p><a href="https://inferencebook.org/">Inference in Statistical Modelling and Machine Learning</a>：统计建模与机器学习推断教材的配套站点，提供完整 PDF、习题解答、课件及 Python / R notebooks。</p>
+<p><a href="https://inferenceengineering.tech/">Inference Engineering</a>：从 GPU、CUDA kernel 到量化、KV cache、并行与生产部署的 AI 推理交互式指南。</p>
+<p><a href="https://kurate.org/">Kurate.org — AI Paper Rankings</a>：由三个 LLM 共同评判机器人、经济学、物理等领域预印本潜在影响力的论文排行站。</p>
+<p><a href="https://x.com/DimitrisPapail/status/2086158118354887060">AI Settles a 25 Year-old Problem We Left Behind</a>：讨论 MIMO 最大似然检测对应的二值整数最小二乘问题，以及 AI 辅助推进相关理论问题的案例。一般形式的精确求解仍是 NP-hard；多项式时间通常指松弛或近似检测方法。目标问题为：
+</p>
+$$
+\min_{\boldsymbol{x}\in\{\pm 1\}^{N}} \lVert \boldsymbol{y}-\boldsymbol{H}\boldsymbol{x} \rVert_{2}^{2}
+$$<p>
+<a href="https://github.com/JoseDeFreitas/awesome-youtubers">JoseDeFreitas/awesome-youtubers</a>：按 Web 开发、计算机科学、机器学习、游戏开发与安全等主题整理的技术 YouTube 频道清单。</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://jcode.sh/">jcode</a>：Rust 编写的开源终端 coding agent，强调低资源占用、并行会话、长任务持续执行与可审计性。</p>
+<p><a href="https://visualtex.pauljianliao.com/">VisualTeX</a>：可视化编辑并实时预览 LaTeX 公式的在线工具。</p>
+<p><a href="https://peezy.p0.systems/">Peezy</a>：面向真实项目的终端 coding agent，可在统一界面切换多种模型与 OpenAI-compatible provider。</p>
+<p><a href="https://diffs.com/">Diffs, from Pierre</a>：基于 Shiki 的开源代码与 diff 渲染库，支持分栏 / 统一视图、批注、冲突处理和交互式接受或拒绝改动。</p>
+<p><a href="https://github.com/yetidevworks/drydock">yetidevworks/drydock</a>：用一个 Rust TUI 查看多个仓库中未提交、未推送、落后远端与待发布状态。</p>
+<p><a href="https://rapha.land/canario/">Canario</a>：基于 Rio 引擎的 macOS 终端，提供空间分组、分屏、命令面板、标签预览与全局快速终端。</p>
+<p><a href="https://localstudio.ai/">Local Studio</a>：本地 AI 工作台，将模型、推理运行时、硬件监控、文件、终端与 agent 放在同一界面，并统一接入 vLLM、SGLang、MLX 和 llama.cpp。</p>
+<p><a href="https://cnb.cool/">CNB</a>：腾讯的云原生开发平台，以 Everything as Code 管理构建环境、缓存、插件与弹性算力。</p>
+<p><a href="https://github.com/SteveSuv/remix-words-funny">SteveSuv/remix-words-funny</a>：使用 React Router v7、tRPC、Drizzle、PostgreSQL、HeroUI 与 Docker 构建的全栈英语单词学习项目。</p>
+<p><a href="https://github.com/codecast-sh/codecast">codecast-sh/codecast</a>：统一记录、检索并远程调度 Claude Code、Codex、Cursor 与 Gemini 会话，支持团队记忆和代码行级 agent 归因。</p>
+<h3 id="macos--效率--其他">macOS / 效率 / 其他</h3>
+<p><a href="https://github.com/Tahul/space-rabbit">Tahul/space-rabbit</a>：移除 macOS Spaces 切换动画，缩短桌面切换等待时间。</p>
+<p><a href="https://vorssaint.com/">Vorssaint</a> · <a href="https://github.com/vorssaint/vorssaint-utils">vorssaint/vorssaint-utils</a>：免费开源的模块化 macOS 菜单栏工具箱，覆盖防休眠、硬件监控、音量、网络、磁盘与常用系统开关。</p>
+<p><a href="https://www.sidescreen.dev/">Side Screen</a>：通过 USB-C 或 Wi-Fi 将 Android 平板变成 Mac 的扩展显示器，支持硬件加速与触控输入。</p>
+<p><a href="https://github.com/migsilva89/imark">migsilva89/imark</a>：原生 macOS Markdown 阅读器，可跟随文件保存实时刷新；批注直接写入 Markdown 的 HTML 注释中，文件无需上传云端。</p>
+]]></content:encoded></item><item><title>第18期周刊</title><link>https://blog.yfff.me/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 04:02:26 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-18/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3"&gt;moonshotai/Kimi-K3 · Hugging Face&lt;/a&gt;：Moonshot 发布的 Kimi K3 模型权重与模型卡。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/waterloo_intern/status/2081762065392541951"&gt;X 上的 ali：“22580: From GPT2 to Kimi3, Explained”&lt;/a&gt;：从 GPT-2 到 Kimi K3 的架构演进串讲。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-kimi-k3"&gt;cneuralnetwork/smol-kimi-k3&lt;/a&gt;：约 49M 参数的 Kimi K3 风格小模型，可在单卡 8GB GPU 上训练。&lt;/p&gt;
