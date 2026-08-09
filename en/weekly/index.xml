@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 02 Aug 2026 03:57:29 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 18</title><link>https://blog.yfff.me/en/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 03:57:29 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-18/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 10 Aug 2026 00:53:36 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 19</title><link>https://blog.yfff.me/en/weekly/week-19/</link><pubDate>Mon, 10 Aug 2026 00:53:36 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-19/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/-5raMxvw0sAK-IPGXRaijA?poc_token=HH1Hb2qjigvWAFoOUhDd4eo9oOBqoH5oe9jf4o1z"&gt;Former OpenAI reasoning lead JT and Gemini pretraining lead Rohan on the future of continual learning&lt;/a&gt; — a conversation about continual learning, post-pretraining knowledge updates, and long-term model adaptability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.tilderesearch.com/blog/one-layer-deeper"&gt;(Some of) The Models, They Just Don&amp;rsquo;t Want to Learn | Tilde&lt;/a&gt; — examines potential recursive depth and training difficulties in reasoning models, with the One Layer Deeper competition exploring the joint design of architectures, optimizers, and objectives.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://deepgrove.ai/modelcard/index.html"&gt;Maple-Preview Model Card — DeepGrove&lt;/a&gt; — DeepGrove&amp;rsquo;s open-source 20B-A1B reasoning model with ternary weights, designed for fast on-device inference and adaptation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html"&gt;Xiaomi-Robotics-1&lt;/a&gt; — Xiaomi&amp;rsquo;s robot foundation model, pretrained on more than 100,000 hours of embodiment-agnostic manipulation trajectories, then aligned with target embodiments and instructions using real-robot data.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/blog/erikkaum/lattice-blog"&gt;Lattice: an 8 MB static retriever that embeds Wikipedia in 7 minutes&lt;/a&gt; — an approximately 8 MB static retrieval model and pure-Rust runtime that can embed 6.4 million English Wikipedia articles in about seven minutes on an 8-core M2 MacBook Air.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.12683"&gt;[2606.12683] From AGI to ASI&lt;/a&gt; — outlines four possible paths from AGI to ASI: scaling, paradigm shifts, recursive improvement, and large-scale multi-agent collectives.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.hackster.io/yahboomtechnology/what-are-ai-robots-a-complete-introductory-guide-to-2026-6a4492"&gt;What are AI robots? A complete introductory guide to 2026&lt;/a&gt; — an introductory guide to AI robots, their core components, common types, and applications.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eshyperscale.github.io/"&gt;Evolution Strategies at the Hyperscale&lt;/a&gt; — introduces EGGROLL, which uses structured low-rank perturbations to increase the GPU arithmetic intensity of evolution strategies; the authors report roughly 100× higher throughput than naive ES at billion-parameter scale and large population sizes, with experiments on pure-integer RNN pretraining and RWKV reasoning post-training.
+&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1786290871751.png"
+ alt="QQ_1786290871751.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tdd.cat/"&gt;The Daily Diff&lt;/a&gt; — a daily collection of worthwhile papers, technical articles, and discussions with recommendation signals and concise summaries.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.tensortonic.com/"&gt;TensorTonic&lt;/a&gt; — an interactive platform for learning machine learning by implementing algorithms, CUDA kernels, and landmark papers from scratch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ai.richardxu.com/ml/"&gt;Interactive Machine Learning — Prof Richard Xu&lt;/a&gt; — an online course that explains machine-learning concepts and algorithms through interactive material.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://inferencebook.org/"&gt;Inference in Statistical Modelling and Machine Learning&lt;/a&gt; — the companion site for a textbook on inference in statistical modeling and machine learning, with a complete PDF, solutions, slides, and Python / R notebooks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://inferenceengineering.tech/"&gt;Inference Engineering&lt;/a&gt; — an interactive guide to AI inference spanning GPUs, CUDA kernels, quantization, KV caches, parallelism, and production deployment.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kurate.org/"&gt;Kurate.org — AI Paper Rankings&lt;/a&gt; — a paper-ranking site where three LLMs jointly assess the potential impact of preprints in robotics, economics, physics, and other fields.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/DimitrisPapail/status/2086158118354887060"&gt;AI Settles a 25 Year-old Problem We Left Behind&lt;/a&gt; — discusses the binary integer least-squares problem underlying maximum-likelihood MIMO detection and an example of AI-assisted progress on related theory. Exact solution in general remains NP-hard; polynomial-time results usually refer to relaxations or approximate detectors. The target problem is:
+&lt;/p&gt;
+$$
+\min_{\boldsymbol{x}\in\{\pm 1\}^{N}} \lVert \boldsymbol{y}-\boldsymbol{H}\boldsymbol{x} \rVert_{2}^{2}
+$$&lt;p&gt;
+&lt;a href="https://github.com/JoseDeFreitas/awesome-youtubers"&gt;JoseDeFreitas/awesome-youtubers&lt;/a&gt; — a curated list of technical YouTube channels covering web development, computer science, machine learning, game development, cybersecurity, and more.&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://jcode.sh/"&gt;jcode&lt;/a&gt; — an open-source terminal coding agent written in Rust, emphasizing low resource usage, parallel sessions, persistent long-running work, and auditability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://visualtex.pauljianliao.com/"&gt;VisualTeX&lt;/a&gt; — an online tool for visually editing and previewing LaTeX formulas in real time.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://peezy.p0.systems/"&gt;Peezy&lt;/a&gt; — a terminal coding agent for real projects with a unified interface for switching among multiple models and OpenAI-compatible providers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://diffs.com/"&gt;Diffs, from Pierre&lt;/a&gt; — an open-source code and diff rendering library built on Shiki, with split and unified views, annotations, conflict handling, and interactive accept-or-reject controls.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yetidevworks/drydock"&gt;yetidevworks/drydock&lt;/a&gt; — a Rust TUI for checking uncommitted changes, unpushed commits, repositories behind their remotes, and unreleased versions across multiple repositories.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rapha.land/canario/"&gt;Canario&lt;/a&gt; — a macOS terminal built on the Rio engine, with spatial grouping, splits, a command palette, tab previews, and a global quick terminal.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://localstudio.ai/"&gt;Local Studio&lt;/a&gt; — a local AI workspace that brings models, inference runtimes, hardware monitoring, files, terminals, and agents into one interface, with unified access to vLLM, SGLang, MLX, and llama.cpp.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cnb.cool/"&gt;CNB&lt;/a&gt; — Tencent&amp;rsquo;s cloud-native development platform, managing build environments, caches, plugins, and elastic compute through an Everything as Code model.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/SteveSuv/remix-words-funny"&gt;SteveSuv/remix-words-funny&lt;/a&gt; — a full-stack English vocabulary-learning project built with React Router v7, tRPC, Drizzle, PostgreSQL, HeroUI, and Docker.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/codecast-sh/codecast"&gt;codecast-sh/codecast&lt;/a&gt; — records, searches, and remotely steers Claude Code, Codex, Cursor, and Gemini sessions, with team memory and line-level agent attribution.&lt;/p&gt;
+&lt;h3 id="macos--productivity--other"&gt;macOS / Productivity / Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Tahul/space-rabbit"&gt;Tahul/space-rabbit&lt;/a&gt; — removes macOS Spaces switching animations to reduce desktop-transition delays.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vorssaint.com/"&gt;Vorssaint&lt;/a&gt; · &lt;a href="https://github.com/vorssaint/vorssaint-utils"&gt;vorssaint/vorssaint-utils&lt;/a&gt; — a free, open-source modular macOS menu-bar toolkit for sleep prevention, hardware monitoring, volume, networking, disks, and common system controls.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sidescreen.dev/"&gt;Side Screen&lt;/a&gt; — turns an Android tablet into an extended display for a Mac over USB-C or Wi-Fi, with hardware acceleration and touch input.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/migsilva89/imark"&gt;migsilva89/imark&lt;/a&gt; — a native macOS Markdown reader that refreshes as files are saved; annotations are stored directly as HTML comments in the Markdown file without uploading it to the cloud.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://mp.weixin.qq.com/s/-5raMxvw0sAK-IPGXRaijA?poc_token=HH1Hb2qjigvWAFoOUhDd4eo9oOBqoH5oe9jf4o1z">Former OpenAI reasoning lead JT and Gemini pretraining lead Rohan on the future of continual learning</a> — a conversation about continual learning, post-pretraining knowledge updates, and long-term model adaptability.</p>
+<p><a href="https://blog.tilderesearch.com/blog/one-layer-deeper">(Some of) The Models, They Just Don&rsquo;t Want to Learn | Tilde</a> — examines potential recursive depth and training difficulties in reasoning models, with the One Layer Deeper competition exploring the joint design of architectures, optimizers, and objectives.</p>
+<p><a href="https://deepgrove.ai/modelcard/index.html">Maple-Preview Model Card — DeepGrove</a> — DeepGrove&rsquo;s open-source 20B-A1B reasoning model with ternary weights, designed for fast on-device inference and adaptation.</p>
+<p><a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html">Xiaomi-Robotics-1</a> — Xiaomi&rsquo;s robot foundation model, pretrained on more than 100,000 hours of embodiment-agnostic manipulation trajectories, then aligned with target embodiments and instructions using real-robot data.</p>
+<p><a href="https://huggingface.co/blog/erikkaum/lattice-blog">Lattice: an 8 MB static retriever that embeds Wikipedia in 7 minutes</a> — an approximately 8 MB static retrieval model and pure-Rust runtime that can embed 6.4 million English Wikipedia articles in about seven minutes on an 8-core M2 MacBook Air.</p>
+<p><a href="https://arxiv.org/abs/2606.12683">[2606.12683] From AGI to ASI</a> — outlines four possible paths from AGI to ASI: scaling, paradigm shifts, recursive improvement, and large-scale multi-agent collectives.</p>
+<p><a href="https://www.hackster.io/yahboomtechnology/what-are-ai-robots-a-complete-introductory-guide-to-2026-6a4492">What are AI robots? A complete introductory guide to 2026</a> — an introductory guide to AI robots, their core components, common types, and applications.</p>
+<p><a href="https://eshyperscale.github.io/">Evolution Strategies at the Hyperscale</a> — introduces EGGROLL, which uses structured low-rank perturbations to increase the GPU arithmetic intensity of evolution strategies; the authors report roughly 100× higher throughput than naive ES at billion-parameter scale and large population sizes, with experiments on pure-integer RNN pretraining and RWKV reasoning post-training.
+<img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1786290871751.png"
+  alt="QQ_1786290871751.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://tdd.cat/">The Daily Diff</a> — a daily collection of worthwhile papers, technical articles, and discussions with recommendation signals and concise summaries.</p>
+<p><a href="https://www.tensortonic.com/">TensorTonic</a> — an interactive platform for learning machine learning by implementing algorithms, CUDA kernels, and landmark papers from scratch.</p>
+<p><a href="https://ai.richardxu.com/ml/">Interactive Machine Learning — Prof Richard Xu</a> — an online course that explains machine-learning concepts and algorithms through interactive material.</p>
+<p><a href="https://inferencebook.org/">Inference in Statistical Modelling and Machine Learning</a> — the companion site for a textbook on inference in statistical modeling and machine learning, with a complete PDF, solutions, slides, and Python / R notebooks.</p>
+<p><a href="https://inferenceengineering.tech/">Inference Engineering</a> — an interactive guide to AI inference spanning GPUs, CUDA kernels, quantization, KV caches, parallelism, and production deployment.</p>
+<p><a href="https://kurate.org/">Kurate.org — AI Paper Rankings</a> — a paper-ranking site where three LLMs jointly assess the potential impact of preprints in robotics, economics, physics, and other fields.</p>
+<p><a href="https://x.com/DimitrisPapail/status/2086158118354887060">AI Settles a 25 Year-old Problem We Left Behind</a> — discusses the binary integer least-squares problem underlying maximum-likelihood MIMO detection and an example of AI-assisted progress on related theory. Exact solution in general remains NP-hard; polynomial-time results usually refer to relaxations or approximate detectors. The target problem is:
+</p>
+$$
+\min_{\boldsymbol{x}\in\{\pm 1\}^{N}} \lVert \boldsymbol{y}-\boldsymbol{H}\boldsymbol{x} \rVert_{2}^{2}
+$$<p>
+<a href="https://github.com/JoseDeFreitas/awesome-youtubers">JoseDeFreitas/awesome-youtubers</a> — a curated list of technical YouTube channels covering web development, computer science, machine learning, game development, cybersecurity, and more.</p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://jcode.sh/">jcode</a> — an open-source terminal coding agent written in Rust, emphasizing low resource usage, parallel sessions, persistent long-running work, and auditability.</p>
+<p><a href="https://visualtex.pauljianliao.com/">VisualTeX</a> — an online tool for visually editing and previewing LaTeX formulas in real time.</p>
+<p><a href="https://peezy.p0.systems/">Peezy</a> — a terminal coding agent for real projects with a unified interface for switching among multiple models and OpenAI-compatible providers.</p>
+<p><a href="https://diffs.com/">Diffs, from Pierre</a> — an open-source code and diff rendering library built on Shiki, with split and unified views, annotations, conflict handling, and interactive accept-or-reject controls.</p>
+<p><a href="https://github.com/yetidevworks/drydock">yetidevworks/drydock</a> — a Rust TUI for checking uncommitted changes, unpushed commits, repositories behind their remotes, and unreleased versions across multiple repositories.</p>
+<p><a href="https://rapha.land/canario/">Canario</a> — a macOS terminal built on the Rio engine, with spatial grouping, splits, a command palette, tab previews, and a global quick terminal.</p>
+<p><a href="https://localstudio.ai/">Local Studio</a> — a local AI workspace that brings models, inference runtimes, hardware monitoring, files, terminals, and agents into one interface, with unified access to vLLM, SGLang, MLX, and llama.cpp.</p>
+<p><a href="https://cnb.cool/">CNB</a> — Tencent&rsquo;s cloud-native development platform, managing build environments, caches, plugins, and elastic compute through an Everything as Code model.</p>
+<p><a href="https://github.com/SteveSuv/remix-words-funny">SteveSuv/remix-words-funny</a> — a full-stack English vocabulary-learning project built with React Router v7, tRPC, Drizzle, PostgreSQL, HeroUI, and Docker.</p>
+<p><a href="https://github.com/codecast-sh/codecast">codecast-sh/codecast</a> — records, searches, and remotely steers Claude Code, Codex, Cursor, and Gemini sessions, with team memory and line-level agent attribution.</p>
+<h3 id="macos--productivity--other">macOS / Productivity / Other</h3>
+<p><a href="https://github.com/Tahul/space-rabbit">Tahul/space-rabbit</a> — removes macOS Spaces switching animations to reduce desktop-transition delays.</p>
+<p><a href="https://vorssaint.com/">Vorssaint</a> · <a href="https://github.com/vorssaint/vorssaint-utils">vorssaint/vorssaint-utils</a> — a free, open-source modular macOS menu-bar toolkit for sleep prevention, hardware monitoring, volume, networking, disks, and common system controls.</p>
+<p><a href="https://www.sidescreen.dev/">Side Screen</a> — turns an Android tablet into an extended display for a Mac over USB-C or Wi-Fi, with hardware acceleration and touch input.</p>
+<p><a href="https://github.com/migsilva89/imark">migsilva89/imark</a> — a native macOS Markdown reader that refreshes as files are saved; annotations are stored directly as HTML comments in the Markdown file without uploading it to the cloud.</p>
+]]></content:encoded></item><item><title>Weekly Issue 18</title><link>https://blog.yfff.me/en/weekly/week-18/</link><pubDate>Sun, 02 Aug 2026 03:57:29 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-18/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3"&gt;moonshotai/Kimi-K3 · Hugging Face&lt;/a&gt; — Moonshot&amp;rsquo;s Kimi K3 model weights and model card.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://x.com/waterloo_intern/status/2081762065392541951"&gt;ali on X: “22580: From GPT2 to Kimi3, Explained”&lt;/a&gt; — a walkthrough of architecture evolution from GPT-2 to Kimi K3.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/cneuralnetwork/smol-kimi-k3"&gt;cneuralnetwork/smol-kimi-k3&lt;/a&gt; — a ~49M-parameter Kimi-K3-style small model trainable on a single 8GB GPU.&lt;/p&gt;
