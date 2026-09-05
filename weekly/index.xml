@@ -1,4 +1,303 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 30 Aug 2026 20:02:28 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第22期周刊</title><link>https://blog.yfff.me/weekly/week-22/</link><pubDate>Sun, 30 Aug 2026 20:02:28 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-22/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 06 Sep 2026 02:04:04 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第23期周刊</title><link>https://blog.yfff.me/weekly/week-23/</link><pubDate>Sun, 06 Sep 2026 02:04:04 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-23/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"&gt;Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original&lt;/a&gt;：Multiverse Computing 介绍 4-bit 量化感知修复方法，在其报告的 9 项基准中有 7 项超过同架构的 60B BF16 恢复检查点；额外蒸馏训练量并未配平，结果不能简单归因于量化本身。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://xgboost.ai/2026/08/25/introducing-the-xgboost-vector-leaf-model"&gt;Introducing the XGBoost Vector-Leaf Model | XGBoost&lt;/a&gt;：介绍叶节点输出向量的树模型，用共享树结构处理多目标预测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.27370"&gt;[2608.27370] Puro-2B: Poor Lab&amp;rsquo;s Qwen2-1.5B Trained on RTX 5090 within $5090&lt;/a&gt;：探索在 RTX 5090 上低成本训练小型语言模型；v2 最佳模型的训练成本低于 6,900 美元，约 4,400 美元达到 Qwen2-1.5B 水平则来自缩放规律拟合估计。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/"&gt;Training frontier knowledge work agents: A 397B RL training guide with SkyRL | Mercor Blog&lt;/a&gt;：Mercor 分享使用 SkyRL 训练 397B 知识工作智能体的工程经验。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/chenglou/sotaku"&gt;chenglou/sotaku, Sotaku v2 solves 99.12% of a 25,000-puzzle Sudoku benchmark with an 800K-parameter looped transformer trained from scratch&lt;/a&gt;：用从零训练的约 80 万参数循环 Transformer 解数独，仓库报告 Sotaku v2 在 25,000 道题、FP32 与 1,024 次推理迭代下达到 99.12% 的解题率。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://extropic.ai/writing/z1t/"&gt;Z1T | Transformer-like models for Z1&lt;/a&gt;：为 Z1 概率硬件设计稀疏类 Transformer 模型，探索模型与硬件的共同设计，并公开部分训练配方与权重。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.robocurve.org/gpt-6-astra/"&gt;GPT-6 Astra on robot arms | Robocurve&lt;/a&gt;：展示 GPT-6 Astra 操作机械臂的实验；看完有点相信 LLM 就能解决一切了，不过演示能做到什么，还是要回到具体任务来看。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.openai.com/api/docs/guides/latest-model"&gt;Model guidance | OpenAI API&lt;/a&gt; 关于 Astra 的使用。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;**模型怎么用**
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 走 Responses API，设 &lt;span class="sb"&gt;`model: &amp;#34;gpt-6-astra&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 新能力：异步 tool calling（在工具定义上设置 &lt;span class="sb"&gt;`async: true`&lt;/span&gt;）、中途改指令（WebSocket mid-turn steering）、标准单 agent 请求中可用 &lt;span class="sb"&gt;`configuration_update`&lt;/span&gt; 改 reasoning effort（保留请求级 effort 可维持原提示前缀）
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 不支持 &lt;span class="sb"&gt;`reasoning.effort: &amp;#34;none&amp;#34;`&lt;/span&gt;；欧盟数据驻留下没有 Fast mode
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**迁移时注意**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 原先用 &lt;span class="sb"&gt;`none`&lt;/span&gt; / &lt;span class="sb"&gt;`minimal`&lt;/span&gt; → 先试 &lt;span class="sb"&gt;`low`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 工具调用优先 Responses；Chat Completions 虽能用，但 tool calling 要 Responses
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 去掉 &lt;span class="sb"&gt;`temperature`&lt;/span&gt; / &lt;span class="sb"&gt;`top_p`&lt;/span&gt; / &lt;span class="sb"&gt;`top_logprobs`&lt;/span&gt;（及对应 logprobs）
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; 从 GPT-5.5 或更早迁移时，缓存：&lt;span class="sb"&gt;`prompt_cache_retention`&lt;/span&gt; → &lt;span class="sb"&gt;`prompt_cache_options.ttl: &amp;#34;30m&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**提示词调参（最实用）**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;1.&lt;/span&gt; &lt;span class="gs"&gt;**主动性**&lt;/span&gt;：默认更爱追问；要它自己干完，就明确写「推断意图、偏向行动、别只承认能力/给半成品」。先做出可审阅结果再问批准。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;2.&lt;/span&gt; &lt;span class="gs"&gt;**指令优先级**&lt;/span&gt;：对 skill / &lt;span class="sb"&gt;`AGENTS.md`&lt;/span&gt; 更敏感；写明「用户指令优先于 skill」。卡壳时让它引用具体 skill 条款。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;3.&lt;/span&gt; &lt;span class="gs"&gt;**文风**&lt;/span&gt;：默认爱列表/表格/套话；需要散文就规定段落优先、少嵌套列表，并禁 slop（delve、Bottom Line、X not Y 等）。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;4.&lt;/span&gt; &lt;span class="gs"&gt;**子代理**&lt;/span&gt;：默认可能委托不够；多代理场景要写清何时并行委托。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;5.&lt;/span&gt; &lt;span class="gs"&gt;**测试**&lt;/span&gt;：编码时偏过度测试；小改动写明「别为可逆低影响改动写镜像测试」。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;我的使用侧重点：把主动执行、文风、并行委托和测试边界写清楚，减少无谓的追问。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://x.com/pvncher/status/2095991462416490862"&gt;X 上的 eric provencher：“Rethinking skills and prompts for GPT-6 Astra” / X&lt;/a&gt;：Eric Provencher 关于 Astra 技能与提示词写法的讨论。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://x.com/harshbhatt7585/article/2094021031551766970"&gt;The Math of RL - From Policy Gradients to PPO and GRPO&lt;/a&gt;：从策略梯度讲到 PPO 与 GRPO 的强化学习数学文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://irom-lab.princeton.edu/intro-to-robotics/"&gt;Introduction to Robotics | IRoM-Lab&lt;/a&gt;：普林斯顿的机器人学入门课程，覆盖规划、控制、状态估计与机器人学习，并提供无人机项目作业。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hammerhead-piano-5a0.notion.site/Blog-Estimate-Diagonal-Hessian-36014499130180b5b077e6d1511b729e"&gt;[Blog] Estimate Diagonal Hessian&lt;/a&gt;：关于 Hessian 对角元素估计的文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://axiommath.ai/"&gt;Axiom&lt;/a&gt;：面向数学推理与形式化证明的 AI 项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://epoch.ai/latest/announcing-frontiermath-erdos"&gt;Announcing FrontierMath Erdős | Epoch AI&lt;/a&gt;：Epoch AI 发布由 68 道开放 Erdős 问题构成的数学评测，以 Lean 验证证明或反证。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://francesco215.github.io/autoregressive_diffusion/uncertainty.html"&gt;francesco215.github.io/autoregressive_diffusion/uncertainty.html&lt;/a&gt;：关于自回归扩散与不确定性的阅读材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.02867v2"&gt;\[2609.02867v2\] Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets&lt;/a&gt;：通过数值模拟研究快速自转双黑洞的磁化吸积、迷你盘热力学、磁输运与双喷流。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/85a6d0e125b60f74e46ffbe496f8b22e.png"
+ alt="85a6d0e125b60f74e46ffbe496f8b22e.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.coreauto.com/blog/how-our-data-shaped-neural-architecture-discovery-and-how-automation-can-reshape-the-future#footnote-writing-style"&gt;How Our Data Shaped Neural Architecture Discovery, and How Automation Can Reshape the Future | Core Automation&lt;/a&gt;：文章讨论数据与神经网络架构的归纳偏置：随机初始化并冻结的网络也可能提供可用特征，但图中的线性分类器仍经过训练。&lt;/p&gt;
+&lt;p&gt;这让我想到：能否通过多次随机初始化后的特征质量，提前筛选适合某类数据的架构？这里要区分随机特征本身的质量与后续分类器训练的作用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个具有合适归纳偏置的神经网络架构，即使主体权重随机且保持冻结，也可能把输入映射到更容易被简单分类器利用的特征空间；训练会进一步把这种初始结构对齐到具体任务。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+ src="https://www.coreauto.com/assets/blog/how-our-data-shaped-neural-architecture-discovery/image2.png"
+ alt="随机 ResNet-18 特征上的分类器输出"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figure. Output probabilities of a (linear) logistic classifier trained on a 10,240-dimensional NRF(Neural Random Feature) representation, extracted from identical, randomly initialized ResNet-18 architectures.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;一些相关论文：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2410.04368"&gt;[2410.04368] Algorithmic Capabilities of Random Transformers&lt;/a&gt;：冻结随机 Transformer 主体，仍优化嵌入层来激活算法能力。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1711.10925"&gt;[1711.10925] Deep Image Prior&lt;/a&gt;：用网络结构作为图像先验，不依赖大型训练集，但仍针对单幅图像优化。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1906.04358"&gt;[1906.04358] Weight Agnostic Neural Networks&lt;/a&gt;：搜索在多个共享权重取值下表现良好的网络架构。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2206.08464"&gt;[2206.08464] PRANC: Pseudo RAndom Networks for Compacting deep models&lt;/a&gt;：冻结多个随机基网络，学习线性组合系数以压缩模型。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://rtmccoy.com/posts/theory_of_mind.html"&gt;Theory of Mind as a Central Skill for Researchers&lt;/a&gt;：把 theory of mind 视为贯穿写作、报告、评审与合作的元技能：先估计受众知道什么、关注什么、可能怎样误读，再决定解释的密度和顺序。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;做报告时，抽象概念要配上示例；重要的观点反复说；避免大段文字。要考虑场合和受众。&lt;/li&gt;
+&lt;li&gt;写论文时，明确阐明观点；给图表加上较详细的说明；使全文结构易于浏览；尽量少用缩写词，总之是不要加重读者的记忆负担&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.arenaphysica.com/thesis"&gt;Arena Physica Thesis&lt;/a&gt;：电磁工程的瓶颈不只在求解器，还在 CAE、EDA、测试与现场数据彼此割裂，验证反馈又慢又贵。它提出用 agent 工具链、物理基础模型和真实实验室数据打通设计—仿真—测试闭环。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.29530"&gt;[2608.29530] The Emergent Symbolic Structure of Artificial Neural Networks&lt;/a&gt;：神经网络训练后内部可能隐式蕴含了符号结构，所以符号主义与连接主义可能并非完全对立。相关论文：&lt;a href="https://arxiv.org/abs/2506.21797"&gt;[2506.21797] Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fields-studio.arenaphysica.com/"&gt;Atlas Fields Studio&lt;/a&gt;：Arena Physica 的电磁场预测交互演示，可修改几何并观察电场与磁场的预测变化，目前标注为 Beta。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.arenaphysica.com/publications/smith-charts"&gt;What is a Smith Chart? | Arena Physica&lt;/a&gt;：介绍射频工程中的 Smith 圆图。&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/"&gt;Your First GPUI App - Building a Desktop UI in Rust | Mrsheerluck Blog&lt;/a&gt;：用 Rust 和 GPUI 构建第一个桌面应用的入门教程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/emilkowalski/skills"&gt;emilkowalski/skills: Skills for Designers and Engineers.&lt;/a&gt;：Emil Kowalski 把界面设计与动画经验整理成智能体技能，覆盖动画实现、审阅、交互细节和 UI 原型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/DEEIX-AI/DEEIX-Chat"&gt;DEEIX-AI/DEEIX-Chat: An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.&lt;/a&gt;：整合模型路由、多模态对话、文件、工具、计费与身份管理的企业 AI 工作区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zodex.dev/#pricing"&gt;Zodex | AI integrated development environment&lt;/a&gt;：基于 Rust 和 Tauri 的 AI 开发工作台，将智能体对话、终端、Git 差异与回滚放在一起，可导入本地 Codex、Claude Code 和 Pi 会话。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://skillry.dev/"&gt;Skillry - Agent Skills with Taste&lt;/a&gt;：精选智能体技能目录，涵盖网页、幻灯片、图像与视频，并提供示例和安装说明。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pola.rs/posts/announcing-polars-2/"&gt;Polars — Pre-release of Polars 2.0&lt;/a&gt;：介绍 Polars 2.0 的首个候选版本，LazyFrame 查询默认采用流式引擎，并收紧类型转换等隐式行为。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/get-bb/bb"&gt;get-bb/bb: The agent IDE that builds itself&lt;/a&gt;：可通过桌面端、网页、CLI 与 HTTP API 驱动的智能体 IDE，支持实时跟踪和调整任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xuanji86/ainiee-translate-skill"&gt;xuanji86/ainiee-translate-skill: 独立、Agent 原生的小说翻译系统：工作方式类似 AiNiee 但不依赖其应用运行，由 Claude Code 充当翻译引擎。&lt;/a&gt;：以 Claude Code 为翻译引擎的小说翻译技能，不依赖 AiNiee 应用运行。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mishka-zz/freecad-microwave"&gt;mishka-zz/freecad-microwave: FreeCAD workbench for RF and microwave engineering&lt;/a&gt;：面向射频与微波工程的 FreeCAD 工作台，仍处于开发者预览阶段，当前可用的仿真后端是 openEMS。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+ alt="e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.blueprint.io/"&gt;Blueprint - AI Hardware Design Tool&lt;/a&gt;：AI 辅助硬件设计工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.kicad.org/"&gt;KiCad - Schematic Capture &amp;amp; PCB Design Software&lt;/a&gt;：用于原理图绘制与 PCB 设计的开源软件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/American-Embedded/KiStack"&gt;American-Embedded/kistack: KiStack is a HUMAN WRITTEN bunch of skills for KiCad&lt;/a&gt;：为 KiCad 工作流整理的智能体技能。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TrenTorch/TrenTorch"&gt;TrenTorch&lt;/a&gt;：受 Harvard TinyTorch 启发，通过从头构建机器学习框架来学习 PyTorch 的教学项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://designengineer.tools/"&gt;Design Engineer Tools&lt;/a&gt;：面向设计工程师的工具目录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://desengs.com/"&gt;DesEngs: Resources for Design Engineers&lt;/a&gt; · &lt;a href="https://desengs.com/minimum/"&gt;Minimal Website Design Directory — DesEngs&lt;/a&gt;：设计工程资源与极简网站参考目录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://on.design/launch"&gt;on.design&lt;/a&gt;：面向设计师的资源项目，目前处于候补上线阶段。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://whatships.com/"&gt;whatships.com — Discover startup launch videos&lt;/a&gt; · &lt;a href="https://whatships.com/tools/"&gt;Tools for making launch videos or mockups— whatships.com&lt;/a&gt;：收集创业产品发布视频，并整理视频与样机制作工具。&lt;/p&gt;
+&lt;p&gt;图标与设计素材书签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://remixicon.com/"&gt;Remix Icon - Open source icon library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://phosphoricons.com/"&gt;Phosphor Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tabler.io/icons"&gt;Tabler Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mblode/blode-icons"&gt;Blode Icons (GitHub)&lt;/a&gt; · &lt;a href="https://blode.co/icons"&gt;Blode Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconify.design"&gt;Iconify&lt;/a&gt; · &lt;a href="https://icon-sets.iconify.design"&gt;Iconify icon sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://untitledui.com"&gt;Untitled UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://heroicons.com"&gt;Heroicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://keylineicons.com"&gt;Keyline Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconmonstr.com"&gt;IconMonstr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icons.getbootstrap.com"&gt;Bootstrap Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://reicon.dev"&gt;Reicon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lucide.dev"&gt;Lucide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icones.js.org"&gt;Icônes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icons0.dev"&gt;icons0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mageicons.com"&gt;Mage Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mingcute.com"&gt;MingCute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugeicons.com"&gt;Hugeicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gravity-ui.com"&gt;Gravity UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconists.co/central"&gt;Central Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://svgrepo.com/collection/solar-bold-icons/"&gt;Solar Bold Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://svgrepo.com/page/licensing/#CC%20Attribution"&gt;SVG Repo CC Attribution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://streamlinehq.com/icons/pixel-icons"&gt;Streamline Pixel Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://toools.design"&gt;toools.design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.co/B2JkDXq32V"&gt;Silk icons (Wikimedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/huge_icons"&gt;@huge_icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/nucleoicons"&gt;@nucleoicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/antfu7"&gt;@antfu7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="macos--效率--其他"&gt;macOS / 效率 / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/jurplel/InstantSpaceSwitcher"&gt;jurplel/InstantSpaceSwitcher: Native space switching on macOS with no animation&lt;/a&gt;：关闭 macOS 原生空间切换动画的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tsouth89/omakade"&gt;Omakade | Your games, beautifully together&lt;/a&gt;：面向 Omarchy 的本地游戏库，汇总 Steam、Lutris、Heroic 等来源的已安装游戏，并交给原平台启动。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hivinz.com/download/codenotch"&gt;Download Codenotch — Vinz&lt;/a&gt;：在 Mac 刘海侧边显示 LLM 使用量的小工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/thisisgm/flea"&gt;thisisgm/flea: A fast, keyboard-first file manager for Omarchy: Quickshell front end, Rust backend.&lt;/a&gt;：面向 Omarchy、键盘优先的文件管理器，采用 Quickshell 前端与 Rust 后端。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aloisdeniel.github.io/omafiles/"&gt;omafiles — the file explorer Omarchy was missing&lt;/a&gt;：用 Rust 与 GPUI 实现的 Omarchy 文件管理器，整合搜索、预览与 Git 差异。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://getdroppy.app/#pricing"&gt;Droppy. Your Mac, just way better.&lt;/a&gt;：把文件暂存、剪贴板、媒体控制与小组件等集成到 Mac 刘海或悬浮灵动岛。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tenacityaudio.org/"&gt;Tenacity&lt;/a&gt;：开源多轨音频编辑与录音工具，支持效果插件、脚本与信号分析。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://learn.chatgpt.com/training"&gt;ChatGPT Training&lt;/a&gt;：OpenAI 的分步练习与工作流程教程，帮助使用 ChatGPT Work 和 Codex 完成实际任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.whichai.dev/"&gt;Which AI Made This?&lt;/a&gt;：对比不同模型完成同一 UI 设计任务的作品，并展示启用设计技能前后的差异。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://shortap.app/#pricing"&gt;Shortap — Quick tap gestures for your MacBook&lt;/a&gt;：通过轻敲 MacBook 机身触发操作的手势工具。&lt;/p&gt;
+&lt;p&gt;相关开源项目：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/versacecrispies/Tapify"&gt;Tapify&lt;/a&gt;：对标 Knock 的菜单栏应用，支持单敲至三敲及媒体控制、截屏和启动应用&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Alex-duh/Bonk"&gt;Bonk&lt;/a&gt;：GPL，最多四连敲，可绑 Shortcuts / shell，还能按 App 区分&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/shaircast/nocnoc"&gt;nocnoc&lt;/a&gt;：有波形和校准向导&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Gojaehyeon/knocker"&gt;knocker&lt;/a&gt;：可区分左、中、右侧轻敲，提供菜单栏界面&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mohitagw15856/Tapcraft"&gt;TapCraft&lt;/a&gt;：Python 实现的机身拍击与触控板分区工具，其中加速度计检测需要 sudo，麦克风检测不需要&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing">Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original</a>：Multiverse Computing 介绍 4-bit 量化感知修复方法，在其报告的 9 项基准中有 7 项超过同架构的 60B BF16 恢复检查点；额外蒸馏训练量并未配平，结果不能简单归因于量化本身。</p>
+<p><a href="https://xgboost.ai/2026/08/25/introducing-the-xgboost-vector-leaf-model">Introducing the XGBoost Vector-Leaf Model | XGBoost</a>：介绍叶节点输出向量的树模型，用共享树结构处理多目标预测。</p>
+<p><a href="https://arxiv.org/abs/2608.27370">[2608.27370] Puro-2B: Poor Lab&rsquo;s Qwen2-1.5B Trained on RTX 5090 within $5090</a>：探索在 RTX 5090 上低成本训练小型语言模型；v2 最佳模型的训练成本低于 6,900 美元，约 4,400 美元达到 Qwen2-1.5B 水平则来自缩放规律拟合估计。</p>
+<p><a href="https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/">Training frontier knowledge work agents: A 397B RL training guide with SkyRL | Mercor Blog</a>：Mercor 分享使用 SkyRL 训练 397B 知识工作智能体的工程经验。</p>
+<p><a href="https://github.com/chenglou/sotaku">chenglou/sotaku, Sotaku v2 solves 99.12% of a 25,000-puzzle Sudoku benchmark with an 800K-parameter looped transformer trained from scratch</a>：用从零训练的约 80 万参数循环 Transformer 解数独，仓库报告 Sotaku v2 在 25,000 道题、FP32 与 1,024 次推理迭代下达到 99.12% 的解题率。</p>
+<p><a href="https://extropic.ai/writing/z1t/">Z1T | Transformer-like models for Z1</a>：为 Z1 概率硬件设计稀疏类 Transformer 模型，探索模型与硬件的共同设计，并公开部分训练配方与权重。</p>
+<p><a href="https://openai.robocurve.org/gpt-6-astra/">GPT-6 Astra on robot arms | Robocurve</a>：展示 GPT-6 Astra 操作机械臂的实验；看完有点相信 LLM 就能解决一切了，不过演示能做到什么，还是要回到具体任务来看。</p>
+<p><a href="https://developers.openai.com/api/docs/guides/latest-model">Model guidance | OpenAI API</a> 关于 Astra 的使用。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">**模型怎么用**
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 走 Responses API，设 <span class="sb">`model: &#34;gpt-6-astra&#34;`</span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 新能力：异步 tool calling（在工具定义上设置 <span class="sb">`async: true`</span>）、中途改指令（WebSocket mid-turn steering）、标准单 agent 请求中可用 <span class="sb">`configuration_update`</span> 改 reasoning effort（保留请求级 effort 可维持原提示前缀）
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 不支持 <span class="sb">`reasoning.effort: &#34;none&#34;`</span>；欧盟数据驻留下没有 Fast mode
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gs">**迁移时注意**</span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 原先用 <span class="sb">`none`</span> / <span class="sb">`minimal`</span> → 先试 <span class="sb">`low`</span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 工具调用优先 Responses；Chat Completions 虽能用，但 tool calling 要 Responses
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 去掉 <span class="sb">`temperature`</span> / <span class="sb">`top_p`</span> / <span class="sb">`top_logprobs`</span>（及对应 logprobs）
+</span></span><span class="line"><span class="cl"><span class="k">-</span> 从 GPT-5.5 或更早迁移时，缓存：<span class="sb">`prompt_cache_retention`</span> → <span class="sb">`prompt_cache_options.ttl: &#34;30m&#34;`</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gs">**提示词调参（最实用）**</span>
+</span></span><span class="line"><span class="cl"><span class="k">1.</span> <span class="gs">**主动性**</span>：默认更爱追问；要它自己干完，就明确写「推断意图、偏向行动、别只承认能力/给半成品」。先做出可审阅结果再问批准。
+</span></span><span class="line"><span class="cl"><span class="k">2.</span> <span class="gs">**指令优先级**</span>：对 skill / <span class="sb">`AGENTS.md`</span> 更敏感；写明「用户指令优先于 skill」。卡壳时让它引用具体 skill 条款。
+</span></span><span class="line"><span class="cl"><span class="k">3.</span> <span class="gs">**文风**</span>：默认爱列表/表格/套话；需要散文就规定段落优先、少嵌套列表，并禁 slop（delve、Bottom Line、X not Y 等）。
+</span></span><span class="line"><span class="cl"><span class="k">4.</span> <span class="gs">**子代理**</span>：默认可能委托不够；多代理场景要写清何时并行委托。
+</span></span><span class="line"><span class="cl"><span class="k">5.</span> <span class="gs">**测试**</span>：编码时偏过度测试；小改动写明「别为可逆低影响改动写镜像测试」。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">我的使用侧重点：把主动执行、文风、并行委托和测试边界写清楚，减少无谓的追问。
+</span></span></code></pre></div><p><a href="https://x.com/pvncher/status/2095991462416490862">X 上的 eric provencher：“Rethinking skills and prompts for GPT-6 Astra” / X</a>：Eric Provencher 关于 Astra 技能与提示词写法的讨论。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://x.com/harshbhatt7585/article/2094021031551766970">The Math of RL - From Policy Gradients to PPO and GRPO</a>：从策略梯度讲到 PPO 与 GRPO 的强化学习数学文章。</p>
+<p><a href="https://irom-lab.princeton.edu/intro-to-robotics/">Introduction to Robotics | IRoM-Lab</a>：普林斯顿的机器人学入门课程，覆盖规划、控制、状态估计与机器人学习，并提供无人机项目作业。</p>
+<p><a href="https://hammerhead-piano-5a0.notion.site/Blog-Estimate-Diagonal-Hessian-36014499130180b5b077e6d1511b729e">[Blog] Estimate Diagonal Hessian</a>：关于 Hessian 对角元素估计的文章。</p>
+<p><a href="https://axiommath.ai/">Axiom</a>：面向数学推理与形式化证明的 AI 项目。</p>
+<p><a href="https://epoch.ai/latest/announcing-frontiermath-erdos">Announcing FrontierMath Erdős | Epoch AI</a>：Epoch AI 发布由 68 道开放 Erdős 问题构成的数学评测，以 Lean 验证证明或反证。</p>
+<p><a href="https://francesco215.github.io/autoregressive_diffusion/uncertainty.html">francesco215.github.io/autoregressive_diffusion/uncertainty.html</a>：关于自回归扩散与不确定性的阅读材料。</p>
+<p><a href="https://arxiv.org/abs/2609.02867v2">\[2609.02867v2\] Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets</a>：通过数值模拟研究快速自转双黑洞的磁化吸积、迷你盘热力学、磁输运与双喷流。</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/85a6d0e125b60f74e46ffbe496f8b22e.png"
+  alt="85a6d0e125b60f74e46ffbe496f8b22e.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.coreauto.com/blog/how-our-data-shaped-neural-architecture-discovery-and-how-automation-can-reshape-the-future#footnote-writing-style">How Our Data Shaped Neural Architecture Discovery, and How Automation Can Reshape the Future | Core Automation</a>：文章讨论数据与神经网络架构的归纳偏置：随机初始化并冻结的网络也可能提供可用特征，但图中的线性分类器仍经过训练。</p>
+<p>这让我想到：能否通过多次随机初始化后的特征质量，提前筛选适合某类数据的架构？这里要区分随机特征本身的质量与后续分类器训练的作用。</p>
+<blockquote>
+<p>一个具有合适归纳偏置的神经网络架构，即使主体权重随机且保持冻结，也可能把输入映射到更容易被简单分类器利用的特征空间；训练会进一步把这种初始结构对齐到具体任务。</p>
+</blockquote>
+<p><img
+  src="https://www.coreauto.com/assets/blog/how-our-data-shaped-neural-architecture-discovery/image2.png"
+  alt="随机 ResNet-18 特征上的分类器输出"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><em>Figure. Output probabilities of a (linear) logistic classifier trained on a 10,240-dimensional NRF(Neural Random Feature) representation, extracted from identical, randomly initialized ResNet-18 architectures.</em></p>
+<p>一些相关论文：</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2410.04368">[2410.04368] Algorithmic Capabilities of Random Transformers</a>：冻结随机 Transformer 主体，仍优化嵌入层来激活算法能力。</li>
+<li><a href="https://arxiv.org/abs/1711.10925">[1711.10925] Deep Image Prior</a>：用网络结构作为图像先验，不依赖大型训练集，但仍针对单幅图像优化。</li>
+<li><a href="https://arxiv.org/abs/1906.04358">[1906.04358] Weight Agnostic Neural Networks</a>：搜索在多个共享权重取值下表现良好的网络架构。</li>
+<li><a href="https://arxiv.org/abs/2206.08464">[2206.08464] PRANC: Pseudo RAndom Networks for Compacting deep models</a>：冻结多个随机基网络，学习线性组合系数以压缩模型。</li>
+</ul>
+<p><a href="https://rtmccoy.com/posts/theory_of_mind.html">Theory of Mind as a Central Skill for Researchers</a>：把 theory of mind 视为贯穿写作、报告、评审与合作的元技能：先估计受众知道什么、关注什么、可能怎样误读，再决定解释的密度和顺序。</p>
+<ul>
+<li>做报告时，抽象概念要配上示例；重要的观点反复说；避免大段文字。要考虑场合和受众。</li>
+<li>写论文时，明确阐明观点；给图表加上较详细的说明；使全文结构易于浏览；尽量少用缩写词，总之是不要加重读者的记忆负担</li>
+</ul>
+<p><a href="https://www.arenaphysica.com/thesis">Arena Physica Thesis</a>：电磁工程的瓶颈不只在求解器，还在 CAE、EDA、测试与现场数据彼此割裂，验证反馈又慢又贵。它提出用 agent 工具链、物理基础模型和真实实验室数据打通设计—仿真—测试闭环。</p>
+<p><a href="https://arxiv.org/abs/2608.29530">[2608.29530] The Emergent Symbolic Structure of Artificial Neural Networks</a>：神经网络训练后内部可能隐式蕴含了符号结构，所以符号主义与连接主义可能并非完全对立。相关论文：<a href="https://arxiv.org/abs/2506.21797">[2506.21797] Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning</a></p>
+<p><a href="https://fields-studio.arenaphysica.com/">Atlas Fields Studio</a>：Arena Physica 的电磁场预测交互演示，可修改几何并观察电场与磁场的预测变化，目前标注为 Beta。</p>
+<p><a href="https://www.arenaphysica.com/publications/smith-charts">What is a Smith Chart? | Arena Physica</a>：介绍射频工程中的 Smith 圆图。</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/">Your First GPUI App - Building a Desktop UI in Rust | Mrsheerluck Blog</a>：用 Rust 和 GPUI 构建第一个桌面应用的入门教程。</p>
+<p><a href="https://github.com/emilkowalski/skills">emilkowalski/skills: Skills for Designers and Engineers.</a>：Emil Kowalski 把界面设计与动画经验整理成智能体技能，覆盖动画实现、审阅、交互细节和 UI 原型。</p>
+<p><a href="https://github.com/DEEIX-AI/DEEIX-Chat">DEEIX-AI/DEEIX-Chat: An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.</a>：整合模型路由、多模态对话、文件、工具、计费与身份管理的企业 AI 工作区。</p>
+<p><a href="https://zodex.dev/#pricing">Zodex | AI integrated development environment</a>：基于 Rust 和 Tauri 的 AI 开发工作台，将智能体对话、终端、Git 差异与回滚放在一起，可导入本地 Codex、Claude Code 和 Pi 会话。</p>
+<p><a href="https://skillry.dev/">Skillry - Agent Skills with Taste</a>：精选智能体技能目录，涵盖网页、幻灯片、图像与视频，并提供示例和安装说明。</p>
+<p><a href="https://pola.rs/posts/announcing-polars-2/">Polars — Pre-release of Polars 2.0</a>：介绍 Polars 2.0 的首个候选版本，LazyFrame 查询默认采用流式引擎，并收紧类型转换等隐式行为。</p>
+<p><a href="https://github.com/get-bb/bb">get-bb/bb: The agent IDE that builds itself</a>：可通过桌面端、网页、CLI 与 HTTP API 驱动的智能体 IDE，支持实时跟踪和调整任务。</p>
+<p><a href="https://github.com/xuanji86/ainiee-translate-skill">xuanji86/ainiee-translate-skill: 独立、Agent 原生的小说翻译系统：工作方式类似 AiNiee 但不依赖其应用运行，由 Claude Code 充当翻译引擎。</a>：以 Claude Code 为翻译引擎的小说翻译技能，不依赖 AiNiee 应用运行。</p>
+<p><a href="https://github.com/mishka-zz/freecad-microwave">mishka-zz/freecad-microwave: FreeCAD workbench for RF and microwave engineering</a>：面向射频与微波工程的 FreeCAD 工作台，仍处于开发者预览阶段，当前可用的仿真后端是 openEMS。</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+  alt="e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.blueprint.io/">Blueprint - AI Hardware Design Tool</a>：AI 辅助硬件设计工具。</p>
+<p><a href="https://www.kicad.org/">KiCad - Schematic Capture &amp; PCB Design Software</a>：用于原理图绘制与 PCB 设计的开源软件。</p>
+<p><a href="https://github.com/American-Embedded/KiStack">American-Embedded/kistack: KiStack is a HUMAN WRITTEN bunch of skills for KiCad</a>：为 KiCad 工作流整理的智能体技能。</p>
+<p><a href="https://github.com/TrenTorch/TrenTorch">TrenTorch</a>：受 Harvard TinyTorch 启发，通过从头构建机器学习框架来学习 PyTorch 的教学项目。</p>
+<p><a href="https://designengineer.tools/">Design Engineer Tools</a>：面向设计工程师的工具目录。</p>
+<p><a href="https://desengs.com/">DesEngs: Resources for Design Engineers</a> · <a href="https://desengs.com/minimum/">Minimal Website Design Directory — DesEngs</a>：设计工程资源与极简网站参考目录。</p>
+<p><a href="https://on.design/launch">on.design</a>：面向设计师的资源项目，目前处于候补上线阶段。</p>
+<p><a href="https://whatships.com/">whatships.com — Discover startup launch videos</a> · <a href="https://whatships.com/tools/">Tools for making launch videos or mockups— whatships.com</a>：收集创业产品发布视频，并整理视频与样机制作工具。</p>
+<p>图标与设计素材书签：</p>
+<ul>
+<li><a href="https://remixicon.com/">Remix Icon - Open source icon library</a></li>
+<li><a href="https://phosphoricons.com/">Phosphor Icons</a></li>
+<li><a href="https://tabler.io/icons">Tabler Icons</a></li>
+<li><a href="https://github.com/mblode/blode-icons">Blode Icons (GitHub)</a> · <a href="https://blode.co/icons">Blode Icons</a></li>
+<li><a href="https://iconify.design">Iconify</a> · <a href="https://icon-sets.iconify.design">Iconify icon sets</a></li>
+<li><a href="https://untitledui.com">Untitled UI</a></li>
+<li><a href="https://heroicons.com">Heroicons</a></li>
+<li><a href="https://keylineicons.com">Keyline Icons</a></li>
+<li><a href="https://iconmonstr.com">IconMonstr</a></li>
+<li><a href="https://icons.getbootstrap.com">Bootstrap Icons</a></li>
+<li><a href="https://reicon.dev">Reicon</a></li>
+<li><a href="https://lucide.dev">Lucide</a></li>
+<li><a href="https://icones.js.org">Icônes</a></li>
+<li><a href="https://icons0.dev">icons0</a></li>
+<li><a href="https://mageicons.com">Mage Icons</a></li>
+<li><a href="https://mingcute.com">MingCute</a></li>
+<li><a href="https://hugeicons.com">Hugeicons</a></li>
+<li><a href="https://gravity-ui.com">Gravity UI</a></li>
+<li><a href="https://iconists.co/central">Central Icons</a></li>
+<li><a href="https://svgrepo.com/collection/solar-bold-icons/">Solar Bold Icons</a></li>
+<li><a href="https://svgrepo.com/page/licensing/#CC%20Attribution">SVG Repo CC Attribution</a></li>
+<li><a href="https://streamlinehq.com/icons/pixel-icons">Streamline Pixel Icons</a></li>
+<li><a href="https://toools.design">toools.design</a></li>
+<li><a href="https://t.co/B2JkDXq32V">Silk icons (Wikimedia)</a></li>
+<li><a href="https://x.com/huge_icons">@huge_icons</a></li>
+<li><a href="https://x.com/nucleoicons">@nucleoicons</a></li>
+<li><a href="https://x.com/antfu7">@antfu7</a></li>
+</ul>
+<h3 id="macos--效率--其他">macOS / 效率 / 其他</h3>
+<p><a href="https://github.com/jurplel/InstantSpaceSwitcher">jurplel/InstantSpaceSwitcher: Native space switching on macOS with no animation</a>：关闭 macOS 原生空间切换动画的工具。</p>
+<p><a href="https://github.com/tsouth89/omakade">Omakade | Your games, beautifully together</a>：面向 Omarchy 的本地游戏库，汇总 Steam、Lutris、Heroic 等来源的已安装游戏，并交给原平台启动。</p>
+<p><a href="https://hivinz.com/download/codenotch">Download Codenotch — Vinz</a>：在 Mac 刘海侧边显示 LLM 使用量的小工具。</p>
+<p><a href="https://github.com/thisisgm/flea">thisisgm/flea: A fast, keyboard-first file manager for Omarchy: Quickshell front end, Rust backend.</a>：面向 Omarchy、键盘优先的文件管理器，采用 Quickshell 前端与 Rust 后端。</p>
+<p><a href="https://aloisdeniel.github.io/omafiles/">omafiles — the file explorer Omarchy was missing</a>：用 Rust 与 GPUI 实现的 Omarchy 文件管理器，整合搜索、预览与 Git 差异。</p>
+<p><a href="https://getdroppy.app/#pricing">Droppy. Your Mac, just way better.</a>：把文件暂存、剪贴板、媒体控制与小组件等集成到 Mac 刘海或悬浮灵动岛。</p>
+<p><a href="https://tenacityaudio.org/">Tenacity</a>：开源多轨音频编辑与录音工具，支持效果插件、脚本与信号分析。</p>
+<p><a href="https://learn.chatgpt.com/training">ChatGPT Training</a>：OpenAI 的分步练习与工作流程教程，帮助使用 ChatGPT Work 和 Codex 完成实际任务。</p>
+<p><a href="https://www.whichai.dev/">Which AI Made This?</a>：对比不同模型完成同一 UI 设计任务的作品，并展示启用设计技能前后的差异。</p>
+<p><a href="https://shortap.app/#pricing">Shortap — Quick tap gestures for your MacBook</a>：通过轻敲 MacBook 机身触发操作的手势工具。</p>
+<p>相关开源项目：</p>
+<ul>
+<li><a href="https://github.com/versacecrispies/Tapify">Tapify</a>：对标 Knock 的菜单栏应用，支持单敲至三敲及媒体控制、截屏和启动应用</li>
+<li><a href="https://github.com/Alex-duh/Bonk">Bonk</a>：GPL，最多四连敲，可绑 Shortcuts / shell，还能按 App 区分</li>
+<li><a href="https://github.com/shaircast/nocnoc">nocnoc</a>：有波形和校准向导</li>
+<li><a href="https://github.com/Gojaehyeon/knocker">knocker</a>：可区分左、中、右侧轻敲，提供菜单栏界面</li>
+<li><a href="https://github.com/mohitagw15856/Tapcraft">TapCraft</a>：Python 实现的机身拍击与触控板分区工具，其中加速度计检测需要 sudo，麦克风检测不需要</li>
+</ul>
+]]></content:encoded></item><item><title>第22期周刊</title><link>https://blog.yfff.me/weekly/week-22/</link><pubDate>Sun, 30 Aug 2026 20:02:28 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-22/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://leoniemonigatti.com/blog/speculative-decoding.html"&gt;How Speculative Decoding Makes LLMs Go Brrr&lt;/a&gt;：从“草稿—并行验证”流程解释推测解码，并比较独立草稿模型、Medusa、MTP、EAGLE、DFlash 与 DSpark 等技术路线。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://surya.website/rling-qwen-to-paint-with-code"&gt;Training AI to Paint with Code&lt;/a&gt;：Surya Narreddi 团队通过强化学习训练语言模型生成可编辑的 p5.brush JavaScript 绘画，并复盘如何用人工筛选的参考图与成对评判设计审美奖励。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://deepmanifold.ai/"&gt;deepManifold&lt;/a&gt;：汇集两篇预印本与配套文章，尝试用不动点、堆叠分片流形和边界条件迭代来形式化神经网络的几何、代数与计算。&lt;/p&gt;

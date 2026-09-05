@@ -1,4 +1,303 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 30 Aug 2026 20:02:28 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly 22</title><link>https://blog.yfff.me/en/weekly/week-22/</link><pubDate>Sun, 30 Aug 2026 20:02:28 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-22/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 06 Sep 2026 02:04:04 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly 23</title><link>https://blog.yfff.me/en/weekly/week-23/</link><pubDate>Sun, 06 Sep 2026 02:04:04 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-23/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"&gt;Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original&lt;/a&gt;: Multiverse Computing introduces a 4-bit quantization-aware healing method that outperforms a recovered 60B BF16 checkpoint of the same architecture on seven of its nine reported benchmarks. The additional distillation training was not matched, so the result cannot simply be attributed to quantization itself.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://xgboost.ai/2026/08/25/introducing-the-xgboost-vector-leaf-model"&gt;Introducing the XGBoost Vector-Leaf Model | XGBoost&lt;/a&gt;: An introduction to trees whose leaves output vectors, using shared tree structures for multi-target prediction.&lt;/p&gt;
+&lt;p&gt;[[2608.27370] Puro-2B: Poor Lab&amp;rsquo;s Qwen2-1.5B Trained on RTX 5090 within $5090](https://arxiv.org/abs/2608.27370): An exploration of low-cost small language model training on RTX 5090 GPUs. The best model in v2 cost less than $6,900 to train; the estimate of reaching Qwen2-1.5B performance for about $4,400 comes from fitting scaling laws.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/"&gt;Training frontier knowledge work agents: A 397B RL training guide with SkyRL | Mercor Blog&lt;/a&gt;: Mercor shares engineering experience from training a 397B knowledge work agent with SkyRL.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/chenglou/sotaku"&gt;chenglou/sotaku, Sotaku v2 solves 99.12% of a 25,000-puzzle Sudoku benchmark with an 800K-parameter looped transformer trained from scratch&lt;/a&gt;: A roughly 800K-parameter looped Transformer trained from scratch to solve Sudoku. The repository reports that Sotaku v2 solves 99.12% of a 25,000-puzzle benchmark using FP32 and 1,024 inference iterations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://extropic.ai/writing/z1t/"&gt;Z1T | Transformer-like models for Z1&lt;/a&gt;: Sparse Transformer-like models designed for Z1 probabilistic hardware, exploring model and hardware co-design while sharing some training recipes and weights.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.robocurve.org/gpt-6-astra/"&gt;GPT-6 Astra on robot arms | Robocurve&lt;/a&gt;: Experiments with GPT-6 Astra operating robot arms. Watching this makes me a little more inclined to believe LLMs can solve everything, though what a demo can actually do still comes down to the specific task.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.openai.com/api/docs/guides/latest-model"&gt;Model guidance | OpenAI API&lt;/a&gt; on using Astra.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;**Using the model**
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Use the Responses API and set &lt;span class="sb"&gt;`model: &amp;#34;gpt-6-astra&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; New capabilities: asynchronous tool calling (set &lt;span class="sb"&gt;`async: true`&lt;/span&gt; on the tool definition), changing instructions mid-turn (WebSocket mid-turn steering), and changing reasoning effort with &lt;span class="sb"&gt;`configuration_update`&lt;/span&gt; in standard single-agent requests (keeping the request-level effort preserves the original prompt prefix)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; &lt;span class="sb"&gt;`reasoning.effort: &amp;#34;none&amp;#34;`&lt;/span&gt; is unsupported; Fast mode is unavailable with EU data residency
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Migration notes**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; If you previously used &lt;span class="sb"&gt;`none`&lt;/span&gt; / &lt;span class="sb"&gt;`minimal`&lt;/span&gt;, try &lt;span class="sb"&gt;`low`&lt;/span&gt; first
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Prefer Responses for tool use; Chat Completions is available, but tool calling requires Responses
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Remove &lt;span class="sb"&gt;`temperature`&lt;/span&gt; / &lt;span class="sb"&gt;`top_p`&lt;/span&gt; / &lt;span class="sb"&gt;`top_logprobs`&lt;/span&gt; (and the corresponding logprobs)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; When migrating from GPT-5.5 or earlier, update caching: &lt;span class="sb"&gt;`prompt_cache_retention`&lt;/span&gt; → &lt;span class="sb"&gt;`prompt_cache_options.ttl: &amp;#34;30m&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Prompt tuning (the most practical part)**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;1.&lt;/span&gt; &lt;span class="gs"&gt;**Initiative**&lt;/span&gt;: It tends to ask more follow-up questions by default. To have it finish the work autonomously, explicitly say “infer intent, bias toward action, and don&amp;#39;t stop at acknowledging capability or delivering partial work.” Produce a reviewable result before asking for approval.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;2.&lt;/span&gt; &lt;span class="gs"&gt;**Instruction priority**&lt;/span&gt;: It is more sensitive to skills / &lt;span class="sb"&gt;`AGENTS.md`&lt;/span&gt;; state that “user instructions take precedence over skills.” If it gets stuck, have it quote the specific skill rule.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;3.&lt;/span&gt; &lt;span class="gs"&gt;**Writing style**&lt;/span&gt;: It tends toward lists, tables, and stock phrases by default. If you want prose, specify paragraphs first, fewer nested lists, and no slop (delve, Bottom Line, X not Y, etc.).
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;4.&lt;/span&gt; &lt;span class="gs"&gt;**Subagents**&lt;/span&gt;: It may delegate too little by default; specify when to delegate in parallel for multi-agent work.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;5.&lt;/span&gt; &lt;span class="gs"&gt;**Testing**&lt;/span&gt;: It tends to overtest code. For small changes, state “don&amp;#39;t write tests that mirror the implementation for reversible, low-impact changes.”
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;What I focus on in practice: make autonomous execution, writing style, parallel delegation, and testing boundaries explicit to reduce unnecessary questions.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://x.com/pvncher/status/2095991462416490862"&gt;eric provencher on X: “Rethinking skills and prompts for GPT-6 Astra” / X&lt;/a&gt;: Eric Provencher discusses writing skills and prompts for Astra.&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://x.com/harshbhatt7585/article/2094021031551766970"&gt;The Math of RL - From Policy Gradients to PPO and GRPO&lt;/a&gt;: An article on the mathematics of reinforcement learning, from policy gradients to PPO and GRPO.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://irom-lab.princeton.edu/intro-to-robotics/"&gt;Introduction to Robotics | IRoM-Lab&lt;/a&gt;: Princeton&amp;rsquo;s introductory robotics course, covering planning, control, state estimation, and robot learning, with drone project assignments.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hammerhead-piano-5a0.notion.site/Blog-Estimate-Diagonal-Hessian-36014499130180b5b077e6d1511b729e"&gt;[Blog] Estimate Diagonal Hessian&lt;/a&gt;: An article on estimating diagonal Hessian entries.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://axiommath.ai/"&gt;Axiom&lt;/a&gt;: An AI project for mathematical reasoning and formal proofs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://epoch.ai/latest/announcing-frontiermath-erdos"&gt;Announcing FrontierMath Erdős | Epoch AI&lt;/a&gt;: Epoch AI introduces a mathematics benchmark of 68 open Erdős problems, using Lean to verify proofs or disproofs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://francesco215.github.io/autoregressive_diffusion/uncertainty.html"&gt;francesco215.github.io/autoregressive_diffusion/uncertainty.html&lt;/a&gt;: Reading on autoregressive diffusion and uncertainty.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.02867v2"&gt;\[2609.02867v2\] Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets&lt;/a&gt;: Numerical simulations of magnetized accretion onto rapidly spinning binary black holes, including mini-disk thermodynamics, magnetic transport, and dual jets.&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/85a6d0e125b60f74e46ffbe496f8b22e.png"
+ alt="85a6d0e125b60f74e46ffbe496f8b22e.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.coreauto.com/blog/how-our-data-shaped-neural-architecture-discovery-and-how-automation-can-reshape-the-future#footnote-writing-style"&gt;How Our Data Shaped Neural Architecture Discovery, and How Automation Can Reshape the Future | Core Automation&lt;/a&gt;: The article discusses data and the inductive biases of neural network architectures. A randomly initialized, frozen network may still provide useful features, though the linear classifier in the figure was trained.&lt;/p&gt;
+&lt;p&gt;This makes me wonder: could feature quality across multiple random initializations help screen architectures for a particular type of data in advance? We need to distinguish the quality of the random features themselves from the contribution of subsequent classifier training.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A neural network architecture with a suitable inductive bias may map inputs into a feature space that a simple classifier can use more easily, even when its main weights are random and frozen. Training can further align this initial structure with a specific task.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img
+ src="https://www.coreauto.com/assets/blog/how-our-data-shaped-neural-architecture-discovery/image2.png"
+ alt="Classifier outputs on random ResNet-18 features"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figure. Output probabilities of a (linear) logistic classifier trained on a 10,240-dimensional NRF(Neural Random Feature) representation, extracted from identical, randomly initialized ResNet-18 architectures.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Some related papers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2410.04368"&gt;[2410.04368] Algorithmic Capabilities of Random Transformers&lt;/a&gt;: Freezes the random Transformer body while still optimizing embeddings to activate algorithmic capabilities.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1711.10925"&gt;[1711.10925] Deep Image Prior&lt;/a&gt;: Uses network structure as an image prior without a large training dataset, but still optimizes for an individual image.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1906.04358"&gt;[1906.04358] Weight Agnostic Neural Networks&lt;/a&gt;: Searches for network architectures that perform well across multiple shared weight values.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2206.08464"&gt;[2206.08464] PRANC: Pseudo RAndom Networks for Compacting deep models&lt;/a&gt;: Freezes multiple random basis networks and learns their linear combination coefficients to compress a model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://rtmccoy.com/posts/theory_of_mind.html"&gt;Theory of Mind as a Central Skill for Researchers&lt;/a&gt;: Treats theory of mind as a meta-skill that spans writing, presenting, reviewing, and collaboration. First consider what the audience knows, cares about, and might misinterpret, then decide how much to explain and in what order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When presenting, pair abstract concepts with examples, repeat important points, and avoid large blocks of text. Consider the occasion and the audience.&lt;/li&gt;
+&lt;li&gt;When writing a paper, state your points clearly, give figures and tables detailed explanations, make the whole paper easy to browse, and minimize abbreviations. Avoid adding to the reader&amp;rsquo;s memory burden.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.arenaphysica.com/thesis"&gt;Arena Physica Thesis&lt;/a&gt;: Electromagnetic engineering faces bottlenecks in solvers, fragmented CAE, EDA, testing, and field data, as well as slow and expensive validation feedback. Arena Physica proposes connecting design, simulation, and testing through agent tools, physics foundation models, and real laboratory data.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.29530"&gt;[2608.29530] The Emergent Symbolic Structure of Artificial Neural Networks&lt;/a&gt;: Trained neural networks may implicitly contain symbolic structures, suggesting that symbolism and connectionism may not be entirely opposed. Related paper: &lt;a href="https://arxiv.org/abs/2506.21797"&gt;[2506.21797] Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fields-studio.arenaphysica.com/"&gt;Atlas Fields Studio&lt;/a&gt;: Arena Physica&amp;rsquo;s interactive electromagnetic field prediction demo lets you modify geometry and observe predicted changes in electric and magnetic fields. It is currently labeled Beta.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.arenaphysica.com/publications/smith-charts"&gt;What is a Smith Chart? | Arena Physica&lt;/a&gt;: An introduction to Smith charts in RF engineering.&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/"&gt;Your First GPUI App - Building a Desktop UI in Rust | Mrsheerluck Blog&lt;/a&gt;: An introductory tutorial on building your first desktop application with Rust and GPUI.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/emilkowalski/skills"&gt;emilkowalski/skills: Skills for Designers and Engineers.&lt;/a&gt;: Emil Kowalski turns his interface design and animation experience into agent skills covering animation implementation, review, interaction details, and UI prototypes.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/DEEIX-AI/DEEIX-Chat"&gt;DEEIX-AI/DEEIX-Chat: An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.&lt;/a&gt;: An enterprise AI workspace integrating model routing, multimodal conversations, files, tools, billing, and identity management.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zodex.dev/#pricing"&gt;Zodex | AI integrated development environment&lt;/a&gt;: An AI development workspace built with Rust and Tauri that brings agent conversations, terminals, Git diffs, and rollbacks together. It can import local Codex, Claude Code, and Pi sessions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://skillry.dev/"&gt;Skillry - Agent Skills with Taste&lt;/a&gt;: A curated agent skills catalog covering websites, slides, images, and video, with examples and installation instructions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pola.rs/posts/announcing-polars-2/"&gt;Polars — Pre-release of Polars 2.0&lt;/a&gt;: An introduction to the first release candidate of Polars 2.0, which makes the streaming engine the default for LazyFrame queries and tightens implicit behavior such as type coercion.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/get-bb/bb"&gt;get-bb/bb: The agent IDE that builds itself&lt;/a&gt;: An agent IDE that can be driven through a desktop app, web interface, CLI, or HTTP API, with live task tracking and steering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/xuanji86/ainiee-translate-skill"&gt;xuanji86/ainiee-translate-skill: An independent, agent-native novel translation system that works similarly to AiNiee without depending on its application, using Claude Code as the translation engine.&lt;/a&gt;: A novel translation skill powered by Claude Code that runs independently of the AiNiee application.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mishka-zz/freecad-microwave"&gt;mishka-zz/freecad-microwave: FreeCAD workbench for RF and microwave engineering&lt;/a&gt;: A FreeCAD workbench for RF and microwave engineering, still in developer preview. Its currently available simulation backend is openEMS.&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+ alt="e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.blueprint.io/"&gt;Blueprint - AI Hardware Design Tool&lt;/a&gt;: An AI-assisted hardware design tool.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.kicad.org/"&gt;KiCad - Schematic Capture &amp;amp; PCB Design Software&lt;/a&gt;: Open-source software for schematic capture and PCB design.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/American-Embedded/KiStack"&gt;American-Embedded/kistack: KiStack is a HUMAN WRITTEN bunch of skills for KiCad&lt;/a&gt;: Agent skills for KiCad workflows.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/TrenTorch/TrenTorch"&gt;TrenTorch&lt;/a&gt;: An educational project inspired by Harvard TinyTorch that teaches PyTorch by building a machine learning framework from scratch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://designengineer.tools/"&gt;Design Engineer Tools&lt;/a&gt;: A tool directory for design engineers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://desengs.com/"&gt;DesEngs: Resources for Design Engineers&lt;/a&gt; · &lt;a href="https://desengs.com/minimum/"&gt;Minimal Website Design Directory — DesEngs&lt;/a&gt;: Directories of design engineering resources and minimal website references.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://on.design/launch"&gt;on.design&lt;/a&gt;: A resource project for designers, currently accepting sign-ups ahead of launch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://whatships.com/"&gt;whatships.com — Discover startup launch videos&lt;/a&gt; · &lt;a href="https://whatships.com/tools/"&gt;Tools for making launch videos or mockups— whatships.com&lt;/a&gt;: A collection of startup launch videos and tools for making videos and mockups.&lt;/p&gt;
+&lt;p&gt;Icon and design resource bookmarks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://remixicon.com/"&gt;Remix Icon - Open source icon library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://phosphoricons.com/"&gt;Phosphor Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tabler.io/icons"&gt;Tabler Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mblode/blode-icons"&gt;Blode Icons (GitHub)&lt;/a&gt; · &lt;a href="https://blode.co/icons"&gt;Blode Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconify.design"&gt;Iconify&lt;/a&gt; · &lt;a href="https://icon-sets.iconify.design"&gt;Iconify icon sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://untitledui.com"&gt;Untitled UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://heroicons.com"&gt;Heroicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://keylineicons.com"&gt;Keyline Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconmonstr.com"&gt;IconMonstr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icons.getbootstrap.com"&gt;Bootstrap Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://reicon.dev"&gt;Reicon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lucide.dev"&gt;Lucide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icones.js.org"&gt;Icônes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://icons0.dev"&gt;icons0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mageicons.com"&gt;Mage Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mingcute.com"&gt;MingCute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hugeicons.com"&gt;Hugeicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gravity-ui.com"&gt;Gravity UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://iconists.co/central"&gt;Central Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://svgrepo.com/collection/solar-bold-icons/"&gt;Solar Bold Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://svgrepo.com/page/licensing/#CC%20Attribution"&gt;SVG Repo CC Attribution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://streamlinehq.com/icons/pixel-icons"&gt;Streamline Pixel Icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://toools.design"&gt;toools.design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://t.co/B2JkDXq32V"&gt;Silk icons (Wikimedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/huge_icons"&gt;@huge_icons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/nucleoicons"&gt;@nucleoicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/antfu7"&gt;@antfu7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="macos--productivity--other"&gt;macOS / Productivity / Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/jurplel/InstantSpaceSwitcher"&gt;jurplel/InstantSpaceSwitcher: Native space switching on macOS with no animation&lt;/a&gt;: A tool for disabling macOS&amp;rsquo;s native Space switching animation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tsouth89/omakade"&gt;Omakade | Your games, beautifully together&lt;/a&gt;: A local game library for Omarchy that brings together installed games from Steam, Lutris, Heroic, and other sources, then hands launching off to their original platforms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hivinz.com/download/codenotch"&gt;Download Codenotch — Vinz&lt;/a&gt;: A small tool that displays LLM usage beside your Mac&amp;rsquo;s notch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/thisisgm/flea"&gt;thisisgm/flea: A fast, keyboard-first file manager for Omarchy: Quickshell front end, Rust backend.&lt;/a&gt;: A keyboard-first file manager for Omarchy with a Quickshell frontend and Rust backend.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aloisdeniel.github.io/omafiles/"&gt;omafiles — the file explorer Omarchy was missing&lt;/a&gt;: An Omarchy file manager built with Rust and GPUI, integrating search, previews, and Git diffs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://getdroppy.app/#pricing"&gt;Droppy. Your Mac, just way better.&lt;/a&gt;: Brings a file shelf, clipboard, media controls, widgets, and more to your Mac&amp;rsquo;s notch or a floating Dynamic Island.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tenacityaudio.org/"&gt;Tenacity&lt;/a&gt;: An open-source multitrack audio editor and recorder with support for effects plugins, scripting, and signal analysis.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://learn.chatgpt.com/training"&gt;ChatGPT Training&lt;/a&gt;: OpenAI&amp;rsquo;s step-by-step exercises and workflow tutorials for completing practical tasks with ChatGPT Work and Codex.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.whichai.dev/"&gt;Which AI Made This?&lt;/a&gt;: Compares different models&amp;rsquo; responses to the same UI design task and shows the difference made by enabling design skills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://shortap.app/#pricing"&gt;Shortap — Quick tap gestures for your MacBook&lt;/a&gt;: A gesture tool that triggers actions when you tap your MacBook&amp;rsquo;s chassis.&lt;/p&gt;
+&lt;p&gt;Related open-source projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/versacecrispies/Tapify"&gt;Tapify&lt;/a&gt;: A menu bar alternative to Knock, supporting single through triple taps for media controls, screenshots, and launching apps&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Alex-duh/Bonk"&gt;Bonk&lt;/a&gt;: GPL-licensed, supports up to four consecutive knocks, can trigger Shortcuts / shell commands, and allows different mappings for each app&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/shaircast/nocnoc"&gt;nocnoc&lt;/a&gt;: Includes a waveform display and calibration wizard&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Gojaehyeon/knocker"&gt;knocker&lt;/a&gt;: Distinguishes left, center, and right taps and provides a menu bar interface&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mohitagw15856/Tapcraft"&gt;TapCraft&lt;/a&gt;: A Python tool for chassis taps and trackpad zones; accelerometer detection requires sudo, while microphone detection does not&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing">Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original</a>: Multiverse Computing introduces a 4-bit quantization-aware healing method that outperforms a recovered 60B BF16 checkpoint of the same architecture on seven of its nine reported benchmarks. The additional distillation training was not matched, so the result cannot simply be attributed to quantization itself.</p>
+<p><a href="https://xgboost.ai/2026/08/25/introducing-the-xgboost-vector-leaf-model">Introducing the XGBoost Vector-Leaf Model | XGBoost</a>: An introduction to trees whose leaves output vectors, using shared tree structures for multi-target prediction.</p>
+<p>[[2608.27370] Puro-2B: Poor Lab&rsquo;s Qwen2-1.5B Trained on RTX 5090 within $5090](https://arxiv.org/abs/2608.27370): An exploration of low-cost small language model training on RTX 5090 GPUs. The best model in v2 cost less than $6,900 to train; the estimate of reaching Qwen2-1.5B performance for about $4,400 comes from fitting scaling laws.</p>
+<p><a href="https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/">Training frontier knowledge work agents: A 397B RL training guide with SkyRL | Mercor Blog</a>: Mercor shares engineering experience from training a 397B knowledge work agent with SkyRL.</p>
+<p><a href="https://github.com/chenglou/sotaku">chenglou/sotaku, Sotaku v2 solves 99.12% of a 25,000-puzzle Sudoku benchmark with an 800K-parameter looped transformer trained from scratch</a>: A roughly 800K-parameter looped Transformer trained from scratch to solve Sudoku. The repository reports that Sotaku v2 solves 99.12% of a 25,000-puzzle benchmark using FP32 and 1,024 inference iterations.</p>
+<p><a href="https://extropic.ai/writing/z1t/">Z1T | Transformer-like models for Z1</a>: Sparse Transformer-like models designed for Z1 probabilistic hardware, exploring model and hardware co-design while sharing some training recipes and weights.</p>
+<p><a href="https://openai.robocurve.org/gpt-6-astra/">GPT-6 Astra on robot arms | Robocurve</a>: Experiments with GPT-6 Astra operating robot arms. Watching this makes me a little more inclined to believe LLMs can solve everything, though what a demo can actually do still comes down to the specific task.</p>
+<p><a href="https://developers.openai.com/api/docs/guides/latest-model">Model guidance | OpenAI API</a> on using Astra.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">**Using the model**
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Use the Responses API and set <span class="sb">`model: &#34;gpt-6-astra&#34;`</span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> New capabilities: asynchronous tool calling (set <span class="sb">`async: true`</span> on the tool definition), changing instructions mid-turn (WebSocket mid-turn steering), and changing reasoning effort with <span class="sb">`configuration_update`</span> in standard single-agent requests (keeping the request-level effort preserves the original prompt prefix)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> <span class="sb">`reasoning.effort: &#34;none&#34;`</span> is unsupported; Fast mode is unavailable with EU data residency
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gs">**Migration notes**</span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> If you previously used <span class="sb">`none`</span> / <span class="sb">`minimal`</span>, try <span class="sb">`low`</span> first
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Prefer Responses for tool use; Chat Completions is available, but tool calling requires Responses
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Remove <span class="sb">`temperature`</span> / <span class="sb">`top_p`</span> / <span class="sb">`top_logprobs`</span> (and the corresponding logprobs)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> When migrating from GPT-5.5 or earlier, update caching: <span class="sb">`prompt_cache_retention`</span> → <span class="sb">`prompt_cache_options.ttl: &#34;30m&#34;`</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="gs">**Prompt tuning (the most practical part)**</span>
+</span></span><span class="line"><span class="cl"><span class="k">1.</span> <span class="gs">**Initiative**</span>: It tends to ask more follow-up questions by default. To have it finish the work autonomously, explicitly say “infer intent, bias toward action, and don&#39;t stop at acknowledging capability or delivering partial work.” Produce a reviewable result before asking for approval.
+</span></span><span class="line"><span class="cl"><span class="k">2.</span> <span class="gs">**Instruction priority**</span>: It is more sensitive to skills / <span class="sb">`AGENTS.md`</span>; state that “user instructions take precedence over skills.” If it gets stuck, have it quote the specific skill rule.
+</span></span><span class="line"><span class="cl"><span class="k">3.</span> <span class="gs">**Writing style**</span>: It tends toward lists, tables, and stock phrases by default. If you want prose, specify paragraphs first, fewer nested lists, and no slop (delve, Bottom Line, X not Y, etc.).
+</span></span><span class="line"><span class="cl"><span class="k">4.</span> <span class="gs">**Subagents**</span>: It may delegate too little by default; specify when to delegate in parallel for multi-agent work.
+</span></span><span class="line"><span class="cl"><span class="k">5.</span> <span class="gs">**Testing**</span>: It tends to overtest code. For small changes, state “don&#39;t write tests that mirror the implementation for reversible, low-impact changes.”
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">What I focus on in practice: make autonomous execution, writing style, parallel delegation, and testing boundaries explicit to reduce unnecessary questions.
+</span></span></code></pre></div><p><a href="https://x.com/pvncher/status/2095991462416490862">eric provencher on X: “Rethinking skills and prompts for GPT-6 Astra” / X</a>: Eric Provencher discusses writing skills and prompts for Astra.</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://x.com/harshbhatt7585/article/2094021031551766970">The Math of RL - From Policy Gradients to PPO and GRPO</a>: An article on the mathematics of reinforcement learning, from policy gradients to PPO and GRPO.</p>
+<p><a href="https://irom-lab.princeton.edu/intro-to-robotics/">Introduction to Robotics | IRoM-Lab</a>: Princeton&rsquo;s introductory robotics course, covering planning, control, state estimation, and robot learning, with drone project assignments.</p>
+<p><a href="https://hammerhead-piano-5a0.notion.site/Blog-Estimate-Diagonal-Hessian-36014499130180b5b077e6d1511b729e">[Blog] Estimate Diagonal Hessian</a>: An article on estimating diagonal Hessian entries.</p>
+<p><a href="https://axiommath.ai/">Axiom</a>: An AI project for mathematical reasoning and formal proofs.</p>
+<p><a href="https://epoch.ai/latest/announcing-frontiermath-erdos">Announcing FrontierMath Erdős | Epoch AI</a>: Epoch AI introduces a mathematics benchmark of 68 open Erdős problems, using Lean to verify proofs or disproofs.</p>
+<p><a href="https://francesco215.github.io/autoregressive_diffusion/uncertainty.html">francesco215.github.io/autoregressive_diffusion/uncertainty.html</a>: Reading on autoregressive diffusion and uncertainty.</p>
+<p><a href="https://arxiv.org/abs/2609.02867v2">\[2609.02867v2\] Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets</a>: Numerical simulations of magnetized accretion onto rapidly spinning binary black holes, including mini-disk thermodynamics, magnetic transport, and dual jets.</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/85a6d0e125b60f74e46ffbe496f8b22e.png"
+  alt="85a6d0e125b60f74e46ffbe496f8b22e.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.coreauto.com/blog/how-our-data-shaped-neural-architecture-discovery-and-how-automation-can-reshape-the-future#footnote-writing-style">How Our Data Shaped Neural Architecture Discovery, and How Automation Can Reshape the Future | Core Automation</a>: The article discusses data and the inductive biases of neural network architectures. A randomly initialized, frozen network may still provide useful features, though the linear classifier in the figure was trained.</p>
+<p>This makes me wonder: could feature quality across multiple random initializations help screen architectures for a particular type of data in advance? We need to distinguish the quality of the random features themselves from the contribution of subsequent classifier training.</p>
+<blockquote>
+<p>A neural network architecture with a suitable inductive bias may map inputs into a feature space that a simple classifier can use more easily, even when its main weights are random and frozen. Training can further align this initial structure with a specific task.</p>
+</blockquote>
+<p><img
+  src="https://www.coreauto.com/assets/blog/how-our-data-shaped-neural-architecture-discovery/image2.png"
+  alt="Classifier outputs on random ResNet-18 features"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><em>Figure. Output probabilities of a (linear) logistic classifier trained on a 10,240-dimensional NRF(Neural Random Feature) representation, extracted from identical, randomly initialized ResNet-18 architectures.</em></p>
+<p>Some related papers:</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2410.04368">[2410.04368] Algorithmic Capabilities of Random Transformers</a>: Freezes the random Transformer body while still optimizing embeddings to activate algorithmic capabilities.</li>
+<li><a href="https://arxiv.org/abs/1711.10925">[1711.10925] Deep Image Prior</a>: Uses network structure as an image prior without a large training dataset, but still optimizes for an individual image.</li>
+<li><a href="https://arxiv.org/abs/1906.04358">[1906.04358] Weight Agnostic Neural Networks</a>: Searches for network architectures that perform well across multiple shared weight values.</li>
+<li><a href="https://arxiv.org/abs/2206.08464">[2206.08464] PRANC: Pseudo RAndom Networks for Compacting deep models</a>: Freezes multiple random basis networks and learns their linear combination coefficients to compress a model.</li>
+</ul>
+<p><a href="https://rtmccoy.com/posts/theory_of_mind.html">Theory of Mind as a Central Skill for Researchers</a>: Treats theory of mind as a meta-skill that spans writing, presenting, reviewing, and collaboration. First consider what the audience knows, cares about, and might misinterpret, then decide how much to explain and in what order.</p>
+<ul>
+<li>When presenting, pair abstract concepts with examples, repeat important points, and avoid large blocks of text. Consider the occasion and the audience.</li>
+<li>When writing a paper, state your points clearly, give figures and tables detailed explanations, make the whole paper easy to browse, and minimize abbreviations. Avoid adding to the reader&rsquo;s memory burden.</li>
+</ul>
+<p><a href="https://www.arenaphysica.com/thesis">Arena Physica Thesis</a>: Electromagnetic engineering faces bottlenecks in solvers, fragmented CAE, EDA, testing, and field data, as well as slow and expensive validation feedback. Arena Physica proposes connecting design, simulation, and testing through agent tools, physics foundation models, and real laboratory data.</p>
+<p><a href="https://arxiv.org/abs/2608.29530">[2608.29530] The Emergent Symbolic Structure of Artificial Neural Networks</a>: Trained neural networks may implicitly contain symbolic structures, suggesting that symbolism and connectionism may not be entirely opposed. Related paper: <a href="https://arxiv.org/abs/2506.21797">[2506.21797] Why Neural Network Can Discover Symbolic Structures with Gradient-based Training: An Algebraic and Geometric Foundation for Neurosymbolic Reasoning</a></p>
+<p><a href="https://fields-studio.arenaphysica.com/">Atlas Fields Studio</a>: Arena Physica&rsquo;s interactive electromagnetic field prediction demo lets you modify geometry and observe predicted changes in electric and magnetic fields. It is currently labeled Beta.</p>
+<p><a href="https://www.arenaphysica.com/publications/smith-charts">What is a Smith Chart? | Arena Physica</a>: An introduction to Smith charts in RF engineering.</p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/">Your First GPUI App - Building a Desktop UI in Rust | Mrsheerluck Blog</a>: An introductory tutorial on building your first desktop application with Rust and GPUI.</p>
+<p><a href="https://github.com/emilkowalski/skills">emilkowalski/skills: Skills for Designers and Engineers.</a>: Emil Kowalski turns his interface design and animation experience into agent skills covering animation implementation, review, interaction details, and UI prototypes.</p>
+<p><a href="https://github.com/DEEIX-AI/DEEIX-Chat">DEEIX-AI/DEEIX-Chat: An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.</a>: An enterprise AI workspace integrating model routing, multimodal conversations, files, tools, billing, and identity management.</p>
+<p><a href="https://zodex.dev/#pricing">Zodex | AI integrated development environment</a>: An AI development workspace built with Rust and Tauri that brings agent conversations, terminals, Git diffs, and rollbacks together. It can import local Codex, Claude Code, and Pi sessions.</p>
+<p><a href="https://skillry.dev/">Skillry - Agent Skills with Taste</a>: A curated agent skills catalog covering websites, slides, images, and video, with examples and installation instructions.</p>
+<p><a href="https://pola.rs/posts/announcing-polars-2/">Polars — Pre-release of Polars 2.0</a>: An introduction to the first release candidate of Polars 2.0, which makes the streaming engine the default for LazyFrame queries and tightens implicit behavior such as type coercion.</p>
+<p><a href="https://github.com/get-bb/bb">get-bb/bb: The agent IDE that builds itself</a>: An agent IDE that can be driven through a desktop app, web interface, CLI, or HTTP API, with live task tracking and steering.</p>
+<p><a href="https://github.com/xuanji86/ainiee-translate-skill">xuanji86/ainiee-translate-skill: An independent, agent-native novel translation system that works similarly to AiNiee without depending on its application, using Claude Code as the translation engine.</a>: A novel translation skill powered by Claude Code that runs independently of the AiNiee application.</p>
+<p><a href="https://github.com/mishka-zz/freecad-microwave">mishka-zz/freecad-microwave: FreeCAD workbench for RF and microwave engineering</a>: A FreeCAD workbench for RF and microwave engineering, still in developer preview. Its currently available simulation backend is openEMS.</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+  alt="e97a246a-ffde-4654-a2c5-b8d055e492de.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.blueprint.io/">Blueprint - AI Hardware Design Tool</a>: An AI-assisted hardware design tool.</p>
+<p><a href="https://www.kicad.org/">KiCad - Schematic Capture &amp; PCB Design Software</a>: Open-source software for schematic capture and PCB design.</p>
+<p><a href="https://github.com/American-Embedded/KiStack">American-Embedded/kistack: KiStack is a HUMAN WRITTEN bunch of skills for KiCad</a>: Agent skills for KiCad workflows.</p>
+<p><a href="https://github.com/TrenTorch/TrenTorch">TrenTorch</a>: An educational project inspired by Harvard TinyTorch that teaches PyTorch by building a machine learning framework from scratch.</p>
+<p><a href="https://designengineer.tools/">Design Engineer Tools</a>: A tool directory for design engineers.</p>
+<p><a href="https://desengs.com/">DesEngs: Resources for Design Engineers</a> · <a href="https://desengs.com/minimum/">Minimal Website Design Directory — DesEngs</a>: Directories of design engineering resources and minimal website references.</p>
+<p><a href="https://on.design/launch">on.design</a>: A resource project for designers, currently accepting sign-ups ahead of launch.</p>
+<p><a href="https://whatships.com/">whatships.com — Discover startup launch videos</a> · <a href="https://whatships.com/tools/">Tools for making launch videos or mockups— whatships.com</a>: A collection of startup launch videos and tools for making videos and mockups.</p>
+<p>Icon and design resource bookmarks:</p>
+<ul>
+<li><a href="https://remixicon.com/">Remix Icon - Open source icon library</a></li>
+<li><a href="https://phosphoricons.com/">Phosphor Icons</a></li>
+<li><a href="https://tabler.io/icons">Tabler Icons</a></li>
+<li><a href="https://github.com/mblode/blode-icons">Blode Icons (GitHub)</a> · <a href="https://blode.co/icons">Blode Icons</a></li>
+<li><a href="https://iconify.design">Iconify</a> · <a href="https://icon-sets.iconify.design">Iconify icon sets</a></li>
+<li><a href="https://untitledui.com">Untitled UI</a></li>
+<li><a href="https://heroicons.com">Heroicons</a></li>
+<li><a href="https://keylineicons.com">Keyline Icons</a></li>
+<li><a href="https://iconmonstr.com">IconMonstr</a></li>
+<li><a href="https://icons.getbootstrap.com">Bootstrap Icons</a></li>
+<li><a href="https://reicon.dev">Reicon</a></li>
+<li><a href="https://lucide.dev">Lucide</a></li>
+<li><a href="https://icones.js.org">Icônes</a></li>
+<li><a href="https://icons0.dev">icons0</a></li>
+<li><a href="https://mageicons.com">Mage Icons</a></li>
+<li><a href="https://mingcute.com">MingCute</a></li>
+<li><a href="https://hugeicons.com">Hugeicons</a></li>
+<li><a href="https://gravity-ui.com">Gravity UI</a></li>
+<li><a href="https://iconists.co/central">Central Icons</a></li>
+<li><a href="https://svgrepo.com/collection/solar-bold-icons/">Solar Bold Icons</a></li>
+<li><a href="https://svgrepo.com/page/licensing/#CC%20Attribution">SVG Repo CC Attribution</a></li>
+<li><a href="https://streamlinehq.com/icons/pixel-icons">Streamline Pixel Icons</a></li>
+<li><a href="https://toools.design">toools.design</a></li>
+<li><a href="https://t.co/B2JkDXq32V">Silk icons (Wikimedia)</a></li>
+<li><a href="https://x.com/huge_icons">@huge_icons</a></li>
+<li><a href="https://x.com/nucleoicons">@nucleoicons</a></li>
+<li><a href="https://x.com/antfu7">@antfu7</a></li>
+</ul>
+<h3 id="macos--productivity--other">macOS / Productivity / Other</h3>
+<p><a href="https://github.com/jurplel/InstantSpaceSwitcher">jurplel/InstantSpaceSwitcher: Native space switching on macOS with no animation</a>: A tool for disabling macOS&rsquo;s native Space switching animation.</p>
+<p><a href="https://github.com/tsouth89/omakade">Omakade | Your games, beautifully together</a>: A local game library for Omarchy that brings together installed games from Steam, Lutris, Heroic, and other sources, then hands launching off to their original platforms.</p>
+<p><a href="https://hivinz.com/download/codenotch">Download Codenotch — Vinz</a>: A small tool that displays LLM usage beside your Mac&rsquo;s notch.</p>
+<p><a href="https://github.com/thisisgm/flea">thisisgm/flea: A fast, keyboard-first file manager for Omarchy: Quickshell front end, Rust backend.</a>: A keyboard-first file manager for Omarchy with a Quickshell frontend and Rust backend.</p>
+<p><a href="https://aloisdeniel.github.io/omafiles/">omafiles — the file explorer Omarchy was missing</a>: An Omarchy file manager built with Rust and GPUI, integrating search, previews, and Git diffs.</p>
+<p><a href="https://getdroppy.app/#pricing">Droppy. Your Mac, just way better.</a>: Brings a file shelf, clipboard, media controls, widgets, and more to your Mac&rsquo;s notch or a floating Dynamic Island.</p>
+<p><a href="https://tenacityaudio.org/">Tenacity</a>: An open-source multitrack audio editor and recorder with support for effects plugins, scripting, and signal analysis.</p>
+<p><a href="https://learn.chatgpt.com/training">ChatGPT Training</a>: OpenAI&rsquo;s step-by-step exercises and workflow tutorials for completing practical tasks with ChatGPT Work and Codex.</p>
+<p><a href="https://www.whichai.dev/">Which AI Made This?</a>: Compares different models&rsquo; responses to the same UI design task and shows the difference made by enabling design skills.</p>
+<p><a href="https://shortap.app/#pricing">Shortap — Quick tap gestures for your MacBook</a>: A gesture tool that triggers actions when you tap your MacBook&rsquo;s chassis.</p>
+<p>Related open-source projects:</p>
+<ul>
+<li><a href="https://github.com/versacecrispies/Tapify">Tapify</a>: A menu bar alternative to Knock, supporting single through triple taps for media controls, screenshots, and launching apps</li>
+<li><a href="https://github.com/Alex-duh/Bonk">Bonk</a>: GPL-licensed, supports up to four consecutive knocks, can trigger Shortcuts / shell commands, and allows different mappings for each app</li>
+<li><a href="https://github.com/shaircast/nocnoc">nocnoc</a>: Includes a waveform display and calibration wizard</li>
+<li><a href="https://github.com/Gojaehyeon/knocker">knocker</a>: Distinguishes left, center, and right taps and provides a menu bar interface</li>
+<li><a href="https://github.com/mohitagw15856/Tapcraft">TapCraft</a>: A Python tool for chassis taps and trackpad zones; accelerometer detection requires sudo, while microphone detection does not</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly 22</title><link>https://blog.yfff.me/en/weekly/week-22/</link><pubDate>Sun, 30 Aug 2026 20:02:28 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-22/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://leoniemonigatti.com/blog/speculative-decoding.html"&gt;How Speculative Decoding Makes LLMs Go Brrr&lt;/a&gt;: Explains speculative decoding through its draft-and-parallel-verification loop and compares approaches including independent draft models, Medusa, MTP, EAGLE, DFlash, and DSpark.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://surya.website/rling-qwen-to-paint-with-code"&gt;Training AI to Paint with Code&lt;/a&gt;: Surya Narreddi’s team used reinforcement learning to train a language model to create editable p5.brush JavaScript paintings, focusing on aesthetic rewards built from hand-rated references and pairwise judgments.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://deepmanifold.ai/"&gt;deepManifold&lt;/a&gt;: Brings together two preprints and related essays that use fixed points, stacked piecewise manifolds, and boundary-conditioned iteration to formulate the geometry, algebra, and computation of neural networks.&lt;/p&gt;
