@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 06 Sep 2026 02:04:04 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly 23</title><link>https://blog.yfff.me/en/weekly/week-23/</link><pubDate>Sun, 06 Sep 2026 02:04:04 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-23/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/en/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 12 Sep 2026 15:42:34 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 24</title><link>https://blog.yfff.me/en/weekly/week-24/</link><pubDate>Sat, 12 Sep 2026 15:42:34 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-24/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://x.com/kickingkeys/status/2096053174134092180"&gt;Astra vs Fable 5.1&lt;/a&gt;: Surya shares outputs from the two models given the same prompt.&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260906023400723.png"
+ alt="image.png|445"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.ai/bot/marketplace"&gt;Grok Bot Marketplace&lt;/a&gt;: A directory of bots and skills for Grok Bot.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mazebench.com/leaderboard/ai"&gt;Maze Bench — AI Leaderboard&lt;/a&gt;: Compares AI agents exploring mazes, with rooms visited, gems collected, token usage, and run replays.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/introducing-chatgpt-images-2-5/"&gt;Introducing ChatGPT Images 2.5 | OpenAI&lt;/a&gt;: OpenAI introduces an updated image generation and editing model, highlighting improvements in lighting, textures, reference fidelity, and editing across multiple turns.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"&gt;GPT-6 Astra, Looped Transformers, and Hidden Reasoning&lt;/a&gt;: Sebastian Raschka discusses looped Transformers and hidden reasoning in the context of Astra; the architectural speculation remains unconfirmed by OpenAI.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg"&gt;DeepSeek V4.1 Flash: Stronger, Faster, More Accessible&lt;/a&gt;: DeepSeek introduces V4.1 Flash with updates to model capabilities and inference efficiency—let’s go!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cognition.com/blog/swe-2"&gt;Introducing SWE-2: Pushing the Pareto Frontier | Cognition&lt;/a&gt;: Cognition introduces SWE-2 for software engineering, focusing on the trade-offs between coding ability, speed, and cost.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://magic.dev/blog/pretraining"&gt;&amp;gt;10x More Efficient Pretraining — Magic&lt;/a&gt;: Magic reports more than a tenfold improvement in pretraining efficiency when comparing held-out loss against training compute; this is the team behind &lt;a href="https://magic.dev/blog/100m-token-context-windows"&gt;100M Token Context Windows — Magic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.pacingthefrontier.com/"&gt;Pacing the Frontier&lt;/a&gt;: A public statement by employees of frontier AI companies calling for coordination on the pace of AI development to allow time for safety work and societal preparation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.dwarkesh.com/p/john-beren-charlie"&gt;AI researchers debate how close we are to recursive self-improvement&lt;/a&gt;: A discussion among researchers about recursive self-improvement, progress in automating AI research, and the remaining bottlenecks.&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cvg.ethz.ch/lectures/Robot-Learning/"&gt;Robot Learning | ETH Zürich&lt;/a&gt;: A course covering imitation learning, reinforcement learning, and policy optimization through to vision-language-action and robotics foundation models, with slides, recordings, and practical assignments.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ciechanow.ski/"&gt;Moon | Bartosz Ciechanowski&lt;/a&gt;: Interactive explanations of the Moon’s orbit, tidal locking, phases, and solar and lunar eclipses.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cims.nyu.edu/~tristanb/statement.pdf"&gt;Tristan Buckmaster’s statement&lt;/a&gt;: Buckmaster describes results on fluid-equation blowup under smooth forcing obtained with Levent Alpöge using LLMs, alongside the research process and publication dispute; subsequently, &lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;On the Navier–Stokes Millennium Prize Problem | OpenAI&lt;/a&gt; announced a proof and Lean formalization of finite-time blowup for the three-dimensional Navier–Stokes equations under smooth forcing, stating that it establishes formulations C and D of the Millennium Prize Problem.&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260909162358799.png"
+ alt="image.png|250"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/"&gt;AlphaGenome | Google DeepMind&lt;/a&gt;: Predicts molecular properties related to gene regulation from long DNA sequences and assesses variant effects by comparing predictions before and after a mutation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://simplex.pub/nonergodic-geometry/"&gt;The geometry of nonergodic composition — Belief Updates&lt;/a&gt;: A discussion of the geometry of nonergodic composition—quite elaborate, and I haven’t made sense of it yet.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mathandai.org/"&gt;Declaration — Math and AI&lt;/a&gt;: A declaration on AI and mathematics that emphasizes conceptual understanding, sharing methods, and training researchers, while questioning progress measured by the number and speed of solved problems.&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/datawhalechina/zero-to-sglang"&gt;datawhalechina/zero-to-sglang&lt;/a&gt;: A bilingual inference course from SGLang and Datawhale, progressing from inference fundamentals and building mini-sglang to reading the production codebase.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/FeiZhuLulu/real-api-pricing"&gt;FeiZhuLulu/real-api-pricing&lt;/a&gt;: Compares API costs by dividing subscription fees by usable tokens, with allowances, unit prices, and Pareto charts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CheshireMew/PuppetLoom"&gt;CheshireMew/PuppetLoom&lt;/a&gt;: Turns layered character PSDs into animated 2D characters with rigging, validation, and calibration, allowing external agents to participate through a CLI.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kevinzakka/mjbatch"&gt;kevinzakka/mjbatch&lt;/a&gt;: A Python library for running large batches of MuJoCo simulations in parallel on CPUs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.openai.com/showcase/games"&gt;Games | OpenAI Developers&lt;/a&gt;: A showcase of games built with OpenAI tools, with projects and development write-ups.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/scaling-storage-one-billion-users-part-one/"&gt;Rapidly scaling online storage to serve over 1 billion ChatGPT users | OpenAI&lt;/a&gt;: OpenAI shares engineering practices for scaling ChatGPT’s online storage.&lt;/p&gt;
+&lt;h3 id="design--productivity--other"&gt;Design / Productivity / Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/realchendahuang/feedsieve"&gt;realchendahuang/feedsieve&lt;/a&gt;: A Chrome extension for filtering spam accounts on X, highlighting high-confidence matches and supporting native blocking with one click.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/"&gt;The Death Of The Button | Smashing Magazine&lt;/a&gt;: Explores how AI and context-aware interactions can reduce explicit interface actions, along with the design trade-offs involved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/threat-intelligence-report-september-2026"&gt;Countering misuse of AI: September 2026 | Anthropic&lt;/a&gt;: Anthropic presents its investigation into AI misuse, describing cases involving cyberattacks, fraud, and unauthorized distillation, along with its response.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bensbites.com/design-words/#p=directory&amp;amp;k=pixel,mono,neon-on-dark,layout-card-grid,comfortable,sharp,hard-offset-shadow,dark-only,breadcrumb,card,pagination,bar,sort,stagger,restrained,hover-lift"&gt;Design Words&lt;/a&gt;: Uses visual examples to help select and combine design vocabulary for more specific interface prompts.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://x.com/kickingkeys/status/2096053174134092180">Astra vs Fable 5.1</a>: Surya shares outputs from the two models given the same prompt.</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260906023400723.png"
+  alt="image.png|445"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://x.ai/bot/marketplace">Grok Bot Marketplace</a>: A directory of bots and skills for Grok Bot.</p>
+<p><a href="https://mazebench.com/leaderboard/ai">Maze Bench — AI Leaderboard</a>: Compares AI agents exploring mazes, with rooms visited, gems collected, token usage, and run replays.</p>
+<p><a href="https://openai.com/index/introducing-chatgpt-images-2-5/">Introducing ChatGPT Images 2.5 | OpenAI</a>: OpenAI introduces an updated image generation and editing model, highlighting improvements in lighting, textures, reference fidelity, and editing across multiple turns.</p>
+<p><a href="https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and">GPT-6 Astra, Looped Transformers, and Hidden Reasoning</a>: Sebastian Raschka discusses looped Transformers and hidden reasoning in the context of Astra; the architectural speculation remains unconfirmed by OpenAI.</p>
+<p><a href="https://mp.weixin.qq.com/s/qg0NU3NNUbp1co2PdkAPAg">DeepSeek V4.1 Flash: Stronger, Faster, More Accessible</a>: DeepSeek introduces V4.1 Flash with updates to model capabilities and inference efficiency—let’s go!</p>
+<p><a href="https://cognition.com/blog/swe-2">Introducing SWE-2: Pushing the Pareto Frontier | Cognition</a>: Cognition introduces SWE-2 for software engineering, focusing on the trade-offs between coding ability, speed, and cost.</p>
+<p><a href="https://magic.dev/blog/pretraining">&gt;10x More Efficient Pretraining — Magic</a>: Magic reports more than a tenfold improvement in pretraining efficiency when comparing held-out loss against training compute; this is the team behind <a href="https://magic.dev/blog/100m-token-context-windows">100M Token Context Windows — Magic</a>.</p>
+<p><a href="https://www.pacingthefrontier.com/">Pacing the Frontier</a>: A public statement by employees of frontier AI companies calling for coordination on the pace of AI development to allow time for safety work and societal preparation.</p>
+<p><a href="https://www.dwarkesh.com/p/john-beren-charlie">AI researchers debate how close we are to recursive self-improvement</a>: A discussion among researchers about recursive self-improvement, progress in automating AI research, and the remaining bottlenecks.</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://cvg.ethz.ch/lectures/Robot-Learning/">Robot Learning | ETH Zürich</a>: A course covering imitation learning, reinforcement learning, and policy optimization through to vision-language-action and robotics foundation models, with slides, recordings, and practical assignments.</p>
+<p><a href="https://ciechanow.ski/">Moon | Bartosz Ciechanowski</a>: Interactive explanations of the Moon’s orbit, tidal locking, phases, and solar and lunar eclipses.</p>
+<p><a href="https://cims.nyu.edu/~tristanb/statement.pdf">Tristan Buckmaster’s statement</a>: Buckmaster describes results on fluid-equation blowup under smooth forcing obtained with Levent Alpöge using LLMs, alongside the research process and publication dispute; subsequently, <a href="https://openai.com/index/navier-stokes-solution/">On the Navier–Stokes Millennium Prize Problem | OpenAI</a> announced a proof and Lean formalization of finite-time blowup for the three-dimensional Navier–Stokes equations under smooth forcing, stating that it establishes formulations C and D of the Millennium Prize Problem.</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260909162358799.png"
+  alt="image.png|250"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/">AlphaGenome | Google DeepMind</a>: Predicts molecular properties related to gene regulation from long DNA sequences and assesses variant effects by comparing predictions before and after a mutation.</p>
+<p><a href="https://simplex.pub/nonergodic-geometry/">The geometry of nonergodic composition — Belief Updates</a>: A discussion of the geometry of nonergodic composition—quite elaborate, and I haven’t made sense of it yet.</p>
+<p><a href="https://mathandai.org/">Declaration — Math and AI</a>: A declaration on AI and mathematics that emphasizes conceptual understanding, sharing methods, and training researchers, while questioning progress measured by the number and speed of solved problems.</p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://github.com/datawhalechina/zero-to-sglang">datawhalechina/zero-to-sglang</a>: A bilingual inference course from SGLang and Datawhale, progressing from inference fundamentals and building mini-sglang to reading the production codebase.</p>
+<p><a href="https://github.com/FeiZhuLulu/real-api-pricing">FeiZhuLulu/real-api-pricing</a>: Compares API costs by dividing subscription fees by usable tokens, with allowances, unit prices, and Pareto charts.</p>
+<p><a href="https://github.com/CheshireMew/PuppetLoom">CheshireMew/PuppetLoom</a>: Turns layered character PSDs into animated 2D characters with rigging, validation, and calibration, allowing external agents to participate through a CLI.</p>
+<p><a href="https://github.com/kevinzakka/mjbatch">kevinzakka/mjbatch</a>: A Python library for running large batches of MuJoCo simulations in parallel on CPUs.</p>
+<p><a href="https://developers.openai.com/showcase/games">Games | OpenAI Developers</a>: A showcase of games built with OpenAI tools, with projects and development write-ups.</p>
+<p><a href="https://openai.com/index/scaling-storage-one-billion-users-part-one/">Rapidly scaling online storage to serve over 1 billion ChatGPT users | OpenAI</a>: OpenAI shares engineering practices for scaling ChatGPT’s online storage.</p>
+<h3 id="design--productivity--other">Design / Productivity / Other</h3>
+<p><a href="https://github.com/realchendahuang/feedsieve">realchendahuang/feedsieve</a>: A Chrome extension for filtering spam accounts on X, highlighting high-confidence matches and supporting native blocking with one click.</p>
+<p><a href="https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/">The Death Of The Button | Smashing Magazine</a>: Explores how AI and context-aware interactions can reduce explicit interface actions, along with the design trade-offs involved.</p>
+<p><a href="https://www.anthropic.com/threat-intelligence-report-september-2026">Countering misuse of AI: September 2026 | Anthropic</a>: Anthropic presents its investigation into AI misuse, describing cases involving cyberattacks, fraud, and unauthorized distillation, along with its response.</p>
+<p><a href="https://bensbites.com/design-words/#p=directory&amp;k=pixel,mono,neon-on-dark,layout-card-grid,comfortable,sharp,hard-offset-shadow,dark-only,breadcrumb,card,pagination,bar,sort,stagger,restrained,hover-lift">Design Words</a>: Uses visual examples to help select and combine design vocabulary for more specific interface prompts.</p>
+]]></content:encoded></item><item><title>Weekly 23</title><link>https://blog.yfff.me/en/weekly/week-23/</link><pubDate>Sun, 06 Sep 2026 02:04:04 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-23/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"&gt;Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original&lt;/a&gt;: Multiverse Computing introduces a 4-bit quantization-aware healing method that outperforms a recovered 60B BF16 checkpoint of the same architecture on seven of its nine reported benchmarks. The additional distillation training was not matched, so the result cannot simply be attributed to quantization itself.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://xgboost.ai/2026/08/25/introducing-the-xgboost-vector-leaf-model"&gt;Introducing the XGBoost Vector-Leaf Model | XGBoost&lt;/a&gt;: An introduction to trees whose leaves output vectors, using shared tree structures for multi-target prediction.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.27370"&gt;[2608.27370] Puro-2B: Poor Lab&amp;rsquo;s Qwen2-1.5B Trained on RTX 5090 within $5090&lt;/a&gt;: An exploration of low-cost small language model training on RTX 5090 GPUs. The best model in v2 cost less than $6,900 to train; the estimate of reaching Qwen2-1.5B performance for about $4,400 comes from fitting scaling laws.&lt;/p&gt;
