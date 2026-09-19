@@ -1,4 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 12 Sep 2026 15:42:34 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 24</title><link>https://blog.yfff.me/en/weekly/week-24/</link><pubDate>Sat, 12 Sep 2026 15:42:34 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-24/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 20 Sep 2026 00:50:28 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Issue 25</title><link>https://blog.yfff.me/en/weekly/week-25/</link><pubDate>Sun, 20 Sep 2026 00:50:28 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-25/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target"&gt;Reward is not the optimization target — LessWrong&lt;/a&gt;: Explores the distinction between reinforcement learning rewards and the goals a model learns. In an update, the author acknowledges that reward can empirically become a primary goal, though this does not follow by definition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alignmentforum.org/"&gt;AI Alignment Forum&lt;/a&gt;: A community for AI alignment research and discussion.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/w/bayes-rule"&gt;Bayes&amp;rsquo; rule — LessWrong&lt;/a&gt;: An introduction to Bayes&amp;rsquo; rule and the intuition behind it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/"&gt;LessWrong&lt;/a&gt;: Articles and discussions about rationality, cognition, and AI.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://darioamodei.com/post/we-must-pace-the-frontier"&gt;Dario Amodei — We Must Pace the Frontier&lt;/a&gt;: Dario Amodei discusses coordinating the pace of frontier AI development to give safety research and society more time to respond.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anonymous-report-421.github.io/public-website/?lang=en&amp;amp;view=1"&gt;GPT 6 Astra Embodied Policy Evaluation&lt;/a&gt;: An anonymous evaluation report on GPT-6 Astra&amp;rsquo;s embodied policies.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.goodfire.com/research"&gt;Latest research - Goodfire&lt;/a&gt;: Goodfire&amp;rsquo;s research directory, focused on model interpretability and internal mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pub.sakana.ai/pc-alm/"&gt;Augmented Lagrangian Predictive Coding: training 1000-layer networks without backpropagation&lt;/a&gt;: Sakana AI applies an augmented Lagrangian method to predictive coding, exploring ways to train deep networks without backpropagation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lucumr.pocoo.org/2026/9/12/pdoom/"&gt;P(doom) | Armin Ronacher&amp;rsquo;s Thoughts and Writings&lt;/a&gt;: Armin Ronacher reflects on catastrophic AI risk and how people express its probability.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scottaaronson.blog/?p=10062"&gt;The Age of Wonders and Terrors | Scott Aaronson&lt;/a&gt;: Scott Aaronson discusses the hopes and concerns raised by AI progress.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"&gt;Introducing System One Models &amp;amp; Jev | TypeSafe AI&lt;/a&gt;: TypeSafe AI introduces System One models and Jev for structured decision-making.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://millicosm.substack.com/p/from-academia-to-alignment"&gt;From Academia to Alignment | Mike Winer&lt;/a&gt;: Mike Winer shares his experience and reflections on moving from academic research to AI alignment.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alkjash.github.io/ai-risk/#preliminaries"&gt;Existential Risk from AI: An Exposition for Mathematicians&lt;/a&gt;: An explanation of AI existential risk and alignment for readers with a mathematical background.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mimo.xiaomi.com/rl/#overview"&gt;MiMo-v2.6 RL&lt;/a&gt;: Xiaomi&amp;rsquo;s introduction to reinforcement learning for MiMo-v2.6.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://quiver.ai/blog/introducing-arrow-2-0"&gt;Introducing Arrow 2 and Arrow 2 Telos – QuiverAI&lt;/a&gt;: QuiverAI introduces the Arrow 2 and Arrow 2 Telos vector graphics generation models.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jasperlu.com/blog/training-search-agents-grpo/"&gt;Training Search Agents with GRPO — Jasper Lu&lt;/a&gt;: A practical account of training search agents with GRPO.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"&gt;Helix 2.5: Zero-Shot 30-Home Generalization&lt;/a&gt;: Figure evaluates Helix 2.5 on three household tasks in 30 unseen homes, reporting an overall success rate of 56%; the tasks were fine-tuned in other environments.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2510.03215"&gt;Cache-to-Cache: Direct Semantic Communication Between Large Language Models&lt;/a&gt;: Research on transferring intermediate semantic representations directly between language models through KV caches, reducing the information loss of text-only communication.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are"&gt;Pretraining data, not verifiability, is why LLMs are especially good at math (and coding) — LessWrong&lt;/a&gt;: Proposes that the structure of pretraining data may explain language models&amp;rsquo; strengths in mathematics and programming better than the verifiability of answers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://charlesdddd.github.io/blog/reading-a-pretraining-run.html"&gt;Reading a Pretraining Run — Chunyuan Deng&lt;/a&gt;: A guide to monitoring loss, gradients, activations, and evaluations during pretraining, including metric definitions, sampling methods, and diagnostic priorities.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.8-livetranslate"&gt;Qwen3.8-livetranslate&lt;/a&gt;: The official introduction to Qwen3.8-livetranslate.&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://deep-learning-alchemy.github.io/"&gt;Stanford CS 312 | Deep Learning Alchemy&lt;/a&gt;: A Stanford course on practical deep learning training and experimental methods.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nicolaszucchet.github.io/Tutorial-scaling-laws"&gt;Scaling law tutorial&lt;/a&gt;: A tutorial on neural network scaling laws.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/"&gt;A beginning for mathematics · Daniel Litt&lt;/a&gt;: Daniel Litt discusses the future of mathematical research in the age of AI and the value of understanding, communication, and new questions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://maths.nju.edu.cn/~hebma/"&gt;Professor Bingsheng He&lt;/a&gt;: Professor Bingsheng He&amp;rsquo;s academic homepage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ai.google/static/documents/AI-in-Science.pdf"&gt;AI in Science | Google&lt;/a&gt;: Google&amp;rsquo;s report on AI&amp;rsquo;s role in advancing scientific research.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/building-labs-that-learn"&gt;Building Labs that Learn – Periodic Labs&lt;/a&gt;: Periodic Labs outlines a research approach in which laboratories keep learning from experimental feedback.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/nature-is-our-learning-environment"&gt;Nature Is Our Learning Environment – Periodic Labs&lt;/a&gt;: Discusses using feedback from real-world experiments to train models.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/ai-infrastructure-at-periodic"&gt;AI Infrastructure at Periodic – Periodic Labs&lt;/a&gt;: Introduces the AI infrastructure supporting scientific agents, experiments, and training.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://antieau.github.io/2026/09/15/fast-math-slow-math.html"&gt;Fast math/slow math | Benjamin Antieau&lt;/a&gt;: Benjamin Antieau discusses two rhythms of mathematical research: solving problems quickly and building understanding slowly.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://conjectures.io/"&gt;Conjectures.io&lt;/a&gt;: Expresses open mathematical conjectures as precise Lean statements and accepts verifiable proofs or counterexamples.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matrix67.com/math_journey/"&gt;A Short Walk Through the Garden of Mathematics&lt;/a&gt;: Matrix67&amp;rsquo;s popular mathematics book, A Short Walk Through the Garden of Mathematics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://proofsandprompts.com/2026/09/17/the-fate-of-the-riemann-hypothesis-revisited/"&gt;The Fate of the Riemann Hypothesis: Revisited – Proofs and Prompts&lt;/a&gt;: Richard Evan Schwartz revisits his short story about the Riemann hypothesis and discusses AI&amp;rsquo;s effects on mathematical research, education, and careers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.proofatlas.ai/open-problems/"&gt;Top 500 Open Problems by LLM-assessed Importance — ProofAtlas&lt;/a&gt;: Ranks 500 open problems by importance as assessed by language models; the ranking does not represent a consensus among mathematicians.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.madore.org/~david/weblog/d.2026-09-10.2861.ai-and-math-destruction.html"&gt;Sur la destruction des maths par les boîtes d’IA | David Madore&lt;/a&gt;: David Madore comments on the relationship between AI companies and mathematical research.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/TheMathFlow/status/2101154346583154801?s=20"&gt;Solving a Rubik’s Cube with graph theory | The Math Flow&lt;/a&gt;: A post explaining Rubik&amp;rsquo;s Cube solving through graph theory.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://universalitylectures.wordpress.com/"&gt;An Introduction to Universality | Alessandro Codello&lt;/a&gt;: Alessandro Codello&amp;rsquo;s introductory lectures on universality, covering fractals, percolation, chaos, and phase transitions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scientificamerican.com/report/impossible-questions/"&gt;Impossible Questions | Scientific American&lt;/a&gt;: A Scientific American collection exploring the origin of life, longevity, dark matter, consciousness, and the beginning of the universe.&lt;/p&gt;
+&lt;p&gt;I compiled these articles into Chinese–English bilingual PDFs, with separate layouts for phones and computers: &lt;a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual-Mobile.pdf"&gt;Mobile edition (PDF, 103 pages)&lt;/a&gt; · &lt;a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual.pdf"&gt;Desktop edition (PDF, 56 pages)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/finding-meaning-in-the-impossible/"&gt;Finding meaning in the impossible&lt;/a&gt; (editor&amp;rsquo;s introduction): Pursuing seemingly unanswerable questions can lead to unexpected practical discoveries; the journey itself may be meaningful.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/the-questions-science-may-never-answer/"&gt;The questions science may never answer&lt;/a&gt;: Science offers approximations that keep evolving. Some questions may remain out of reach because their subjects cannot be observed, or because observation changes them.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/will-we-ever-know-how-life-began/"&gt;Will we ever know how life began?&lt;/a&gt;: Experiments can reproduce possible paths to life&amp;rsquo;s origins, such as metabolism-first scenarios or an RNA world, but establishing which path actually occurred is much harder.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/can-humans-live-forever/"&gt;Will we ever achieve immortality?&lt;/a&gt;: Explores slowing aging and cellular reprogramming. Current longevity records do not establish an unbreakable biological limit, though substantially extending life remains a major challenge.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-if-we-never-find-dark-matter/"&gt;What if we never find dark matter?&lt;/a&gt;: Gravitational evidence for dark matter is extensive, but its particle identity has not been directly confirmed. Perhaps science can offer predictions without reaching an absolute truth.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/"&gt;The hunt for reality’s smallest pieces&lt;/a&gt;: Could strings or quantum units of spacetime lie beneath the Standard Model&amp;rsquo;s 17 particles? Experiments approaching the Planck scale remain almost out of reach.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-if-consciousness-isnt-real/"&gt;What if ‘consciousness’ isn’t real?&lt;/a&gt;: Consciousness may not be a useful scientific category; studying infants, bees, or AI might call for different distinctions.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-came-before-the-big-bang-cosmology/"&gt;What came before the big bang?&lt;/a&gt;: No-boundary models, a big bounce, and a CPT-mirrored universe offer testable predictions, but “before” may be meaningless or impossible to access directly.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/why-we-love-unexplainable-mysteries/"&gt;Why we love unexplainable mysteries&lt;/a&gt;: An interview with Unexplainable about the appeal of mysteries, from the universe&amp;rsquo;s origins to why bicycles stay upright. The unknown need not be discouraging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/lulu-loopp/folio-terminal"&gt;lulu-loopp/folio-terminal&lt;/a&gt;: A terminal for Windows and macOS that brings formula rendering, file previews, and agents&amp;rsquo; waiting status into the workspace.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zyycn/codex-proxy-rs"&gt;zyycn/codex-proxy-rs&lt;/a&gt;: A self-hosted transparent proxy gateway for multiple Codex accounts, written in Rust.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;amp;mid=2649804100&amp;amp;idx=1&amp;amp;sn=bce397be1020053865a4ec471848e589&amp;amp;chksm=bfa625b3ac278aa221be0afe993d9010cbd15e31a3820c081cc47b8325e36e40c04fff0f5e09&amp;amp;mpshare=1&amp;amp;scene=23&amp;amp;srcid=09174ex5EWTAPoALDx8hlKDh&amp;amp;sharer_shareinfo=141a782e4962d50b4c93c8352bef8e49&amp;amp;sharer_shareinfo_first=141a782e4962d50b4c93c8352bef8e49#rd"&gt;My AGENTS.md: A Life Spent Wrestling with Unnatural Prose and Overengineering&lt;/a&gt;: Notes on using AGENTS.md to guide models&amp;rsquo; writing and curb overengineering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://leoliu0.github.io/blog-ratex.html"&gt;Why TeX is Slow and How We Rebuilt It in Pure Rust | Leo Liu&lt;/a&gt; · &lt;a href="https://github.com/leoliu0/ratex"&gt;leoliu0/ratex&lt;/a&gt;: An introduction to TeX&amp;rsquo;s performance bottlenecks and RaTeX, a typesetting engine rewritten in Rust.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/MiniMax-AI/minimax-code"&gt;MiniMax-AI/minimax-code&lt;/a&gt;: An open-source terminal coding agent powered by MiniMax.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Ryoku-dev/ryoku-arch"&gt;Ryoku-dev/ryoku-arch&lt;/a&gt;: An Arch Linux desktop distribution combining Hyprland, an installer, and system configuration.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://notebook.link/blog/the-last-mile-faster-numpy/"&gt;The last mile of a long road: faster NumPy in the browser | Notebook.link&lt;/a&gt;: The engineering work behind making NumPy run faster in the browser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.uxspice.com/"&gt;UXSpice&lt;/a&gt;: A circuit simulator built with Svelte, WebGPU, and ngspice compiled to WebAssembly.&lt;/p&gt;
+&lt;h3 id="design--macos--other-finds"&gt;Design / macOS / Other Finds&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qingjian.app/"&gt;Qingjian Input Method&lt;/a&gt;: Adds foreign-language vocabulary to Chinese typing, helping users pick up words along the way.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://studio.agentkit.best/"&gt;Design Studio AI&lt;/a&gt;: A design workspace built for agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://component.gallery/"&gt;The Component Gallery&lt;/a&gt;: Organizes examples from real design systems by component type, making it easier to compare implementations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://libraries.dev/"&gt;Libraries.dev&lt;/a&gt;: UI effects libraries that coding agents can install and configure, including glowing borders and liquid effects.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/saragordic/window-sweaters"&gt;saragordic/window-sweaters&lt;/a&gt;: A macOS menu bar app that adds knitted borders to windows.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://livabble.com/"&gt;livabble&lt;/a&gt;: A guide to cities and everyday life for Chinese-speaking digital nomads.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/KiwiCanopy/KiwiDesk"&gt;KiwiCanopy/KiwiDesk&lt;/a&gt;: A macOS tiling window manager with multiple layouts configured through a settings interface, while preserving native desktops.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://savant.computer/"&gt;Savant&lt;/a&gt;: The Savant project homepage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jaywcjlove/key-clicker"&gt;jaywcjlove/key-clicker&lt;/a&gt;: Adds mechanical keyboard and typewriter sounds to typing on macOS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.obsidianui.dev/"&gt;ObsidianUI&lt;/a&gt;: A component library built with React and Tailwind CSS.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://robbietilton.com/compositor"&gt;Compositor&lt;/a&gt;: An image editor for Mac.&lt;/p&gt;
+&lt;p&gt;Design inspiration bookmarks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mobbin.com"&gt;Mobbin&lt;/a&gt;: A large collection of real app interfaces for studying design patterns.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://godly.website"&gt;Godly&lt;/a&gt;: A web design inspiration gallery, now redirecting to Recent.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://awwwards.com"&gt;Awwwards&lt;/a&gt;: Website awards recognizing outstanding design and execution.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cosmos.so"&gt;Cosmos&lt;/a&gt;: Collect and organize visual inspiration, with search by color and visual similarity.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://curated.design"&gt;Curated Design&lt;/a&gt;: A curated collection of websites organized by category.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://designspells.com"&gt;Design Spells&lt;/a&gt;: An archive of delightful interface details.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://60fps.design"&gt;60fps&lt;/a&gt;: A gallery focused on interaction and polished animation.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://supahero.io"&gt;Supahero&lt;/a&gt;: Website hero sections for quick inspiration.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://saaspo.com"&gt;Saaspo&lt;/a&gt;: Design inspiration for SaaS websites and landing pages.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://layers.to"&gt;Layers&lt;/a&gt;: A showcase of designers&amp;rsquo; work.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://minimal.gallery"&gt;Minimal Gallery&lt;/a&gt;: A handpicked web design gallery.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mnmm.xyz"&gt;MNMM&lt;/a&gt;: An archive of minimalist design.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://searchsystem.co"&gt;Search System&lt;/a&gt;: An archive of graphic and editorial design.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rebrand.gallery"&gt;Rebrand Gallery&lt;/a&gt;: Rebranding projects with before-and-after comparisons.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://seesaw.website"&gt;Seesaw&lt;/a&gt;: A curated web design gallery updated daily.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://same.energy"&gt;Same Energy&lt;/a&gt;: Image search based on visual similarity.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://spiral.soot.com"&gt;Spiral&lt;/a&gt;: A spiral visual feed for discovering inspiration.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gameuidatabase.com"&gt;Game UI Database&lt;/a&gt;: A database of game interfaces organized by genre.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://interfaceingame.com"&gt;Interface in Game&lt;/a&gt;: Game interfaces organized by element type.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hudsandguis.com"&gt;HUDs and GUIs&lt;/a&gt;: Futuristic interfaces from films and games.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pinterest.com"&gt;Pinterest&lt;/a&gt;: A longstanding favorite that remains useful.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://loadmo.re"&gt;Loadmo&lt;/a&gt;: An archive of creative mobile web design.&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target">Reward is not the optimization target — LessWrong</a>: Explores the distinction between reinforcement learning rewards and the goals a model learns. In an update, the author acknowledges that reward can empirically become a primary goal, though this does not follow by definition.</p>
+<p><a href="https://www.alignmentforum.org/">AI Alignment Forum</a>: A community for AI alignment research and discussion.</p>
+<p><a href="https://www.lesswrong.com/w/bayes-rule">Bayes&rsquo; rule — LessWrong</a>: An introduction to Bayes&rsquo; rule and the intuition behind it.</p>
+<p><a href="https://www.lesswrong.com/">LessWrong</a>: Articles and discussions about rationality, cognition, and AI.</p>
+<p><a href="https://darioamodei.com/post/we-must-pace-the-frontier">Dario Amodei — We Must Pace the Frontier</a>: Dario Amodei discusses coordinating the pace of frontier AI development to give safety research and society more time to respond.</p>
+<p><a href="https://anonymous-report-421.github.io/public-website/?lang=en&amp;view=1">GPT 6 Astra Embodied Policy Evaluation</a>: An anonymous evaluation report on GPT-6 Astra&rsquo;s embodied policies.</p>
+<p><a href="https://www.goodfire.com/research">Latest research - Goodfire</a>: Goodfire&rsquo;s research directory, focused on model interpretability and internal mechanisms.</p>
+<p><a href="https://pub.sakana.ai/pc-alm/">Augmented Lagrangian Predictive Coding: training 1000-layer networks without backpropagation</a>: Sakana AI applies an augmented Lagrangian method to predictive coding, exploring ways to train deep networks without backpropagation.</p>
+<p><a href="https://lucumr.pocoo.org/2026/9/12/pdoom/">P(doom) | Armin Ronacher&rsquo;s Thoughts and Writings</a>: Armin Ronacher reflects on catastrophic AI risk and how people express its probability.</p>
+<p><a href="https://scottaaronson.blog/?p=10062">The Age of Wonders and Terrors | Scott Aaronson</a>: Scott Aaronson discusses the hopes and concerns raised by AI progress.</p>
+<p><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Introducing System One Models &amp; Jev | TypeSafe AI</a>: TypeSafe AI introduces System One models and Jev for structured decision-making.</p>
+<p><a href="https://millicosm.substack.com/p/from-academia-to-alignment">From Academia to Alignment | Mike Winer</a>: Mike Winer shares his experience and reflections on moving from academic research to AI alignment.</p>
+<p><a href="https://alkjash.github.io/ai-risk/#preliminaries">Existential Risk from AI: An Exposition for Mathematicians</a>: An explanation of AI existential risk and alignment for readers with a mathematical background.</p>
+<p><a href="https://mimo.xiaomi.com/rl/#overview">MiMo-v2.6 RL</a>: Xiaomi&rsquo;s introduction to reinforcement learning for MiMo-v2.6.</p>
+<p><a href="https://quiver.ai/blog/introducing-arrow-2-0">Introducing Arrow 2 and Arrow 2 Telos – QuiverAI</a>: QuiverAI introduces the Arrow 2 and Arrow 2 Telos vector graphics generation models.</p>
+<p><a href="https://jasperlu.com/blog/training-search-agents-grpo/">Training Search Agents with GRPO — Jasper Lu</a>: A practical account of training search agents with GRPO.</p>
+<p><a href="https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization">Helix 2.5: Zero-Shot 30-Home Generalization</a>: Figure evaluates Helix 2.5 on three household tasks in 30 unseen homes, reporting an overall success rate of 56%; the tasks were fine-tuned in other environments.</p>
+<p><a href="https://arxiv.org/abs/2510.03215">Cache-to-Cache: Direct Semantic Communication Between Large Language Models</a>: Research on transferring intermediate semantic representations directly between language models through KV caches, reducing the information loss of text-only communication.</p>
+<p><a href="https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are">Pretraining data, not verifiability, is why LLMs are especially good at math (and coding) — LessWrong</a>: Proposes that the structure of pretraining data may explain language models&rsquo; strengths in mathematics and programming better than the verifiability of answers.</p>
+<p><a href="https://charlesdddd.github.io/blog/reading-a-pretraining-run.html">Reading a Pretraining Run — Chunyuan Deng</a>: A guide to monitoring loss, gradients, activations, and evaluations during pretraining, including metric definitions, sampling methods, and diagnostic priorities.</p>
+<p><a href="https://qwen.ai/blog?id=qwen3.8-livetranslate">Qwen3.8-livetranslate</a>: The official introduction to Qwen3.8-livetranslate.</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://deep-learning-alchemy.github.io/">Stanford CS 312 | Deep Learning Alchemy</a>: A Stanford course on practical deep learning training and experimental methods.</p>
+<p><a href="https://nicolaszucchet.github.io/Tutorial-scaling-laws">Scaling law tutorial</a>: A tutorial on neural network scaling laws.</p>
+<p><a href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/">A beginning for mathematics · Daniel Litt</a>: Daniel Litt discusses the future of mathematical research in the age of AI and the value of understanding, communication, and new questions.</p>
+<p><a href="http://maths.nju.edu.cn/~hebma/">Professor Bingsheng He</a>: Professor Bingsheng He&rsquo;s academic homepage.</p>
+<p><a href="https://ai.google/static/documents/AI-in-Science.pdf">AI in Science | Google</a>: Google&rsquo;s report on AI&rsquo;s role in advancing scientific research.</p>
+<p><a href="https://periodic.com/news/building-labs-that-learn">Building Labs that Learn – Periodic Labs</a>: Periodic Labs outlines a research approach in which laboratories keep learning from experimental feedback.</p>
+<p><a href="https://periodic.com/news/nature-is-our-learning-environment">Nature Is Our Learning Environment – Periodic Labs</a>: Discusses using feedback from real-world experiments to train models.</p>
+<p><a href="https://periodic.com/news/ai-infrastructure-at-periodic">AI Infrastructure at Periodic – Periodic Labs</a>: Introduces the AI infrastructure supporting scientific agents, experiments, and training.</p>
+<p><a href="https://antieau.github.io/2026/09/15/fast-math-slow-math.html">Fast math/slow math | Benjamin Antieau</a>: Benjamin Antieau discusses two rhythms of mathematical research: solving problems quickly and building understanding slowly.</p>
+<p><a href="https://conjectures.io/">Conjectures.io</a>: Expresses open mathematical conjectures as precise Lean statements and accepts verifiable proofs or counterexamples.</p>
+<p><a href="https://matrix67.com/math_journey/">A Short Walk Through the Garden of Mathematics</a>: Matrix67&rsquo;s popular mathematics book, A Short Walk Through the Garden of Mathematics.</p>
+<p><a href="https://proofsandprompts.com/2026/09/17/the-fate-of-the-riemann-hypothesis-revisited/">The Fate of the Riemann Hypothesis: Revisited – Proofs and Prompts</a>: Richard Evan Schwartz revisits his short story about the Riemann hypothesis and discusses AI&rsquo;s effects on mathematical research, education, and careers.</p>
+<p><a href="https://www.proofatlas.ai/open-problems/">Top 500 Open Problems by LLM-assessed Importance — ProofAtlas</a>: Ranks 500 open problems by importance as assessed by language models; the ranking does not represent a consensus among mathematicians.</p>
+<p><a href="http://www.madore.org/~david/weblog/d.2026-09-10.2861.ai-and-math-destruction.html">Sur la destruction des maths par les boîtes d’IA | David Madore</a>: David Madore comments on the relationship between AI companies and mathematical research.</p>
+<p><a href="https://x.com/TheMathFlow/status/2101154346583154801?s=20">Solving a Rubik’s Cube with graph theory | The Math Flow</a>: A post explaining Rubik&rsquo;s Cube solving through graph theory.</p>
+<p><a href="https://universalitylectures.wordpress.com/">An Introduction to Universality | Alessandro Codello</a>: Alessandro Codello&rsquo;s introductory lectures on universality, covering fractals, percolation, chaos, and phase transitions.</p>
+<p><a href="https://www.scientificamerican.com/report/impossible-questions/">Impossible Questions | Scientific American</a>: A Scientific American collection exploring the origin of life, longevity, dark matter, consciousness, and the beginning of the universe.</p>
+<p>I compiled these articles into Chinese–English bilingual PDFs, with separate layouts for phones and computers: <a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual-Mobile.pdf">Mobile edition (PDF, 103 pages)</a> · <a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual.pdf">Desktop edition (PDF, 56 pages)</a>.</p>
+<ul>
+<li><a href="https://www.scientificamerican.com/article/finding-meaning-in-the-impossible/">Finding meaning in the impossible</a> (editor&rsquo;s introduction): Pursuing seemingly unanswerable questions can lead to unexpected practical discoveries; the journey itself may be meaningful.</li>
+<li><a href="https://www.scientificamerican.com/article/the-questions-science-may-never-answer/">The questions science may never answer</a>: Science offers approximations that keep evolving. Some questions may remain out of reach because their subjects cannot be observed, or because observation changes them.</li>
+<li><a href="https://www.scientificamerican.com/article/will-we-ever-know-how-life-began/">Will we ever know how life began?</a>: Experiments can reproduce possible paths to life&rsquo;s origins, such as metabolism-first scenarios or an RNA world, but establishing which path actually occurred is much harder.</li>
+<li><a href="https://www.scientificamerican.com/article/can-humans-live-forever/">Will we ever achieve immortality?</a>: Explores slowing aging and cellular reprogramming. Current longevity records do not establish an unbreakable biological limit, though substantially extending life remains a major challenge.</li>
+<li><a href="https://www.scientificamerican.com/article/what-if-we-never-find-dark-matter/">What if we never find dark matter?</a>: Gravitational evidence for dark matter is extensive, but its particle identity has not been directly confirmed. Perhaps science can offer predictions without reaching an absolute truth.</li>
+<li><a href="https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/">The hunt for reality’s smallest pieces</a>: Could strings or quantum units of spacetime lie beneath the Standard Model&rsquo;s 17 particles? Experiments approaching the Planck scale remain almost out of reach.</li>
+<li><a href="https://www.scientificamerican.com/article/what-if-consciousness-isnt-real/">What if ‘consciousness’ isn’t real?</a>: Consciousness may not be a useful scientific category; studying infants, bees, or AI might call for different distinctions.</li>
+<li><a href="https://www.scientificamerican.com/article/what-came-before-the-big-bang-cosmology/">What came before the big bang?</a>: No-boundary models, a big bounce, and a CPT-mirrored universe offer testable predictions, but “before” may be meaningless or impossible to access directly.</li>
+<li><a href="https://www.scientificamerican.com/article/why-we-love-unexplainable-mysteries/">Why we love unexplainable mysteries</a>: An interview with Unexplainable about the appeal of mysteries, from the universe&rsquo;s origins to why bicycles stay upright. The unknown need not be discouraging.</li>
+</ul>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://github.com/lulu-loopp/folio-terminal">lulu-loopp/folio-terminal</a>: A terminal for Windows and macOS that brings formula rendering, file previews, and agents&rsquo; waiting status into the workspace.</p>
+<p><a href="https://github.com/zyycn/codex-proxy-rs">zyycn/codex-proxy-rs</a>: A self-hosted transparent proxy gateway for multiple Codex accounts, written in Rust.</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649804100&amp;idx=1&amp;sn=bce397be1020053865a4ec471848e589&amp;chksm=bfa625b3ac278aa221be0afe993d9010cbd15e31a3820c081cc47b8325e36e40c04fff0f5e09&amp;mpshare=1&amp;scene=23&amp;srcid=09174ex5EWTAPoALDx8hlKDh&amp;sharer_shareinfo=141a782e4962d50b4c93c8352bef8e49&amp;sharer_shareinfo_first=141a782e4962d50b4c93c8352bef8e49#rd">My AGENTS.md: A Life Spent Wrestling with Unnatural Prose and Overengineering</a>: Notes on using AGENTS.md to guide models&rsquo; writing and curb overengineering.</p>
+<p><a href="https://leoliu0.github.io/blog-ratex.html">Why TeX is Slow and How We Rebuilt It in Pure Rust | Leo Liu</a> · <a href="https://github.com/leoliu0/ratex">leoliu0/ratex</a>: An introduction to TeX&rsquo;s performance bottlenecks and RaTeX, a typesetting engine rewritten in Rust.</p>
+<p><a href="https://github.com/MiniMax-AI/minimax-code">MiniMax-AI/minimax-code</a>: An open-source terminal coding agent powered by MiniMax.</p>
+<p><a href="https://github.com/Ryoku-dev/ryoku-arch">Ryoku-dev/ryoku-arch</a>: An Arch Linux desktop distribution combining Hyprland, an installer, and system configuration.</p>
+<p><a href="https://notebook.link/blog/the-last-mile-faster-numpy/">The last mile of a long road: faster NumPy in the browser | Notebook.link</a>: The engineering work behind making NumPy run faster in the browser.</p>
+<p><a href="https://www.uxspice.com/">UXSpice</a>: A circuit simulator built with Svelte, WebGPU, and ngspice compiled to WebAssembly.</p>
+<h3 id="design--macos--other-finds">Design / macOS / Other Finds</h3>
+<p><a href="https://qingjian.app/">Qingjian Input Method</a>: Adds foreign-language vocabulary to Chinese typing, helping users pick up words along the way.</p>
+<p><a href="https://studio.agentkit.best/">Design Studio AI</a>: A design workspace built for agents.</p>
+<p><a href="https://component.gallery/">The Component Gallery</a>: Organizes examples from real design systems by component type, making it easier to compare implementations.</p>
+<p><a href="https://libraries.dev/">Libraries.dev</a>: UI effects libraries that coding agents can install and configure, including glowing borders and liquid effects.</p>
+<p><a href="https://github.com/saragordic/window-sweaters">saragordic/window-sweaters</a>: A macOS menu bar app that adds knitted borders to windows.</p>
+<p><a href="https://livabble.com/">livabble</a>: A guide to cities and everyday life for Chinese-speaking digital nomads.</p>
+<p><a href="https://github.com/KiwiCanopy/KiwiDesk">KiwiCanopy/KiwiDesk</a>: A macOS tiling window manager with multiple layouts configured through a settings interface, while preserving native desktops.</p>
+<p><a href="https://savant.computer/">Savant</a>: The Savant project homepage.</p>
+<p><a href="https://github.com/jaywcjlove/key-clicker">jaywcjlove/key-clicker</a>: Adds mechanical keyboard and typewriter sounds to typing on macOS.</p>
+<p><a href="https://www.obsidianui.dev/">ObsidianUI</a>: A component library built with React and Tailwind CSS.</p>
+<p><a href="https://robbietilton.com/compositor">Compositor</a>: An image editor for Mac.</p>
+<p>Design inspiration bookmarks:</p>
+<ul>
+<li><a href="http://mobbin.com">Mobbin</a>: A large collection of real app interfaces for studying design patterns.</li>
+<li><a href="http://godly.website">Godly</a>: A web design inspiration gallery, now redirecting to Recent.</li>
+<li><a href="http://awwwards.com">Awwwards</a>: Website awards recognizing outstanding design and execution.</li>
+<li><a href="http://cosmos.so">Cosmos</a>: Collect and organize visual inspiration, with search by color and visual similarity.</li>
+<li><a href="http://curated.design">Curated Design</a>: A curated collection of websites organized by category.</li>
+<li><a href="http://designspells.com">Design Spells</a>: An archive of delightful interface details.</li>
+<li><a href="http://60fps.design">60fps</a>: A gallery focused on interaction and polished animation.</li>
+<li><a href="http://supahero.io">Supahero</a>: Website hero sections for quick inspiration.</li>
+<li><a href="http://saaspo.com">Saaspo</a>: Design inspiration for SaaS websites and landing pages.</li>
+<li><a href="http://layers.to">Layers</a>: A showcase of designers&rsquo; work.</li>
+<li><a href="http://minimal.gallery">Minimal Gallery</a>: A handpicked web design gallery.</li>
+<li><a href="http://mnmm.xyz">MNMM</a>: An archive of minimalist design.</li>
+<li><a href="http://searchsystem.co">Search System</a>: An archive of graphic and editorial design.</li>
+<li><a href="http://rebrand.gallery">Rebrand Gallery</a>: Rebranding projects with before-and-after comparisons.</li>
+<li><a href="http://seesaw.website">Seesaw</a>: A curated web design gallery updated daily.</li>
+<li><a href="http://same.energy">Same Energy</a>: Image search based on visual similarity.</li>
+<li><a href="http://spiral.soot.com">Spiral</a>: A spiral visual feed for discovering inspiration.</li>
+<li><a href="http://gameuidatabase.com">Game UI Database</a>: A database of game interfaces organized by genre.</li>
+<li><a href="http://interfaceingame.com">Interface in Game</a>: Game interfaces organized by element type.</li>
+<li><a href="http://hudsandguis.com">HUDs and GUIs</a>: Futuristic interfaces from films and games.</li>
+<li><a href="http://pinterest.com">Pinterest</a>: A longstanding favorite that remains useful.</li>
+<li><a href="http://loadmo.re">Loadmo</a>: An archive of creative mobile web design.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Issue 24</title><link>https://blog.yfff.me/en/weekly/week-24/</link><pubDate>Sat, 12 Sep 2026 15:42:34 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-24/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://x.com/kickingkeys/status/2096053174134092180"&gt;Astra vs Fable 5.1&lt;/a&gt;: Surya shares outputs from the two models given the same prompt.&lt;/p&gt;
 &lt;p&gt;&lt;img
  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260906023400723.png"

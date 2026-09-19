@@ -1,4 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Sep 2026 15:42:34 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第24期周刊</title><link>https://blog.yfff.me/weekly/week-24/</link><pubDate>Sat, 12 Sep 2026 15:42:34 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-24/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Sep 2026 00:50:28 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第25期周刊</title><link>https://blog.yfff.me/weekly/week-25/</link><pubDate>Sun, 20 Sep 2026 00:50:28 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-25/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target"&gt;Reward is not the optimization target — LessWrong&lt;/a&gt;：讨论强化学习的奖励信号与模型学到的目标之间的区别；作者在更新中承认，奖励可能在经验上成为主要目标，但这并非定义上的必然。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alignmentforum.org/"&gt;AI Alignment Forum&lt;/a&gt;：汇集 AI 对齐研究与讨论的社区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/w/bayes-rule"&gt;Bayes&amp;rsquo; rule — LessWrong&lt;/a&gt;：关于贝叶斯公式及其直觉的入门条目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/"&gt;LessWrong&lt;/a&gt;：关于理性、认知与 AI 的文章和讨论社区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://darioamodei.com/post/we-must-pace-the-frontier"&gt;Dario Amodei — We Must Pace the Frontier&lt;/a&gt;：Dario Amodei 讨论如何协调前沿 AI 研发节奏，为安全研究和社会应对留出时间。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anonymous-report-421.github.io/public-website/?lang=en&amp;amp;view=1"&gt;GPT 6 Astra 具身策略评测&lt;/a&gt;：一份关于 GPT-6 Astra 具身策略的匿名评测报告。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.goodfire.com/research"&gt;Latest research - Goodfire&lt;/a&gt;：Goodfire 的研究目录，关注模型可解释性与内部机制。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pub.sakana.ai/pc-alm/"&gt;Augmented Lagrangian Predictive Coding: training 1000-layer networks without backpropagation&lt;/a&gt;：Sakana AI 用增广拉格朗日方法改进预测编码训练，探索不依赖反向传播的深层网络训练。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lucumr.pocoo.org/2026/9/12/pdoom/"&gt;P(doom) | Armin Ronacher&amp;rsquo;s Thoughts and Writings&lt;/a&gt;：Armin Ronacher 讨论自己对 AI 灾难风险及其概率表达的看法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scottaaronson.blog/?p=10062"&gt;The Age of Wonders and Terrors | Scott Aaronson&lt;/a&gt;：Scott Aaronson 讨论 AI 进展带来的希望与担忧。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"&gt;Introducing System One Models &amp;amp; Jev | TypeSafe AI&lt;/a&gt;：TypeSafe AI 介绍用于结构化决策的 System One 模型与 Jev。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://millicosm.substack.com/p/from-academia-to-alignment"&gt;From Academia to Alignment | Mike Winer&lt;/a&gt;：Mike Winer 分享从学术研究转向 AI 对齐工作的经历与思考。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alkjash.github.io/ai-risk/#preliminaries"&gt;Existential Risk from AI: An Exposition for Mathematicians&lt;/a&gt;：面向数学读者解释 AI 的存在性风险与对齐问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mimo.xiaomi.com/rl/#overview"&gt;MiMo-v2.6 RL&lt;/a&gt;：小米 MiMo-v2.6 的强化学习介绍页面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://quiver.ai/blog/introducing-arrow-2-0"&gt;Introducing Arrow 2 and Arrow 2 Telos – QuiverAI&lt;/a&gt;：QuiverAI 介绍 Arrow 2 与 Arrow 2 Telos 矢量图生成模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jasperlu.com/blog/training-search-agents-grpo/"&gt;Training Search Agents with GRPO — Jasper Lu&lt;/a&gt;：通过 GRPO 训练搜索智能体的实践文章。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"&gt;Helix 2.5: Zero-Shot 30-Home Generalization&lt;/a&gt;：Figure 在 30 个未见家庭中评测 Helix 2.5 的三个家务任务，报告整体成功率为 56%；任务仍在其他环境中做过微调。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2510.03215"&gt;Cache-to-Cache: Direct Semantic Communication Between Large Language Models&lt;/a&gt;：研究通过 KV cache 在大语言模型之间直接传递中间语义表示，减少仅靠文本交流的信息损失。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are"&gt;Pretraining data, not verifiability, is why LLMs are especially good at math (and coding) — LessWrong&lt;/a&gt;：文章提出，预训练数据的结构可能比答案可验证性更能解释语言模型在数学和编程上的优势。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://charlesdddd.github.io/blog/reading-a-pretraining-run.html"&gt;Reading a Pretraining Run — Chunyuan Deng&lt;/a&gt;：梳理预训练中损失、梯度、激活与评测等监控指标的定义、采样方式和排查优先级。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.8-livetranslate"&gt;Qwen3.8-livetranslate&lt;/a&gt;：Qwen3.8-livetranslate 的官方介绍页面。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://deep-learning-alchemy.github.io/"&gt;Stanford CS 312 | Deep Learning Alchemy&lt;/a&gt;：斯坦福关于深度学习训练实践与实验方法的课程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nicolaszucchet.github.io/Tutorial-scaling-laws"&gt;Scaling law tutorial&lt;/a&gt;：神经网络缩放规律教程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/"&gt;A beginning for mathematics · Daniel Litt&lt;/a&gt;：Daniel Litt 讨论 AI 时代数学研究的未来，以及理解、交流和新问题的价值。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://maths.nju.edu.cn/~hebma/"&gt;Professor Bingsheng He&lt;/a&gt;：何炳生教授的学术主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ai.google/static/documents/AI-in-Science.pdf"&gt;AI in Science | Google&lt;/a&gt;：Google 关于 AI 推动科学研究的报告。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/building-labs-that-learn"&gt;Building Labs that Learn – Periodic Labs&lt;/a&gt;：Periodic Labs 介绍让实验室通过实验反馈持续学习的研究路线。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/nature-is-our-learning-environment"&gt;Nature Is Our Learning Environment – Periodic Labs&lt;/a&gt;：讨论如何把真实世界的实验反馈用于模型学习。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://periodic.com/news/ai-infrastructure-at-periodic"&gt;AI Infrastructure at Periodic – Periodic Labs&lt;/a&gt;：介绍支持科学智能体、实验与训练的 AI 基础设施。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://antieau.github.io/2026/09/15/fast-math-slow-math.html"&gt;Fast math/slow math | Benjamin Antieau&lt;/a&gt;：Benjamin Antieau 讨论快速解题与缓慢积累理解这两种数学研究节奏。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://conjectures.io/"&gt;Conjectures.io&lt;/a&gt;：把开放数学猜想写成精确的 Lean 命题，接受可验证的证明或反例。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matrix67.com/math_journey/"&gt;数学花园里的一次小小漫步&lt;/a&gt;：Matrix67 的数学科普读物《数学花园里的一次小小漫步》。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://proofsandprompts.com/2026/09/17/the-fate-of-the-riemann-hypothesis-revisited/"&gt;The Fate of the Riemann Hypothesis: Revisited – Proofs and Prompts&lt;/a&gt;：Richard Evan Schwartz 回看自己的黎曼猜想短篇，进一步讨论 AI 对数学研究生态、人才培养与职业的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.proofatlas.ai/open-problems/"&gt;Top 500 Open Problems by LLM-assessed Importance — ProofAtlas&lt;/a&gt;：按大语言模型评估的重要性排列 500 个开放问题，排序不代表数学界的共识。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.madore.org/~david/weblog/d.2026-09-10.2861.ai-and-math-destruction.html"&gt;Sur la destruction des maths par les boîtes d’IA | David Madore&lt;/a&gt;：David Madore 关于 AI 公司与数学研究关系的评论。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/TheMathFlow/status/2101154346583154801?s=20"&gt;Solving a Rubik’s Cube with graph theory | The Math Flow&lt;/a&gt;：一则用图论解释魔方求解的分享。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://universalitylectures.wordpress.com/"&gt;An Introduction to Universality | Alessandro Codello&lt;/a&gt;：Alessandro Codello 的普适性入门讲义，涵盖分形、渗流、混沌与相变。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scientificamerican.com/report/impossible-questions/"&gt;Impossible Questions | Scientific American&lt;/a&gt;：Scientific American 围绕生命起源、寿命、暗物质、意识与宇宙开端等问题制作的专题。&lt;/p&gt;
+&lt;p&gt;我把这组文章整理成了中英双语 PDF，分别适配手机和电脑阅读：&lt;a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual-Mobile.pdf"&gt;手机阅读版（PDF，103 页）&lt;/a&gt; · &lt;a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual.pdf"&gt;电脑阅读版（PDF，56 页）&lt;/a&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/finding-meaning-in-the-impossible/"&gt;Finding meaning in the impossible&lt;/a&gt;（主编导语）：追「无解题」常意外带出实用发现，意义或许在旅途本身。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/the-questions-science-may-never-answer/"&gt;The questions science may never answer&lt;/a&gt;：科学给的是不断更新的近似，有些题会因不可观测或观测即改变对象而永远够不着。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/will-we-ever-know-how-life-began/"&gt;Will we ever know how life began?&lt;/a&gt;：生命起源只能复现「可能路径」（代谢优先 vs RNA 世界等），难以证明就是当年那一条。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/can-humans-live-forever/"&gt;Will we ever achieve immortality?&lt;/a&gt;：讨论延缓衰老与细胞重编程的可能性；当前寿命纪录不等于不可突破的生物学硬上限，显著延寿仍面临巨大挑战。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-if-we-never-find-dark-matter/"&gt;What if we never find dark matter?&lt;/a&gt;：支持暗物质的引力证据丰富，但尚未直接确认其粒子本体；或许科学只能预测、得不到「绝对真相」。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/"&gt;The hunt for reality’s smallest pieces&lt;/a&gt;：标准模型 17 粒子之下是否还有弦/时空量子粒？逼近普朗克尺度实验上几乎不可达。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-if-consciousness-isnt-real/"&gt;What if ‘consciousness’ isn’t real?&lt;/a&gt;：「意识」未必是好科学概念，对婴儿/蜜蜂/AI 或许该换一套切分方式。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/what-came-before-the-big-bang-cosmology/"&gt;What came before the big bang?&lt;/a&gt;：无边界、大反弹、CPT 镜像宇宙等有可测预言，但「之前」可能无意义或不可直接触及。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scientificamerican.com/article/why-we-love-unexplainable-mysteries/"&gt;Why we love unexplainable mysteries&lt;/a&gt;：访谈 Unexplainable：未知从宇宙起源到「自行车为何不倒」都有魔力，不必气馁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/lulu-loopp/folio-terminal"&gt;lulu-loopp/folio-terminal&lt;/a&gt;：面向 Windows 和 macOS 的终端，把公式排版、文件预览与智能体等待状态放进工作界面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/zyycn/codex-proxy-rs"&gt;zyycn/codex-proxy-rs&lt;/a&gt;：基于 Rust 的自托管 Codex 多账号透明代理网关。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;amp;mid=2649804100&amp;amp;idx=1&amp;amp;sn=bce397be1020053865a4ec471848e589&amp;amp;chksm=bfa625b3ac278aa221be0afe993d9010cbd15e31a3820c081cc47b8325e36e40c04fff0f5e09&amp;amp;mpshare=1&amp;amp;scene=23&amp;amp;srcid=09174ex5EWTAPoALDx8hlKDh&amp;amp;sharer_shareinfo=141a782e4962d50b4c93c8352bef8e49&amp;amp;sharer_shareinfo_first=141a782e4962d50b4c93c8352bef8e49#rd"&gt;看完我的AGENTS.md，你将看到我和不说人话且over-engineering的模型搏斗的这一生&lt;/a&gt;：关于用 AGENTS.md 约束模型表达和过度工程化的使用记录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://leoliu0.github.io/blog-ratex.html"&gt;Why TeX is Slow and How We Rebuilt It in Pure Rust | Leo Liu&lt;/a&gt; · &lt;a href="https://github.com/leoliu0/ratex"&gt;leoliu0/ratex&lt;/a&gt;：介绍 TeX 的性能瓶颈，以及用 Rust 重写排版引擎的 RaTeX 项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/MiniMax-AI/minimax-code"&gt;MiniMax-AI/minimax-code&lt;/a&gt;：由 MiniMax 驱动的开源终端编程智能体。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Ryoku-dev/ryoku-arch"&gt;Ryoku-dev/ryoku-arch&lt;/a&gt;：基于 Arch Linux 的桌面发行版，整合 Hyprland 桌面、安装器与系统配置。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://notebook.link/blog/the-last-mile-faster-numpy/"&gt;The last mile of a long road: faster NumPy in the browser | Notebook.link&lt;/a&gt;：介绍让浏览器中的 NumPy 运行得更快的工程工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.uxspice.com/"&gt;UXSpice&lt;/a&gt;：使用 Svelte、WebGPU 与编译为 WebAssembly 的 ngspice 构建的电路仿真器。&lt;/p&gt;
+&lt;h3 id="设计--macos--其他"&gt;设计 / macOS / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://qingjian.app/"&gt;青简输入法 Qingjian&lt;/a&gt;：在中文输入过程中穿插外语词汇，顺手积累表达。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://studio.agentkit.best/"&gt;Design Studio AI&lt;/a&gt;：面向智能体的设计工作空间。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://component.gallery/"&gt;The Component Gallery&lt;/a&gt;：按组件类型整理真实设计系统，便于对照不同界面的实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://libraries.dev/"&gt;Libraries.dev&lt;/a&gt;：提供可交给编程智能体安装和配置的界面特效库，包括边框光效与液态效果。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/saragordic/window-sweaters"&gt;saragordic/window-sweaters&lt;/a&gt;：给 macOS 窗口加上针织边框的菜单栏应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://livabble.com/"&gt;livabble&lt;/a&gt;：面向华人数字游民的城市与生活信息指南。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/KiwiCanopy/KiwiDesk"&gt;KiwiCanopy/KiwiDesk&lt;/a&gt;：macOS 平铺窗口管理器，通过设置界面配置多种布局，并保留原生桌面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://savant.computer/"&gt;Savant&lt;/a&gt;：Savant 项目主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/jaywcjlove/key-clicker"&gt;jaywcjlove/key-clicker&lt;/a&gt;：为 macOS 键盘输入模拟机械键盘与打字机音效。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.obsidianui.dev/"&gt;ObsidianUI&lt;/a&gt;：基于 React 与 Tailwind CSS 的组件库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://robbietilton.com/compositor"&gt;Compositor&lt;/a&gt;：面向 Mac 的图像编辑工具。&lt;/p&gt;
+&lt;p&gt;设计灵感书签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mobbin.com"&gt;Mobbin&lt;/a&gt;：海量真实 App 界面，用来研究设计规律。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://godly.website"&gt;Godly&lt;/a&gt;：网站设计灵感画廊，现跳转至 Recent。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://awwwards.com"&gt;Awwwards&lt;/a&gt;：评选执行硬核的网站大奖。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cosmos.so"&gt;Cosmos&lt;/a&gt;：收藏和组织视觉灵感，支持按颜色与视觉相似度检索。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://curated.design"&gt;Curated Design&lt;/a&gt;：按分类精选的网站合集。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://designspells.com"&gt;Design Spells&lt;/a&gt;：让人眼前一亮的界面细节，逐一归档。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://60fps.design"&gt;60fps&lt;/a&gt;：专注交互与高质量动效的网站画廊。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://supahero.io"&gt;Supahero&lt;/a&gt;：收录网站 Hero 区，快速借鉴灵感。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://saaspo.com"&gt;Saaspo&lt;/a&gt;：SaaS 网站与落地页设计灵感库。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://layers.to"&gt;Layers&lt;/a&gt;：设计师作品集。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://minimal.gallery"&gt;Minimal Gallery&lt;/a&gt;：人工精选的网站设计画廊。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mnmm.xyz"&gt;MNMM&lt;/a&gt;：极简设计档案库。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://searchsystem.co"&gt;Search System&lt;/a&gt;：平面与编辑设计档案。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rebrand.gallery"&gt;Rebrand Gallery&lt;/a&gt;：品牌重塑案例，带前后对比。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://seesaw.website"&gt;Seesaw&lt;/a&gt;：每日更新的精选网站设计画廊。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://same.energy"&gt;Same Energy&lt;/a&gt;：以图搜图，按视觉相似度匹配。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://spiral.soot.com"&gt;Spiral&lt;/a&gt;：螺旋式视觉信息流，用来发现灵感。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gameuidatabase.com"&gt;Game UI Database&lt;/a&gt;：按游戏类型归档的游戏 UI 数据库。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://interfaceingame.com"&gt;Interface in Game&lt;/a&gt;：按元素类型整理的游戏界面。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hudsandguis.com"&gt;HUDs and GUIs&lt;/a&gt;：电影和游戏里的未来感界面。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pinterest.com"&gt;Pinterest&lt;/a&gt;：老牌，依然好用。&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://loadmo.re"&gt;Loadmo&lt;/a&gt;：创意移动端网站设计档案。&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target">Reward is not the optimization target — LessWrong</a>：讨论强化学习的奖励信号与模型学到的目标之间的区别；作者在更新中承认，奖励可能在经验上成为主要目标，但这并非定义上的必然。</p>
+<p><a href="https://www.alignmentforum.org/">AI Alignment Forum</a>：汇集 AI 对齐研究与讨论的社区。</p>
+<p><a href="https://www.lesswrong.com/w/bayes-rule">Bayes&rsquo; rule — LessWrong</a>：关于贝叶斯公式及其直觉的入门条目。</p>
+<p><a href="https://www.lesswrong.com/">LessWrong</a>：关于理性、认知与 AI 的文章和讨论社区。</p>
+<p><a href="https://darioamodei.com/post/we-must-pace-the-frontier">Dario Amodei — We Must Pace the Frontier</a>：Dario Amodei 讨论如何协调前沿 AI 研发节奏，为安全研究和社会应对留出时间。</p>
+<p><a href="https://anonymous-report-421.github.io/public-website/?lang=en&amp;view=1">GPT 6 Astra 具身策略评测</a>：一份关于 GPT-6 Astra 具身策略的匿名评测报告。</p>
+<p><a href="https://www.goodfire.com/research">Latest research - Goodfire</a>：Goodfire 的研究目录，关注模型可解释性与内部机制。</p>
+<p><a href="https://pub.sakana.ai/pc-alm/">Augmented Lagrangian Predictive Coding: training 1000-layer networks without backpropagation</a>：Sakana AI 用增广拉格朗日方法改进预测编码训练，探索不依赖反向传播的深层网络训练。</p>
+<p><a href="https://lucumr.pocoo.org/2026/9/12/pdoom/">P(doom) | Armin Ronacher&rsquo;s Thoughts and Writings</a>：Armin Ronacher 讨论自己对 AI 灾难风险及其概率表达的看法。</p>
+<p><a href="https://scottaaronson.blog/?p=10062">The Age of Wonders and Terrors | Scott Aaronson</a>：Scott Aaronson 讨论 AI 进展带来的希望与担忧。</p>
+<p><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Introducing System One Models &amp; Jev | TypeSafe AI</a>：TypeSafe AI 介绍用于结构化决策的 System One 模型与 Jev。</p>
+<p><a href="https://millicosm.substack.com/p/from-academia-to-alignment">From Academia to Alignment | Mike Winer</a>：Mike Winer 分享从学术研究转向 AI 对齐工作的经历与思考。</p>
+<p><a href="https://alkjash.github.io/ai-risk/#preliminaries">Existential Risk from AI: An Exposition for Mathematicians</a>：面向数学读者解释 AI 的存在性风险与对齐问题。</p>
+<p><a href="https://mimo.xiaomi.com/rl/#overview">MiMo-v2.6 RL</a>：小米 MiMo-v2.6 的强化学习介绍页面。</p>
+<p><a href="https://quiver.ai/blog/introducing-arrow-2-0">Introducing Arrow 2 and Arrow 2 Telos – QuiverAI</a>：QuiverAI 介绍 Arrow 2 与 Arrow 2 Telos 矢量图生成模型。</p>
+<p><a href="https://jasperlu.com/blog/training-search-agents-grpo/">Training Search Agents with GRPO — Jasper Lu</a>：通过 GRPO 训练搜索智能体的实践文章。</p>
+<p><a href="https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization">Helix 2.5: Zero-Shot 30-Home Generalization</a>：Figure 在 30 个未见家庭中评测 Helix 2.5 的三个家务任务，报告整体成功率为 56%；任务仍在其他环境中做过微调。</p>
+<p><a href="https://arxiv.org/abs/2510.03215">Cache-to-Cache: Direct Semantic Communication Between Large Language Models</a>：研究通过 KV cache 在大语言模型之间直接传递中间语义表示，减少仅靠文本交流的信息损失。</p>
+<p><a href="https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are">Pretraining data, not verifiability, is why LLMs are especially good at math (and coding) — LessWrong</a>：文章提出，预训练数据的结构可能比答案可验证性更能解释语言模型在数学和编程上的优势。</p>
+<p><a href="https://charlesdddd.github.io/blog/reading-a-pretraining-run.html">Reading a Pretraining Run — Chunyuan Deng</a>：梳理预训练中损失、梯度、激活与评测等监控指标的定义、采样方式和排查优先级。</p>
+<p><a href="https://qwen.ai/blog?id=qwen3.8-livetranslate">Qwen3.8-livetranslate</a>：Qwen3.8-livetranslate 的官方介绍页面。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://deep-learning-alchemy.github.io/">Stanford CS 312 | Deep Learning Alchemy</a>：斯坦福关于深度学习训练实践与实验方法的课程。</p>
+<p><a href="https://nicolaszucchet.github.io/Tutorial-scaling-laws">Scaling law tutorial</a>：神经网络缩放规律教程。</p>
+<p><a href="https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/">A beginning for mathematics · Daniel Litt</a>：Daniel Litt 讨论 AI 时代数学研究的未来，以及理解、交流和新问题的价值。</p>
+<p><a href="http://maths.nju.edu.cn/~hebma/">Professor Bingsheng He</a>：何炳生教授的学术主页。</p>
+<p><a href="https://ai.google/static/documents/AI-in-Science.pdf">AI in Science | Google</a>：Google 关于 AI 推动科学研究的报告。</p>
+<p><a href="https://periodic.com/news/building-labs-that-learn">Building Labs that Learn – Periodic Labs</a>：Periodic Labs 介绍让实验室通过实验反馈持续学习的研究路线。</p>
+<p><a href="https://periodic.com/news/nature-is-our-learning-environment">Nature Is Our Learning Environment – Periodic Labs</a>：讨论如何把真实世界的实验反馈用于模型学习。</p>
+<p><a href="https://periodic.com/news/ai-infrastructure-at-periodic">AI Infrastructure at Periodic – Periodic Labs</a>：介绍支持科学智能体、实验与训练的 AI 基础设施。</p>
+<p><a href="https://antieau.github.io/2026/09/15/fast-math-slow-math.html">Fast math/slow math | Benjamin Antieau</a>：Benjamin Antieau 讨论快速解题与缓慢积累理解这两种数学研究节奏。</p>
+<p><a href="https://conjectures.io/">Conjectures.io</a>：把开放数学猜想写成精确的 Lean 命题，接受可验证的证明或反例。</p>
+<p><a href="https://matrix67.com/math_journey/">数学花园里的一次小小漫步</a>：Matrix67 的数学科普读物《数学花园里的一次小小漫步》。</p>
+<p><a href="https://proofsandprompts.com/2026/09/17/the-fate-of-the-riemann-hypothesis-revisited/">The Fate of the Riemann Hypothesis: Revisited – Proofs and Prompts</a>：Richard Evan Schwartz 回看自己的黎曼猜想短篇，进一步讨论 AI 对数学研究生态、人才培养与职业的影响。</p>
+<p><a href="https://www.proofatlas.ai/open-problems/">Top 500 Open Problems by LLM-assessed Importance — ProofAtlas</a>：按大语言模型评估的重要性排列 500 个开放问题，排序不代表数学界的共识。</p>
+<p><a href="http://www.madore.org/~david/weblog/d.2026-09-10.2861.ai-and-math-destruction.html">Sur la destruction des maths par les boîtes d’IA | David Madore</a>：David Madore 关于 AI 公司与数学研究关系的评论。</p>
+<p><a href="https://x.com/TheMathFlow/status/2101154346583154801?s=20">Solving a Rubik’s Cube with graph theory | The Math Flow</a>：一则用图论解释魔方求解的分享。</p>
+<p><a href="https://universalitylectures.wordpress.com/">An Introduction to Universality | Alessandro Codello</a>：Alessandro Codello 的普适性入门讲义，涵盖分形、渗流、混沌与相变。</p>
+<p><a href="https://www.scientificamerican.com/report/impossible-questions/">Impossible Questions | Scientific American</a>：Scientific American 围绕生命起源、寿命、暗物质、意识与宇宙开端等问题制作的专题。</p>
+<p>我把这组文章整理成了中英双语 PDF，分别适配手机和电脑阅读：<a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual-Mobile.pdf">手机阅读版（PDF，103 页）</a> · <a href="https://blog.yfff.me/files/weekly/week-25/Impossible-Questions-Bilingual.pdf">电脑阅读版（PDF，56 页）</a>。</p>
+<ul>
+<li><a href="https://www.scientificamerican.com/article/finding-meaning-in-the-impossible/">Finding meaning in the impossible</a>（主编导语）：追「无解题」常意外带出实用发现，意义或许在旅途本身。</li>
+<li><a href="https://www.scientificamerican.com/article/the-questions-science-may-never-answer/">The questions science may never answer</a>：科学给的是不断更新的近似，有些题会因不可观测或观测即改变对象而永远够不着。</li>
+<li><a href="https://www.scientificamerican.com/article/will-we-ever-know-how-life-began/">Will we ever know how life began?</a>：生命起源只能复现「可能路径」（代谢优先 vs RNA 世界等），难以证明就是当年那一条。</li>
+<li><a href="https://www.scientificamerican.com/article/can-humans-live-forever/">Will we ever achieve immortality?</a>：讨论延缓衰老与细胞重编程的可能性；当前寿命纪录不等于不可突破的生物学硬上限，显著延寿仍面临巨大挑战。</li>
+<li><a href="https://www.scientificamerican.com/article/what-if-we-never-find-dark-matter/">What if we never find dark matter?</a>：支持暗物质的引力证据丰富，但尚未直接确认其粒子本体；或许科学只能预测、得不到「绝对真相」。</li>
+<li><a href="https://www.scientificamerican.com/article/what-are-the-smallest-pieces-of-the-universe/">The hunt for reality’s smallest pieces</a>：标准模型 17 粒子之下是否还有弦/时空量子粒？逼近普朗克尺度实验上几乎不可达。</li>
+<li><a href="https://www.scientificamerican.com/article/what-if-consciousness-isnt-real/">What if ‘consciousness’ isn’t real?</a>：「意识」未必是好科学概念，对婴儿/蜜蜂/AI 或许该换一套切分方式。</li>
+<li><a href="https://www.scientificamerican.com/article/what-came-before-the-big-bang-cosmology/">What came before the big bang?</a>：无边界、大反弹、CPT 镜像宇宙等有可测预言，但「之前」可能无意义或不可直接触及。</li>
+<li><a href="https://www.scientificamerican.com/article/why-we-love-unexplainable-mysteries/">Why we love unexplainable mysteries</a>：访谈 Unexplainable：未知从宇宙起源到「自行车为何不倒」都有魔力，不必气馁。</li>
+</ul>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://github.com/lulu-loopp/folio-terminal">lulu-loopp/folio-terminal</a>：面向 Windows 和 macOS 的终端，把公式排版、文件预览与智能体等待状态放进工作界面。</p>
+<p><a href="https://github.com/zyycn/codex-proxy-rs">zyycn/codex-proxy-rs</a>：基于 Rust 的自托管 Codex 多账号透明代理网关。</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649804100&amp;idx=1&amp;sn=bce397be1020053865a4ec471848e589&amp;chksm=bfa625b3ac278aa221be0afe993d9010cbd15e31a3820c081cc47b8325e36e40c04fff0f5e09&amp;mpshare=1&amp;scene=23&amp;srcid=09174ex5EWTAPoALDx8hlKDh&amp;sharer_shareinfo=141a782e4962d50b4c93c8352bef8e49&amp;sharer_shareinfo_first=141a782e4962d50b4c93c8352bef8e49#rd">看完我的AGENTS.md，你将看到我和不说人话且over-engineering的模型搏斗的这一生</a>：关于用 AGENTS.md 约束模型表达和过度工程化的使用记录。</p>
+<p><a href="https://leoliu0.github.io/blog-ratex.html">Why TeX is Slow and How We Rebuilt It in Pure Rust | Leo Liu</a> · <a href="https://github.com/leoliu0/ratex">leoliu0/ratex</a>：介绍 TeX 的性能瓶颈，以及用 Rust 重写排版引擎的 RaTeX 项目。</p>
+<p><a href="https://github.com/MiniMax-AI/minimax-code">MiniMax-AI/minimax-code</a>：由 MiniMax 驱动的开源终端编程智能体。</p>
+<p><a href="https://github.com/Ryoku-dev/ryoku-arch">Ryoku-dev/ryoku-arch</a>：基于 Arch Linux 的桌面发行版，整合 Hyprland 桌面、安装器与系统配置。</p>
+<p><a href="https://notebook.link/blog/the-last-mile-faster-numpy/">The last mile of a long road: faster NumPy in the browser | Notebook.link</a>：介绍让浏览器中的 NumPy 运行得更快的工程工作。</p>
+<p><a href="https://www.uxspice.com/">UXSpice</a>：使用 Svelte、WebGPU 与编译为 WebAssembly 的 ngspice 构建的电路仿真器。</p>
+<h3 id="设计--macos--其他">设计 / macOS / 其他</h3>
+<p><a href="https://qingjian.app/">青简输入法 Qingjian</a>：在中文输入过程中穿插外语词汇，顺手积累表达。</p>
+<p><a href="https://studio.agentkit.best/">Design Studio AI</a>：面向智能体的设计工作空间。</p>
+<p><a href="https://component.gallery/">The Component Gallery</a>：按组件类型整理真实设计系统，便于对照不同界面的实现。</p>
+<p><a href="https://libraries.dev/">Libraries.dev</a>：提供可交给编程智能体安装和配置的界面特效库，包括边框光效与液态效果。</p>
+<p><a href="https://github.com/saragordic/window-sweaters">saragordic/window-sweaters</a>：给 macOS 窗口加上针织边框的菜单栏应用。</p>
+<p><a href="https://livabble.com/">livabble</a>：面向华人数字游民的城市与生活信息指南。</p>
+<p><a href="https://github.com/KiwiCanopy/KiwiDesk">KiwiCanopy/KiwiDesk</a>：macOS 平铺窗口管理器，通过设置界面配置多种布局，并保留原生桌面。</p>
+<p><a href="https://savant.computer/">Savant</a>：Savant 项目主页。</p>
+<p><a href="https://github.com/jaywcjlove/key-clicker">jaywcjlove/key-clicker</a>：为 macOS 键盘输入模拟机械键盘与打字机音效。</p>
+<p><a href="https://www.obsidianui.dev/">ObsidianUI</a>：基于 React 与 Tailwind CSS 的组件库。</p>
+<p><a href="https://robbietilton.com/compositor">Compositor</a>：面向 Mac 的图像编辑工具。</p>
+<p>设计灵感书签：</p>
+<ul>
+<li><a href="http://mobbin.com">Mobbin</a>：海量真实 App 界面，用来研究设计规律。</li>
+<li><a href="http://godly.website">Godly</a>：网站设计灵感画廊，现跳转至 Recent。</li>
+<li><a href="http://awwwards.com">Awwwards</a>：评选执行硬核的网站大奖。</li>
+<li><a href="http://cosmos.so">Cosmos</a>：收藏和组织视觉灵感，支持按颜色与视觉相似度检索。</li>
+<li><a href="http://curated.design">Curated Design</a>：按分类精选的网站合集。</li>
+<li><a href="http://designspells.com">Design Spells</a>：让人眼前一亮的界面细节，逐一归档。</li>
+<li><a href="http://60fps.design">60fps</a>：专注交互与高质量动效的网站画廊。</li>
+<li><a href="http://supahero.io">Supahero</a>：收录网站 Hero 区，快速借鉴灵感。</li>
+<li><a href="http://saaspo.com">Saaspo</a>：SaaS 网站与落地页设计灵感库。</li>
+<li><a href="http://layers.to">Layers</a>：设计师作品集。</li>
+<li><a href="http://minimal.gallery">Minimal Gallery</a>：人工精选的网站设计画廊。</li>
+<li><a href="http://mnmm.xyz">MNMM</a>：极简设计档案库。</li>
+<li><a href="http://searchsystem.co">Search System</a>：平面与编辑设计档案。</li>
+<li><a href="http://rebrand.gallery">Rebrand Gallery</a>：品牌重塑案例，带前后对比。</li>
+<li><a href="http://seesaw.website">Seesaw</a>：每日更新的精选网站设计画廊。</li>
+<li><a href="http://same.energy">Same Energy</a>：以图搜图，按视觉相似度匹配。</li>
+<li><a href="http://spiral.soot.com">Spiral</a>：螺旋式视觉信息流，用来发现灵感。</li>
+<li><a href="http://gameuidatabase.com">Game UI Database</a>：按游戏类型归档的游戏 UI 数据库。</li>
+<li><a href="http://interfaceingame.com">Interface in Game</a>：按元素类型整理的游戏界面。</li>
+<li><a href="http://hudsandguis.com">HUDs and GUIs</a>：电影和游戏里的未来感界面。</li>
+<li><a href="http://pinterest.com">Pinterest</a>：老牌，依然好用。</li>
+<li><a href="http://loadmo.re">Loadmo</a>：创意移动端网站设计档案。</li>
+</ul>
+]]></content:encoded></item><item><title>第24期周刊</title><link>https://blog.yfff.me/weekly/week-24/</link><pubDate>Sat, 12 Sep 2026 15:42:34 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-24/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://x.com/kickingkeys/status/2096053174134092180"&gt;Astra vs Fable 5.1&lt;/a&gt;：Surya 分享两款模型在相同提示词下的输出对比。&lt;/p&gt;
 &lt;p&gt;&lt;img
  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/20260906023400723.png"
