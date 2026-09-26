@@ -1,4 +1,209 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Sep 2026 00:50:28 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第25期周刊</title><link>https://blog.yfff.me/weekly/week-25/</link><pubDate>Sun, 20 Sep 2026 00:50:28 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-25/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 27 Sep 2026 02:55:22 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第26期周刊</title><link>https://blog.yfff.me/weekly/week-26/</link><pubDate>Sun, 27 Sep 2026 02:55:22 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-26/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/"&gt;The bitter lesson for computer vision&lt;/a&gt;：Vincent Sitzmann 讨论计算机视觉如何融入端到端的感知与行动循环。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cactuscompute.com/blog/hadamard-mlp"&gt;Hadamard MLP&lt;/a&gt;：介绍以 Hadamard 变换为起点的通道混合设计，探索减少前馈层参数的方法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qwen.ai/blog?id=qwen-image-2.1"&gt;Qwen-Image-2.1&lt;/a&gt;：Qwen-Image-2.1 的官方介绍页面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://huggingface-tokenizers-v1.static.hf.space/index.html"&gt;Tokenizers v1 benchmarks&lt;/a&gt;：展示 Tokenizers v1 候选版本的编码、解码与并行性能测试，并提供复现方式。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.ai/news/grok-4-7"&gt;Grok 4.7&lt;/a&gt;：官方介绍 Grok 4.7 在编程与知识工作方面的更新。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drisspg.github.io/nuggets/KDA-Future-Token-Leakage"&gt;KDA Doesn’t Care About the Future&lt;/a&gt;：讨论 KDA 内核中的未来依赖舍入效应，并测试模型是否利用这种数值效应。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://whitecircle.com/halo"&gt;Halo&lt;/a&gt;：面向 Hugging Face 模型的分布式训练框架，支持检查点与多轮强化学习。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paradigma.inc/blog/limite-1b-violetto/"&gt;Limite 1B — Violetto&lt;/a&gt;：Paradigma 发布面向数学推理的十亿参数模型，并介绍训练与推理实现。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mimo.xiaomi.com/mimo-v2-6"&gt;MiMo-V2.6&lt;/a&gt; · &lt;a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf"&gt;MiMo-V2.6 技术报告&lt;/a&gt;：小米 MiMo-V2.6 系列模型的官方介绍。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.26368"&gt;HySparse2&lt;/a&gt;：提出结合两级键值缓存共享的混合稀疏注意力架构，面向长上下文与多轮智能体任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jesse.my/"&gt;Jesse&lt;/a&gt;：solidSF 推理引擎的开放测试服务，提供兼容 OpenAI 格式的接口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hy.tencent.com/research/100116?langVersion=zh"&gt;Batch Size Scaling — 腾讯混元 RL Team&lt;/a&gt;：腾讯混元团队讨论大语言模型强化学习规模化时，批量大小与训练效果的关系。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/claude-opus-5-5#introduction"&gt;Introducing Claude Opus 5.5 | Anthropic&lt;/a&gt;：Anthropic 介绍 Opus 5.5 在编程、知识工作、沟通风格与运行成本上的更新。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/"&gt;Introducing GPT-6 Sol and Luna | OpenAI&lt;/a&gt;：OpenAI 发布 GPT-6 Sol 与 Luna，介绍模型能力、推理效率与缓存机制的改进。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.qwenintelligence.com/"&gt;Qwen Intelligence&lt;/a&gt;：Qwen Intelligence 项目主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qlabs.sh/research/"&gt;The Generalization Problem | Q&lt;/a&gt;：讨论如何结合模型搜索与泛化先验，让学习能力随计算量增长。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lastexam.ai/blog/hle-diamond"&gt;Introducing HLE-Diamond&lt;/a&gt;：从 Humanity’s Last Exam 中清理、筛选出 1,000 道题，分别考察推理与专业知识。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qlabs.sh/depth/"&gt;Computational depth is all you need | Q&lt;/a&gt;：研究计算深度与模型表达能力、训练效率的关系，并报告加深语言模型的实验。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/Sauers_/status/2102936651521802363?s=20"&gt;模加法 Transformer 的训练可视化 | Sauers&lt;/a&gt; · &lt;a href="https://x.com/Sauers_/status/2102990911655346190?s=20"&gt;The models just want to learn | Sauers&lt;/a&gt;：比较训练 2,000 步与 20,000 步后的输出分布，用环形图展示模加法模型的学习过程。另附作者关于模型学习的分享。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://pbs.twimg.com/media/HS8gRgcX0AAJfaX?format=jpg&amp;amp;name=large"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.trajectory.ai/field-notes/intelligence-density"&gt;Intelligence Density | Trajectory&lt;/a&gt;：以单位推理计算量带来的任务表现讨论“智能密度”。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cs.ox.ac.uk/people/yarin.gal/website/blog_3d801aa532c1ce.html"&gt;What my deep model doesn’t know | Yarin Gal&lt;/a&gt; · &lt;a href="https://arxiv.org/abs/1506.02142"&gt;Dropout as a Bayesian Approximation&lt;/a&gt;：Yarin Gal 介绍如何利用 dropout 获取模型不确定性信息，附将 dropout 解释为近似贝叶斯推断的论文。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2084435954740224890"&gt;Khachiyan 常数与 GPT-6 Astra&lt;/a&gt;：作者报告使用 GPT-6 Astra 探索 Khachiyan 常数猜想的经历。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors"&gt;Hilbert space: treating functions as vectors&lt;/a&gt;：从把函数看作无限维向量的直觉出发，介绍希尔伯特空间。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41467-026-76272-2"&gt;Memristive singular value decomposition&lt;/a&gt;：作者报告在忆阻器存内计算芯片上实现奇异值分解，并讨论图像重建与模型权重分解等应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ritoghosh.com/posts/hamiltonian_nn/"&gt;Hamiltonian Neural Network with PyTorch&lt;/a&gt;：通过振子系统示例，介绍如何用 PyTorch 训练哈密顿神经网络。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://matrix67.com/blog/archives/4769"&gt;汉字地图第二版&lt;/a&gt; · &lt;a href="https://matrix67.com/cn_char_map/"&gt;汉字地图&lt;/a&gt;：Matrix67 对汉字地图第二版的介绍。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://teorth.github.io/optimizationproblems/"&gt;Optimization Constants in Mathematics&lt;/a&gt;：收集数学优化常数及已知上下界，并链接相关研究来源。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cis6270.github.io/"&gt;CIS 6270: Discrete Generative Models&lt;/a&gt;：宾夕法尼亚大学课程，讲解离散生成模型、扩散、流匹配与最优传输。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://web.stanford.edu/class/msande319/"&gt;MS&amp;amp;E 319: Efficient Generative Language Models&lt;/a&gt;：斯坦福课程，围绕有限计算预算下的模型训练、架构与推理算法展开。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ozamram.substack.com/p/physics-in-the-age-of-llms"&gt;Physics in the age of LLMs&lt;/a&gt;：Oz Amram 分享大语言模型改变其物理研究工作流程的经历与判断。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/"&gt;Advisory Group on Mathematics and AI&lt;/a&gt; · &lt;a href="https://agmai.org/"&gt;AGMAI&lt;/a&gt;：OpenAI 介绍独立数学顾问小组，以及数学成果评审、传播和研究工具方面的合作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24931"&gt;A Proof of the Most Informative Boolean Function Conjecture&lt;/a&gt;：作者提出 Courtade–Kumar 猜想的计算机辅助证明，并提供计算验证记录与形式化验证说明。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24184"&gt;Dictators are most informative&lt;/a&gt;：作者提出 Courtade–Kumar 猜想的证明，研究独裁函数在二元噪声下保留的信息量。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics"&gt;Unsolved problems in mathematics&lt;/a&gt;：按数学分支整理公开问题的维基百科索引，可用来继续追踪相关文献。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://devol.dev/"&gt;devol.dev&lt;/a&gt;：用交互式工具学习机器人运动学、控制、运动规划与设计。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.vals.ai/blogs/faster-shortest-path-algorithm"&gt;A Faster Shortest Path Algorithm | Vals AI&lt;/a&gt;：作者报告借助 Claude 智能体得到最短路算法 C-HD 及 Lean 证明，在特定图密度范围内改进渐近上界，尚未证明实际运行速度更快。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.quantamagazine.org/"&gt;Quanta Magazine&lt;/a&gt;：报道数学、物理、生物与计算机科学研究的科学杂志。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"&gt;Claude discovers a novel enzyme system | Anthropic&lt;/a&gt; · &lt;a href="https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf"&gt;研究预印本（PDF）&lt;/a&gt;：Anthropic 报告 Claude 在序列数据库中识别出带有类似 CRISPR 重复结构的酶系统，并进行了实验研究，其功能仍未确定。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://logicalintelligence.com/blog/good-group-discovery"&gt;Slava Krushkal’s good-group discovery | Logical Intelligence&lt;/a&gt;：Logical Intelligence 报告 Slava Krushkal 与团队借助 AI 推理研究四维流形中的新 good group。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mo271/zeta5"&gt;mo271/Zeta5&lt;/a&gt;：围绕 $\zeta(5)$ 无理性命题的 Lean 4 形式化项目，仓库报告已完成证明并说明与原预印本的差异。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://personal.math.ubc.ca/~tbjw/ila/index.html"&gt;Interactive Linear Algebra — UBC edition&lt;/a&gt;：配有交互演示的线性代数教材，涵盖向量、矩阵、线性变换与特征值等主题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terrytao.wordpress.com/2026/09/23/headlines-and-inside-stories-understanding-and-trust-in-ai-for-mathematics-science-and-engineering/"&gt;Headlines and inside stories | Tapio Schneider&lt;/a&gt;：Tapio Schneider 在陶哲轩博客撰文，讨论 AI 生成的结果如何转化为可理解、可审查、值得信任的数学与科学知识。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/"&gt;We’re gonna need a lot more mathematicians | Amit Sahai&lt;/a&gt;：Amit Sahai 在陶哲轩博客撰文，主张扩大数学研究者群体，以理解 AI 产生的新思想并保留人的参与能力。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops"&gt;Claude computes a nine-loop amplitude | Anthropic&lt;/a&gt;：Anthropic 介绍 Claude 计算平面 $N = 4$ 超杨–米尔斯理论九圈六粒子散射振幅的过程与验证。&lt;/p&gt;
+&lt;p&gt;一个问题：序列 $n + \tan(n),\ n \in \mathbb{N}$ 是否有下界？&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://md.rbeta.com/"&gt;GPUI Markdown Studio&lt;/a&gt;：基于 WebAssembly 的 Markdown 编辑与预览页面，支持 Mermaid 图表。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Ephemeral-AI-Lab/layerfs"&gt;LayerFS&lt;/a&gt;：为智能体提供隔离的临时文件系统分支，并支持检查点、回退和状态复用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://try.cloudflare.com/"&gt;Cloudflare Quick Tunnels&lt;/a&gt;：运行 &lt;code&gt;cloudflared tunnel --url http://localhost:8000&lt;/code&gt;，为本地服务生成临时公网地址，方便分享预览和测试。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eli.thegreenplace.net/"&gt;Eli Bendersky’s website&lt;/a&gt;：Eli Bendersky 的技术博客，涵盖编程语言、系统与数学主题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Marvy101/reader-source"&gt;Reader&lt;/a&gt;：开源 macOS 阅读工作区，支持 PDF、EPUB、TXT、标注笔记与 AI 问答。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tylina.github.io/"&gt;Tylina&lt;/a&gt;：支持直接编辑排版页面的 Typst 编辑器，提供网页与桌面版本及 AI 智能体集成。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sunilpai.dev/posts/the-senior-engineer-death-spiral/"&gt;The senior engineer death spiral&lt;/a&gt;：讨论资深工程师因急于证明自己而陷入过度工作，以及如何保持沟通与交付。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://siboehm.com/articles/22/CUDA-MMM"&gt;CUDA Matmul 优化记录&lt;/a&gt;：从朴素矩阵乘法逐步介绍 CUDA 优化，包括合并访存、共享内存和分块。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://app.hjfy.top/"&gt;幻觉翻译&lt;/a&gt;：Mac 文档翻译工具，支持原译文对照阅读，并保留公式、引用与版式。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://anoma.ly/notes/opencode-reloaded/"&gt;OpenCode Reloaded&lt;/a&gt;：介绍 OpenCode 如何在会话继续运行时热更新配置、工具与插件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stepfun-ai/Step-Code"&gt;Step Code&lt;/a&gt;：运行于终端的编码智能体，支持代码修改、测试、插件、多智能体协作与静态网站发布。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nowdex.app/"&gt;Nowdex&lt;/a&gt;：在 Mac、iPhone 和 iPad 上查看多款 AI 工具的剩余额度，支持菜单栏、桌面小组件与 iCloud 同步。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mujocolab/mjlab"&gt;mujocolab/mjlab&lt;/a&gt;：使用 MuJoCo-Warp 提供类似 Isaac Lab 的接口，面向强化学习与机器人研究。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/iAmCorey/Wake"&gt;iAmCorey/Wake&lt;/a&gt;：用 Rust 与 GPUI 构建的智能体会话管理工具，支持浏览、搜索和继续会话。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://heypcb.ai/dashboard"&gt;heypcb&lt;/a&gt; · &lt;a href="https://heypcb.ai/world"&gt;Circuit World&lt;/a&gt;：根据自然语言描述生成电路原理图、布局与制造文件，输出可保留的 KiCad 工程。Circuit World 展示用户发布的电路板与开源硬件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://reshiki.com/"&gt;ReShiki&lt;/a&gt;：用于绘制分子结构、组织反应式与制作化学图表的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://usemagpie.ai/"&gt;magpie&lt;/a&gt;：通过菜单栏与本地网关，为 Codex、Claude Code 等智能体选择不同模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.trysynara.com/l"&gt;Synara&lt;/a&gt;：面向 Claude Code、Codex 与 Cursor 的 AI 编程工作空间介绍页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://empryo.com/"&gt;Empryo&lt;/a&gt;：维护代码仓库的动态结构图，在编辑前读取上下文，提供桌面与终端入口。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/o8vm/octox"&gt;o8vm/octox&lt;/a&gt;：受 xv6-riscv 启发、使用 Rust 编写的类 Unix 操作系统。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agidock.cloud/"&gt;AGIdock&lt;/a&gt;：面向智能体的云平台，提供运行应用所需的基础设施。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/yu1745/wetype-ime-linux"&gt;yu1745/wetype-ime-linux&lt;/a&gt;：将 WeType 的 Android 输入引擎移植到 Linux，并集成到 Fcitx 5。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lorca.app/zh#top"&gt;Lorca&lt;/a&gt;：在自己的电脑上运行 AI 队友，通过单聊或群聊处理文件与任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/trq212/status/2103576349499855160?s=20"&gt;Using Claude Code: Spending your effort | Thariq&lt;/a&gt;：结合评测与实际任务，讨论推理 effort 对速度、独立判断和边界情况验证的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kaolti/phantomat"&gt;kaolti/phantomat&lt;/a&gt;：面向 Hyprland 的无限画布窗口管理器，支持缩放浏览窗口布局。&lt;/p&gt;
+&lt;h3 id="设计--macos--其他"&gt;设计 / macOS / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://iamnoman.com/working-title"&gt;Working Title&lt;/a&gt;：面向 Mac 的 Working Title 应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/didriksg/Crisp"&gt;Crisp&lt;/a&gt;：开源 macOS 显示器管理工具，集中调整缩放、亮度、音量与显示配置。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21st.dev/"&gt;21st&lt;/a&gt;：汇集 React 组件、页面模板与主题，可预览并获取实现代码。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/eternity4719/HowToLiveBetter?utm_source=chatgpt.com"&gt;HowToLiveBetter&lt;/a&gt;：整理健康、生活与公共服务相关资料，并列出成本、收益和出处。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://trypowermove.com/"&gt;Powermove&lt;/a&gt;：可连接编码智能体的视频编辑器，支持图层、关键帧与自定义扩展。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.inspora.design/"&gt;Inspora&lt;/a&gt;：汇集近期视觉设计与创意作品的灵感档案。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.shwn.design/"&gt;shawn.&lt;/a&gt;：设计工程师 Shawn 的作品集，展示简洁界面与交互细节。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://opensourceui.in/"&gt;Opensource UI&lt;/a&gt;：可复制使用的 React 与 Next.js 组件库，包含界面控件和设备模型。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://quicker.chat/"&gt;quicker.chat&lt;/a&gt;：面向 Mac 的聊天收件箱，集中管理私信，并提供对话整理与回复草稿。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mimo.xiaomi.com/mimo-gallery/"&gt;MiMo Gallery&lt;/a&gt;：以三维展馆形式呈现的 MiMo 作品展示页面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qwdwqfwq.github.io/topconf-paper-figure-gallery/"&gt;Top-Conf Figure Gallery&lt;/a&gt;：可按会议、年份与视觉模式浏览的论文主图灵感画廊。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://claude-opus-5-5.riba2534.cn/"&gt;鹈鹕骑单车 · Pelican on a Bike&lt;/a&gt;：一只鹈鹕沿海岸骑车的实时 3D 演示，包含海浪、昼夜变化与音乐。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://variora.fog.moe/en/"&gt;Variora&lt;/a&gt;：比较不同 AI 模型在同一任务说明下生成的可体验作品。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://designeer.xyz/"&gt;Designeer&lt;/a&gt;：精选界面设计工具、组件库、设计系统与灵感资源。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tinyweb.so/"&gt;TinyWeb&lt;/a&gt;：面向 Mac 的小型原生浏览器，采用无边框界面，提供垂直标签页与历史搜索。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://officecommun.com/search"&gt;Search | Office Commun&lt;/a&gt; · &lt;a href="https://github.com/driceroland/Search"&gt;driceroland/Search&lt;/a&gt;：基于 macOS WebKit 的轻量浏览器，强调简洁界面与快速启动。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lean-browser.dipxsy.app/"&gt;Lean Browser&lt;/a&gt;：使用 Swift 与 WebKit 构建的 macOS 极简浏览器，提供 Zen 模式，项目声明不收集遥测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://macfolio.com/"&gt;Macfolio&lt;/a&gt;：精选 Mac 生态中的软件、硬件、工作空间与阅读资源。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://trysidekick.site/"&gt;Sidekick&lt;/a&gt;：为 Mac 增加一条侧边 Dock，集中放置应用、链接、剪贴板历史与实时小组件。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/saragordic/rooms"&gt;saragordic/rooms&lt;/a&gt;：把每个项目的窗口布局保存为一个 room，通过快捷键切换工作环境。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://priceradar.store/zh"&gt;PriceRadar&lt;/a&gt;：比较不同地区 App Store 与 Google Play 的下载、内购和订阅价格，并提供价格提醒。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/">The bitter lesson for computer vision</a>：Vincent Sitzmann 讨论计算机视觉如何融入端到端的感知与行动循环。</p>
+<p><a href="https://cactuscompute.com/blog/hadamard-mlp">Hadamard MLP</a>：介绍以 Hadamard 变换为起点的通道混合设计，探索减少前馈层参数的方法。</p>
+<p><a href="https://qwen.ai/blog?id=qwen-image-2.1">Qwen-Image-2.1</a>：Qwen-Image-2.1 的官方介绍页面。</p>
+<p><a href="https://huggingface-tokenizers-v1.static.hf.space/index.html">Tokenizers v1 benchmarks</a>：展示 Tokenizers v1 候选版本的编码、解码与并行性能测试，并提供复现方式。</p>
+<p><a href="https://x.ai/news/grok-4-7">Grok 4.7</a>：官方介绍 Grok 4.7 在编程与知识工作方面的更新。</p>
+<p><a href="https://drisspg.github.io/nuggets/KDA-Future-Token-Leakage">KDA Doesn’t Care About the Future</a>：讨论 KDA 内核中的未来依赖舍入效应，并测试模型是否利用这种数值效应。</p>
+<p><a href="https://whitecircle.com/halo">Halo</a>：面向 Hugging Face 模型的分布式训练框架，支持检查点与多轮强化学习。</p>
+<p><a href="https://paradigma.inc/blog/limite-1b-violetto/">Limite 1B — Violetto</a>：Paradigma 发布面向数学推理的十亿参数模型，并介绍训练与推理实现。</p>
+<p><a href="https://mimo.xiaomi.com/mimo-v2-6">MiMo-V2.6</a> · <a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf">MiMo-V2.6 技术报告</a>：小米 MiMo-V2.6 系列模型的官方介绍。</p>
+<p><a href="https://arxiv.org/abs/2609.26368">HySparse2</a>：提出结合两级键值缓存共享的混合稀疏注意力架构，面向长上下文与多轮智能体任务。</p>
+<p><a href="https://jesse.my/">Jesse</a>：solidSF 推理引擎的开放测试服务，提供兼容 OpenAI 格式的接口。</p>
+<p><a href="https://hy.tencent.com/research/100116?langVersion=zh">Batch Size Scaling — 腾讯混元 RL Team</a>：腾讯混元团队讨论大语言模型强化学习规模化时，批量大小与训练效果的关系。</p>
+<p><a href="https://www.anthropic.com/claude-opus-5-5#introduction">Introducing Claude Opus 5.5 | Anthropic</a>：Anthropic 介绍 Opus 5.5 在编程、知识工作、沟通风格与运行成本上的更新。</p>
+<p><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/">Introducing GPT-6 Sol and Luna | OpenAI</a>：OpenAI 发布 GPT-6 Sol 与 Luna，介绍模型能力、推理效率与缓存机制的改进。</p>
+<p><a href="https://www.qwenintelligence.com/">Qwen Intelligence</a>：Qwen Intelligence 项目主页。</p>
+<p><a href="https://qlabs.sh/research/">The Generalization Problem | Q</a>：讨论如何结合模型搜索与泛化先验，让学习能力随计算量增长。</p>
+<p><a href="https://lastexam.ai/blog/hle-diamond">Introducing HLE-Diamond</a>：从 Humanity’s Last Exam 中清理、筛选出 1,000 道题，分别考察推理与专业知识。</p>
+<p><a href="https://qlabs.sh/depth/">Computational depth is all you need | Q</a>：研究计算深度与模型表达能力、训练效率的关系，并报告加深语言模型的实验。</p>
+<p><a href="https://x.com/Sauers_/status/2102936651521802363?s=20">模加法 Transformer 的训练可视化 | Sauers</a> · <a href="https://x.com/Sauers_/status/2102990911655346190?s=20">The models just want to learn | Sauers</a>：比较训练 2,000 步与 20,000 步后的输出分布，用环形图展示模加法模型的学习过程。另附作者关于模型学习的分享。</p>
+<p><img
+  src="https://pbs.twimg.com/media/HS8gRgcX0AAJfaX?format=jpg&amp;name=large"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://www.trajectory.ai/field-notes/intelligence-density">Intelligence Density | Trajectory</a>：以单位推理计算量带来的任务表现讨论“智能密度”。</p>
+<p><a href="https://www.cs.ox.ac.uk/people/yarin.gal/website/blog_3d801aa532c1ce.html">What my deep model doesn’t know | Yarin Gal</a> · <a href="https://arxiv.org/abs/1506.02142">Dropout as a Bayesian Approximation</a>：Yarin Gal 介绍如何利用 dropout 获取模型不确定性信息，附将 dropout 解释为近似贝叶斯推断的论文。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://zhuanlan.zhihu.com/p/2084435954740224890">Khachiyan 常数与 GPT-6 Astra</a>：作者报告使用 GPT-6 Astra 探索 Khachiyan 常数猜想的经历。</p>
+<p><a href="https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors">Hilbert space: treating functions as vectors</a>：从把函数看作无限维向量的直觉出发，介绍希尔伯特空间。</p>
+<p><a href="https://www.nature.com/articles/s41467-026-76272-2">Memristive singular value decomposition</a>：作者报告在忆阻器存内计算芯片上实现奇异值分解，并讨论图像重建与模型权重分解等应用。</p>
+<p><a href="https://ritoghosh.com/posts/hamiltonian_nn/">Hamiltonian Neural Network with PyTorch</a>：通过振子系统示例，介绍如何用 PyTorch 训练哈密顿神经网络。</p>
+<p><a href="https://matrix67.com/blog/archives/4769">汉字地图第二版</a> · <a href="https://matrix67.com/cn_char_map/">汉字地图</a>：Matrix67 对汉字地图第二版的介绍。</p>
+<p><a href="https://teorth.github.io/optimizationproblems/">Optimization Constants in Mathematics</a>：收集数学优化常数及已知上下界，并链接相关研究来源。</p>
+<p><a href="https://cis6270.github.io/">CIS 6270: Discrete Generative Models</a>：宾夕法尼亚大学课程，讲解离散生成模型、扩散、流匹配与最优传输。</p>
+<p><a href="https://web.stanford.edu/class/msande319/">MS&amp;E 319: Efficient Generative Language Models</a>：斯坦福课程，围绕有限计算预算下的模型训练、架构与推理算法展开。</p>
+<p><a href="https://ozamram.substack.com/p/physics-in-the-age-of-llms">Physics in the age of LLMs</a>：Oz Amram 分享大语言模型改变其物理研究工作流程的经历与判断。</p>
+<p><a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/">Advisory Group on Mathematics and AI</a> · <a href="https://agmai.org/">AGMAI</a>：OpenAI 介绍独立数学顾问小组，以及数学成果评审、传播和研究工具方面的合作。</p>
+<p><a href="https://arxiv.org/abs/2609.24931">A Proof of the Most Informative Boolean Function Conjecture</a>：作者提出 Courtade–Kumar 猜想的计算机辅助证明，并提供计算验证记录与形式化验证说明。</p>
+<p><a href="https://arxiv.org/abs/2609.24184">Dictators are most informative</a>：作者提出 Courtade–Kumar 猜想的证明，研究独裁函数在二元噪声下保留的信息量。</p>
+<p><a href="https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics">Unsolved problems in mathematics</a>：按数学分支整理公开问题的维基百科索引，可用来继续追踪相关文献。</p>
+<p><a href="https://devol.dev/">devol.dev</a>：用交互式工具学习机器人运动学、控制、运动规划与设计。</p>
+<p><a href="https://www.vals.ai/blogs/faster-shortest-path-algorithm">A Faster Shortest Path Algorithm | Vals AI</a>：作者报告借助 Claude 智能体得到最短路算法 C-HD 及 Lean 证明，在特定图密度范围内改进渐近上界，尚未证明实际运行速度更快。</p>
+<p><a href="https://www.quantamagazine.org/">Quanta Magazine</a>：报道数学、物理、生物与计算机科学研究的科学杂志。</p>
+<p><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude discovers a novel enzyme system | Anthropic</a> · <a href="https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf">研究预印本（PDF）</a>：Anthropic 报告 Claude 在序列数据库中识别出带有类似 CRISPR 重复结构的酶系统，并进行了实验研究，其功能仍未确定。</p>
+<p><a href="https://logicalintelligence.com/blog/good-group-discovery">Slava Krushkal’s good-group discovery | Logical Intelligence</a>：Logical Intelligence 报告 Slava Krushkal 与团队借助 AI 推理研究四维流形中的新 good group。</p>
+<p><a href="https://github.com/mo271/zeta5">mo271/Zeta5</a>：围绕 $\zeta(5)$ 无理性命题的 Lean 4 形式化项目，仓库报告已完成证明并说明与原预印本的差异。</p>
+<p><a href="https://personal.math.ubc.ca/~tbjw/ila/index.html">Interactive Linear Algebra — UBC edition</a>：配有交互演示的线性代数教材，涵盖向量、矩阵、线性变换与特征值等主题。</p>
+<p><a href="https://terrytao.wordpress.com/2026/09/23/headlines-and-inside-stories-understanding-and-trust-in-ai-for-mathematics-science-and-engineering/">Headlines and inside stories | Tapio Schneider</a>：Tapio Schneider 在陶哲轩博客撰文，讨论 AI 生成的结果如何转化为可理解、可审查、值得信任的数学与科学知识。</p>
+<p><a href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/">We’re gonna need a lot more mathematicians | Amit Sahai</a>：Amit Sahai 在陶哲轩博客撰文，主张扩大数学研究者群体，以理解 AI 产生的新思想并保留人的参与能力。</p>
+<p><a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops">Claude computes a nine-loop amplitude | Anthropic</a>：Anthropic 介绍 Claude 计算平面 $N = 4$ 超杨–米尔斯理论九圈六粒子散射振幅的过程与验证。</p>
+<p>一个问题：序列 $n + \tan(n),\ n \in \mathbb{N}$ 是否有下界？</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://md.rbeta.com/">GPUI Markdown Studio</a>：基于 WebAssembly 的 Markdown 编辑与预览页面，支持 Mermaid 图表。</p>
+<p><a href="https://github.com/Ephemeral-AI-Lab/layerfs">LayerFS</a>：为智能体提供隔离的临时文件系统分支，并支持检查点、回退和状态复用。</p>
+<p><a href="https://try.cloudflare.com/">Cloudflare Quick Tunnels</a>：运行 <code>cloudflared tunnel --url http://localhost:8000</code>，为本地服务生成临时公网地址，方便分享预览和测试。</p>
+<p><a href="https://eli.thegreenplace.net/">Eli Bendersky’s website</a>：Eli Bendersky 的技术博客，涵盖编程语言、系统与数学主题。</p>
+<p><a href="https://github.com/Marvy101/reader-source">Reader</a>：开源 macOS 阅读工作区，支持 PDF、EPUB、TXT、标注笔记与 AI 问答。</p>
+<p><a href="https://tylina.github.io/">Tylina</a>：支持直接编辑排版页面的 Typst 编辑器，提供网页与桌面版本及 AI 智能体集成。</p>
+<p><a href="https://sunilpai.dev/posts/the-senior-engineer-death-spiral/">The senior engineer death spiral</a>：讨论资深工程师因急于证明自己而陷入过度工作，以及如何保持沟通与交付。</p>
+<p><a href="https://siboehm.com/articles/22/CUDA-MMM">CUDA Matmul 优化记录</a>：从朴素矩阵乘法逐步介绍 CUDA 优化，包括合并访存、共享内存和分块。</p>
+<p><a href="https://app.hjfy.top/">幻觉翻译</a>：Mac 文档翻译工具，支持原译文对照阅读，并保留公式、引用与版式。</p>
+<p><a href="https://anoma.ly/notes/opencode-reloaded/">OpenCode Reloaded</a>：介绍 OpenCode 如何在会话继续运行时热更新配置、工具与插件。</p>
+<p><a href="https://github.com/stepfun-ai/Step-Code">Step Code</a>：运行于终端的编码智能体，支持代码修改、测试、插件、多智能体协作与静态网站发布。</p>
+<p><a href="https://nowdex.app/">Nowdex</a>：在 Mac、iPhone 和 iPad 上查看多款 AI 工具的剩余额度，支持菜单栏、桌面小组件与 iCloud 同步。</p>
+<p><a href="https://github.com/mujocolab/mjlab">mujocolab/mjlab</a>：使用 MuJoCo-Warp 提供类似 Isaac Lab 的接口，面向强化学习与机器人研究。</p>
+<p><a href="https://github.com/iAmCorey/Wake">iAmCorey/Wake</a>：用 Rust 与 GPUI 构建的智能体会话管理工具，支持浏览、搜索和继续会话。</p>
+<p><a href="https://heypcb.ai/dashboard">heypcb</a> · <a href="https://heypcb.ai/world">Circuit World</a>：根据自然语言描述生成电路原理图、布局与制造文件，输出可保留的 KiCad 工程。Circuit World 展示用户发布的电路板与开源硬件。</p>
+<p><a href="https://reshiki.com/">ReShiki</a>：用于绘制分子结构、组织反应式与制作化学图表的工具。</p>
+<p><a href="https://usemagpie.ai/">magpie</a>：通过菜单栏与本地网关，为 Codex、Claude Code 等智能体选择不同模型。</p>
+<p><a href="https://www.trysynara.com/l">Synara</a>：面向 Claude Code、Codex 与 Cursor 的 AI 编程工作空间介绍页。</p>
+<p><a href="https://empryo.com/">Empryo</a>：维护代码仓库的动态结构图，在编辑前读取上下文，提供桌面与终端入口。</p>
+<p><a href="https://github.com/o8vm/octox">o8vm/octox</a>：受 xv6-riscv 启发、使用 Rust 编写的类 Unix 操作系统。</p>
+<p><a href="https://agidock.cloud/">AGIdock</a>：面向智能体的云平台，提供运行应用所需的基础设施。</p>
+<p><a href="https://github.com/yu1745/wetype-ime-linux">yu1745/wetype-ime-linux</a>：将 WeType 的 Android 输入引擎移植到 Linux，并集成到 Fcitx 5。</p>
+<p><a href="https://lorca.app/zh#top">Lorca</a>：在自己的电脑上运行 AI 队友，通过单聊或群聊处理文件与任务。</p>
+<p><a href="https://x.com/trq212/status/2103576349499855160?s=20">Using Claude Code: Spending your effort | Thariq</a>：结合评测与实际任务，讨论推理 effort 对速度、独立判断和边界情况验证的影响。</p>
+<p><a href="https://github.com/kaolti/phantomat">kaolti/phantomat</a>：面向 Hyprland 的无限画布窗口管理器，支持缩放浏览窗口布局。</p>
+<h3 id="设计--macos--其他">设计 / macOS / 其他</h3>
+<p><a href="https://iamnoman.com/working-title">Working Title</a>：面向 Mac 的 Working Title 应用。</p>
+<p><a href="https://github.com/didriksg/Crisp">Crisp</a>：开源 macOS 显示器管理工具，集中调整缩放、亮度、音量与显示配置。</p>
+<p><a href="https://21st.dev/">21st</a>：汇集 React 组件、页面模板与主题，可预览并获取实现代码。</p>
+<p><a href="https://github.com/eternity4719/HowToLiveBetter?utm_source=chatgpt.com">HowToLiveBetter</a>：整理健康、生活与公共服务相关资料，并列出成本、收益和出处。</p>
+<p><a href="https://trypowermove.com/">Powermove</a>：可连接编码智能体的视频编辑器，支持图层、关键帧与自定义扩展。</p>
+<p><a href="https://www.inspora.design/">Inspora</a>：汇集近期视觉设计与创意作品的灵感档案。</p>
+<p><a href="https://www.shwn.design/">shawn.</a>：设计工程师 Shawn 的作品集，展示简洁界面与交互细节。</p>
+<p><a href="https://opensourceui.in/">Opensource UI</a>：可复制使用的 React 与 Next.js 组件库，包含界面控件和设备模型。</p>
+<p><a href="https://quicker.chat/">quicker.chat</a>：面向 Mac 的聊天收件箱，集中管理私信，并提供对话整理与回复草稿。</p>
+<p><a href="https://mimo.xiaomi.com/mimo-gallery/">MiMo Gallery</a>：以三维展馆形式呈现的 MiMo 作品展示页面。</p>
+<p><a href="https://qwdwqfwq.github.io/topconf-paper-figure-gallery/">Top-Conf Figure Gallery</a>：可按会议、年份与视觉模式浏览的论文主图灵感画廊。</p>
+<p><a href="https://claude-opus-5-5.riba2534.cn/">鹈鹕骑单车 · Pelican on a Bike</a>：一只鹈鹕沿海岸骑车的实时 3D 演示，包含海浪、昼夜变化与音乐。</p>
+<p><a href="https://variora.fog.moe/en/">Variora</a>：比较不同 AI 模型在同一任务说明下生成的可体验作品。</p>
+<p><a href="https://designeer.xyz/">Designeer</a>：精选界面设计工具、组件库、设计系统与灵感资源。</p>
+<p><a href="https://tinyweb.so/">TinyWeb</a>：面向 Mac 的小型原生浏览器，采用无边框界面，提供垂直标签页与历史搜索。</p>
+<p><a href="https://officecommun.com/search">Search | Office Commun</a> · <a href="https://github.com/driceroland/Search">driceroland/Search</a>：基于 macOS WebKit 的轻量浏览器，强调简洁界面与快速启动。</p>
+<p><a href="https://lean-browser.dipxsy.app/">Lean Browser</a>：使用 Swift 与 WebKit 构建的 macOS 极简浏览器，提供 Zen 模式，项目声明不收集遥测。</p>
+<p><a href="https://macfolio.com/">Macfolio</a>：精选 Mac 生态中的软件、硬件、工作空间与阅读资源。</p>
+<p><a href="https://trysidekick.site/">Sidekick</a>：为 Mac 增加一条侧边 Dock，集中放置应用、链接、剪贴板历史与实时小组件。</p>
+<p><a href="https://github.com/saragordic/rooms">saragordic/rooms</a>：把每个项目的窗口布局保存为一个 room，通过快捷键切换工作环境。</p>
+<p><a href="https://priceradar.store/zh">PriceRadar</a>：比较不同地区 App Store 与 Google Play 的下载、内购和订阅价格，并提供价格提醒。</p>
+]]></content:encoded></item><item><title>第25期周刊</title><link>https://blog.yfff.me/weekly/week-25/</link><pubDate>Sun, 20 Sep 2026 00:50:28 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-25/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target"&gt;Reward is not the optimization target — LessWrong&lt;/a&gt;：讨论强化学习的奖励信号与模型学到的目标之间的区别；作者在更新中承认，奖励可能在经验上成为主要目标，但这并非定义上的必然。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.alignmentforum.org/"&gt;AI Alignment Forum&lt;/a&gt;：汇集 AI 对齐研究与讨论的社区。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.lesswrong.com/w/bayes-rule"&gt;Bayes&amp;rsquo; rule — LessWrong&lt;/a&gt;：关于贝叶斯公式及其直觉的入门条目。&lt;/p&gt;
