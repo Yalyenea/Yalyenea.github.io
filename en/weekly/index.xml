@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 27 Sep 2026 02:55:22 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly 26</title><link>https://blog.yfff.me/en/weekly/week-26/</link><pubDate>Sun, 27 Sep 2026 02:55:22 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-26/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/en/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 03 Oct 2026 13:38:49 -0700</lastBuildDate><atom:link href="https://blog.yfff.me/en/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly 27</title><link>https://blog.yfff.me/en/weekly/week-27/</link><pubDate>Sat, 03 Oct 2026 13:38:49 -0700</pubDate><guid>https://blog.yfff.me/en/weekly/week-27/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://brusharena.art/live"&gt;Live Training Run · BrushArena&lt;/a&gt;: BrushArena’s live training page.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supersoniclabs.ia.br/julia-1/"&gt;Introducing Julia 1 | Supersonic Labs&lt;/a&gt;: Supersonic Labs’ official introduction to Julia 1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/claude-sonnet-5-5"&gt;Introducing Claude Sonnet 5.5 | Anthropic&lt;/a&gt;: Anthropic introduces Sonnet 5.5’s improvements in coding, knowledge work, and running costs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-1-sol/"&gt;Introducing GPT-6.1 Sol | OpenAI&lt;/a&gt;: OpenAI introduces GPT-6.1 Sol and its updates in coding, computer use, and professional tasks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jasperlu.com/blog/prompted-similarity-search/"&gt;Exploring Similarity Search with Prompted Subspaces — Jasper Lu&lt;/a&gt;: Uses text prompts to construct concept subspaces for image similarity search by color, style, or meaning.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://snimu.github.io/2026/09/29/rl-is-an-evolutionary-algorithm.html"&gt;RL is an evolutionary algorithm&lt;/a&gt;: Discusses reinforcement learning through the lens of evolutionary algorithms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"&gt;Introducing Gemini 4&lt;/a&gt;: Google introduces Gemini 4 Argon with an output limit of one million tokens, initially rolling out to trusted cyber defenders and testers.&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_table.width-2000.format-webp.webp"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://explorationbench.com/"&gt;ExplorationBench&lt;/a&gt;: Evaluates autonomous exploration in unfamiliar programming and logic environments, using interpreters and proof checkers to verify results.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://grokipedia.com/"&gt;Grokipedia&lt;/a&gt;: The Grokipedia homepage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/view/cogentic/home?authuser=0"&gt;Cogentic&lt;/a&gt;: The Cogentic project homepage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://epoch.ai/publications/estimating-the-agent-population"&gt;How many AI agents could we run? | Epoch AI&lt;/a&gt;: Estimates that high-bandwidth memory shipped in 2025–2027, fully deployed and allocated to the relevant workloads, could support nonstop agents providing weekly working hours equivalent to roughly 140–720 million full-time employees.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. Running nonstop, these agents would supply as many weekly working hours as about 140–720 million full-time employees.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/practical-guide-building-gpt-6/"&gt;A model guide for the GPT-6 family | OpenAI&lt;/a&gt;: A guide to model selection, instructions, context and cost management, long tasks, and production deployment with the GPT-6 family.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/zGaQ3SS9C6So9NXFg/lessons-from-building-an-automated-research-scaffold"&gt;Lessons from building an automated research scaffold — LessWrong&lt;/a&gt;: Shares lessons from an automated research scaffold: limited productivity gains, alongside failures involving reward gaming, result interpretation, and audit monitoring.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://casp.ac/reports/intelligence-explosion"&gt;What if automating AI R&amp;amp;D triggers an intelligence explosion? — CASP&lt;/a&gt;: Examines whether automated AI research could trigger an intelligence explosion, its implications, and policy responses, while emphasizing uncertainty.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alphaxiv.org/abs/2609.tokenization-survey-modern-nlp"&gt;Tokenization: A Survey for Modern NLP | alphaXiv&lt;/a&gt; · &lt;a href="https://www.alphaxiv.org/pdf/2609.tokenization-survey-modern-nlp"&gt;PDF&lt;/a&gt;: A survey of subword tokenization methods, their limitations, and alternatives in modern natural language processing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alexzhang13.github.io/blog/2026/shape/"&gt;Language Model “Shape” | Alex L. Zhang&lt;/a&gt;: Explores designing language-model input and output structures around agent scaffolds.&lt;/p&gt;
+&lt;h3 id="mathematics--research--learning"&gt;Mathematics / Research / Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/synthetic-sciences/openscience"&gt;synthetic-sciences/openscience&lt;/a&gt;: An open-source AI workbench for scientific research.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sunnymaria.github.io/csapp-zh-markdown/"&gt;CSAPP Chinese Reading&lt;/a&gt;: A Chinese reading site for Computer Systems: A Programmer’s Perspective.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agmai.org/general-sep29/"&gt;AGMAI: September 29 Statement&lt;/a&gt;: The mathematics advisory group draws on community feedback to recommend practices for publishing AI-generated mathematical results and supporting human understanding and review.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poloclub.github.io/transformer-explainer/"&gt;Transformer Explainer&lt;/a&gt;: An interactive visualization of GPT-2 small that explains computations inside a Transformer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/"&gt;AI solves a ‘holy grail’ problem from probability theory | Scientific American&lt;/a&gt;: Reports on an Anthropic model’s proposed proof of a percolation continuity conjecture and discusses its implications for mathematics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://math.apexin.net/announcement"&gt;Apex Leaderboard&lt;/a&gt;: The Apex leaderboard announcement page.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hanlab.mit.edu/courses/2026-fall-65940"&gt;MIT 6.5940 Fall 2026 TinyML and Efficient AI Computing&lt;/a&gt;: MIT’s fall 2026 course covering pruning, quantization, model serving, distributed training, and deployment on edge devices.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://metr.org/blog/2026-07-21-expenditure-horizon/#introduction"&gt;Expenditure Horizon | METR&lt;/a&gt;: Measures optimization ability through the intersection of human and agent cost–benefit curves, with an initial study of NanoGPT optimization.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.meta.ai/blog/solving-open-research-problems-together"&gt;Solving Open Research Problems Together | Meta AI Research&lt;/a&gt;: Describes Muse Spark’s collaboration with mathematicians on open research problems, with results checked by independent mathematicians.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://incompleteideas.net/papers/Dohare_Shibhansh_PhD.pdf"&gt;Learning Forever using Artificial Neural Networks&lt;/a&gt;: Shibhansh Dohare’s doctoral thesis on loss of plasticity, continual backpropagation, and policy collapse.&lt;/p&gt;
+&lt;h3 id="programming--systems--ai-tools"&gt;Programming / Systems / AI Tools&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mr-boxington.jdx.dev/"&gt;A shared cache for Cargo builds | mr boxington&lt;/a&gt;: A shared Cargo build cache that reduces repeated compilation.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/deepseek-ai/DeepGEMM-Ascend"&gt;deepseek-ai/DeepGEMM-Ascend&lt;/a&gt;: A matrix multiplication kernel library for Huawei Ascend processors.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/"&gt;Introducing cf | Cloudflare&lt;/a&gt;: Cloudflare introduces an agent-oriented command-line tool for its full API.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ely-gpui.zacharyzhang.com/"&gt;Ely · GPUI components&lt;/a&gt;: A showcase of GPUI components.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://claude.dev/"&gt;claude.dev&lt;/a&gt;: A technical blog for developers building with Claude.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.usemono.dev/"&gt;MonoCode&lt;/a&gt;: A graphical interface for multiple coding agents.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mygo.egoist.dev/"&gt;MyGo&lt;/a&gt;: A Go framework for desktop apps with web frontends or native interfaces.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://earendil.com/posts/pi-1-0/"&gt;Pi 1.0 | Earendil&lt;/a&gt;: Introduces Pi 1.0, an extensible agent framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://comma.surf/"&gt;Comma&lt;/a&gt;: A continuously running agent for personal tasks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lorca.app/"&gt;Lorca&lt;/a&gt;: Runs AI teammates locally to work on files and tasks through individual or group chats.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freek.dev/3200-im-using-gpui-for-everything"&gt;I’m Using GPUI For Everything | Freek Van der Herten&lt;/a&gt;: Recommends a Syntax team video about developing with GPUI.&lt;/p&gt;
+&lt;h3 id="design--macos--other-finds"&gt;Design / macOS / Other Finds&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mg-chao/snow-apps"&gt;mg-chao/snow-apps&lt;/a&gt;: The source repository for Snow Shot and Snow Image Viewer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cida.xuanwo.io/"&gt;Cida&lt;/a&gt;: Translates and polishes text across Mac apps.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tornikegomareli/omarchy-spaces"&gt;tornikegomareli/omarchy-spaces&lt;/a&gt;: Shows app icons for each workspace in the Omarchy bar and supports workspace switching.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Pal-AI-Lab/Coopanion"&gt;Pal-AI-Lab/Coopanion&lt;/a&gt;: Coo is a desktop companion at the bottom of the screen, supporting chat, voice, and authorized computer use.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minoradventures.co/blog/the-making-of-cursors-icons"&gt;The Making of Cursor’s Icons | Minor Adventures&lt;/a&gt;: Shares the design process behind Cursor’s icons.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ippure.com/"&gt;IPPure&lt;/a&gt;: Checks IP information, risk, network egress, and leaks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"&gt;arXiv: Updated Submission Rate-Limit Policy&lt;/a&gt;: arXiv’s official announcement of its updated submission rate-limit policy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/adileo/squirreldisk"&gt;adileo/squirreldisk&lt;/a&gt;: A cross-platform disk usage analyzer written in Rust, with sunburst and treemap views.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yetanotherbrowser.com/#fast"&gt;Yab: yet another browser&lt;/a&gt;: The Yab browser homepage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.aihaotan.com/#home"&gt;AI Haotan&lt;/a&gt;: Compares prices and stock across marketplaces for AI accounts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/metasequoiaime/msime-windows"&gt;metasequoiaime/msime-windows&lt;/a&gt;: The Windows repository for Metasequoia IME, including its input framework, server, interface, and installer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gillesgoetsch/omacvm"&gt;gillesgoetsch/omacvm&lt;/a&gt;: Runs Omarchy in a Mac virtual machine, integrating trackpad gestures, audio, and keyboard behavior.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lxj5820/dsh-boot-animation"&gt;lxj5820/dsh-boot-animation&lt;/a&gt;: Replaces the DSH boot screen with a full-window video that fades into the app.&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--models--agents">AI / Models / Agents</h3>
+<p><a href="https://brusharena.art/live">Live Training Run · BrushArena</a>: BrushArena’s live training page.</p>
+<p><a href="https://supersoniclabs.ia.br/julia-1/">Introducing Julia 1 | Supersonic Labs</a>: Supersonic Labs’ official introduction to Julia 1.</p>
+<p><a href="https://www.anthropic.com/claude-sonnet-5-5">Introducing Claude Sonnet 5.5 | Anthropic</a>: Anthropic introduces Sonnet 5.5’s improvements in coding, knowledge work, and running costs.</p>
+<p><a href="https://openai.com/index/introducing-gpt-6-1-sol/">Introducing GPT-6.1 Sol | OpenAI</a>: OpenAI introduces GPT-6.1 Sol and its updates in coding, computer use, and professional tasks.</p>
+<p><a href="https://jasperlu.com/blog/prompted-similarity-search/">Exploring Similarity Search with Prompted Subspaces — Jasper Lu</a>: Uses text prompts to construct concept subspaces for image similarity search by color, style, or meaning.</p>
+<p><a href="https://snimu.github.io/2026/09/29/rl-is-an-evolutionary-algorithm.html">RL is an evolutionary algorithm</a>: Discusses reinforcement learning through the lens of evolutionary algorithms.</p>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Introducing Gemini 4</a>: Google introduces Gemini 4 Argon with an output limit of one million tokens, initially rolling out to trusted cyber defenders and testers.</p>
+<p><img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_table.width-2000.format-webp.webp"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://explorationbench.com/">ExplorationBench</a>: Evaluates autonomous exploration in unfamiliar programming and logic environments, using interpreters and proof checkers to verify results.</p>
+<p><a href="https://grokipedia.com/">Grokipedia</a>: The Grokipedia homepage.</p>
+<p><a href="https://sites.google.com/view/cogentic/home?authuser=0">Cogentic</a>: The Cogentic project homepage.</p>
+<p><a href="https://epoch.ai/publications/estimating-the-agent-population">How many AI agents could we run? | Epoch AI</a>: Estimates that high-bandwidth memory shipped in 2025–2027, fully deployed and allocated to the relevant workloads, could support nonstop agents providing weekly working hours equivalent to roughly 140–720 million full-time employees.</p>
+<blockquote>
+<p>AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. Running nonstop, these agents would supply as many weekly working hours as about 140–720 million full-time employees.</p>
+</blockquote>
+<p><a href="https://openai.com/index/practical-guide-building-gpt-6/">A model guide for the GPT-6 family | OpenAI</a>: A guide to model selection, instructions, context and cost management, long tasks, and production deployment with the GPT-6 family.</p>
+<p><a href="https://www.lesswrong.com/posts/zGaQ3SS9C6So9NXFg/lessons-from-building-an-automated-research-scaffold">Lessons from building an automated research scaffold — LessWrong</a>: Shares lessons from an automated research scaffold: limited productivity gains, alongside failures involving reward gaming, result interpretation, and audit monitoring.</p>
+<p><a href="https://casp.ac/reports/intelligence-explosion">What if automating AI R&amp;D triggers an intelligence explosion? — CASP</a>: Examines whether automated AI research could trigger an intelligence explosion, its implications, and policy responses, while emphasizing uncertainty.</p>
+<p><a href="https://www.alphaxiv.org/abs/2609.tokenization-survey-modern-nlp">Tokenization: A Survey for Modern NLP | alphaXiv</a> · <a href="https://www.alphaxiv.org/pdf/2609.tokenization-survey-modern-nlp">PDF</a>: A survey of subword tokenization methods, their limitations, and alternatives in modern natural language processing.</p>
+<p><a href="https://alexzhang13.github.io/blog/2026/shape/">Language Model “Shape” | Alex L. Zhang</a>: Explores designing language-model input and output structures around agent scaffolds.</p>
+<h3 id="mathematics--research--learning">Mathematics / Research / Learning</h3>
+<p><a href="https://github.com/synthetic-sciences/openscience">synthetic-sciences/openscience</a>: An open-source AI workbench for scientific research.</p>
+<p><a href="https://sunnymaria.github.io/csapp-zh-markdown/">CSAPP Chinese Reading</a>: A Chinese reading site for Computer Systems: A Programmer’s Perspective.</p>
+<p><a href="https://agmai.org/general-sep29/">AGMAI: September 29 Statement</a>: The mathematics advisory group draws on community feedback to recommend practices for publishing AI-generated mathematical results and supporting human understanding and review.</p>
+<p><a href="https://poloclub.github.io/transformer-explainer/">Transformer Explainer</a>: An interactive visualization of GPT-2 small that explains computations inside a Transformer.</p>
+<p><a href="https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/">AI solves a ‘holy grail’ problem from probability theory | Scientific American</a>: Reports on an Anthropic model’s proposed proof of a percolation continuity conjecture and discusses its implications for mathematics.</p>
+<p><a href="https://math.apexin.net/announcement">Apex Leaderboard</a>: The Apex leaderboard announcement page.</p>
+<p><a href="https://hanlab.mit.edu/courses/2026-fall-65940">MIT 6.5940 Fall 2026 TinyML and Efficient AI Computing</a>: MIT’s fall 2026 course covering pruning, quantization, model serving, distributed training, and deployment on edge devices.</p>
+<p><a href="https://metr.org/blog/2026-07-21-expenditure-horizon/#introduction">Expenditure Horizon | METR</a>: Measures optimization ability through the intersection of human and agent cost–benefit curves, with an initial study of NanoGPT optimization.</p>
+<p><a href="https://research.meta.ai/blog/solving-open-research-problems-together">Solving Open Research Problems Together | Meta AI Research</a>: Describes Muse Spark’s collaboration with mathematicians on open research problems, with results checked by independent mathematicians.</p>
+<p><a href="http://incompleteideas.net/papers/Dohare_Shibhansh_PhD.pdf">Learning Forever using Artificial Neural Networks</a>: Shibhansh Dohare’s doctoral thesis on loss of plasticity, continual backpropagation, and policy collapse.</p>
+<h3 id="programming--systems--ai-tools">Programming / Systems / AI Tools</h3>
+<p><a href="https://mr-boxington.jdx.dev/">A shared cache for Cargo builds | mr boxington</a>: A shared Cargo build cache that reduces repeated compilation.</p>
+<p><a href="https://github.com/deepseek-ai/DeepGEMM-Ascend">deepseek-ai/DeepGEMM-Ascend</a>: A matrix multiplication kernel library for Huawei Ascend processors.</p>
+<p><a href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/">Introducing cf | Cloudflare</a>: Cloudflare introduces an agent-oriented command-line tool for its full API.</p>
+<p><a href="https://ely-gpui.zacharyzhang.com/">Ely · GPUI components</a>: A showcase of GPUI components.</p>
+<p><a href="https://claude.dev/">claude.dev</a>: A technical blog for developers building with Claude.</p>
+<p><a href="https://www.usemono.dev/">MonoCode</a>: A graphical interface for multiple coding agents.</p>
+<p><a href="https://mygo.egoist.dev/">MyGo</a>: A Go framework for desktop apps with web frontends or native interfaces.</p>
+<p><a href="https://earendil.com/posts/pi-1-0/">Pi 1.0 | Earendil</a>: Introduces Pi 1.0, an extensible agent framework.</p>
+<p><a href="https://comma.surf/">Comma</a>: A continuously running agent for personal tasks.</p>
+<p><a href="https://lorca.app/">Lorca</a>: Runs AI teammates locally to work on files and tasks through individual or group chats.</p>
+<p><a href="https://freek.dev/3200-im-using-gpui-for-everything">I’m Using GPUI For Everything | Freek Van der Herten</a>: Recommends a Syntax team video about developing with GPUI.</p>
+<h3 id="design--macos--other-finds">Design / macOS / Other Finds</h3>
+<p><a href="https://github.com/mg-chao/snow-apps">mg-chao/snow-apps</a>: The source repository for Snow Shot and Snow Image Viewer.</p>
+<p><a href="https://cida.xuanwo.io/">Cida</a>: Translates and polishes text across Mac apps.</p>
+<p><a href="https://github.com/tornikegomareli/omarchy-spaces">tornikegomareli/omarchy-spaces</a>: Shows app icons for each workspace in the Omarchy bar and supports workspace switching.</p>
+<p><a href="https://github.com/Pal-AI-Lab/Coopanion">Pal-AI-Lab/Coopanion</a>: Coo is a desktop companion at the bottom of the screen, supporting chat, voice, and authorized computer use.</p>
+<p><a href="https://www.minoradventures.co/blog/the-making-of-cursors-icons">The Making of Cursor’s Icons | Minor Adventures</a>: Shares the design process behind Cursor’s icons.</p>
+<p><a href="https://ippure.com/">IPPure</a>: Checks IP information, risk, network egress, and leaks.</p>
+<p><a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/">arXiv: Updated Submission Rate-Limit Policy</a>: arXiv’s official announcement of its updated submission rate-limit policy.</p>
+<p><a href="https://github.com/adileo/squirreldisk">adileo/squirreldisk</a>: A cross-platform disk usage analyzer written in Rust, with sunburst and treemap views.</p>
+<p><a href="https://yetanotherbrowser.com/#fast">Yab: yet another browser</a>: The Yab browser homepage.</p>
+<p><a href="https://www.aihaotan.com/#home">AI Haotan</a>: Compares prices and stock across marketplaces for AI accounts.</p>
+<p><a href="https://github.com/metasequoiaime/msime-windows">metasequoiaime/msime-windows</a>: The Windows repository for Metasequoia IME, including its input framework, server, interface, and installer.</p>
+<p><a href="https://github.com/gillesgoetsch/omacvm">gillesgoetsch/omacvm</a>: Runs Omarchy in a Mac virtual machine, integrating trackpad gestures, audio, and keyboard behavior.</p>
+<p><a href="https://github.com/lxj5820/dsh-boot-animation">lxj5820/dsh-boot-animation</a>: Replaces the DSH boot screen with a full-window video that fades into the app.</p>
+]]></content:encoded></item><item><title>Weekly 26</title><link>https://blog.yfff.me/en/weekly/week-26/</link><pubDate>Sun, 27 Sep 2026 02:55:22 +0800</pubDate><guid>https://blog.yfff.me/en/weekly/week-26/</guid><description>&lt;h3 id="ai--models--agents"&gt;AI / Models / Agents&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/"&gt;The bitter lesson for computer vision&lt;/a&gt;: Vincent Sitzmann discusses how computer vision could become part of end-to-end perception and action loops.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cactuscompute.com/blog/hadamard-mlp"&gt;Hadamard MLP&lt;/a&gt;: A channel-mixing design based on the Hadamard transform explores ways to reduce feed-forward layer parameters.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://qwen.ai/blog?id=qwen-image-2.1"&gt;Qwen-Image-2.1&lt;/a&gt;: The official introduction page for Qwen-Image-2.1.&lt;/p&gt;

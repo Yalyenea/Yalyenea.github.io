@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 27 Sep 2026 02:55:22 +0800</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第26期周刊</title><link>https://blog.yfff.me/weekly/week-26/</link><pubDate>Sun, 27 Sep 2026 02:55:22 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-26/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yfff's blog</title><link>https://blog.yfff.me/</link><description>Recent content on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 03 Oct 2026 13:38:49 -0700</lastBuildDate><atom:link href="https://blog.yfff.me/index.xml" rel="self" type="application/rss+xml"/><item><title>第27期周刊</title><link>https://blog.yfff.me/weekly/week-27/</link><pubDate>Sat, 03 Oct 2026 13:38:49 -0700</pubDate><guid>https://blog.yfff.me/weekly/week-27/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://brusharena.art/live"&gt;Live Training Run · BrushArena&lt;/a&gt;：BrushArena 的实时训练展示页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supersoniclabs.ia.br/julia-1/"&gt;Introducing Julia 1 | Supersonic Labs&lt;/a&gt;：Supersonic Labs 的 Julia 1 官方介绍页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.anthropic.com/claude-sonnet-5-5"&gt;Introducing Claude Sonnet 5.5 | Anthropic&lt;/a&gt;：Anthropic 介绍 Sonnet 5.5 在编程、知识工作与运行成本上的改进。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-1-sol/"&gt;Introducing GPT-6.1 Sol | OpenAI&lt;/a&gt;：OpenAI 发布 GPT-6.1 Sol，介绍编程、计算机操作与专业任务能力的更新。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jasperlu.com/blog/prompted-similarity-search/"&gt;Exploring Similarity Search with Prompted Subspaces — Jasper Lu&lt;/a&gt;：用文本提示构造概念子空间，按颜色、风格或语义调整图像相似度检索。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://snimu.github.io/2026/09/29/rl-is-an-evolutionary-algorithm.html"&gt;RL is an evolutionary algorithm&lt;/a&gt;：从演化算法的角度讨论强化学习。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"&gt;Introducing Gemini 4&lt;/a&gt;：Google 介绍 Gemini 4 Argon，输出 token 上限提升至 100 万，目前向可信网络防御者与测试者分阶段开放。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_table.width-2000.format-webp.webp"
+ alt=""
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://explorationbench.com/"&gt;ExplorationBench&lt;/a&gt;：用可执行的陌生编程与逻辑环境评测 AI 的自主探索能力，通过解释器和证明检查器验证结果。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://grokipedia.com/"&gt;Grokipedia&lt;/a&gt;：Grokipedia 主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/view/cogentic/home?authuser=0"&gt;Cogentic&lt;/a&gt;：Cogentic 项目主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://epoch.ai/publications/estimating-the-agent-population"&gt;How many AI agents could we run? | Epoch AI&lt;/a&gt;：估算 2025—2027 年出货的高带宽内存在充分部署并分配给相应任务时，全天运行的智能体可提供相当于约 1.4 亿至 7.2 亿名全职人员的周工作时长。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. Running nonstop, these agents would supply as many weekly working hours as about 140–720 million full-time employees.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/practical-guide-building-gpt-6/"&gt;A model guide for the GPT-6 family | OpenAI&lt;/a&gt;：围绕 GPT-6 系列介绍模型选择、指令、上下文与成本管理，以及长任务和生产部署。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.lesswrong.com/posts/zGaQ3SS9C6So9NXFg/lessons-from-building-an-automated-research-scaffold"&gt;Lessons from building an automated research scaffold — LessWrong&lt;/a&gt;：分享自动化科研框架的实践：团队提效有限，却暴露了奖励投机、结果解释与审计监控等问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://casp.ac/reports/intelligence-explosion"&gt;What if automating AI R&amp;amp;D triggers an intelligence explosion? — CASP&lt;/a&gt;：分析 AI 研发自动化触发智能爆发的可能性、影响与政策应对，并强调其中的不确定性。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.alphaxiv.org/abs/2609.tokenization-survey-modern-nlp"&gt;Tokenization: A Survey for Modern NLP | alphaXiv&lt;/a&gt; · &lt;a href="https://www.alphaxiv.org/pdf/2609.tokenization-survey-modern-nlp"&gt;PDF&lt;/a&gt;：综述现代自然语言处理中的子词分词方法、局限与替代方向。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alexzhang13.github.io/blog/2026/shape/"&gt;Language Model “Shape” | Alex L. Zhang&lt;/a&gt;：探讨能否围绕智能体运行框架来设计语言模型的输入与输出结构。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/synthetic-sciences/openscience"&gt;synthetic-sciences/openscience&lt;/a&gt;：开源 AI 科研工作台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sunnymaria.github.io/csapp-zh-markdown/"&gt;CSAPP 中文阅读&lt;/a&gt;：《深入理解计算机系统》的中文阅读页面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://agmai.org/general-sep29/"&gt;AGMAI：9 月 29 日声明&lt;/a&gt;：数学顾问小组汇集社区反馈，提出 AI 数学成果的发布建议，并强调后续的人类理解与审查。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://poloclub.github.io/transformer-explainer/"&gt;Transformer Explainer&lt;/a&gt;：用 GPT-2 small 的交互式可视化解释 Transformer 的内部计算。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/"&gt;AI solves a ‘holy grail’ problem from probability theory | Scientific American&lt;/a&gt;：报道 Anthropic 模型提出渗流连续性猜想证明的工作，并讨论其对数学研究的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://math.apexin.net/announcement"&gt;Apex Leaderboard&lt;/a&gt;：Apex 排行榜公告页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hanlab.mit.edu/courses/2026-fall-65940"&gt;MIT 6.5940 Fall 2026 TinyML and Efficient AI Computing&lt;/a&gt;：MIT 2026 年秋季课程，涵盖剪枝、量化、模型服务、分布式训练与端侧部署。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://metr.org/blog/2026-07-21-expenditure-horizon/#introduction"&gt;Expenditure Horizon | METR&lt;/a&gt;：以人类与智能体的成本收益曲线交点衡量优化能力，并用 NanoGPT 优化作初步实验。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.meta.ai/blog/solving-open-research-problems-together"&gt;Solving Open Research Problems Together | Meta AI Research&lt;/a&gt;：介绍 Muse Spark 与数学家合作研究开放问题，并由独立数学家核查结果的工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://incompleteideas.net/papers/Dohare_Shibhansh_PhD.pdf"&gt;Learning Forever using Artificial Neural Networks&lt;/a&gt;：Shibhansh Dohare 的博士论文，围绕可塑性丧失、持续反向传播与策略崩塌展开。&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://mr-boxington.jdx.dev/"&gt;A shared cache for Cargo builds | mr boxington&lt;/a&gt;：通过共享 Cargo 构建缓存减少重复编译。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/deepseek-ai/DeepGEMM-Ascend"&gt;deepseek-ai/DeepGEMM-Ascend&lt;/a&gt;：面向华为昇腾处理器的矩阵乘法内核库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/"&gt;Introducing cf | Cloudflare&lt;/a&gt;：Cloudflare 推出面向智能体的命令行工具，覆盖其完整 API。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ely-gpui.zacharyzhang.com/"&gt;Ely · GPUI components&lt;/a&gt;：GPUI 组件库展示页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://claude.dev/"&gt;claude.dev&lt;/a&gt;：面向 Claude 开发者的技术博客。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.usemono.dev/"&gt;MonoCode&lt;/a&gt;：为多种编程智能体提供图形界面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mygo.egoist.dev/"&gt;MyGo&lt;/a&gt;：用 Go 构建桌面应用的框架，支持 Web 前端与原生界面。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://earendil.com/posts/pi-1-0/"&gt;Pi 1.0 | Earendil&lt;/a&gt;：介绍可扩展的智能体框架 Pi 1.0。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://comma.surf/"&gt;Comma&lt;/a&gt;：持续运行、处理个人任务的智能体。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://lorca.app/"&gt;Lorca&lt;/a&gt;：在本地通过单聊或群聊，让多个 AI 队友处理文件与任务。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freek.dev/3200-im-using-gpui-for-everything"&gt;I’m Using GPUI For Everything | Freek Van der Herten&lt;/a&gt;：推荐 Syntax 团队关于 GPUI 开发体验的视频。&lt;/p&gt;
+&lt;h3 id="设计--macos--其他"&gt;设计 / macOS / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mg-chao/snow-apps"&gt;mg-chao/snow-apps&lt;/a&gt;：Snow Shot 与 Snow Image Viewer 的开源代码仓库。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cida.xuanwo.io/"&gt;辞达&lt;/a&gt;：在 Mac 的任意应用中翻译和润色文字。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tornikegomareli/omarchy-spaces"&gt;tornikegomareli/omarchy-spaces&lt;/a&gt;：在 Omarchy 状态栏中显示各工作区的应用图标，并支持切换工作区。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Pal-AI-Lab/Coopanion"&gt;Pal-AI-Lab/Coopanion&lt;/a&gt;：住在屏幕底边的桌宠 Coo，支持聊天、语音与获准后的电脑操作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.minoradventures.co/blog/the-making-of-cursors-icons"&gt;The Making of Cursor’s Icons | Minor Adventures&lt;/a&gt;：分享 Cursor 图标的设计过程。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ippure.com/"&gt;IPPure&lt;/a&gt;：检查 IP 地址信息、风险、网络出口与泄露情况。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"&gt;arXiv：更新投稿限额政策&lt;/a&gt;：arXiv 关于更新投稿限额政策的官方公告。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/adileo/squirreldisk"&gt;adileo/squirreldisk&lt;/a&gt;：用 Rust 编写的跨平台磁盘空间分析器，以旭日图或矩形树图展示占用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yetanotherbrowser.com/#fast"&gt;Yab: yet another browser&lt;/a&gt;：Yab 浏览器主页。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.aihaotan.com/#home"&gt;AI 号探&lt;/a&gt;：比较 AI 账号发卡平台的价格与库存。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/metasequoiaime/msime-windows"&gt;metasequoiaime/msime-windows&lt;/a&gt;：水杉输入法的 Windows 产品仓库，包含输入框架、服务、界面与安装器。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gillesgoetsch/omacvm"&gt;gillesgoetsch/omacvm&lt;/a&gt;：在 Mac 虚拟机中运行 Omarchy，并集成触控板手势、音频与键盘等体验。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lxj5820/dsh-boot-animation"&gt;lxj5820/dsh-boot-animation&lt;/a&gt;：用全窗口视频替换 DSH 启动画面，并渐变进入应用。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://brusharena.art/live">Live Training Run · BrushArena</a>：BrushArena 的实时训练展示页。</p>
+<p><a href="https://supersoniclabs.ia.br/julia-1/">Introducing Julia 1 | Supersonic Labs</a>：Supersonic Labs 的 Julia 1 官方介绍页。</p>
+<p><a href="https://www.anthropic.com/claude-sonnet-5-5">Introducing Claude Sonnet 5.5 | Anthropic</a>：Anthropic 介绍 Sonnet 5.5 在编程、知识工作与运行成本上的改进。</p>
+<p><a href="https://openai.com/index/introducing-gpt-6-1-sol/">Introducing GPT-6.1 Sol | OpenAI</a>：OpenAI 发布 GPT-6.1 Sol，介绍编程、计算机操作与专业任务能力的更新。</p>
+<p><a href="https://jasperlu.com/blog/prompted-similarity-search/">Exploring Similarity Search with Prompted Subspaces — Jasper Lu</a>：用文本提示构造概念子空间，按颜色、风格或语义调整图像相似度检索。</p>
+<p><a href="https://snimu.github.io/2026/09/29/rl-is-an-evolutionary-algorithm.html">RL is an evolutionary algorithm</a>：从演化算法的角度讨论强化学习。</p>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Introducing Gemini 4</a>：Google 介绍 Gemini 4 Argon，输出 token 上限提升至 100 万，目前向可信网络防御者与测试者分阶段开放。</p>
+<p><img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_table.width-2000.format-webp.webp"
+  alt=""
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://explorationbench.com/">ExplorationBench</a>：用可执行的陌生编程与逻辑环境评测 AI 的自主探索能力，通过解释器和证明检查器验证结果。</p>
+<p><a href="https://grokipedia.com/">Grokipedia</a>：Grokipedia 主页。</p>
+<p><a href="https://sites.google.com/view/cogentic/home?authuser=0">Cogentic</a>：Cogentic 项目主页。</p>
+<p><a href="https://epoch.ai/publications/estimating-the-agent-population">How many AI agents could we run? | Epoch AI</a>：估算 2025—2027 年出货的高带宽内存在充分部署并分配给相应任务时，全天运行的智能体可提供相当于约 1.4 亿至 7.2 亿名全职人员的周工作时长。</p>
+<blockquote>
+<p>AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. Running nonstop, these agents would supply as many weekly working hours as about 140–720 million full-time employees.</p>
+</blockquote>
+<p><a href="https://openai.com/index/practical-guide-building-gpt-6/">A model guide for the GPT-6 family | OpenAI</a>：围绕 GPT-6 系列介绍模型选择、指令、上下文与成本管理，以及长任务和生产部署。</p>
+<p><a href="https://www.lesswrong.com/posts/zGaQ3SS9C6So9NXFg/lessons-from-building-an-automated-research-scaffold">Lessons from building an automated research scaffold — LessWrong</a>：分享自动化科研框架的实践：团队提效有限，却暴露了奖励投机、结果解释与审计监控等问题。</p>
+<p><a href="https://casp.ac/reports/intelligence-explosion">What if automating AI R&amp;D triggers an intelligence explosion? — CASP</a>：分析 AI 研发自动化触发智能爆发的可能性、影响与政策应对，并强调其中的不确定性。</p>
+<p><a href="https://www.alphaxiv.org/abs/2609.tokenization-survey-modern-nlp">Tokenization: A Survey for Modern NLP | alphaXiv</a> · <a href="https://www.alphaxiv.org/pdf/2609.tokenization-survey-modern-nlp">PDF</a>：综述现代自然语言处理中的子词分词方法、局限与替代方向。</p>
+<p><a href="https://alexzhang13.github.io/blog/2026/shape/">Language Model “Shape” | Alex L. Zhang</a>：探讨能否围绕智能体运行框架来设计语言模型的输入与输出结构。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://github.com/synthetic-sciences/openscience">synthetic-sciences/openscience</a>：开源 AI 科研工作台。</p>
+<p><a href="https://sunnymaria.github.io/csapp-zh-markdown/">CSAPP 中文阅读</a>：《深入理解计算机系统》的中文阅读页面。</p>
+<p><a href="https://agmai.org/general-sep29/">AGMAI：9 月 29 日声明</a>：数学顾问小组汇集社区反馈，提出 AI 数学成果的发布建议，并强调后续的人类理解与审查。</p>
+<p><a href="https://poloclub.github.io/transformer-explainer/">Transformer Explainer</a>：用 GPT-2 small 的交互式可视化解释 Transformer 的内部计算。</p>
+<p><a href="https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/">AI solves a ‘holy grail’ problem from probability theory | Scientific American</a>：报道 Anthropic 模型提出渗流连续性猜想证明的工作，并讨论其对数学研究的影响。</p>
+<p><a href="https://math.apexin.net/announcement">Apex Leaderboard</a>：Apex 排行榜公告页。</p>
+<p><a href="https://hanlab.mit.edu/courses/2026-fall-65940">MIT 6.5940 Fall 2026 TinyML and Efficient AI Computing</a>：MIT 2026 年秋季课程，涵盖剪枝、量化、模型服务、分布式训练与端侧部署。</p>
+<p><a href="https://metr.org/blog/2026-07-21-expenditure-horizon/#introduction">Expenditure Horizon | METR</a>：以人类与智能体的成本收益曲线交点衡量优化能力，并用 NanoGPT 优化作初步实验。</p>
+<p><a href="https://research.meta.ai/blog/solving-open-research-problems-together">Solving Open Research Problems Together | Meta AI Research</a>：介绍 Muse Spark 与数学家合作研究开放问题，并由独立数学家核查结果的工作。</p>
+<p><a href="http://incompleteideas.net/papers/Dohare_Shibhansh_PhD.pdf">Learning Forever using Artificial Neural Networks</a>：Shibhansh Dohare 的博士论文，围绕可塑性丧失、持续反向传播与策略崩塌展开。</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://mr-boxington.jdx.dev/">A shared cache for Cargo builds | mr boxington</a>：通过共享 Cargo 构建缓存减少重复编译。</p>
+<p><a href="https://github.com/deepseek-ai/DeepGEMM-Ascend">deepseek-ai/DeepGEMM-Ascend</a>：面向华为昇腾处理器的矩阵乘法内核库。</p>
+<p><a href="https://blog.cloudflare.com/cloudflare-cf-cli-launch/">Introducing cf | Cloudflare</a>：Cloudflare 推出面向智能体的命令行工具，覆盖其完整 API。</p>
+<p><a href="https://ely-gpui.zacharyzhang.com/">Ely · GPUI components</a>：GPUI 组件库展示页。</p>
+<p><a href="https://claude.dev/">claude.dev</a>：面向 Claude 开发者的技术博客。</p>
+<p><a href="https://www.usemono.dev/">MonoCode</a>：为多种编程智能体提供图形界面。</p>
+<p><a href="https://mygo.egoist.dev/">MyGo</a>：用 Go 构建桌面应用的框架，支持 Web 前端与原生界面。</p>
+<p><a href="https://earendil.com/posts/pi-1-0/">Pi 1.0 | Earendil</a>：介绍可扩展的智能体框架 Pi 1.0。</p>
+<p><a href="https://comma.surf/">Comma</a>：持续运行、处理个人任务的智能体。</p>
+<p><a href="https://lorca.app/">Lorca</a>：在本地通过单聊或群聊，让多个 AI 队友处理文件与任务。</p>
+<p><a href="https://freek.dev/3200-im-using-gpui-for-everything">I’m Using GPUI For Everything | Freek Van der Herten</a>：推荐 Syntax 团队关于 GPUI 开发体验的视频。</p>
+<h3 id="设计--macos--其他">设计 / macOS / 其他</h3>
+<p><a href="https://github.com/mg-chao/snow-apps">mg-chao/snow-apps</a>：Snow Shot 与 Snow Image Viewer 的开源代码仓库。</p>
+<p><a href="https://cida.xuanwo.io/">辞达</a>：在 Mac 的任意应用中翻译和润色文字。</p>
+<p><a href="https://github.com/tornikegomareli/omarchy-spaces">tornikegomareli/omarchy-spaces</a>：在 Omarchy 状态栏中显示各工作区的应用图标，并支持切换工作区。</p>
+<p><a href="https://github.com/Pal-AI-Lab/Coopanion">Pal-AI-Lab/Coopanion</a>：住在屏幕底边的桌宠 Coo，支持聊天、语音与获准后的电脑操作。</p>
+<p><a href="https://www.minoradventures.co/blog/the-making-of-cursors-icons">The Making of Cursor’s Icons | Minor Adventures</a>：分享 Cursor 图标的设计过程。</p>
+<p><a href="https://ippure.com/">IPPure</a>：检查 IP 地址信息、风险、网络出口与泄露情况。</p>
+<p><a href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/">arXiv：更新投稿限额政策</a>：arXiv 关于更新投稿限额政策的官方公告。</p>
+<p><a href="https://github.com/adileo/squirreldisk">adileo/squirreldisk</a>：用 Rust 编写的跨平台磁盘空间分析器，以旭日图或矩形树图展示占用。</p>
+<p><a href="https://yetanotherbrowser.com/#fast">Yab: yet another browser</a>：Yab 浏览器主页。</p>
+<p><a href="https://www.aihaotan.com/#home">AI 号探</a>：比较 AI 账号发卡平台的价格与库存。</p>
+<p><a href="https://github.com/metasequoiaime/msime-windows">metasequoiaime/msime-windows</a>：水杉输入法的 Windows 产品仓库，包含输入框架、服务、界面与安装器。</p>
+<p><a href="https://github.com/gillesgoetsch/omacvm">gillesgoetsch/omacvm</a>：在 Mac 虚拟机中运行 Omarchy，并集成触控板手势、音频与键盘等体验。</p>
+<p><a href="https://github.com/lxj5820/dsh-boot-animation">lxj5820/dsh-boot-animation</a>：用全窗口视频替换 DSH 启动画面，并渐变进入应用。</p>
+]]></content:encoded></item><item><title>第26期周刊</title><link>https://blog.yfff.me/weekly/week-26/</link><pubDate>Sun, 27 Sep 2026 02:55:22 +0800</pubDate><guid>https://blog.yfff.me/weekly/week-26/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.vincentsitzmann.com/blog/bitter_lesson_of_cv/"&gt;The bitter lesson for computer vision&lt;/a&gt;：Vincent Sitzmann 讨论计算机视觉如何融入端到端的感知与行动循环。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cactuscompute.com/blog/hadamard-mlp"&gt;Hadamard MLP&lt;/a&gt;：介绍以 Hadamard 变换为起点的通道混合设计，探索减少前馈层参数的方法。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://qwen.ai/blog?id=qwen-image-2.1"&gt;Qwen-Image-2.1&lt;/a&gt;：Qwen-Image-2.1 的官方介绍页面。&lt;/p&gt;
