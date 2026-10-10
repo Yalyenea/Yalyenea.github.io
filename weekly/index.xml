@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 03 Oct 2026 13:38:49 -0700</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第27期周刊</title><link>https://blog.yfff.me/weekly/week-27/</link><pubDate>Sat, 03 Oct 2026 13:38:49 -0700</pubDate><guid>https://blog.yfff.me/weekly/week-27/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Weeklies on yfff's blog</title><link>https://blog.yfff.me/weekly/</link><description>Recent content in Weeklies on yfff's blog</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 10 Oct 2026 10:46:06 -0700</lastBuildDate><atom:link href="https://blog.yfff.me/weekly/index.xml" rel="self" type="application/rss+xml"/><item><title>第28期周刊</title><link>https://blog.yfff.me/weekly/week-28/</link><pubDate>Sat, 10 Oct 2026 10:46:06 -0700</pubDate><guid>https://blog.yfff.me/weekly/week-28/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.diachronic.ai/"&gt;Diachronic&lt;/a&gt;：以 Kairos 1 探索人类行为建模与评测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/"&gt;I Quit OpenAI Because Its Culture Is Broken | The Atlantic&lt;/a&gt;：David Robinson 解释离开 OpenAI 的原因，批评其安全文化，并主张借鉴其他高风险行业的安全经验。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://reflection.ai/blog/introducing-beam"&gt;Introducing Beam | Reflection&lt;/a&gt;：Reflection 介绍面向编程、推理与智能体任务的 5010 亿参数混合专家模型 Beam，计划于本月稍后开放权重。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack"&gt;Rho-1: Collapsing the multimodal stack | Reka&lt;/a&gt;：Reka 展示 Rho-1 研究预览，在单一模型中整合文本、图像、视频与动作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jamiesimon.io/blog/explainability-as-system-closure/"&gt;Explainability as a form of system closure&lt;/a&gt;：作者把解释理解为在人类可掌握变量上建立近似闭合模型，并借混沌系统讨论可解释性的边界。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://reasonmachines.com/blog/reason-agent-deepswe"&gt;Introducing Reason Agent 1.0&lt;/a&gt; · &lt;a href="https://reasonmachines.com/"&gt;Reason Agent&lt;/a&gt;：Reason Machines 介绍面向自主软件工程任务的 Reason Agent 1.0。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pzeroresearch.com/work/tasteval/"&gt;Introducing TasteVal | P-Zero Research&lt;/a&gt; · &lt;a href="https://arxiv.org/abs/2610.06824"&gt;TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts&lt;/a&gt;：用固定研究问题考察模型设计实验与解读结果的能力，以实验计算效率与人类专家比较。&lt;/p&gt;
+&lt;h3 id="数学--科研--学习"&gt;数学 / 科研 / 学习&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://irrationalanalysis.substack.com/p/practical-parametric-yield"&gt;Practical Parametric Yield | Irrational Analysis&lt;/a&gt;：从工艺波动、频率与功耗的关系解释芯片参数良率，并讨论 Cerebras 晶圆级计算面临的取舍。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV11SaB6NELd/"&gt;由 Opus 5.5 制作的黎曼猜想科普视频&lt;/a&gt;：上传者介绍由 Claude Opus 5.5 制作视频、Gemini 提供配音的黎曼猜想科普作品。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"&gt;Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI&lt;/a&gt;：作者报告借助 Claude 智能体找到两种室温反铁磁半导体候选材料，并公开计算与局限，材料性质仍需实验验证。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.05474v1"&gt;Presenting a proof of the Kannan-Lovasz-Simonovits conjecture&lt;/a&gt;：Bizeul、Klartag 与 Lehec 提出 KLS 猜想的完整证明稿，共 32 页，并披露大部分证明与数学想法来自 ChatGPT。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.01447v2"&gt;An $O(1)$ Bound for the KLS Constant&lt;/a&gt;：Song 与 Zhang 在第二版预印本中提出 KLS 常数的 $O(1)$ 上界，声称解决完整猜想。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/kriznakumar/paper/blob/4837c33649ba2271f43c9684e9350ecbdd725f95/KLS.pdf"&gt;A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures&lt;/a&gt;：Balasubramanian 与 Kasiviswanathan 公开另一份声称证明 KLS 猜想的稿件，共 53 页，同样披露了 AI 参与。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.danrad.net/papers/stark-reciprocity.pdf"&gt;Stark units for real quadratic fields and reciprocity laws&lt;/a&gt;：作者提出实二次数域中 Stark 单位的互反律，声称回答 Hilbert 第十二问题的这一情形，并推出 Zauner 猜想的所有维数存在性结果。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jlevy.github.io/squares/"&gt;The Squares Project&lt;/a&gt; · &lt;a href="https://jlevy.github.io/squares/cases/11.html"&gt;n = 11 案例&lt;/a&gt;：汇集 11 个单位正方形装入正方形的构造、下界与机器核验记录，项目报告上下界已相合，审阅记录仍待完成。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1791423496819.png"
+ alt="QQ_1791423496819.png"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pingyou.com/papers/eleven-squares.pdf"&gt;The Fibonacci Geometry of Eleven Squares（PDF）&lt;/a&gt;：用平坦环面与 Fibonacci 几何描述 Trump 的 11 正方形装填，分析其两参数接触族中的唯一最小构型。&lt;/p&gt;
+&lt;p&gt;&lt;img
+ src="https://pbs.twimg.com/media/HUCyut5WcAAwsY-?format=jpg&amp;amp;name=medium"
+ alt="379"
+ 
+ loading="lazy"
+ decoding="async"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openai.com/index/sharing-ai-progress-in-mathematics/"&gt;Sharing AI progress in mathematics | OpenAI&lt;/a&gt; · &lt;a href="https://github.com/openai/math"&gt;openai/math&lt;/a&gt;：OpenAI 发布 AI 辅助数学研究的论文、证明与验证材料，并说明这些结果仍需数学界审查。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://beyond-n-log-n.netlify.app/"&gt;Beyond n log n · Integer multiplication&lt;/a&gt;：追踪整数乘法复杂度上界的条件性改进与相关验证材料。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/CrocSwap/integer-mult-bounds"&gt;CrocSwap/integer-mult-bounds&lt;/a&gt;：围绕 OpenAI 整数乘法结果 #109，研究对指数节省量的条件性改进。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scottaaronson.blog/?p=10169"&gt;The Mathocalypse | Scott Aaronson&lt;/a&gt;：Scott Aaronson 讨论近期 AI 数学成果及其对数学研究、验证与研究者的影响。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abbas-mehrabian.medium.com/what-does-an-improved-upper-bound-on-%CF%89-mean-107dee290970"&gt;What does an improved upper bound on $\omega$ mean | Abbas Mehrabian&lt;/a&gt;：解释矩阵乘法指数 $\omega$ 的上界改进意味着什么。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/live/FDAHDLbT8gs"&gt;On Matrix Multiplication Algorithms&lt;/a&gt; · &lt;a href="https://theoryofcomputing.org/articles/gs005/gs005.pdf"&gt;Fast Matrix Multiplication（PDF）&lt;/a&gt;：矩阵乘法算法讲座与综述，介绍快速算法及复杂度研究。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://erich-friedman.github.io/"&gt;Erich Friedman&lt;/a&gt; · &lt;a href="https://erich-friedman.github.io/packing/"&gt;Erich&amp;rsquo;s Packing Center&lt;/a&gt; · &lt;a href="https://erich-friedman.github.io/packing/cubincub/"&gt;Cubes in Cubes&lt;/a&gt;：Erich Friedman 的数学趣题与几何装箱资料，附立方体装入立方体的记录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drbuild.uk/app/nonrup/index.html#stellated"&gt;Nopert Polyhedra Explorer&lt;/a&gt;：通过旋转、切孔与穿过操作，交互探索 Rupert 问题中的多面体。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://rivendell.dmitrybrant.com/relativity/"&gt;Relativity Park: Walking Speed of Light&lt;/a&gt;：把光速设为步行速度，在公园场景中观察相对论效应。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yoheinakajima.github.io/soft-to-rigid/"&gt;Soft-to-Rigid Packing&lt;/a&gt;：比较从软形状逐渐变硬的装箱搜索与其他方法，公开实验日志、代码和重放，并说明各自适用范围。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/news.htm"&gt;News | Yasuyuki Kawahigashi&lt;/a&gt;：河東泰之记录作用素代数研究者对 OpenAI 稿件的反应，以及整理人类可读证明的进展。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/"&gt;A Brief Digest of Some New OpenAI Results | Persiflage&lt;/a&gt;：Frank Calegari 评述部分新发布的 OpenAI 数学结果。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bigospeedrun.com/"&gt;Big O Speedrun&lt;/a&gt;：追踪整数乘法、傅里叶变换、3SUM 与全对最短路等问题的复杂度上界，区分结果声称与验证状态。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/pozsgaybalazs/status/2108819560014938350"&gt;A reaction to the reactions | Balázs Pozsgay&lt;/a&gt;：从理论物理研究者的角度回应 AI 数学成果引发的讨论，并思考重新成为学习者的意义。&lt;/p&gt;
+&lt;h3 id="编程--系统--ai-工具"&gt;编程 / 系统 / AI 工具&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/egoist/godiff"&gt;egoist/godiff&lt;/a&gt;：原生 Git 差异审阅器，支持工作区、提交与 GitHub 拉取请求审阅。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/sahenjp/rustdsh"&gt;sahenjp/rustdsh&lt;/a&gt;：用 Rust 编写的 DeepSeek Harness 启动器，提供配置迁移与本地工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15"&gt;How fast is Python 3.15? | Miguel Grinberg&lt;/a&gt;：用递归与排序程序比较 Python 3.15 候选版和旧版解释器，并测试即时编译与自由线程模式。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sshx.io/"&gt;sshx&lt;/a&gt;：在浏览器中实时共享终端，支持多人协作。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.superlogical.com/updates/public-testing-beginning"&gt;Public testing is beginning | Superlogical&lt;/a&gt;：Rex 终端开始邀请公开测试，首批面向 macOS，支持持久会话与远程连接。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/egoist/gorex"&gt;egoist/gorex&lt;/a&gt;：用 Go 与 MyGo 原生界面实现的 Rex 终端克隆。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://getartcraft.com/apps"&gt;ArtCraft Crafting Apps&lt;/a&gt; · &lt;a href="https://github.com/storytold"&gt;GitHub&lt;/a&gt; · &lt;a href="https://github.com/storytold/vectorcraft"&gt;VectorCraft&lt;/a&gt; · &lt;a href="https://github.com/storytold/wordcraft"&gt;WordCraft&lt;/a&gt; · &lt;a href="https://github.com/storytold/deckcraft"&gt;DeckCraft&lt;/a&gt; · &lt;a href="https://github.com/storytold/cadcraft"&gt;CADCraft&lt;/a&gt;：用 Rust 构建的开源创作应用系列，覆盖矢量绘图、文档、演示与计算机辅助设计。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/palemoky/chinese-poetry-api"&gt;palemoky/chinese-poetry-api&lt;/a&gt;：中国古诗词检索与 API 服务项目。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Freaction/Aquilum"&gt;Freaction/Aquilum&lt;/a&gt;：面向 Windows 的本地 Markdown 知识库，支持实时预览、搜索、关系图、阅读器与模型上下文协议。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/solidsf-inc/sfFFT"&gt;solidsf-inc/sfFFT&lt;/a&gt;：面向 NVIDIA GB10 的融合 Tensor Core 快速傅里叶变换卷积内核，采用 MIT 许可。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://office.elygpui.com/"&gt;Ely Office&lt;/a&gt; · &lt;a href="https://github.com/ZacharyZhang-NY/ElyOffice"&gt;ZacharyZhang-NY/ElyOffice&lt;/a&gt;：Ely Office 官网与 Rust / GPUI 桌面办公套件项目链接，仓库链接目前返回 404。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/QuantumNous/new-api/tree/main/relaykit"&gt;RelayKit | New API&lt;/a&gt;：在 OpenAI、Anthropic 与 Gemini 的四种文本协议间转换请求、响应和流式事件的 Go 模块。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stencil.so/tern"&gt;Tern | Stencil&lt;/a&gt;：用 Rust 构建、兼容 Kitty 的原生终端与多路复用器，支持持久会话和跨设备连接，目前处于封闭测试。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://earendil.com/posts/system-theme/"&gt;There are many themes, but this one is yours | Earendil&lt;/a&gt;：介绍 Pi 如何读取终端颜色并生成系统主题，讨论调色板与界面对比度。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.primeintellect.ai/blog/prime-agent-rust"&gt;Rewriting Prime Agent in Rust&lt;/a&gt;：Prime Intellect 分享借助多智能体将 Prime Agent 从 TypeScript 重写为 Rust 的过程与验证方法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tov.sh/"&gt;Tov&lt;/a&gt;：面向编码智能体的实验性语言，采用 TypeScript 风格语法，编译为原生二进制，并提供结构化编译错误与修复建议。&lt;/p&gt;
+&lt;h3 id="设计--macos--其他"&gt;设计 / macOS / 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://revpdf.com/"&gt;RevPDF&lt;/a&gt;：支持离线编辑、比较与格式转换的 PDF 工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://x.com/SpikeRiser/status/2107621593757208916"&gt;Opus 5.5 视频复现分享 | R&lt;/a&gt;：作者分享用 Opus 5.5 回应视频复现挑战的作品。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paper.design/mono"&gt;Paper Mono&lt;/a&gt;：免费开源的等宽字体，提供可变字重、编程连字与字符展示。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/celve/uvim"&gt;celve/uvim&lt;/a&gt;：在 macOS 的文本输入框中提供 Vim 模态编辑的菜单栏应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://aime.zool.app/"&gt;AIME · 艾么输入法&lt;/a&gt;：基于 RIME 的开源 macOS 中文输入法，支持词库更新、常用语以及选中文字的翻译与润色。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.designeer.xyz/"&gt;Designeer&lt;/a&gt;：精选界面设计工具、组件与灵感资源的目录。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/alejandrobujan/tendedero"&gt;alejandrobujan/tendedero&lt;/a&gt;：把截图悬挂在屏幕顶部一条线上，方便临时查看的 macOS 原生应用。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pulse.egoist.dev/"&gt;Pulse&lt;/a&gt;：在一个原生窗口中查看进程、处理器、内存、网络与能耗等系统指标。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Nongfsq/ftop"&gt;Nongfsq/ftop&lt;/a&gt;：面向 Apple Silicon Mac 的浮动系统监视面板，显示处理器、内存、网络与进程信息。&lt;/p&gt;</description><content:encoded><![CDATA[<h3 id="ai--模型--智能体">AI / 模型 / 智能体</h3>
+<p><a href="https://www.diachronic.ai/">Diachronic</a>：以 Kairos 1 探索人类行为建模与评测。</p>
+<p><a href="https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/">I Quit OpenAI Because Its Culture Is Broken | The Atlantic</a>：David Robinson 解释离开 OpenAI 的原因，批评其安全文化，并主张借鉴其他高风险行业的安全经验。</p>
+<p><a href="https://reflection.ai/blog/introducing-beam">Introducing Beam | Reflection</a>：Reflection 介绍面向编程、推理与智能体任务的 5010 亿参数混合专家模型 Beam，计划于本月稍后开放权重。</p>
+<p><a href="https://reka.ai/labs/research/rho-1-collapsing-the-multimodal-stack">Rho-1: Collapsing the multimodal stack | Reka</a>：Reka 展示 Rho-1 研究预览，在单一模型中整合文本、图像、视频与动作。</p>
+<p><a href="https://jamiesimon.io/blog/explainability-as-system-closure/">Explainability as a form of system closure</a>：作者把解释理解为在人类可掌握变量上建立近似闭合模型，并借混沌系统讨论可解释性的边界。</p>
+<p><a href="https://reasonmachines.com/blog/reason-agent-deepswe">Introducing Reason Agent 1.0</a> · <a href="https://reasonmachines.com/">Reason Agent</a>：Reason Machines 介绍面向自主软件工程任务的 Reason Agent 1.0。</p>
+<p><a href="https://pzeroresearch.com/work/tasteval/">Introducing TasteVal | P-Zero Research</a> · <a href="https://arxiv.org/abs/2610.06824">TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts</a>：用固定研究问题考察模型设计实验与解读结果的能力，以实验计算效率与人类专家比较。</p>
+<h3 id="数学--科研--学习">数学 / 科研 / 学习</h3>
+<p><a href="https://irrationalanalysis.substack.com/p/practical-parametric-yield">Practical Parametric Yield | Irrational Analysis</a>：从工艺波动、频率与功耗的关系解释芯片参数良率，并讨论 Cerebras 晶圆级计算面临的取舍。</p>
+<p><a href="https://www.bilibili.com/video/BV11SaB6NELd/">由 Opus 5.5 制作的黎曼猜想科普视频</a>：上传者介绍由 Claude Opus 5.5 制作视频、Gemini 提供配音的黎曼猜想科普作品。</p>
+<p><a href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors">Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI</a>：作者报告借助 Claude 智能体找到两种室温反铁磁半导体候选材料，并公开计算与局限，材料性质仍需实验验证。</p>
+<p><a href="https://arxiv.org/abs/2610.05474v1">Presenting a proof of the Kannan-Lovasz-Simonovits conjecture</a>：Bizeul、Klartag 与 Lehec 提出 KLS 猜想的完整证明稿，共 32 页，并披露大部分证明与数学想法来自 ChatGPT。</p>
+<p><a href="https://arxiv.org/abs/2610.01447v2">An $O(1)$ Bound for the KLS Constant</a>：Song 与 Zhang 在第二版预印本中提出 KLS 常数的 $O(1)$ 上界，声称解决完整猜想。</p>
+<p><a href="https://github.com/kriznakumar/paper/blob/4837c33649ba2271f43c9684e9350ecbdd725f95/KLS.pdf">A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures</a>：Balasubramanian 与 Kasiviswanathan 公开另一份声称证明 KLS 猜想的稿件，共 53 页，同样披露了 AI 参与。</p>
+<p><a href="https://www.danrad.net/papers/stark-reciprocity.pdf">Stark units for real quadratic fields and reciprocity laws</a>：作者提出实二次数域中 Stark 单位的互反律，声称回答 Hilbert 第十二问题的这一情形，并推出 Zauner 猜想的所有维数存在性结果。</p>
+<p><a href="https://jlevy.github.io/squares/">The Squares Project</a> · <a href="https://jlevy.github.io/squares/cases/11.html">n = 11 案例</a>：汇集 11 个单位正方形装入正方形的构造、下界与机器核验记录，项目报告上下界已相合，审阅记录仍待完成。</p>
+<p><img
+  src="https://yffff.oss-cn-hangzhou.aliyuncs.com/QQ_1791423496819.png"
+  alt="QQ_1791423496819.png"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://pingyou.com/papers/eleven-squares.pdf">The Fibonacci Geometry of Eleven Squares（PDF）</a>：用平坦环面与 Fibonacci 几何描述 Trump 的 11 正方形装填，分析其两参数接触族中的唯一最小构型。</p>
+<p><img
+  src="https://pbs.twimg.com/media/HUCyut5WcAAwsY-?format=jpg&amp;name=medium"
+  alt="379"
+  
+  loading="lazy"
+  decoding="async"
+>
+</p>
+<p><a href="https://openai.com/index/sharing-ai-progress-in-mathematics/">Sharing AI progress in mathematics | OpenAI</a> · <a href="https://github.com/openai/math">openai/math</a>：OpenAI 发布 AI 辅助数学研究的论文、证明与验证材料，并说明这些结果仍需数学界审查。</p>
+<p><a href="https://beyond-n-log-n.netlify.app/">Beyond n log n · Integer multiplication</a>：追踪整数乘法复杂度上界的条件性改进与相关验证材料。</p>
+<p><a href="https://github.com/CrocSwap/integer-mult-bounds">CrocSwap/integer-mult-bounds</a>：围绕 OpenAI 整数乘法结果 #109，研究对指数节省量的条件性改进。</p>
+<p><a href="https://scottaaronson.blog/?p=10169">The Mathocalypse | Scott Aaronson</a>：Scott Aaronson 讨论近期 AI 数学成果及其对数学研究、验证与研究者的影响。</p>
+<p><a href="https://abbas-mehrabian.medium.com/what-does-an-improved-upper-bound-on-%CF%89-mean-107dee290970">What does an improved upper bound on $\omega$ mean | Abbas Mehrabian</a>：解释矩阵乘法指数 $\omega$ 的上界改进意味着什么。</p>
+<p><a href="https://www.youtube.com/live/FDAHDLbT8gs">On Matrix Multiplication Algorithms</a> · <a href="https://theoryofcomputing.org/articles/gs005/gs005.pdf">Fast Matrix Multiplication（PDF）</a>：矩阵乘法算法讲座与综述，介绍快速算法及复杂度研究。</p>
+<p><a href="https://erich-friedman.github.io/">Erich Friedman</a> · <a href="https://erich-friedman.github.io/packing/">Erich&rsquo;s Packing Center</a> · <a href="https://erich-friedman.github.io/packing/cubincub/">Cubes in Cubes</a>：Erich Friedman 的数学趣题与几何装箱资料，附立方体装入立方体的记录。</p>
+<p><a href="https://drbuild.uk/app/nonrup/index.html#stellated">Nopert Polyhedra Explorer</a>：通过旋转、切孔与穿过操作，交互探索 Rupert 问题中的多面体。</p>
+<p><a href="https://rivendell.dmitrybrant.com/relativity/">Relativity Park: Walking Speed of Light</a>：把光速设为步行速度，在公园场景中观察相对论效应。</p>
+<p><a href="https://yoheinakajima.github.io/soft-to-rigid/">Soft-to-Rigid Packing</a>：比较从软形状逐渐变硬的装箱搜索与其他方法，公开实验日志、代码和重放，并说明各自适用范围。</p>
+<p><a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/news.htm">News | Yasuyuki Kawahigashi</a>：河東泰之记录作用素代数研究者对 OpenAI 稿件的反应，以及整理人类可读证明的进展。</p>
+<p><a href="https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/">A Brief Digest of Some New OpenAI Results | Persiflage</a>：Frank Calegari 评述部分新发布的 OpenAI 数学结果。</p>
+<p><a href="https://bigospeedrun.com/">Big O Speedrun</a>：追踪整数乘法、傅里叶变换、3SUM 与全对最短路等问题的复杂度上界，区分结果声称与验证状态。</p>
+<p><a href="https://x.com/pozsgaybalazs/status/2108819560014938350">A reaction to the reactions | Balázs Pozsgay</a>：从理论物理研究者的角度回应 AI 数学成果引发的讨论，并思考重新成为学习者的意义。</p>
+<h3 id="编程--系统--ai-工具">编程 / 系统 / AI 工具</h3>
+<p><a href="https://github.com/egoist/godiff">egoist/godiff</a>：原生 Git 差异审阅器，支持工作区、提交与 GitHub 拉取请求审阅。</p>
+<p><a href="https://github.com/sahenjp/rustdsh">sahenjp/rustdsh</a>：用 Rust 编写的 DeepSeek Harness 启动器，提供配置迁移与本地工具。</p>
+<p><a href="https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15">How fast is Python 3.15? | Miguel Grinberg</a>：用递归与排序程序比较 Python 3.15 候选版和旧版解释器，并测试即时编译与自由线程模式。</p>
+<p><a href="https://sshx.io/">sshx</a>：在浏览器中实时共享终端，支持多人协作。</p>
+<p><a href="https://www.superlogical.com/updates/public-testing-beginning">Public testing is beginning | Superlogical</a>：Rex 终端开始邀请公开测试，首批面向 macOS，支持持久会话与远程连接。</p>
+<p><a href="https://github.com/egoist/gorex">egoist/gorex</a>：用 Go 与 MyGo 原生界面实现的 Rex 终端克隆。</p>
+<p><a href="https://getartcraft.com/apps">ArtCraft Crafting Apps</a> · <a href="https://github.com/storytold">GitHub</a> · <a href="https://github.com/storytold/vectorcraft">VectorCraft</a> · <a href="https://github.com/storytold/wordcraft">WordCraft</a> · <a href="https://github.com/storytold/deckcraft">DeckCraft</a> · <a href="https://github.com/storytold/cadcraft">CADCraft</a>：用 Rust 构建的开源创作应用系列，覆盖矢量绘图、文档、演示与计算机辅助设计。</p>
+<p><a href="https://github.com/palemoky/chinese-poetry-api">palemoky/chinese-poetry-api</a>：中国古诗词检索与 API 服务项目。</p>
+<p><a href="https://github.com/Freaction/Aquilum">Freaction/Aquilum</a>：面向 Windows 的本地 Markdown 知识库，支持实时预览、搜索、关系图、阅读器与模型上下文协议。</p>
+<p><a href="https://github.com/solidsf-inc/sfFFT">solidsf-inc/sfFFT</a>：面向 NVIDIA GB10 的融合 Tensor Core 快速傅里叶变换卷积内核，采用 MIT 许可。</p>
+<p><a href="https://office.elygpui.com/">Ely Office</a> · <a href="https://github.com/ZacharyZhang-NY/ElyOffice">ZacharyZhang-NY/ElyOffice</a>：Ely Office 官网与 Rust / GPUI 桌面办公套件项目链接，仓库链接目前返回 404。</p>
+<p><a href="https://github.com/QuantumNous/new-api/tree/main/relaykit">RelayKit | New API</a>：在 OpenAI、Anthropic 与 Gemini 的四种文本协议间转换请求、响应和流式事件的 Go 模块。</p>
+<p><a href="https://stencil.so/tern">Tern | Stencil</a>：用 Rust 构建、兼容 Kitty 的原生终端与多路复用器，支持持久会话和跨设备连接，目前处于封闭测试。</p>
+<p><a href="https://earendil.com/posts/system-theme/">There are many themes, but this one is yours | Earendil</a>：介绍 Pi 如何读取终端颜色并生成系统主题，讨论调色板与界面对比度。</p>
+<p><a href="https://www.primeintellect.ai/blog/prime-agent-rust">Rewriting Prime Agent in Rust</a>：Prime Intellect 分享借助多智能体将 Prime Agent 从 TypeScript 重写为 Rust 的过程与验证方法。</p>
+<p><a href="https://tov.sh/">Tov</a>：面向编码智能体的实验性语言，采用 TypeScript 风格语法，编译为原生二进制，并提供结构化编译错误与修复建议。</p>
+<h3 id="设计--macos--其他">设计 / macOS / 其他</h3>
+<p><a href="https://revpdf.com/">RevPDF</a>：支持离线编辑、比较与格式转换的 PDF 工具。</p>
+<p><a href="https://x.com/SpikeRiser/status/2107621593757208916">Opus 5.5 视频复现分享 | R</a>：作者分享用 Opus 5.5 回应视频复现挑战的作品。</p>
+<p><a href="https://paper.design/mono">Paper Mono</a>：免费开源的等宽字体，提供可变字重、编程连字与字符展示。</p>
+<p><a href="https://github.com/celve/uvim">celve/uvim</a>：在 macOS 的文本输入框中提供 Vim 模态编辑的菜单栏应用。</p>
+<p><a href="https://aime.zool.app/">AIME · 艾么输入法</a>：基于 RIME 的开源 macOS 中文输入法，支持词库更新、常用语以及选中文字的翻译与润色。</p>
+<p><a href="https://www.designeer.xyz/">Designeer</a>：精选界面设计工具、组件与灵感资源的目录。</p>
+<p><a href="https://github.com/alejandrobujan/tendedero">alejandrobujan/tendedero</a>：把截图悬挂在屏幕顶部一条线上，方便临时查看的 macOS 原生应用。</p>
+<p><a href="https://pulse.egoist.dev/">Pulse</a>：在一个原生窗口中查看进程、处理器、内存、网络与能耗等系统指标。</p>
+<p><a href="https://github.com/Nongfsq/ftop">Nongfsq/ftop</a>：面向 Apple Silicon Mac 的浮动系统监视面板，显示处理器、内存、网络与进程信息。</p>
+]]></content:encoded></item><item><title>第27期周刊</title><link>https://blog.yfff.me/weekly/week-27/</link><pubDate>Sat, 03 Oct 2026 13:38:49 -0700</pubDate><guid>https://blog.yfff.me/weekly/week-27/</guid><description>&lt;h3 id="ai--模型--智能体"&gt;AI / 模型 / 智能体&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://brusharena.art/live"&gt;Live Training Run · BrushArena&lt;/a&gt;：BrushArena 的实时训练展示页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://supersoniclabs.ia.br/julia-1/"&gt;Introducing Julia 1 | Supersonic Labs&lt;/a&gt;：Supersonic Labs 的 Julia 1 官方介绍页。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.anthropic.com/claude-sonnet-5-5"&gt;Introducing Claude Sonnet 5.5 | Anthropic&lt;/a&gt;：Anthropic 介绍 Sonnet 5.5 在编程、知识工作与运行成本上的改进。&lt;/p&gt;
